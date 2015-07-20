@@ -1,0 +1,132 @@
+{
+   "modules" : [
+      {
+         "name" : "Array::Compare",
+         "code" : "array-compare"
+      },
+      {
+         "name" : "AudioFile::Info",
+         "code" : "audiofile-info"
+      },
+      {
+         "name" : "AudioFile::Info::MP3::ID3Lib",
+         "code" : "audiofile-info-mp3-id3lib"
+      },
+      {
+         "name" : "AudioFile::Info::MP3::Info",
+         "code" : "audiofile-info-mp3-info"
+      },
+      {
+         "name" : "AudioFile::Info::MP3::Tag",
+         "code" : "audiofile-info-mp3-tag"
+      },
+      {
+         "name" : "AudioFile::Info::Ogg::Vorbis::Header",
+         "code" : "audiofile-info-ogg-vorbis-header"
+      },
+      {
+         "name" : "AudioFile::Info::Ogg::Vorbis::Header::PurePerl",
+         "code" : "audiofile-info-ogg-vorbis-header-pureperl"
+      },
+      {
+         "name" : "Calendar::Simple",
+         "code" : "calendar-simple"
+      },
+      {
+         "name" : "Guardian::OpenPlatform::API",
+         "code" : "guardian-openplatform-api"
+      },
+      {
+         "name" : "Net::Backpack",
+         "code" : "net-backpack"
+      },
+      {
+         "name" : "Net::Songkick",
+         "code" : "net-songkick"
+      },
+      {
+         "name" : "Number::Fraction",
+         "code" : "number-fraction"
+      },
+      {
+         "name" : "Parse::RPM::Spec",
+         "code" : "parse-rpm-spec"
+      },
+      {
+         "name" : "Perlanet",
+         "code" : "perlanet"
+      },
+      {
+         "name" : "Symbol::Approx::Sub",
+         "code" : "symbol-approx-sub"
+      },
+      {
+         "name" : "Template::Plugin::AudioFile::Info",
+         "code" : "template-plugin-audiofile-info"
+      },
+      {
+         "name" : "Template::Plugin::RPM2",
+         "code" : "template-plugin-rpm2"
+      },
+      {
+         "name" : "Template::Plugin::XML::Feed",
+         "code" : "template-plugin-xml-feed"
+      },
+      {
+         "name" : "Tie::Hash::Cannabinol",
+         "code" : "tie-hash-cannabinol"
+      },
+      {
+         "name" : "Tie::Hash::FixedKeys",
+         "code" : "tie-hash-fixedkeys"
+      },
+      {
+         "name" : "Tie::Hash::Regex",
+         "code" : "tie-hash-regex"
+      },
+      {
+         "name" : "WWW::Shorten",
+         "code" : "www-shorten"
+      },
+      {
+         "name" : "WWW::Shorten::NotLong",
+         "code" : "www-shorten-notlong"
+      },
+      {
+         "name" : "WWW::Shorten::OneShort",
+         "code" : "www-shorten-oneshort"
+      },
+      {
+         "name" : "WWW::Shorten::Qurl",
+         "code" : "www-shorten-qurl"
+      },
+      {
+         "name" : "WWW::Shorten::Qwer",
+         "code" : "www-shorten-qwer"
+      },
+      {
+         "name" : "WWW::Shorten::Shorl",
+         "code" : "www-shorten-shorl"
+      },
+      {
+         "name" : "WWW::Shorten::SnipURL",
+         "code" : "www-shorten-snipurl"
+      },
+      {
+         "name" : "XML::Feed",
+         "code" : "xml-feed"
+      }
+   ],
+   "author" : {
+      "cpan" : "DAVECROSS",
+      "github" : "davorg"
+   },
+   "output" : {
+      "file" : "index.html",
+      "template" : "dashboard.tt",
+      "title" : "code.perlhacks.com",
+      "about" : "http;//perlhacks.com/about/",
+      "analytics" : "UA-56332-26"
+   }
+}
+
