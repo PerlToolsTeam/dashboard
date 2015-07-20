@@ -14,8 +14,8 @@ foreach (@{$cfg->{modules}}) {
   if (! exists $_->{dist}) {
     $_->{dist} = $_->{name} =~ s/::/-/gr;
   }
-  if (! exists $_->{code}) {
-    $_->{code} = lc $_->{dist};
+  if (! exists $_->{repo}) {
+    $_->{repo} = lc $_->{dist};
   }
 }
 

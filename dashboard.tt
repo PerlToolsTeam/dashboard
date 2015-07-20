@@ -57,9 +57,9 @@ body {
         <tr>
         <td>[% m.name %]</td>
         <td><a href="https://metacpan.org/release/[% m.dist %]"><kn class="glyphicon glyphicon-download" aria-hidden="true"></span></a></td>
-        <td><a href="https://github.com/[% author.github %]/[% m.code %]"><span class="glyphicon glyphicon-list" aria-hidden="true"></span></a></td>
-        <td><a href="https://travis-ci.org/[% author.github %]/[% m.code %]?branch=master"><img src="https://travis-ci.org/[% author.github %]/[% m.code %].svg?branch=master" /></a></td>
-      <td><a href='https://coveralls.io/github/[% author.github %]/[% m.code %]?branch=master'><img src='https://coveralls.io/repos/[% author.github %]/[% m.code %]/badge.svg?branch=master&service=github' alt='Coverage Status' /></a></td>
+        <td><a href="https://github.com/[% author.github %]/[% m.repo %]"><span class="glyphicon glyphicon-list" aria-hidden="true"></span></a></td>
+        <td><a href="https://travis-ci.org/[% author.github %]/[% m.repo %]?branch=master"><img src="https://travis-ci.org/[% author.github %]/[% m.repo %].svg?branch=master" /></a></td>
+      <td><a href='https://coveralls.io/github/[% author.github %]/[% m.repo %]?branch=master'><img src='https://coveralls.io/repos/[% author.github %]/[% m.repo %]/badge.svg?branch=master&service=github' alt='Coverage Status' /></a></td>
       </tr>
 [% END -%]
       </tbody>
