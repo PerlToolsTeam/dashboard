@@ -1,91 +1,91 @@
 {
    "modules" : [
       {
-         "name" : "Array::Compare",
+         "name" : "Array::Compare"
       },
       {
-         "name" : "AudioFile::Info",
+         "name" : "AudioFile::Info"
       },
       {
-         "name" : "AudioFile::Info::MP3::ID3Lib",
+         "name" : "AudioFile::Info::MP3::ID3Lib"
       },
       {
-         "name" : "AudioFile::Info::MP3::Info",
+         "name" : "AudioFile::Info::MP3::Info"
       },
       {
-         "name" : "AudioFile::Info::MP3::Tag",
+         "name" : "AudioFile::Info::MP3::Tag"
       },
       {
-         "name" : "AudioFile::Info::Ogg::Vorbis::Header",
+         "name" : "AudioFile::Info::Ogg::Vorbis::Header"
       },
       {
-         "name" : "AudioFile::Info::Ogg::Vorbis::Header::PurePerl",
+         "name" : "AudioFile::Info::Ogg::Vorbis::Header::PurePerl"
       },
       {
-         "name" : "Calendar::Simple",
+         "name" : "Calendar::Simple"
       },
       {
-         "name" : "Guardian::OpenPlatform::API",
+         "name" : "Guardian::OpenPlatform::API"
       },
       {
-         "name" : "Net::Backpack",
+         "name" : "Net::Backpack"
       },
       {
-         "name" : "Net::Songkick",
+         "name" : "Net::Songkick"
       },
       {
-         "name" : "Number::Fraction",
+         "name" : "Number::Fraction"
       },
       {
-         "name" : "Parse::RPM::Spec",
+         "name" : "Parse::RPM::Spec"
       },
       {
-         "name" : "Perlanet",
+         "name" : "Perlanet"
       },
       {
-         "name" : "Symbol::Approx::Sub",
+         "name" : "Symbol::Approx::Sub"
       },
       {
-         "name" : "Template::Plugin::AudioFile::Info",
+         "name" : "Template::Plugin::AudioFile::Info"
       },
       {
-         "name" : "Template::Plugin::RPM2",
+         "name" : "Template::Plugin::RPM2"
       },
       {
-         "name" : "Template::Plugin::XML::Feed",
+         "name" : "Template::Plugin::XML::Feed"
       },
       {
-         "name" : "Tie::Hash::Cannabinol",
+         "name" : "Tie::Hash::Cannabinol"
       },
       {
-         "name" : "Tie::Hash::FixedKeys",
+         "name" : "Tie::Hash::FixedKeys"
       },
       {
-         "name" : "Tie::Hash::Regex",
+         "name" : "Tie::Hash::Regex"
       },
       {
-         "name" : "WWW::Shorten",
+         "name" : "WWW::Shorten"
       },
       {
-         "name" : "WWW::Shorten::NotLong",
+         "name" : "WWW::Shorten::NotLong"
       },
       {
-         "name" : "WWW::Shorten::OneShort",
+         "name" : "WWW::Shorten::OneShort"
       },
       {
-         "name" : "WWW::Shorten::Qurl",
+         "name" : "WWW::Shorten::Qurl"
       },
       {
-         "name" : "WWW::Shorten::Qwer",
+         "name" : "WWW::Shorten::Qwer"
       },
       {
-         "name" : "WWW::Shorten::Shorl",
+         "name" : "WWW::Shorten::Shorl"
       },
       {
-         "name" : "WWW::Shorten::SnipURL",
+         "name" : "WWW::Shorten::SnipURL"
       },
       {
-         "name" : "XML::Feed",
+         "name" : "XML::Feed"
       }
    ],
    "author" : {
