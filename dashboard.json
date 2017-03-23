@@ -55,6 +55,9 @@
          "name" : "Template::Plugin::XML::Feed"
       },
       {
+         "name" : "Template::Provider::Markdown::Pandoc"
+      },
+      {
          "name" : "Tie::Hash::Cannabinol"
       },
       {
