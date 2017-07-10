@@ -43,6 +43,9 @@
          "name" : "QMail::QueueHandler"
       },
       {
+         "name" : "SVG::TrafficLight"
+      },
+      {
          "name" : "Symbol::Approx::Sub"
       },
       {
@@ -55,7 +58,7 @@
          "name" : "Template::Plugin::XML::Feed"
       },
       {
-         "name" : "Template::Provider::Markdown::Pandoc"
+         "name" : "Template::Provider::Pandoc"
       },
       {
          "name" : "Tie::Hash::Cannabinol"
