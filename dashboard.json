@@ -43,6 +43,9 @@
          "name" : "QMail::QueueHandler"
       },
       {
+         "name" : "SVG::Timeline"
+      },
+      {
          "name" : "SVG::TrafficLight"
       },
       {
