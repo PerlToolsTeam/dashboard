@@ -6,9 +6,9 @@ use 5.010;
 
 use Template;
 use JSON;
-use File::Slurp;
+use Path::Tiny;
 
-my $cfg = decode_json(read_file('dashboard.json'));
+my $cfg = decode_json(path('dashboard.json')->slurp);
 
 foreach (@{$cfg->{modules}}) {
   if (! exists $_->{dist}) {
