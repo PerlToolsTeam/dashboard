@@ -46,6 +46,9 @@
          "name" : "SVG::Timeline"
       },
       {
+         "name" : "SVG::Timeline::Genealogy"
+      },
+      {
          "name" : "SVG::TrafficLight"
       },
       {
