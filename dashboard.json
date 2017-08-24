@@ -87,7 +87,7 @@
       "file" : "index.html",
       "template" : "dashboard.tt",
       "title" : "code.perlhacks.com",
-      "about" : "http://perlhacks.com/about/",
+      "about" : "https://perlhacks.com/about/",
       "analytics" : "UA-56332-60"
    }
 }
