@@ -1,6 +1,9 @@
 {
    "modules" : [
       {
+         "name" : "App::Aphra"
+      },
+      {
          "name" : "Array::Compare"
       },
       {
