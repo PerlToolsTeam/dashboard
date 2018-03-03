@@ -37,6 +37,9 @@
          "name" : "Number::Fraction"
       },
       {
+         "name" : "Ogg::Vorbis::Header"
+      },
+      {
          "name" : "Parse::RPM::Spec"
       },
       {
