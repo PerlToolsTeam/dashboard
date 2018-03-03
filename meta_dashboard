@@ -1,0 +1,45 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use 5.010;
+
+use Template;
+use MetaCPAN::Client;
+use Data::Dumper;
+
+my $mc = MetaCPAN::Client->new;
+
+my $releases = $mc->release({
+  all => [
+    { pause_id => 'DAVECROSS' },
+    { status   => 'latest' },
+  ],  
+});
+
+say $releases->type;
+say Dumper [$releases->items];
+for ($releases->items) {
+  say Dumper $_;
+  say ref $_;
+  say $_->distribution;
+}
+
+exit;
+
+my $cfg;
+
+foreach (@{$cfg->{modules}}) {
+  if (! exists $_->{dist}) {
+    $_->{dist} = $_->{name} =~ s/::/-/gr;
+  }
+  if (! exists $_->{repo}) {
+    $_->{repo} = lc $_->{dist};
+  }
+}
+
+my $tt = Template->new;
+
+$tt->process($cfg->{output}{template}, $cfg, $cfg->{output}{file})
+  or die $tt->error;
+
