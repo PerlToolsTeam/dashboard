@@ -4,42 +4,46 @@ use strict;
 use warnings;
 use 5.010;
 
+use JSON;
+use Path::Tiny;
 use Template;
 use MetaCPAN::Client;
 use Data::Dumper;
 
-my $mc = MetaCPAN::Client->new;
+my $cfg = decode_json(path('dashboard.json')->slurp);
 
-my $releases = $mc->release({
-  all => [
-    { pause_id => 'DAVECROSS' },
-    { status   => 'latest' },
-  ],  
-});
+$cfg->{modules} = [];
 
-say $releases->type;
-say Dumper [$releases->items];
-for ($releases->items) {
-  say Dumper $_;
-  say ref $_;
-  say $_->distribution;
+my $mcpan    = MetaCPAN::Client->new;
+my $author   = $mcpan->author($cfg->{author}{cpan});
+my $releases = $author->releases;
+
+while ( my $rel = $releases->next ) {
+  my $mod;
+  $mod->{name} = $rel->name;
+  $mod->{dist} = $rel->distribution;
+  # Get the repo link.
+  # 1. It should be in the "web" key
+  # 2. Otherwise, check the "url" key
+  # 3. Finally, synthesise one (that might well be wrong)
+  $mod->{repo} = $rel->resources->{repository}{web}
+    // $rel->resources->{repository}{url}
+    // lc "https://github.com/$cfg->{author}{github}/$mod->{dist}";
+  # We need the repo's name. Try to extract it from the URL
+  if ($mod->{repo} =~ /^http/) {
+    ($mod->{repo_name}) = $mod->{repo} =~ /([-\w]+)$/;
+  } elsif ($mod->{repo} =~ /^git/) {
+    ($mod->{repo_name}) = $mod->{repo} =~ /([-\w]+)\.git$/;
+  } else {
+    warn "Strange repo for $mod->{name} ($mod->{repo}). Skipping.\n";
+    next;
+  }
+  push @{ $cfg->{modules} }, $mod;
 }
 
-exit;
-
-my $cfg;
-
-foreach (@{$cfg->{modules}}) {
-  if (! exists $_->{dist}) {
-    $_->{dist} = $_->{name} =~ s/::/-/gr;
-  }
-  if (! exists $_->{repo}) {
-    $_->{repo} = lc $_->{dist};
-  }
-}
+$cfg->{modules} = [ sort { $a->{name} cmp $b->{name} } @{$cfg->{modules}} ];
 
 my $tt = Template->new;
 
 $tt->process($cfg->{output}{template}, $cfg, $cfg->{output}{file})
   or die $tt->error;
-
