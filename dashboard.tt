@@ -89,7 +89,7 @@ CPAN dashboard written by <a href="https://twitter.com/davorg">@davorg</a> / Cod
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
 
-	__gaTracker('create', 'i[% output.analytics %]', 'auto');
+	__gaTracker('create', '[% output.analytics %]', 'auto');
 	__gaTracker('set', 'forceSSL', true);
 	__gaTracker('send','pageview');
 
