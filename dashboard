@@ -38,7 +38,7 @@ while ( my $rel = $releases->next ) {
     warn "Strange repo for $mod->{name} ($mod->{repo}). Skipping.\n";
     next;
   }
-  ($mod->{repo_owner}) =~ m[([-\w]+)/$mod->{repo_name}];
+  ($mod->{repo_owner}) = $mod->{repo} =~ m[([-\w]+)/$mod->{repo_name}];
   push @{ $cfg->{modules} }, $mod;
 }
 
