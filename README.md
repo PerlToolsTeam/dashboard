@@ -36,16 +36,8 @@ This works well for most of my CPAN modules.
 
 ## Configuration
 
-You configure the system by editing `dashboard.json`. There are three main sections in the file.
+You configure the system by editing `dashboard.json`. There are two main sections in the file.
 
-* **modules** - a list of the modules that you want to monitor. Each module has up to three pieces of information
-associated with it.
-  * **name** - the name of the module (more accurately, the name of the most important module in the distribution).
-  This is required.
-  * **dist** - the name of the distribution. This can be omitted, in which case it is synthesised by converting
-  all `::` in the name to `-`.
-  * **repo** - the name of the Github repo. This can be omitted, in which case it is synthesises by converting the
-  dist value to lower case.
 * **author** - information about the author of the modules.
   * **github** - your Github username.
   * **cpan** - your CPAN username.
