@@ -4,7 +4,7 @@
       "github" : "davorg"
    },
    "output" : {
-      "file" : "index.html",
+      "file" : "docs/index.html",
       "template" : "dashboard.tt",
       "title" : "code.perlhacks.com",
       "about" : "https://perlhacks.com/about/",
