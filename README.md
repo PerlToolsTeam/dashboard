@@ -12,8 +12,8 @@ To configure this system to work with your system, do the following:
 * Push changes to your repos
 * Run `dashboard`
 
-**Note:** For (slightly) more detail about setting up Travis-CI and Coveralls, see [my presentation on the subject]
-(http://www.slideshare.net/davorg/github-travisci-and-perl).
+**Note:** For (slightly) more detail about setting up Travis-CI and Coveralls, seei
+[my presentation on the subject](http://www.slideshare.net/davorg/github-travisci-and-perl).
 
 ## Sample .travis.yml
 
