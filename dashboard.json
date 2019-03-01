@@ -7,8 +7,14 @@
       "file" : "docs/index.html",
       "template" : "dashboard.tt",
       "title" : "code.perlhacks.com",
-      "about" : "https://perlhacks.com/about/",
-      "analytics" : "UA-56332-60"
+      "analytics" : "UA-56332-60",
+      "menu" : [{
+         "title": "Home",
+         "link": "https://perlhacks.com/"
+      }, {
+         "title": "About",
+         "link": "https://perlhacks.com/about"
+      }]
    }
 }
 
