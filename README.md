@@ -45,7 +45,7 @@ You configure the system by editing `dashboard.json`. There are two main section
   * **file** - the name of the output file.
   * **template** - the name of the input template.
   * **title** - the title to use on the output page.
-  * **about** - a link to an "about" page. If this omitted, then the "about" link is omitted from the navbar.
+  * **menu** - a list of menu items to appear in header of the output page. Each item should be a JSON object with a **link** attribute and a **title** attribute.
   * **analytics** - a Google Analytics code. If this is given, then a Google Analytics section is added to the output.
 
 ## Example
