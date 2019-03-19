@@ -63,7 +63,7 @@ footer {
           <td>[% m.dist %]</td>
           <td><a href="https://metacpan.org/release/[% m.dist %]"><img alt="CPAN version for [% m.dist %]" src="https://img.shields.io/cpan/v/[% m.dist %].svg"></a></td>
           <td><a href="[% m.repo %]"><span class="fa fa-list" aria-hidden="true"></span></a></td>
-          <td><a href="https://travis-ci.org/[% author.github %]/[% m.repo_name %]?branch=master"><img alt="Build status for [% m.dist %]" src="https://travis-ci.org/[% m.repo_owner %]/[% m.repo_name %].svg?branch=master" /></a></td>
+          <td><a href="https://travis-ci.org/[% m.repo_owner %]/[% m.repo_name %]?branch=master"><img alt="Build status for [% m.dist %]" src="https://travis-ci.org/[% m.repo_owner %]/[% m.repo_name %].svg?branch=master" /></a></td>
           <td><a href='https://coveralls.io/github/[% author.github %]/[% m.repo_name %]?branch=master'><img alt="Test coverage for [% m.dist %]" src='https://coveralls.io/repos/[% author.github %]/[% m.repo_name %]/badge.svg?branch=master&service=github' /></a></td>
           <td><a href="https://kritika.io/users/[% author.github %]/repos/[% m.repo_owner %]+[% m.repo_name %]/"><img alt="Kritika grade for [% m.dist %]" src="https://kritika.io/users/[% author.github %]/repos/[% m.repo_owner %]+[% m.repo_name %]/heads/master/status.svg"></a></td>
         </tr>
