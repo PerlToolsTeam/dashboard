@@ -9,42 +9,51 @@ use Path::Tiny;
 use Template;
 use MetaCPAN::Client;
 use Data::Dumper;
+use FindBin '$RealBin';
 
-my $cfg = decode_json(path('dashboard.json')->slurp);
-
-$cfg->{modules} = [];
-
-my $mcpan    = MetaCPAN::Client->new;
-my $author   = $mcpan->author($cfg->{author}{cpan});
-my $releases = $author->releases;
-
-while ( my $rel = $releases->next ) {
-  my $mod;
-  $mod->{name} = $rel->name;
-  $mod->{dist} = $rel->distribution;
-  # Get the repo link.
-  # 1. It should be in the "web" key
-  # 2. Otherwise, check the "url" key
-  # 3. Finally, synthesise one (that might well be wrong)
-  $mod->{repo} = $rel->resources->{repository}{web}
-    // $rel->resources->{repository}{url}
-    // lc "https://github.com/$cfg->{author}{github}/$mod->{dist}";
-  # We need the repo's name. Try to extract it from the URL
-  if ($mod->{repo} =~ /^http/) {
-    ($mod->{repo_name}) = $mod->{repo} =~ /([-\w]+)$/;
-  } elsif ($mod->{repo} =~ /^git/) {
-    ($mod->{repo_name}) = $mod->{repo} =~ /([-\w]+)\.git$/;
-  } else {
-    warn "Strange repo for $mod->{name} ($mod->{repo}). Skipping.\n";
-    next;
-  }
-  ($mod->{repo_owner}) = $mod->{repo} =~ m[([-\w]+)/$mod->{repo_name}];
-  push @{ $cfg->{modules} }, $mod;
+for (glob '*.json') {
+  do_author($_);
 }
 
-$cfg->{modules} = [ sort { $a->{name} cmp $b->{name} } @{$cfg->{modules}} ];
+sub do_author {
+  my ($file) = @_;
 
-my $tt = Template->new;
+  my $cfg = decode_json(path($file)->slurp);
 
-$tt->process($cfg->{output}{template}, $cfg, $cfg->{output}{file})
-  or die $tt->error;
+  $cfg->{modules} = [];
+
+  my $mcpan    = MetaCPAN::Client->new;
+  my $author   = $mcpan->author($cfg->{author}{cpan});
+  my $releases = $author->releases;
+
+  while ( my $rel = $releases->next ) {
+    my $mod;
+    $mod->{name} = $rel->name;
+    $mod->{dist} = $rel->distribution;
+    # Get the repo link.
+    # 1. It should be in the "web" key
+    # 2. Otherwise, check the "url" key
+    # 3. Finally, synthesise one (that might well be wrong)
+    $mod->{repo} = $rel->resources->{repository}{web}
+      // $rel->resources->{repository}{url}
+      // lc "https://github.com/$cfg->{author}{github}/$mod->{dist}";
+    # We need the repo's name. Try to extract it from the URL
+    if ($mod->{repo} =~ /^http/) {
+      ($mod->{repo_name}) = $mod->{repo} =~ /([-\w]+)$/;
+    } elsif ($mod->{repo} =~ /^git/) {
+      ($mod->{repo_name}) = $mod->{repo} =~ /([-\w]+)\.git$/;
+    } else {
+      warn "Strange repo for $mod->{name} ($mod->{repo}). Skipping.\n";
+      next;
+    }
+    ($mod->{repo_owner}) = $mod->{repo} =~ m[([-\w]+)/$mod->{repo_name}];
+    push @{ $cfg->{modules} }, $mod;
+  }
+
+  $cfg->{modules} = [ sort { $a->{name} cmp $b->{name} } @{$cfg->{modules}} ];
+
+  my $tt = Template->new;
+
+  $tt->process($cfg->{output}{template}, $cfg, "$RealBin/docs/$cfg->{author}{cpan}/index.html")
+    or die $tt->error;
+}
