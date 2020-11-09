@@ -13,15 +13,10 @@
    "output" : {
       "file" : "docs/index.html",
       "template" : "dashboard.tt",
-      "title" : "code.perlhacks.com",
+      "title" : "CPAN Dashboard",
       "analytics" : "UA-56332-60",
-      "menu" : [{
-         "title": "Home",
-         "link": "https://perlhacks.com/"
-      }, {
-         "title": "About",
-         "link": "https://perlhacks.com/about"
-      }]
+      "menu" : [
+      ]
    }
 }
 
