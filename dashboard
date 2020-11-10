@@ -27,6 +27,10 @@ for (glob "$RealBin/authors/*.json") {
 
 $tt->process($global_cfg->{index_template}, { authors => \@authors }, 'index.html');
 
+for (@{ $global_cfg->{page_templates} }) {
+  $tt->process("$_.tt", {}, "$_/index.html");
+}
+
 sub do_author {
   my ($tt, $file, $global_cfg) = @_;
 

@@ -2,6 +2,9 @@
   "input_dir" : "tt_lib",
   "output_dir" : "docs",
   "index_template" : "index.tt",
+  "page_templates" : [
+    "add"
+  ],
   "author_template" : "dashboard.tt",
   "wrapper" : "page.tt",
   "analytics" : "UA-56332-60",

@@ -1,0 +1,32 @@
+<h1>Add your modules</h1>
+
+<p>It's pretty simple to add yourself to the list of CPAN authors on our front
+page. Currently we only support code repos on Github and a limited number of
+CI services (but we plan to add support for more services in the future).</p>
+
+<p>Here are the steps to follow:</p>
+
+<ol>
+<li>Add a link to the code repos to the metadata of all of your CPAN modules.
+(Gabor has <a href="https://perlmaven.com/how-to-add-link-to-version-control-system-of-a-cpan-distributions"> a tutorial about that</a>.)</li>
+<li>Decide which of the supported CI services you want to use and configure
+them correctly. (More details on the various services below.)</li>
+<li>Take a fork of the <a href="https://github.com/davorg/dashboard">CPAN Dashboard</a> repo.</li>
+<li>Add a file in the <tt>authors</tt> directory. Copy 
+<a href="https://github.com/davorg/dashboard/blob/master/authors/DAVECROSS.json">this file</a> and
+name the file using your CPAN author name.</li>
+<li>Update the file to contain the correct information about your CPAN and Github usenames and
+the CI services that you use.</li>
+<li>Send a <a href="https://github.com/davorg/dashboard/pulls">pull request</a> adding your file
+to my repo.</li>
+<li>Sit back and wait for me to merge your PR.</li>
+</ol>
+
+<h2>Supported CI services</h2>
+
+<p>We currently support the following CI services:</p>
+
+<ul>
+<li><b>Github Actions</b><br>
+</li>
+</ol>
