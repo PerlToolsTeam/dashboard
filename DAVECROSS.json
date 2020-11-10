@@ -9,14 +9,6 @@
       "use_travis" : 1,
       "use_coveralls" : 1,
       "use_kritika" : 1
-   },
-   "output" : {
-      "file" : "docs/index.html",
-      "template" : "dashboard.tt",
-      "title" : "CPAN Dashboard",
-      "analytics" : "UA-56332-60",
-      "menu" : [
-      ]
    }
 }
 

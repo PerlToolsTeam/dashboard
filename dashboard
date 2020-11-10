@@ -11,17 +11,21 @@ use MetaCPAN::Client;
 use Data::Dumper;
 use FindBin '$RealBin';
 
-my $tt = Template->new;
+my $global_cfg = decode_json(path('dashboard.json')->slurp);
+
+my $tt = Template->new({ OUTPUT_PATH => $global_cfg->{output_dir} });
+
 my @authors;
 
 for (glob '*.json') {
-  push @authors, do_author($tt, $_);
+  next if /^dashboard.json/;
+  push @authors, do_author($tt, $_, $global_cfg);
 }
 
-$tt->process('index.tt', { authors => \@authors }, "$RealBin/docs/index.html");
+$tt->process($global_cfg->{index_template}, { authors => \@authors }, 'index.html');
 
 sub do_author {
-  my ($tt, $file) = @_;
+  my ($tt, $file, $global_cfg) = @_;
 
   my $cfg = decode_json(path($file)->slurp);
 
@@ -57,8 +61,9 @@ sub do_author {
 
   $cfg->{modules} = [ sort { $a->{name} cmp $b->{name} } @{$cfg->{modules}} ];
 
+  $cfg = { %$cfg, %$global_cfg };
 
-  $tt->process($cfg->{output}{template}, $cfg, "$RealBin/docs/$cfg->{author}{cpan}/index.html")
+  $tt->process($cfg->{author_template}, $cfg, "$cfg->{author}{cpan}/index.html")
     or die $tt->error;
 
   return $cfg->{author}{cpan};
