@@ -1,0 +1,14 @@
+{
+   "author" : {
+      "cpan" : "SZABGAB",
+      "github" : "szabgab"
+   },
+   "ci" : {
+      "use_gh_actions" : 1,
+      "gh_workflow_name" : "CI",
+      "use_travis" : 1,
+      "use_coveralls" : 1,
+      "use_kritika" : 1
+   }
+}
+
