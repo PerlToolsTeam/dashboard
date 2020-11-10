@@ -14,7 +14,7 @@ them correctly. (More details on the various services below.)</li>
 <li>Take a fork of the <a href="https://github.com/davorg/dashboard">CPAN Dashboard</a> repo.</li>
 <li>Add a file in the <tt>authors</tt> directory. Copy 
 <a href="https://github.com/davorg/dashboard/blob/master/authors/DAVECROSS.json">this file</a> and
-name the file using your CPAN author name.</li>
+name the new file using your CPAN author name.</li>
 <li>Update the file to contain the correct information about your CPAN and Github usenames and
 the CI services that you use.</li>
 <li>Send a <a href="https://github.com/davorg/dashboard/pulls">pull request</a> adding your file
@@ -28,5 +28,14 @@ to my repo.</li>
 
 <ul>
 <li><b>Github Actions</b><br>
+Github Actions can do many things. But we're just using it to run tests on each commit and report
+on the success or failure of the test run. Add a directory called <tt>.github/workflows</tt>
+to your code repository and in that directory create a YAML file that runs the processes that you
+want to run. A basic workflow file for testing a CPAN module might look
+<a href="https://github.com/davorg/array-compare/blob/master/.github/workflows/perltest.yml">something like this</a>.
+Remember the value of the <tt>name</tt> key as you'll need to add that to the
+<tt>ci.gh_workflow_name</tt> in your new configuration file. Because of a limitation of the way
+we're dealing with Github Actions, all of the workflows you add to your CPAN repos will need to
+have the same name (I call mine "CI").</li>
 </li>
 </ol>
