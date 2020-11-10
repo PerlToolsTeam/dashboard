@@ -13,7 +13,10 @@ use FindBin '$RealBin';
 
 my $global_cfg = decode_json(path('dashboard.json')->slurp);
 
-my $tt = Template->new({ OUTPUT_PATH => $global_cfg->{output_dir} });
+my $tt = Template->new({
+  INCLUDE_PATH => $global_cfg->{input_dir},
+  OUTPUT_PATH => $global_cfg->{output_dir},
+});
 
 my @authors;
 
