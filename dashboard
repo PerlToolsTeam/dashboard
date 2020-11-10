@@ -15,7 +15,8 @@ my $global_cfg = decode_json(path('dashboard.json')->slurp);
 
 my $tt = Template->new({
   INCLUDE_PATH => $global_cfg->{input_dir},
-  OUTPUT_PATH => $global_cfg->{output_dir},
+  OUTPUT_PATH  => $global_cfg->{output_dir},
+  WRAPPER      => $global_cfg->{wrapper},
 });
 
 my @authors;
