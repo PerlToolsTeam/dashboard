@@ -17,8 +17,7 @@ my $tt = Template->new({ OUTPUT_PATH => $global_cfg->{output_dir} });
 
 my @authors;
 
-for (glob '*.json') {
-  next if /^dashboard.json/;
+for (glob "$RealBin/authors/*.json") {
   push @authors, do_author($tt, $_, $global_cfg);
 }
 

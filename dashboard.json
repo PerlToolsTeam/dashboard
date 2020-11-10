@@ -1,0 +1,9 @@
+{
+  "output_dir" : "docs",
+  "index_template" : "index.tt",
+  "author_template" : "dashboard.tt",
+  "analytics" : "UA-56332-60",
+  "menu" : [
+  ]
+}
+
