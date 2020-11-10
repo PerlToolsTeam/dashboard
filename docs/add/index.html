@@ -70,6 +70,18 @@ the ones that you want Travis CI to work with. You'll then need to add a <tt>.tr
 file to your CPAN repos. Travis CI has
 <a href="https://docs.travis-ci.com/user/languages/perl/">a guide to doing that</a>. Having done
 this, the next time you commit to the repo, you'll get a test run on the Travis CI site.</li>
+<li><b>Coveralls.io</b><br>
+<a href="https://coveralls.io/">Coveralls.io</a> measures your test coverage. Adding your repos
+here is a lot like adding them to Travis CI. Log in with your Github credentials and turn on the
+repos that you want to use. You also have too add these lines to your <tt>.travis.yml</tt> file:
+<pre>
+before_install:
+  cpanm -n Devel::Cover::Report::Coveralls Module::Build
+script:
+  perl Build.PL && ./Build build && cover -test -report coveralls
+</pre>
+Next time you commit something to one of your repos, you will also get coverage information
+appearing at Coveralls.io.</li>
 </ol>
     </div>
     <footer>
