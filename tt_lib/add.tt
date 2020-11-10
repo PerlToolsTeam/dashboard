@@ -38,4 +38,11 @@ Remember the value of the <tt>name</tt> key as you'll need to add that to the
 we're dealing with Github Actions, all of the workflows you add to your CPAN repos will need to
 have the same name (I call mine "CI").</li>
 </li>
+<li><b>Travis CI</b><br>
+To add your repos to <a href="https://travis-ci.org/">Travis CI</a>, you need to set up an
+account there. You can log in using your Github credentials. Then sync your repos and switch on
+the ones that you want Travis CI to work with. You'll then need to add a <tt>.travis.yml</tt>
+file to your CPAN repos. Travis CI has
+<a href="https://docs.travis-ci.com/user/languages/perl/">a guide to doing that</a>. Having done
+this, the next time you commit to the repo, you'll get a test run on the Travis CI site.</li>
 </ol>
