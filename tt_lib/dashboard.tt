@@ -16,6 +16,9 @@
 [% IF ci.use_coveralls -%]
           <th>Coveralls</th>
 [% END -%]
+[% IF ci.use_codecov -%]
+          <th>Codecov</th>
+[% END -%]
 [% IF ci.use_kritika -%]
           <th>Kritika</th>
 [% END -%]
@@ -37,6 +40,9 @@
 [%   END -%]
 [%   IF ci.use_coveralls -%]
           <td><a href='https://coveralls.io/github/[% author.github %]/[% m.repo_name %]?branch=master'><img class="backup_picture" alt="Test coverage for [% m.dist %]" src='https://coveralls.io/repos/[% author.github %]/[% m.repo_name %]/badge.svg?branch=master&service=github' /></a></td>
+[%   END -%]
+[%   IF ci.use_codecov -%]
+          <td><a href="https://codecov.io/gh/[% m.repo_owner %]/[% m.repo_name %]"><img class="backup_picture" alt="Test coverage for [% m.dist %]" src="https://codecov.io/gh/[% m.repo_owner %]/[% m.repo_name %]/branch/master/graph/badge.svg"></a></td>
 [%   END -%]
 [%   IF ci.use_kritika -%]
           <td><a href="https://kritika.io/users/[% author.github %]/repos/[% m.repo_owner %]+[% m.repo_name %]/"><img class="backup_picture" alt="Kritika grade for [% m.dist %]" src="https://kritika.io/users/[% author.github %]/repos/[% m.repo_owner %]+[% m.repo_name %]/heads/master/status.svg"></a></td>
