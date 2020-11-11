@@ -11,8 +11,14 @@ publish: build ## build the site and send to GitHub
 
 # https://developer.github.com/v3/repos/pages/
 .PHONY: status
-status: ## show the GitHub Pages build status
-	@ $(CURL) $(GITHUB_API_BASE) | jq -r .status
+status: guard-GITHUB_USER ## show the GitHub Pages build status
+	@ $(CURL) -H "Accept: application/vnd.github.v3+json" $(GITHUB_API_BASE) | jq -r .status
+
+guard-%:
+	@ if [ "${${*}}" = "" ]; then \
+		echo "Environment variable $* not set"; \
+		exit 1; \
+	fi
 
 ######################################################################
 # https://marmelab.com/blog/2016/02/29/auto-documented-makefile.html
