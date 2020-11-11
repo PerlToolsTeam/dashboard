@@ -50,4 +50,4 @@ You configure the system by editing `dashboard.json`. There are two main section
 
 ## Example
 
-You can see this code in action at http://code.perlhacks.com/.
+You can see this code in action at https://cpandashboard.com/DAVECROSS/.
