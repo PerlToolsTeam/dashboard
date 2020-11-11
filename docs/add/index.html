@@ -100,8 +100,11 @@ CPAN dashboard written by <a href="https://twitter.com/davorg">@davorg</a> / Cod
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 	<script>
-$('img').error(function() {
-    $(this).attr('src', '/missing_image.png').addClass('no-img');
+$(document).ready(function()
+{
+    $(".backup_picture").on("error", function(){
+        $(this).attr('src', './images/nopicture.png');
+    });
 });
 	</script>
 
