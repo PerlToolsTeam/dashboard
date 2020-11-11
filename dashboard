@@ -46,6 +46,7 @@ sub do_author {
     my $mod;
     $mod->{name} = $rel->name;
     $mod->{dist} = $rel->distribution;
+    $mod->{date} = (split /T/, $rel->date)[0];
     # Get the repo link.
     # 1. It should be in the "web" key
     # 2. Otherwise, check the "url" key

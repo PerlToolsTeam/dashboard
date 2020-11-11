@@ -1,11 +1,12 @@
     <h1>CPAN Dashboard - [% author.cpan %]</h1>
     <p>A dashboard to see the state of 
       <a href="https://metacpan.org/author/[% author.cpan %]">[% author.cpan %]'s CPAN modules</a>.</p>
-    <table class="table table-striped table-hover">
+    <table class="table table-striped table-hover" id="sort_table">
       <thead>
         <tr>
           <th>Name / Repo</th>
           <th>MetaCPAN</th>
+          <th>Date</th>
 [% IF ci.use_gh_actions -%]
           <th>GH Actions</th>
 [% END -%]
@@ -25,6 +26,7 @@
         <tr>
           <td><a href="[% m.repo %]">[% m.dist %]</a></td>
           <td><a href="https://metacpan.org/release/[% m.dist %]"><img class="backup-picture" alt="CPAN version for [% m.dist %]" src="https://img.shields.io/cpan/v/[% m.dist %].svg"></a></td>
+          <td>[% m.date %]</td>
 [%   IF ci.use_gh_actions -%]
           <td>[%- FOREACH workflow_name IN ci.gh_workflow_names -%]
             <a href="[% m.repo %]/actions?query=workflow%3A[% workflow_name %]"><img class="backup_picture" alt="GH Action [% workflow_name %]" src="[% m.repo %]/workflows/[% workflow_name %]/badge.svg"></a>[% UNLESS loop.last %]<br>[% END -%]
