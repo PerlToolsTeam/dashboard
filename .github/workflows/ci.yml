@@ -5,6 +5,7 @@ on:
     branches: '*'
   schedule:
     - cron: '*/5 * * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -31,7 +32,7 @@ jobs:
         GIT_STATUS=$(git status --porcelain)
         echo $GIT_STATUS
         git config --global user.name 'Dave Cross'
-        git config --global user.email 'davorg@users.noreply.github.com'
+        git config --global user.email 'dave@dave.org.uk'
         git add docs/
         if [ "$GIT_STATUS" != "" ]; then git commit -m "Automated Web page generation"; fi
         if [ "$GIT_STATUS" != "" ]; then git push; fi
