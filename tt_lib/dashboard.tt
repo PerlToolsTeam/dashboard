@@ -24,18 +24,18 @@
 [% FOREACH m IN modules -%]
         <tr>
           <td><a href="[% m.repo %]">[% m.dist %]</a></td>
-          <td><a href="https://metacpan.org/release/[% m.dist %]"><img alt="CPAN version for [% m.dist %]" src="https://img.shields.io/cpan/v/[% m.dist %].svg"></a></td>
+          <td><a href="https://metacpan.org/release/[% m.dist %]"><img class="backup-picture" alt="CPAN version for [% m.dist %]" src="https://img.shields.io/cpan/v/[% m.dist %].svg"></a></td>
 [%   IF ci.use_gh_actions -%]
-          <td><a href="[% m.repo %]/actions?query=workflow%3A[% ci.gh_workflow_name %]"><img alt="GH Action [% ci.gh_workflow_name %]" src="[% m.repo %]/workflows/[% ci.gh_workflow_name %]/badge.svg"></a></td>
+          <td><a href="[% m.repo %]/actions?query=workflow%3A[% ci.gh_workflow_name %]"><img class="backup_picture" alt="GH Action [% ci.gh_workflow_name %]" src="[% m.repo %]/workflows/[% ci.gh_workflow_name %]/badge.svg"></a></td>
 [%   END -%]
 [%   IF ci.use_travis -%]
-          <td><a href="https://travis-ci.org/[% m.repo_owner %]/[% m.repo_name %]?branch=master"><img alt="Build status for [% m.dist %]" src="https://travis-ci.org/[% m.repo_owner %]/[% m.repo_name %].svg?branch=master" /></a></td>
+          <td><a href="https://travis-ci.org/[% m.repo_owner %]/[% m.repo_name %]?branch=master"><img class="backup_picture" alt="Build status for [% m.dist %]" src="https://travis-ci.org/[% m.repo_owner %]/[% m.repo_name %].svg?branch=master" /></a></td>
 [%   END -%]
 [%   IF ci.use_coveralls -%]
-          <td><a href='https://coveralls.io/github/[% author.github %]/[% m.repo_name %]?branch=master'><img alt="Test coverage for [% m.dist %]" src='https://coveralls.io/repos/[% author.github %]/[% m.repo_name %]/badge.svg?branch=master&service=github' /></a></td>
+          <td><a href='https://coveralls.io/github/[% author.github %]/[% m.repo_name %]?branch=master'><img class="backup_picture" alt="Test coverage for [% m.dist %]" src='https://coveralls.io/repos/[% author.github %]/[% m.repo_name %]/badge.svg?branch=master&service=github' /></a></td>
 [%   END -%]
 [%   IF ci.use_kritika -%]
-          <td><a href="https://kritika.io/users/[% author.github %]/repos/[% m.repo_owner %]+[% m.repo_name %]/"><img alt="Kritika grade for [% m.dist %]" src="https://kritika.io/users/[% author.github %]/repos/[% m.repo_owner %]+[% m.repo_name %]/heads/master/status.svg"></a></td>
+          <td><a href="https://kritika.io/users/[% author.github %]/repos/[% m.repo_owner %]+[% m.repo_name %]/"><img class="backup_picture" alt="Kritika grade for [% m.dist %]" src="https://kritika.io/users/[% author.github %]/repos/[% m.repo_owner %]+[% m.repo_name %]/heads/master/status.svg"></a></td>
 [%   END -%]
         </tr>
 [% END -%]
