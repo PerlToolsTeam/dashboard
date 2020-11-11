@@ -34,10 +34,11 @@ on the success or failure of the test run. Add a directory called <tt>.github/wo
 to your code repository and in that directory create a YAML file that runs the processes that you
 want to run. A basic workflow file for testing a CPAN module might look
 <a href="https://github.com/davorg/array-compare/blob/master/.github/workflows/perltest.yml">something like this</a>.
-Remember the value of the <tt>name</tt> key as you'll need to add that to the
-<tt>ci.gh_workflow_name</tt> in your new configuration file. Because of a limitation of the way
-we're dealing with Github Actions, all of the workflows you add to your CPAN repos will need to
-have the same name (I call mine "CI").</li>
+You can track as many Github Actions as you like and the badges will stack on top of each other
+in your dashboard (this isn't currently as pretty as I'd like it, but we're working on it).
+Remember the values of the <tt>name</tt> keys in your YAML files as you'll need to add those to the
+<tt>ci.gh_workflow_names</tt> option in your new configuration file. We currently expect all of
+your modules to run the same set of Github Actions.</li>
 </li>
 <li><b>Travis CI</b><br>
 To add your repos to <a href="https://travis-ci.org/">Travis CI</a>, you need to set up an
