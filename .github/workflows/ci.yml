@@ -1,0 +1,38 @@
+name: Generate web page
+
+on:
+  push:
+    branches: '*'
+  schedule:
+    - cron: '*/5 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    container:
+      image: perldocker/perl-tester:5.30   # https://hub.docker.com/r/perldocker/perl-tester
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Install modules
+      run: |
+          cpanm --installdeps --notest .
+
+    - name: Create pages
+      run: |
+        mkdir -p docs
+        perl dashboard
+
+    - name: Commit new page
+      run: |
+        GIT_STATUS=$(git status --porcelain)
+        echo $GIT_STATUS
+        git config --global user.name 'Dave Cross'
+        git config --global user.email 'davorg@users.noreply.github.com'
+        git add docs/
+        if [ "$GIT_STATUS" != "" ]; then git commit -m "Automated Web page generation"; fi
+        if [ "$GIT_STATUS" != "" ]; then git push; fi
+
