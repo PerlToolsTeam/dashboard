@@ -5,7 +5,7 @@
    },
    "ci" : {
       "use_gh_actions" : 1,
-      "gh_workflow_name" : "CI",
+      "gh_workflow_names" : [ "CI" ],
       "use_travis" : 1,
       "use_coveralls" : 1,
       "use_kritika" : 1

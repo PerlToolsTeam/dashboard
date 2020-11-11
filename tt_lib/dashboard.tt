@@ -26,7 +26,9 @@
           <td><a href="[% m.repo %]">[% m.dist %]</a></td>
           <td><a href="https://metacpan.org/release/[% m.dist %]"><img class="backup-picture" alt="CPAN version for [% m.dist %]" src="https://img.shields.io/cpan/v/[% m.dist %].svg"></a></td>
 [%   IF ci.use_gh_actions -%]
-          <td><a href="[% m.repo %]/actions?query=workflow%3A[% ci.gh_workflow_name %]"><img class="backup_picture" alt="GH Action [% ci.gh_workflow_name %]" src="[% m.repo %]/workflows/[% ci.gh_workflow_name %]/badge.svg"></a></td>
+          <td>[%- FOREACH workflow_name IN ci.gh_workflow_names -%]
+            <a href="[% m.repo %]/actions?query=workflow%3A[% workflow_name %]"><img class="backup_picture" alt="GH Action [% workflow_name %]" src="[% m.repo %]/workflows/[% workflow_name %]/badge.svg"></a>[% UNLESS loop.last %]<br>[% END -%]
+          [%- END %]</td>
 [%   END -%]
 [%   IF ci.use_travis -%]
           <td><a href="https://travis-ci.org/[% m.repo_owner %]/[% m.repo_name %]?branch=master"><img class="backup_picture" alt="Build status for [% m.dist %]" src="https://travis-ci.org/[% m.repo_owner %]/[% m.repo_name %].svg?branch=master" /></a></td>
