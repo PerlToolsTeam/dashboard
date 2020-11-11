@@ -8,6 +8,7 @@
       "gh_workflow_name" : "ubuntu",
       "use_travis" : 1,
       "use_coveralls" : 1,
-      "use_appveyor" : 1
+      "use_appveyor" : 1,
+      "use_kritika" : 1
    }
 }
