@@ -4,7 +4,7 @@
     <table class="table table-striped table-hover">
       <thead>
         <tr>
-          <th>Name</th>
+          <th>Name / Repo</th>
           <th>MetaCPAN</th>
           <th>Github</th>
 [% IF ci.use_gh_actions -%]
@@ -24,9 +24,8 @@
       <tbody>
 [% FOREACH m IN modules -%]
         <tr>
-          <td>[% m.dist %]</td>
+          <td><a href="[% m.repo %]">[% m.dist %]</a></td>
           <td><a href="https://metacpan.org/release/[% m.dist %]"><img alt="CPAN version for [% m.dist %]" src="https://img.shields.io/cpan/v/[% m.dist %].svg"></a></td>
-          <td><a href="[% m.repo %]"><span class="fa fa-list" aria-hidden="true"></span></a></td>
 [%   IF ci.use_gh_actions -%]
           <td><a href="[% m.repo %]/actions?query=workflow%3A[% ci.gh_workflow_name %]"><img alt="GH Action [% ci.gh_workflow_name %]" src="[% m.repo %]/workflows/[% ci.gh_workflow_name %]/badge.svg"></a></td>
 [%   END -%]
