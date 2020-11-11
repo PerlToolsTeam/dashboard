@@ -9,6 +9,10 @@
       "use_travis" : 1,
       "use_coveralls" : 1,
       "use_kritika" : 1
+   },
+   "sort": {
+      "column": "Date",
+      "direction": "desc"
    }
 }
 

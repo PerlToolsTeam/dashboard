@@ -69,6 +69,11 @@ sub do_author {
 
   $cfg->{modules} = [ sort { $a->{name} cmp $b->{name} } @{$cfg->{modules}} ];
 
+  $cfg->{sort} //= {};
+  $cfg->{sort}{column} //= 0;
+  $cfg->{sort}{column} = 2 if 'date' eq lc $cfg->{sort}{column};
+  $cfg->{sort}{direction} //= 'asc';
+
   $cfg = { %$cfg, %$global_cfg };
 
   $tt->process($cfg->{author_template}, $cfg, "$cfg->{author}{cpan}/index.html")
