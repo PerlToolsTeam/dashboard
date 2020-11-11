@@ -6,7 +6,6 @@
         <tr>
           <th>Name / Repo</th>
           <th>MetaCPAN</th>
-          <th>Github</th>
 [% IF ci.use_gh_actions -%]
           <th>GH Actions</th>
 [% END -%]
