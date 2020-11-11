@@ -5,7 +5,7 @@
     <h2>Current authors</h2>
     <ul>
 [% FOR author IN authors.sort -%]
-      <li><a href="/[% author %]/">[% author %]</a></li>
+      <li><a href="[% author %]/">[% author %]</a></li>
 [% END -%]
     </ul>
-    <p><a href="/add" class="btn btn-primary">Add yourself to the list</a></p>
+    <p><a href="add" class="btn btn-primary">Add yourself to the list</a></p>
