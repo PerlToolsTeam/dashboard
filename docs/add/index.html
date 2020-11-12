@@ -38,7 +38,7 @@ CI services (but we plan to add support for more services in the future).</p>
 <li>Decide which of the supported CI services you want to use and configure
 them correctly. (More details on the various services below.)</li>
 <li>Take a fork of the <a href="https://github.com/davorg/dashboard">CPAN Dashboard</a> repo.</li>
-<li>Add a file in the <tt>authors</tt> directory. Copy 
+<li>Add a file in the <tt>authors</tt> directory. Copy
 <a href="https://github.com/davorg/dashboard/blob/master/authors/DAVECROSS.json">this file</a> and
 name the new file using your CPAN author name.</li>
 <li>Update the file to contain the correct information about your CPAN and Github usenames and
@@ -53,46 +53,105 @@ to my repo.</li>
 
 <p>We currently support the following CI services:</p>
 
-<ul>
-<li><b>Github Actions</b><br>
-Github Actions can do many things. But we're just using it to run tests on each commit and report
-on the success or failure of the test run. Add a directory called <tt>.github/workflows</tt>
-to your code repository and in that directory create a YAML file that runs the processes that you
-want to run. A basic workflow file for testing a CPAN module might look
-<a href="https://github.com/davorg/array-compare/blob/master/.github/workflows/perltest.yml">something like this</a>.
-You can track as many Github Actions as you like and the badges will stack on top of each other
-in your dashboard (this isn't currently as pretty as I'd like it, but we're working on it).
-Remember the values of the <tt>name</tt> keys in your YAML files as you'll need to add those to the
-<tt>ci.gh_workflow_names</tt> option in your new configuration file. We currently expect all of
-your modules to run the same set of Github Actions.</li>
-</li>
-<li><b>Travis CI</b><br>
-To add your repos to <a href="https://travis-ci.org/">Travis CI</a>, you need to set up an
-account there. You can log in using your Github credentials. Then sync your repos and switch on
-the ones that you want Travis CI to work with. You'll then need to add a <tt>.travis.yml</tt>
-file to your CPAN repos. Travis CI has
-<a href="https://docs.travis-ci.com/user/languages/perl/">a guide to doing that</a>. Having done
-this, the next time you commit to the repo, you'll get a test run on the Travis CI site.</li>
-<li><b>Coveralls.io</b><br>
-<a href="https://coveralls.io/">Coveralls.io</a> measures your test coverage. Adding your repos
-here is a lot like adding them to Travis CI. Log in with your Github credentials and turn on the
-repos that you want to use. You also have too add these lines to your <tt>.travis.yml</tt> file:
-<pre>
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h3 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+          Github Actions
+        </button>
+      </h3>
+    </div>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <p>Github Actions can do many things. But we're just using it to run tests on each commit
+          and report on the success or failure of the test run. Add a directory called
+          <tt>.github/workflows</tt> to your code repository and in that directory create a YAML
+          file that runs the processes that you want to run. A basic workflow file for testing a
+          CPAN module might look
+          <a href="https://github.com/davorg/array-compare/blob/master/.github/workflows/perltest.yml">something like this</a>.</p>
+        <p>You can track as many Github Actions as you like and the badges will stack on top of
+          each other in your dashboard (this isn't currently as pretty as I'd like it, but we're
+          working on it). Remember the values of the <tt>name</tt> keys in your YAML files as you'll
+          need to add those to the <tt>ci.gh_workflow_names</tt> option in your new configuration
+          file. We currently expect all of your modules to run the same set of Github Actions.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h3 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="true" aria-controls="collapseTwo">
+          Travis CI
+        </button>
+      </h3>
+    </div>
+    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        <p>To add your repos to <a href="https://travis-ci.org/">Travis CI</a>, you need to set
+          up an account there. You can log in using your Github credentials. Then sync your repos
+          and switch on the ones that you want Travis CI to work with.</p>
+        <p>You'll then need to add a <tt>.travis.yml</tt> file to your CPAN repos. Travis CI has
+          <a href="https://docs.travis-ci.com/user/languages/perl/">a guide to doing that</a>.
+          Having done this, the next time you commit to the repo, you'll get a test run on the
+          Travis CI site.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h3 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree"
+                aria-expanded="true" aria-controls="collapseThree">
+          Coveralls.io
+        </button>
+      </h3>
+    </div>
+    <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        <p><a href="https://coveralls.io/">Coveralls.io</a> measures your test coverage. Adding
+          your repos here is a lot like adding them to Travis CI. Log in with your Github
+          credentials and turn on the repos that you want to use. You also have too add these
+          lines to your <tt>.travis.yml</tt> file:</p>
+        <pre>
 before_install:
   cpanm -n Devel::Cover::Report::Coveralls Module::Build
 script:
   perl Build.PL && ./Build build && cover -test -report coveralls
-</pre>
-Next time you commit something to one of your repos, you will also get coverage information
-appearing at Coveralls.io.</li>
-<li><b>Kritika.io</b><br>
-<a href="https://kritika.io/">Kritika.io</a> is a service that measures code quality. For Perl
-code, it will run it through
-<a href="https://metacpan.org/pod/distribution/Perl-Critic/bin/perlcritic">perlcritic</a>. Adding
-your repos here is simpler than the other services. You just set up an account (again, using your
-Github credentials) and then select which repos you want to use the service on. There's nothing 
-at all to do in the repo. It will all just start to work the next time you make a commit.</li>
-</ol>
+        </pre>
+        <p>Next time you commit something to one of your repos, you will also get coverage
+          information appearing at Coveralls.io.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h3 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour"
+                aria-expanded="true" aria-controls="collapseFour">
+          Kritika.io
+        </button>
+      </h3>
+    </div>
+
+    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+        <p><a href="https://kritika.io/">Kritika.io</a> is a service that measures
+          code quality. For Perl code, it will run it through
+          <a href="https://metacpan.org/pod/distribution/Perl-Critic/bin/perlcritic">perlcritic</a>.</p>
+        <p>Adding your repos here is simpler than the other services. You just set up an
+          account (again, using your Github credentials) and then select which repos you
+          want to use the service on. There's nothing at all to do in the repo. It will
+          all just start to work the next time you make a commit.</p>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
     <footer>
 CPAN dashboard written by <a href="https://twitter.com/davorg">@davorg</a> / Code on <a href="https://github.com/davorg/dashboard">Github</a>
