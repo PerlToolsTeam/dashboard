@@ -3,6 +3,9 @@ var column = [% sort.column %];
 var direction = "[% sort.direction %]";
 </script>
     <h1>CPAN Dashboard - [% author.cpan %]</h1>
+[% IF gravatar -%]
+    <p><img alt="[% author.cpan %]" src="[% gravatar %]"></p>
+[% END -%]
     <p>A dashboard to see the state of
       <a href="https://metacpan.org/author/[% author.cpan %]">[% author.cpan %]'s CPAN modules</a>.</p>
     <table class="table table-striped table-hover" id="sort_table">

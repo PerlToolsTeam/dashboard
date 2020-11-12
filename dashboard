@@ -42,6 +42,8 @@ sub do_author {
   my $author   = $mcpan->author($cfg->{author}{cpan});
   my $releases = $author->releases;
 
+  $cfg->{gravatar} = $author->gravatar_url;
+
   while ( my $rel = $releases->next ) {
     my $mod;
     $mod->{name} = $rel->name;
