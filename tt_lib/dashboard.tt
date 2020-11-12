@@ -49,7 +49,7 @@ var direction = "[% sort.direction %]";
           <td>[% badge_link("https://codecov.io/gh/" _ m.repo_owner _ "/" _ m.repo_name, "https://codecov.io/gh/" _ m.repo_owner _ "/" _ m.repo_name _ "/branch/master/graph/badge.svg", "Test coverage for " _ m.dist) %]</td>
 [%   END -%]
 [%   IF ci.use_kritika -%]
-          <td>[% badge_link("https://kritika.io/users/" _ author.github _ "/repos/" _ m.repo_owner _ "+" _ m.repo_name _ "/", "Kritika grade for " _ m.dist, "https://kritika.io/users/" _ author.github _ "/repos/" _ m.repo_owner _ "+" _ m.repo_name _ "/heads/master/status.svg") %]</td>
+          <td>[% badge_link("https://kritika.io/users/" _ author.github _ "/repos/" _ m.repo_owner _ "+" _ m.repo_name _ "/", "https://kritika.io/users/" _ author.github _ "/repos/" _ m.repo_owner _ "+" _ m.repo_name _ "/heads/master/status.svg", "Kritika grade for " _ m.dist) %]</td>
 [%   END -%]
         </tr>
 [% END -%]
