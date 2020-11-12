@@ -74,10 +74,17 @@ sub do_author {
   $cfg->{sort}{column} = 2 if 'date' eq lc $cfg->{sort}{column};
   $cfg->{sort}{direction} //= 'asc';
 
-  $cfg = { %$cfg, %$global_cfg };
+  $cfg = { %$cfg, %$global_cfg, badge_link => \&badge_link };
 
   $tt->process($cfg->{author_template}, $cfg, "$cfg->{author}{cpan}/index.html")
     or die $tt->error;
 
   return $cfg->{author}{cpan};
+}
+
+
+sub badge_link {
+  my ($link_url, $img_url, $alt_text) = @_;
+
+  return qq[<a href="$link_url"><img class="backup_picture" alt="$alt_text" src="$img_url"></a>];
 }
