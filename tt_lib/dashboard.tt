@@ -35,24 +35,24 @@ var direction = "[% sort.direction %]";
 [% FOREACH m IN modules -%]
         <tr>
           <td><a href="[% m.repo %]">[% m.dist %]</a></td>
-          <td>[% badge_link("https://metacpan.org/release/" _ m.dist, "https://img.shields.io/cpan/v/" _ m.dist _ ".svg", "CPAN version for " _ m.dist,) %]</td>
+          <td>[% cpan_badge_link(m) %]</td>
           <td>[% m.date %]</td>
 [%   IF ci.use_gh_actions -%]
           <td>[%- FOREACH workflow_name IN ci.gh_workflow_names -%]
-            [% badge_link(m.repo _ "/actions?query=workflow%3A" _ workflow_name, m.repo _ "/workflows/" _ workflow_name _ "/badge.svg", "GH Action " _ workflow_name) %][% UNLESS loop.last %]<br>[% END -%]
+            [% gh_badge_link(workflow_name, m) %][% UNLESS loop.last %]<br>[% END -%]
           [%- END %]</td>
 [%   END -%]
 [%   IF ci.use_travis -%]
-          <td>[% badge_link("https://travis-ci.org/" _ m.repo_owner _ "/" _ m.repo_name _ "?branch=master", "https://travis-ci.org/" _ m.repo_owner _ "/" _ m.repo_name _ ".svg?branch=master", "Build status for " _ m.dist) %]</td>
+          <td>[% travis_badge_link(m) %]</td>
 [%   END -%]
 [%   IF ci.use_coveralls -%]
-          <td>[% badge_link("https://coveralls.io/github/" _ author.github _ "/" _ m.repo_name _ "?branch=master", "https://coveralls.io/repos/" _ author.github _ "/" _ m.repo_name _ "/badge.svg?branch=master&service=github", "Test coverage for "_ m.dist) %]</td>
+          <td>[% coveralls_badge_link(m, author) %]</td>
 [%   END -%]
 [%   IF ci.use_codecov -%]
-          <td>[% badge_link("https://codecov.io/gh/" _ m.repo_owner _ "/" _ m.repo_name, "https://codecov.io/gh/" _ m.repo_owner _ "/" _ m.repo_name _ "/branch/master/graph/badge.svg", "Test coverage for " _ m.dist) %]</td>
+          <td>[% codecov_badge_link(m) %]</td>
 [%   END -%]
 [%   IF ci.use_kritika -%]
-          <td>[% badge_link("https://kritika.io/users/" _ author.github _ "/repos/" _ m.repo_owner _ "+" _ m.repo_name _ "/", "https://kritika.io/users/" _ author.github _ "/repos/" _ m.repo_owner _ "+" _ m.repo_name _ "/heads/master/status.svg", "Kritika grade for " _ m.dist) %]</td>
+          <td>[% kritika_badge_link(m, author) %]</td>
 [%   END -%]
         </tr>
 [% END -%]

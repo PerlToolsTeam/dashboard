@@ -58,9 +58,9 @@ sub do_author {
       // lc "https://github.com/$cfg->{author}{github}/$mod->{dist}";
     # We need the repo's name. Try to extract it from the URL
     if ($mod->{repo} =~ /^http/) {
-      ($mod->{repo_name}) = $mod->{repo} =~ /([-\w]+)$/;
+      ($mod->{repo_name}) = $mod->{repo} =~ /([-\.\w]+)\/?$/;
     } elsif ($mod->{repo} =~ /^git/) {
-      ($mod->{repo_name}) = $mod->{repo} =~ /([-\w]+)\.git$/;
+      ($mod->{repo_name}) = $mod->{repo} =~ /([-\.\w]+)\.git$/;
     } else {
       warn "Strange repo for $mod->{name} ($mod->{repo}). Skipping.\n";
       next;
@@ -76,7 +76,17 @@ sub do_author {
   $cfg->{sort}{column} = 2 if 'date' eq lc $cfg->{sort}{column};
   $cfg->{sort}{direction} //= 'asc';
 
-  $cfg = { %$cfg, %$global_cfg, badge_link => \&badge_link };
+  $cfg = {
+    %$cfg,
+    %$global_cfg,
+    badge_link => \&badge_link,
+    cpan_badge_link => \&cpan_badge_link,
+    gh_badge_link => \&gh_badge_link,
+    travis_badge_link => \&travis_badge_link,
+    coveralls_badge_link => \&coveralls_badge_link,
+    codecov_badge_link => \&codecov_badge_link,
+    kritika_badge_link => \&kritika_badge_link,
+   };
 
   $tt->process($cfg->{author_template}, $cfg, "$cfg->{author}{cpan}/index.html")
     or die $tt->error;
@@ -84,6 +94,65 @@ sub do_author {
   return $cfg->{author}{cpan};
 }
 
+sub cpan_badge_link {
+  my ($module) = @_;
+
+  return badge_link(
+    "https://metacpan.org/release/$module->{dist}",
+    "https://img.shields.io/cpan/v/$module->{dist}.svg",
+    "CPAN version for $module->{dist}",
+  );
+}
+
+sub gh_badge_link {
+  my ($workflow, $module) = @_;
+
+  return badge_link(
+    "$module->{repo}/actions?query=workflow%3A$workflow",
+    "$module->{repo}/workflows/$workflow/badge.svg",
+    "GH Action $workflow",
+  );
+}
+
+sub travis_badge_link {
+  my ($module) = @_;
+
+  return badge_link(
+    "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}?branch=master",
+    "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}.svg?branch=master",
+    "Build status for $module->{dist}",
+  );
+}
+
+sub coveralls_badge_link {
+  my ($module, $author) = @_;
+
+  return badge_link(
+    "https://coveralls.io/github/$author->{github}/$module->{repo_name}?branch=master",
+    "https://coveralls.io/repos/$author->{github}/$module->{repo_name}/badge.svg?branch=master&service=github",
+    "Test coverage for $module->{dist}",
+  );
+}
+
+sub codecov_badge_link {
+  my ($module) = @_;
+
+  return badge_link(
+    "https://codecov.io/gh/$module->{repo_owner}/$module->{repo_name}",
+    "https://codecov.io/gh/$module->{repo_owner}/$module->{repo_name}/branch/master/graph/badge.svg",
+    "Test coverage for $module->{dist}",
+  );
+}
+
+sub kritika_badge_link {
+  my ($module, $author) = @_;
+
+  return badge_link(
+    "https://kritika.io/users/$author->{github}/repos/$module->{repo_owner}+$module->{repo_name}/",
+    "https://kritika.io/users/$author->{github}/repos/$module->{repo_owner}+$module->{repo_name}/heads/master/status.svg",
+    "Kritika grade for $module->{dist}",
+  );
+}
 
 sub badge_link {
   my ($link_url, $img_url, $alt_text) = @_;
