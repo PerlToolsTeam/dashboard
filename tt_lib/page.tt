@@ -17,7 +17,7 @@
      title = title _ ' - ' _ author.cpan;
      url = url _ author.cpan _ '/';
    ELSIF name;
-     title = title _ ' - ' _ name _ '/';
+     title = title _ ' - ' _ name;
      url = url _ name.lower;
    END -%]
     <title>[% title %]</title>
