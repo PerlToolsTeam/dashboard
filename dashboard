@@ -8,7 +8,7 @@ use JSON;
 use Path::Tiny;
 use Template;
 use MetaCPAN::Client;
-use Data::Dumper;
+use URI;
 use FindBin '$RealBin';
 
 my $global_cfg = decode_json(path('dashboard.json')->slurp);
@@ -64,16 +64,17 @@ sub do_author {
     $mod->{repo} = $rel->resources->{repository}{web}
       // $rel->resources->{repository}{url}
       // lc "https://github.com/$cfg->{author}{github}/$mod->{dist}";
+    $mod->{repo} =~ s[/$][];
     # We need the repo's name. Try to extract it from the URL
-    if ($mod->{repo} =~ /^http/) {
-      ($mod->{repo_name}) = $mod->{repo} =~ /([-\.\w]+)\/?$/;
-    } elsif ($mod->{repo} =~ /^git/) {
-      ($mod->{repo_name}) = $mod->{repo} =~ /([-\.\w]+)\.git$/;
+    my $repo_uri = URI->new($mod->{repo});
+    if ($mod->{repo} =~ /^(http|git)/) {
+      my $path = $repo_uri->path;
+      @$mod{qw[repo_owner repo_name]} = (split m|/|, $path, 3)[1, 2];
+      $mod->{repo_name} =~ s/\.git$// if $mod->{repo} =~ /^git/;
     } else {
       warn "Strange repo for $mod->{name} ($mod->{repo}). Skipping.\n";
       next;
     }
-    ($mod->{repo_owner}) = $mod->{repo} =~ m[([-\w]+)/$mod->{repo_name}];
     push @{ $cfg->{modules} }, $mod;
   }
 
