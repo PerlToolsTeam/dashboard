@@ -60,10 +60,11 @@ sub do_author {
     # Get the repo link.
     # 1. It should be in the "web" key
     # 2. Otherwise, check the "url" key
-    # 3. Finally, synthesise one (that might well be wrong)
     $mod->{repo} = $rel->resources->{repository}{web}
-      // $rel->resources->{repository}{url}
-      // lc "https://github.com/$cfg->{author}{github}/$mod->{dist}";
+      // $rel->resources->{repository}{url};
+
+    next unless valid_repo($mod->{repo});
+
     $mod->{repo} =~ s[/$][];
     # We need the repo's name. Try to extract it from the URL
     my $repo_uri = URI->new($mod->{repo});
@@ -94,6 +95,15 @@ sub do_author {
     or die $tt->error;
 
   return $cfg->{author}{cpan};
+}
+
+sub valid_repo {
+  my ($repo_uri) = @_;
+
+  return unless defined $repo_uri;
+
+  # Currently we only support Guthub repos
+  return $repo_uri =~ m|github\.com/|;
 }
 
 sub cpan_badge_link {
