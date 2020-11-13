@@ -18,12 +18,14 @@ my $tt = Template->new({
   OUTPUT_PATH  => $global_cfg->{output_dir},
   WRAPPER      => $global_cfg->{wrapper},
   VARIABLES    => {
-    cpan_badge_link      => \&cpan_badge_link,
-    gh_badge_link        => \&gh_badge_link,
-    travis_badge_link    => \&travis_badge_link,
-    coveralls_badge_link => \&coveralls_badge_link,
-    codecov_badge_link   => \&codecov_badge_link,
-    kritika_badge_link   => \&kritika_badge_link,
+    linked_badge => {
+      cpan      => \&cpan_badge_link,
+      gh        => \&gh_badge_link,
+      travis    => \&travis_badge_link,
+      coveralls => \&coveralls_badge_link,
+      codecov   => \&codecov_badge_link,
+      kritika   => \&kritika_badge_link,
+    },
   },
 });
 

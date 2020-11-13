@@ -35,24 +35,24 @@ var direction = "[% sort.direction %]";
 [% FOREACH m IN modules -%]
         <tr>
           <td><a href="[% m.repo %]">[% m.dist %]</a></td>
-          <td>[% cpan_badge_link(m) %]</td>
+          <td>[% linked_badge.cpan(m) %]</td>
           <td>[% m.date %]</td>
 [%   IF ci.use_gh_actions -%]
           <td>[%- FOREACH workflow_name IN ci.gh_workflow_names -%]
-            [% gh_badge_link(workflow_name, m) %][% UNLESS loop.last %]<br>[% END -%]
+            [% linked_badge.gh(workflow_name, m) %][% UNLESS loop.last %]<br>[% END -%]
           [%- END %]</td>
 [%   END -%]
 [%   IF ci.use_travis -%]
-          <td>[% travis_badge_link(m) %]</td>
+          <td>[% linked_badge.travis(m) %]</td>
 [%   END -%]
 [%   IF ci.use_coveralls -%]
-          <td>[% coveralls_badge_link(m, author) %]</td>
+          <td>[% linked_badge.coveralls(m, author) %]</td>
 [%   END -%]
 [%   IF ci.use_codecov -%]
-          <td>[% codecov_badge_link(m) %]</td>
+          <td>[% linked_badge.codecov(m) %]</td>
 [%   END -%]
 [%   IF ci.use_kritika -%]
-          <td>[% kritika_badge_link(m, author) %]</td>
+          <td>[% linked_badge.kritika(m, author) %]</td>
 [%   END -%]
         </tr>
 [% END -%]
