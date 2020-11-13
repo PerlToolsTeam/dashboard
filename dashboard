@@ -17,6 +17,14 @@ my $tt = Template->new({
   INCLUDE_PATH => $global_cfg->{input_dir},
   OUTPUT_PATH  => $global_cfg->{output_dir},
   WRAPPER      => $global_cfg->{wrapper},
+  VARIABLES    => {
+    cpan_badge_link      => \&cpan_badge_link,
+    gh_badge_link        => \&gh_badge_link,
+    travis_badge_link    => \&travis_badge_link,
+    coveralls_badge_link => \&coveralls_badge_link,
+    codecov_badge_link   => \&codecov_badge_link,
+    kritika_badge_link   => \&kritika_badge_link,
+  },
 });
 
 my @authors;
@@ -79,13 +87,6 @@ sub do_author {
   $cfg = {
     %$cfg,
     %$global_cfg,
-    badge_link => \&badge_link,
-    cpan_badge_link => \&cpan_badge_link,
-    gh_badge_link => \&gh_badge_link,
-    travis_badge_link => \&travis_badge_link,
-    coveralls_badge_link => \&coveralls_badge_link,
-    codecov_badge_link => \&codecov_badge_link,
-    kritika_badge_link => \&kritika_badge_link,
    };
 
   $tt->process($cfg->{author_template}, $cfg, "$cfg->{author}{cpan}/index.html")
