@@ -9,6 +9,6 @@
   "wrapper" : "page.tt",
   "analytics" : "UA-56332-60",
   "menu" : [
-  ]
+  ],
+  "domain" : "cpandashboard.com"
 }
-

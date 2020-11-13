@@ -1,3 +1,4 @@
+[% IF no_wrapper OR template.no_wrapper; content; ELSE -%]
 <!doctype html>
 <html>
   <head>
@@ -73,3 +74,4 @@ CPAN dashboard written by <a href="https://twitter.com/davorg">@davorg</a> / Cod
 [% END -%]
   </body>
 </html>
+[% END -%]
