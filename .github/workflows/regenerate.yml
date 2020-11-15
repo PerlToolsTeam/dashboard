@@ -28,6 +28,7 @@ jobs:
         perl dashboard
 
     - name: Commit new page
+      if: github.repository == 'davorg/dashboard'
       run: |
         GIT_STATUS=$(git status --porcelain)
         echo $GIT_STATUS
