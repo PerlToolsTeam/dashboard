@@ -130,8 +130,8 @@ sub gh_badge_link {
   my ($workflow, $module) = @_;
 
   return badge_link(
-    "$module->{repo}/actions?query=workflow%3A$workflow",
-    "$module->{repo}/workflows/$workflow/badge.svg",
+    "https://github.com/$module->{repo_owner}/$module->{repo_name}/actions?query=workflow%3A$workflow",
+    "https://github.com/$module->{repo_owner}/$module->{repo_name}/workflows/$workflow/badge.svg",
     "GH Action $workflow",
   );
 }
