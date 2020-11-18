@@ -17,3 +17,7 @@ img.header {
   max-height: 15%;
   object-fit: cover;
 }
+
+.warn {
+  color: red;
+}

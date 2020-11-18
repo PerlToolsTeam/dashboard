@@ -86,6 +86,7 @@ sub do_author {
       warn "Strange repo for $mod->{name} ($mod->{repo}). Skipping.\n";
       next;
     }
+    $mod->{insecure_repo} = $mod->{repo} =~ m|^http:|;
     push @{ $cfg->{modules} }, $mod;
   }
 

@@ -34,7 +34,7 @@ var direction = "[% sort.direction %]";
       <tbody>
 [% FOREACH m IN modules -%]
         <tr>
-          <td><a href="[% m.repo %]">[% m.dist %]</a></td>
+          <td><a href="[% m.repo %]">[% m.dist %]</a>[% IF m.insecure_repo %] <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span>[% END %]</td>
           <td>[% linked_badge.cpan(m) %]</td>
           <td>[% m.date %]</td>
 [%   IF ci.use_gh_actions -%]
