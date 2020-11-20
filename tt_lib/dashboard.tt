@@ -23,6 +23,9 @@ var direction = "[% sort.direction %]";
 [% IF ci.use_cirrus -%]
           <th>Cirrus CI</th>
 [% END -%]
+[% IF ci.use_appveyor -%]
+          <th>Appveyor CI</th>
+[% END -%]
 [% IF ci.use_coveralls -%]
           <th>Coveralls</th>
 [% END -%]
@@ -52,6 +55,9 @@ var direction = "[% sort.direction %]";
           <td>[%- FOREACH task_name IN ci.cirrus_task_names -%]
             [% linked_badge.cirrus(task_name, m) %][% UNLESS loop.last %]<br>[% END -%]
           [%- END %]</td>
+[%   END -%]
+[%   IF ci.use_appveyor -%]
+          <td>[% linked_badge.appveyor(m) %]</td>
 [%   END -%]
 [%   IF ci.use_coveralls -%]
           <td>[% linked_badge.coveralls(m, author) %]</td>
