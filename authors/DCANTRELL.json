@@ -9,7 +9,7 @@
       "use_cirrus" : 1,
       "cirrus_task_names" : [ "FreeBSD", "MacOS" ],
       "use_appveyor" : 1,
-      "use_travis" : 1,
+      "use_travis_com" : 1,
       "use_coveralls" : 1,
       "use_codecov" : 0,
       "use_kritika" : 0

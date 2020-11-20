@@ -19,14 +19,15 @@ my $tt = Template->new({
   WRAPPER      => $global_cfg->{wrapper},
   VARIABLES    => {
     linked_badge => {
-      cpan      => \&cpan_badge_link,
-      gh        => \&gh_badge_link,
-      travis    => \&travis_badge_link,
-      cirrus    => \&cirrus_badge_link,
-      appveyor  => \&appveyor_badge_link,
-      coveralls => \&coveralls_badge_link,
-      codecov   => \&codecov_badge_link,
-      kritika   => \&kritika_badge_link,
+      cpan       => \&cpan_badge_link,
+      gh         => \&gh_badge_link,
+      travis     => \&travis_badge_link,
+      travis_com => \&travis_com_badge_link,
+      cirrus     => \&cirrus_badge_link,
+      appveyor   => \&appveyor_badge_link,
+      coveralls  => \&coveralls_badge_link,
+      codecov    => \&codecov_badge_link,
+      kritika    => \&kritika_badge_link,
     },
   },
 });
@@ -158,6 +159,7 @@ sub appveyor_badge_link {
     "Build status for $module->{dist}",
   );
 }
+
 sub travis_badge_link {
   my ($module) = @_;
 
@@ -166,6 +168,12 @@ sub travis_badge_link {
     "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}.svg?branch=master",
     "Build status for $module->{dist}",
   );
+}
+
+sub travis_com_badge_link {
+    my ($module) = @_;
+
+    return travis_badge_link($module) =~ s/travis-ci.org/travis-ci.com/gr;
 }
 
 sub coveralls_badge_link {
