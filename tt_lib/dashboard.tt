@@ -20,6 +20,9 @@ var direction = "[% sort.direction %]";
 [% IF ci.use_travis -%]
           <th>Travis CI</th>
 [% END -%]
+[% IF ci.use_cirrus -%]
+          <th>Cirrus CI</th>
+[% END -%]
 [% IF ci.use_coveralls -%]
           <th>Coveralls</th>
 [% END -%]
@@ -44,6 +47,11 @@ var direction = "[% sort.direction %]";
 [%   END -%]
 [%   IF ci.use_travis -%]
           <td>[% linked_badge.travis(m) %]</td>
+[%   END -%]
+[%   IF ci.use_cirrus -%]
+          <td>[%- FOREACH task_name IN ci.cirrus_task_names -%]
+            [% linked_badge.cirrus(task_name, m) %][% UNLESS loop.last %]<br>[% END -%]
+          [%- END %]</td>
 [%   END -%]
 [%   IF ci.use_coveralls -%]
           <td>[% linked_badge.coveralls(m, author) %]</td>

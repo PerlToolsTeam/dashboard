@@ -22,6 +22,7 @@ my $tt = Template->new({
       cpan      => \&cpan_badge_link,
       gh        => \&gh_badge_link,
       travis    => \&travis_badge_link,
+      cirrus    => \&cirrus_badge_link,
       coveralls => \&coveralls_badge_link,
       codecov   => \&codecov_badge_link,
       kritika   => \&kritika_badge_link,
@@ -124,6 +125,16 @@ sub cpan_badge_link {
     "https://metacpan.org/release/$module->{dist}",
     "https://img.shields.io/cpan/v/$module->{dist}.svg",
     "CPAN version for $module->{dist}",
+  );
+}
+
+sub cirrus_badge_link {
+  my ($task, $module) = @_;
+
+  return badge_link(
+    "https://cirrus-ci.com/github/$module->{repo_owner}/$module->{repo_name}",
+    "https://api.cirrus-ci.com/github/$module->{repo_owner}/$module->{repo_name}.svg?task=$task",
+    "Cirrus task $task",
   );
 }
 
