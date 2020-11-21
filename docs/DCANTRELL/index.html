@@ -1,0 +1,422 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <!-- link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap-theme.min.css" -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="/css/style.css">
+    <title>CPAN Dashboard - DCANTRELL</title>
+    <meta property="og:title" content="CPAN Dashboard - DCANTRELL">
+    <meta property="og:description" content="Monitoring continuous integration for CPAN modules.">
+    <meta property="og:image" content="https://cpandashboard.com/images/dashboard.png">
+    <meta property="og:url" content="https://cpandashboard.com/DCANTRELL/">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="/">CPAN Dashboard</a>
+      <div class="navbar-collapse collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="https://metacpan.org/author/DCANTRELL">MetaCPAN (DCANTRELL)</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://github.com/DrHyde/">Github (DrHyde)</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container" role="main">
+<script>
+var column = 0;
+var direction = "asc";
+</script>
+    <h1>CPAN Dashboard - DCANTRELL</h1>
+    <p><img alt="DCANTRELL" src="https://avatars0.githubusercontent.com/u/216826?s=460"></p>
+    <p>A dashboard to see the state of
+      <a href="https://metacpan.org/author/DCANTRELL">DCANTRELL's CPAN modules</a>.</p>
+    <table class="table table-striped table-hover" id="sort_table">
+      <thead>
+        <tr>
+          <th>Name / Repo</th>
+          <th>MetaCPAN</th>
+          <th>Date</th>
+          <th>GH Actions</th>
+          <th>Travis CI (.com)</th>
+          <th>Cirrus CI</th>
+          <th>Appveyor CI</th>
+          <th>Coveralls</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Algorithm-Diff-JSON">Algorithm-Diff-JSON</a></td>
+          <td><a href="https://metacpan.org/release/Algorithm-Diff-JSON"><img class="backup_picture" alt="CPAN version for Algorithm-Diff-JSON" src="https://img.shields.io/cpan/v/Algorithm-Diff-JSON.svg"></a></td>
+          <td>2020-11-06</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Algorithm-Diff-JSON/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Algorithm-Diff-JSON/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Algorithm-Diff-JSON?branch=master"><img class="backup_picture" alt="Build status for Algorithm-Diff-JSON" src="https://travis-ci.com/DrHyde/perl-modules-Algorithm-Diff-JSON.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Algorithm-Diff-JSON"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Algorithm-Diff-JSON.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Algorithm-Diff-JSON"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Algorithm-Diff-JSON.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Algorithm-Diff-JSON"><img class="backup_picture" alt="Build status for Algorithm-Diff-JSON" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Algorithm-Diff-JSON?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Algorithm-Diff-JSON?branch=master"><img class="backup_picture" alt="Test coverage for Algorithm-Diff-JSON" src="https://coveralls.io/repos/DrHyde/perl-modules-Algorithm-Diff-JSON/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-CPAN-FindDependencies">CPAN-FindDependencies</a></td>
+          <td><a href="https://metacpan.org/release/CPAN-FindDependencies"><img class="backup_picture" alt="CPAN version for CPAN-FindDependencies" src="https://img.shields.io/cpan/v/CPAN-FindDependencies.svg"></a></td>
+          <td>2020-11-08</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-CPAN-FindDependencies/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-CPAN-FindDependencies/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-CPAN-FindDependencies?branch=master"><img class="backup_picture" alt="Build status for CPAN-FindDependencies" src="https://travis-ci.com/DrHyde/perl-modules-CPAN-FindDependencies.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-CPAN-FindDependencies"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-CPAN-FindDependencies.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-CPAN-FindDependencies"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-CPAN-FindDependencies.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-CPAN-FindDependencies"><img class="backup_picture" alt="Build status for CPAN-FindDependencies" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-CPAN-FindDependencies?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-CPAN-FindDependencies?branch=master"><img class="backup_picture" alt="Test coverage for CPAN-FindDependencies" src="https://coveralls.io/repos/DrHyde/perl-modules-CPAN-FindDependencies/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-CPAN-ParseDistribution">CPAN-ParseDistribution</a></td>
+          <td><a href="https://metacpan.org/release/CPAN-ParseDistribution"><img class="backup_picture" alt="CPAN version for CPAN-ParseDistribution" src="https://img.shields.io/cpan/v/CPAN-ParseDistribution.svg"></a></td>
+          <td>2016-09-27</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-CPAN-ParseDistribution/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-CPAN-ParseDistribution/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-CPAN-ParseDistribution?branch=master"><img class="backup_picture" alt="Build status for CPAN-ParseDistribution" src="https://travis-ci.com/DrHyde/perl-modules-CPAN-ParseDistribution.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-CPAN-ParseDistribution"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-CPAN-ParseDistribution.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-CPAN-ParseDistribution"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-CPAN-ParseDistribution.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-CPAN-ParseDistribution"><img class="backup_picture" alt="Build status for CPAN-ParseDistribution" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-CPAN-ParseDistribution?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-CPAN-ParseDistribution?branch=master"><img class="backup_picture" alt="Test coverage for CPAN-ParseDistribution" src="https://coveralls.io/repos/DrHyde/perl-modules-CPAN-ParseDistribution/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-CPU-Emulator-Memory">CPU-Emulator-Memory</a></td>
+          <td><a href="https://metacpan.org/release/CPU-Emulator-Memory"><img class="backup_picture" alt="CPAN version for CPU-Emulator-Memory" src="https://img.shields.io/cpan/v/CPU-Emulator-Memory.svg"></a></td>
+          <td>2019-05-14</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-CPU-Emulator-Memory/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-CPU-Emulator-Memory/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-CPU-Emulator-Memory?branch=master"><img class="backup_picture" alt="Build status for CPU-Emulator-Memory" src="https://travis-ci.com/DrHyde/perl-modules-CPU-Emulator-Memory.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-CPU-Emulator-Memory"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-CPU-Emulator-Memory.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-CPU-Emulator-Memory"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-CPU-Emulator-Memory.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-CPU-Emulator-Memory"><img class="backup_picture" alt="Build status for CPU-Emulator-Memory" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-CPU-Emulator-Memory?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-CPU-Emulator-Memory?branch=master"><img class="backup_picture" alt="Test coverage for CPU-Emulator-Memory" src="https://coveralls.io/repos/DrHyde/perl-modules-CPU-Emulator-Memory/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Class-CanBeA">Class-CanBeA</a></td>
+          <td><a href="https://metacpan.org/release/Class-CanBeA"><img class="backup_picture" alt="CPAN version for Class-CanBeA" src="https://img.shields.io/cpan/v/Class-CanBeA.svg"></a></td>
+          <td>2016-09-27</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Class-CanBeA/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Class-CanBeA/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Class-CanBeA?branch=master"><img class="backup_picture" alt="Build status for Class-CanBeA" src="https://travis-ci.com/DrHyde/perl-modules-Class-CanBeA.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Class-CanBeA"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Class-CanBeA.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Class-CanBeA"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Class-CanBeA.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Class-CanBeA"><img class="backup_picture" alt="Build status for Class-CanBeA" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Class-CanBeA?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Class-CanBeA?branch=master"><img class="backup_picture" alt="Test coverage for Class-CanBeA" src="https://coveralls.io/repos/DrHyde/perl-modules-Class-CanBeA/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Class-Mockable">Class-Mockable</a></td>
+          <td><a href="https://metacpan.org/release/Class-Mockable"><img class="backup_picture" alt="CPAN version for Class-Mockable" src="https://img.shields.io/cpan/v/Class-Mockable.svg"></a></td>
+          <td>2019-03-19</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Class-Mockable/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Class-Mockable/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Class-Mockable?branch=master"><img class="backup_picture" alt="Build status for Class-Mockable" src="https://travis-ci.com/DrHyde/perl-modules-Class-Mockable.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Class-Mockable"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Class-Mockable.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Class-Mockable"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Class-Mockable.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Class-Mockable"><img class="backup_picture" alt="Build status for Class-Mockable" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Class-Mockable?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Class-Mockable?branch=master"><img class="backup_picture" alt="Test coverage for Class-Mockable" src="https://coveralls.io/repos/DrHyde/perl-modules-Class-Mockable/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Data-Compare">Data-Compare</a></td>
+          <td><a href="https://metacpan.org/release/Data-Compare"><img class="backup_picture" alt="CPAN version for Data-Compare" src="https://img.shields.io/cpan/v/Data-Compare.svg"></a></td>
+          <td>2019-11-05</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Data-Compare/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Data-Compare/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Data-Compare?branch=master"><img class="backup_picture" alt="Build status for Data-Compare" src="https://travis-ci.com/DrHyde/perl-modules-Data-Compare.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Data-Compare"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Data-Compare.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Data-Compare"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Data-Compare.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Data-Compare"><img class="backup_picture" alt="Build status for Data-Compare" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Data-Compare?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Data-Compare?branch=master"><img class="backup_picture" alt="Test coverage for Data-Compare" src="https://coveralls.io/repos/DrHyde/perl-modules-Data-Compare/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Data-Transactional">Data-Transactional</a></td>
+          <td><a href="https://metacpan.org/release/Data-Transactional"><img class="backup_picture" alt="CPAN version for Data-Transactional" src="https://img.shields.io/cpan/v/Data-Transactional.svg"></a></td>
+          <td>2016-09-27</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Data-Transactional/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Data-Transactional/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Data-Transactional?branch=master"><img class="backup_picture" alt="Build status for Data-Transactional" src="https://travis-ci.com/DrHyde/perl-modules-Data-Transactional.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Data-Transactional"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Data-Transactional.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Data-Transactional"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Data-Transactional.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Data-Transactional"><img class="backup_picture" alt="Build status for Data-Transactional" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Data-Transactional?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Data-Transactional?branch=master"><img class="backup_picture" alt="Test coverage for Data-Transactional" src="https://coveralls.io/repos/DrHyde/perl-modules-Data-Transactional/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces">Devel-Caller-IgnoreNamespaces</a></td>
+          <td><a href="https://metacpan.org/release/Devel-Caller-IgnoreNamespaces"><img class="backup_picture" alt="CPAN version for Devel-Caller-IgnoreNamespaces" src="https://img.shields.io/cpan/v/Devel-Caller-IgnoreNamespaces.svg"></a></td>
+          <td>2017-10-11</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces?branch=master"><img class="backup_picture" alt="Build status for Devel-Caller-IgnoreNamespaces" src="https://travis-ci.com/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces"><img class="backup_picture" alt="Build status for Devel-Caller-IgnoreNamespaces" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces?branch=master"><img class="backup_picture" alt="Test coverage for Devel-Caller-IgnoreNamespaces" src="https://coveralls.io/repos/DrHyde/perl-modules-Devel-Caller-IgnoreNamespaces/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Devel-CheckOS">Devel-CheckOS</a></td>
+          <td><a href="https://metacpan.org/release/Devel-CheckOS"><img class="backup_picture" alt="CPAN version for Devel-CheckOS" src="https://img.shields.io/cpan/v/Devel-CheckOS.svg"></a></td>
+          <td>2020-10-15</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Devel-CheckOS/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Devel-CheckOS/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Devel-CheckOS?branch=master"><img class="backup_picture" alt="Build status for Devel-CheckOS" src="https://travis-ci.com/DrHyde/perl-modules-Devel-CheckOS.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Devel-CheckOS"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Devel-CheckOS.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Devel-CheckOS"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Devel-CheckOS.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Devel-CheckOS"><img class="backup_picture" alt="Build status for Devel-CheckOS" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Devel-CheckOS?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Devel-CheckOS?branch=master"><img class="backup_picture" alt="Test coverage for Devel-CheckOS" src="https://coveralls.io/repos/DrHyde/perl-modules-Devel-CheckOS/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/aferreira/cpan-Devel-Hide">Devel-Hide</a></td>
+          <td><a href="https://metacpan.org/release/Devel-Hide"><img class="backup_picture" alt="CPAN version for Devel-Hide" src="https://img.shields.io/cpan/v/Devel-Hide.svg"></a></td>
+          <td>2020-02-16</td>
+          <td>            <a href="https://github.com/aferreira/cpan-Devel-Hide/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/aferreira/cpan-Devel-Hide/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/aferreira/cpan-Devel-Hide?branch=master"><img class="backup_picture" alt="Build status for Devel-Hide" src="https://travis-ci.com/aferreira/cpan-Devel-Hide.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/aferreira/cpan-Devel-Hide"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/aferreira/cpan-Devel-Hide.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/aferreira/cpan-Devel-Hide"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/aferreira/cpan-Devel-Hide.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/aferreira/cpan-Devel-Hide"><img class="backup_picture" alt="Build status for Devel-Hide" src="https://ci.appveyor.com/api/projects/status/github/aferreira/cpan-Devel-Hide?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/cpan-Devel-Hide?branch=master"><img class="backup_picture" alt="Test coverage for Devel-Hide" src="https://coveralls.io/repos/DrHyde/cpan-Devel-Hide/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-File-Find-Rule-Permissions">File-Find-Rule-Permissions</a></td>
+          <td><a href="https://metacpan.org/release/File-Find-Rule-Permissions"><img class="backup_picture" alt="CPAN version for File-Find-Rule-Permissions" src="https://img.shields.io/cpan/v/File-Find-Rule-Permissions.svg"></a></td>
+          <td>2018-12-04</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-File-Find-Rule-Permissions/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-File-Find-Rule-Permissions/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-File-Find-Rule-Permissions?branch=master"><img class="backup_picture" alt="Build status for File-Find-Rule-Permissions" src="https://travis-ci.com/DrHyde/perl-modules-File-Find-Rule-Permissions.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-File-Find-Rule-Permissions"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-File-Find-Rule-Permissions.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-File-Find-Rule-Permissions"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-File-Find-Rule-Permissions.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-File-Find-Rule-Permissions"><img class="backup_picture" alt="Build status for File-Find-Rule-Permissions" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-File-Find-Rule-Permissions?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-File-Find-Rule-Permissions?branch=master"><img class="backup_picture" alt="Test coverage for File-Find-Rule-Permissions" src="https://coveralls.io/repos/DrHyde/perl-modules-File-Find-Rule-Permissions/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Games-SGF-Go-Rotator">Games-SGF-Go-Rotator</a></td>
+          <td><a href="https://metacpan.org/release/Games-SGF-Go-Rotator"><img class="backup_picture" alt="CPAN version for Games-SGF-Go-Rotator" src="https://img.shields.io/cpan/v/Games-SGF-Go-Rotator.svg"></a></td>
+          <td>2012-11-27</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Games-SGF-Go-Rotator/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Games-SGF-Go-Rotator/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Games-SGF-Go-Rotator?branch=master"><img class="backup_picture" alt="Build status for Games-SGF-Go-Rotator" src="https://travis-ci.com/DrHyde/perl-modules-Games-SGF-Go-Rotator.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Games-SGF-Go-Rotator"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Games-SGF-Go-Rotator.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Games-SGF-Go-Rotator"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Games-SGF-Go-Rotator.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Games-SGF-Go-Rotator"><img class="backup_picture" alt="Build status for Games-SGF-Go-Rotator" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Games-SGF-Go-Rotator?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Games-SGF-Go-Rotator?branch=master"><img class="backup_picture" alt="Test coverage for Games-SGF-Go-Rotator" src="https://coveralls.io/repos/DrHyde/perl-modules-Games-SGF-Go-Rotator/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-IP-World">IP-World</a></td>
+          <td><a href="https://metacpan.org/release/IP-World"><img class="backup_picture" alt="CPAN version for IP-World" src="https://img.shields.io/cpan/v/IP-World.svg"></a></td>
+          <td>2020-10-13</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-IP-World/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-IP-World/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-IP-World?branch=master"><img class="backup_picture" alt="Build status for IP-World" src="https://travis-ci.com/DrHyde/perl-modules-IP-World.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-IP-World"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-IP-World.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-IP-World"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-IP-World.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-IP-World"><img class="backup_picture" alt="Build status for IP-World" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-IP-World?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-IP-World?branch=master"><img class="backup_picture" alt="Test coverage for IP-World" src="https://coveralls.io/repos/DrHyde/perl-modules-IP-World/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Net-Random">Net-Random</a></td>
+          <td><a href="https://metacpan.org/release/Net-Random"><img class="backup_picture" alt="CPAN version for Net-Random" src="https://img.shields.io/cpan/v/Net-Random.svg"></a></td>
+          <td>2020-05-10</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Net-Random/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Net-Random/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Net-Random?branch=master"><img class="backup_picture" alt="Build status for Net-Random" src="https://travis-ci.com/DrHyde/perl-modules-Net-Random.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Net-Random"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Net-Random.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Net-Random"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Net-Random.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Net-Random"><img class="backup_picture" alt="Build status for Net-Random" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Net-Random?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Net-Random?branch=master"><img class="backup_picture" alt="Test coverage for Net-Random" src="https://coveralls.io/repos/DrHyde/perl-modules-Net-Random/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Number-Phone">Number-Phone</a></td>
+          <td><a href="https://metacpan.org/release/Number-Phone"><img class="backup_picture" alt="CPAN version for Number-Phone" src="https://img.shields.io/cpan/v/Number-Phone.svg"></a></td>
+          <td>2020-09-04</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Number-Phone/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Number-Phone/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Number-Phone?branch=master"><img class="backup_picture" alt="Build status for Number-Phone" src="https://travis-ci.com/DrHyde/perl-modules-Number-Phone.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Number-Phone"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Number-Phone.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Number-Phone"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Number-Phone.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Number-Phone"><img class="backup_picture" alt="Build status for Number-Phone" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Number-Phone?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Number-Phone?branch=master"><img class="backup_picture" alt="Test coverage for Number-Phone" src="https://coveralls.io/repos/DrHyde/perl-modules-Number-Phone/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Number-Phone-UK-DetailedLocations">Number-Phone-UK-DetailedLocations</a></td>
+          <td><a href="https://metacpan.org/release/Number-Phone-UK-DetailedLocations"><img class="backup_picture" alt="CPAN version for Number-Phone-UK-DetailedLocations" src="https://img.shields.io/cpan/v/Number-Phone-UK-DetailedLocations.svg"></a></td>
+          <td>2016-10-12</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Number-Phone-UK-DetailedLocations/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Number-Phone-UK-DetailedLocations/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Number-Phone-UK-DetailedLocations?branch=master"><img class="backup_picture" alt="Build status for Number-Phone-UK-DetailedLocations" src="https://travis-ci.com/DrHyde/perl-modules-Number-Phone-UK-DetailedLocations.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Number-Phone-UK-DetailedLocations"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Number-Phone-UK-DetailedLocations.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Number-Phone-UK-DetailedLocations"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Number-Phone-UK-DetailedLocations.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Number-Phone-UK-DetailedLocations"><img class="backup_picture" alt="Build status for Number-Phone-UK-DetailedLocations" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Number-Phone-UK-DetailedLocations?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Number-Phone-UK-DetailedLocations?branch=master"><img class="backup_picture" alt="Test coverage for Number-Phone-UK-DetailedLocations" src="https://coveralls.io/repos/DrHyde/perl-modules-Number-Phone-UK-DetailedLocations/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Palm-SMS">Palm-SMS</a></td>
+          <td><a href="https://metacpan.org/release/Palm-SMS"><img class="backup_picture" alt="CPAN version for Palm-SMS" src="https://img.shields.io/cpan/v/Palm-SMS.svg"></a></td>
+          <td>2015-02-24</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Palm-SMS/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Palm-SMS/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Palm-SMS?branch=master"><img class="backup_picture" alt="Build status for Palm-SMS" src="https://travis-ci.com/DrHyde/perl-modules-Palm-SMS.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Palm-SMS"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Palm-SMS.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Palm-SMS"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Palm-SMS.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Palm-SMS"><img class="backup_picture" alt="Build status for Palm-SMS" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Palm-SMS?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Palm-SMS?branch=master"><img class="backup_picture" alt="Test coverage for Palm-SMS" src="https://coveralls.io/repos/DrHyde/perl-modules-Palm-SMS/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Palm-Treo680MessagesDB">Palm-Treo680MessagesDB</a></td>
+          <td><a href="https://metacpan.org/release/Palm-Treo680MessagesDB"><img class="backup_picture" alt="CPAN version for Palm-Treo680MessagesDB" src="https://img.shields.io/cpan/v/Palm-Treo680MessagesDB.svg"></a></td>
+          <td>2015-03-04</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Palm-Treo680MessagesDB/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Palm-Treo680MessagesDB/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Palm-Treo680MessagesDB?branch=master"><img class="backup_picture" alt="Build status for Palm-Treo680MessagesDB" src="https://travis-ci.com/DrHyde/perl-modules-Palm-Treo680MessagesDB.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Palm-Treo680MessagesDB"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Palm-Treo680MessagesDB.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Palm-Treo680MessagesDB"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Palm-Treo680MessagesDB.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Palm-Treo680MessagesDB"><img class="backup_picture" alt="Build status for Palm-Treo680MessagesDB" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Palm-Treo680MessagesDB?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Palm-Treo680MessagesDB?branch=master"><img class="backup_picture" alt="Test coverage for Palm-Treo680MessagesDB" src="https://coveralls.io/repos/DrHyde/perl-modules-Palm-Treo680MessagesDB/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Palm-TreoPhoneCallDB">Palm-TreoPhoneCallDB</a></td>
+          <td><a href="https://metacpan.org/release/Palm-TreoPhoneCallDB"><img class="backup_picture" alt="CPAN version for Palm-TreoPhoneCallDB" src="https://img.shields.io/cpan/v/Palm-TreoPhoneCallDB.svg"></a></td>
+          <td>2015-03-04</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Palm-TreoPhoneCallDB/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Palm-TreoPhoneCallDB/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Palm-TreoPhoneCallDB?branch=master"><img class="backup_picture" alt="Build status for Palm-TreoPhoneCallDB" src="https://travis-ci.com/DrHyde/perl-modules-Palm-TreoPhoneCallDB.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Palm-TreoPhoneCallDB"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Palm-TreoPhoneCallDB.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Palm-TreoPhoneCallDB"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Palm-TreoPhoneCallDB.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Palm-TreoPhoneCallDB"><img class="backup_picture" alt="Build status for Palm-TreoPhoneCallDB" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Palm-TreoPhoneCallDB?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Palm-TreoPhoneCallDB?branch=master"><img class="backup_picture" alt="Test coverage for Palm-TreoPhoneCallDB" src="https://coveralls.io/repos/DrHyde/perl-modules-Palm-TreoPhoneCallDB/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Params-Validate-Dependencies">Params-Validate-Dependencies</a></td>
+          <td><a href="https://metacpan.org/release/Params-Validate-Dependencies"><img class="backup_picture" alt="CPAN version for Params-Validate-Dependencies" src="https://img.shields.io/cpan/v/Params-Validate-Dependencies.svg"></a></td>
+          <td>2018-07-12</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Params-Validate-Dependencies/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Params-Validate-Dependencies/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Params-Validate-Dependencies?branch=master"><img class="backup_picture" alt="Build status for Params-Validate-Dependencies" src="https://travis-ci.com/DrHyde/perl-modules-Params-Validate-Dependencies.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Params-Validate-Dependencies"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Params-Validate-Dependencies.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Params-Validate-Dependencies"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Params-Validate-Dependencies.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Params-Validate-Dependencies"><img class="backup_picture" alt="Build status for Params-Validate-Dependencies" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Params-Validate-Dependencies?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Params-Validate-Dependencies?branch=master"><img class="backup_picture" alt="Test coverage for Params-Validate-Dependencies" src="https://coveralls.io/repos/DrHyde/perl-modules-Params-Validate-Dependencies/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Params-Validate-Dependencies-all_or_none_of">Params-Validate-Dependencies-all_or_none_of</a></td>
+          <td><a href="https://metacpan.org/release/Params-Validate-Dependencies-all_or_none_of"><img class="backup_picture" alt="CPAN version for Params-Validate-Dependencies-all_or_none_of" src="https://img.shields.io/cpan/v/Params-Validate-Dependencies-all_or_none_of.svg"></a></td>
+          <td>2015-03-21</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Params-Validate-Dependencies-all_or_none_of/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Params-Validate-Dependencies-all_or_none_of/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Params-Validate-Dependencies-all_or_none_of?branch=master"><img class="backup_picture" alt="Build status for Params-Validate-Dependencies-all_or_none_of" src="https://travis-ci.com/DrHyde/perl-modules-Params-Validate-Dependencies-all_or_none_of.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Params-Validate-Dependencies-all_or_none_of"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Params-Validate-Dependencies-all_or_none_of.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Params-Validate-Dependencies-all_or_none_of"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Params-Validate-Dependencies-all_or_none_of.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Params-Validate-Dependencies-all_or_none_of"><img class="backup_picture" alt="Build status for Params-Validate-Dependencies-all_or_none_of" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Params-Validate-Dependencies-all_or_none_of?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Params-Validate-Dependencies-all_or_none_of?branch=master"><img class="backup_picture" alt="Test coverage for Params-Validate-Dependencies-all_or_none_of" src="https://coveralls.io/repos/DrHyde/perl-modules-Params-Validate-Dependencies-all_or_none_of/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Sort-MultipleFields">Sort-MultipleFields</a></td>
+          <td><a href="https://metacpan.org/release/Sort-MultipleFields"><img class="backup_picture" alt="CPAN version for Sort-MultipleFields" src="https://img.shields.io/cpan/v/Sort-MultipleFields.svg"></a></td>
+          <td>2014-04-05</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Sort-MultipleFields/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Sort-MultipleFields/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Sort-MultipleFields?branch=master"><img class="backup_picture" alt="Build status for Sort-MultipleFields" src="https://travis-ci.com/DrHyde/perl-modules-Sort-MultipleFields.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Sort-MultipleFields"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Sort-MultipleFields.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Sort-MultipleFields"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Sort-MultipleFields.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Sort-MultipleFields"><img class="backup_picture" alt="Build status for Sort-MultipleFields" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Sort-MultipleFields?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Sort-MultipleFields?branch=master"><img class="backup_picture" alt="Test coverage for Sort-MultipleFields" src="https://coveralls.io/repos/DrHyde/perl-modules-Sort-MultipleFields/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Statistics-ChiSquare">Statistics-ChiSquare</a></td>
+          <td><a href="https://metacpan.org/release/Statistics-ChiSquare"><img class="backup_picture" alt="CPAN version for Statistics-ChiSquare" src="https://img.shields.io/cpan/v/Statistics-ChiSquare.svg"></a></td>
+          <td>2016-10-21</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Statistics-ChiSquare/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Statistics-ChiSquare/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Statistics-ChiSquare?branch=master"><img class="backup_picture" alt="Build status for Statistics-ChiSquare" src="https://travis-ci.com/DrHyde/perl-modules-Statistics-ChiSquare.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Statistics-ChiSquare"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Statistics-ChiSquare.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Statistics-ChiSquare"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Statistics-ChiSquare.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Statistics-ChiSquare"><img class="backup_picture" alt="Build status for Statistics-ChiSquare" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Statistics-ChiSquare?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Statistics-ChiSquare?branch=master"><img class="backup_picture" alt="Test coverage for Statistics-ChiSquare" src="https://coveralls.io/repos/DrHyde/perl-modules-Statistics-ChiSquare/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-String-Binary-Interpolation">String-Binary-Interpolation</a></td>
+          <td><a href="https://metacpan.org/release/String-Binary-Interpolation"><img class="backup_picture" alt="CPAN version for String-Binary-Interpolation" src="https://img.shields.io/cpan/v/String-Binary-Interpolation.svg"></a></td>
+          <td>2020-11-20</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-String-Binary-Interpolation/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-String-Binary-Interpolation/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-String-Binary-Interpolation?branch=master"><img class="backup_picture" alt="Build status for String-Binary-Interpolation" src="https://travis-ci.com/DrHyde/perl-modules-String-Binary-Interpolation.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-String-Binary-Interpolation"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-String-Binary-Interpolation.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-String-Binary-Interpolation"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-String-Binary-Interpolation.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-String-Binary-Interpolation"><img class="backup_picture" alt="Build status for String-Binary-Interpolation" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-String-Binary-Interpolation?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-String-Binary-Interpolation?branch=master"><img class="backup_picture" alt="Test coverage for String-Binary-Interpolation" src="https://coveralls.io/repos/DrHyde/perl-modules-String-Binary-Interpolation/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Sub-Attribute">Sub-Attribute</a></td>
+          <td><a href="https://metacpan.org/release/Sub-Attribute"><img class="backup_picture" alt="CPAN version for Sub-Attribute" src="https://img.shields.io/cpan/v/Sub-Attribute.svg"></a></td>
+          <td>2018-10-31</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Sub-Attribute/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Sub-Attribute/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Sub-Attribute?branch=master"><img class="backup_picture" alt="Build status for Sub-Attribute" src="https://travis-ci.com/DrHyde/perl-modules-Sub-Attribute.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Sub-Attribute"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Sub-Attribute.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Sub-Attribute"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Sub-Attribute.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Sub-Attribute"><img class="backup_picture" alt="Build status for Sub-Attribute" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Sub-Attribute?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Sub-Attribute?branch=master"><img class="backup_picture" alt="Test coverage for Sub-Attribute" src="https://coveralls.io/repos/DrHyde/perl-modules-Sub-Attribute/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Sub-WrapPackages">Sub-WrapPackages</a></td>
+          <td><a href="https://metacpan.org/release/Sub-WrapPackages"><img class="backup_picture" alt="CPAN version for Sub-WrapPackages" src="https://img.shields.io/cpan/v/Sub-WrapPackages.svg"></a></td>
+          <td>2017-10-25</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Sub-WrapPackages/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Sub-WrapPackages/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Sub-WrapPackages?branch=master"><img class="backup_picture" alt="Build status for Sub-WrapPackages" src="https://travis-ci.com/DrHyde/perl-modules-Sub-WrapPackages.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Sub-WrapPackages"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Sub-WrapPackages.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Sub-WrapPackages"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Sub-WrapPackages.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Sub-WrapPackages"><img class="backup_picture" alt="Build status for Sub-WrapPackages" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Sub-WrapPackages?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Sub-WrapPackages?branch=master"><img class="backup_picture" alt="Test coverage for Sub-WrapPackages" src="https://coveralls.io/repos/DrHyde/perl-modules-Sub-WrapPackages/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/Test-Differences">Test-Differences</a></td>
+          <td><a href="https://metacpan.org/release/Test-Differences"><img class="backup_picture" alt="CPAN version for Test-Differences" src="https://img.shields.io/cpan/v/Test-Differences.svg"></a></td>
+          <td>2019-03-06</td>
+          <td>            <a href="https://github.com/DrHyde/Test-Differences/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/Test-Differences/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/Test-Differences?branch=master"><img class="backup_picture" alt="Build status for Test-Differences" src="https://travis-ci.com/DrHyde/Test-Differences.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/Test-Differences"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/Test-Differences.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/Test-Differences"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/Test-Differences.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/Test-Differences"><img class="backup_picture" alt="Build status for Test-Differences" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/Test-Differences?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/Test-Differences?branch=master"><img class="backup_picture" alt="Test coverage for Test-Differences" src="https://coveralls.io/repos/DrHyde/Test-Differences/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Test-Mojo-Role-HTTPstatus">Test-Mojo-Role-HTTPstatus</a></td>
+          <td><a href="https://metacpan.org/release/Test-Mojo-Role-HTTPstatus"><img class="backup_picture" alt="CPAN version for Test-Mojo-Role-HTTPstatus" src="https://img.shields.io/cpan/v/Test-Mojo-Role-HTTPstatus.svg"></a></td>
+          <td>2020-09-19</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Test-Mojo-Role-HTTPstatus/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Test-Mojo-Role-HTTPstatus/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Test-Mojo-Role-HTTPstatus?branch=master"><img class="backup_picture" alt="Build status for Test-Mojo-Role-HTTPstatus" src="https://travis-ci.com/DrHyde/perl-modules-Test-Mojo-Role-HTTPstatus.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Test-Mojo-Role-HTTPstatus"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Test-Mojo-Role-HTTPstatus.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Test-Mojo-Role-HTTPstatus"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Test-Mojo-Role-HTTPstatus.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Test-Mojo-Role-HTTPstatus"><img class="backup_picture" alt="Build status for Test-Mojo-Role-HTTPstatus" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Test-Mojo-Role-HTTPstatus?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Test-Mojo-Role-HTTPstatus?branch=master"><img class="backup_picture" alt="Test coverage for Test-Mojo-Role-HTTPstatus" src="https://coveralls.io/repos/DrHyde/perl-modules-Test-Mojo-Role-HTTPstatus/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Tie-Hash-Vivify">Tie-Hash-Vivify</a></td>
+          <td><a href="https://metacpan.org/release/Tie-Hash-Vivify"><img class="backup_picture" alt="CPAN version for Tie-Hash-Vivify" src="https://img.shields.io/cpan/v/Tie-Hash-Vivify.svg"></a></td>
+          <td>2017-06-16</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Tie-Hash-Vivify/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Tie-Hash-Vivify/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Tie-Hash-Vivify?branch=master"><img class="backup_picture" alt="Build status for Tie-Hash-Vivify" src="https://travis-ci.com/DrHyde/perl-modules-Tie-Hash-Vivify.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Tie-Hash-Vivify"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Tie-Hash-Vivify.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Tie-Hash-Vivify"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Tie-Hash-Vivify.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Tie-Hash-Vivify"><img class="backup_picture" alt="Build status for Tie-Hash-Vivify" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Tie-Hash-Vivify?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Tie-Hash-Vivify?branch=master"><img class="backup_picture" alt="Test coverage for Tie-Hash-Vivify" src="https://coveralls.io/repos/DrHyde/perl-modules-Tie-Hash-Vivify/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-Unix-Sudo">Unix-Sudo</a></td>
+          <td><a href="https://metacpan.org/release/Unix-Sudo"><img class="backup_picture" alt="CPAN version for Unix-Sudo" src="https://img.shields.io/cpan/v/Unix-Sudo.svg"></a></td>
+          <td>2019-02-12</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-Unix-Sudo/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-Unix-Sudo/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-Unix-Sudo?branch=master"><img class="backup_picture" alt="Build status for Unix-Sudo" src="https://travis-ci.com/DrHyde/perl-modules-Unix-Sudo.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Unix-Sudo"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Unix-Sudo.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-Unix-Sudo"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-Unix-Sudo.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-Unix-Sudo"><img class="backup_picture" alt="Build status for Unix-Sudo" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-Unix-Sudo?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-Unix-Sudo?branch=master"><img class="backup_picture" alt="Test coverage for Unix-Sudo" src="https://coveralls.io/repos/DrHyde/perl-modules-Unix-Sudo/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-XML-DoubleEncodedEntities">XML-DoubleEncodedEntities</a></td>
+          <td><a href="https://metacpan.org/release/XML-DoubleEncodedEntities"><img class="backup_picture" alt="CPAN version for XML-DoubleEncodedEntities" src="https://img.shields.io/cpan/v/XML-DoubleEncodedEntities.svg"></a></td>
+          <td>2015-03-22</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-XML-DoubleEncodedEntities/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-XML-DoubleEncodedEntities/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-XML-DoubleEncodedEntities?branch=master"><img class="backup_picture" alt="Build status for XML-DoubleEncodedEntities" src="https://travis-ci.com/DrHyde/perl-modules-XML-DoubleEncodedEntities.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-XML-DoubleEncodedEntities"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-XML-DoubleEncodedEntities.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-XML-DoubleEncodedEntities"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-XML-DoubleEncodedEntities.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-XML-DoubleEncodedEntities"><img class="backup_picture" alt="Build status for XML-DoubleEncodedEntities" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-XML-DoubleEncodedEntities?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-XML-DoubleEncodedEntities?branch=master"><img class="backup_picture" alt="Test coverage for XML-DoubleEncodedEntities" src="https://coveralls.io/repos/DrHyde/perl-modules-XML-DoubleEncodedEntities/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-XML-Tiny">XML-Tiny</a></td>
+          <td><a href="https://metacpan.org/release/XML-Tiny"><img class="backup_picture" alt="CPAN version for XML-Tiny" src="https://img.shields.io/cpan/v/XML-Tiny.svg"></a></td>
+          <td>2017-08-17</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-XML-Tiny/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-XML-Tiny/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-XML-Tiny?branch=master"><img class="backup_picture" alt="Build status for XML-Tiny" src="https://travis-ci.com/DrHyde/perl-modules-XML-Tiny.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-XML-Tiny"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-XML-Tiny.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-XML-Tiny"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-XML-Tiny.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-XML-Tiny"><img class="backup_picture" alt="Build status for XML-Tiny" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-XML-Tiny?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-XML-Tiny?branch=master"><img class="backup_picture" alt="Test coverage for XML-Tiny" src="https://coveralls.io/repos/DrHyde/perl-modules-XML-Tiny/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/DrHyde/perl-modules-lib-relative-to">lib-relative-to</a></td>
+          <td><a href="https://metacpan.org/release/lib-relative-to"><img class="backup_picture" alt="CPAN version for lib-relative-to" src="https://img.shields.io/cpan/v/lib-relative-to.svg"></a></td>
+          <td>2020-02-21</td>
+          <td>            <a href="https://github.com/DrHyde/perl-modules-lib-relative-to/actions?query=workflow%3ALinux"><img class="backup_picture" alt="GH Action Linux" src="https://github.com/DrHyde/perl-modules-lib-relative-to/workflows/Linux/badge.svg"></a></td>
+          <td><a href="https://travis-ci.com/DrHyde/perl-modules-lib-relative-to?branch=master"><img class="backup_picture" alt="Build status for lib-relative-to" src="https://travis-ci.com/DrHyde/perl-modules-lib-relative-to.svg?branch=master"></a></td>
+          <td>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-lib-relative-to"><img class="backup_picture" alt="Cirrus task FreeBSD" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-lib-relative-to.svg?task=FreeBSD"></a><br>            <a href="https://cirrus-ci.com/github/DrHyde/perl-modules-lib-relative-to"><img class="backup_picture" alt="Cirrus task MacOS" src="https://api.cirrus-ci.com/github/DrHyde/perl-modules-lib-relative-to.svg?task=MacOS"></a></td>
+          <td><a href="https://ci.appveyor.com/project/DrHyde/perl-modules-lib-relative-to"><img class="backup_picture" alt="Build status for lib-relative-to" src="https://ci.appveyor.com/api/projects/status/github/DrHyde/perl-modules-lib-relative-to?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken"></a></td>
+          <td><a href="https://coveralls.io/github/DrHyde/perl-modules-lib-relative-to?branch=master"><img class="backup_picture" alt="Test coverage for lib-relative-to" src="https://coveralls.io/repos/DrHyde/perl-modules-lib-relative-to/badge.svg?branch=master&service=github"></a></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <footer>
+CPAN dashboard written by <a href="https://twitter.com/davorg">@davorg</a> / Code on <a href="https://github.com/davorg/dashboard">Github</a>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="/js/dashboard.js"></script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-56332-60', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+
+</script>
+  </body>
+</html>
