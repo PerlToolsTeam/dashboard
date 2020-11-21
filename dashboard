@@ -19,12 +19,15 @@ my $tt = Template->new({
   WRAPPER      => $global_cfg->{wrapper},
   VARIABLES    => {
     linked_badge => {
-      cpan      => \&cpan_badge_link,
-      gh        => \&gh_badge_link,
-      travis    => \&travis_badge_link,
-      coveralls => \&coveralls_badge_link,
-      codecov   => \&codecov_badge_link,
-      kritika   => \&kritika_badge_link,
+      cpan       => \&cpan_badge_link,
+      gh         => \&gh_badge_link,
+      travis     => \&travis_badge_link,
+      travis_com => \&travis_com_badge_link,
+      cirrus     => \&cirrus_badge_link,
+      appveyor   => \&appveyor_badge_link,
+      coveralls  => \&coveralls_badge_link,
+      codecov    => \&codecov_badge_link,
+      kritika    => \&kritika_badge_link,
     },
   },
 });
@@ -127,6 +130,16 @@ sub cpan_badge_link {
   );
 }
 
+sub cirrus_badge_link {
+  my ($task, $module) = @_;
+
+  return badge_link(
+    "https://cirrus-ci.com/github/$module->{repo_owner}/$module->{repo_name}",
+    "https://api.cirrus-ci.com/github/$module->{repo_owner}/$module->{repo_name}.svg?task=$task",
+    "Cirrus task $task",
+  );
+}
+
 sub gh_badge_link {
   my ($workflow, $module) = @_;
 
@@ -134,6 +147,16 @@ sub gh_badge_link {
     "https://github.com/$module->{repo_owner}/$module->{repo_name}/actions?query=workflow%3A$workflow",
     "https://github.com/$module->{repo_owner}/$module->{repo_name}/workflows/$workflow/badge.svg",
     "GH Action $workflow",
+  );
+}
+
+sub appveyor_badge_link {
+  my ($module) = @_;
+
+  return badge_link(
+    "https://ci.appveyor.com/project/$module->{repo_owner}/$module->{repo_name}",
+    "https://ci.appveyor.com/api/projects/status/github/$module->{repo_owner}/$module->{repo_name}?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken",
+    "Build status for $module->{dist}",
   );
 }
 
@@ -145,6 +168,12 @@ sub travis_badge_link {
     "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}.svg?branch=master",
     "Build status for $module->{dist}",
   );
+}
+
+sub travis_com_badge_link {
+    my ($module) = @_;
+
+    return travis_badge_link($module) =~ s/travis-ci.org/travis-ci.com/gr;
 }
 
 sub coveralls_badge_link {
