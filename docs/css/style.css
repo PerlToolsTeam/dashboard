@@ -21,3 +21,8 @@ img.header {
 .warn {
   color: red;
 }
+
+img.gravatar {
+  max-width: 130px;
+  max-height: 130px;
+}
