@@ -173,7 +173,7 @@ sub travis_badge_link {
 sub travis_com_badge_link {
     my ($module) = @_;
 
-    return travis_badge_link($module) =~ s/travis-ci.org/travis-ci.com/gr;
+    return travis_badge_link($module) =~ s/travis-ci\.org/travis-ci.com/gr;
 }
 
 sub coveralls_badge_link {
