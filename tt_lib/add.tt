@@ -72,6 +72,9 @@ to my repo.</li>
           <a href="https://docs.travis-ci.com/user/languages/perl/">a guide to doing that</a>.
           Having done this, the next time you commit to the repo, you'll get a test run on the
           Travis CI site.</p>
+        <p>Note that we support both the .org and .com versions of Travis CI. The author
+          configuration file has a `use_travis` key (for .org) and a `use_travis_com` key
+          (for .com).</p>
       </div>
     </div>
   </div>
@@ -122,6 +125,60 @@ script:
           account (again, using your Github credentials) and then select which repos you
           want to use the service on. There's nothing at all to do in the repo. It will
           all just start to work the next time you make a commit.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h3 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive"
+                aria-expanded="true" aria-controls="collapseFive">
+          Codecov.io
+        </button>
+      </h3>
+    </div>
+
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+      <div class="card-body">
+        <p>We support <a href="https://codecov.io/">Codecov.io</a>, but haven't written instructions
+          for it yet.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingSix">
+      <h3 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSix"
+                aria-expanded="true" aria-controls="collapseSix">
+          Cirrus CI
+        </button>
+      </h3>
+    </div>
+
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+      <div class="card-body">
+        <p>We support <a href="https://cirrus-ci.org/">Cirrus CI</a>, but haven't written instructions
+          for it yet.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingSeven">
+      <h3 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSeven"
+                aria-expanded="true" aria-controls="collapseSeven">
+          AppVeyor
+        </button>
+      </h3>
+    </div>
+
+    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+      <div class="card-body">
+        <p>We support <a href="https://appveyor.com/">AppVeyor</a>, but haven't written instructions
+          for it yet.</p>
       </div>
     </div>
   </div>
