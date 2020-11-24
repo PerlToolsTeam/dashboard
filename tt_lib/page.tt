@@ -40,7 +40,7 @@
           <li class="nav-item"><a class="nav-link" href="[% item.link %]">[% item.title %]</a></li>
 [% END -%]
 [% IF author_page OR template.author_page;
-[%   IF author.cpan -%]
+     IF author.cpan -%]
           <li class="nav-item"><a class="nav-link" href="https://metacpan.org/author/[% author.cpan %]">MetaCPAN ([% author.cpan %])</a></li>
 [%   END;
      IF author.github -%]
