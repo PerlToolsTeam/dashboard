@@ -63,7 +63,8 @@ sub do_author {
   my $author   = $mcpan->author($cfg->{author}{cpan});
   my $releases = $author->releases;
 
-  $cfg->{gravatar} = $author->gravatar_url;
+  $cfg->{gravatar}     = $author->gravatar_url;
+  $cfg->{author}{name} = $author->name;
 
   while ( my $rel = $releases->next ) {
     my $mod;
@@ -108,7 +109,7 @@ sub do_author {
   $tt->process($cfg->{author_template}, $cfg, "$cfg->{author}{cpan}/index.html")
     or die $tt->error;
 
-  return $cfg->{author}{cpan};
+  return $cfg->{author};
 }
 
 sub valid_repo {
