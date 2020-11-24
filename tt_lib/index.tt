@@ -5,7 +5,7 @@
 
     <h2>Current authors</h2>
     <ul>
-[% FOR author IN authors.sort -%]
+[% FOR author IN authors.sort(cpan) -%]
       <li>[% IF author.name; author.name _ ' / '; END %]<a href="/[% author.cpan %]/">[% author.cpan %]</a></li>
 [% END -%]
     </ul>
