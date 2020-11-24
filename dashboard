@@ -14,6 +14,7 @@ use FindBin '$RealBin';
 my $global_cfg = decode_json(path('dashboard.json')->slurp);
 
 my $tt = Template->new({
+  ENCODING     => 'utf8',
   INCLUDE_PATH => $global_cfg->{input_dir},
   OUTPUT_PATH  => $global_cfg->{output_dir},
   WRAPPER      => $global_cfg->{wrapper},
@@ -40,17 +41,32 @@ for (glob "$RealBin/authors/*.json") {
   push @urls, "https://$global_cfg->{domain}/$authors[-1]{cpan}";
 }
 
-$tt->process($global_cfg->{index_template}, { authors => \@authors }, 'index.html');
+$tt->process(
+  $global_cfg->{index_template},
+  { authors => \@authors },
+  'index.html',
+  { binmode => ':utf8' },
+);
 push @urls, "https://$global_cfg->{domain}/";
 
 for (@{ $global_cfg->{page_templates} }) {
-  $tt->process("$_.tt", { name => ucfirst $_ }, "$_/index.html");
+  $tt->process(
+    "$_.tt",
+    { name => ucfirst $_ },
+    "$_/index.html",
+    { binmode => ':utf8' },
+  );
   push @urls, "https://$global_cfg->{domain}/$_/";
 }
 
 @urls = sort @urls;
 
-$tt->process('sitemap.tt', { urls => \@urls}, 'sitemap.xml');
+$tt->process(
+  'sitemap.tt',
+  { urls => \@urls},
+  'sitemap.xml',
+  { binmode => ':utf8' },
+);
 
 sub do_author {
   my ($tt, $file, $global_cfg) = @_;
@@ -106,8 +122,12 @@ sub do_author {
     %$global_cfg,
    };
 
-  $tt->process($cfg->{author_template}, $cfg, "$cfg->{author}{cpan}/index.html")
-    or die $tt->error;
+  $tt->process(
+    $cfg->{author_template},
+    $cfg,
+    "$cfg->{author}{cpan}/index.html",
+    { binmode => ':utf8' },
+  ) or die $tt->error;
 
   return $cfg->{author};
 }
