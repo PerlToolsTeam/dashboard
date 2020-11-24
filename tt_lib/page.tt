@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="/css/style.css">
 [% title = 'CPAN Dashboard';
    url = 'https://cpandashboard.com/';
-   IF author.cpan;
+   IF author_page;
      title = title _ ' - ' _ author.cpan;
      url = url _ author.cpan _ '/';
    ELSIF name;

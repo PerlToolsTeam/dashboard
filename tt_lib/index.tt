@@ -6,7 +6,7 @@
     <h2>Current authors</h2>
     <ul>
 [% FOR author IN authors.sort -%]
-      <li>[% IF author.name; author.name _ ' '; END %]<a href="/[% author.cpan %]/">[% author.cpan %]</a></li>
+      <li>[% IF author.name; author.name _ ' / '; END %]<a href="/[% author.cpan %]/">[% author.cpan %]</a></li>
 [% END -%]
     </ul>
     <p><a href="/add" class="btn btn-primary">Add yourself to the list</a></p>

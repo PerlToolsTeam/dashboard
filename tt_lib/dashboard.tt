@@ -1,3 +1,4 @@
+[% META author_page = 1 -%]
 <script>
 var column = [% sort.column %];
 var direction = "[% sort.direction %]";
