@@ -29,6 +29,8 @@ img.gravatar {
 }
 
 .author.card {
+  max-width: 130px;
+  min-width: 130px;
   width: 130px;
 }
 
