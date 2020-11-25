@@ -5,7 +5,7 @@ var direction = "[% sort.direction %]";
 </script>
     <h1>CPAN Dashboard - [% author.cpan %]</h1>
 [% IF gravatar -%]
-    <p><img alt="[% author.cpan %]" class="gravatar" src="[% gravatar %]"></p>
+    <p><img alt="[% author.cpan %]" class="gravatar" src="[% author.gravatar %]"></p>
 [% END -%]
     <p>A dashboard to see the state of
       <a href="https://metacpan.org/author/[% author.cpan %]">[% author.cpan %]'s CPAN modules</a>.</p>

@@ -23,6 +23,15 @@ img.header {
 }
 
 img.gravatar {
-  max-width: 130px;
-  max-height: 130px;
+  width: 130px;
+  height: 130px;
+  object-fit: scale-down;
+}
+
+.author.card {
+  width: 130px;
+}
+
+.card-deck {
+  margin-bottom: 1rem;
 }
