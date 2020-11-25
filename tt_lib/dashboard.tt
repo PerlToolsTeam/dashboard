@@ -4,7 +4,7 @@ var column = [% sort.column %];
 var direction = "[% sort.direction %]";
 </script>
     <h1>CPAN Dashboard - [% author.cpan %]</h1>
-[% IF gravatar -%]
+[% IF author.gravatar -%]
     <p><img alt="[% author.cpan %]" class="gravatar" src="[% author.gravatar %]"></p>
 [% END -%]
     <p>A dashboard to see the state of
