@@ -32,6 +32,7 @@ img.gravatar {
   max-width: 130px;
   min-width: 130px;
   width: 130px;
+  margin: 1rem;
 }
 
 .card-deck {
