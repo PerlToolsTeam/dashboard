@@ -7,9 +7,9 @@
     <div class="card-deck">
 [% FOR author IN authors.sort(cpan) -%]
       <div class="author card">
-        <img class="card-img-top gravatar" src="[% author.gravatar %]" alt="[% author.cpan %]">
+        <a href="/[% author.cpan %]/"><img class="card-img-top gravatar" src="[% author.gravatar %]" alt="[% author.cpan %]"></a>
         <div class="card-body">
-          <a href="/[% author.cpan %]">[% author.name OR author.cpan %]</a>
+          <a href="/[% author.cpan %]/">[% author.name OR author.cpan %]</a>
         </div>
       </div>
 [% END -%]
