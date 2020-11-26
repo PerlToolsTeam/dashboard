@@ -137,7 +137,7 @@ sub valid_repo {
 
   return unless defined $repo_uri;
 
-  # Currently we only support Guthub repos
+  # Currently we only support Github repos
   return $repo_uri =~ m|github\.com/|;
 }
 
