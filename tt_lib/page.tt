@@ -29,6 +29,7 @@
     <meta property="og:image" content="https://cpandashboard.com/images/dashboard.png">
     <meta property="og:url" content="[% url %]">
     <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="[% url %]">
   </head>
   <body>
     <!-- Fixed navbar -->
