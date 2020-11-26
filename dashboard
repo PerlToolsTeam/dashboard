@@ -38,7 +38,7 @@ my @urls;
 
 for (glob "$RealBin/authors/*.json") {
   push @authors, do_author($tt, $_, $global_cfg);
-  push @urls, "https://$global_cfg->{domain}/$authors[-1]{cpan}";
+  push @urls, "https://$global_cfg->{domain}/$authors[-1]{cpan}/";
 }
 
 $tt->process(
