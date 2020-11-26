@@ -93,7 +93,15 @@ sub do_author {
     $mod->{repo} = $rel->resources->{repository}{web}
       // $rel->resources->{repository}{url};
 
-    next unless valid_repo($mod->{repo});
+    unless ($mod->{repo}) {
+      warn "No repo for $mod->{name}\n";
+      next;
+    }
+
+    unless (valid_repo($mod->{repo})) {
+      warn "Skipping $mod->{repo}\n";
+      next;
+    }
 
     $mod->{repo} =~ s[/$][];
     # We need the repo's name. Try to extract it from the URL
