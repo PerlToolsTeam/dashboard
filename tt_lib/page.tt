@@ -21,7 +21,7 @@
      url = url _ author.cpan _ '/';
    ELSIF name;
      title = title _ ' - ' _ name;
-     url = url _ name.lower;
+     url = url _ name.lower _ '/';
    END -%]
     <title>[% title %]</title>
     <meta property="og:title" content="[% title %]">
