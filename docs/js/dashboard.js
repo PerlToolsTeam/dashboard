@@ -5,7 +5,7 @@ $(document).ready(function()
     });
 
     $('#sort_table').DataTable({
-      "paging": false,
+      "paging": true,
       "columnDefs": [
         { "targets": [0, 2], "orderable": true },
         { "targets": "_all", "orderable": false },
