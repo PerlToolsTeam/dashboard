@@ -93,7 +93,10 @@ sub do_author {
     $mod->{repo} = $rel->resources->{repository}{web}
       // $rel->resources->{repository}{url};
 
-    $mod->{bugtracker} = $rel->resources->{bugtracker}{web};
+    if ($rel->resources->{bugtracker}{web}) {
+      $mod->{bugtracker} = $rel->resources->{bugtracker}{web};
+      $mod->{uses_rt} = $mod->{bugtracker} =~ /rt.cpan.org/;
+    }
 
     unless ($mod->{repo}) {
       warn "No repo for $mod->{name}\n";

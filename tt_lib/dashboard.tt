@@ -1,3 +1,12 @@
+[% MACRO good_bugtracker BLOCK -%]
+&#x1F41E;
+[% END -%]
+[% MACRO rt_bugtracker BLOCK -%]
+<span title="This module uses CPAN RT as its bugtracker. This service will be closed down on 2021-03-01."><b>RT</b></span>
+[% END -%]
+[% MACRO no_bugtracker BLOCK -%]
+<span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+[% END -%]
 [% META author_page = 1 -%]
 <script>
 var column = [% sort.column %];
@@ -48,7 +57,7 @@ var direction = "[% sort.direction %]";
           <td><a href="[% m.repo %]">[% m.dist %]</a>[% IF m.insecure_repo %] <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span>[% END %]</td>
           <td>[% linked_badge.cpan(m) %]</td>
           <td>[% m.date %]</td>
-          <td>[% IF m.bugtracker %]<a href="[% m.bugtracker %]">&#x1F41E;</a>[% ELSE %]&nbsp;[% END %]</td>
+          <td>[% IF m.bugtracker %]<a href="[% m.bugtracker %]">[% IF m.uses_rt; rt_bugtracker; ELSE; good_bugtracker; END %]</a>[% ELSE; no_bugtracker; END %]</td>
 [%   IF ci.use_gh_actions -%]
           <td>[%- FOREACH workflow_name IN ci.gh_workflow_names -%]
             [% linked_badge.gh(workflow_name, m) %][% UNLESS loop.last %]<br>[% END -%]
