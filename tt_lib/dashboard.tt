@@ -15,6 +15,7 @@ var direction = "[% sort.direction %]";
           <th>Name / Repo</th>
           <th>MetaCPAN</th>
           <th>Date</th>
+          <th>Bugs</th>
 [% IF ci.use_gh_actions -%]
           <th>GH Actions</th>
 [% END -%]
@@ -47,6 +48,7 @@ var direction = "[% sort.direction %]";
           <td><a href="[% m.repo %]">[% m.dist %]</a>[% IF m.insecure_repo %] <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span>[% END %]</td>
           <td>[% linked_badge.cpan(m) %]</td>
           <td>[% m.date %]</td>
+          <td>[% IF m.bugtracker %]<a href="[% m.bugtracker %]">&#x1F41E;</a>[% ELSE %]&nbsp;[% END %]</td>
 [%   IF ci.use_gh_actions -%]
           <td>[%- FOREACH workflow_name IN ci.gh_workflow_names -%]
             [% linked_badge.gh(workflow_name, m) %][% UNLESS loop.last %]<br>[% END -%]

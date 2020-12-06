@@ -93,6 +93,8 @@ sub do_author {
     $mod->{repo} = $rel->resources->{repository}{web}
       // $rel->resources->{repository}{url};
 
+    $mod->{bugtracker} = $rel->resources->{bugtracker}{web};
+
     unless ($mod->{repo}) {
       warn "No repo for $mod->{name}\n";
       next;
