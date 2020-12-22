@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <!-- link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap-theme.min.css" -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="/css/style.css">
+    <title>CPAN Dashboard - PETDANCE</title>
+    <meta property="og:title" content="CPAN Dashboard - PETDANCE">
+    <meta property="og:description" content="Monitoring continuous integration for CPAN modules.">
+    <meta property="og:image" content="https://cpandashboard.com/images/dashboard.png">
+    <meta property="og:url" content="https://cpandashboard.com/PETDANCE/">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://cpandashboard.com/PETDANCE/">
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="/">CPAN Dashboard</a>
+      <div class="navbar-collapse collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="https://metacpan.org/author/PETDANCE">MetaCPAN (PETDANCE)</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://github.com/petdance/">Github (petdance)</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid" role="main">
+<script>
+var column = 0;
+var direction = "asc";
+</script>
+    <h1>CPAN Dashboard - PETDANCE</h1>
+    <p><img alt="PETDANCE" class="gravatar" src="https://secure.gravatar.com/avatar/8077a0584e451732420d43f5d0b3bd31?s=130&d=identicon"></p>
+    <p>A dashboard to see the state of
+      <a href="https://metacpan.org/author/PETDANCE">PETDANCE's CPAN modules</a>.</p>
+    <table class="table table-striped table-hover" id="sort_table">
+      <thead>
+        <tr>
+          <th>Name / Repo</th>
+          <th>MetaCPAN</th>
+          <th>Date</th>
+          <th>Bugs</th>
+          <th>GH Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://github.com/petdance/carp-assert-more/tree/master">Carp-Assert-More</a></td>
+          <td><a href="https://metacpan.org/release/Carp-Assert-More"><img class="backup_picture" alt="CPAN version for Carp-Assert-More" src="https://img.shields.io/cpan/v/Carp-Assert-More.svg"></a></td>
+          <td>2020-10-07</td>
+          <td><a href="https://rt.cpan.org/Public/Dist/Display.html?Name=Carp-Assert-More"><span title="This module uses CPAN RT as its bugtracker. This service will be closed down on 2021-03-01."><b>RT</b></span>
+</a></td>
+          <td>            <a href="https://github.com/petdance/carp-assert-more/tree/master/actions?query=workflow%3Atestsuite"><img class="backup_picture" alt="GH Action testsuite" src="https://github.com/petdance/carp-assert-more/tree/master/workflows/testsuite/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="http://github.com/petdance/file-next/tree/master">File-Next</a> <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span></td>
+          <td><a href="https://metacpan.org/release/File-Next"><img class="backup_picture" alt="CPAN version for File-Next" src="https://img.shields.io/cpan/v/File-Next.svg"></a></td>
+          <td>2019-08-27</td>
+          <td><a href="http://github.com/petdance/file-next/issues">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/petdance/file-next/tree/master/actions?query=workflow%3Atestsuite"><img class="backup_picture" alt="GH Action testsuite" src="https://github.com/petdance/file-next/tree/master/workflows/testsuite/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/petdance/html-lint">HTML-Lint</a></td>
+          <td><a href="https://metacpan.org/release/HTML-Lint"><img class="backup_picture" alt="CPAN version for HTML-Lint" src="https://img.shields.io/cpan/v/HTML-Lint.svg"></a></td>
+          <td>2018-06-22</td>
+          <td><a href="https://github.com/petdance/html-lint/issues">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/petdance/html-lint/actions?query=workflow%3Atestsuite"><img class="backup_picture" alt="GH Action testsuite" src="https://github.com/petdance/html-lint/workflows/testsuite/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="http://github.com/petdance/html-tidy">HTML-Tidy</a> <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span></td>
+          <td><a href="https://metacpan.org/release/HTML-Tidy"><img class="backup_picture" alt="CPAN version for HTML-Tidy" src="https://img.shields.io/cpan/v/HTML-Tidy.svg"></a></td>
+          <td>2017-09-13</td>
+          <td><a href="http://github.com/petdance/html-tidy/issues">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/petdance/html-tidy/actions?query=workflow%3Atestsuite"><img class="backup_picture" alt="GH Action testsuite" src="https://github.com/petdance/html-tidy/workflows/testsuite/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="http://github.com/petdance/html-tidy5">HTML-Tidy5</a> <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span></td>
+          <td><a href="https://metacpan.org/release/HTML-Tidy5"><img class="backup_picture" alt="CPAN version for HTML-Tidy5" src="https://img.shields.io/cpan/v/HTML-Tidy5.svg"></a></td>
+          <td>2019-10-26</td>
+          <td><a href="http://github.com/petdance/html-tidy5/issues">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/petdance/html-tidy5/actions?query=workflow%3Atestsuite"><img class="backup_picture" alt="GH Action testsuite" src="https://github.com/petdance/html-tidy5/workflows/testsuite/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="git://github.com/petdance/list-cycle.git">List-Cycle</a></td>
+          <td><a href="https://metacpan.org/release/List-Cycle"><img class="backup_picture" alt="CPAN version for List-Cycle" src="https://img.shields.io/cpan/v/List-Cycle.svg"></a></td>
+          <td>2012-12-24</td>
+          <td><a href="http://rt.cpan.org/NoAuth/Bugs.html?Dist=List-Cycle"><span title="This module uses CPAN RT as its bugtracker. This service will be closed down on 2021-03-01."><b>RT</b></span>
+</a></td>
+          <td>            <a href="https://github.com/petdance/list-cycle/actions?query=workflow%3Atestsuite"><img class="backup_picture" alt="GH Action testsuite" src="https://github.com/petdance/list-cycle/workflows/testsuite/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="git://github.com/Perl-Critic/Perl-Critic.git">Perl-Critic</a></td>
+          <td><a href="https://metacpan.org/release/Perl-Critic"><img class="backup_picture" alt="CPAN version for Perl-Critic" src="https://img.shields.io/cpan/v/Perl-Critic.svg"></a></td>
+          <td>2020-01-24</td>
+          <td><a href="https://github.com/Perl-Critic/Perl-Critic/issues">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/Perl-Critic/Perl-Critic/actions?query=workflow%3Atestsuite"><img class="backup_picture" alt="GH Action testsuite" src="https://github.com/Perl-Critic/Perl-Critic/workflows/testsuite/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="git://github.com/petdance/perl-critic-bangs.git">Perl-Critic-Bangs</a></td>
+          <td><a href="https://metacpan.org/release/Perl-Critic-Bangs"><img class="backup_picture" alt="CPAN version for Perl-Critic-Bangs" src="https://img.shields.io/cpan/v/Perl-Critic-Bangs.svg"></a></td>
+          <td>2017-05-25</td>
+          <td><a href="https://github.com/petdance/perl-critic-bangs">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/petdance/perl-critic-bangs/actions?query=workflow%3Atestsuite"><img class="backup_picture" alt="GH Action testsuite" src="https://github.com/petdance/perl-critic-bangs/workflows/testsuite/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="git://github.com/petdance/sql-tiny.git">SQL-Tiny</a></td>
+          <td><a href="https://metacpan.org/release/SQL-Tiny"><img class="backup_picture" alt="CPAN version for SQL-Tiny" src="https://img.shields.io/cpan/v/SQL-Tiny.svg"></a></td>
+          <td>2019-04-07</td>
+          <td><a href="https://github.com/petdance/sql-tiny/issues">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/petdance/sql-tiny/actions?query=workflow%3Atestsuite"><img class="backup_picture" alt="GH Action testsuite" src="https://github.com/petdance/sql-tiny/workflows/testsuite/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="git://github.com/Perl-Critic/Test-Perl-Critic.git">Test-Perl-Critic</a></td>
+          <td><a href="https://metacpan.org/release/Test-Perl-Critic"><img class="backup_picture" alt="CPAN version for Test-Perl-Critic" src="https://img.shields.io/cpan/v/Test-Perl-Critic.svg"></a></td>
+          <td>2018-03-26</td>
+          <td><a href="https://github.com/Perl-Critic/Test-Perl-Critic/issues">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/Perl-Critic/Test-Perl-Critic/actions?query=workflow%3Atestsuite"><img class="backup_picture" alt="GH Action testsuite" src="https://github.com/Perl-Critic/Test-Perl-Critic/workflows/testsuite/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/petdance/test-taint">Test-Taint</a></td>
+          <td><a href="https://metacpan.org/release/Test-Taint"><img class="backup_picture" alt="CPAN version for Test-Taint" src="https://img.shields.io/cpan/v/Test-Taint.svg"></a></td>
+          <td>2019-06-12</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/petdance/test-taint/actions?query=workflow%3Atestsuite"><img class="backup_picture" alt="GH Action testsuite" src="https://github.com/petdance/test-taint/workflows/testsuite/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/petdance/test-www-mechanize">Test-WWW-Mechanize</a></td>
+          <td><a href="https://metacpan.org/release/Test-WWW-Mechanize"><img class="backup_picture" alt="CPAN version for Test-WWW-Mechanize" src="https://img.shields.io/cpan/v/Test-WWW-Mechanize.svg"></a></td>
+          <td>2020-12-09</td>
+          <td><a href="https://github.com/petdance/test-www-mechanize/issues">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/petdance/test-www-mechanize/actions?query=workflow%3Atestsuite"><img class="backup_picture" alt="GH Action testsuite" src="https://github.com/petdance/test-www-mechanize/workflows/testsuite/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="git://github.com/beyondgrep/ack3.git">ack</a></td>
+          <td><a href="https://metacpan.org/release/ack"><img class="backup_picture" alt="CPAN version for ack" src="https://img.shields.io/cpan/v/ack.svg"></a></td>
+          <td>2020-06-30</td>
+          <td><a href="https://github.com/beyondgrep/ack3">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/beyondgrep/ack3/actions?query=workflow%3Atestsuite"><img class="backup_picture" alt="GH Action testsuite" src="https://github.com/beyondgrep/ack3/workflows/testsuite/badge.svg"></a></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <footer>
+CPAN dashboard written by <a href="https://twitter.com/davorg">@davorg</a> / Code on <a href="https://github.com/davorg/dashboard">Github</a> / Please consider <a href="https://github.com/sponsors/davorg">sponsoring davorg</a>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="/js/dashboard.js"></script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-56332-60', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+
+</script>
+  </body>
+</html>
