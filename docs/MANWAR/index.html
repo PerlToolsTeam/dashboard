@@ -1,0 +1,984 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <!-- link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap-theme.min.css" -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="/css/style.css">
+    <title>CPAN Dashboard - MANWAR</title>
+    <meta property="og:title" content="CPAN Dashboard - MANWAR">
+    <meta property="og:description" content="Monitoring continuous integration for CPAN modules.">
+    <meta property="og:image" content="https://cpandashboard.com/images/dashboard.png">
+    <meta property="og:url" content="https://cpandashboard.com/MANWAR/">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://cpandashboard.com/MANWAR/">
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="/">CPAN Dashboard</a>
+      <div class="navbar-collapse collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="https://metacpan.org/author/MANWAR">MetaCPAN (MANWAR)</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://github.com/manwar/">Github (manwar)</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid" role="main">
+<script>
+var column = 0;
+var direction = "asc";
+</script>
+    <h1>CPAN Dashboard - MANWAR</h1>
+    <p><img alt="MANWAR" class="gravatar" src="https://secure.gravatar.com/avatar/71c853edf567f3482e0e7f21d51e9df2?s=130&d=identicon"></p>
+    <p>A dashboard to see the state of
+      <a href="https://metacpan.org/author/MANWAR">MANWAR's CPAN modules</a>.</p>
+    <table class="table table-striped table-hover" id="sort_table">
+      <thead>
+        <tr>
+          <th>Name / Repo</th>
+          <th>MetaCPAN</th>
+          <th>Date</th>
+          <th>Bugs</th>
+          <th>GH Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://github.com/manwar/Address-PostCode-Australia">Address-PostCode-Australia</a></td>
+          <td><a href="https://metacpan.org/release/Address-PostCode-Australia"><img class="backup_picture" alt="CPAN version for Address-PostCode-Australia" src="https://img.shields.io/cpan/v/Address-PostCode-Australia.svg"></a></td>
+          <td>2019-01-18</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Address-PostCode-Australia/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Address-PostCode-Australia/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Manwar/Address-PostCode-India">Address-PostCode-India</a></td>
+          <td><a href="https://metacpan.org/release/Address-PostCode-India"><img class="backup_picture" alt="CPAN version for Address-PostCode-India" src="https://img.shields.io/cpan/v/Address-PostCode-India.svg"></a></td>
+          <td>2019-01-19</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/Manwar/Address-PostCode-India/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/Manwar/Address-PostCode-India/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Address-PostCode-UK">Address-PostCode-UK</a></td>
+          <td><a href="https://metacpan.org/release/Address-PostCode-UK"><img class="backup_picture" alt="CPAN version for Address-PostCode-UK" src="https://img.shields.io/cpan/v/Address-PostCode-UK.svg"></a></td>
+          <td>2019-01-17</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Address-PostCode-UK/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Address-PostCode-UK/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Manwar/Address-PostCode-UserAgent">Address-PostCode-UserAgent</a></td>
+          <td><a href="https://metacpan.org/release/Address-PostCode-UserAgent"><img class="backup_picture" alt="CPAN version for Address-PostCode-UserAgent" src="https://img.shields.io/cpan/v/Address-PostCode-UserAgent.svg"></a></td>
+          <td>2019-01-16</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/Manwar/Address-PostCode-UserAgent/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/Manwar/Address-PostCode-UserAgent/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/App-Search-BackPAN">App-Search-BackPAN</a></td>
+          <td><a href="https://metacpan.org/release/App-Search-BackPAN"><img class="backup_picture" alt="CPAN version for App-Search-BackPAN" src="https://img.shields.io/cpan/v/App-Search-BackPAN.svg"></a></td>
+          <td>2018-10-30</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/App-Search-BackPAN/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/App-Search-BackPAN/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/App-ValidateBankAccount">App-ValidateBankAccount</a></td>
+          <td><a href="https://metacpan.org/release/App-ValidateBankAccount"><img class="backup_picture" alt="CPAN version for App-ValidateBankAccount" src="https://img.shields.io/cpan/v/App-ValidateBankAccount.svg"></a></td>
+          <td>2019-09-17</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/App-ValidateBankAccount/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/App-ValidateBankAccount/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/App-calendr">App-calendr</a></td>
+          <td><a href="https://metacpan.org/release/App-calendr"><img class="backup_picture" alt="CPAN version for App-calendr" src="https://img.shields.io/cpan/v/App-calendr.svg"></a></td>
+          <td>2019-09-21</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/App-calendr/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/App-calendr/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Astro-Utils">Astro-Utils</a></td>
+          <td><a href="https://metacpan.org/release/Astro-Utils"><img class="backup_picture" alt="CPAN version for Astro-Utils" src="https://img.shields.io/cpan/v/Astro-Utils.svg"></a></td>
+          <td>2017-12-20</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Astro-Utils/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Astro-Utils/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/BankAccount-Validator-UK">BankAccount-Validator-UK</a></td>
+          <td><a href="https://metacpan.org/release/BankAccount-Validator-UK"><img class="backup_picture" alt="CPAN version for BankAccount-Validator-UK" src="https://img.shields.io/cpan/v/BankAccount-Validator-UK.svg"></a></td>
+          <td>2020-09-26</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/BankAccount-Validator-UK/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/BankAccount-Validator-UK/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="http://github.com/manwar/CGI--Simple">CGI-Simple</a> <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span></td>
+          <td><a href="https://metacpan.org/release/CGI-Simple"><img class="backup_picture" alt="CPAN version for CGI-Simple" src="https://img.shields.io/cpan/v/CGI-Simple.svg"></a></td>
+          <td>2020-02-10</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/CGI--Simple/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/CGI--Simple/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Manwar/CPAN-Search-Tester">CPAN-Search-Tester</a></td>
+          <td><a href="https://metacpan.org/release/CPAN-Search-Tester"><img class="backup_picture" alt="CPAN version for CPAN-Search-Tester" src="https://img.shields.io/cpan/v/CPAN-Search-Tester.svg"></a></td>
+          <td>2015-01-19</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/Manwar/CPAN-Search-Tester/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/Manwar/CPAN-Search-Tester/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/CPANTS-Kwalitee-Report">CPANTS-Kwalitee-Report</a></td>
+          <td><a href="https://metacpan.org/release/CPANTS-Kwalitee-Report"><img class="backup_picture" alt="CPAN version for CPANTS-Kwalitee-Report" src="https://img.shields.io/cpan/v/CPANTS-Kwalitee-Report.svg"></a></td>
+          <td>2018-10-25</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/CPANTS-Kwalitee-Report/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/CPANTS-Kwalitee-Report/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Calendar-Bahai">Calendar-Bahai</a></td>
+          <td><a href="https://metacpan.org/release/Calendar-Bahai"><img class="backup_picture" alt="CPAN version for Calendar-Bahai" src="https://img.shields.io/cpan/v/Calendar-Bahai.svg"></a></td>
+          <td>2019-10-21</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Calendar-Bahai/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Calendar-Bahai/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Calendar-Gregorian">Calendar-Gregorian</a></td>
+          <td><a href="https://metacpan.org/release/Calendar-Gregorian"><img class="backup_picture" alt="CPAN version for Calendar-Gregorian" src="https://img.shields.io/cpan/v/Calendar-Gregorian.svg"></a></td>
+          <td>2019-10-22</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Calendar-Gregorian/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Calendar-Gregorian/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Calendar-Hebrew">Calendar-Hebrew</a></td>
+          <td><a href="https://metacpan.org/release/Calendar-Hebrew"><img class="backup_picture" alt="CPAN version for Calendar-Hebrew" src="https://img.shields.io/cpan/v/Calendar-Hebrew.svg"></a></td>
+          <td>2019-10-23</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Calendar-Hebrew/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Calendar-Hebrew/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Calendar-Hijri">Calendar-Hijri</a></td>
+          <td><a href="https://metacpan.org/release/Calendar-Hijri"><img class="backup_picture" alt="CPAN version for Calendar-Hijri" src="https://img.shields.io/cpan/v/Calendar-Hijri.svg"></a></td>
+          <td>2019-10-24</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Calendar-Hijri/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Calendar-Hijri/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Calendar-Julian">Calendar-Julian</a></td>
+          <td><a href="https://metacpan.org/release/Calendar-Julian"><img class="backup_picture" alt="CPAN version for Calendar-Julian" src="https://img.shields.io/cpan/v/Calendar-Julian.svg"></a></td>
+          <td>2020-06-25</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Calendar-Julian/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Calendar-Julian/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Calendar-Persian">Calendar-Persian</a></td>
+          <td><a href="https://metacpan.org/release/Calendar-Persian"><img class="backup_picture" alt="CPAN version for Calendar-Persian" src="https://img.shields.io/cpan/v/Calendar-Persian.svg"></a></td>
+          <td>2019-10-26</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Calendar-Persian/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Calendar-Persian/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Calendar-Plugin-Renderer">Calendar-Plugin-Renderer</a></td>
+          <td><a href="https://metacpan.org/release/Calendar-Plugin-Renderer"><img class="backup_picture" alt="CPAN version for Calendar-Plugin-Renderer" src="https://img.shields.io/cpan/v/Calendar-Plugin-Renderer.svg"></a></td>
+          <td>2019-09-15</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Calendar-Plugin-Renderer/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Calendar-Plugin-Renderer/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Calendar-Saka">Calendar-Saka</a></td>
+          <td><a href="https://metacpan.org/release/Calendar-Saka"><img class="backup_picture" alt="CPAN version for Calendar-Saka" src="https://img.shields.io/cpan/v/Calendar-Saka.svg"></a></td>
+          <td>2019-10-27</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Calendar-Saka/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Calendar-Saka/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Check-ISA">Check-ISA</a></td>
+          <td><a href="https://metacpan.org/release/Check-ISA"><img class="backup_picture" alt="CPAN version for Check-ISA" src="https://img.shields.io/cpan/v/Check-ISA.svg"></a></td>
+          <td>2016-09-15</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Check-ISA/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Check-ISA/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Compare-Directory">Compare-Directory</a></td>
+          <td><a href="https://metacpan.org/release/Compare-Directory"><img class="backup_picture" alt="CPAN version for Compare-Directory" src="https://img.shields.io/cpan/v/Compare-Directory.svg"></a></td>
+          <td>2019-10-06</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Compare-Directory/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Compare-Directory/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Crypt-Affine">Crypt-Affine</a></td>
+          <td><a href="https://metacpan.org/release/Crypt-Affine"><img class="backup_picture" alt="CPAN version for Crypt-Affine" src="https://img.shields.io/cpan/v/Crypt-Affine.svg"></a></td>
+          <td>2019-09-24</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Crypt-Affine/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Crypt-Affine/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Crypt-Hill">Crypt-Hill</a></td>
+          <td><a href="https://metacpan.org/release/Crypt-Hill"><img class="backup_picture" alt="CPAN version for Crypt-Hill" src="https://img.shields.io/cpan/v/Crypt-Hill.svg"></a></td>
+          <td>2019-09-25</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Crypt-Hill/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Crypt-Hill/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Crypt-Trifid">Crypt-Trifid</a></td>
+          <td><a href="https://metacpan.org/release/Crypt-Trifid"><img class="backup_picture" alt="CPAN version for Crypt-Trifid" src="https://img.shields.io/cpan/v/Crypt-Trifid.svg"></a></td>
+          <td>2019-09-23</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Crypt-Trifid/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Crypt-Trifid/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Dancer2-Plugin-Captcha">Dancer2-Plugin-Captcha</a></td>
+          <td><a href="https://metacpan.org/release/Dancer2-Plugin-Captcha"><img class="backup_picture" alt="CPAN version for Dancer2-Plugin-Captcha" src="https://img.shields.io/cpan/v/Dancer2-Plugin-Captcha.svg"></a></td>
+          <td>2020-07-10</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Dancer2-Plugin-Captcha/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Dancer2-Plugin-Captcha/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Dancer2-Plugin-Chain">Dancer2-Plugin-Chain</a></td>
+          <td><a href="https://metacpan.org/release/Dancer2-Plugin-Chain"><img class="backup_picture" alt="CPAN version for Dancer2-Plugin-Chain" src="https://img.shields.io/cpan/v/Dancer2-Plugin-Chain.svg"></a></td>
+          <td>2019-09-26</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Dancer2-Plugin-Chain/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Dancer2-Plugin-Chain/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Dancer2-Plugin-Map-Tube">Dancer2-Plugin-Map-Tube</a></td>
+          <td><a href="https://metacpan.org/release/Dancer2-Plugin-Map-Tube"><img class="backup_picture" alt="CPAN version for Dancer2-Plugin-Map-Tube" src="https://img.shields.io/cpan/v/Dancer2-Plugin-Map-Tube.svg"></a></td>
+          <td>2018-04-22</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Dancer2-Plugin-Map-Tube/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Dancer2-Plugin-Map-Tube/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Dancer2-Plugin-Paginator">Dancer2-Plugin-Paginator</a></td>
+          <td><a href="https://metacpan.org/release/Dancer2-Plugin-Paginator"><img class="backup_picture" alt="CPAN version for Dancer2-Plugin-Paginator" src="https://img.shields.io/cpan/v/Dancer2-Plugin-Paginator.svg"></a></td>
+          <td>2019-11-02</td>
+          <td><a href="https://github.com/manwar/Dancer2-Plugin-Paginator/issues">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/manwar/Dancer2-Plugin-Paginator/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Dancer2-Plugin-Paginator/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Dancer2-Plugin-Res">Dancer2-Plugin-Res</a></td>
+          <td><a href="https://metacpan.org/release/Dancer2-Plugin-Res"><img class="backup_picture" alt="CPAN version for Dancer2-Plugin-Res" src="https://img.shields.io/cpan/v/Dancer2-Plugin-Res.svg"></a></td>
+          <td>2019-11-04</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Dancer2-Plugin-Res/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Dancer2-Plugin-Res/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Data-Money">Data-Money</a></td>
+          <td><a href="https://metacpan.org/release/Data-Money"><img class="backup_picture" alt="CPAN version for Data-Money" src="https://img.shields.io/cpan/v/Data-Money.svg"></a></td>
+          <td>2020-11-19</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Data-Money/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Data-Money/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Data-Money-Converter">Data-Money-Converter</a></td>
+          <td><a href="https://metacpan.org/release/Data-Money-Converter"><img class="backup_picture" alt="CPAN version for Data-Money-Converter" src="https://img.shields.io/cpan/v/Data-Money-Converter.svg"></a></td>
+          <td>2016-03-26</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Data-Money-Converter/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Data-Money-Converter/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Data-Money-Converter-WebserviceX">Data-Money-Converter-WebserviceX</a></td>
+          <td><a href="https://metacpan.org/release/Data-Money-Converter-WebserviceX"><img class="backup_picture" alt="CPAN version for Data-Money-Converter-WebserviceX" src="https://img.shields.io/cpan/v/Data-Money-Converter-WebserviceX.svg"></a></td>
+          <td>2016-08-01</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Data-Money-Converter-WebserviceX/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Data-Money-Converter-WebserviceX/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Data-Password-Filter">Data-Password-Filter</a></td>
+          <td><a href="https://metacpan.org/release/Data-Password-Filter"><img class="backup_picture" alt="CPAN version for Data-Password-Filter" src="https://img.shields.io/cpan/v/Data-Password-Filter.svg"></a></td>
+          <td>2018-10-24</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Data-Password-Filter/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Data-Password-Filter/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Data-Types">Data-Types</a></td>
+          <td><a href="https://metacpan.org/release/Data-Types"><img class="backup_picture" alt="CPAN version for Data-Types" src="https://img.shields.io/cpan/v/Data-Types.svg"></a></td>
+          <td>2019-02-23</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Data-Types/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Data-Types/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Manwar/data-verifier">Data-Verifier</a></td>
+          <td><a href="https://metacpan.org/release/Data-Verifier"><img class="backup_picture" alt="CPAN version for Data-Verifier" src="https://img.shields.io/cpan/v/Data-Verifier.svg"></a></td>
+          <td>2019-06-17</td>
+          <td><a href="https://github.com/Manwar/data-verifier/issues">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/Manwar/data-verifier/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/Manwar/data-verifier/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Date-Bahai-Simple">Date-Bahai-Simple</a></td>
+          <td><a href="https://metacpan.org/release/Date-Bahai-Simple"><img class="backup_picture" alt="CPAN version for Date-Bahai-Simple" src="https://img.shields.io/cpan/v/Date-Bahai-Simple.svg"></a></td>
+          <td>2019-10-14</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Date-Bahai-Simple/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Date-Bahai-Simple/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Date-Exception">Date-Exception</a></td>
+          <td><a href="https://metacpan.org/release/Date-Exception"><img class="backup_picture" alt="CPAN version for Date-Exception" src="https://img.shields.io/cpan/v/Date-Exception.svg"></a></td>
+          <td>2019-10-12</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Date-Exception/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Date-Exception/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Date-Gregorian-Simple">Date-Gregorian-Simple</a></td>
+          <td><a href="https://metacpan.org/release/Date-Gregorian-Simple"><img class="backup_picture" alt="CPAN version for Date-Gregorian-Simple" src="https://img.shields.io/cpan/v/Date-Gregorian-Simple.svg"></a></td>
+          <td>2019-10-15</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Date-Gregorian-Simple/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Date-Gregorian-Simple/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Date-Hebrew-Simple">Date-Hebrew-Simple</a></td>
+          <td><a href="https://metacpan.org/release/Date-Hebrew-Simple"><img class="backup_picture" alt="CPAN version for Date-Hebrew-Simple" src="https://img.shields.io/cpan/v/Date-Hebrew-Simple.svg"></a></td>
+          <td>2019-10-16</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Date-Hebrew-Simple/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Date-Hebrew-Simple/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Date-Hijri-Simple">Date-Hijri-Simple</a></td>
+          <td><a href="https://metacpan.org/release/Date-Hijri-Simple"><img class="backup_picture" alt="CPAN version for Date-Hijri-Simple" src="https://img.shields.io/cpan/v/Date-Hijri-Simple.svg"></a></td>
+          <td>2019-10-17</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Date-Hijri-Simple/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Date-Hijri-Simple/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Date-Julian-Simple">Date-Julian-Simple</a></td>
+          <td><a href="https://metacpan.org/release/Date-Julian-Simple"><img class="backup_picture" alt="CPAN version for Date-Julian-Simple" src="https://img.shields.io/cpan/v/Date-Julian-Simple.svg"></a></td>
+          <td>2020-06-25</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Date-Julian-Simple/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Date-Julian-Simple/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Date-Persian-Simple">Date-Persian-Simple</a></td>
+          <td><a href="https://metacpan.org/release/Date-Persian-Simple"><img class="backup_picture" alt="CPAN version for Date-Persian-Simple" src="https://img.shields.io/cpan/v/Date-Persian-Simple.svg"></a></td>
+          <td>2019-10-19</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Date-Persian-Simple/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Date-Persian-Simple/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Date-Saka-Simple">Date-Saka-Simple</a></td>
+          <td><a href="https://metacpan.org/release/Date-Saka-Simple"><img class="backup_picture" alt="CPAN version for Date-Saka-Simple" src="https://img.shields.io/cpan/v/Date-Saka-Simple.svg"></a></td>
+          <td>2019-10-20</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Date-Saka-Simple/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Date-Saka-Simple/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Date-Utils">Date-Utils</a></td>
+          <td><a href="https://metacpan.org/release/Date-Utils"><img class="backup_picture" alt="CPAN version for Date-Utils" src="https://img.shields.io/cpan/v/Date-Utils.svg"></a></td>
+          <td>2019-10-13</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Date-Utils/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Date-Utils/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="git://github.com/PadreIDE/Debug-Client.git">Debug-Client</a></td>
+          <td><a href="https://metacpan.org/release/Debug-Client"><img class="backup_picture" alt="CPAN version for Debug-Client" src="https://img.shields.io/cpan/v/Debug-Client.svg"></a></td>
+          <td>2017-07-04</td>
+          <td><a href="https://github.com/PadreIDE/Debug-Client/issues">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/PadreIDE/Debug-Client/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/PadreIDE/Debug-Client/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Manwar/Devel-Timer">Devel-Timer</a></td>
+          <td><a href="https://metacpan.org/release/Devel-Timer"><img class="backup_picture" alt="CPAN version for Devel-Timer" src="https://img.shields.io/cpan/v/Devel-Timer.svg"></a></td>
+          <td>2019-10-31</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/Manwar/Devel-Timer/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/Manwar/Devel-Timer/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Dist-Zilla-Plugin-PkgAuthority">Dist-Zilla-Plugin-PkgAuthority</a></td>
+          <td><a href="https://metacpan.org/release/Dist-Zilla-Plugin-PkgAuthority"><img class="backup_picture" alt="CPAN version for Dist-Zilla-Plugin-PkgAuthority" src="https://img.shields.io/cpan/v/Dist-Zilla-Plugin-PkgAuthority.svg"></a></td>
+          <td>2016-02-18</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Dist-Zilla-Plugin-PkgAuthority/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Dist-Zilla-Plugin-PkgAuthority/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Dist-Zilla-Plugin-Test-Map-Tube">Dist-Zilla-Plugin-Test-Map-Tube</a></td>
+          <td><a href="https://metacpan.org/release/Dist-Zilla-Plugin-Test-Map-Tube"><img class="backup_picture" alt="CPAN version for Dist-Zilla-Plugin-Test-Map-Tube" src="https://img.shields.io/cpan/v/Dist-Zilla-Plugin-Test-Map-Tube.svg"></a></td>
+          <td>2019-09-11</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Dist-Zilla-Plugin-Test-Map-Tube/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Dist-Zilla-Plugin-Test-Map-Tube/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Dist-Zilla-PluginBundle-MANWAR">Dist-Zilla-PluginBundle-MANWAR</a></td>
+          <td><a href="https://metacpan.org/release/Dist-Zilla-PluginBundle-MANWAR"><img class="backup_picture" alt="CPAN version for Dist-Zilla-PluginBundle-MANWAR" src="https://img.shields.io/cpan/v/Dist-Zilla-PluginBundle-MANWAR.svg"></a></td>
+          <td>2017-05-12</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Dist-Zilla-PluginBundle-MANWAR/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Dist-Zilla-PluginBundle-MANWAR/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/File-Same">File-Same</a></td>
+          <td><a href="https://metacpan.org/release/File-Same"><img class="backup_picture" alt="CPAN version for File-Same" src="https://img.shields.io/cpan/v/File-Same.svg"></a></td>
+          <td>2016-05-01</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/File-Same/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/File-Same/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="http://github.com/manwar/Filesys-DiskUsage">Filesys-DiskUsage</a> <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span></td>
+          <td><a href="https://metacpan.org/release/Filesys-DiskUsage"><img class="backup_picture" alt="CPAN version for Filesys-DiskUsage" src="https://img.shields.io/cpan/v/Filesys-DiskUsage.svg"></a></td>
+          <td>2019-07-28</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Filesys-DiskUsage/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Filesys-DiskUsage/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Food-ECodes">Food-ECodes</a></td>
+          <td><a href="https://metacpan.org/release/Food-ECodes"><img class="backup_picture" alt="CPAN version for Food-ECodes" src="https://img.shields.io/cpan/v/Food-ECodes.svg"></a></td>
+          <td>2019-10-04</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Food-ECodes/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Food-ECodes/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Games-Cards-Pair">Games-Cards-Pair</a></td>
+          <td><a href="https://metacpan.org/release/Games-Cards-Pair"><img class="backup_picture" alt="CPAN version for Games-Cards-Pair" src="https://img.shields.io/cpan/v/Games-Cards-Pair.svg"></a></td>
+          <td>2019-10-01</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Games-Cards-Pair/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Games-Cards-Pair/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Games-Domino">Games-Domino</a></td>
+          <td><a href="https://metacpan.org/release/Games-Domino"><img class="backup_picture" alt="CPAN version for Games-Domino" src="https://img.shields.io/cpan/v/Games-Domino.svg"></a></td>
+          <td>2019-10-02</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Games-Domino/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Games-Domino/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Games-TicTacToe">Games-TicTacToe</a></td>
+          <td><a href="https://metacpan.org/release/Games-TicTacToe"><img class="backup_picture" alt="CPAN version for Games-TicTacToe" src="https://img.shields.io/cpan/v/Games-TicTacToe.svg"></a></td>
+          <td>2019-10-03</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Games-TicTacToe/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Games-TicTacToe/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/guardian-openplatform-api">Guardian-OpenPlatform-API</a></td>
+          <td><a href="https://metacpan.org/release/Guardian-OpenPlatform-API"><img class="backup_picture" alt="CPAN version for Guardian-OpenPlatform-API" src="https://img.shields.io/cpan/v/Guardian-OpenPlatform-API.svg"></a></td>
+          <td>2017-01-01</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/guardian-openplatform-api/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/guardian-openplatform-api/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/IP-CountryFlag">IP-CountryFlag</a></td>
+          <td><a href="https://metacpan.org/release/IP-CountryFlag"><img class="backup_picture" alt="CPAN version for IP-CountryFlag" src="https://img.shields.io/cpan/v/IP-CountryFlag.svg"></a></td>
+          <td>2019-10-08</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/IP-CountryFlag/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/IP-CountryFlag/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/IP-Info">IP-Info</a></td>
+          <td><a href="https://metacpan.org/release/IP-Info"><img class="backup_picture" alt="CPAN version for IP-Info" src="https://img.shields.io/cpan/v/IP-Info.svg"></a></td>
+          <td>2019-10-05</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/IP-Info/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/IP-Info/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Manwar/LWP-UserAgent-Anonymous">LWP-UserAgent-Anonymous</a></td>
+          <td><a href="https://metacpan.org/release/LWP-UserAgent-Anonymous"><img class="backup_picture" alt="CPAN version for LWP-UserAgent-Anonymous" src="https://img.shields.io/cpan/v/LWP-UserAgent-Anonymous.svg"></a></td>
+          <td>2015-10-09</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/Manwar/LWP-UserAgent-Anonymous/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/Manwar/LWP-UserAgent-Anonymous/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Lingua-IND-Numbers">Lingua-IND-Numbers</a></td>
+          <td><a href="https://metacpan.org/release/Lingua-IND-Numbers"><img class="backup_picture" alt="CPAN version for Lingua-IND-Numbers" src="https://img.shields.io/cpan/v/Lingua-IND-Numbers.svg"></a></td>
+          <td>2019-10-31</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Lingua-IND-Numbers/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Lingua-IND-Numbers/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Map-Tube">Map-Tube</a></td>
+          <td><a href="https://metacpan.org/release/Map-Tube"><img class="backup_picture" alt="CPAN version for Map-Tube" src="https://img.shields.io/cpan/v/Map-Tube.svg"></a></td>
+          <td>2019-07-05</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Map-Tube/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Map-Tube/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Map-Tube-API">Map-Tube-API</a></td>
+          <td><a href="https://metacpan.org/release/Map-Tube-API"><img class="backup_picture" alt="CPAN version for Map-Tube-API" src="https://img.shields.io/cpan/v/Map-Tube-API.svg"></a></td>
+          <td>2018-04-18</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Map-Tube-API/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Map-Tube-API/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Map-Tube-Barcelona">Map-Tube-Barcelona</a></td>
+          <td><a href="https://metacpan.org/release/Map-Tube-Barcelona"><img class="backup_picture" alt="CPAN version for Map-Tube-Barcelona" src="https://img.shields.io/cpan/v/Map-Tube-Barcelona.svg"></a></td>
+          <td>2019-08-30</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Map-Tube-Barcelona/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Map-Tube-Barcelona/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Map-Tube-CLI">Map-Tube-CLI</a></td>
+          <td><a href="https://metacpan.org/release/Map-Tube-CLI"><img class="backup_picture" alt="CPAN version for Map-Tube-CLI" src="https://img.shields.io/cpan/v/Map-Tube-CLI.svg"></a></td>
+          <td>2019-09-06</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Map-Tube-CLI/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Map-Tube-CLI/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Map-Tube-Cookbook">Map-Tube-Cookbook</a></td>
+          <td><a href="https://metacpan.org/release/Map-Tube-Cookbook"><img class="backup_picture" alt="CPAN version for Map-Tube-Cookbook" src="https://img.shields.io/cpan/v/Map-Tube-Cookbook.svg"></a></td>
+          <td>2017-04-06</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Map-Tube-Cookbook/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Map-Tube-Cookbook/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Map-Tube-Delhi">Map-Tube-Delhi</a></td>
+          <td><a href="https://metacpan.org/release/Map-Tube-Delhi"><img class="backup_picture" alt="CPAN version for Map-Tube-Delhi" src="https://img.shields.io/cpan/v/Map-Tube-Delhi.svg"></a></td>
+          <td>2019-10-30</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Map-Tube-Delhi/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Map-Tube-Delhi/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Manwar/Map-Tube-Exception">Map-Tube-Exception</a></td>
+          <td><a href="https://metacpan.org/release/Map-Tube-Exception"><img class="backup_picture" alt="CPAN version for Map-Tube-Exception" src="https://img.shields.io/cpan/v/Map-Tube-Exception.svg"></a></td>
+          <td>2019-09-19</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/Manwar/Map-Tube-Exception/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/Manwar/Map-Tube-Exception/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Map-Tube-Kolkatta">Map-Tube-Kolkatta</a></td>
+          <td><a href="https://metacpan.org/release/Map-Tube-Kolkatta"><img class="backup_picture" alt="CPAN version for Map-Tube-Kolkatta" src="https://img.shields.io/cpan/v/Map-Tube-Kolkatta.svg"></a></td>
+          <td>2019-09-01</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Map-Tube-Kolkatta/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Map-Tube-Kolkatta/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Map-Tube-London">Map-Tube-London</a></td>
+          <td><a href="https://metacpan.org/release/Map-Tube-London"><img class="backup_picture" alt="CPAN version for Map-Tube-London" src="https://img.shields.io/cpan/v/Map-Tube-London.svg"></a></td>
+          <td>2019-08-29</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Map-Tube-London/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Map-Tube-London/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Map-Tube-Madrid">Map-Tube-Madrid</a></td>
+          <td><a href="https://metacpan.org/release/Map-Tube-Madrid"><img class="backup_picture" alt="CPAN version for Map-Tube-Madrid" src="https://img.shields.io/cpan/v/Map-Tube-Madrid.svg"></a></td>
+          <td>2019-09-02</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Map-Tube-Madrid/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Map-Tube-Madrid/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Map-Tube-NYC">Map-Tube-NYC</a></td>
+          <td><a href="https://metacpan.org/release/Map-Tube-NYC"><img class="backup_picture" alt="CPAN version for Map-Tube-NYC" src="https://img.shields.io/cpan/v/Map-Tube-NYC.svg"></a></td>
+          <td>2019-09-03</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Map-Tube-NYC/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Map-Tube-NYC/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Map-Tube-Plugin-Formatter">Map-Tube-Plugin-Formatter</a></td>
+          <td><a href="https://metacpan.org/release/Map-Tube-Plugin-Formatter"><img class="backup_picture" alt="CPAN version for Map-Tube-Plugin-Formatter" src="https://img.shields.io/cpan/v/Map-Tube-Plugin-Formatter.svg"></a></td>
+          <td>2019-09-12</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Map-Tube-Plugin-Formatter/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Map-Tube-Plugin-Formatter/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Map-Tube-Plugin-Graph">Map-Tube-Plugin-Graph</a></td>
+          <td><a href="https://metacpan.org/release/Map-Tube-Plugin-Graph"><img class="backup_picture" alt="CPAN version for Map-Tube-Plugin-Graph" src="https://img.shields.io/cpan/v/Map-Tube-Plugin-Graph.svg"></a></td>
+          <td>2019-09-13</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Map-Tube-Plugin-Graph/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Map-Tube-Plugin-Graph/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Map-Tube-Server">Map-Tube-Server</a></td>
+          <td><a href="https://metacpan.org/release/Map-Tube-Server"><img class="backup_picture" alt="CPAN version for Map-Tube-Server" src="https://img.shields.io/cpan/v/Map-Tube-Server.svg"></a></td>
+          <td>2018-04-02</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Map-Tube-Server/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Map-Tube-Server/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Map-Tube-Tokyo">Map-Tube-Tokyo</a></td>
+          <td><a href="https://metacpan.org/release/Map-Tube-Tokyo"><img class="backup_picture" alt="CPAN version for Map-Tube-Tokyo" src="https://img.shields.io/cpan/v/Map-Tube-Tokyo.svg"></a></td>
+          <td>2019-09-04</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Map-Tube-Tokyo/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Map-Tube-Tokyo/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Method-ParamValidator">Method-ParamValidator</a></td>
+          <td><a href="https://metacpan.org/release/Method-ParamValidator"><img class="backup_picture" alt="CPAN version for Method-ParamValidator" src="https://img.shields.io/cpan/v/Method-ParamValidator.svg"></a></td>
+          <td>2019-10-09</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Method-ParamValidator/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Method-ParamValidator/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/MouseX-Params-Validate">MouseX-Params-Validate</a></td>
+          <td><a href="https://metacpan.org/release/MouseX-Params-Validate"><img class="backup_picture" alt="CPAN version for MouseX-Params-Validate" src="https://img.shields.io/cpan/v/MouseX-Params-Validate.svg"></a></td>
+          <td>2016-11-30</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/MouseX-Params-Validate/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/MouseX-Params-Validate/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/net-backpack">Net-Backpack</a></td>
+          <td><a href="https://metacpan.org/release/Net-Backpack"><img class="backup_picture" alt="CPAN version for Net-Backpack" src="https://img.shields.io/cpan/v/Net-Backpack.svg"></a></td>
+          <td>2016-04-11</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/net-backpack/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/net-backpack/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="http://github.com/manwar/pdf-create">PDF-Create</a> <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span></td>
+          <td><a href="https://metacpan.org/release/PDF-Create"><img class="backup_picture" alt="CPAN version for PDF-Create" src="https://img.shields.io/cpan/v/PDF-Create.svg"></a></td>
+          <td>2019-09-30</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/pdf-create/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/pdf-create/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/PadreIDE/Parse-ErrorString-Perl">Parse-ErrorString-Perl</a></td>
+          <td><a href="https://metacpan.org/release/Parse-ErrorString-Perl"><img class="backup_picture" alt="CPAN version for Parse-ErrorString-Perl" src="https://img.shields.io/cpan/v/Parse-ErrorString-Perl.svg"></a></td>
+          <td>2017-07-09</td>
+          <td><a href="https://github.com/PadreIDE/Parse-ErrorString-Perl">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/PadreIDE/Parse-ErrorString-Perl/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/PadreIDE/Parse-ErrorString-Perl/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="http://github.com/manwar/Pod-Tree">Pod-Tree</a> <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span></td>
+          <td><a href="https://metacpan.org/release/Pod-Tree"><img class="backup_picture" alt="CPAN version for Pod-Tree" src="https://img.shields.io/cpan/v/Pod-Tree.svg"></a></td>
+          <td>2019-02-22</td>
+          <td><a href="http://github.com/manwar/Pod-Tree/issues">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/manwar/Pod-Tree/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Pod-Tree/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Regexp-Common-time">Regexp-Common-time</a></td>
+          <td><a href="https://metacpan.org/release/Regexp-Common-time"><img class="backup_picture" alt="CPAN version for Regexp-Common-time" src="https://img.shields.io/cpan/v/Regexp-Common-time.svg"></a></td>
+          <td>2018-02-28</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Regexp-Common-time/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Regexp-Common-time/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/SVG">SVG</a></td>
+          <td><a href="https://metacpan.org/release/SVG"><img class="backup_picture" alt="CPAN version for SVG" src="https://img.shields.io/cpan/v/SVG.svg"></a></td>
+          <td>2020-07-02</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/SVG/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/SVG/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/szabgab/Syntax-Highlight-Engine-Kate">Syntax-Highlight-Engine-Kate</a></td>
+          <td><a href="https://metacpan.org/release/Syntax-Highlight-Engine-Kate"><img class="backup_picture" alt="CPAN version for Syntax-Highlight-Engine-Kate" src="https://img.shields.io/cpan/v/Syntax-Highlight-Engine-Kate.svg"></a></td>
+          <td>2018-01-13</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/szabgab/Syntax-Highlight-Engine-Kate/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/szabgab/Syntax-Highlight-Engine-Kate/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Task-Calendar">Task-Calendar</a></td>
+          <td><a href="https://metacpan.org/release/Task-Calendar"><img class="backup_picture" alt="CPAN version for Task-Calendar" src="https://img.shields.io/cpan/v/Task-Calendar.svg"></a></td>
+          <td>2019-10-28</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Task-Calendar/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Task-Calendar/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Term-ProgressBar">Term-ProgressBar</a></td>
+          <td><a href="https://metacpan.org/release/Term-ProgressBar"><img class="backup_picture" alt="CPAN version for Term-ProgressBar" src="https://img.shields.io/cpan/v/Term-ProgressBar.svg"></a></td>
+          <td>2018-05-12</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Term-ProgressBar/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Term-ProgressBar/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Manwar/Term-Screen-Lite">Term-Screen-Lite</a></td>
+          <td><a href="https://metacpan.org/release/Term-Screen-Lite"><img class="backup_picture" alt="CPAN version for Term-Screen-Lite" src="https://img.shields.io/cpan/v/Term-Screen-Lite.svg"></a></td>
+          <td>2018-01-10</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/Manwar/Term-Screen-Lite/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/Manwar/Term-Screen-Lite/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Test-CSS">Test-CSS</a></td>
+          <td><a href="https://metacpan.org/release/Test-CSS"><img class="backup_picture" alt="CPAN version for Test-CSS" src="https://img.shields.io/cpan/v/Test-CSS.svg"></a></td>
+          <td>2017-09-09</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Test-CSS/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Test-CSS/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Test-Excel">Test-Excel</a></td>
+          <td><a href="https://metacpan.org/release/Test-Excel"><img class="backup_picture" alt="CPAN version for Test-Excel" src="https://img.shields.io/cpan/v/Test-Excel.svg"></a></td>
+          <td>2019-09-22</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Test-Excel/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Test-Excel/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Test-Internet">Test-Internet</a></td>
+          <td><a href="https://metacpan.org/release/Test-Internet"><img class="backup_picture" alt="CPAN version for Test-Internet" src="https://img.shields.io/cpan/v/Test-Internet.svg"></a></td>
+          <td>2017-08-27</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Test-Internet/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Test-Internet/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Test-Map-Tube">Test-Map-Tube</a></td>
+          <td><a href="https://metacpan.org/release/Test-Map-Tube"><img class="backup_picture" alt="CPAN version for Test-Map-Tube" src="https://img.shields.io/cpan/v/Test-Map-Tube.svg"></a></td>
+          <td>2019-09-09</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Test-Map-Tube/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Test-Map-Tube/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="http://github.com/manwar/Test-Strict">Test-Strict</a> <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span></td>
+          <td><a href="https://metacpan.org/release/Test-Strict"><img class="backup_picture" alt="CPAN version for Test-Strict" src="https://img.shields.io/cpan/v/Test-Strict.svg"></a></td>
+          <td>2019-06-16</td>
+          <td><a href="http://github.com/manwar/Test-Strict">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/manwar/Test-Strict/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Test-Strict/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Test-XPath">Test-XPath</a></td>
+          <td><a href="https://metacpan.org/release/Test-XPath"><img class="backup_picture" alt="CPAN version for Test-XPath" src="https://img.shields.io/cpan/v/Test-XPath.svg"></a></td>
+          <td>2018-05-29</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Test-XPath/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Test-XPath/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Text-CSV-Pivot">Text-CSV-Pivot</a></td>
+          <td><a href="https://metacpan.org/release/Text-CSV-Pivot"><img class="backup_picture" alt="CPAN version for Text-CSV-Pivot" src="https://img.shields.io/cpan/v/Text-CSV-Pivot.svg"></a></td>
+          <td>2018-06-25</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Text-CSV-Pivot/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Text-CSV-Pivot/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Text-MostFreqKDistance">Text-MostFreqKDistance</a></td>
+          <td><a href="https://metacpan.org/release/Text-MostFreqKDistance"><img class="backup_picture" alt="CPAN version for Text-MostFreqKDistance" src="https://img.shields.io/cpan/v/Text-MostFreqKDistance.svg"></a></td>
+          <td>2018-09-03</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Text-MostFreqKDistance/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Text-MostFreqKDistance/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/Text-Trac">Text-Trac</a></td>
+          <td><a href="https://metacpan.org/release/Text-Trac"><img class="backup_picture" alt="CPAN version for Text-Trac" src="https://img.shields.io/cpan/v/Text-Trac.svg"></a></td>
+          <td>2018-12-09</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/Text-Trac/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Text-Trac/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="http://github.com/manwar/Time-Warp">Time-Warp</a> <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span></td>
+          <td><a href="https://metacpan.org/release/Time-Warp"><img class="backup_picture" alt="CPAN version for Time-Warp" src="https://img.shields.io/cpan/v/Time-Warp.svg"></a></td>
+          <td>2018-10-08</td>
+          <td><a href="http://github.com/manwar/Time-Warp">&#x1F41E;
+</a></td>
+          <td>            <a href="https://github.com/manwar/Time-Warp/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/Time-Warp/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/URL-Check">URL-Check</a></td>
+          <td><a href="https://metacpan.org/release/URL-Check"><img class="backup_picture" alt="CPAN version for URL-Check" src="https://img.shields.io/cpan/v/URL-Check.svg"></a></td>
+          <td>2016-03-30</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/URL-Check/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/URL-Check/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/WWW-Google-APIDiscovery">WWW-Google-APIDiscovery</a></td>
+          <td><a href="https://metacpan.org/release/WWW-Google-APIDiscovery"><img class="backup_picture" alt="CPAN version for WWW-Google-APIDiscovery" src="https://img.shields.io/cpan/v/WWW-Google-APIDiscovery.svg"></a></td>
+          <td>2019-02-16</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/WWW-Google-APIDiscovery/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/WWW-Google-APIDiscovery/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/WWW-Google-CustomSearch">WWW-Google-CustomSearch</a></td>
+          <td><a href="https://metacpan.org/release/WWW-Google-CustomSearch"><img class="backup_picture" alt="CPAN version for WWW-Google-CustomSearch" src="https://img.shields.io/cpan/v/WWW-Google-CustomSearch.svg"></a></td>
+          <td>2019-02-17</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/WWW-Google-CustomSearch/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/WWW-Google-CustomSearch/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/WWW-Google-DistanceMatrix">WWW-Google-DistanceMatrix</a></td>
+          <td><a href="https://metacpan.org/release/WWW-Google-DistanceMatrix"><img class="backup_picture" alt="CPAN version for WWW-Google-DistanceMatrix" src="https://img.shields.io/cpan/v/WWW-Google-DistanceMatrix.svg"></a></td>
+          <td>2019-02-18</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/WWW-Google-DistanceMatrix/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/WWW-Google-DistanceMatrix/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/WWW-Google-KnowledgeGraphSearch">WWW-Google-KnowledgeGraphSearch</a></td>
+          <td><a href="https://metacpan.org/release/WWW-Google-KnowledgeGraphSearch"><img class="backup_picture" alt="CPAN version for WWW-Google-KnowledgeGraphSearch" src="https://img.shields.io/cpan/v/WWW-Google-KnowledgeGraphSearch.svg"></a></td>
+          <td>2019-02-19</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/WWW-Google-KnowledgeGraphSearch/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/WWW-Google-KnowledgeGraphSearch/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/WWW-Google-PageSpeedOnline">WWW-Google-PageSpeedOnline</a></td>
+          <td><a href="https://metacpan.org/release/WWW-Google-PageSpeedOnline"><img class="backup_picture" alt="CPAN version for WWW-Google-PageSpeedOnline" src="https://img.shields.io/cpan/v/WWW-Google-PageSpeedOnline.svg"></a></td>
+          <td>2019-02-20</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/WWW-Google-PageSpeedOnline/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/WWW-Google-PageSpeedOnline/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/WWW-Google-Places">WWW-Google-Places</a></td>
+          <td><a href="https://metacpan.org/release/WWW-Google-Places"><img class="backup_picture" alt="CPAN version for WWW-Google-Places" src="https://img.shields.io/cpan/v/WWW-Google-Places.svg"></a></td>
+          <td>2019-02-21</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/WWW-Google-Places/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/WWW-Google-Places/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/WWW-Google-UserAgent">WWW-Google-UserAgent</a></td>
+          <td><a href="https://metacpan.org/release/WWW-Google-UserAgent"><img class="backup_picture" alt="CPAN version for WWW-Google-UserAgent" src="https://img.shields.io/cpan/v/WWW-Google-UserAgent.svg"></a></td>
+          <td>2019-02-14</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/WWW-Google-UserAgent/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/WWW-Google-UserAgent/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Manwar/WWW-MovieReviews-NYT">WWW-MovieReviews-NYT</a></td>
+          <td><a href="https://metacpan.org/release/WWW-MovieReviews-NYT"><img class="backup_picture" alt="CPAN version for WWW-MovieReviews-NYT" src="https://img.shields.io/cpan/v/WWW-MovieReviews-NYT.svg"></a></td>
+          <td>2015-01-20</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/Manwar/WWW-MovieReviews-NYT/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/Manwar/WWW-MovieReviews-NYT/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Manwar/WWW-OReillyMedia-Store">WWW-OReillyMedia-Store</a></td>
+          <td><a href="https://metacpan.org/release/WWW-OReillyMedia-Store"><img class="backup_picture" alt="CPAN version for WWW-OReillyMedia-Store" src="https://img.shields.io/cpan/v/WWW-OReillyMedia-Store.svg"></a></td>
+          <td>2015-01-17</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/Manwar/WWW-OReillyMedia-Store/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/Manwar/WWW-OReillyMedia-Store/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/WWW-SmartSheet">WWW-SmartSheet</a></td>
+          <td><a href="https://metacpan.org/release/WWW-SmartSheet"><img class="backup_picture" alt="CPAN version for WWW-SmartSheet" src="https://img.shields.io/cpan/v/WWW-SmartSheet.svg"></a></td>
+          <td>2018-02-18</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/WWW-SmartSheet/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/WWW-SmartSheet/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Manwar/WWW-StatsMix">WWW-StatsMix</a></td>
+          <td><a href="https://metacpan.org/release/WWW-StatsMix"><img class="backup_picture" alt="CPAN version for WWW-StatsMix" src="https://img.shields.io/cpan/v/WWW-StatsMix.svg"></a></td>
+          <td>2015-07-21</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/Manwar/WWW-StatsMix/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/Manwar/WWW-StatsMix/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/WebService-Wikimapia">WebService-Wikimapia</a></td>
+          <td><a href="https://metacpan.org/release/WebService-Wikimapia"><img class="backup_picture" alt="CPAN version for WebService-Wikimapia" src="https://img.shields.io/cpan/v/WebService-Wikimapia.svg"></a></td>
+          <td>2019-04-02</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/WebService-Wikimapia/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/WebService-Wikimapia/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/XML-SAX-Simple">XML-SAX-Simple</a></td>
+          <td><a href="https://metacpan.org/release/XML-SAX-Simple"><img class="backup_picture" alt="CPAN version for XML-SAX-Simple" src="https://img.shields.io/cpan/v/XML-SAX-Simple.svg"></a></td>
+          <td>2016-11-28</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/XML-SAX-Simple/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/XML-SAX-Simple/workflows/CI/badge.svg"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/manwar/XML-XPath">XML-XPath</a></td>
+          <td><a href="https://metacpan.org/release/XML-XPath"><img class="backup_picture" alt="CPAN version for XML-XPath" src="https://img.shields.io/cpan/v/XML-XPath.svg"></a></td>
+          <td>2018-10-11</td>
+          <td><span title="This module doesn't define a bugtracker, so MetaCPAN assumes it uses CPAN RT - which will close on 2021-03-01">&#10068;</span>
+</td>
+          <td>            <a href="https://github.com/manwar/XML-XPath/actions?query=workflow%3ACI"><img class="backup_picture" alt="GH Action CI" src="https://github.com/manwar/XML-XPath/workflows/CI/badge.svg"></a></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <footer>
+CPAN dashboard written by <a href="https://twitter.com/davorg">@davorg</a> / Code on <a href="https://github.com/davorg/dashboard">Github</a> / Please consider <a href="https://github.com/sponsors/davorg">sponsoring davorg</a>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="/js/dashboard.js"></script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-56332-60', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+
+</script>
+  </body>
+</html>
