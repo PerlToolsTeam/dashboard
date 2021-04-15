@@ -2,7 +2,7 @@ name: Generate web page
 
 on:
   push:
-    branches: '*'
+    branches: 'master'
   schedule:
     - cron: '7 */6 * * *'
   workflow_dispatch:
