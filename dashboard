@@ -19,6 +19,7 @@ my $tt = Template->new({
   OUTPUT_PATH  => $global_cfg->{output_dir},
   WRAPPER      => $global_cfg->{wrapper},
   VARIABLES    => {
+    analytics    => $global_cfg->{analytics},
     linked_badge => {
       cpan       => \&cpan_badge_link,
       gh         => \&gh_badge_link,

@@ -10,7 +10,7 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-9VMMR7SVD4');
+      gtag('config', '[% analytics %]');
     </script>
 [% END -%]
     <meta charset="utf-8">
