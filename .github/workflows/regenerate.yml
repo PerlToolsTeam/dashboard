@@ -16,7 +16,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Install cpanm
-      run: apt-get update && apt-get install -y cpanminus
+      run: sudo apt-get update && sudo apt-get install -y cpanminus
 
     - name: Install modules
       run: |
