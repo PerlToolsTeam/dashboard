@@ -23,6 +23,8 @@ jobs:
           cpanm --installdeps --notest .
 
     - name: Create pages
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         mkdir -p docs
         perl dashboard
