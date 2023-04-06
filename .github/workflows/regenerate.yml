@@ -20,7 +20,7 @@ jobs:
 
     - name: Install modules
       run: |
-          cpanm --installdeps --notest .
+          sudo cpanm --installdeps --notest .
 
     - name: Create pages
       env:
