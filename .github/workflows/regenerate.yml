@@ -11,9 +11,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    container:
-      image: perldocker/perl-tester:5.36   # https://hub.docker.com/r/perldocker/perl-tester
-
     steps:
     - name: Checkout
       uses: actions/checkout@v3
