@@ -114,8 +114,12 @@ sub do_author {
     my $repo_uri = URI->new($mod->{repo});
     if ($mod->{repo} =~ /^(http|git)/) {
       my $path = $repo_uri->path;
-      @$mod{qw[repo_owner repo_name]} = (split m|/|, $path, 3)[1, 2];
+      $path =~ s|^/||; # Remove leading slash
+      $path =~ s|\.git$||; # Remove trailing .git
+      @$mod{qw[repo_owner repo_name]} = split m|/|, $path, 2;
       $mod->{repo_name} =~ s/\.git$// if $mod->{repo} =~ /^git/;
+      $mod->{repo_def_branch} = `gh repo view $path --json defaultBranchRef -q .defaultBranchRef.name`;
+      chomp($mod->{repo_def_branch});
     } else {
       warn "Strange repo for $mod->{name} ($mod->{repo}). Skipping.\n";
       next;
@@ -199,8 +203,8 @@ sub travis_badge_link {
   my ($module) = @_;
 
   return badge_link(
-    "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}?branch=master",
-    "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}.svg?branch=master",
+    "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}?branch=$module->{repo_def_branch}",
+    "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}.svg?branch=$module->{repo_def_branch}",
     "Build status for $module->{dist}",
   );
 }
@@ -215,8 +219,8 @@ sub coveralls_badge_link {
   my ($module, $author) = @_;
 
   return badge_link(
-    "https://coveralls.io/github/$module->{repo_owner}/$module->{repo_name}?branch=master",
-    "https://coveralls.io/repos/$module->{repo_owner}/$module->{repo_name}/badge.svg?branch=master&service=github",
+    "https://coveralls.io/github/$module->{repo_owner}/$module->{repo_name}?branch=$module->{repo_def_branch}",
+    "https://coveralls.io/repos/$module->{repo_owner}/$module->{repo_name}/badge.svg?branch=$module->{repo_def_branch}&service=github",
     "Test coverage for $module->{dist}",
   );
 }
@@ -226,7 +230,7 @@ sub codecov_badge_link {
 
   return badge_link(
     "https://codecov.io/gh/$module->{repo_owner}/$module->{repo_name}",
-    "https://codecov.io/gh/$module->{repo_owner}/$module->{repo_name}/branch/master/graph/badge.svg",
+    "https://codecov.io/gh/$module->{repo_owner}/$module->{repo_name}/branch/$module->{repo_def_branch}/graph/badge.svg",
     "Test coverage for $module->{dist}",
   );
 }
@@ -236,7 +240,7 @@ sub kritika_badge_link {
 
   return badge_link(
     "https://kritika.io/users/$author->{github}/repos/$module->{repo_owner}+$module->{repo_name}/",
-    "https://kritika.io/users/$author->{github}/repos/$module->{repo_owner}+$module->{repo_name}/heads/master/status.svg",
+    "https://kritika.io/users/$author->{github}/repos/$module->{repo_owner}+$module->{repo_name}/heads/$module->{repo_def_branch}/status.svg",
     "Kritika grade for $module->{dist}",
   );
 }
