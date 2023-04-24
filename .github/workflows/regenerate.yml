@@ -2,7 +2,7 @@ name: Generate web page
 
 on:
   push:
-    branches: '*'
+    branches: 'master'
   schedule:
     - cron: '7 */6 * * *'
   workflow_dispatch:
@@ -11,18 +11,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    container:
-      image: perldocker/perl-tester:5.30   # https://hub.docker.com/r/perldocker/perl-tester
-
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
+
+    - name: Install cpanm
+      run: sudo apt-get update && sudo apt-get install -y cpanminus
 
     - name: Install modules
       run: |
-          cpanm --installdeps --notest .
+          sudo cpanm --installdeps --notest .
 
     - name: Create pages
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         mkdir -p docs
         perl dashboard
@@ -30,10 +32,11 @@ jobs:
     - name: Commit new page
       if: github.repository == 'davorg/dashboard'
       run: |
+        git config --global --add safe.directory /__w/dashboard/dashboard
         GIT_STATUS=$(git status --porcelain)
         echo $GIT_STATUS
-        git config --global user.name 'Dave Cross'
-        git config --global user.email 'dave@dave.org.uk'
+        git config user.name github-actions[bot]
+        git config user.email 41898282+github-actions[bot]@users.noreply.github.com
         git add docs/
         if [ "$GIT_STATUS" != "" ]; then git commit -m "Automated Web page generation"; fi
         if [ "$GIT_STATUS" != "" ]; then git push; fi
