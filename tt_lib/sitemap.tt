@@ -5,7 +5,7 @@
 [% FOR url IN urls -%]
   <url>
     <loc>[% url %]</loc>
-   <lastmod>[% Date.format(Date.now, '%Y-%m-%d') %]</lastmod>
+    <lastmod>[% Date.format(Date.now, '%Y-%m-%d') %]</lastmod>
   </url>
 [% END -%]
 </urlset>
