@@ -8,7 +8,12 @@ use Getopt::Long;
 use Dashboard::App;
 
 my %opt;
-GetOptions(\%opt, 'gather=i', 'build=i');
+if (@ARGV) {
+  @opt{qw[build gather]} = (0, 0);
+  GetOptions(\%opt, 'gather', 'build');
+} else {
+  @opt{qw[build gather]} = (1, 1);
+}
 
 my $app = Dashboard::App->new(%opt);
 
