@@ -5,34 +5,15 @@ Simple dashboard for monitoring CPAN modules
 
 To configure this system to work with your system, do the following:
 
-* Register with Travis-CI and Coveralls using your Github login
-* Activate the repos that you want to report on in both Travis-CI and Coveralls
-* Add the simple .travis.yml file to your repos
+* Register with Coveralls using your Github login
+* Activate the repos that you want to report on Coveralls
 * Edit the `dashboard.json` file so it is configured correctly
 * Push changes to your repos
 * Run `dashboard`
 
-**Note:** For (slightly) more detail about setting up Travis-CI and Coveralls, see
+**Note:** For (slightly) more detail about setting up Coveralls, see
 [my presentation on the subject](http://www.slideshare.net/davorg/github-travisci-and-perl).
 
-## Sample .travis.yml
-
-A simple .travis.yml for a a CPAN module looks like this.
-
-    language: perl
-    perl:
-      - "5.12"
-      - "5.14"
-      - "5.16"
-      - "5.18"
-      - "5.20"
-
-    before_install:
-      cpanm -n Devel::Cover::Report::Coveralls
-    script:
-      perl Build.PL && ./Build build && cover -test -report coveralls
-
-This works well for most of my CPAN modules.
 
 ## Configuration
 
