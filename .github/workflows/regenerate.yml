@@ -24,6 +24,7 @@ jobs:
 
     - name: Create pages
       env:
+        PERL5LIB: lib
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         mkdir -p docs
