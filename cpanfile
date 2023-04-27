@@ -1,3 +1,4 @@
+requires 'Object::Pad';
 requires 'JSON';
 requires 'Path::Tiny';
 requires 'Template';
