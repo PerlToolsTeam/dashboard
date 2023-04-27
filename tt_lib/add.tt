@@ -53,31 +53,6 @@ to my repo.</li>
   </div>
 
   <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h3 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo"
-                aria-expanded="true" aria-controls="collapseTwo">
-          Travis CI
-        </button>
-      </h3>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-      <div class="card-body">
-        <p>To add your repos to <a href="https://travis-ci.org/">Travis CI</a>, you need to set
-          up an account there. You can log in using your Github credentials. Then sync your repos
-          and switch on the ones that you want Travis CI to work with.</p>
-        <p>You'll then need to add a <tt>.travis.yml</tt> file to your CPAN repos. Travis CI has
-          <a href="https://docs.travis-ci.com/user/languages/perl/">a guide to doing that</a>.
-          Having done this, the next time you commit to the repo, you'll get a test run on the
-          Travis CI site.</p>
-        <p>Note that we support both the .org and .com versions of Travis CI. The author
-          configuration file has a <tt>use_travis</tt> key (for .org) and a
-          <tt>use_travis_com</tt> key (for .com).</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
     <div class="card-header" id="headingThree">
       <h3 class="mb-0">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree"
@@ -88,15 +63,23 @@ to my repo.</li>
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
       <div class="card-body">
-        <p><a href="https://coveralls.io/">Coveralls.io</a> measures your test coverage. Adding
-          your repos here is a lot like adding them to Travis CI. Log in with your Github
-          credentials and turn on the repos that you want to use. You also have too add these
-          lines to your <tt>.travis.yml</tt> file:</p>
+        <p><a href="https://coveralls.io/">Coveralls.io</a> measures your test coverage.  Log in
+          with your Github credentials and turn on the repos that you want to use. You also have to
+          find a way to feed coverage data to your Coveralls.io account. For example, using GitHub
+          Actions, I define a job like this:
         <pre>
-before_install:
-  cpanm -n Devel::Cover::Report::Coveralls Module::Build
-script:
-  perl Build.PL && ./Build build && cover -test -report coveralls
+  coverage:
+    runs-on: ubuntu-latest
+    container: davorg/perl-coveralls:latest
+    name: Test coverage
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install modules
+        run: cpanm -n --installdeps .
+      - name: Coverage
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: cover -test -report Coveralls
         </pre>
         <p>Next time you commit something to one of your repos, you will also get coverage
           information appearing at Coveralls.io.</p>
