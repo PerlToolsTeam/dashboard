@@ -4,17 +4,47 @@ use strict;
 use warnings;
 use 5.010;
 
+use File::Basename;
 use Getopt::Long;
 use Dashboard::App;
 
 my %opt;
 if (@ARGV) {
   @opt{qw[build gather]} = (0, 0);
-  GetOptions(\%opt, 'gather', 'build');
+  GetOptions(\%opt, 'gather', 'build', 'help');
 } else {
   @opt{qw[build gather]} = (1, 1);
+}
+
+if ($opt{help}) {
+  help();
 }
 
 my $app = Dashboard::App->new(%opt);
 
 $app->run;
+
+sub help {
+  my $me = basename $0;
+
+  print <<"EOHELP";
+
+  $me [--gather] [--build]
+  $me --help
+
+$me is the program that generates the CPAN Dashboard web site.
+
+This process is carried out in two stages.
+
+  * gather - will gather all of the information about the CPAN modules
+    that the site is configured to know about
+  * build - will take the data gathered in the first stage and turn it
+    into a web site
+
+Usually, you want to run both stages - so that's what happens if you
+don't give it any command-line options.
+
+EOHELP
+
+  exit;
+}
