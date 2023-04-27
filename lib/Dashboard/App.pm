@@ -1,5 +1,5 @@
 use v5.26;
-use Object::Pad;
+use Object::Pad ':experimental(init_expr)';
 
 class Dashboard::App {
   use strict;
@@ -12,15 +12,25 @@ class Dashboard::App {
   use URI;
   use FindBin '$RealBin';
 
+  field $mcpan { MetaCPAN::Client->new };
+  field $global_cfg { decode_json(path('dashboard.json')->slurp) };
+  field $tt;
+  field @authors;
+  field @all_authors;
+  field @urls;
+  field $run_gather :param(gather) = 1;
+  field $run_build :param(build) = 1;
+
   method run {
-    $self->gather_data;
-    $self->build_site;
+    $self->gather_data if $run_gather;
+    $self->build_site  if $run_build;
   }
 
   method gather_data {
-    my $global_cfg = decode_json(path('dashboard.json')->slurp);
+ 
+    say "Gathering...";
 
-    my $tt = Template->new({
+    $tt = Template->new({
       ENCODING     => 'utf8',
       INCLUDE_PATH => $global_cfg->{input_dir},
       OUTPUT_PATH  => $global_cfg->{output_dir},
@@ -41,11 +51,8 @@ class Dashboard::App {
       },
     });
 
-    my @authors;
-    my @urls;
-
     for (glob "$RealBin/authors/*.json") {
-      push @authors, do_author($tt, $_, $global_cfg);
+      push @authors, $self->do_author($_);
       push @urls, "https://$global_cfg->{domain}/$authors[-1]{cpan}/";
     }
 
@@ -75,91 +82,90 @@ class Dashboard::App {
       'sitemap.xml',
       { binmode => ':utf8' },
     );
+  }
 
-    sub do_author {
-      my ($tt, $file, $global_cfg) = @_;
+  method do_author {
+    my ($file) = @_;
 
-      my $cfg = decode_json(path($file)->slurp);
+    my $cfg = decode_json(path($file)->slurp);
 
-      $cfg->{modules} = [];
+    $cfg->{modules} = [];
 
-      my $mcpan    = MetaCPAN::Client->new;
-      my $author   = $mcpan->author($cfg->{author}{cpan});
-      my $releases = $author->releases;
+    my $mcpan_author = $mcpan->author($cfg->{author}{cpan});
+    my $releases     = $mcpan_author->releases;
 
-      $cfg->{author}{gravatar}     = $author->gravatar_url;
-      $cfg->{author}{name} = $author->name;
+    $cfg->{author}{gravatar} = $mcpan_author->gravatar_url;
+    $cfg->{author}{name}     = $mcpan_author->name;
 
-      while ( my $rel = $releases->next ) {
-        my $mod;
-        $mod->{name} = $rel->name;
-        $mod->{dist} = $rel->distribution;
-        $mod->{date} = (split /T/, $rel->date)[0];
-        # Get the repo link.
-        # 1. It should be in the "web" key
-        # 2. Otherwise, check the "url" key
-        $mod->{repo} = $rel->resources->{repository}{web}
-          // $rel->resources->{repository}{url};
+    while ( my $rel = $releases->next ) {
+      my $mod;
+      $mod->{name} = $rel->name;
+      $mod->{dist} = $rel->distribution;
+      $mod->{date} = (split /T/, $rel->date)[0];
+      # Get the repo link.
+      # 1. It should be in the "web" key
+      # 2. Otherwise, check the "url" key
+      $mod->{repo} = $rel->resources->{repository}{web}
+        // $rel->resources->{repository}{url};
 
-        if ($rel->resources->{bugtracker}{web}) {
-          $mod->{bugtracker} = $rel->resources->{bugtracker}{web};
-          $mod->{uses_rt} = $mod->{bugtracker} =~ /rt.cpan.org/;
-        }
-
-        unless ($mod->{repo}) {
-          warn "No repo for $mod->{name}\n";
-          next;
-        }
-
-        unless (valid_repo($mod->{repo})) {
-          warn "Skipping $mod->{repo}\n";
-          next;
-        }
-
-        $mod->{repo} =~ s[/$][];
-        # We need the repo's name. Try to extract it from the URL
-        my $repo_uri = URI->new($mod->{repo});
-        if ($mod->{repo} =~ /^(http|git)/) {
-          my $path = $repo_uri->path;
-          $path =~ s|^/||; # Remove leading slash
-          $path =~ s|\.git$||; # Remove trailing .git
-          @$mod{qw[repo_owner repo_name]} = split m|/|, $path, 2;
-          $mod->{repo_name} =~ s/\.git$// if $mod->{repo} =~ /^git/;
-          $mod->{repo_def_branch} = `gh repo view $path --json defaultBranchRef -q .defaultBranchRef.name`;
-          chomp($mod->{repo_def_branch});
-        } else {
-          warn "Strange repo for $mod->{name} ($mod->{repo}). Skipping.\n";
-          next;
-        }
-        $mod->{insecure_repo} = $mod->{repo} =~ m|^http:|;
-        push @{ $cfg->{modules} }, $mod;
+       if ($rel->resources->{bugtracker}{web}) {
+        $mod->{bugtracker} = $rel->resources->{bugtracker}{web};
+        $mod->{uses_rt} = $mod->{bugtracker} =~ /rt.cpan.org/;
       }
 
-      $cfg->{modules} = [ sort { $a->{name} cmp $b->{name} } @{$cfg->{modules}} ];
+      unless ($mod->{repo}) {
+        warn "No repo for $mod->{name}\n";
+        next;
+      }
 
-      $cfg->{sort} //= {};
-      $cfg->{sort}{column} //= 0;
-      $cfg->{sort}{column} = 2 if 'date' eq lc $cfg->{sort}{column};
-      $cfg->{sort}{direction} //= 'asc';
+      unless (valid_repo($mod->{repo})) {
+        warn "Skipping $mod->{repo}\n";
+        next;
+      }
 
-      $cfg = {
-        %$cfg,
-        %$global_cfg,
-      };
-
-      $tt->process(
-        $cfg->{author_template},
-        $cfg,
-        "$cfg->{author}{cpan}/index.html",
-        { binmode => ':utf8' },
-      ) or die $tt->error;
-
-      return $cfg->{author};
+      $mod->{repo} =~ s[/$][];
+      # We need the repo's name. Try to extract it from the URL
+      my $repo_uri = URI->new($mod->{repo});
+      if ($mod->{repo} =~ /^(http|git)/) {
+        my $path = $repo_uri->path;
+        $path =~ s|^/||; # Remove leading slash
+        $path =~ s|\.git$||; # Remove trailing .git
+        @$mod{qw[repo_owner repo_name]} = split m|/|, $path, 2;
+        $mod->{repo_name} =~ s/\.git$// if $mod->{repo} =~ /^git/;
+        $mod->{repo_def_branch} = `gh repo view $path --json defaultBranchRef -q .defaultBranchRef.name`;
+        chomp($mod->{repo_def_branch});
+      } else {
+        warn "Strange repo for $mod->{name} ($mod->{repo}). Skipping.\n";
+        next;
+      }
+      $mod->{insecure_repo} = $mod->{repo} =~ m|^http:|;
+      push @{ $cfg->{modules} }, $mod;
     }
+
+    $cfg->{modules} = [ sort { $a->{name} cmp $b->{name} } @{$cfg->{modules}} ];
+
+    $cfg->{sort} //= {};
+    $cfg->{sort}{column} //= 0;
+    $cfg->{sort}{column} = 2 if 'date' eq lc $cfg->{sort}{column};
+    $cfg->{sort}{direction} //= 'asc';
+
+    $cfg = {
+      %$cfg,
+      %$global_cfg,
+    };
+
+    $tt->process(
+      $cfg->{author_template},
+      $cfg,
+      "$cfg->{author}{cpan}/index.html",
+      { binmode => ':utf8' },
+    ) or die $tt->error;
+
+     return $cfg->{author};
   }
 
   method build_site {
-
+    say "Building...";
   }
 
   sub valid_repo {

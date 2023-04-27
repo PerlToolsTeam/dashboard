@@ -4,8 +4,12 @@ use strict;
 use warnings;
 use 5.010;
 
+use Getopt::Long;
 use Dashboard::App;
 
-my $app = Dashboard::App->new;
+my %opt;
+GetOptions(\%opt, 'gather=i', 'build=i');
+
+my $app = Dashboard::App->new(%opt);
 
 $app->run;
