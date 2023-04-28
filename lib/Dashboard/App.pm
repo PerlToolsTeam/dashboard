@@ -22,6 +22,8 @@ class Dashboard::App {
   field @urls;
   field $run_gather :param(gather) = 1;
   field $run_build :param(build) = 1;
+  field $repo_def_branch;
+  field $branch_cache_file = 'repo_def_branch.json';
 
   method run {
     if ($run_gather) {
@@ -37,10 +39,18 @@ class Dashboard::App {
  
     say "Gathering...";
 
+    if (-f $branch_cache_file) {
+      $repo_def_branch = $json->decode(path($branch_cache_file)->slurp_utf8);
+    } else {
+      $repo_def_branch = {};
+    }
+
     for (glob "$RealBin/authors/*.json") {
       push @authors, $self->do_author($_);
       push @urls, "https://$global_cfg->{domain}/$authors[-1]{author}{cpan}/";
     }
+
+    path($branch_cache_file)->spew_utf8($json->encode($repo_def_branch));
   }
 
   method do_author {
@@ -91,7 +101,7 @@ class Dashboard::App {
         $path =~ s|\.git$||; # Remove trailing .git
         @$mod{qw[repo_owner repo_name]} = split m|/|, $path, 2;
         $mod->{repo_name} =~ s/\.git$// if $mod->{repo} =~ /^git/;
-        $mod->{repo_def_branch} = `gh repo view $path --json defaultBranchRef -q .defaultBranchRef.name`;
+        $mod->{repo_def_branch} = $self->get_repo_default_branch($mod);
         chomp($mod->{repo_def_branch});
       } else {
         warn "Strange repo for $mod->{name} ($mod->{repo}). Skipping.\n";
@@ -111,6 +121,21 @@ class Dashboard::App {
     path("docs/$cfg->{author}{cpan}/data.json")->spew_utf8($json->encode($cfg));
 
      return $cfg;
+  }
+
+  method get_repo_default_branch {
+    my ($module) = @_;
+
+    my $path = "$module->{repo_owner}/$module->{repo_name}";
+
+    unless (exists $repo_def_branch->{$module->{repo_owner}} and
+      exists $repo_def_branch->{$module->{repo_owner}}{$module->{repo_name}}) {
+        $repo_def_branch->{$module->{repo_owner}}{$module->{repo_name}}
+          = `gh repo view $path --json defaultBranchRef -q .defaultBranchRef.name`;
+        chomp $repo_def_branch->{$module->{repo_owner}}{$module->{repo_name}};
+    }
+
+    return $repo_def_branch->{$module->{repo_owner}}{$module->{repo_name}};
   }
 
   method load_data {
