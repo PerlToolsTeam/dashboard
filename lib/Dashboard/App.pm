@@ -116,6 +116,7 @@ class Dashboard::App {
   method load_data {
     for (glob "$RealBin/docs/*/data.json") {
       push @authors, decode_json(path($_)->slurp_utf8);
+      push @urls, "https://$global_cfg->{domain}/$authors[-1]{author}{cpan}/";
     }
   }
 
