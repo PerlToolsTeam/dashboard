@@ -1,0 +1,41 @@
+name: Generate web page
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Install cpanm
+      run: sudo apt-get update && sudo apt-get install -y cpanminus
+
+    - name: Install modules
+      run: |
+          sudo cpanm --installdeps --notest .
+
+    - name: Rebuild branch cache
+      env:
+        PERL5LIB: lib
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        perl refresh_branch_cache
+
+    - name: Commit new page
+      if: github.repository == 'davorg/dashboard'
+      run: |
+        git config --global --add safe.directory /__w/dashboard/dashboard
+        GIT_STATUS=$(git status --porcelain)
+        echo $GIT_STATUS
+        git config user.name github-actions[bot]
+        git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+        git add repo_def_branch.json
+        if [ "$GIT_STATUS" != "" ]; then git commit -m "Automated Web page generation"; fi
+        if [ "$GIT_STATUS" != "" ]; then git push; fi
+
