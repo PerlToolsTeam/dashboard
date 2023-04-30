@@ -1,45 +1,45 @@
 {
-   "modules" : [
-      {
-         "insecure_repo" : "",
-         "dist" : "Acme-Be-Modern",
-         "repo_def_branch" : "master",
-         "uses_rt" : "",
-         "bugtracker" : "https://github.com/soren/Acme-Be-Modern/issues",
-         "name" : "Acme-Be-Modern-0.04",
-         "repo_owner" : "soren",
-         "repo" : "https://github.com/soren/Acme-Be-Modern",
-         "date" : "2020-11-11",
-         "repo_name" : "Acme-Be-Modern"
-      },
-      {
-         "repo_owner" : "soren",
-         "repo" : "https://github.com/soren/App-TimeClock",
-         "name" : "App-TimeClock-0.13",
-         "date" : "2017-01-04",
-         "repo_name" : "App-TimeClock",
-         "repo_def_branch" : "master",
-         "dist" : "App-TimeClock",
-         "insecure_repo" : "",
-         "bugtracker" : "https://github.com/soren/App-TimeClock/issues",
-         "uses_rt" : ""
-      }
-   ],
-   "author" : {
-      "gravatar" : "https://secure.gravatar.com/avatar/73a36c0741de4c5e128a31f3db4f90b3?s=130&d=identicon",
-      "name" : "SÃ¸ren Lund",
-      "cpan" : "SLU",
-      "github" : "soren"
-   },
    "ci" : {
-      "use_coveralls" : 1,
       "use_travis" : 1,
-      "use_kritika" : 0,
+      "gh_workflow_names" : [],
+      "use_coveralls" : 1,
       "use_gh_actions" : 0,
-      "gh_workflow_names" : []
+      "use_kritika" : 0
    },
    "sort" : {
-      "column" : "0",
-      "direction" : "asc"
-   }
+      "direction" : "asc",
+      "column" : "0"
+   },
+   "author" : {
+      "github" : "soren",
+      "name" : "SÃ¸ren Lund",
+      "cpan" : "SLU",
+      "gravatar" : "https://secure.gravatar.com/avatar/73a36c0741de4c5e128a31f3db4f90b3?s=130&d=identicon"
+   },
+   "modules" : [
+      {
+         "repo_owner" : "soren",
+         "repo_name" : "Acme-Be-Modern",
+         "dist" : "Acme-Be-Modern",
+         "bugtracker" : "https://github.com/soren/Acme-Be-Modern/issues",
+         "name" : "Acme-Be-Modern-0.04",
+         "uses_rt" : "",
+         "repo_def_branch" : "master",
+         "date" : "2020-11-11",
+         "repo" : "https://github.com/soren/Acme-Be-Modern",
+         "insecure_repo" : ""
+      },
+      {
+         "date" : "2017-01-04",
+         "repo" : "https://github.com/soren/App-TimeClock",
+         "insecure_repo" : "",
+         "repo_def_branch" : "master",
+         "name" : "App-TimeClock-0.13",
+         "uses_rt" : "",
+         "bugtracker" : "https://github.com/soren/App-TimeClock/issues",
+         "repo_owner" : "soren",
+         "dist" : "App-TimeClock",
+         "repo_name" : "App-TimeClock"
+      }
+   ]
 }
