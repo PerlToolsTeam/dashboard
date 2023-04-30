@@ -1,0 +1,33 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use feature 'say';
+
+use Path::Tiny;
+use JSON;
+
+my $json = JSON->new->pretty->utf8;
+my $branch_cache_file = 'repo_def_branch.json';
+
+unless (-f $branch_cache_file) {
+  die "Cache file ($branch_cache_file) doesn't exist. Stopping.\n";
+}
+
+my $repo_def_branch = $json->decode(path($branch_cache_file)->slurp_utf8);
+
+OWNER:
+for my $owner (keys %$repo_def_branch) {
+  for my $repo (keys %{ $repo_def_branch->{$owner} }) {
+    warn "$owner/$repo\n";
+    my $branch =
+      `gh repo view "$owner/$repo" --json defaultBranchRef -q .defaultBranchRef.name`;
+
+    # last OWNER if $?;
+
+    chomp $branch;
+    $repo_def_branch->{$owner}{$repo} = $branch;
+  }
+}
+
+path($branch_cache_file)->spew_utf8($json->encode($repo_def_branch));
