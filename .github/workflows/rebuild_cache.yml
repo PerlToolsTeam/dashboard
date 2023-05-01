@@ -1,4 +1,4 @@
-name: Generate web page
+name: Rebuild default branch cache
 
 on:
   schedule:
