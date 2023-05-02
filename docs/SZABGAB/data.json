@@ -1,294 +1,294 @@
 {
-   "modules" : [
-      {
-         "repo_owner" : "szabgab",
-         "repo_def_branch" : "master",
-         "repo" : "https://github.com/szabgab/App-PerlTidy-Tk",
-         "uses_rt" : "",
-         "bugtracker" : "https://github.com/szabgab/App-PerlTidy-Tk/issues",
-         "repo_name" : "App-PerlTidy-Tk",
-         "date" : "2020-11-16",
-         "name" : "App-PerlTidy-Tk-0.03",
-         "dist" : "App-PerlTidy-Tk",
-         "insecure_repo" : ""
-      },
-      {
-         "insecure_repo" : "",
-         "dist" : "App-Tk-Deparse",
-         "name" : "App-Tk-Deparse-0.02",
-         "date" : "2020-11-04",
-         "bugtracker" : "https://github.com/szabgab/App-Tk-Deparse/issues",
-         "repo_name" : "App-Tk-Deparse",
-         "uses_rt" : "",
-         "repo_owner" : "szabgab",
-         "repo_def_branch" : "master",
-         "repo" : "https://github.com/szabgab/App-Tk-Deparse"
-      },
-      {
-         "insecure_repo" : "",
-         "dist" : "CAM-PDF-Annot",
-         "name" : "CAM-PDF-Annot-0.09",
-         "date" : "2014-09-08",
-         "repo_name" : "CAM-PDF-Annot",
-         "repo" : "https://github.com/szabgab/CAM-PDF-Annot",
-         "repo_def_branch" : "master",
-         "repo_owner" : "szabgab"
-      },
-      {
-         "repo_owner" : "szabgab",
-         "repo" : "https://github.com/szabgab/CPAN-Digger",
-         "repo_def_branch" : "master",
-         "uses_rt" : "",
-         "bugtracker" : "https://github.com/szabgab/CPAN-Digger/issues",
-         "repo_name" : "CPAN-Digger",
-         "date" : "2020-11-12",
-         "name" : "CPAN-Digger-1.04",
-         "dist" : "CPAN-Digger",
-         "insecure_repo" : ""
-      },
-      {
-         "dist" : "CPAN-Test-Dummy-SCO-Lacks",
-         "insecure_repo" : "",
-         "name" : "CPAN-Test-Dummy-SCO-Lacks-0.01",
-         "repo_name" : "CPAN-Test-Dummy-SCO",
-         "date" : "2014-10-28",
-         "repo_owner" : "szabgab",
-         "repo_def_branch" : "master",
-         "repo" : "git://github.com/szabgab/CPAN-Test-Dummy-SCO.git"
-      },
-      {
-         "dist" : "CPAN-Test-Dummy-SCO-Pirated",
-         "insecure_repo" : "1",
-         "name" : "CPAN-Test-Dummy-SCO-Pirated-1.04",
-         "repo_name" : "CPAN-Test-Dummy-SCO",
-         "date" : "2014-10-31",
-         "repo_def_branch" : "master",
-         "repo" : "http://github.com/szabgab/CPAN-Test-Dummy-SCO",
-         "repo_owner" : "szabgab"
-      },
-      {
-         "name" : "CPAN-Test-Dummy-SCO-Special-0.04",
-         "dist" : "CPAN-Test-Dummy-SCO-Special",
-         "insecure_repo" : "1",
-         "repo_def_branch" : "master",
-         "repo" : "http://github.com/szabgab/CPAN-Test-Dummy-SCO",
-         "repo_owner" : "szabgab",
-         "repo_name" : "CPAN-Test-Dummy-SCO",
-         "date" : "2014-10-28"
-      },
-      {
-         "name" : "File-Tools-0.09",
-         "insecure_repo" : "",
-         "dist" : "File-Tools",
-         "repo" : "https://github.com/szabgab/File-Tools",
-         "repo_def_branch" : "master",
-         "repo_owner" : "szabgab",
-         "date" : "2013-10-17",
-         "repo_name" : "File-Tools"
-      },
-      {
-         "name" : "Games-Sudoku-CLI-0.02",
-         "insecure_repo" : "1",
-         "dist" : "Games-Sudoku-CLI",
-         "repo_owner" : "szabgab",
-         "repo" : "http://github.com/szabgab/perl5-Games-Sudoku-CLI",
-         "repo_def_branch" : "master",
-         "date" : "2017-10-25",
-         "repo_name" : "perl5-Games-Sudoku-CLI"
-      },
-      {
-         "name" : "Markua-Parser-0.01",
-         "insecure_repo" : "",
-         "dist" : "Markua-Parser",
-         "uses_rt" : "",
-         "repo" : "https://github.com/szabgab/perl5-markua-parser",
-         "repo_def_branch" : "master",
-         "repo_owner" : "szabgab",
-         "date" : "2018-03-28",
-         "repo_name" : "perl5-markua-parser",
-         "bugtracker" : "https://github.com/szabgab/perl5-markua-parser/issues"
-      },
-      {
-         "date" : "2012-07-27",
-         "repo_name" : "Math-RPN",
-         "repo_owner" : "szabgab",
-         "repo" : "https://github.com/szabgab/Math-RPN",
-         "repo_def_branch" : "master",
-         "insecure_repo" : "",
-         "dist" : "Math-RPN",
-         "name" : "Math-RPN-1.11"
-      },
-      {
-         "bugtracker" : "https://github.com/szabgab/MetaCPAN-Clients/issues",
-         "repo_name" : "MetaCPAN-Clients",
-         "date" : "2020-11-17",
-         "repo_owner" : "szabgab",
-         "repo_def_branch" : "master",
-         "repo" : "https://github.com/szabgab/MetaCPAN-Clients",
-         "uses_rt" : "",
-         "dist" : "MetaCPAN-Clients",
-         "insecure_repo" : "",
-         "name" : "MetaCPAN-Clients-1.00"
-      },
-      {
-         "uses_rt" : "",
-         "repo_owner" : "PadreIDE",
-         "repo" : "https://github.com/PadreIDE/Parse-Functions",
-         "repo_def_branch" : "master",
-         "date" : "2014-09-12",
-         "bugtracker" : "https://github.com/PadreIDE/Parse-Functions/issues",
-         "repo_name" : "Parse-Functions",
-         "name" : "Parse-Functions-0.01",
-         "insecure_repo" : "",
-         "dist" : "Parse-Functions"
-      },
-      {
-         "insecure_repo" : "",
-         "dist" : "Pipe",
-         "name" : "Pipe-0.05",
-         "date" : "2012-05-18",
-         "repo_name" : "Pipe",
-         "repo_owner" : "szabgab",
-         "repo_def_branch" : "master",
-         "repo" : "https://github.com/szabgab/Pipe"
-      },
-      {
-         "insecure_repo" : "",
-         "dist" : "Pipe-Tube-Csv",
-         "name" : "Pipe-Tube-Csv-0.04",
-         "date" : "2012-05-21",
-         "repo_name" : "Pipe-Tube-Csv",
-         "repo_def_branch" : "master",
-         "repo" : "https://github.com/szabgab/Pipe-Tube-Csv",
-         "repo_owner" : "szabgab"
-      },
-      {
-         "date" : "2014-05-24",
-         "repo_name" : "Task-DWIM",
-         "repo_owner" : "dwimperl",
-         "repo_def_branch" : "master",
-         "repo" : "https://github.com/dwimperl/Task-DWIM",
-         "insecure_repo" : "",
-         "dist" : "Task-DWIM-Linux",
-         "name" : "Task-DWIM-Linux-0.10"
-      },
-      {
-         "repo_def_branch" : "master",
-         "repo" : "https://github.com/szabgab/Task-Test",
-         "repo_owner" : "szabgab",
-         "uses_rt" : "",
-         "repo_name" : "Task-Test",
-         "bugtracker" : "https://github.com/szabgab/Task-Test",
-         "date" : "2014-08-14",
-         "name" : "Task-Test-0.06",
-         "dist" : "Task-Test",
-         "insecure_repo" : ""
-      },
-      {
-         "repo_def_branch" : "master",
-         "repo" : "https://github.com/szabgab/Term-ReadPassword-Win32",
-         "repo_owner" : "szabgab",
-         "date" : "2014-08-26",
-         "repo_name" : "Term-ReadPassword-Win32",
-         "name" : "Term-ReadPassword-Win32-0.05",
-         "insecure_repo" : "",
-         "dist" : "Term-ReadPassword-Win32"
-      },
-      {
-         "name" : "Test-CircularDependencies-0.02",
-         "dist" : "Test-CircularDependencies",
-         "insecure_repo" : "1",
-         "repo_owner" : "szabgab",
-         "repo" : "http://github.com/szabgab/Test-CircularDependencies",
-         "repo_def_branch" : "master",
-         "uses_rt" : "",
-         "bugtracker" : "http://github.com/szabgab/Test-CircularDependencies",
-         "repo_name" : "Test-CircularDependencies",
-         "date" : "2015-09-23"
-      },
-      {
-         "dist" : "Test-Class",
-         "insecure_repo" : "",
-         "name" : "Test-Class-0.52",
-         "bugtracker" : "https://github.com/szabgab/test-class/issues",
-         "repo_name" : "test-class",
-         "date" : "2021-02-17",
-         "repo_owner" : "szabgab",
-         "repo_def_branch" : "master",
-         "repo" : "https://github.com/szabgab/test-class",
-         "uses_rt" : ""
-      },
-      {
-         "name" : "Test-Snapshots-0.02",
-         "dist" : "Test-Snapshots",
-         "insecure_repo" : "1",
-         "repo_owner" : "szabgab",
-         "repo" : "http://github.com/szabgab/test-snapshots",
-         "repo_def_branch" : "master",
-         "repo_name" : "test-snapshots",
-         "date" : "2009-04-10"
-      },
-      {
-         "insecure_repo" : "1",
-         "dist" : "Text-MediawikiFormat",
-         "name" : "Text-MediawikiFormat-1.04",
-         "date" : "2014-12-01",
-         "repo_name" : "Text-MediawikiFormat",
-         "bugtracker" : "http://github.com/szabgab/Text-MediawikiFormat/issues",
-         "uses_rt" : "",
-         "repo_def_branch" : "master",
-         "repo" : "http://github.com/szabgab/Text-MediawikiFormat",
-         "repo_owner" : "szabgab"
-      },
-      {
-         "insecure_repo" : "",
-         "dist" : "WWW-AdServer",
-         "name" : "WWW-AdServer-1.01",
-         "date" : "2013-09-27",
-         "repo_name" : "WWW-AdServer",
-         "repo" : "https://github.com/szabgab/WWW-AdServer",
-         "repo_def_branch" : "master",
-         "repo_owner" : "szabgab"
-      },
-      {
-         "insecure_repo" : "1",
-         "dist" : "Web-Feed",
-         "name" : "Web-Feed-0.11",
-         "date" : "2016-09-11",
-         "repo_name" : "Web-Feed",
-         "repo_def_branch" : "master",
-         "repo" : "http://github.com/szabgab/Web-Feed",
-         "repo_owner" : "szabgab"
-      },
-      {
-         "insecure_repo" : "",
-         "dist" : "WebService-GData",
-         "name" : "WebService-GData-0.06",
-         "date" : "2013-10-18",
-         "repo_name" : "WebService-GData",
-         "repo_owner" : "szabgab",
-         "repo" : "https://github.com/szabgab/WebService-GData",
-         "repo_def_branch" : "master"
-      }
-   ],
    "ci" : {
+      "use_coveralls" : 1,
+      "use_kritika" : 0,
+      "use_gh_actions" : 1,
       "use_codecov" : 0,
       "use_travis" : 1,
       "gh_workflow_names" : [
          "CI"
-      ],
-      "use_kritika" : 0,
-      "use_gh_actions" : 1,
-      "use_coveralls" : 1
+      ]
+   },
+   "modules" : [
+      {
+         "date" : "2020-11-16",
+         "bugtracker" : "https://github.com/szabgab/App-PerlTidy-Tk/issues",
+         "uses_rt" : "",
+         "name" : "App-PerlTidy-Tk-0.03",
+         "dist" : "App-PerlTidy-Tk",
+         "repo" : "https://github.com/szabgab/App-PerlTidy-Tk",
+         "repo_owner" : "szabgab",
+         "repo_def_branch" : "master",
+         "insecure_repo" : "",
+         "repo_name" : "App-PerlTidy-Tk"
+      },
+      {
+         "uses_rt" : "",
+         "bugtracker" : "https://github.com/szabgab/App-Tk-Deparse/issues",
+         "name" : "App-Tk-Deparse-0.02",
+         "date" : "2020-11-04",
+         "dist" : "App-Tk-Deparse",
+         "repo" : "https://github.com/szabgab/App-Tk-Deparse",
+         "repo_owner" : "szabgab",
+         "repo_def_branch" : "master",
+         "repo_name" : "App-Tk-Deparse",
+         "insecure_repo" : ""
+      },
+      {
+         "name" : "CAM-PDF-Annot-0.09",
+         "date" : "2014-09-08",
+         "dist" : "CAM-PDF-Annot",
+         "repo" : "https://github.com/szabgab/CAM-PDF-Annot",
+         "repo_def_branch" : "master",
+         "repo_owner" : "szabgab",
+         "repo_name" : "CAM-PDF-Annot",
+         "insecure_repo" : ""
+      },
+      {
+         "insecure_repo" : "",
+         "repo_name" : "CPAN-Digger",
+         "repo_def_branch" : "master",
+         "repo_owner" : "szabgab",
+         "repo" : "https://github.com/szabgab/CPAN-Digger",
+         "dist" : "CPAN-Digger",
+         "date" : "2020-11-12",
+         "name" : "CPAN-Digger-1.04",
+         "uses_rt" : "",
+         "bugtracker" : "https://github.com/szabgab/CPAN-Digger/issues"
+      },
+      {
+         "date" : "2014-10-28",
+         "name" : "CPAN-Test-Dummy-SCO-Lacks-0.01",
+         "repo" : "git://github.com/szabgab/CPAN-Test-Dummy-SCO.git",
+         "dist" : "CPAN-Test-Dummy-SCO-Lacks",
+         "repo_def_branch" : "master",
+         "repo_owner" : "szabgab",
+         "insecure_repo" : "",
+         "repo_name" : "CPAN-Test-Dummy-SCO"
+      },
+      {
+         "repo_owner" : "szabgab",
+         "repo_def_branch" : "master",
+         "repo_name" : "CPAN-Test-Dummy-SCO",
+         "insecure_repo" : "1",
+         "name" : "CPAN-Test-Dummy-SCO-Pirated-1.04",
+         "date" : "2014-10-31",
+         "repo" : "http://github.com/szabgab/CPAN-Test-Dummy-SCO",
+         "dist" : "CPAN-Test-Dummy-SCO-Pirated"
+      },
+      {
+         "repo_def_branch" : "master",
+         "repo_owner" : "szabgab",
+         "insecure_repo" : "1",
+         "repo_name" : "CPAN-Test-Dummy-SCO",
+         "date" : "2014-10-28",
+         "name" : "CPAN-Test-Dummy-SCO-Special-0.04",
+         "repo" : "http://github.com/szabgab/CPAN-Test-Dummy-SCO",
+         "dist" : "CPAN-Test-Dummy-SCO-Special"
+      },
+      {
+         "repo_name" : "File-Tools",
+         "insecure_repo" : "",
+         "repo_owner" : "szabgab",
+         "repo_def_branch" : "master",
+         "dist" : "File-Tools",
+         "repo" : "https://github.com/szabgab/File-Tools",
+         "name" : "File-Tools-0.09",
+         "date" : "2013-10-17"
+      },
+      {
+         "repo_def_branch" : "master",
+         "repo_owner" : "szabgab",
+         "repo_name" : "perl5-Games-Sudoku-CLI",
+         "insecure_repo" : "1",
+         "name" : "Games-Sudoku-CLI-0.02",
+         "date" : "2017-10-25",
+         "dist" : "Games-Sudoku-CLI",
+         "repo" : "http://github.com/szabgab/perl5-Games-Sudoku-CLI"
+      },
+      {
+         "date" : "2018-03-28",
+         "bugtracker" : "https://github.com/szabgab/perl5-markua-parser/issues",
+         "uses_rt" : "",
+         "name" : "Markua-Parser-0.01",
+         "dist" : "Markua-Parser",
+         "repo" : "https://github.com/szabgab/perl5-markua-parser",
+         "repo_def_branch" : "master",
+         "repo_owner" : "szabgab",
+         "insecure_repo" : "",
+         "repo_name" : "perl5-markua-parser"
+      },
+      {
+         "repo_def_branch" : "master",
+         "repo_owner" : "szabgab",
+         "repo_name" : "Math-RPN",
+         "insecure_repo" : "",
+         "name" : "Math-RPN-1.11",
+         "date" : "2012-07-27",
+         "dist" : "Math-RPN",
+         "repo" : "https://github.com/szabgab/Math-RPN"
+      },
+      {
+         "repo_owner" : "szabgab",
+         "repo_def_branch" : "master",
+         "insecure_repo" : "",
+         "repo_name" : "MetaCPAN-Clients",
+         "date" : "2020-11-17",
+         "name" : "MetaCPAN-Clients-1.00",
+         "bugtracker" : "https://github.com/szabgab/MetaCPAN-Clients/issues",
+         "uses_rt" : "",
+         "repo" : "https://github.com/szabgab/MetaCPAN-Clients",
+         "dist" : "MetaCPAN-Clients"
+      },
+      {
+         "insecure_repo" : "",
+         "repo_name" : "Parse-Functions",
+         "repo_def_branch" : "master",
+         "repo_owner" : "PadreIDE",
+         "dist" : "Parse-Functions",
+         "repo" : "https://github.com/PadreIDE/Parse-Functions",
+         "date" : "2014-09-12",
+         "bugtracker" : "https://github.com/PadreIDE/Parse-Functions/issues",
+         "uses_rt" : "",
+         "name" : "Parse-Functions-0.01"
+      },
+      {
+         "repo_name" : "Pipe",
+         "insecure_repo" : "",
+         "repo_owner" : "szabgab",
+         "repo_def_branch" : "master",
+         "dist" : "Pipe",
+         "repo" : "https://github.com/szabgab/Pipe",
+         "name" : "Pipe-0.05",
+         "date" : "2012-05-18"
+      },
+      {
+         "repo" : "https://github.com/szabgab/Pipe-Tube-Csv",
+         "dist" : "Pipe-Tube-Csv",
+         "date" : "2012-05-21",
+         "name" : "Pipe-Tube-Csv-0.04",
+         "insecure_repo" : "",
+         "repo_name" : "Pipe-Tube-Csv",
+         "repo_owner" : "szabgab",
+         "repo_def_branch" : "master"
+      },
+      {
+         "insecure_repo" : "",
+         "repo_name" : "Task-DWIM",
+         "repo_owner" : "dwimperl",
+         "repo_def_branch" : "master",
+         "repo" : "https://github.com/dwimperl/Task-DWIM",
+         "dist" : "Task-DWIM-Linux",
+         "date" : "2014-05-24",
+         "name" : "Task-DWIM-Linux-0.10"
+      },
+      {
+         "name" : "Task-Test-0.06",
+         "uses_rt" : "",
+         "bugtracker" : "https://github.com/szabgab/Task-Test",
+         "date" : "2014-08-14",
+         "repo" : "https://github.com/szabgab/Task-Test",
+         "dist" : "Task-Test",
+         "repo_def_branch" : "master",
+         "repo_owner" : "szabgab",
+         "repo_name" : "Task-Test",
+         "insecure_repo" : ""
+      },
+      {
+         "repo_owner" : "szabgab",
+         "repo_def_branch" : "master",
+         "repo_name" : "Term-ReadPassword-Win32",
+         "insecure_repo" : "",
+         "name" : "Term-ReadPassword-Win32-0.05",
+         "date" : "2014-08-26",
+         "repo" : "https://github.com/szabgab/Term-ReadPassword-Win32",
+         "dist" : "Term-ReadPassword-Win32"
+      },
+      {
+         "name" : "Test-CircularDependencies-0.02",
+         "bugtracker" : "http://github.com/szabgab/Test-CircularDependencies",
+         "uses_rt" : "",
+         "date" : "2015-09-23",
+         "repo" : "http://github.com/szabgab/Test-CircularDependencies",
+         "dist" : "Test-CircularDependencies",
+         "repo_def_branch" : "master",
+         "repo_owner" : "szabgab",
+         "repo_name" : "Test-CircularDependencies",
+         "insecure_repo" : "1"
+      },
+      {
+         "repo" : "https://github.com/szabgab/test-class",
+         "dist" : "Test-Class",
+         "date" : "2021-02-17",
+         "name" : "Test-Class-0.52",
+         "bugtracker" : "https://github.com/szabgab/test-class/issues",
+         "uses_rt" : "",
+         "insecure_repo" : "",
+         "repo_name" : "test-class",
+         "repo_def_branch" : "master",
+         "repo_owner" : "szabgab"
+      },
+      {
+         "insecure_repo" : "1",
+         "repo_name" : "test-snapshots",
+         "repo_owner" : "szabgab",
+         "repo_def_branch" : "master",
+         "dist" : "Test-Snapshots",
+         "repo" : "http://github.com/szabgab/test-snapshots",
+         "date" : "2009-04-10",
+         "name" : "Test-Snapshots-0.02"
+      },
+      {
+         "repo_owner" : "szabgab",
+         "repo_def_branch" : "master",
+         "insecure_repo" : "1",
+         "repo_name" : "Text-MediawikiFormat",
+         "date" : "2014-12-01",
+         "bugtracker" : "http://github.com/szabgab/Text-MediawikiFormat/issues",
+         "uses_rt" : "",
+         "name" : "Text-MediawikiFormat-1.04",
+         "dist" : "Text-MediawikiFormat",
+         "repo" : "http://github.com/szabgab/Text-MediawikiFormat"
+      },
+      {
+         "repo_owner" : "szabgab",
+         "repo_def_branch" : "master",
+         "insecure_repo" : "",
+         "repo_name" : "WWW-AdServer",
+         "date" : "2013-09-27",
+         "name" : "WWW-AdServer-1.01",
+         "repo" : "https://github.com/szabgab/WWW-AdServer",
+         "dist" : "WWW-AdServer"
+      },
+      {
+         "repo_name" : "Web-Feed",
+         "insecure_repo" : "1",
+         "repo_owner" : "szabgab",
+         "repo_def_branch" : "master",
+         "dist" : "Web-Feed",
+         "repo" : "http://github.com/szabgab/Web-Feed",
+         "name" : "Web-Feed-0.11",
+         "date" : "2016-09-11"
+      },
+      {
+         "dist" : "WebService-GData",
+         "repo" : "https://github.com/szabgab/WebService-GData",
+         "name" : "WebService-GData-0.06",
+         "date" : "2013-10-18",
+         "repo_name" : "WebService-GData",
+         "insecure_repo" : "",
+         "repo_def_branch" : "master",
+         "repo_owner" : "szabgab"
+      }
+   ],
+   "author" : {
+      "gravatar" : "https://secure.gravatar.com/avatar/19821078d3ecf265b2af009548e98ef3?s=130&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2F4e0a6fe2acda5df6095514e7d6329e91%3Fs%3D130%26d%3Didenticon",
+      "name" : "×××××¨ ×¡×× - GÃ¡bor SzabÃ³",
+      "github" : "szabgab",
+      "cpan" : "SZABGAB"
    },
    "sort" : {
       "direction" : "desc",
       "column" : 2
-   },
-   "author" : {
-      "gravatar" : "https://secure.gravatar.com/avatar/19821078d3ecf265b2af009548e98ef3?s=130&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2F4e0a6fe2acda5df6095514e7d6329e91%3Fs%3D130%26d%3Didenticon",
-      "github" : "szabgab",
-      "cpan" : "SZABGAB",
-      "name" : "×××××¨ ×¡×× - GÃ¡bor SzabÃ³"
    }
 }
