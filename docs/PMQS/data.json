@@ -1,185 +1,185 @@
 {
+   "author" : {
+      "name" : "Paul Marquess",
+      "gravatar" : "https://secure.gravatar.com/avatar/1bf245ac173d6991ade027315ff58683?s=130&d=identicon",
+      "cpan" : "PMQS",
+      "github" : "pmqs"
+   },
    "sort" : {
-      "direction" : "asc",
-      "column" : "0"
+      "column" : "0",
+      "direction" : "asc"
    },
    "modules" : [
       {
-         "uses_rt" : "",
-         "repo_def_branch" : "main",
-         "bugtracker" : "https://github.com/pmqs/zipdetails/issues",
-         "repo_name" : "zipdetails",
          "repo" : "https://github.com/pmqs/zipdetails",
          "name" : "App-zipdetails-2.108",
-         "repo_owner" : "pmqs",
-         "insecure_repo" : "",
-         "dist" : "App-zipdetails",
-         "date" : "2022-07-22"
-      },
-      {
          "uses_rt" : "",
-         "repo_name" : "Archive-Zip-SimpleZip",
-         "bugtracker" : "https://github.com/pmqs/Archive-Zip-SimpleZip/issues",
-         "repo_def_branch" : "master",
-         "dist" : "Archive-Zip-SimpleZip",
-         "date" : "2022-06-25",
-         "name" : "Archive-Zip-SimpleZip-1.000",
-         "repo" : "https://github.com/pmqs/Archive-Zip-SimpleZip",
-         "insecure_repo" : "",
-         "repo_owner" : "pmqs"
+         "dist" : "App-zipdetails",
+         "repo_name" : "zipdetails",
+         "date" : "2022-07-22",
+         "repo_owner" : "pmqs",
+         "repo_def_branch" : "main",
+         "bugtracker" : "https://github.com/pmqs/zipdetails/issues",
+         "insecure_repo" : ""
       },
       {
-         "insecure_repo" : "",
+         "repo" : "https://github.com/pmqs/Archive-Zip-SimpleZip",
+         "name" : "Archive-Zip-SimpleZip-1.000",
+         "uses_rt" : "",
+         "date" : "2022-06-25",
+         "repo_name" : "Archive-Zip-SimpleZip",
+         "dist" : "Archive-Zip-SimpleZip",
+         "repo_def_branch" : "master",
          "repo_owner" : "pmqs",
-         "name" : "BerkeleyDB-0.65",
+         "bugtracker" : "https://github.com/pmqs/Archive-Zip-SimpleZip/issues",
+         "insecure_repo" : ""
+      },
+      {
          "repo" : "https://github.com/pmqs/BerkeleyDB",
-         "date" : "2022-05-13",
+         "name" : "BerkeleyDB-0.65",
          "dist" : "BerkeleyDB",
          "repo_name" : "BerkeleyDB",
-         "repo_def_branch" : "master",
+         "date" : "2022-05-13",
+         "uses_rt" : "",
+         "insecure_repo" : "",
          "bugtracker" : "https://github.com/pmqs/BerkeleyDB/issues",
-         "uses_rt" : ""
+         "repo_owner" : "pmqs",
+         "repo_def_branch" : "master"
       },
       {
-         "date" : "2023-02-08",
-         "dist" : "Compress-Raw-Bzip2",
-         "repo_owner" : "pmqs",
          "insecure_repo" : "",
-         "repo" : "https://github.com/pmqs/Compress-Raw-Bzip2",
-         "name" : "Compress-Raw-Bzip2-2.204",
-         "repo_def_branch" : "master",
          "bugtracker" : "https://github.com/pmqs/Compress-Raw-Bzip2/issues",
-         "repo_name" : "Compress-Raw-Bzip2",
-         "uses_rt" : ""
-      },
-      {
          "repo_owner" : "pmqs",
-         "insecure_repo" : "",
-         "repo" : "https://github.com/pmqs/Compress-Raw-Lzma",
-         "name" : "Compress-Raw-Lzma-2.204",
-         "date" : "2023-02-08",
-         "dist" : "Compress-Raw-Lzma",
-         "bugtracker" : "https://github.com/pmqs/Compress-Raw-Lzma/issues",
          "repo_def_branch" : "master",
+         "dist" : "Compress-Raw-Bzip2",
+         "repo_name" : "Compress-Raw-Bzip2",
+         "date" : "2023-02-08",
+         "uses_rt" : "",
+         "name" : "Compress-Raw-Bzip2-2.204",
+         "repo" : "https://github.com/pmqs/Compress-Raw-Bzip2"
+      },
+      {
+         "name" : "Compress-Raw-Lzma-2.204",
+         "repo" : "https://github.com/pmqs/Compress-Raw-Lzma",
+         "bugtracker" : "https://github.com/pmqs/Compress-Raw-Lzma/issues",
+         "insecure_repo" : "",
+         "repo_def_branch" : "master",
+         "repo_owner" : "pmqs",
+         "date" : "2023-02-08",
          "repo_name" : "Compress-Raw-Lzma",
+         "dist" : "Compress-Raw-Lzma",
          "uses_rt" : ""
       },
       {
-         "date" : "2023-02-08",
-         "dist" : "Compress-Raw-Zlib",
-         "repo_owner" : "pmqs",
          "insecure_repo" : "",
-         "repo" : "https://github.com/pmqs/Compress-Raw-Zlib",
-         "name" : "Compress-Raw-Zlib-2.204",
          "bugtracker" : "https://github.com/pmqs/Compress-Raw-Zlib/issues",
          "repo_def_branch" : "master",
+         "repo_owner" : "pmqs",
+         "date" : "2023-02-08",
          "repo_name" : "Compress-Raw-Zlib",
-         "uses_rt" : ""
+         "dist" : "Compress-Raw-Zlib",
+         "uses_rt" : "",
+         "name" : "Compress-Raw-Zlib-2.204",
+         "repo" : "https://github.com/pmqs/Compress-Raw-Zlib"
       },
       {
          "uses_rt" : "",
-         "bugtracker" : "https://github.com/pmqs/Compress-Stream-Zstd/issues",
-         "repo_def_branch" : "master",
          "repo_name" : "Compress-Stream-Zstd",
-         "repo" : "https://github.com/pmqs/Compress-Stream-Zstd",
-         "name" : "Compress-Stream-Zstd-0.206",
+         "dist" : "Compress-Stream-Zstd",
+         "date" : "2023-04-08",
+         "repo_def_branch" : "master",
          "repo_owner" : "pmqs",
          "insecure_repo" : "",
-         "dist" : "Compress-Stream-Zstd",
-         "date" : "2023-04-08"
+         "bugtracker" : "https://github.com/pmqs/Compress-Stream-Zstd/issues",
+         "repo" : "https://github.com/pmqs/Compress-Stream-Zstd",
+         "name" : "Compress-Stream-Zstd-0.206"
       },
       {
-         "uses_rt" : "",
-         "bugtracker" : "https://github.com/pmqs/DB_File/issues",
-         "repo_def_branch" : "master",
-         "repo_name" : "DB_File",
-         "dist" : "DB_File",
-         "date" : "2022-05-13",
-         "repo" : "https://github.com/pmqs/DB_File",
          "name" : "DB_File-1.858",
+         "repo" : "https://github.com/pmqs/DB_File",
          "repo_owner" : "pmqs",
-         "insecure_repo" : ""
+         "repo_def_branch" : "master",
+         "bugtracker" : "https://github.com/pmqs/DB_File/issues",
+         "insecure_repo" : "",
+         "uses_rt" : "",
+         "date" : "2022-05-13",
+         "dist" : "DB_File",
+         "repo_name" : "DB_File"
       },
       {
          "name" : "IO-Compress-2.204",
          "repo" : "https://github.com/pmqs/IO-Compress",
+         "bugtracker" : "https://github.com/pmqs/IO-Compress/issues",
          "insecure_repo" : "",
+         "repo_def_branch" : "master",
          "repo_owner" : "pmqs",
+         "repo_name" : "IO-Compress",
          "dist" : "IO-Compress",
          "date" : "2023-02-08",
-         "uses_rt" : "",
-         "repo_name" : "IO-Compress",
-         "bugtracker" : "https://github.com/pmqs/IO-Compress/issues",
-         "repo_def_branch" : "master"
+         "uses_rt" : ""
       },
       {
-         "uses_rt" : "",
-         "repo_name" : "IO-Compress-Lzf",
-         "bugtracker" : "https://github.com/pmqs/IO-Compress-Lzf/issues",
          "repo_def_branch" : "master",
+         "repo_owner" : "pmqs",
+         "insecure_repo" : "",
+         "bugtracker" : "https://github.com/pmqs/IO-Compress-Lzf/issues",
+         "uses_rt" : "",
          "dist" : "IO-Compress-Lzf",
+         "repo_name" : "IO-Compress-Lzf",
          "date" : "2023-02-08",
          "name" : "IO-Compress-Lzf-2.204",
-         "repo" : "https://github.com/pmqs/IO-Compress-Lzf",
-         "insecure_repo" : "",
-         "repo_owner" : "pmqs"
+         "repo" : "https://github.com/pmqs/IO-Compress-Lzf"
       },
       {
-         "repo_def_branch" : "master",
          "bugtracker" : "https://github.com/pmqs/IO-Compress-Lzma/issues",
-         "repo_name" : "IO-Compress-Lzma",
-         "uses_rt" : "",
-         "date" : "2023-02-08",
-         "dist" : "IO-Compress-Lzma",
-         "repo_owner" : "pmqs",
          "insecure_repo" : "",
-         "repo" : "https://github.com/pmqs/IO-Compress-Lzma",
-         "name" : "IO-Compress-Lzma-2.204"
+         "repo_owner" : "pmqs",
+         "repo_def_branch" : "master",
+         "date" : "2023-02-08",
+         "repo_name" : "IO-Compress-Lzma",
+         "dist" : "IO-Compress-Lzma",
+         "uses_rt" : "",
+         "name" : "IO-Compress-Lzma-2.204",
+         "repo" : "https://github.com/pmqs/IO-Compress-Lzma"
       },
       {
-         "repo_name" : "IO-Compress-Lzop",
-         "repo_def_branch" : "master",
-         "bugtracker" : "https://github.com/pmqs/IO-Compress-Lzop/issues",
-         "uses_rt" : "",
-         "insecure_repo" : "",
-         "repo_owner" : "pmqs",
          "name" : "IO-Compress-Lzop-2.204",
          "repo" : "https://github.com/pmqs/IO-Compress-Lzop",
+         "insecure_repo" : "",
+         "bugtracker" : "https://github.com/pmqs/IO-Compress-Lzop/issues",
+         "repo_owner" : "pmqs",
+         "repo_def_branch" : "master",
          "date" : "2023-02-08",
-         "dist" : "IO-Compress-Lzop"
+         "dist" : "IO-Compress-Lzop",
+         "repo_name" : "IO-Compress-Lzop",
+         "uses_rt" : ""
       },
       {
-         "uses_rt" : "",
-         "repo_def_branch" : "master",
-         "bugtracker" : "https://github.com/pmqs/IO-Compress-Zstd/issues",
+         "date" : "2023-02-08",
          "repo_name" : "IO-Compress-Zstd",
          "dist" : "IO-Compress-Zstd",
-         "date" : "2023-02-08",
-         "repo" : "https://github.com/pmqs/IO-Compress-Zstd",
-         "name" : "IO-Compress-Zstd-2.204",
+         "uses_rt" : "",
+         "insecure_repo" : "",
+         "bugtracker" : "https://github.com/pmqs/IO-Compress-Zstd/issues",
          "repo_owner" : "pmqs",
-         "insecure_repo" : ""
+         "repo_def_branch" : "master",
+         "repo" : "https://github.com/pmqs/IO-Compress-Zstd",
+         "name" : "IO-Compress-Zstd-2.204"
       }
    ],
-   "author" : {
-      "cpan" : "PMQS",
-      "github" : "pmqs",
-      "gravatar" : "https://secure.gravatar.com/avatar/1bf245ac173d6991ade027315ff58683?s=130&d=identicon",
-      "name" : "Paul Marquess"
-   },
    "ci" : {
-      "use_travis" : 0,
+      "use_appveyor" : 1,
+      "use_gh_actions" : 1,
       "use_cirrus" : 1,
-      "use_codecov" : 0,
+      "use_coveralls" : 0,
       "gh_workflow_names" : [
          "linux",
          "macos",
          "windows"
       ],
-      "use_gh_actions" : 1,
-      "use_appveyor" : 1,
-      "use_kritika" : 0,
-      "use_coveralls" : 0,
-      "use_travis_com" : 1
+      "use_travis" : 0,
+      "use_codecov" : 0,
+      "use_travis_com" : 1,
+      "use_kritika" : 0
    }
 }
