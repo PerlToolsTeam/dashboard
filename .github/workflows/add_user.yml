@@ -11,5 +11,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Do the thing
-        run: bin/add_user ${{ toJSON(github.event.client_payload) }}
+        run: bin/add_user "${{ toJSON(github.event.client_payload) }}"
 
