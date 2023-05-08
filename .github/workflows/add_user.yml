@@ -1,0 +1,15 @@
+name: Add user
+
+on:
+  repository_dispatch:
+    types: [add_user]
+
+jobs:
+  add_user:
+    runs_on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Do the thing
+        run: bin/add_user ${{ toJSON(github.event.client_payload) }}
+

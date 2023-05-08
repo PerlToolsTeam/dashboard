@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use JSON;
+use Data::Dumper;
+
+my $json = JSON->new;
+
+warn Dumper $json->decode($ARGV[0]);
+
