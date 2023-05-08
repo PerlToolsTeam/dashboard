@@ -21,7 +21,7 @@ for (qw[gh_actions cirrus appveyor coveralls codecov]) {
 }
 
 if ($out->{ci}{use_gh_actions}) {
-  $out->{ci}{gh_workflow_names} = split /\s*,\s*/, $in->{gh_workflow_names};
+  $out->{ci}{gh_workflow_names} = [ split /\s*,\s*/, $in->{gh_workflow_names} ];
 }
 
 warn $json->encode($out);
