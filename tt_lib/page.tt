@@ -69,7 +69,7 @@
     </div>
     <footer>
 CPAN dashboard written by <a href="https://twitter.com/davorg">@davorg</a> /
-Code on <a href="https://github.com/davorg/dashboard">Github</a> /
+Code on <a href="https://github.com/PerlToolsTeam/dashboard">Github</a> /
 Please consider <a href="https://github.com/sponsors/davorg">sponsoring davorg /</a>
 Page rebuilt at: [% USE date(format = '%Y-%m-%dT%H:%M:%S'); date.format(gmt => 1) %] UTC
     </footer>

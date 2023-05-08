@@ -28,7 +28,7 @@ jobs:
         perl refresh_branch_cache
 
     - name: Commit new page
-      if: github.repository == 'davorg/dashboard'
+      if: github.repository == 'PerlToolsTeam/dashboard'
       run: |
         git config --global --add safe.directory /__w/dashboard/dashboard
         GIT_STATUS=$(git status --porcelain)
