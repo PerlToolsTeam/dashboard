@@ -6,7 +6,22 @@ use warnings;
 use JSON;
 use Data::Dumper;
 
-my $json = JSON->new;
+my $json = JSON->new->pretty;
 
-warn Dumper $json->decode($ARGV[0]);
+my $in = $json->decode($ARGV[0]);
 
+my $out = {};
+
+for (qw[cpan github]) {
+  $out->{author}{$_} = $in->{$_};
+}
+
+for (qw[gh_actions cirrus appveyor coveralls codecov]) {
+  $out->{ci}{"use_$_"} = $in->{"use_$_"};
+}
+
+if ($out->{ci}{use_gh_actions}) {
+  $out->{ci}{gh_workflow_names} = split /\s*,\s*/, $in->{gh_workflow_names};
+}
+
+warn $json->encode($out);
