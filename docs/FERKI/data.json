@@ -1,63 +1,63 @@
 {
    "sort" : {
-      "direction" : "asc",
-      "column" : "0"
+      "column" : "0",
+      "direction" : "asc"
    },
    "ci" : {
-      "use_codecov" : 0,
+      "use_gh_actions" : 1,
       "gh_workflow_names" : [
          "build and test"
       ],
-      "use_gh_actions" : 1,
-      "use_cirrus" : 0,
-      "use_travis_com" : 0,
-      "use_travis" : 0,
-      "use_kritika" : 0,
       "use_appveyor" : 0,
-      "use_coveralls" : 1
+      "use_travis" : 0,
+      "use_coveralls" : 1,
+      "use_kritika" : 0,
+      "use_codecov" : 0,
+      "use_travis_com" : 0,
+      "use_cirrus" : 0
    },
    "author" : {
-      "github" : "ferki",
-      "gravatar" : "https://secure.gravatar.com/avatar/4f102f07ec6b79caa1c5a3d08f08e01a.png",
       "name" : "Ferenc Erki",
-      "cpan" : "FERKI"
+      "cpan" : "FERKI",
+      "github" : "ferki",
+      "gravatar" : "https://secure.gravatar.com/avatar/4f102f07ec6b79caa1c5a3d08f08e01a.png"
    },
    "modules" : [
       {
-         "repo_owner" : "RexOps",
-         "insecure_repo" : "",
-         "repo_name" : "Rex",
-         "bugtracker" : "https://github.com/RexOps/Rex/issues",
          "repo_def_branch" : "master",
-         "repo" : "https://github.com/RexOps/Rex",
-         "dist" : "Rex",
-         "uses_rt" : "",
          "name" : "Rex-1.14.2",
+         "bugtracker" : "https://github.com/RexOps/Rex/issues",
+         "repo_name" : "Rex",
+         "dist" : "Rex",
+         "insecure_repo" : "",
+         "repo_owner" : "RexOps",
+         "uses_rt" : "",
+         "repo" : "https://github.com/RexOps/Rex",
          "date" : "2023-05-05"
       },
       {
-         "uses_rt" : "",
-         "name" : "Rex-Hook-File-Diff-v0.4.0",
          "repo_def_branch" : "master",
-         "repo" : "https://github.com/ferki/Rex-Hook-File-Diff",
-         "dist" : "Rex-Hook-File-Diff",
-         "date" : "2021-08-18",
-         "insecure_repo" : "",
-         "repo_owner" : "ferki",
+         "name" : "Rex-Hook-File-Diff-v0.4.0",
+         "repo_name" : "Rex-Hook-File-Diff",
          "bugtracker" : "https://github.com/ferki/Rex-Hook-File-Diff/issues",
-         "repo_name" : "Rex-Hook-File-Diff"
+         "dist" : "Rex-Hook-File-Diff",
+         "repo_owner" : "ferki",
+         "insecure_repo" : "",
+         "uses_rt" : "",
+         "repo" : "https://github.com/ferki/Rex-Hook-File-Diff",
+         "date" : "2021-08-18"
       },
       {
-         "date" : "2021-07-28",
-         "uses_rt" : "",
+         "repo_name" : "Rex-Hook-File-Impostor",
+         "bugtracker" : "https://github.com/ferki/Rex-Hook-File-Impostor/issues",
+         "dist" : "Rex-Hook-File-Impostor",
          "name" : "Rex-Hook-File-Impostor-v0.2.0",
          "repo_def_branch" : "master",
+         "date" : "2021-07-28",
          "repo" : "https://github.com/ferki/Rex-Hook-File-Impostor",
-         "dist" : "Rex-Hook-File-Impostor",
-         "bugtracker" : "https://github.com/ferki/Rex-Hook-File-Impostor/issues",
-         "repo_name" : "Rex-Hook-File-Impostor",
-         "insecure_repo" : "",
-         "repo_owner" : "ferki"
+         "uses_rt" : "",
+         "repo_owner" : "ferki",
+         "insecure_repo" : ""
       }
    ]
 }
