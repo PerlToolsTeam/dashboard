@@ -1,45 +1,45 @@
 {
+   "ci" : {
+      "use_gh_actions" : 0,
+      "use_kritika" : 0,
+      "gh_workflow_names" : [],
+      "use_travis" : 1,
+      "use_coveralls" : 1
+   },
    "author" : {
-      "gravatar" : "https://secure.gravatar.com/avatar/73a36c0741de4c5e128a31f3db4f90b3?s=130&d=identicon",
       "github" : "soren",
       "cpan" : "SLU",
+      "gravatar" : "https://secure.gravatar.com/avatar/73a36c0741de4c5e128a31f3db4f90b3?s=130&d=identicon",
       "name" : "SÃ¸ren Lund"
+   },
+   "sort" : {
+      "column" : "0",
+      "direction" : "asc"
    },
    "modules" : [
       {
-         "insecure_repo" : "",
-         "repo_owner" : "soren",
          "uses_rt" : "",
-         "repo" : "https://github.com/soren/Acme-Be-Modern",
          "date" : "2020-11-11",
+         "repo_owner" : "soren",
+         "repo" : "https://github.com/soren/Acme-Be-Modern",
          "repo_def_branch" : "master",
-         "name" : "Acme-Be-Modern-0.04",
          "repo_name" : "Acme-Be-Modern",
-         "bugtracker" : "https://github.com/soren/Acme-Be-Modern/issues",
-         "dist" : "Acme-Be-Modern"
+         "name" : "Acme-Be-Modern-0.04",
+         "dist" : "Acme-Be-Modern",
+         "insecure_repo" : "",
+         "bugtracker" : "https://github.com/soren/Acme-Be-Modern/issues"
       },
       {
-         "repo_def_branch" : "master",
          "name" : "App-TimeClock-0.13",
-         "repo_name" : "App-TimeClock",
-         "bugtracker" : "https://github.com/soren/App-TimeClock/issues",
          "dist" : "App-TimeClock",
-         "repo_owner" : "soren",
          "insecure_repo" : "",
-         "uses_rt" : "",
+         "bugtracker" : "https://github.com/soren/App-TimeClock/issues",
+         "repo_def_branch" : "master",
+         "repo_name" : "App-TimeClock",
          "repo" : "https://github.com/soren/App-TimeClock",
-         "date" : "2017-01-04"
+         "uses_rt" : "",
+         "date" : "2017-01-04",
+         "repo_owner" : "soren"
       }
-   ],
-   "ci" : {
-      "use_travis" : 1,
-      "use_coveralls" : 1,
-      "use_kritika" : 0,
-      "use_gh_actions" : 0,
-      "gh_workflow_names" : []
-   },
-   "sort" : {
-      "direction" : "asc",
-      "column" : "0"
-   }
+   ]
 }
