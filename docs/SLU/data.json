@@ -1,45 +1,45 @@
 {
-   "ci" : {
-      "use_gh_actions" : 0,
-      "gh_workflow_names" : [],
-      "use_kritika" : 0,
-      "use_travis" : 1,
-      "use_coveralls" : 1
-   },
-   "author" : {
-      "gravatar" : "https://secure.gravatar.com/avatar/73a36c0741de4c5e128a31f3db4f90b3?s=130&d=identicon",
-      "github" : "soren",
-      "cpan" : "SLU",
-      "name" : "SÃ¸ren Lund"
-   },
+   "modules" : [
+      {
+         "bugtracker" : "https://github.com/soren/Acme-Be-Modern/issues",
+         "dist" : "Acme-Be-Modern",
+         "date" : "2020-11-11",
+         "repo_owner" : "soren",
+         "name" : "Acme-Be-Modern-0.04",
+         "uses_rt" : "",
+         "insecure_repo" : "",
+         "repo_def_branch" : "master",
+         "repo" : "https://github.com/soren/Acme-Be-Modern",
+         "repo_name" : "Acme-Be-Modern"
+      },
+      {
+         "insecure_repo" : "",
+         "uses_rt" : "",
+         "name" : "App-TimeClock-0.13",
+         "repo_owner" : "soren",
+         "date" : "2017-01-04",
+         "dist" : "App-TimeClock",
+         "repo_def_branch" : "master",
+         "repo_name" : "App-TimeClock",
+         "repo" : "https://github.com/soren/App-TimeClock",
+         "bugtracker" : "https://github.com/soren/App-TimeClock/issues"
+      }
+   ],
    "sort" : {
       "direction" : "asc",
       "column" : "0"
    },
-   "modules" : [
-      {
-         "date" : "2020-11-11",
-         "repo_name" : "Acme-Be-Modern",
-         "repo" : "https://github.com/soren/Acme-Be-Modern",
-         "name" : "Acme-Be-Modern-0.04",
-         "insecure_repo" : "",
-         "bugtracker" : "https://github.com/soren/Acme-Be-Modern/issues",
-         "dist" : "Acme-Be-Modern",
-         "repo_def_branch" : "master",
-         "uses_rt" : "",
-         "repo_owner" : "soren"
-      },
-      {
-         "bugtracker" : "https://github.com/soren/App-TimeClock/issues",
-         "dist" : "App-TimeClock",
-         "name" : "App-TimeClock-0.13",
-         "insecure_repo" : "",
-         "repo_name" : "App-TimeClock",
-         "date" : "2017-01-04",
-         "repo" : "https://github.com/soren/App-TimeClock",
-         "repo_owner" : "soren",
-         "repo_def_branch" : "master",
-         "uses_rt" : ""
-      }
-   ]
+   "ci" : {
+      "use_gh_actions" : 0,
+      "use_travis" : 1,
+      "use_coveralls" : 1,
+      "use_kritika" : 0,
+      "gh_workflow_names" : []
+   },
+   "author" : {
+      "gravatar" : "https://secure.gravatar.com/avatar/73a36c0741de4c5e128a31f3db4f90b3?s=130&d=identicon",
+      "github" : "soren",
+      "name" : "SÃ¸ren Lund",
+      "cpan" : "SLU"
+   }
 }

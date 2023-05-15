@@ -1,181 +1,181 @@
 {
+   "modules" : [
+      {
+         "repo_def_branch" : "",
+         "repo_name" : "file-next/tree/master",
+         "repo" : "http://github.com/petdance/file-next/tree/master",
+         "dist" : "File-Next",
+         "date" : "2019-08-27",
+         "repo_owner" : "petdance",
+         "name" : "File-Next-1.18",
+         "uses_rt" : "",
+         "insecure_repo" : "1",
+         "bugtracker" : "http://github.com/petdance/file-next/issues"
+      },
+      {
+         "bugtracker" : "https://github.com/petdance/html-lint/issues",
+         "name" : "HTML-Lint-2.32",
+         "uses_rt" : "",
+         "insecure_repo" : "",
+         "dist" : "HTML-Lint",
+         "date" : "2018-06-22",
+         "repo_owner" : "petdance",
+         "repo_name" : "html-lint",
+         "repo_def_branch" : "dev",
+         "repo" : "https://github.com/petdance/html-lint"
+      },
+      {
+         "bugtracker" : "http://github.com/petdance/html-tidy/issues",
+         "repo_def_branch" : "dev",
+         "repo_name" : "html-tidy",
+         "repo" : "http://github.com/petdance/html-tidy",
+         "uses_rt" : "",
+         "insecure_repo" : "1",
+         "name" : "HTML-Tidy-1.60",
+         "repo_owner" : "petdance",
+         "date" : "2017-09-13",
+         "dist" : "HTML-Tidy"
+      },
+      {
+         "bugtracker" : "http://github.com/petdance/html-tidy5/issues",
+         "date" : "2019-10-26",
+         "dist" : "HTML-Tidy5",
+         "repo_owner" : "petdance",
+         "name" : "HTML-Tidy5-1.06",
+         "uses_rt" : "",
+         "insecure_repo" : "1",
+         "repo_def_branch" : "dev",
+         "repo" : "http://github.com/petdance/html-tidy5",
+         "repo_name" : "html-tidy5"
+      },
+      {
+         "bugtracker" : "https://github.com/petdance/list-cycle/issues",
+         "name" : "List-Cycle-1.04",
+         "uses_rt" : "",
+         "insecure_repo" : "",
+         "date" : "2020-12-23",
+         "dist" : "List-Cycle",
+         "repo_owner" : "petdance",
+         "repo_def_branch" : "main",
+         "repo" : "git://github.com/petdance/list-cycle.git",
+         "repo_name" : "list-cycle"
+      },
+      {
+         "bugtracker" : "https://github.com/Perl-Critic/Perl-Critic/issues",
+         "repo_owner" : "Perl-Critic",
+         "date" : "2023-03-05",
+         "dist" : "Perl-Critic",
+         "insecure_repo" : "",
+         "uses_rt" : "",
+         "name" : "Perl-Critic-1.150",
+         "repo" : "git://github.com/Perl-Critic/Perl-Critic.git",
+         "repo_def_branch" : "dev",
+         "repo_name" : "Perl-Critic"
+      },
+      {
+         "repo_def_branch" : "dev",
+         "repo" : "git://github.com/petdance/perl-critic-bangs.git",
+         "repo_name" : "perl-critic-bangs",
+         "repo_owner" : "petdance",
+         "dist" : "Perl-Critic-Bangs",
+         "date" : "2017-05-25",
+         "insecure_repo" : "",
+         "uses_rt" : "",
+         "name" : "Perl-Critic-Bangs-1.12",
+         "bugtracker" : "https://github.com/petdance/perl-critic-bangs"
+      },
+      {
+         "bugtracker" : "https://github.com/Perl-Critic/Perl-Critic-StricterSubs/issues",
+         "name" : "Perl-Critic-StricterSubs-0.06",
+         "insecure_repo" : "",
+         "uses_rt" : "",
+         "date" : "2022-04-26",
+         "dist" : "Perl-Critic-StricterSubs",
+         "repo_owner" : "Perl-Critic",
+         "repo_name" : "Perl-Critic-StricterSubs",
+         "repo_def_branch" : "dev",
+         "repo" : "git://github.com/Perl-Critic/Perl-Critic-StricterSubs.git"
+      },
+      {
+         "repo_def_branch" : "dev",
+         "repo_name" : "sql-tiny",
+         "repo" : "git://github.com/petdance/sql-tiny.git",
+         "name" : "SQL-Tiny-0.04",
+         "insecure_repo" : "",
+         "uses_rt" : "",
+         "date" : "2019-04-07",
+         "dist" : "SQL-Tiny",
+         "repo_owner" : "petdance",
+         "bugtracker" : "https://github.com/petdance/sql-tiny/issues"
+      },
+      {
+         "repo_owner" : "Perl-Critic",
+         "date" : "2018-03-26",
+         "dist" : "Test-Perl-Critic",
+         "insecure_repo" : "",
+         "uses_rt" : "",
+         "name" : "Test-Perl-Critic-1.04",
+         "repo_name" : "Test-Perl-Critic",
+         "repo_def_branch" : "dev",
+         "repo" : "git://github.com/Perl-Critic/Test-Perl-Critic.git",
+         "bugtracker" : "https://github.com/Perl-Critic/Test-Perl-Critic/issues"
+      },
+      {
+         "insecure_repo" : "",
+         "name" : "Test-Taint-1.08",
+         "repo_owner" : "petdance",
+         "dist" : "Test-Taint",
+         "date" : "2019-06-12",
+         "repo" : "https://github.com/petdance/test-taint",
+         "repo_def_branch" : "dev",
+         "repo_name" : "test-taint"
+      },
+      {
+         "date" : "2022-12-05",
+         "dist" : "Test-WWW-Mechanize",
+         "repo_owner" : "petdance",
+         "name" : "Test-WWW-Mechanize-1.60",
+         "uses_rt" : "",
+         "insecure_repo" : "",
+         "repo_def_branch" : "dev",
+         "repo" : "https://github.com/petdance/test-www-mechanize",
+         "repo_name" : "test-www-mechanize",
+         "bugtracker" : "https://github.com/petdance/test-www-mechanize/issues"
+      },
+      {
+         "repo_name" : "ack3",
+         "repo_def_branch" : "dev",
+         "repo" : "git://github.com/beyondgrep/ack3.git",
+         "dist" : "ack",
+         "date" : "2023-02-27",
+         "repo_owner" : "beyondgrep",
+         "name" : "ack-v3.7.0",
+         "uses_rt" : "",
+         "insecure_repo" : "",
+         "bugtracker" : "https://github.com/beyondgrep/ack3"
+      }
+   ],
    "ci" : {
-      "use_cirrus" : 0,
-      "use_gh_actions" : 1,
-      "use_travis" : 0,
-      "use_codecov" : 0,
       "use_kritika" : 0,
       "use_appveyor" : 0,
+      "use_codecov" : 0,
+      "use_travis_com" : 0,
       "gh_workflow_names" : [
          "testsuite"
       ],
-      "use_travis_com" : 0,
+      "use_cirrus" : 0,
+      "use_gh_actions" : 1,
+      "use_travis" : 0,
       "use_coveralls" : 0
    },
    "author" : {
       "name" : "Andy Lester",
       "cpan" : "PETDANCE",
-      "gravatar" : "https://secure.gravatar.com/avatar/8077a0584e451732420d43f5d0b3bd31?s=130&d=identicon",
-      "github" : "petdance"
+      "github" : "petdance",
+      "gravatar" : "https://secure.gravatar.com/avatar/8077a0584e451732420d43f5d0b3bd31?s=130&d=identicon"
    },
-   "modules" : [
-      {
-         "name" : "File-Next-1.18",
-         "insecure_repo" : "1",
-         "bugtracker" : "http://github.com/petdance/file-next/issues",
-         "dist" : "File-Next",
-         "repo_name" : "file-next/tree/master",
-         "date" : "2019-08-27",
-         "repo" : "http://github.com/petdance/file-next/tree/master",
-         "repo_def_branch" : "",
-         "uses_rt" : "",
-         "repo_owner" : "petdance"
-      },
-      {
-         "dist" : "HTML-Lint",
-         "bugtracker" : "https://github.com/petdance/html-lint/issues",
-         "insecure_repo" : "",
-         "name" : "HTML-Lint-2.32",
-         "repo" : "https://github.com/petdance/html-lint",
-         "date" : "2018-06-22",
-         "repo_name" : "html-lint",
-         "repo_owner" : "petdance",
-         "uses_rt" : "",
-         "repo_def_branch" : "dev"
-      },
-      {
-         "repo" : "http://github.com/petdance/html-tidy",
-         "date" : "2017-09-13",
-         "repo_name" : "html-tidy",
-         "insecure_repo" : "1",
-         "name" : "HTML-Tidy-1.60",
-         "dist" : "HTML-Tidy",
-         "bugtracker" : "http://github.com/petdance/html-tidy/issues",
-         "uses_rt" : "",
-         "repo_def_branch" : "dev",
-         "repo_owner" : "petdance"
-      },
-      {
-         "dist" : "HTML-Tidy5",
-         "bugtracker" : "http://github.com/petdance/html-tidy5/issues",
-         "insecure_repo" : "1",
-         "name" : "HTML-Tidy5-1.06",
-         "repo" : "http://github.com/petdance/html-tidy5",
-         "date" : "2019-10-26",
-         "repo_name" : "html-tidy5",
-         "repo_owner" : "petdance",
-         "uses_rt" : "",
-         "repo_def_branch" : "dev"
-      },
-      {
-         "repo_owner" : "petdance",
-         "uses_rt" : "",
-         "repo_def_branch" : "main",
-         "dist" : "List-Cycle",
-         "bugtracker" : "https://github.com/petdance/list-cycle/issues",
-         "insecure_repo" : "",
-         "name" : "List-Cycle-1.04",
-         "repo" : "git://github.com/petdance/list-cycle.git",
-         "date" : "2020-12-23",
-         "repo_name" : "list-cycle"
-      },
-      {
-         "insecure_repo" : "",
-         "name" : "Perl-Critic-1.150",
-         "dist" : "Perl-Critic",
-         "bugtracker" : "https://github.com/Perl-Critic/Perl-Critic/issues",
-         "repo" : "git://github.com/Perl-Critic/Perl-Critic.git",
-         "repo_name" : "Perl-Critic",
-         "date" : "2023-03-05",
-         "uses_rt" : "",
-         "repo_def_branch" : "dev",
-         "repo_owner" : "Perl-Critic"
-      },
-      {
-         "repo" : "git://github.com/petdance/perl-critic-bangs.git",
-         "date" : "2017-05-25",
-         "repo_name" : "perl-critic-bangs",
-         "insecure_repo" : "",
-         "name" : "Perl-Critic-Bangs-1.12",
-         "dist" : "Perl-Critic-Bangs",
-         "bugtracker" : "https://github.com/petdance/perl-critic-bangs",
-         "uses_rt" : "",
-         "repo_def_branch" : "dev",
-         "repo_owner" : "petdance"
-      },
-      {
-         "repo" : "git://github.com/Perl-Critic/Perl-Critic-StricterSubs.git",
-         "date" : "2022-04-26",
-         "repo_name" : "Perl-Critic-StricterSubs",
-         "dist" : "Perl-Critic-StricterSubs",
-         "bugtracker" : "https://github.com/Perl-Critic/Perl-Critic-StricterSubs/issues",
-         "insecure_repo" : "",
-         "name" : "Perl-Critic-StricterSubs-0.06",
-         "repo_owner" : "Perl-Critic",
-         "uses_rt" : "",
-         "repo_def_branch" : "dev"
-      },
-      {
-         "repo_owner" : "petdance",
-         "repo_def_branch" : "dev",
-         "uses_rt" : "",
-         "repo_name" : "sql-tiny",
-         "date" : "2019-04-07",
-         "repo" : "git://github.com/petdance/sql-tiny.git",
-         "bugtracker" : "https://github.com/petdance/sql-tiny/issues",
-         "dist" : "SQL-Tiny",
-         "name" : "SQL-Tiny-0.04",
-         "insecure_repo" : ""
-      },
-      {
-         "repo_name" : "Test-Perl-Critic",
-         "date" : "2018-03-26",
-         "repo" : "git://github.com/Perl-Critic/Test-Perl-Critic.git",
-         "name" : "Test-Perl-Critic-1.04",
-         "insecure_repo" : "",
-         "bugtracker" : "https://github.com/Perl-Critic/Test-Perl-Critic/issues",
-         "dist" : "Test-Perl-Critic",
-         "repo_def_branch" : "dev",
-         "uses_rt" : "",
-         "repo_owner" : "Perl-Critic"
-      },
-      {
-         "dist" : "Test-Taint",
-         "name" : "Test-Taint-1.08",
-         "insecure_repo" : "",
-         "date" : "2019-06-12",
-         "repo_name" : "test-taint",
-         "repo" : "https://github.com/petdance/test-taint",
-         "repo_owner" : "petdance",
-         "repo_def_branch" : "dev"
-      },
-      {
-         "repo" : "https://github.com/petdance/test-www-mechanize",
-         "repo_name" : "test-www-mechanize",
-         "date" : "2022-12-05",
-         "insecure_repo" : "",
-         "name" : "Test-WWW-Mechanize-1.60",
-         "dist" : "Test-WWW-Mechanize",
-         "bugtracker" : "https://github.com/petdance/test-www-mechanize/issues",
-         "uses_rt" : "",
-         "repo_def_branch" : "dev",
-         "repo_owner" : "petdance"
-      },
-      {
-         "repo_owner" : "beyondgrep",
-         "repo_def_branch" : "dev",
-         "uses_rt" : "",
-         "bugtracker" : "https://github.com/beyondgrep/ack3",
-         "dist" : "ack",
-         "name" : "ack-v3.7.0",
-         "insecure_repo" : "",
-         "date" : "2023-02-27",
-         "repo_name" : "ack3",
-         "repo" : "git://github.com/beyondgrep/ack3.git"
-      }
-   ],
    "sort" : {
-      "column" : "0",
-      "direction" : "asc"
+      "direction" : "asc",
+      "column" : "0"
    }
 }
