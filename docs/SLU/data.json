@@ -1,45 +1,45 @@
 {
    "author" : {
-      "github" : "soren",
-      "gravatar" : "https://secure.gravatar.com/avatar/73a36c0741de4c5e128a31f3db4f90b3?s=130&d=identicon",
       "cpan" : "SLU",
-      "name" : "SÃ¸ren Lund"
-   },
-   "ci" : {
-      "use_gh_actions" : 0,
-      "gh_workflow_names" : [],
-      "use_coveralls" : 1,
-      "use_kritika" : 0,
-      "use_travis" : 1
+      "github" : "soren",
+      "name" : "SÃ¸ren Lund",
+      "gravatar" : "https://secure.gravatar.com/avatar/73a36c0741de4c5e128a31f3db4f90b3?s=130&d=identicon"
    },
    "sort" : {
-      "direction" : "asc",
-      "column" : "0"
+      "column" : "0",
+      "direction" : "asc"
    },
    "modules" : [
       {
-         "date" : "2020-11-11",
-         "repo_owner" : "soren",
-         "name" : "Acme-Be-Modern-0.04",
-         "bugtracker" : "https://github.com/soren/Acme-Be-Modern/issues",
          "repo" : "https://github.com/soren/Acme-Be-Modern",
-         "repo_name" : "Acme-Be-Modern",
-         "uses_rt" : "",
-         "dist" : "Acme-Be-Modern",
+         "bugtracker" : "https://github.com/soren/Acme-Be-Modern/issues",
+         "name" : "Acme-Be-Modern-0.04",
          "insecure_repo" : "",
-         "repo_def_branch" : "master"
+         "repo_def_branch" : "master",
+         "repo_name" : "Acme-Be-Modern",
+         "dist" : "Acme-Be-Modern",
+         "uses_rt" : "",
+         "date" : "2020-11-11",
+         "repo_owner" : "soren"
       },
       {
-         "date" : "2017-01-04",
-         "repo_owner" : "soren",
+         "repo" : "https://github.com/soren/App-TimeClock",
          "name" : "App-TimeClock-0.13",
          "bugtracker" : "https://github.com/soren/App-TimeClock/issues",
-         "repo" : "https://github.com/soren/App-TimeClock",
          "repo_name" : "App-TimeClock",
-         "uses_rt" : "",
          "dist" : "App-TimeClock",
+         "uses_rt" : "",
+         "repo_def_branch" : "master",
          "insecure_repo" : "",
-         "repo_def_branch" : "master"
+         "repo_owner" : "soren",
+         "date" : "2017-01-04"
       }
-   ]
+   ],
+   "ci" : {
+      "gh_workflow_names" : [],
+      "use_kritika" : 0,
+      "use_travis" : 1,
+      "use_gh_actions" : 0,
+      "use_coveralls" : 1
+   }
 }

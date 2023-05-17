@@ -1,111 +1,111 @@
 {
+   "sort" : {
+      "column" : "0",
+      "direction" : "asc"
+   },
    "author" : {
       "gravatar" : "https://secure.gravatar.com/avatar/b748542b466dd73c8513245b1b609750?s=130",
       "cpan" : "VOEGELAS",
-      "name" : "Andreas VÃ¶gele",
-      "github" : "voegelas"
-   },
-   "sort" : {
-      "direction" : "asc",
-      "column" : "0"
+      "github" : "voegelas",
+      "name" : "Andreas VÃ¶gele"
    },
    "ci" : {
-      "use_codecov" : 0,
       "gh_workflow_names" : [
          "linux"
       ],
-      "use_gh_actions" : 1,
       "use_appveyor" : 0,
-      "use_travis" : 0,
       "use_coveralls" : 1,
+      "use_gh_actions" : 1,
+      "use_codecov" : 0,
+      "use_travis" : 0,
       "use_kritika" : 0,
-      "use_travis_com" : 0,
-      "use_cirrus" : 0
+      "use_cirrus" : 0,
+      "use_travis_com" : 0
    },
    "modules" : [
       {
-         "dist" : "Alien-libmaxminddb",
-         "uses_rt" : "",
-         "repo_name" : "Alien-libmaxminddb",
-         "repo" : "https://github.com/voegelas/Alien-libmaxminddb",
-         "name" : "Alien-libmaxminddb-1.012",
          "bugtracker" : "https://github.com/voegelas/Alien-libmaxminddb/issues",
+         "name" : "Alien-libmaxminddb-1.012",
+         "repo" : "https://github.com/voegelas/Alien-libmaxminddb",
          "date" : "2023-01-19",
          "repo_owner" : "voegelas",
          "insecure_repo" : "",
+         "repo_def_branch" : "main",
+         "repo_name" : "Alien-libmaxminddb",
+         "dist" : "Alien-libmaxminddb",
+         "uses_rt" : ""
+      },
+      {
+         "bugtracker" : "https://github.com/voegelas/CPANPLUS-Dist-Debora/issues",
+         "name" : "CPANPLUS-Dist-Debora-0.011",
+         "repo" : "https://github.com/voegelas/CPANPLUS-Dist-Debora",
+         "date" : "2022-12-23",
+         "repo_owner" : "voegelas",
+         "insecure_repo" : "",
+         "repo_def_branch" : "main",
+         "repo_name" : "CPANPLUS-Dist-Debora",
+         "uses_rt" : "",
+         "dist" : "CPANPLUS-Dist-Debora"
+      },
+      {
+         "bugtracker" : "https://github.com/voegelas/Geo-Location-TimeZoneFinder/issues",
+         "name" : "Geo-Location-TimeZoneFinder-1.000",
+         "repo" : "https://github.com/voegelas/Geo-Location-TimeZoneFinder",
+         "date" : "2023-01-15",
+         "repo_owner" : "voegelas",
+         "insecure_repo" : "",
+         "repo_name" : "Geo-Location-TimeZoneFinder",
+         "uses_rt" : "",
+         "dist" : "Geo-Location-TimeZoneFinder",
          "repo_def_branch" : "main"
       },
       {
-         "repo" : "https://github.com/voegelas/CPANPLUS-Dist-Debora",
-         "uses_rt" : "",
-         "repo_name" : "CPANPLUS-Dist-Debora",
-         "dist" : "CPANPLUS-Dist-Debora",
+         "date" : "2022-12-24",
          "repo_owner" : "voegelas",
-         "date" : "2022-12-23",
-         "bugtracker" : "https://github.com/voegelas/CPANPLUS-Dist-Debora/issues",
-         "name" : "CPANPLUS-Dist-Debora-0.011",
-         "repo_def_branch" : "main",
-         "insecure_repo" : ""
-      },
-      {
-         "uses_rt" : "",
-         "repo_name" : "Geo-Location-TimeZoneFinder",
-         "repo" : "https://github.com/voegelas/Geo-Location-TimeZoneFinder",
-         "dist" : "Geo-Location-TimeZoneFinder",
-         "bugtracker" : "https://github.com/voegelas/Geo-Location-TimeZoneFinder/issues",
-         "name" : "Geo-Location-TimeZoneFinder-1.000",
-         "repo_owner" : "voegelas",
-         "date" : "2023-01-15",
-         "repo_def_branch" : "main",
-         "insecure_repo" : ""
-      },
-      {
          "insecure_repo" : "",
-         "repo_def_branch" : "main",
-         "dist" : "IP-Geolocation-MMDB",
          "uses_rt" : "",
          "repo_name" : "IP-Geolocation-MMDB",
-         "repo" : "https://github.com/voegelas/IP-Geolocation-MMDB",
-         "name" : "IP-Geolocation-MMDB-1.010",
+         "dist" : "IP-Geolocation-MMDB",
+         "repo_def_branch" : "main",
          "bugtracker" : "https://github.com/voegelas/IP-Geolocation-MMDB/issues",
-         "date" : "2022-12-24",
-         "repo_owner" : "voegelas"
+         "name" : "IP-Geolocation-MMDB-1.010",
+         "repo" : "https://github.com/voegelas/IP-Geolocation-MMDB"
       },
       {
          "date" : "2023-03-20",
          "repo_owner" : "voegelas",
-         "name" : "Mail-Exim-ACL-Attachments-1.005",
-         "bugtracker" : "https://github.com/voegelas/Mail-Exim-ACL-Attachments/issues",
+         "insecure_repo" : "",
+         "repo_def_branch" : "main",
          "dist" : "Mail-Exim-ACL-Attachments",
-         "repo" : "https://github.com/voegelas/Mail-Exim-ACL-Attachments",
          "repo_name" : "Mail-Exim-ACL-Attachments",
          "uses_rt" : "",
-         "repo_def_branch" : "main",
-         "insecure_repo" : ""
+         "bugtracker" : "https://github.com/voegelas/Mail-Exim-ACL-Attachments/issues",
+         "name" : "Mail-Exim-ACL-Attachments-1.005",
+         "repo" : "https://github.com/voegelas/Mail-Exim-ACL-Attachments"
       },
       {
-         "insecure_repo" : "",
-         "repo_def_branch" : "main",
-         "repo_owner" : "voegelas",
-         "date" : "2022-12-24",
+         "repo" : "https://github.com/voegelas/Mail-Exim-ACL-Geolocation",
          "name" : "Mail-Exim-ACL-Geolocation-1.004",
          "bugtracker" : "https://github.com/voegelas/Mail-Exim-ACL-Geolocation/issues",
-         "repo" : "https://github.com/voegelas/Mail-Exim-ACL-Geolocation",
-         "repo_name" : "Mail-Exim-ACL-Geolocation",
          "uses_rt" : "",
-         "dist" : "Mail-Exim-ACL-Geolocation"
+         "repo_name" : "Mail-Exim-ACL-Geolocation",
+         "dist" : "Mail-Exim-ACL-Geolocation",
+         "repo_def_branch" : "main",
+         "insecure_repo" : "",
+         "repo_owner" : "voegelas",
+         "date" : "2022-12-24"
       },
       {
          "insecure_repo" : "",
          "repo_def_branch" : "main",
+         "repo_name" : "Mojolicious-Plugin-Geolocation-MMDB",
          "dist" : "Mojolicious-Plugin-Geolocation-MMDB",
          "uses_rt" : "",
-         "repo_name" : "Mojolicious-Plugin-Geolocation-MMDB",
+         "date" : "2022-12-24",
+         "repo_owner" : "voegelas",
          "repo" : "https://github.com/voegelas/Mojolicious-Plugin-Geolocation-MMDB",
          "bugtracker" : "https://github.com/voegelas/Mojolicious-Plugin-Geolocation-MMDB/issues",
-         "name" : "Mojolicious-Plugin-Geolocation-MMDB-1.000",
-         "repo_owner" : "voegelas",
-         "date" : "2022-12-24"
+         "name" : "Mojolicious-Plugin-Geolocation-MMDB-1.000"
       }
    ]
 }
