@@ -1,0 +1,67 @@
+{
+   "modules" : [
+      {
+         "repo_name" : "perl-CPU-Z80-Assembler",
+         "repo_def_branch" : "master",
+         "dist" : "CPU-Z80-Assembler",
+         "insecure_repo" : "",
+         "repo" : "https://github.com/pauloscustodio/perl-CPU-Z80-Assembler",
+         "repo_owner" : "pauloscustodio",
+         "date" : "2023-05-24",
+         "name" : "CPU-Z80-Assembler-2.22"
+      },
+      {
+         "repo" : "https://github.com/pauloscustodio/perl-Parse-FSM",
+         "insecure_repo" : "",
+         "repo_def_branch" : "master",
+         "dist" : "Parse-FSM",
+         "repo_name" : "perl-Parse-FSM",
+         "name" : "Parse-FSM-1.13",
+         "date" : "2016-05-16",
+         "repo_owner" : "pauloscustodio"
+      },
+      {
+         "insecure_repo" : "",
+         "repo" : "https://github.com/pauloscustodio/perl-Preproc-Tiny",
+         "repo_name" : "perl-Preproc-Tiny",
+         "dist" : "Preproc-Tiny",
+         "repo_def_branch" : "master",
+         "date" : "2016-05-12",
+         "name" : "Preproc-Tiny-0.02",
+         "repo_owner" : "pauloscustodio"
+      },
+      {
+         "repo" : "https://github.com/pauloscustodio/Text-MacroScript",
+         "insecure_repo" : "",
+         "dist" : "Text-MacroScript",
+         "repo_def_branch" : "master",
+         "repo_name" : "Text-MacroScript",
+         "name" : "Text-MacroScript-2.14",
+         "date" : "2023-05-18",
+         "repo_owner" : "pauloscustodio"
+      }
+   ],
+   "sort" : {
+      "direction" : "asc",
+      "column" : "0"
+   },
+   "ci" : {
+      "gh_workflow_names" : [
+         "CI"
+      ],
+      "use_cirrus" : 0,
+      "use_travis_com" : 0,
+      "use_codecov" : 0,
+      "use_appveyor" : 0,
+      "use_coveralls" : 0,
+      "use_gh_actions" : 1,
+      "use_travis" : 0,
+      "use_kritika" : 0
+   },
+   "author" : {
+      "gravatar" : "https://secure.gravatar.com/avatar/bba6aa3d7ba48d250d898d772c886093?s=130&d=identicon",
+      "github" : "pauloscustodio",
+      "cpan" : "PSCUST",
+      "name" : "Paulo Custodio"
+   }
+}
