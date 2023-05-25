@@ -1,45 +1,45 @@
 {
    "modules" : [
       {
-         "insecure_repo" : "",
-         "repo" : "https://github.com/soren/Acme-Be-Modern",
-         "repo_name" : "Acme-Be-Modern",
-         "repo_def_branch" : "master",
          "dist" : "Acme-Be-Modern",
+         "repo_def_branch" : "master",
          "bugtracker" : "https://github.com/soren/Acme-Be-Modern/issues",
-         "uses_rt" : "",
+         "insecure_repo" : "",
          "date" : "2020-11-11",
-         "name" : "Acme-Be-Modern-0.04",
-         "repo_owner" : "soren"
+         "repo_owner" : "soren",
+         "repo" : "https://github.com/soren/Acme-Be-Modern",
+         "uses_rt" : "",
+         "repo_name" : "Acme-Be-Modern",
+         "name" : "Acme-Be-Modern-0.04"
       },
       {
-         "bugtracker" : "https://github.com/soren/App-TimeClock/issues",
-         "repo_def_branch" : "master",
-         "dist" : "App-TimeClock",
-         "uses_rt" : "",
          "repo_name" : "App-TimeClock",
-         "repo" : "https://github.com/soren/App-TimeClock",
-         "insecure_repo" : "",
-         "repo_owner" : "soren",
          "name" : "App-TimeClock-0.13",
-         "date" : "2017-01-04"
+         "insecure_repo" : "",
+         "date" : "2017-01-04",
+         "repo_owner" : "soren",
+         "repo" : "https://github.com/soren/App-TimeClock",
+         "uses_rt" : "",
+         "dist" : "App-TimeClock",
+         "repo_def_branch" : "master",
+         "bugtracker" : "https://github.com/soren/App-TimeClock/issues"
       }
    ],
-   "author" : {
-      "cpan" : "SLU",
-      "github" : "soren",
-      "gravatar" : "https://secure.gravatar.com/avatar/73a36c0741de4c5e128a31f3db4f90b3?s=130&d=identicon",
-      "name" : "SÃ¸ren Lund"
-   },
    "sort" : {
-      "column" : "0",
-      "direction" : "asc"
+      "direction" : "asc",
+      "column" : "0"
+   },
+   "author" : {
+      "github" : "soren",
+      "name" : "SÃ¸ren Lund",
+      "gravatar" : "https://secure.gravatar.com/avatar/73a36c0741de4c5e128a31f3db4f90b3?s=130&d=identicon",
+      "cpan" : "SLU"
    },
    "ci" : {
-      "use_kritika" : 0,
-      "use_coveralls" : 1,
       "use_travis" : 1,
+      "use_coveralls" : 1,
       "gh_workflow_names" : [],
-      "use_gh_actions" : 0
+      "use_gh_actions" : 0,
+      "use_kritika" : 0
    }
 }
