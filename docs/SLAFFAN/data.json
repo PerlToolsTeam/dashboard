@@ -1,205 +1,205 @@
 {
+   "author" : {
+      "gravatar" : "https://secure.gravatar.com/avatar/48789401bfe02f3f10da90999de66b79?s=130&d=identicon",
+      "name" : "Shawn Laffan",
+      "cpan" : "SLAFFAN",
+      "github" : "shawnlaffan"
+   },
+   "sort" : {
+      "column" : "0",
+      "direction" : "asc"
+   },
    "ci" : {
-      "use_appveyor" : 1,
-      "gh_workflow_names" : [
-         "CI"
-      ],
-      "use_kritika" : 0,
-      "use_travis" : 0,
-      "use_coveralls" : 0,
-      "use_codecov" : 0,
       "use_cirrus" : 1,
       "use_gh_actions" : 1,
-      "use_travis_com" : 0
+      "use_coveralls" : 0,
+      "use_travis_com" : 0,
+      "use_appveyor" : 1,
+      "use_kritika" : 0,
+      "use_travis" : 0,
+      "use_codecov" : 0,
+      "gh_workflow_names" : [
+         "CI"
+      ]
    },
    "modules" : [
       {
-         "date" : "2022-08-30",
-         "repo_name" : "Alien-Build-Plugin-Cleanse-BuildDir",
-         "name" : "Alien-Build-Plugin-Cleanse-BuildDir-0.06",
-         "bugtracker" : "https://github.com/shawnlaffan/Alien-Build-Plugin-Cleanse-BuildDir/issues",
+         "repo_owner" : "shawnlaffan",
          "uses_rt" : "",
          "dist" : "Alien-Build-Plugin-Cleanse-BuildDir",
+         "bugtracker" : "https://github.com/shawnlaffan/Alien-Build-Plugin-Cleanse-BuildDir/issues",
+         "date" : "2022-08-30",
+         "name" : "Alien-Build-Plugin-Cleanse-BuildDir-0.06",
          "insecure_repo" : "",
-         "repo_owner" : "shawnlaffan",
+         "repo" : "https://github.com/shawnlaffan/Alien-Build-Plugin-Cleanse-BuildDir",
          "repo_def_branch" : "master",
-         "repo" : "https://github.com/shawnlaffan/Alien-Build-Plugin-Cleanse-BuildDir"
+         "repo_name" : "Alien-Build-Plugin-Cleanse-BuildDir"
       },
       {
-         "repo_def_branch" : "",
-         "repo" : "https://github.com/shawnlaffan/lib/Alien-Build-Plugin-PkgConfig-PPWrapper",
-         "repo_owner" : "shawnlaffan",
-         "insecure_repo" : "",
-         "dist" : "Alien-Build-Plugin-PkgConfig-PPWrapper",
-         "uses_rt" : "",
-         "bugtracker" : "https://github.com/shawnlaffan/Alien-Build-Plugin-PkgConfig-PPWrapper/issues",
          "name" : "Alien-Build-Plugin-PkgConfig-PPWrapper-0.03",
+         "repo_def_branch" : "",
+         "repo_name" : "lib/Alien-Build-Plugin-PkgConfig-PPWrapper",
+         "repo" : "https://github.com/shawnlaffan/lib/Alien-Build-Plugin-PkgConfig-PPWrapper",
+         "insecure_repo" : "",
+         "uses_rt" : "",
+         "repo_owner" : "shawnlaffan",
          "date" : "2021-03-20",
-         "repo_name" : "lib/Alien-Build-Plugin-PkgConfig-PPWrapper"
+         "bugtracker" : "https://github.com/shawnlaffan/Alien-Build-Plugin-PkgConfig-PPWrapper/issues",
+         "dist" : "Alien-Build-Plugin-PkgConfig-PPWrapper"
       },
       {
-         "repo_owner" : "shawnlaffan",
+         "name" : "Alien-freexl-1.05",
+         "repo_name" : "perl-alien-freexl",
+         "repo_def_branch" : "master",
          "insecure_repo" : "",
          "repo" : "https://github.com/shawnlaffan/perl-alien-freexl",
-         "repo_def_branch" : "master",
-         "repo_name" : "perl-alien-freexl",
-         "date" : "2022-12-06",
-         "name" : "Alien-freexl-1.05",
-         "bugtracker" : "https://github.com/shawnlaffan/perl-alien-freexl/issues/",
          "uses_rt" : "",
+         "repo_owner" : "shawnlaffan",
+         "bugtracker" : "https://github.com/shawnlaffan/perl-alien-freexl/issues/",
+         "date" : "2022-12-06",
          "dist" : "Alien-freexl"
       },
       {
-         "insecure_repo" : "",
-         "repo_owner" : "shawnlaffan",
-         "repo_def_branch" : "master",
-         "repo" : "https://github.com/shawnlaffan/perl-alien-gdal",
          "date" : "2022-11-28",
-         "repo_name" : "perl-alien-gdal",
-         "name" : "Alien-gdal-1.36",
+         "bugtracker" : "https://github.com/shawnlaffan/perl-alien-gdal/issues/",
          "dist" : "Alien-gdal",
          "uses_rt" : "",
-         "bugtracker" : "https://github.com/shawnlaffan/perl-alien-gdal/issues/"
-      },
-      {
-         "uses_rt" : "",
-         "bugtracker" : "https://github.com/shawnlaffan/perl-alien-geos/issues/",
-         "dist" : "Alien-geos-af",
-         "name" : "Alien-geos-af-1.012",
-         "repo_name" : "perl-alien-geos",
-         "date" : "2023-05-18",
-         "repo" : "https://github.com/shawnlaffan/perl-alien-geos",
-         "repo_def_branch" : "master",
-         "insecure_repo" : "",
-         "repo_owner" : "shawnlaffan"
-      },
-      {
-         "repo_name" : "perl-alien-libtiff",
-         "date" : "2020-05-03",
-         "name" : "Alien-libtiff-1.01",
-         "dist" : "Alien-libtiff",
-         "uses_rt" : "",
-         "bugtracker" : "https://github.com/shawnlaffan/perl-alien-libtiff/issues/",
-         "insecure_repo" : "",
          "repo_owner" : "shawnlaffan",
-         "repo" : "https://github.com/shawnlaffan/perl-alien-libtiff",
-         "repo_def_branch" : "master"
+         "repo_name" : "perl-alien-gdal",
+         "repo_def_branch" : "master",
+         "repo" : "https://github.com/shawnlaffan/perl-alien-gdal",
+         "insecure_repo" : "",
+         "name" : "Alien-gdal-1.36"
       },
       {
+         "name" : "Alien-geos-af-1.012",
+         "insecure_repo" : "",
+         "repo" : "https://github.com/shawnlaffan/perl-alien-geos",
+         "repo_name" : "perl-alien-geos",
+         "repo_def_branch" : "master",
+         "repo_owner" : "shawnlaffan",
+         "uses_rt" : "",
+         "dist" : "Alien-geos-af",
+         "bugtracker" : "https://github.com/shawnlaffan/perl-alien-geos/issues/",
+         "date" : "2023-05-18"
+      },
+      {
+         "uses_rt" : "",
+         "repo_owner" : "shawnlaffan",
+         "date" : "2020-05-03",
+         "bugtracker" : "https://github.com/shawnlaffan/perl-alien-libtiff/issues/",
+         "dist" : "Alien-libtiff",
+         "name" : "Alien-libtiff-1.01",
+         "repo_def_branch" : "master",
+         "repo_name" : "perl-alien-libtiff",
+         "insecure_repo" : "",
+         "repo" : "https://github.com/shawnlaffan/perl-alien-libtiff"
+      },
+      {
+         "repo_owner" : "PerlAlien",
          "uses_rt" : "",
          "dist" : "Alien-patchelf",
          "bugtracker" : "https://github.com/PerlAlien/Alien-patchelf/issues/",
-         "name" : "Alien-patchelf-0.08",
          "date" : "2022-04-21",
-         "repo_name" : "Alien-patchelf",
-         "repo_def_branch" : "main",
-         "repo" : "https://github.com/PerlAlien/Alien-patchelf",
+         "name" : "Alien-patchelf-0.08",
          "insecure_repo" : "",
-         "repo_owner" : "PerlAlien"
+         "repo" : "https://github.com/PerlAlien/Alien-patchelf",
+         "repo_def_branch" : "main",
+         "repo_name" : "Alien-patchelf"
       },
       {
-         "repo_owner" : "shawnlaffan",
-         "insecure_repo" : "",
-         "repo_def_branch" : "master",
-         "repo" : "https://github.com/shawnlaffan/perl-alien-proj",
-         "date" : "2022-11-26",
-         "repo_name" : "perl-alien-proj",
          "name" : "Alien-proj-1.25",
-         "dist" : "Alien-proj",
+         "insecure_repo" : "",
+         "repo" : "https://github.com/shawnlaffan/perl-alien-proj",
+         "repo_name" : "perl-alien-proj",
+         "repo_def_branch" : "master",
+         "repo_owner" : "shawnlaffan",
          "uses_rt" : "",
+         "dist" : "Alien-proj",
+         "date" : "2022-11-26",
          "bugtracker" : "https://github.com/shawnlaffan/perl-alien-proj/issues/"
       },
       {
-         "repo_name" : "perl-alien-sqlite",
+         "uses_rt" : "",
+         "repo_owner" : "shawnlaffan",
          "date" : "2022-09-18",
          "bugtracker" : "https://github.com/shawnlaffan/perl-alien-sqlite/issues/",
-         "uses_rt" : "",
          "dist" : "Alien-sqlite",
          "name" : "Alien-sqlite-1.07",
-         "repo_owner" : "shawnlaffan",
-         "insecure_repo" : "",
-         "repo" : "https://github.com/shawnlaffan/perl-alien-sqlite",
-         "repo_def_branch" : "master"
-      },
-      {
-         "name" : "App-PP-Autolink-2.11",
-         "bugtracker" : "https://github.com/shawnlaffan/perl-pp-autolink/issues/",
-         "uses_rt" : "",
-         "dist" : "App-PP-Autolink",
-         "repo_name" : "perl-pp-autolink",
-         "date" : "2023-05-18",
-         "repo" : "https://github.com/shawnlaffan/perl-pp-autolink",
          "repo_def_branch" : "master",
-         "repo_owner" : "shawnlaffan",
+         "repo_name" : "perl-alien-sqlite",
+         "repo" : "https://github.com/shawnlaffan/perl-alien-sqlite",
          "insecure_repo" : ""
       },
       {
+         "name" : "App-PP-Autolink-2.11",
+         "repo" : "https://github.com/shawnlaffan/perl-pp-autolink",
+         "insecure_repo" : "",
+         "repo_def_branch" : "master",
+         "repo_name" : "perl-pp-autolink",
+         "repo_owner" : "shawnlaffan",
+         "uses_rt" : "",
+         "dist" : "App-PP-Autolink",
+         "bugtracker" : "https://github.com/shawnlaffan/perl-pp-autolink/issues/",
+         "date" : "2023-05-18"
+      },
+      {
          "date" : "2017-01-08",
-         "repo_name" : "geo-converter-dms2dd",
-         "name" : "Geo-Converter-dms2dd-0.05",
          "dist" : "Geo-Converter-dms2dd",
          "repo_owner" : "shawnlaffan",
-         "insecure_repo" : "",
+         "repo_name" : "geo-converter-dms2dd",
          "repo_def_branch" : "master",
-         "repo" : "https://github.com/shawnlaffan/geo-converter-dms2dd"
+         "repo" : "https://github.com/shawnlaffan/geo-converter-dms2dd",
+         "insecure_repo" : "",
+         "name" : "Geo-Converter-dms2dd-0.05"
       },
       {
-         "insecure_repo" : "",
-         "repo_owner" : "shawnlaffan",
-         "repo" : "https://github.com/shawnlaffan/Geo-ShapeFile",
-         "repo_def_branch" : "master",
          "repo_name" : "Geo-ShapeFile",
+         "repo_def_branch" : "master",
+         "repo" : "https://github.com/shawnlaffan/Geo-ShapeFile",
+         "insecure_repo" : "",
+         "name" : "Geo-ShapeFile-3.03",
          "date" : "2023-02-23",
-         "uses_rt" : "",
-         "dist" : "Geo-ShapeFile",
          "bugtracker" : "https://github.com/shawnlaffan/Geo-ShapeFile/issues/",
-         "name" : "Geo-ShapeFile-3.03"
+         "dist" : "Geo-ShapeFile",
+         "uses_rt" : "",
+         "repo_owner" : "shawnlaffan"
       },
       {
          "date" : "2022-09-24",
-         "repo_name" : "perl-List-Unique-DeterministicOrder",
-         "name" : "List-Unique-DeterministicOrder-0.003",
-         "uses_rt" : "",
          "bugtracker" : "https://github.com/shawnlaffan/perl-List-Unique-DeterministicOrder/issues/",
          "dist" : "List-Unique-DeterministicOrder",
-         "repo_owner" : "shawnlaffan",
-         "insecure_repo" : "",
-         "repo_def_branch" : "master",
-         "repo" : "https://github.com/shawnlaffan/perl-List-Unique-DeterministicOrder"
-      },
-      {
-         "repo_def_branch" : "master",
-         "repo" : "https://github.com/shawnlaffan/Statistics-Descriptive-PDL",
-         "repo_owner" : "shawnlaffan",
-         "insecure_repo" : "",
          "uses_rt" : "",
-         "dist" : "Statistics-Descriptive-PDL",
-         "bugtracker" : "https://github.com/shawnlaffan/Statistics-Descriptive-PDL/issues/",
-         "name" : "Statistics-Descriptive-PDL-0.16",
-         "date" : "2022-04-24",
-         "repo_name" : "Statistics-Descriptive-PDL"
+         "repo_owner" : "shawnlaffan",
+         "repo_name" : "perl-List-Unique-DeterministicOrder",
+         "repo_def_branch" : "master",
+         "repo" : "https://github.com/shawnlaffan/perl-List-Unique-DeterministicOrder",
+         "insecure_repo" : "",
+         "name" : "List-Unique-DeterministicOrder-0.003"
       },
       {
+         "repo_def_branch" : "master",
+         "repo_name" : "Statistics-Descriptive-PDL",
+         "insecure_repo" : "",
+         "repo" : "https://github.com/shawnlaffan/Statistics-Descriptive-PDL",
+         "name" : "Statistics-Descriptive-PDL-0.16",
+         "bugtracker" : "https://github.com/shawnlaffan/Statistics-Descriptive-PDL/issues/",
+         "date" : "2022-04-24",
+         "dist" : "Statistics-Descriptive-PDL",
+         "uses_rt" : "",
+         "repo_owner" : "shawnlaffan"
+      },
+      {
+         "repo_def_branch" : "master",
+         "repo_name" : "perl-statistics-sampler-multinomial",
+         "insecure_repo" : "",
+         "repo" : "https://github.com/shawnlaffan/perl-statistics-sampler-multinomial",
          "name" : "Statistics-Sampler-Multinomial-1.02",
+         "date" : "2022-09-24",
+         "bugtracker" : "https://github.com/shawnlaffan/perl-statistics-sampler-multinomial/issues/",
          "dist" : "Statistics-Sampler-Multinomial",
          "uses_rt" : "",
-         "bugtracker" : "https://github.com/shawnlaffan/perl-statistics-sampler-multinomial/issues/",
-         "repo_name" : "perl-statistics-sampler-multinomial",
-         "date" : "2022-09-24",
-         "repo" : "https://github.com/shawnlaffan/perl-statistics-sampler-multinomial",
-         "repo_def_branch" : "master",
-         "insecure_repo" : "",
          "repo_owner" : "shawnlaffan"
       }
-   ],
-   "author" : {
-      "github" : "shawnlaffan",
-      "cpan" : "SLAFFAN",
-      "name" : "Shawn Laffan",
-      "gravatar" : "https://secure.gravatar.com/avatar/48789401bfe02f3f10da90999de66b79?s=130&d=identicon"
-   },
-   "sort" : {
-      "direction" : "asc",
-      "column" : "0"
-   }
+   ]
 }
