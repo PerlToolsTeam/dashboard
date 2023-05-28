@@ -118,6 +118,7 @@ class Dashboard::App {
     $cfg->{sort}{column} = 2 if 'date' eq lc $cfg->{sort}{column};
     $cfg->{sort}{direction} //= 'asc';
 
+    path("docs/$cfg->{author}{cpan}")->mkdir;
     path("docs/$cfg->{author}{cpan}/data.json")->spew_utf8($json->encode($cfg));
 
      return $cfg;
