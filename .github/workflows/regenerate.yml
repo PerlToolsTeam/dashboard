@@ -21,7 +21,6 @@ jobs:
     - name: Install modules
       run: |
           sudo cpanm --installdeps --notest .
-          sudo cpanm --notest JSON Path::Tiny URI
 
     - name: Create pages
       env:
