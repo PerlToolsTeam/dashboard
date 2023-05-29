@@ -1,81 +1,81 @@
 {
+   "sort" : {
+      "column" : "0",
+      "direction" : "asc"
+   },
+   "author" : {
+      "gravatar" : "https://secure.gravatar.com/avatar/bba6aa3d7ba48d250d898d772c886093?s=130&d=identicon",
+      "cpan" : "PSCUST",
+      "github" : "pauloscustodio",
+      "name" : "Paulo Custodio"
+   },
+   "ci" : {
+      "use_travis" : 0,
+      "use_codecov" : 0,
+      "gh_workflow_names" : [
+         "CI"
+      ],
+      "use_appveyor" : 0,
+      "use_travis_com" : 0,
+      "use_gh_actions" : 1,
+      "use_coveralls" : 0,
+      "use_cirrus" : 0,
+      "use_kritika" : 0
+   },
    "modules" : [
       {
-         "repo_owner" : "pauloscustodio",
-         "repo_def_branch" : "master",
-         "name" : "CPU-Z80-Assembler-2.25",
-         "insecure_repo" : "",
-         "repo_name" : "perl-CPU-Z80-Assembler",
-         "uses_rt" : "",
-         "date" : "2023-05-27",
          "repo" : "https://github.com/pauloscustodio/perl-CPU-Z80-Assembler",
+         "uses_rt" : "",
+         "repo_owner" : "pauloscustodio",
+         "dist" : "CPU-Z80-Assembler",
          "bugtracker" : "https://github.com/pauloscustodio/perl-CPU-Z80-Assembler/issues",
-         "dist" : "CPU-Z80-Assembler"
+         "name" : "CPU-Z80-Assembler-2.25",
+         "repo_name" : "perl-CPU-Z80-Assembler",
+         "insecure_repo" : "",
+         "date" : "2023-05-27",
+         "repo_def_branch" : "master"
       },
       {
-         "repo_owner" : "pauloscustodio",
-         "repo_def_branch" : "master",
+         "bugtracker" : "https://github.com/pauloscustodio/perl-CPU-Z80-Disassembler/issues",
+         "repo_name" : "perl-CPU-Z80-Disassembler",
          "name" : "CPU-Z80-Disassembler-1.02",
          "insecure_repo" : "",
-         "repo_name" : "perl-CPU-Z80-Disassembler",
-         "uses_rt" : "",
          "date" : "2023-05-27",
-         "bugtracker" : "https://github.com/pauloscustodio/perl-CPU-Z80-Disassembler/issues",
+         "repo_def_branch" : "master",
          "repo" : "https://github.com/pauloscustodio/perl-CPU-Z80-Disassembler",
+         "uses_rt" : "",
+         "repo_owner" : "pauloscustodio",
          "dist" : "CPU-Z80-Disassembler"
       },
       {
-         "name" : "Parse-FSM-1.13",
-         "insecure_repo" : "",
          "repo_owner" : "pauloscustodio",
-         "repo_def_branch" : "master",
-         "repo" : "https://github.com/pauloscustodio/perl-Parse-FSM",
          "dist" : "Parse-FSM",
-         "repo_name" : "perl-Parse-FSM",
-         "date" : "2016-05-16"
+         "repo" : "https://github.com/pauloscustodio/perl-Parse-FSM",
+         "repo_def_branch" : "master",
+         "date" : "2016-05-16",
+         "insecure_repo" : "",
+         "name" : "Parse-FSM-1.13",
+         "repo_name" : "perl-Parse-FSM"
       },
       {
-         "repo_owner" : "pauloscustodio",
          "repo_def_branch" : "master",
-         "name" : "Preproc-Tiny-0.02",
-         "insecure_repo" : "",
          "date" : "2016-05-12",
+         "insecure_repo" : "",
          "repo_name" : "perl-Preproc-Tiny",
+         "name" : "Preproc-Tiny-0.02",
+         "repo_owner" : "pauloscustodio",
          "dist" : "Preproc-Tiny",
          "repo" : "https://github.com/pauloscustodio/perl-Preproc-Tiny"
       },
       {
-         "repo_def_branch" : "master",
-         "repo_owner" : "pauloscustodio",
-         "name" : "Text-MacroScript-2.14",
-         "insecure_repo" : "",
-         "date" : "2023-05-18",
-         "repo_name" : "Text-MacroScript",
+         "repo" : "https://github.com/pauloscustodio/Text-MacroScript",
          "dist" : "Text-MacroScript",
-         "repo" : "https://github.com/pauloscustodio/Text-MacroScript"
+         "repo_owner" : "pauloscustodio",
+         "insecure_repo" : "",
+         "name" : "Text-MacroScript-2.14",
+         "repo_name" : "Text-MacroScript",
+         "repo_def_branch" : "master",
+         "date" : "2023-05-18"
       }
-   ],
-   "author" : {
-      "gravatar" : "https://secure.gravatar.com/avatar/bba6aa3d7ba48d250d898d772c886093?s=130&d=identicon",
-      "name" : "Paulo Custodio",
-      "cpan" : "PSCUST",
-      "github" : "pauloscustodio"
-   },
-   "ci" : {
-      "use_coveralls" : 0,
-      "gh_workflow_names" : [
-         "CI"
-      ],
-      "use_gh_actions" : 1,
-      "use_appveyor" : 0,
-      "use_cirrus" : 0,
-      "use_kritika" : 0,
-      "use_travis" : 0,
-      "use_codecov" : 0,
-      "use_travis_com" : 0
-   },
-   "sort" : {
-      "column" : "0",
-      "direction" : "asc"
-   }
+   ]
 }
