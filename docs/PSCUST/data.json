@@ -1,81 +1,81 @@
 {
-   "modules" : [
-      {
-         "repo_name" : "perl-CPU-Z80-Assembler",
-         "repo" : "https://github.com/pauloscustodio/perl-CPU-Z80-Assembler",
-         "repo_def_branch" : "master",
-         "repo_owner" : "pauloscustodio",
-         "uses_rt" : "",
-         "bugtracker" : "https://github.com/pauloscustodio/perl-CPU-Z80-Assembler/issues",
-         "insecure_repo" : "",
-         "name" : "CPU-Z80-Assembler-2.25",
-         "date" : "2023-05-27",
-         "dist" : "CPU-Z80-Assembler"
-      },
-      {
-         "repo_def_branch" : "master",
-         "repo_owner" : "pauloscustodio",
-         "uses_rt" : "",
-         "repo" : "https://github.com/pauloscustodio/perl-CPU-Z80-Disassembler",
-         "repo_name" : "perl-CPU-Z80-Disassembler",
-         "bugtracker" : "https://github.com/pauloscustodio/perl-CPU-Z80-Disassembler/issues",
-         "dist" : "CPU-Z80-Disassembler",
-         "name" : "CPU-Z80-Disassembler-1.02",
-         "insecure_repo" : "",
-         "date" : "2023-05-27"
-      },
-      {
-         "name" : "Parse-FSM-1.13",
-         "insecure_repo" : "",
-         "date" : "2016-05-16",
-         "dist" : "Parse-FSM",
-         "repo" : "https://github.com/pauloscustodio/perl-Parse-FSM",
-         "repo_name" : "perl-Parse-FSM",
-         "repo_owner" : "pauloscustodio",
-         "repo_def_branch" : "master"
-      },
-      {
-         "repo_owner" : "pauloscustodio",
-         "repo_def_branch" : "master",
-         "repo" : "https://github.com/pauloscustodio/perl-Preproc-Tiny",
-         "repo_name" : "perl-Preproc-Tiny",
-         "dist" : "Preproc-Tiny",
-         "date" : "2016-05-12",
-         "insecure_repo" : "",
-         "name" : "Preproc-Tiny-0.02"
-      },
-      {
-         "date" : "2023-05-18",
-         "name" : "Text-MacroScript-2.14",
-         "insecure_repo" : "",
-         "dist" : "Text-MacroScript",
-         "repo" : "https://github.com/pauloscustodio/Text-MacroScript",
-         "repo_name" : "Text-MacroScript",
-         "repo_def_branch" : "master",
-         "repo_owner" : "pauloscustodio"
-      }
-   ],
    "author" : {
+      "gravatar" : "https://secure.gravatar.com/avatar/bba6aa3d7ba48d250d898d772c886093?s=130&d=identicon",
       "cpan" : "PSCUST",
       "name" : "Paulo Custodio",
-      "github" : "pauloscustodio",
-      "gravatar" : "https://secure.gravatar.com/avatar/bba6aa3d7ba48d250d898d772c886093?s=130&d=identicon"
+      "github" : "pauloscustodio"
+   },
+   "ci" : {
+      "use_cirrus" : 0,
+      "use_coveralls" : 0,
+      "use_codecov" : 0,
+      "gh_workflow_names" : [
+         "CI"
+      ],
+      "use_travis_com" : 0,
+      "use_travis" : 0,
+      "use_gh_actions" : 1,
+      "use_appveyor" : 0,
+      "use_kritika" : 0
    },
    "sort" : {
       "column" : "0",
       "direction" : "asc"
    },
-   "ci" : {
-      "use_kritika" : 0,
-      "use_travis_com" : 0,
-      "gh_workflow_names" : [
-         "CI"
-      ],
-      "use_travis" : 0,
-      "use_codecov" : 0,
-      "use_cirrus" : 0,
-      "use_appveyor" : 0,
-      "use_gh_actions" : 1,
-      "use_coveralls" : 0
-   }
+   "modules" : [
+      {
+         "repo_def_branch" : "master",
+         "bugtracker" : "https://github.com/pauloscustodio/perl-CPU-Z80-Assembler/issues",
+         "repo" : "https://github.com/pauloscustodio/perl-CPU-Z80-Assembler",
+         "name" : "CPU-Z80-Assembler-2.25",
+         "dist" : "CPU-Z80-Assembler",
+         "repo_name" : "perl-CPU-Z80-Assembler",
+         "insecure_repo" : "",
+         "repo_owner" : "pauloscustodio",
+         "date" : "2023-05-27",
+         "uses_rt" : ""
+      },
+      {
+         "insecure_repo" : "",
+         "repo_owner" : "pauloscustodio",
+         "date" : "2023-05-27",
+         "uses_rt" : "",
+         "repo_def_branch" : "master",
+         "bugtracker" : "https://github.com/pauloscustodio/perl-CPU-Z80-Disassembler/issues",
+         "repo" : "https://github.com/pauloscustodio/perl-CPU-Z80-Disassembler",
+         "name" : "CPU-Z80-Disassembler-1.02",
+         "repo_name" : "perl-CPU-Z80-Disassembler",
+         "dist" : "CPU-Z80-Disassembler"
+      },
+      {
+         "name" : "Parse-FSM-1.13",
+         "repo_name" : "perl-Parse-FSM",
+         "dist" : "Parse-FSM",
+         "repo" : "https://github.com/pauloscustodio/perl-Parse-FSM",
+         "repo_def_branch" : "master",
+         "repo_owner" : "pauloscustodio",
+         "date" : "2016-05-16",
+         "insecure_repo" : ""
+      },
+      {
+         "date" : "2016-05-12",
+         "repo_owner" : "pauloscustodio",
+         "insecure_repo" : "",
+         "repo_name" : "perl-Preproc-Tiny",
+         "dist" : "Preproc-Tiny",
+         "name" : "Preproc-Tiny-0.02",
+         "repo" : "https://github.com/pauloscustodio/perl-Preproc-Tiny",
+         "repo_def_branch" : "master"
+      },
+      {
+         "name" : "Text-MacroScript-2.14",
+         "repo_name" : "Text-MacroScript",
+         "dist" : "Text-MacroScript",
+         "repo" : "https://github.com/pauloscustodio/Text-MacroScript",
+         "repo_def_branch" : "master",
+         "repo_owner" : "pauloscustodio",
+         "date" : "2023-05-18",
+         "insecure_repo" : ""
+      }
+   ]
 }
