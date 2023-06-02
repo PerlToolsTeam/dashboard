@@ -12,7 +12,7 @@ class Dashboard::App {
   use URI;
   use FindBin '$RealBin';
 
-  my $json = JSON->new->pretty->utf8;
+  my $json = JSON->new->pretty->canonical->utf8;
 
   field $mcpan { MetaCPAN::Client->new };
   field $global_cfg { $json->decode(path('dashboard.json')->slurp_utf8) };
