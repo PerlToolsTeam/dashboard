@@ -403,10 +403,10 @@
          "uses_rt" : ""
       },
       {
-         "date" : "2022-06-07",
+         "date" : "2023-06-07",
          "dist" : "Mac-OSVersion",
          "insecure_repo" : "",
-         "name" : "Mac-OSVersion-1.008",
+         "name" : "Mac-OSVersion-1.009",
          "repo" : "https://github.com/briandfoy/mac-osversion",
          "repo_def_branch" : "master",
          "repo_name" : "mac-osversion",
