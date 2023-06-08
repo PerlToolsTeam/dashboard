@@ -49,10 +49,10 @@
          "repo_owner" : "drclaw1394"
       },
       {
-         "date" : "2022-10-11",
+         "date" : "2023-06-08",
          "dist" : "Hustle-Table",
          "insecure_repo" : "1",
-         "name" : "Hustle-Table-v0.5.5",
+         "name" : "Hustle-Table-v0.6.0",
          "repo" : "http://github.com/drclaw1394/perl5-hustle-table",
          "repo_def_branch" : "main",
          "repo_name" : "perl5-hustle-table",
