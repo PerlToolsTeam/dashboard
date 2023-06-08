@@ -299,10 +299,10 @@
       },
       {
          "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-Abbreviations/issues",
-         "date" : "2022-07-22",
+         "date" : "2023-06-08",
          "dist" : "Geo-Coder-Abbreviations",
          "insecure_repo" : "",
-         "name" : "Geo-Coder-Abbreviations-0.05",
+         "name" : "Geo-Coder-Abbreviations-0.06",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-Abbreviations",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-Abbreviations",
