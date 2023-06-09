@@ -8,8 +8,7 @@
       "gh_workflow_names" : [ "CI" ],
       "use_travis" : 1,
       "use_coveralls" : 1,
-      "use_codecov" : 0,
-      "use_kritika" : 0
+      "use_codecov" : 0
    },
    "sort": {
       "column": "Date",

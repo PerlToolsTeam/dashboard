@@ -165,7 +165,6 @@ class Dashboard::App {
           appveyor   => \&appveyor_badge_link,
           coveralls  => \&coveralls_badge_link,
           codecov    => \&codecov_badge_link,
-          kritika    => \&kritika_badge_link,
         },
       },
     });
@@ -289,16 +288,6 @@ class Dashboard::App {
       "https://codecov.io/gh/$module->{repo_owner}/$module->{repo_name}",
       "https://codecov.io/gh/$module->{repo_owner}/$module->{repo_name}/branch/$module->{repo_def_branch}/graph/badge.svg",
       "Test coverage for $module->{dist}",
-    );
-  }
-
-  sub kritika_badge_link {
-    my ($module, $author) = @_;
-
-    return badge_link(
-      "https://kritika.io/users/$author->{github}/repos/$module->{repo_owner}+$module->{repo_name}/",
-      "https://kritika.io/users/$author->{github}/repos/$module->{repo_owner}+$module->{repo_name}/heads/$module->{repo_def_branch}/status.svg",
-      "Kritika grade for $module->{dist}",
     );
   }
 

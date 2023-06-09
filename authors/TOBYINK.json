@@ -8,8 +8,7 @@
       "gh_workflow_names" : [ "CI" ],
       "use_travis" : 0,
       "use_coveralls" : 1,
-      "use_codecov" : 1,
-      "use_kritika" : 0
+      "use_codecov" : 1
    }
 }
 

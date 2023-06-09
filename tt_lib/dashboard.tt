@@ -47,9 +47,6 @@ var direction = "[% sort.direction %]";
 [% IF ci.use_codecov -%]
           <th>Codecov</th>
 [% END -%]
-[% IF ci.use_kritika -%]
-          <th>Kritika</th>
-[% END -%]
         </tr>
       </thead>
       <tbody>
@@ -83,9 +80,6 @@ var direction = "[% sort.direction %]";
 [%   END -%]
 [%   IF ci.use_codecov -%]
           <td>[% linked_badge.codecov(m) %]</td>
-[%   END -%]
-[%   IF ci.use_kritika -%]
-          <td>[% linked_badge.kritika(m, author) %]</td>
 [%   END -%]
         </tr>
 [% END -%]
