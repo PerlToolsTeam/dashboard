@@ -14,7 +14,6 @@
       "use_codecov" : 0,
       "use_coveralls" : 1,
       "use_gh_actions" : 1,
-      "use_kritika" : 0,
       "use_travis" : 0,
       "use_travis_com" : 0
    },

@@ -11,8 +11,7 @@
       "use_travis" : 0,
       "use_travis_com" : 0,
       "use_coveralls" : 1,
-      "use_codecov" : 0,
-      "use_kritika" : 0
+      "use_codecov" : 0
    }
 }
 

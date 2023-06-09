@@ -88,29 +88,6 @@ to my repo.</li>
   </div>
 
   <div class="card">
-    <div class="card-header" id="headingFour">
-      <h3 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour"
-                aria-expanded="true" aria-controls="collapseFour">
-          Kritika.io
-        </button>
-      </h3>
-    </div>
-
-    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-      <div class="card-body">
-        <p><a href="https://kritika.io/">Kritika.io</a> is a service that measures
-          code quality. For Perl code, it will run it through
-          <a href="https://metacpan.org/pod/distribution/Perl-Critic/bin/perlcritic">perlcritic</a>.</p>
-        <p>Adding your repos here is simpler than the other services. You just set up an
-          account (again, using your Github credentials) and then select which repos you
-          want to use the service on. There's nothing at all to do in the repo. It will
-          all just start to work the next time you make a commit.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
     <div class="card-header" id="headingFive">
       <h3 class="mb-0">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive"

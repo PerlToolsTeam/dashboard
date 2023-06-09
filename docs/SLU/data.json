@@ -9,7 +9,6 @@
       "gh_workflow_names" : [],
       "use_coveralls" : 1,
       "use_gh_actions" : 0,
-      "use_kritika" : 0,
       "use_travis" : 1
    },
    "modules" : [
