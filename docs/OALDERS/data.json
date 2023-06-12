@@ -241,7 +241,7 @@
          "insecure_repo" : "",
          "name" : "GitHub-MergeVelocity-0.000009",
          "repo" : "https://github.com/oalders/github-mergevelocity",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "main",
          "repo_name" : "github-mergevelocity",
          "repo_owner" : "oalders",
          "uses_rt" : ""
@@ -685,7 +685,7 @@
          "insecure_repo" : "",
          "name" : "WWW-Mechanize-Cached-1.56",
          "repo" : "https://github.com/libwww-perl/WWW-Mechanize-Cached",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "main",
          "repo_name" : "WWW-Mechanize-Cached",
          "repo_owner" : "libwww-perl",
          "uses_rt" : ""

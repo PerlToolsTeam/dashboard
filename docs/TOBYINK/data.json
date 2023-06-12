@@ -2211,10 +2211,10 @@
       },
       {
          "bugtracker" : "https://github.com/tobyink/p5-story-interact/issues",
-         "date" : "2023-04-24",
+         "date" : "2023-06-12",
          "dist" : "Story-Interact",
          "insecure_repo" : "",
-         "name" : "Story-Interact-0.001011",
+         "name" : "Story-Interact-0.001012",
          "repo" : "https://github.com/tobyink/p5-story-interact",
          "repo_def_branch" : "master",
          "repo_name" : "p5-story-interact",
