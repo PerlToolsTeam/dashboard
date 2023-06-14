@@ -186,6 +186,18 @@
          "uses_rt" : ""
       },
       {
+         "bugtracker" : "http://padre.perlide.org/trac/",
+         "date" : "2023-06-14",
+         "dist" : "Padre",
+         "insecure_repo" : "",
+         "name" : "Padre-1.02",
+         "repo" : "https://github.com/PadreIDE/Padre",
+         "repo_def_branch" : "master",
+         "repo_name" : "Padre",
+         "repo_owner" : "PadreIDE",
+         "uses_rt" : ""
+      },
+      {
          "bugtracker" : "https://github.com/PadreIDE/Parse-Functions/issues",
          "date" : "2014-09-12",
          "dist" : "Parse-Functions",

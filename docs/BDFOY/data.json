@@ -67,6 +67,18 @@
          "uses_rt" : ""
       },
       {
+         "bugtracker" : "https://github.com/briandfoy/app-bcrypt/issues",
+         "date" : "2023-06-14",
+         "dist" : "App-bcrypt",
+         "insecure_repo" : "",
+         "name" : "App-bcrypt-1.001",
+         "repo" : "https://github.com/briandfoy/app-bcrypt",
+         "repo_def_branch" : "master",
+         "repo_name" : "app-bcrypt",
+         "repo_owner" : "briandfoy",
+         "uses_rt" : ""
+      },
+      {
          "bugtracker" : "https://github.com/briandfoy/scriptdist/issues",
          "date" : "2021-01-29",
          "dist" : "App-scriptdist",
