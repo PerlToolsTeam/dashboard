@@ -249,10 +249,10 @@
       },
       {
          "bugtracker" : "https://github.com/DrHyde/perl-modules-Number-Phone/issues",
-         "date" : "2023-03-07",
+         "date" : "2023-06-14",
          "dist" : "Number-Phone",
          "insecure_repo" : "",
-         "name" : "Number-Phone-3.9001",
+         "name" : "Number-Phone-3.9002",
          "repo" : "https://github.com/DrHyde/perl-modules-Number-Phone",
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Number-Phone",
