@@ -430,10 +430,10 @@
       },
       {
          "bugtracker" : "https://github.com/nigelhorne/Geo-Location-Point/issues",
-         "date" : "2023-03-17",
+         "date" : "2023-06-15",
          "dist" : "Geo-Location-Point",
          "insecure_repo" : "",
-         "name" : "Geo-Location-Point-0.08",
+         "name" : "Geo-Location-Point-0.09",
          "repo" : "https://github.com/nigelhorne/Geo-Location-Point",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Location-Point",
