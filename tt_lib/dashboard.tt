@@ -24,6 +24,7 @@ var direction = "[% sort.direction %]";
         <tr>
           <th>Name / Repo</th>
           <th>MetaCPAN</th>
+          <th>CPANTS</th>
           <th>Date</th>
           <th>Bugs</th>
 [% IF ci.use_gh_actions -%]
@@ -54,6 +55,7 @@ var direction = "[% sort.direction %]";
         <tr>
           <td><a href="[% m.repo %]">[% m.dist %]</a>[% IF m.insecure_repo %] <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span>[% END %]</td>
           <td>[% linked_badge.cpan(m) %]</td>
+          <td>[% linked_badge.cpants(m) %]</td>
           <td>[% m.date %]</td>
           <td>[% IF m.bugtracker %]<a href="[% m.bugtracker %]">[% good_bugtracker %]</a>[% ELSE; no_bugtracker; END %]</td>
 [%   IF ci.use_gh_actions -%]

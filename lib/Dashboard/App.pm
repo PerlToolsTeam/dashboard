@@ -70,6 +70,8 @@ class Dashboard::App {
       my $mod;
       $mod->{name} = $rel->name;
       $mod->{dist} = $rel->distribution;
+      $mod->{ver}  = $rel->version;
+      $mod->{auth} = $rel->author;
       $mod->{date} = (split /T/, $rel->date)[0];
       # Get the repo link.
       # 1. It should be in the "web" key
@@ -158,6 +160,7 @@ class Dashboard::App {
         analytics    => $global_cfg->{analytics},
         linked_badge => {
           cpan       => \&cpan_badge_link,
+          cpants     => \&cpants_badge_link,
           gh         => \&gh_badge_link,
           travis     => \&travis_badge_link,
           travis_com => \&travis_com_badge_link,
@@ -288,6 +291,16 @@ class Dashboard::App {
       "https://codecov.io/gh/$module->{repo_owner}/$module->{repo_name}",
       "https://codecov.io/gh/$module->{repo_owner}/$module->{repo_name}/branch/$module->{repo_def_branch}/graph/badge.svg",
       "Test coverage for $module->{dist}",
+    );
+  }
+
+  sub cpants_badge_link {
+    my ($module) = @_;
+
+    return badge_link(
+      "https://cpants.cpanauthors.org/release/$module->{auth}/$module->{dist}-$module->{ver}",
+      "https://cpants.cpanauthors.org/release/$module->{auth}/$module->{dist}-$module->{ver}.svg",
+      "Kwalitee for $module->{dist}",
     );
   }
 
