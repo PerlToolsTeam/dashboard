@@ -13,6 +13,7 @@
    },
    "modules" : [
       {
+         "auth" : "SLU",
          "bugtracker" : "https://github.com/soren/Acme-Be-Modern/issues",
          "date" : "2020-11-11",
          "dist" : "Acme-Be-Modern",
@@ -22,9 +23,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Acme-Be-Modern",
          "repo_owner" : "soren",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.04"
       },
       {
+         "auth" : "SLU",
          "bugtracker" : "https://github.com/soren/App-TimeClock/issues",
          "date" : "2017-01-04",
          "dist" : "App-TimeClock",
@@ -34,7 +37,8 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-TimeClock",
          "repo_owner" : "soren",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.13"
       }
    ],
    "sort" : {

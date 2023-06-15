@@ -19,6 +19,7 @@
    },
    "modules" : [
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/Acme-MyFirstModule-BDFOY/issues",
          "date" : "2023-03-09",
          "dist" : "Acme-MyFirstModule-BDFOY",
@@ -28,9 +29,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Acme-MyFirstModule-BDFOY",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.011"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/antsy/issues",
          "date" : "2021-12-24",
          "dist" : "Antsy",
@@ -40,9 +43,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "antsy",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.903"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/app-module-lister/issues",
          "date" : "2022-01-08",
          "dist" : "App-Module-Lister",
@@ -52,9 +57,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "app-module-lister",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.155"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/app-ppi-dumper/issues",
          "date" : "2022-01-09",
          "dist" : "App-PPI-Dumper",
@@ -64,9 +71,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "app-ppi-dumper",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.023"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/app-bcrypt/issues",
          "date" : "2023-06-14",
          "dist" : "App-bcrypt",
@@ -76,9 +85,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "app-bcrypt",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.001"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/scriptdist/issues",
          "date" : "2021-01-29",
          "dist" : "App-scriptdist",
@@ -88,9 +99,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "scriptdist",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.001"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/unichar/issues",
          "date" : "2021-01-13",
          "dist" : "App-unichar",
@@ -100,9 +113,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "unichar",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.013"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/app-url/issues",
          "date" : "2021-02-13",
          "dist" : "App-url",
@@ -112,9 +127,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "app-url",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.007"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/brick/issues",
          "date" : "2022-01-09",
          "dist" : "Brick",
@@ -124,9 +141,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "brick",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.902"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/Bundle-BDFOY/issues",
          "date" : "2021-01-14",
          "dist" : "Bundle-BDFOY",
@@ -136,9 +155,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Bundle-BDFOY",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "20210113"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/business-isbn/issues",
          "date" : "2023-03-23",
          "dist" : "Business-ISBN",
@@ -148,9 +169,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "business-isbn",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "3.008"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/business-isbn-data/issues",
          "date" : "2023-05-28",
          "dist" : "Business-ISBN-Data",
@@ -160,9 +183,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "business-isbn-data",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "20230528.001"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/business-ismn/issues",
          "date" : "2023-03-16",
          "dist" : "Business-ISMN",
@@ -172,9 +197,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "business-ismn",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.203"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/business-issn/issues",
          "date" : "2022-02-18",
          "dist" : "Business-ISSN",
@@ -184,9 +211,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "business-issn",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.005"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/cacertorg-ca/issues",
          "date" : "2021-01-15",
          "dist" : "CACertOrg-CA",
@@ -196,9 +225,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "cacertorg-ca",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "20210114.001"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/cpan-audit/issues",
          "date" : "2023-06-02",
          "dist" : "CPAN-Audit",
@@ -208,9 +239,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "cpan-audit",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "20230601.002"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/cpan-packagedetails/issues",
          "date" : "2021-02-05",
          "dist" : "CPAN-PackageDetails",
@@ -220,9 +253,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "cpan-packagedetails",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.263"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/chemistry-elements/issues",
          "date" : "2021-10-26",
          "dist" : "Chemistry-Elements",
@@ -232,9 +267,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "chemistry-elements",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.075"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/ConfigReader-Simple/issues",
          "date" : "2022-01-09",
          "dist" : "ConfigReader-Simple",
@@ -244,9 +281,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "ConfigReader-Simple",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.295"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/data-constraint/issues",
          "date" : "2022-01-09",
          "dist" : "Data-Constraint",
@@ -256,9 +295,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "data-constraint",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.203"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/distribution-cooker/issues",
          "date" : "2023-04-02",
          "dist" : "Distribution-Cooker",
@@ -268,9 +309,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "distribution-cooker",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.002"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/distribution-guess-buildsystem/issues",
          "date" : "2022-01-08",
          "dist" : "Distribution-Guess-BuildSystem",
@@ -280,9 +323,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "distribution-guess-buildsystem",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.004"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/dumbbench/issues",
          "date" : "2022-04-21",
          "dist" : "Dumbbench",
@@ -292,9 +337,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "dumbbench",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.503"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/file-find-closures/issues",
          "date" : "2021-02-04",
          "dist" : "File-Find-Closures",
@@ -304,9 +351,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "file-find-closures",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.113"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/file-fingerprint/issues",
          "date" : "2018-05-14",
          "dist" : "File-Fingerprint",
@@ -316,9 +365,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "file-fingerprint",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.102"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/http-cookies-chrome/issues",
          "date" : "2021-02-19",
          "dist" : "HTTP-Cookies-Chrome",
@@ -328,9 +379,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "http-cookies-chrome",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.002"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/HTTP-Cookies-Mozilla/issues",
          "date" : "2019-07-23",
          "dist" : "HTTP-Cookies-Mozilla",
@@ -340,9 +393,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "HTTP-Cookies-Mozilla",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.036"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/http-cookies-safari/issues",
          "date" : "2017-08-24",
          "dist" : "HTTP-Cookies-Safari",
@@ -352,9 +407,11 @@
          "repo_def_branch" : "",
          "repo_name" : "http-cookies-safari",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.153"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/CPAN-Adoptable-Modules/http-simplelinkchecker/issues",
          "date" : "2021-02-03",
          "dist" : "HTTP-SimpleLinkChecker",
@@ -364,9 +421,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "http-simplelinkchecker",
          "repo_owner" : "CPAN-Adoptable-Modules",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.168"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/CPAN-Adoptable-Modules/http-size/issues",
          "date" : "2021-02-04",
          "dist" : "HTTP-Size",
@@ -376,9 +435,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "http-size",
          "repo_owner" : "CPAN-Adoptable-Modules",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.153"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/io-interactive/issues",
          "date" : "2021-02-03",
          "dist" : "IO-Interactive",
@@ -388,9 +449,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "io-interactive",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.023"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/Log-Log4perl-Appender-ScreenColoredLevels-UsingMyColors/issues",
          "date" : "2022-01-09",
          "dist" : "Log-Log4perl-Appender-ScreenColoredLevels-UsingMyColors",
@@ -400,9 +463,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Log-Log4perl-Appender-ScreenColoredLevels-UsingMyColors",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.114"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/Mac-Errors/issues",
          "date" : "2018-06-20",
          "dist" : "Mac-Errors",
@@ -412,9 +477,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Mac-Errors",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.192"
       },
       {
+         "auth" : "BDFOY",
          "date" : "2023-06-07",
          "dist" : "Mac-OSVersion",
          "insecure_repo" : "",
@@ -422,9 +489,11 @@
          "repo" : "https://github.com/briandfoy/mac-osversion",
          "repo_def_branch" : "master",
          "repo_name" : "mac-osversion",
-         "repo_owner" : "briandfoy"
+         "repo_owner" : "briandfoy",
+         "ver" : "1.009"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/mac-propertylist/issues",
          "date" : "2022-07-08",
          "dist" : "Mac-PropertyList",
@@ -434,9 +503,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "mac-propertylist",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.504"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/math-nocarry/issues",
          "date" : "2022-01-08",
          "dist" : "Math-NoCarry",
@@ -446,9 +517,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "math-nocarry",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.114"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/module-extract-declaredminimumperl/issues",
          "date" : "2022-01-08",
          "dist" : "Module-Extract-DeclaredMinimumPerl",
@@ -458,9 +531,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "module-extract-declaredminimumperl",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.023"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/module-extract-declaredversion/issues",
          "date" : "2022-01-21",
          "dist" : "Module-Extract-DeclaredVersion",
@@ -470,9 +545,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "module-extract-declaredversion",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.024"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/module-extract-namespaces/issues",
          "date" : "2022-01-21",
          "dist" : "Module-Extract-Namespaces",
@@ -482,9 +559,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "module-extract-namespaces",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.023"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/module-extract-use/issues",
          "date" : "2022-01-09",
          "dist" : "Module-Extract-Use",
@@ -494,9 +573,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "module-extract-use",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.051"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/module-extract-version/issues",
          "date" : "2022-10-25",
          "dist" : "Module-Extract-VERSION",
@@ -506,9 +587,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "module-extract-version",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.116"
       },
       {
+         "auth" : "BDFOY",
          "date" : "2021-03-11",
          "dist" : "Module-Release",
          "insecure_repo" : "",
@@ -516,9 +599,11 @@
          "repo" : "https://github.com/briandfoy/module-release",
          "repo_def_branch" : "master",
          "repo_name" : "module-release",
-         "repo_owner" : "briandfoy"
+         "repo_owner" : "briandfoy",
+         "ver" : "2.128"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/module-release-git/issues",
          "date" : "2021-02-13",
          "dist" : "Module-Release-Git",
@@ -528,9 +613,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "module-release-git",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.016"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/module-starter-addmodule/issues",
          "date" : "2022-01-09",
          "dist" : "Module-Starter-AddModule",
@@ -540,9 +627,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "module-starter-addmodule",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.008"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/modulino-demo/issues",
          "date" : "2022-01-09",
          "dist" : "Modulino-Demo",
@@ -552,9 +641,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "modulino-demo",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.004"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/mojo-promise-role-higherorder/issues",
          "date" : "2021-05-25",
          "dist" : "Mojo-Promise-Role-HigherOrder",
@@ -564,9 +655,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "mojo-promise-role-higherorder",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.005"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/mojolicious-plugin-directoryserver/issues",
          "date" : "2023-04-03",
          "dist" : "Mojolicious-Plugin-DirectoryServer",
@@ -576,9 +669,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "mojolicious-plugin-directoryserver",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.002"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/mycpan-app-dpan/issues",
          "date" : "2018-05-16",
          "dist" : "MyCPAN-App-DPAN",
@@ -588,9 +683,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "mycpan-app-dpan",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.281"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/mycpan-indexer/issues",
          "date" : "2018-05-16",
          "dist" : "MyCPAN-Indexer",
@@ -600,9 +697,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "mycpan-indexer",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.282"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/net-publicsuffixlist/issues",
          "date" : "2022-03-19",
          "dist" : "Net-PublicSuffixList",
@@ -612,9 +711,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "net-publicsuffixlist",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.502"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/CPAN-Adoptable-Modules/netscape-bookmarks/issues",
          "date" : "2019-07-21",
          "dist" : "Netscape-Bookmarks",
@@ -624,9 +725,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "netscape-bookmarks",
          "repo_owner" : "CPAN-Adoptable-Modules",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.304"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/object-iterate/issues",
          "date" : "2022-01-09",
          "dist" : "Object-Iterate",
@@ -636,9 +739,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "object-iterate",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.146"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/ppi-app-ppi_version-bdfoy/issues",
          "date" : "2021-02-07",
          "dist" : "PPI-App-ppi_version-BDFOY",
@@ -648,9 +753,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "ppi-app-ppi_version-bdfoy",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.001"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/perlbench/issues",
          "date" : "2017-04-23",
          "dist" : "PerlBench",
@@ -660,9 +767,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "perlbench",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.001"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/PerlPowerTools/issues",
          "date" : "2023-06-15",
          "dist" : "PerlPowerTools",
@@ -672,9 +781,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "PerlPowerTools",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.035"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/pod-perldoc-totoc/issues",
          "date" : "2021-09-02",
          "dist" : "Pod-Perldoc-ToToc",
@@ -684,9 +795,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "pod-perldoc-totoc",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.122"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/polyglot/issues",
          "date" : "2021-02-06",
          "dist" : "Polyglot",
@@ -696,9 +809,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "polyglot",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.004"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/perlreview/returnvalue/issues",
          "date" : "2022-01-26",
          "dist" : "ReturnValue",
@@ -708,9 +823,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "returnvalue",
          "repo_owner" : "perlreview",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.903"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/Roman-Unicode/issues",
          "date" : "2022-01-08",
          "dist" : "Roman-Unicode",
@@ -720,9 +837,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Roman-Unicode",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.034"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/set-crossproduct/issues",
          "date" : "2022-03-15",
          "dist" : "Set-CrossProduct",
@@ -732,9 +851,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "set-crossproduct",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.008"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/sort-fields/issues",
          "date" : "2021-01-04",
          "dist" : "Sort-Fields",
@@ -744,9 +865,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "sort-fields",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.001"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/sourcecode-linecounter-perl/issues",
          "date" : "2021-02-06",
          "dist" : "SourceCode-LineCounter-Perl",
@@ -756,9 +879,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "sourcecode-linecounter-perl",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.022"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/string-sprintf/issues",
          "date" : "2022-02-02",
          "dist" : "String-Sprintf",
@@ -768,9 +893,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "string-sprintf",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.002"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/surveyor-app/issues",
          "date" : "2022-01-09",
          "dist" : "Surveyor-App",
@@ -780,9 +907,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "surveyor-app",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.123"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/surveyor-benchmark-htmlentities/issues",
          "date" : "2022-01-09",
          "dist" : "Surveyor-Benchmark-HTMLEntities",
@@ -792,9 +921,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "surveyor-benchmark-htmlentities",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.023"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/surveyor-benchmark-schwartziantransform-sortfilesbysize/issues",
          "date" : "2022-01-09",
          "dist" : "Surveyor-Benchmark-SchwartzianTransform-SortFilesBySize",
@@ -804,9 +935,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "surveyor-benchmark-schwartziantransform-sortfilesbysize",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.123"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/task-masteringperl/issues",
          "date" : "2021-01-23",
          "dist" : "Task-MasteringPerl",
@@ -816,9 +949,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "task-masteringperl",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.006"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/task-mojolearningenvironment.git/issues",
          "date" : "2021-01-23",
          "dist" : "Task-MojoLearningEnvironment",
@@ -828,9 +963,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "task-mojolearningenvironment",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "20210122.001"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/test-data/issues",
          "date" : "2022-01-09",
          "dist" : "Test-Data",
@@ -840,9 +977,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "test-data",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.244"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/Test-Env/issues",
          "date" : "2022-01-08",
          "dist" : "Test-Env",
@@ -852,9 +991,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Test-Env",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.086"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/test-file/issues",
          "date" : "2023-01-01",
          "dist" : "Test-File",
@@ -864,9 +1005,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "test-file",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.993"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/test-isbn/issues",
          "date" : "2022-01-09",
          "dist" : "Test-ISBN",
@@ -876,9 +1019,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "test-isbn",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.043"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/test-manifest/issues",
          "date" : "2022-01-08",
          "dist" : "Test-Manifest",
@@ -888,9 +1033,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "test-manifest",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.023"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/test-output/issues",
          "date" : "2021-02-11",
          "dist" : "Test-Output",
@@ -900,9 +1047,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "test-output",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.033"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/test-prereq/issues",
          "date" : "2019-12-20",
          "dist" : "Test-Prereq",
@@ -912,9 +1061,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "test-prereq",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.003"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/test-uri/issues",
          "date" : "2022-01-09",
          "dist" : "Test-URI",
@@ -924,9 +1075,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "test-uri",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.084"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/tie-boundedinteger/issues",
          "date" : "2018-05-23",
          "dist" : "Tie-BoundedInteger",
@@ -936,9 +1089,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "tie-boundedinteger",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.005"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/tie-cycle/issues",
          "date" : "2022-01-08",
          "dist" : "Tie-Cycle",
@@ -948,9 +1103,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "tie-cycle",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.227"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/tie-stringarray/issues",
          "date" : "2022-01-09",
          "dist" : "Tie-StringArray",
@@ -960,9 +1117,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "tie-stringarray",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.103"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/tie-timely/issues",
          "date" : "2022-01-21",
          "dist" : "Tie-Timely",
@@ -972,9 +1131,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "tie-timely",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.024"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/tie-toggle/issues",
          "date" : "2022-01-08",
          "dist" : "Tie-Toggle",
@@ -984,9 +1145,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "tie-toggle",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.084"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/unicode-tussle/issues",
          "date" : "2021-12-11",
          "dist" : "Unicode-Tussle",
@@ -996,9 +1159,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "unicode-tussle",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.115"
       },
       {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/unicode-unihan/issues",
          "date" : "2022-03-08",
          "dist" : "Unicode-Unihan",
@@ -1008,7 +1173,8 @@
          "repo_def_branch" : "master",
          "repo_name" : "unicode-unihan",
          "repo_owner" : "briandfoy",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.043"
       }
    ],
    "sort" : {

@@ -16,6 +16,7 @@
    },
    "modules" : [
       {
+         "auth" : "DRCLAW",
          "date" : "2022-10-23",
          "dist" : "Data-Combination",
          "insecure_repo" : "1",
@@ -23,9 +24,11 @@
          "repo" : "http://github.com/drclaw1394/perl-data-combination",
          "repo_def_branch" : "main",
          "repo_name" : "perl-data-combination",
-         "repo_owner" : "drclaw1394"
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.1.0"
       },
       {
+         "auth" : "DRCLAW",
          "bugtracker" : "https://github.com/drclaw1394/perl-error-show/issues",
          "date" : "2023-05-10",
          "dist" : "Error-Show",
@@ -35,9 +38,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "perl-error-show",
          "repo_owner" : "drclaw1394",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "v0.3.0"
       },
       {
+         "auth" : "DRCLAW",
          "date" : "2023-05-10",
          "dist" : "File-Meta-Cache",
          "insecure_repo" : "1",
@@ -45,9 +50,11 @@
          "repo" : "http://github.com/drclaw1394/perl-file-meta-cache",
          "repo_def_branch" : "main",
          "repo_name" : "perl-file-meta-cache",
-         "repo_owner" : "drclaw1394"
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.1.1"
       },
       {
+         "auth" : "DRCLAW",
          "date" : "2023-06-08",
          "dist" : "Hustle-Table",
          "insecure_repo" : "1",
@@ -55,9 +62,11 @@
          "repo" : "http://github.com/drclaw1394/perl5-hustle-table",
          "repo_def_branch" : "main",
          "repo_name" : "perl5-hustle-table",
-         "repo_owner" : "drclaw1394"
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.6.0"
       },
       {
+         "auth" : "DRCLAW",
          "date" : "2023-05-24",
          "dist" : "IO-FD",
          "insecure_repo" : "1",
@@ -65,9 +74,11 @@
          "repo" : "http://github.com/drclaw1394/perl-io-fd",
          "repo_def_branch" : "main",
          "repo_name" : "perl-io-fd",
-         "repo_owner" : "drclaw1394"
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.3.1"
       },
       {
+         "auth" : "DRCLAW",
          "date" : "2023-03-26",
          "dist" : "List-Insertion",
          "insecure_repo" : "1",
@@ -75,9 +86,11 @@
          "repo" : "http://github.com/drclaw1394/perl5-list-insertion",
          "repo_def_branch" : "",
          "repo_name" : "perl5-list-insertion",
-         "repo_owner" : "drclaw1394"
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.1.0"
       },
       {
+         "auth" : "DRCLAW",
          "date" : "2023-02-12",
          "dist" : "Log-OK",
          "insecure_repo" : "1",
@@ -85,9 +98,11 @@
          "repo" : "http://github.com/drclaw1394/perl-log-ok",
          "repo_def_branch" : "main",
          "repo_name" : "perl-log-ok",
-         "repo_owner" : "drclaw1394"
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.1.6"
       },
       {
+         "auth" : "DRCLAW",
          "date" : "2023-05-26",
          "dist" : "Socket-More",
          "insecure_repo" : "1",
@@ -95,9 +110,11 @@
          "repo" : "http://github.com/drclaw1394/perl-socket-more",
          "repo_def_branch" : "main",
          "repo_name" : "perl-socket-more",
-         "repo_owner" : "drclaw1394"
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.4.2"
       },
       {
+         "auth" : "DRCLAW",
          "date" : "2023-03-12",
          "dist" : "Sub-Middler",
          "insecure_repo" : "1",
@@ -105,9 +122,11 @@
          "repo" : "http://github.com/drclaw1394/perl-sub-middler",
          "repo_def_branch" : "main",
          "repo_name" : "perl-sub-middler",
-         "repo_owner" : "drclaw1394"
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.2.0"
       },
       {
+         "auth" : "DRCLAW",
          "date" : "2023-05-10",
          "dist" : "Template-Plex",
          "insecure_repo" : "1",
@@ -115,9 +134,11 @@
          "repo" : "http://github.com/drclaw1394/perl-template-plex",
          "repo_def_branch" : "main",
          "repo_name" : "perl-template-plex",
-         "repo_owner" : "drclaw1394"
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.6.0"
       },
       {
+         "auth" : "DRCLAW",
          "date" : "2022-12-19",
          "dist" : "constant-more",
          "insecure_repo" : "",
@@ -125,9 +146,11 @@
          "repo" : "https://github.com/drclaw1394/perl-constant-more",
          "repo_def_branch" : "main",
          "repo_name" : "perl-constant-more",
-         "repo_owner" : "drclaw1394"
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.1.2"
       },
       {
+         "auth" : "DRCLAW",
          "date" : "2022-03-31",
          "dist" : "uSAC-MIME",
          "insecure_repo" : "",
@@ -135,7 +158,8 @@
          "repo" : "https://github.com/drclaw1394/perl-usac-mime",
          "repo_def_branch" : "main",
          "repo_name" : "perl-usac-mime",
-         "repo_owner" : "drclaw1394"
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.2.2"
       }
    ],
    "sort" : {

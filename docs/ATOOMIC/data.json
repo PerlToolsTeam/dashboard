@@ -22,6 +22,7 @@
    },
    "modules" : [
       {
+         "auth" : "ATOOMIC",
          "date" : "2017-02-01",
          "dist" : "Amazon-Dash-Button",
          "insecure_repo" : "",
@@ -29,9 +30,11 @@
          "repo" : "https://github.com/atoomic/Amazon-Dash-Button",
          "repo_def_branch" : "master",
          "repo_name" : "Amazon-Dash-Button",
-         "repo_owner" : "atoomic"
+         "repo_owner" : "atoomic",
+         "ver" : "0.11"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/B-COW/issues",
          "date" : "2022-10-20",
          "dist" : "B-COW",
@@ -41,9 +44,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "B-COW",
          "repo_owner" : "atoomic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.007"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/Char-Replace/issues",
          "date" : "2019-01-30",
          "dist" : "Char-Replace",
@@ -53,9 +58,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Char-Replace",
          "repo_owner" : "atoomic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.004"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/Check-GlobalPhase/issues",
          "date" : "2019-08-12",
          "dist" : "Check-GlobalPhase",
@@ -65,9 +72,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Check-GlobalPhase",
          "repo_owner" : "atoomic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.001"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/Colon-Config/issues",
          "date" : "2018-12-28",
          "dist" : "Colon-Config",
@@ -77,9 +86,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Colon-Config",
          "repo_owner" : "atoomic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.004"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/Dual-Life/Devel-PPPort/issues",
          "date" : "2022-03-18",
          "dist" : "Devel-PPPort",
@@ -89,9 +100,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Devel-PPPort",
          "repo_owner" : "Dual-Life",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "3.68"
       },
       {
+         "auth" : "ATOOMIC",
          "date" : "2018-07-13",
          "dist" : "Dist-Zilla-PluginBundle-ATOOMIC",
          "insecure_repo" : "",
@@ -99,9 +112,11 @@
          "repo" : "https://github.com/atoomic/Dist-Zilla-PluginBundle-ATOOMIC",
          "repo_def_branch" : "master",
          "repo_name" : "Dist-Zilla-PluginBundle-ATOOMIC",
-         "repo_owner" : "atoomic"
+         "repo_owner" : "atoomic",
+         "ver" : "1.00"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/ExtUtils-MakeMaker-PPPort/issues",
          "date" : "2020-07-22",
          "dist" : "ExtUtils-MakeMaker-PPPort",
@@ -111,9 +126,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "ExtUtils-MakeMaker-PPPort",
          "repo_owner" : "atoomic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.02"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/FastGlob/issues",
          "date" : "2019-05-30",
          "dist" : "FastGlob",
@@ -123,9 +140,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "FastGlob",
          "repo_owner" : "atoomic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.5"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/bricas/geo-ipfree/issues",
          "date" : "2022-02-01",
          "dist" : "Geo-IPfree",
@@ -135,9 +154,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "geo-ipfree",
          "repo_owner" : "bricas",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.160000"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/mschilli/net-google-drive-simple/issues",
          "date" : "2022-04-14",
          "dist" : "Net-Google-Drive-Simple",
@@ -147,9 +168,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "net-google-drive-simple",
          "repo_owner" : "mschilli",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "3.02"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/Net-Whois-IANA/issues",
          "date" : "2022-03-10",
          "dist" : "Net-Whois-IANA",
@@ -159,9 +182,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Net-Whois-IANA",
          "repo_owner" : "atoomic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.49"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/mschilli/oauth-cmdline/issues",
          "date" : "2022-01-28",
          "dist" : "OAuth-Cmdline",
@@ -171,9 +196,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "oauth-cmdline",
          "repo_owner" : "mschilli",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.07"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/OpenStack-MetaAPI/issues",
          "date" : "2019-04-29",
          "dist" : "OpenStack-MetaAPI",
@@ -183,9 +210,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "OpenStack-MetaAPI",
          "repo_owner" : "atoomic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.003"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/CpanelInc/Overload-FileCheck/issues",
          "date" : "2022-02-23",
          "dist" : "Overload-FileCheck",
@@ -195,9 +224,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Overload-FileCheck",
          "repo_owner" : "CpanelInc",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.013"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/Parallel-Subs/issues",
          "date" : "2018-03-20",
          "dist" : "Parallel-Subs",
@@ -207,9 +238,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Parallel-Subs",
          "repo_owner" : "atoomic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.002"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/Perl-Critic-Policy-PreferredModules/issues",
          "date" : "2022-01-24",
          "dist" : "Perl-Critic-Policy-PreferredModules",
@@ -219,9 +252,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Perl-Critic-Policy-PreferredModules",
          "repo_owner" : "atoomic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.004"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/kohts/Schedule--Cron--Events/issues",
          "date" : "2020-01-20",
          "dist" : "Schedule-Cron-Events",
@@ -231,9 +266,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Schedule--Cron--Events",
          "repo_owner" : "kohts",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.96"
       },
       {
+         "auth" : "ATOOMIC",
          "date" : "2020-03-31",
          "dist" : "Simple-Accessor",
          "insecure_repo" : "",
@@ -241,9 +278,11 @@
          "repo" : "https://github.com/atoomic/Simple-Accessor",
          "repo_def_branch" : "master",
          "repo_name" : "Simple-Accessor",
-         "repo_owner" : "atoomic"
+         "repo_owner" : "atoomic",
+         "ver" : "1.13"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/Slack-WebHook/issues",
          "date" : "2020-09-01",
          "dist" : "Slack-WebHook",
@@ -253,9 +292,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Slack-WebHook",
          "repo_owner" : "atoomic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.003"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/Test-Mojo-Role-Debug-JSON/issues",
          "date" : "2020-03-27",
          "dist" : "Test-Mojo-Role-Debug-JSON",
@@ -265,9 +306,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Test-Mojo-Role-Debug-JSON",
          "repo_owner" : "atoomic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.005"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/Perl/perl5/issues",
          "date" : "2020-08-10",
          "dist" : "Time-HiRes",
@@ -277,9 +320,11 @@
          "repo_def_branch" : "blead",
          "repo_name" : "perl5",
          "repo_owner" : "Perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.9764"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/perl-TimeDate/issues",
          "date" : "2020-05-19",
          "dist" : "TimeDate",
@@ -289,9 +334,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-TimeDate",
          "repo_owner" : "atoomic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.33"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/XS-Logger/issues",
          "date" : "2018-05-21",
          "dist" : "XS-Logger",
@@ -301,9 +348,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "XS-Logger",
          "repo_owner" : "atoomic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.005"
       },
       {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/XString/issues",
          "date" : "2020-10-20",
          "dist" : "XString",
@@ -313,7 +362,8 @@
          "repo_def_branch" : "master",
          "repo_name" : "XString",
          "repo_owner" : "atoomic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.005"
       }
    ],
    "sort" : {

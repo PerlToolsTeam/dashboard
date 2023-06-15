@@ -22,6 +22,7 @@
    },
    "modules" : [
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/Business-UPS/issues",
          "date" : "2021-01-22",
          "dist" : "Business-UPS",
@@ -31,9 +32,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Business-UPS",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.02"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/CDB_File/issues",
          "date" : "2020-12-11",
          "dist" : "CDB_File",
@@ -43,9 +46,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "CDB_File",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.05"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/Crypt-OpenSSL-RSA/issues",
          "date" : "2022-07-08",
          "dist" : "Crypt-OpenSSL-RSA",
@@ -55,9 +60,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Crypt-OpenSSL-RSA",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.33"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/Crypt-RIPEMD160/issues",
          "date" : "2020-10-21",
          "dist" : "Crypt-RIPEMD160",
@@ -67,9 +74,11 @@
          "repo_def_branch" : "",
          "repo_name" : "Crypt-RIPEMD160/tree/master",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.08"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/Dual-Life/digest/issues",
          "date" : "2021-08-24",
          "dist" : "Digest",
@@ -79,9 +88,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "digest",
          "repo_owner" : "Dual-Life",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.20"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/Dual-Life/digest-md5/issues",
          "date" : "2020-10-05",
          "dist" : "Digest-MD5",
@@ -91,9 +102,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "digest-md5",
          "repo_owner" : "dual-Life",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.58"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/Perl/perl5/issues",
          "date" : "2023-01-23",
          "dist" : "Exporter",
@@ -103,9 +116,11 @@
          "repo_def_branch" : "",
          "repo_name" : "perl5/tree/blead/dist/Exporter",
          "repo_owner" : "Perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "5.77"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/perl/perl5/issues",
          "date" : "2023-01-23",
          "dist" : "FindBin",
@@ -115,9 +130,11 @@
          "repo_def_branch" : "blead",
          "repo_name" : "perl5",
          "repo_owner" : "perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.53"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/perl/perl5/issues",
          "date" : "2023-01-23",
          "dist" : "IO",
@@ -127,9 +144,11 @@
          "repo_def_branch" : "",
          "repo_name" : "perl5/tree/blead/dist/IO",
          "repo_owner" : "Perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.51"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "http://github.com/toddr/IO-Stty/issues",
          "date" : "2020-01-19",
          "dist" : "IO-Stty",
@@ -139,9 +158,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "IO-Stty",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.04"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/IO-Tty/issues",
          "date" : "2022-11-11",
          "dist" : "IO-Tty",
@@ -151,9 +172,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "IO-Tty",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.17"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/IPC-Run/issues",
          "date" : "2022-08-07",
          "dist" : "IPC-Run",
@@ -163,9 +186,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "IPC-Run",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "20220807.0"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/perl/perl5/issues",
          "date" : "2022-08-22",
          "dist" : "Locale-Maketext",
@@ -175,9 +200,11 @@
          "repo_def_branch" : "",
          "repo_name" : "perl5/tree/blead/dist/Locale-Maketext",
          "repo_owner" : "Perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.32"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/Net-Daemon/issues",
          "date" : "2020-09-25",
          "dist" : "Net-Daemon",
@@ -187,9 +214,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Net-Daemon",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.49"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "http://github.com/toddr/Net-Ident/issues",
          "date" : "2020-01-19",
          "dist" : "Net-Ident",
@@ -199,9 +228,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Net-Ident",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.25"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/perl-net-jabber-bot/issues",
          "date" : "2020-11-15",
          "dist" : "Net-Jabber-Bot",
@@ -211,9 +242,11 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-net-jabber-bot/tree/master",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "v2.1.7"
       },
       {
+         "auth" : "TODDR",
          "date" : "2010-10-07",
          "dist" : "Net-OSCAR",
          "insecure_repo" : "",
@@ -221,9 +254,11 @@
          "repo" : "git://github.com/toddr/net-oscar.git",
          "repo_def_branch" : "master",
          "repo_name" : "net-oscar",
-         "repo_owner" : "toddr"
+         "repo_owner" : "toddr",
+         "ver" : "1.928"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/Razor2-Client-Agent/issues",
          "date" : "2019-06-03",
          "dist" : "Razor2-Client-Agent",
@@ -233,9 +268,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Razor2-Client-Agent",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.86"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/Regexp-Parser/issues",
          "date" : "2020-01-20",
          "dist" : "Regexp-Parser",
@@ -245,9 +282,11 @@
          "repo_def_branch" : "",
          "repo_name" : "Regexp-Parser/tree/master",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.23"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/Safe-Hole/issues",
          "date" : "2018-04-13",
          "dist" : "Safe-Hole",
@@ -257,9 +296,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Safe-Hole",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.14"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/Sys-Mmap/issues",
          "date" : "2020-02-13",
          "dist" : "Sys-Mmap",
@@ -269,9 +310,11 @@
          "repo_def_branch" : "",
          "repo_name" : "Sys-Mmap/tree/master",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.20"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/xsawyerx/template-plugin-cgi/issues",
          "date" : "2022-04-27",
          "dist" : "Template-Plugin-CGI",
@@ -281,9 +324,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "template-plugin-cgi",
          "repo_owner" : "xsawyerx",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "3.101"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpanelinc/Test-MockFile/issues",
          "date" : "2022-11-30",
          "dist" : "Test-MockFile",
@@ -293,9 +338,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Test-MockFile",
          "repo_owner" : "cpanelinc",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.035"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpanelinc/Test2-Harness-Renderer-JUnit/issues",
          "date" : "2021-05-13",
          "dist" : "Test2-Harness-Renderer-JUnit",
@@ -305,9 +352,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Test2-Harness-Renderer-JUnit",
          "repo_owner" : "cpanelinc",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.000004"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "http://github.com/toddr/Tie-DBI/issues",
          "date" : "2020-01-19",
          "dist" : "Tie-DBI",
@@ -317,9 +366,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Tie-DBI",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.08"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/Perl/perl5/issues",
          "date" : "2023-02-20",
          "dist" : "Tie-File",
@@ -329,9 +380,11 @@
          "repo_def_branch" : "",
          "repo_name" : "perl5/tree/blead/dist/Tie-File",
          "repo_owner" : "Perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.07"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/Tree-MultiNode/issues",
          "date" : "2021-01-22",
          "dist" : "Tree-MultiNode",
@@ -341,9 +394,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Tree-MultiNode",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "v1.0.14"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/XML-Parser/issues",
          "date" : "2019-09-24",
          "dist" : "XML-Parser",
@@ -353,9 +408,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "XML-Parser",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.46"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/YAML-Syck/issues",
          "date" : "2020-10-26",
          "dist" : "YAML-Syck",
@@ -365,9 +422,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "YAML-Syck",
          "repo_owner" : "toddr",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.34"
       },
       {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/pjf/autodie/issues",
          "date" : "2023-01-30",
          "dist" : "autodie",
@@ -377,7 +436,8 @@
          "repo_def_branch" : "master",
          "repo_name" : "autodie",
          "repo_owner" : "pjf",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.36"
       }
    ],
    "sort" : {

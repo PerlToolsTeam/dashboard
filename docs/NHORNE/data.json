@@ -19,6 +19,7 @@
    },
    "modules" : [
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/CGI-ACL/issues",
          "date" : "2021-05-21",
          "dist" : "CGI-ACL",
@@ -28,9 +29,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "CGI-ACL",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.04"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/CGI-Buffer/issues",
          "date" : "2023-02-24",
          "dist" : "CGI-Buffer",
@@ -40,9 +43,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Buffer",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.83"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/CGI-Info/issues",
          "date" : "2023-04-15",
          "dist" : "CGI-Info",
@@ -52,9 +57,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Info",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.75"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/CGI-Lingua/issues",
          "date" : "2023-05-23",
          "dist" : "CGI-Lingua",
@@ -64,9 +71,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Lingua",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.65"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=CGI-Untaint-CountyStateProvince",
          "date" : "2019-12-15",
          "dist" : "CGI-Untaint-CountyStateProvince",
@@ -76,9 +85,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Untaint-CountyStateProvince",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.06"
       },
       {
+         "auth" : "NHORNE",
          "date" : "2019-12-11",
          "dist" : "CGI-Untaint-CountyStateProvince-GB",
          "insecure_repo" : "",
@@ -86,9 +97,11 @@
          "repo" : "https://github.com/nigelhorne/CGI-Untaint-CountyStateProvince-GB",
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Untaint-CountyStateProvince-GB",
-         "repo_owner" : "nigelhorne"
+         "repo_owner" : "nigelhorne",
+         "ver" : "0.12"
       },
       {
+         "auth" : "NHORNE",
          "date" : "2023-04-14",
          "dist" : "CGI-Untaint-Facebook",
          "insecure_repo" : "",
@@ -96,9 +109,11 @@
          "repo" : "https://github.com/nigelhorne/CGI-Untaint-Facebook",
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Untaint-Facebook",
-         "repo_owner" : "nigelhorne"
+         "repo_owner" : "nigelhorne",
+         "ver" : "0.16"
       },
       {
+         "auth" : "NHORNE",
          "date" : "2019-12-03",
          "dist" : "CGI-Untaint-Twitter",
          "insecure_repo" : "",
@@ -106,9 +121,11 @@
          "repo" : "https://github.com/nigelhorne/CGI-Untaint-Twitter",
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Untaint-Twitter",
-         "repo_owner" : "nigelhorne"
+         "repo_owner" : "nigelhorne",
+         "ver" : "0.05"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Class-Simple-Cached/issues",
          "date" : "2021-03-02",
          "dist" : "Class-Simple-Cached",
@@ -118,9 +135,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Class-Simple-Cached",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.04"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Class-Simple-Readonly-Cached/issues",
          "date" : "2023-03-13",
          "dist" : "Class-Simple-Readonly-Cached",
@@ -130,9 +149,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Class-Simple-Readonly-Cached",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.09"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Comment-Spell/issues",
          "date" : "2021-04-30",
          "dist" : "Comment-Spell",
@@ -142,9 +163,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Comment-Spell",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.001004"
       },
       {
+         "auth" : "NHORNE",
          "date" : "2017-09-03",
          "dist" : "DBD-XMLSimple",
          "insecure_repo" : "",
@@ -152,9 +175,11 @@
          "repo" : "https://github.com/nigelhorne/DBD-XMLSimple",
          "repo_def_branch" : "master",
          "repo_name" : "DBD-XMLSimple",
-         "repo_owner" : "nigelhorne"
+         "repo_owner" : "nigelhorne",
+         "ver" : "0.06"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/DBIx-AnyDBD/issues",
          "date" : "2020-11-14",
          "dist" : "DBIx-AnyDBD",
@@ -164,9 +189,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "DBIx-AnyDBD",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.03"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Data-Fetch/issues",
          "date" : "2020-11-24",
          "dist" : "Data-Fetch",
@@ -176,9 +203,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Data-Fetch",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.06"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Data-Text/issues",
          "date" : "2022-12-22",
          "dist" : "Data-Text",
@@ -188,9 +217,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Data-Text",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.11"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/DateTime-Format-Genealogy/issues",
          "date" : "2023-03-02",
          "dist" : "DateTime-Format-Genealogy",
@@ -200,9 +231,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "DateTime-Format-Genealogy",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.05"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=DateTime-Format-Text",
          "date" : "2023-05-26",
          "dist" : "DateTime-Format-Text",
@@ -212,9 +245,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "DateTime-Format-Text",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.04"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/FCGI-Buffer/issues",
          "date" : "2023-02-26",
          "dist" : "FCGI-Buffer",
@@ -224,9 +259,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "FCGI-Buffer",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.18"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/File-Open-NoCache-ReadOnly/issues",
          "date" : "2019-08-12",
          "dist" : "File-Open-NoCache-ReadOnly",
@@ -236,9 +273,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "File-Open-NoCache-ReadOnly",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.02"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=File-Print-Many",
          "date" : "2022-06-20",
          "dist" : "File-Print-Many",
@@ -248,9 +287,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "File-Print-Many",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.02"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=File-pfopen",
          "date" : "2017-06-16",
          "dist" : "File-pfopen",
@@ -260,9 +301,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "File-pfopen",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.02"
       },
       {
+         "auth" : "NHORNE",
          "date" : "2019-11-17",
          "dist" : "Genealogy-ChroniclingAmerica",
          "insecure_repo" : "",
@@ -270,9 +313,11 @@
          "repo" : "https://github.com/nigelhorne/Genealogy-ChroniclingAmerica",
          "repo_def_branch" : "master",
          "repo_name" : "Genealogy-ChroniclingAmerica",
-         "repo_owner" : "nigelhorne"
+         "repo_owner" : "nigelhorne",
+         "ver" : "0.03"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Genealogy-ObituaryDailyTimes/issues",
          "date" : "2023-02-24",
          "dist" : "Genealogy-ObituaryDailyTimes",
@@ -282,9 +327,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Genealogy-ObituaryDailyTimes",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.08"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Genealogy-Wills/issues",
          "date" : "2023-03-04",
          "dist" : "Genealogy-Wills",
@@ -294,9 +341,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Genealogy-Wills",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.02"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-Abbreviations/issues",
          "date" : "2023-06-08",
          "dist" : "Geo-Coder-Abbreviations",
@@ -306,9 +355,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-Abbreviations",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.06"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-CA/issues",
          "date" : "2023-04-21",
          "dist" : "Geo-Coder-CA",
@@ -318,9 +369,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-CA",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.14"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Coder-DataScienceToolkit",
          "date" : "2019-02-02",
          "dist" : "Geo-Coder-DataScienceToolkit",
@@ -330,9 +383,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-DataScienceToolkit",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.02"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-Free/issues",
          "date" : "2023-03-24",
          "dist" : "Geo-Coder-Free",
@@ -342,9 +397,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-Free",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.31"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-GooglePlaces/issues",
          "date" : "2023-04-29",
          "dist" : "Geo-Coder-GooglePlaces",
@@ -354,9 +411,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-GooglePlaces",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.06"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Coder-List",
          "date" : "2022-01-23",
          "dist" : "Geo-Coder-List",
@@ -366,9 +425,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-List",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.29"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Coder-Mapbox",
          "date" : "2021-10-05",
          "dist" : "Geo-Coder-Mapbox",
@@ -378,9 +439,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-Mapbox",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.01"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-Postcodes/issues",
          "date" : "2022-02-09",
          "dist" : "Geo-Coder-Postcodes",
@@ -390,9 +453,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-Postcodes",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.07"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Coder-US-Census",
          "date" : "2023-01-31",
          "dist" : "Geo-Coder-US-Census",
@@ -402,9 +467,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-US-Census",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.06"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Coder-XYZ",
          "date" : "2018-06-21",
          "dist" : "Geo-Coder-XYZ",
@@ -414,9 +481,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-XYZ",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.09"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-GeoNames/issues",
          "date" : "2022-06-10",
          "dist" : "Geo-GeoNames",
@@ -426,9 +495,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Geo-GeoNames",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.14"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Location-Point/issues",
          "date" : "2023-06-15",
          "dist" : "Geo-Location-Point",
@@ -438,9 +509,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Location-Point",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.09"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/HTML-SimpleLinkExtor/issues",
          "date" : "2020-11-13",
          "dist" : "HTML-SimpleLinkExtor",
@@ -450,9 +523,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "HTML-SimpleLinkExtor",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.273"
       },
       {
+         "auth" : "NHORNE",
          "date" : "2020-01-18",
          "dist" : "HTML-SocialMedia",
          "insecure_repo" : "",
@@ -460,9 +535,11 @@
          "repo" : "https://github.com/nigelhorne/HTML-SocialMedia",
          "repo_def_branch" : "master",
          "repo_name" : "HTML-SocialMedia",
-         "repo_owner" : "nigelhorne"
+         "repo_owner" : "nigelhorne",
+         "ver" : "0.28"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/LWP-UserAgent-Throttled/issues",
          "date" : "2022-01-28",
          "dist" : "LWP-UserAgent-Throttled",
@@ -472,9 +549,11 @@
          "repo_def_branch" : "",
          "repo_name" : "LWP-UserAgent::Throttled",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.09"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Lingua-Conjunction",
          "date" : "2021-08-02",
          "dist" : "Lingua-Conjunction",
@@ -484,9 +563,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Lingua-Conjunction",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "2.5"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Lingua-FR-Nums2Words/issues",
          "date" : "2020-11-13",
          "dist" : "Lingua-FR-Nums2Words",
@@ -496,9 +577,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "Lingua-FR-Nums2Words",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.01"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Lingua-String/issues",
          "date" : "2022-03-15",
          "dist" : "Lingua-String",
@@ -508,9 +591,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Lingua-String",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.03"
       },
       {
+         "auth" : "NHORNE",
          "date" : "2020-05-18",
          "dist" : "Locale-AU",
          "insecure_repo" : "",
@@ -518,9 +603,11 @@
          "repo" : "https://github.com/nigelhorne/Locale-AU-Info",
          "repo_def_branch" : "",
          "repo_name" : "Locale-AU-Info",
-         "repo_owner" : "nigelhorne"
+         "repo_owner" : "nigelhorne",
+         "ver" : "0.01"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Locale-CA/issues",
          "date" : "2023-02-25",
          "dist" : "Locale-CA",
@@ -530,9 +617,11 @@
          "repo_def_branch" : "",
          "repo_name" : "Locale-CA-Info",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.05"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Locale-Codes/Country-FR/issues",
          "date" : "2019-09-13",
          "dist" : "Locale-Codes-Country-FR",
@@ -542,9 +631,11 @@
          "repo_def_branch" : "",
          "repo_name" : "Locale-Codes/Country-FR",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.01"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Locale-Places/issues",
          "date" : "2022-03-19",
          "dist" : "Locale-Places",
@@ -554,9 +645,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Locale-Places",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.07"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Log-Dispatch-Email-Sendmail/issues",
          "date" : "2022-01-06",
          "dist" : "Log-Dispatch-Email-Sendmail",
@@ -566,9 +659,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Log-Dispatch-Email-Sendmail",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.03"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Log-Log4perl-Layout-Syslog",
          "date" : "2017-08-18",
          "dist" : "Log-Log4perl-Layout-Syslog",
@@ -578,9 +673,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Log-Log4perl-Layout-Syslog",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.02"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Log::WarnDie",
          "date" : "2017-09-12",
          "dist" : "Log-WarnDie",
@@ -590,9 +687,11 @@
          "repo_def_branch" : "",
          "repo_name" : "Log::WarnDie",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.09"
       },
       {
+         "auth" : "NHORNE",
          "date" : "2020-09-17",
          "dist" : "Sub-Private",
          "insecure_repo" : "1",
@@ -600,9 +699,11 @@
          "repo" : "http://github.com/nigelhorne/sub-private-perl/tree/master",
          "repo_def_branch" : "",
          "repo_name" : "sub-private-perl/tree/master",
-         "repo_owner" : "nigelhorne"
+         "repo_owner" : "nigelhorne",
+         "ver" : "0.02"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Test-HTTPStatus/issues",
          "date" : "2020-11-14",
          "dist" : "Test-HTTPStatus",
@@ -612,9 +713,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Test-HTTPStatus",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.05"
       },
       {
+         "auth" : "NHORNE",
          "date" : "2019-04-21",
          "dist" : "Text-Names-GB",
          "insecure_repo" : "",
@@ -622,9 +725,11 @@
          "repo" : "https://github.com/nigelhorne/Text-Names-GB",
          "repo_def_branch" : "master",
          "repo_name" : "Text-Names-GB",
-         "repo_owner" : "nigelhorne"
+         "repo_owner" : "nigelhorne",
+         "ver" : "0.03"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/TimeZone-TimeZoneDB/issues",
          "date" : "2023-04-07",
          "dist" : "TimeZone-TimeZoneDB",
@@ -634,9 +739,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "TimeZone-TimeZoneDB",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.01"
       },
       {
+         "auth" : "NHORNE",
          "date" : "2018-08-28",
          "dist" : "WWW-Scrape-FindaGrave",
          "insecure_repo" : "",
@@ -644,9 +751,11 @@
          "repo" : "https://github.com/nigelhorne/WWW-Scrape-FindaGrave",
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Scrape-FindaGrave",
-         "repo_owner" : "nigelhorne"
+         "repo_owner" : "nigelhorne",
+         "ver" : "0.06"
       },
       {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Weather-Meto/issues",
          "date" : "2023-04-14",
          "dist" : "Weather-Meteo",
@@ -656,7 +765,8 @@
          "repo_def_branch" : "",
          "repo_name" : "Weather-Meto",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.05"
       }
    ],
    "sort" : {

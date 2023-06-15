@@ -16,6 +16,7 @@
    },
    "modules" : [
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-acme-conspiracytheory-random/issues",
          "date" : "2023-03-01",
          "dist" : "Acme-ConspiracyTheory-Random",
@@ -25,9 +26,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-conspiracytheory-random",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.015"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Acme-Constructor-Pythonic",
          "date" : "2014-04-22",
          "dist" : "Acme-Constructor-Pythonic",
@@ -37,9 +40,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-constructor-pythonic",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Acme-Futuristic-Perl",
          "date" : "2014-04-01",
          "dist" : "Acme-Futuristic-Perl",
@@ -49,9 +54,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-futuristic-perl",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Acme-Has-Tiny",
          "date" : "2014-09-10",
          "dist" : "Acme-Has-Tiny",
@@ -61,9 +68,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-has-tiny",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Acme-Lexical-Thief",
          "date" : "2014-09-10",
          "dist" : "Acme-Lexical-Thief",
@@ -73,9 +82,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-lexical-thief",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Acme-Loopy",
          "date" : "2014-09-10",
          "dist" : "Acme-Loopy",
@@ -85,9 +96,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-loopy",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Acme-Marvel-CinematicUniverse-Characters",
          "date" : "2022-07-06",
          "dist" : "Acme-Marvel-CinematicUniverse-Characters",
@@ -97,9 +110,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-marvel-cinematicuniverse-characters",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-mite/issues",
          "date" : "2022-11-10",
          "dist" : "Acme-Mitey-Cards",
@@ -109,9 +124,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-mite",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.016"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Acme-Perl-Consensual",
          "date" : "2013-05-18",
          "dist" : "Acme-Perl-Consensual",
@@ -121,9 +138,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-perl-consensual",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Acme-Pony-Pink",
          "date" : "2014-09-10",
          "dist" : "Acme-Pony-Pink",
@@ -133,9 +152,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-pony-pink",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Acme-RunDoc",
          "date" : "2014-09-11",
          "dist" : "Acme-RunDoc",
@@ -145,9 +166,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-rundoc",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Acme-UNIVERSAL-can-t",
          "date" : "2018-05-20",
          "dist" : "Acme-UNIVERSAL-can-t",
@@ -157,9 +180,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-universal-can-t",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Acme-UseStrict",
          "date" : "2014-09-10",
          "dist" : "Acme-UseStrict",
@@ -169,9 +194,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-usestrict",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "1.235"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Acme-What",
          "date" : "2014-09-16",
          "dist" : "Acme-What",
@@ -181,9 +208,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-what",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Acme-ZydecoTesting-App1",
          "date" : "2020-09-12",
          "dist" : "Acme-ZydecoTesting-App1",
@@ -193,9 +222,11 @@
          "repo_def_branch" : "",
          "repo_name" : "p5-acme-zydecotesting-app1",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Alien-LibXML",
          "date" : "2018-07-16",
          "dist" : "Alien-LibXML",
@@ -205,9 +236,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-alien-libxml",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Alt-common-sense-TOBYINK",
          "date" : "2014-06-01",
          "dist" : "Alt-common-sense-TOBYINK",
@@ -217,9 +250,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-alt-common-sense-tobyink",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-app-filite-client/issues",
          "date" : "2023-03-23",
          "dist" : "App-Filite-Client",
@@ -229,9 +264,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-app-filite-client",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.001001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-app-ghaprove/issues",
          "date" : "2021-01-18",
          "dist" : "App-GhaProve",
@@ -241,9 +278,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-app-ghaprove",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.008"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=App-perlrdf",
          "date" : "2014-09-14",
          "dist" : "App-perlrdf",
@@ -253,9 +292,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-app-perlrdf",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=App-perlrdf-Command-Query",
          "date" : "2014-09-14",
          "dist" : "App-perlrdf-Command-Query",
@@ -265,9 +306,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-app-perlrdf-command-query",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Arrays-Same",
          "date" : "2019-03-15",
          "dist" : "Arrays-Same",
@@ -277,9 +320,11 @@
          "repo_def_branch" : "",
          "repo_name" : "p5-arrays-same",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Ask",
          "date" : "2020-11-09",
          "dist" : "Ask",
@@ -289,9 +334,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-ask",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.015"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Attribute-Benchmark",
          "date" : "2013-11-26",
          "dist" : "Attribute-Benchmark",
@@ -301,9 +348,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-attribute-benchmark",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Attribute-QueueStack",
          "date" : "2014-09-19",
          "dist" : "Attribute-QueueStack",
@@ -313,9 +362,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-attribute-queuestack",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-benchmark-featureset-paramcheck/issues",
          "date" : "2022-09-28",
          "dist" : "Benchmark-Featureset-ParamCheck",
@@ -325,9 +376,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-benchmark-featureset-paramcheck",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.007"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Benchmark-Report-GitHub",
          "date" : "2014-09-23",
          "dist" : "Benchmark-Report-GitHub",
@@ -337,9 +390,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-benchmark-report-github",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Cache-Moustache",
          "date" : "2017-05-12",
          "dist" : "Cache-Moustache",
@@ -349,9 +404,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-cache-moustache",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Capture-Attribute",
          "date" : "2014-09-10",
          "dist" : "Capture-Attribute",
@@ -361,9 +418,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-capture-attribute",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=CatalystX-TraitFor-Dispatcher-ExactMatch",
          "date" : "2014-09-11",
          "dist" : "CatalystX-TraitFor-Dispatcher-ExactMatch",
@@ -373,9 +432,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-catalystx-traitfor-dispatcher-exactmatch",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Class-Method-ModifiersX-Augment",
          "date" : "2014-09-10",
          "dist" : "Class-Method-ModifiersX-Augment",
@@ -385,9 +446,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-class-method-modifiersx-augment",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Class-Method-ModifiersX-Override",
          "date" : "2017-02-07",
          "dist" : "Class-Method-ModifiersX-Override",
@@ -397,9 +460,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-class-method-modifiersx-override",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Class-Tiny-Antlers",
          "date" : "2019-11-18",
          "dist" : "Class-Tiny-Antlers",
@@ -409,9 +474,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-class-tiny-antlers",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.024"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Class-XSConstructor",
          "date" : "2019-01-07",
          "dist" : "Class-XSConstructor",
@@ -421,9 +488,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-class-xsconstructor",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.009"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Crypt-Polybius",
          "date" : "2014-05-25",
          "dist" : "Crypt-Polybius",
@@ -433,9 +502,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-crypt-polybius",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Crypt-XkcdPassword",
          "date" : "2014-09-13",
          "dist" : "Crypt-XkcdPassword",
@@ -445,9 +516,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-crypt-xkcdpassword",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.009"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Data-Dumper-GUI",
          "date" : "2013-09-30",
          "dist" : "Data-Dumper-GUI",
@@ -457,9 +530,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-data-dumper-gui",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/Data-Perl/issues",
          "date" : "2020-01-22",
          "dist" : "Data-Perl",
@@ -469,9 +544,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Data-Perl",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.002011"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Data-Validate-CSV",
          "date" : "2019-12-16",
          "dist" : "Data-Validate-CSV",
@@ -481,9 +558,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-data-validate-csv",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=DateTimeX-Auto",
          "date" : "2018-06-25",
          "dist" : "DateTimeX-Auto",
@@ -493,9 +572,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-datetimex-auto",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.009"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=DateTimeX-Format-Ago",
          "date" : "2014-09-28",
          "dist" : "DateTimeX-Format-Ago",
@@ -505,9 +586,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-datetimex-format-ago",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Devel-PL_origargv",
          "date" : "2014-04-26",
          "dist" : "Devel-PL_origargv",
@@ -517,9 +600,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-devel-pl_origargv",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Devel-StrictMode",
          "date" : "2014-09-15",
          "dist" : "Devel-StrictMode",
@@ -529,9 +614,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-devel-strictmode",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Die-Hard",
          "date" : "2014-09-15",
          "dist" : "Die-Hard",
@@ -541,9 +628,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-die-hard",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Dist-Inkt",
          "date" : "2021-07-31",
          "dist" : "Dist-Inkt",
@@ -553,9 +642,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-inkt",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.026"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Dist-Inkt-Profile-TOBYINK",
          "date" : "2017-05-05",
          "dist" : "Dist-Inkt-Profile-TOBYINK",
@@ -565,9 +656,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-inkt-profile-tobyink",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.024"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Dist-Inkt-Role-Hg",
          "date" : "2014-09-17",
          "dist" : "Dist-Inkt-Role-Hg",
@@ -577,9 +670,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-inkt-role-hg",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Dist-Inkt-Role-Release",
          "date" : "2014-10-17",
          "dist" : "Dist-Inkt-Role-Release",
@@ -589,9 +684,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-inkt-role-release",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Dist-Inkt-Role-Test",
          "date" : "2014-09-14",
          "dist" : "Dist-Inkt-Role-Test",
@@ -601,9 +698,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-inkt-role-test",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Dist-Inkt-Role-Test-Kwalitee",
          "date" : "2014-09-14",
          "dist" : "Dist-Inkt-Role-Test-Kwalitee",
@@ -613,9 +712,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-inkt-role-test-kwalitee",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-dist-inktly-minty/issues",
          "date" : "2023-01-26",
          "dist" : "Dist-Inktly-Minty",
@@ -625,9 +726,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-inktly-minty",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dist-Zilla-Plugin-DOAP",
          "date" : "2014-10-12",
          "dist" : "Dist-Zilla-Plugin-DOAP",
@@ -637,9 +740,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-zilla-plugin-doap",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-exporter-almighty/issues",
          "date" : "2023-03-24",
          "dist" : "Exporter-Almighty",
@@ -649,9 +754,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-exporter-almighty",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.001005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Exporter-LexicalVars",
          "date" : "2014-04-05",
          "dist" : "Exporter-LexicalVars",
@@ -661,9 +768,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-exporter-lexicalvars",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-exporter-tiny/issues",
          "date" : "2023-03-31",
          "dist" : "Exporter-Tiny",
@@ -673,9 +782,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-exporter-tiny",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.006002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Finance-Bitcoin",
          "date" : "2014-03-10",
          "dist" : "Finance-Bitcoin",
@@ -685,9 +796,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-finance-bitcoin",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.902"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Fixed",
          "date" : "2014-09-11",
          "dist" : "Fixed",
@@ -697,9 +810,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-fixed",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=FreeMind-Document",
          "date" : "2014-09-10",
          "dist" : "FreeMind-Document",
@@ -709,9 +824,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-freemind-document",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Global-Rainbow-Map",
          "date" : "2014-09-10",
          "dist" : "Global-Rainbow-Map",
@@ -721,9 +838,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-global-rainbow-map",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=HTML-Embedded-Turtle",
          "date" : "2013-08-01",
          "dist" : "HTML-Embedded-Turtle",
@@ -733,9 +852,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-html-embedded-turtle",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.404"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=HTML-HTML5-DOM",
          "date" : "2014-06-01",
          "dist" : "HTML-HTML5-DOM",
@@ -745,9 +866,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-html-html5-dom",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=HTML-HTML5-Entities",
          "date" : "2014-09-13",
          "dist" : "HTML-HTML5-Entities",
@@ -757,9 +880,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-html-html5-entities",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-html-html5-parser/issues",
          "date" : "2021-09-08",
          "dist" : "HTML-HTML5-Parser",
@@ -769,9 +894,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-html-html5-parser",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.992"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=HTML-HTML5-Sanity",
          "date" : "2014-09-13",
          "dist" : "HTML-HTML5-Sanity",
@@ -781,9 +908,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-html-html5-sanity",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.105"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=HTML-HTML5-ToText",
          "date" : "2013-06-14",
          "dist" : "HTML-HTML5-ToText",
@@ -793,9 +922,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-html-html5-totext",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=HTML-Inject",
          "date" : "2014-09-10",
          "dist" : "HTML-Inject",
@@ -805,9 +936,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-html-inject",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=HTTP-Link-Parser",
          "date" : "2014-01-18",
          "dist" : "HTTP-Link-Parser",
@@ -817,9 +950,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-http-link-parser",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.200"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Hash-DefaultValue",
          "date" : "2014-09-10",
          "dist" : "Hash-DefaultValue",
@@ -829,9 +964,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-hash-defaultvalue",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.007"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-hydrogen/issues",
          "date" : "2023-03-04",
          "dist" : "Hydrogen",
@@ -841,9 +978,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-hydrogen",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.020000"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=JSON-Eval",
          "date" : "2019-10-27",
          "dist" : "JSON-Eval",
@@ -853,9 +992,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-json-eval",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=JSON-MultiValueOrdered",
          "date" : "2020-01-27",
          "dist" : "JSON-MultiValueOrdered",
@@ -865,9 +1006,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-json-multivalueordered",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=JSON-T",
          "date" : "2014-09-28",
          "dist" : "JSON-T",
@@ -877,9 +1020,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-json-t",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.104"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=JavaScript-Any",
          "date" : "2017-07-21",
          "dist" : "JavaScript-Any",
@@ -889,9 +1034,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-javascript-any",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Kavorka",
          "date" : "2018-07-27",
          "dist" : "Kavorka",
@@ -901,9 +1048,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-kavorka",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.039"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-linq/issues",
          "date" : "2022-10-20",
          "dist" : "LINQ",
@@ -913,9 +1062,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-linq",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-linq-database/issues",
          "date" : "2022-10-20",
          "dist" : "LINQ-Database",
@@ -925,9 +1076,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-linq-database",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=LV",
          "date" : "2013-11-03",
          "dist" : "LV",
@@ -937,9 +1090,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-lv",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-lexical-accessor/issues",
          "date" : "2022-06-16",
          "dist" : "Lexical-Accessor",
@@ -949,9 +1104,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-lexical-accessor",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.014"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Lexical-TypeTiny",
          "date" : "2018-08-20",
          "dist" : "Lexical-TypeTiny",
@@ -961,9 +1118,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-lexical-typetiny",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Lingua-Boolean-Tiny",
          "date" : "2018-04-19",
          "dist" : "Lingua-Boolean-Tiny",
@@ -973,9 +1132,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-lingua-boolean-tiny",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.008"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-lingua-poetry-haiku-finder/issues",
          "date" : "2021-09-06",
          "dist" : "Lingua-Poetry-Haiku-Finder",
@@ -985,9 +1146,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-lingua-poetry-haiku-finder",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=List-AssignRef",
          "date" : "2020-11-15",
          "dist" : "List-AssignRef",
@@ -997,9 +1160,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-list-assignref",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=List-MapMulti",
          "date" : "2014-09-10",
          "dist" : "List-MapMulti",
@@ -1009,9 +1174,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-list-mapmulti",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-macro-simple/issues",
          "date" : "2022-11-08",
          "dist" : "Macro-Simple",
@@ -1021,9 +1188,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-macro-simple",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Math-Erf-Approx",
          "date" : "2014-09-10",
          "dist" : "Math-Erf-Approx",
@@ -1033,9 +1202,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-math-erf-approx",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/advent-of-code/issues",
          "date" : "2022-12-25",
          "dist" : "Math-SNAFU",
@@ -1045,9 +1216,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "advent-of-code",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-mite/issues",
          "date" : "2022-12-12",
          "dist" : "Mite",
@@ -1057,9 +1230,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-mite",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.012000"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Module-Hash",
          "date" : "2014-09-10",
          "dist" : "Module-Hash",
@@ -1069,9 +1244,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-module-hash",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Module-Install-DOAP",
          "date" : "2013-07-31",
          "dist" : "Module-Install-DOAP",
@@ -1081,9 +1258,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-module-install-doap",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Module-Install-RDF",
          "date" : "2013-07-31",
          "dist" : "Module-Install-RDF",
@@ -1093,9 +1272,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-module-install-rdf",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.009"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Module-Notify",
          "date" : "2014-09-10",
          "dist" : "Module-Notify",
@@ -1105,9 +1286,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-module-notify",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Module-Package-RDF",
          "date" : "2013-07-31",
          "dist" : "Module-Package-RDF",
@@ -1117,9 +1300,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-module-package-rdf",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.014"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Module-Quote",
          "date" : "2014-09-10",
          "dist" : "Module-Quote",
@@ -1129,9 +1314,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-module-quote",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-mom/issues",
          "date" : "2022-06-11",
          "dist" : "Mom",
@@ -1141,9 +1328,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-mom",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Monjon",
          "date" : "2014-09-15",
          "dist" : "Monjon",
@@ -1153,9 +1342,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-monjon",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooX-ClassAttribute",
          "date" : "2014-11-01",
          "dist" : "MooX-ClassAttribute",
@@ -1165,9 +1356,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-classattribute",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.011"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooX-Enumeration",
          "date" : "2019-11-24",
          "dist" : "MooX-Enumeration",
@@ -1177,9 +1370,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-enumeration",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.010"
       },
       {
+         "auth" : "TOBYINK",
          "date" : "2020-10-16",
          "dist" : "MooX-HandlesVia",
          "insecure_repo" : "",
@@ -1187,9 +1382,11 @@
          "repo" : "https://github.com/tobyink/MooX-HandlesVia",
          "repo_def_branch" : "master",
          "repo_name" : "MooX-HandlesVia",
-         "repo_owner" : "tobyink"
+         "repo_owner" : "tobyink",
+         "ver" : "0.001009"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooX-ObjectBuilder",
          "date" : "2014-06-03",
          "dist" : "MooX-ObjectBuilder",
@@ -1199,9 +1396,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-objectbuilder",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-moox-press/issues",
          "date" : "2022-07-19",
          "dist" : "MooX-Press",
@@ -1211,9 +1410,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-press",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.086"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooX-Struct",
          "date" : "2020-02-26",
          "dist" : "MooX-Struct",
@@ -1223,9 +1424,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-struct",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.020"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooX-Traits",
          "date" : "2014-09-16",
          "dist" : "MooX-Traits",
@@ -1235,9 +1438,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-traits",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooX-XSConstructor",
          "date" : "2020-02-19",
          "dist" : "MooX-XSConstructor",
@@ -1247,9 +1452,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-xsconstructor",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooX-late",
          "date" : "2020-02-17",
          "dist" : "MooX-late",
@@ -1259,9 +1466,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-late",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.100"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Moops",
          "date" : "2020-02-15",
          "dist" : "Moops",
@@ -1271,9 +1480,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moops",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.038"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-ABCD",
          "date" : "2014-09-10",
          "dist" : "MooseX-ABCD",
@@ -1283,9 +1494,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-abcd",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-ArrayRef",
          "date" : "2014-09-10",
          "dist" : "MooseX-ArrayRef",
@@ -1295,9 +1508,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-arrayref",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-AttributeTags",
          "date" : "2019-03-16",
          "dist" : "MooseX-AttributeTags",
@@ -1307,9 +1522,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-attributetags",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-ClosedHash",
          "date" : "2014-09-10",
          "dist" : "MooseX-ClosedHash",
@@ -1319,9 +1536,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-closedhash",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-ConstructInstance",
          "date" : "2014-06-03",
          "dist" : "MooseX-ConstructInstance",
@@ -1331,9 +1550,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-constructinstance",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-CustomInitArgs",
          "date" : "2014-09-10",
          "dist" : "MooseX-CustomInitArgs",
@@ -1343,9 +1564,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-custominitargs",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-Declare-Context-WithOptions-Patch-Extensible",
          "date" : "2014-09-10",
          "dist" : "MooseX-Declare-Context-WithOptions-Patch-Extensible",
@@ -1355,9 +1578,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-declare-context-withoptions-patch-extensible",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-DeclareX-Keyword-interface",
          "date" : "2014-09-10",
          "dist" : "MooseX-DeclareX-Keyword-interface",
@@ -1367,9 +1592,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-declarex-keyword-interface",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-DeclareX-Plugin-singleton",
          "date" : "2014-09-10",
          "dist" : "MooseX-DeclareX-Plugin-singleton",
@@ -1379,9 +1606,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-declarex-plugin-singleton",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-Deprecated",
          "date" : "2014-03-11",
          "dist" : "MooseX-Deprecated",
@@ -1391,9 +1620,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-deprecated",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-Does-Delegated",
          "date" : "2014-09-10",
          "dist" : "MooseX-Does-Delegated",
@@ -1403,9 +1634,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-does-delegated",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-Enumeration",
          "date" : "2019-11-29",
          "dist" : "MooseX-Enumeration",
@@ -1415,9 +1648,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-enumeration",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.010"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-ErsatzMethod",
          "date" : "2017-05-21",
          "dist" : "MooseX-ErsatzMethod",
@@ -1427,9 +1662,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-ersatzmethod",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-Exception-Rot13",
          "date" : "2013-10-27",
          "dist" : "MooseX-Exception-Rot13",
@@ -1439,9 +1676,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-exception-rot13",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-Final",
          "date" : "2018-07-16",
          "dist" : "MooseX-Final",
@@ -1451,9 +1690,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-final",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-FunkyAttributes",
          "date" : "2014-03-26",
          "dist" : "MooseX-FunkyAttributes",
@@ -1463,9 +1704,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-funkyattributes",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-InlineTypes",
          "date" : "2014-09-06",
          "dist" : "MooseX-InlineTypes",
@@ -1475,9 +1718,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-inlinetypes",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-Interface",
          "date" : "2014-09-10",
          "dist" : "MooseX-Interface",
@@ -1487,9 +1732,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-interface",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.008"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-LvalueAttribute",
          "date" : "2014-10-04",
          "dist" : "MooseX-LvalueAttribute",
@@ -1499,9 +1746,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-lvalueattribute",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.981"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-ModifyTaggedMethods",
          "date" : "2014-09-10",
          "dist" : "MooseX-ModifyTaggedMethods",
@@ -1511,9 +1760,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-modifytaggedmethods",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-MungeHas",
          "date" : "2019-01-01",
          "dist" : "MooseX-MungeHas",
@@ -1523,9 +1774,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-mungehas",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.011"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-NiftyDelegation",
          "date" : "2014-09-10",
          "dist" : "MooseX-NiftyDelegation",
@@ -1535,9 +1788,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-niftydelegation",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-Prototype",
          "date" : "2014-09-16",
          "dist" : "MooseX-Prototype",
@@ -1547,9 +1802,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-prototype",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-RoleFor",
          "date" : "2014-09-16",
          "dist" : "MooseX-RoleFor",
@@ -1559,9 +1816,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-rolefor",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-RoleQR",
          "date" : "2014-09-10",
          "dist" : "MooseX-RoleQR",
@@ -1571,9 +1830,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-roleqr",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-Types-MoreUtils",
          "date" : "2014-10-07",
          "dist" : "MooseX-Types-MoreUtils",
@@ -1583,9 +1844,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-types-moreutils",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-WhatTheTrig",
          "date" : "2014-04-26",
          "dist" : "MooseX-WhatTheTrig",
@@ -1595,9 +1858,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-whatthetrig",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-moosex-xsaccessor/issues",
          "date" : "2022-12-05",
          "dist" : "MooseX-XSAccessor",
@@ -1607,9 +1872,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-xsaccessor",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.010"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=MooseX-hasn-t",
          "date" : "2014-09-10",
          "dist" : "MooseX-hasn-t",
@@ -1619,9 +1886,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-hasn-t",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-newtype/issues",
          "date" : "2022-12-04",
          "dist" : "Newtype",
@@ -1631,9 +1900,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-newtype",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Number-Natural-SetTheory",
          "date" : "2014-09-10",
          "dist" : "Number-Natural-SetTheory",
@@ -1643,9 +1914,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-number-natural-settheory",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-object-adhoc/issues",
          "date" : "2022-11-28",
          "dist" : "Object-Adhoc",
@@ -1655,9 +1928,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-object-adhoc",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Object-Stash",
          "date" : "2014-09-10",
          "dist" : "Object-Stash",
@@ -1667,9 +1942,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-object-stash",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Object-Util",
          "date" : "2018-07-20",
          "dist" : "Object-Util",
@@ -1679,9 +1956,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-object-util",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.010"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=P5U",
          "date" : "2013-05-24",
          "dist" : "P5U",
@@ -1691,9 +1970,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-p5u",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.100"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=P5U-Command-Changes",
          "date" : "2013-05-28",
          "dist" : "P5U-Command-Changes",
@@ -1703,9 +1984,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-p5u-command-changes",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=P5U-Command-Deps",
          "date" : "2013-06-17",
          "dist" : "P5U-Command-Deps",
@@ -1715,9 +1998,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-p5u-command-deps",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=PerlX-ArraySkip",
          "date" : "2014-09-18",
          "dist" : "PerlX-ArraySkip",
@@ -1727,9 +2012,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-arrayskip",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=PerlX-ArraySkip-XS",
          "date" : "2014-09-16",
          "dist" : "PerlX-ArraySkip-XS",
@@ -1739,9 +2026,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-arrayskip-xs",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=PerlX-Assert",
          "date" : "2017-05-07",
          "dist" : "PerlX-Assert",
@@ -1751,9 +2040,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-assert",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.905"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=PerlX-Define",
          "date" : "2018-08-09",
          "dist" : "PerlX-Define",
@@ -1763,9 +2054,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-define",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.101"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=PerlX-Maybe",
          "date" : "2022-03-14",
          "dist" : "PerlX-Maybe",
@@ -1775,9 +2068,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-maybe",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "1.202"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=PerlX-Maybe-XS",
          "date" : "2014-02-21",
          "dist" : "PerlX-Maybe-XS",
@@ -1787,9 +2082,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-maybe-xs",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "1.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=PerlX-Perform",
          "date" : "2014-09-10",
          "dist" : "PerlX-Perform",
@@ -1799,9 +2096,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-perform",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=PerlX-QuoteOperator-Inescapable",
          "date" : "2014-09-10",
          "dist" : "PerlX-QuoteOperator-Inescapable",
@@ -1811,9 +2110,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-quoteoperator-inescapable",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=PerlX-Window",
          "date" : "2014-09-16",
          "dist" : "PerlX-Window",
@@ -1823,9 +2124,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-window",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Plack-Middleware-Apache2-ModSSL",
          "date" : "2014-09-10",
          "dist" : "Plack-Middleware-Apache2-ModSSL",
@@ -1835,9 +2138,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-plack-middleware-apache2-modssl",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Plack-Middleware-Auth-Bitcard",
          "date" : "2014-09-10",
          "dist" : "Plack-Middleware-Auth-Bitcard",
@@ -1847,9 +2152,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-plack-middleware-auth-bitcard",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Plack-Middleware-GepokX-ModSSL",
          "date" : "2014-09-10",
          "dist" : "Plack-Middleware-GepokX-ModSSL",
@@ -1859,9 +2166,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-plack-middleware-gepokx-modssl",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Platform",
          "date" : "2014-09-10",
          "dist" : "Platform",
@@ -1871,9 +2180,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-platform",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Platform-Unix",
          "date" : "2013-05-13",
          "dist" : "Platform-Unix",
@@ -1883,9 +2194,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-platform",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Platform-Windows",
          "date" : "2013-05-13",
          "dist" : "Platform-Windows",
@@ -1895,9 +2208,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-platform",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Pointy-Counter",
          "date" : "2014-09-10",
          "dist" : "Pointy-Counter",
@@ -1907,9 +2222,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-pointy-counter",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Pry",
          "date" : "2014-10-05",
          "dist" : "Pry",
@@ -1919,9 +2236,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-pry",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=RDF-ACL",
          "date" : "2014-09-10",
          "dist" : "RDF-ACL",
@@ -1931,9 +2250,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-acl",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.104"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/kjetilk/p5-rdf-doap/issues",
          "date" : "2022-07-18",
          "dist" : "RDF-DOAP",
@@ -1943,9 +2264,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-doap",
          "repo_owner" : "kjetilk",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.105"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=RDF-DOAP-Lite",
          "date" : "2014-03-13",
          "dist" : "RDF-DOAP-Lite",
@@ -1955,9 +2278,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-doap-lite",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=RDF-Prefixes",
          "date" : "2014-09-10",
          "dist" : "RDF-Prefixes",
@@ -1967,9 +2292,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-prefixes",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=RDF-Query-Client",
          "date" : "2014-09-13",
          "dist" : "RDF-Query-Client",
@@ -1979,9 +2306,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-query-client",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.114"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=RDF-QueryX-Lazy",
          "date" : "2014-09-11",
          "dist" : "RDF-QueryX-Lazy",
@@ -1991,9 +2320,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-queryx-lazy",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=RDF-RDB2RDF",
          "date" : "2013-09-20",
          "dist" : "RDF-RDB2RDF",
@@ -2003,9 +2334,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-rdb2rdf",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.008"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=RDF-TrineX-Functions",
          "date" : "2014-09-10",
          "dist" : "RDF-TrineX-Functions",
@@ -2015,9 +2348,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-trinex-functions",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=RDF-TrineX-Serializer-MockTurtleSoup",
          "date" : "2014-09-10",
          "dist" : "RDF-TrineX-Serializer-MockTurtleSoup",
@@ -2027,9 +2362,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-trinex-serializer-mockturtlesoup",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=RDF-iCalendar",
          "date" : "2014-09-17",
          "dist" : "RDF-iCalendar",
@@ -2039,9 +2376,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-icalendar",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=RDF-vCard",
          "date" : "2014-09-17",
          "dist" : "RDF-vCard",
@@ -2051,9 +2390,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-vcard",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.012"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=RT-ClientX-GrabBugs",
          "date" : "2019-11-13",
          "dist" : "RT-ClientX-GrabBugs",
@@ -2063,9 +2404,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rt-clientx-grabbugs",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Refinements",
          "date" : "2013-11-25",
          "dist" : "Refinements",
@@ -2075,9 +2418,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-refinements",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-regexp-melody/issues",
          "date" : "2023-01-04",
          "dist" : "Regexp-Melody",
@@ -2087,9 +2432,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-regexp-melody",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.001000"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Regexp-Util",
          "date" : "2018-08-03",
          "dist" : "Regexp-Util",
@@ -2099,9 +2446,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-regexp-util",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Return-Type",
          "date" : "2020-10-17",
          "dist" : "Return-Type",
@@ -2111,9 +2460,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-return-type",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.007"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-role-hooks/issues",
          "date" : "2022-07-04",
          "dist" : "Role-Hooks",
@@ -2123,9 +2474,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-role-hooks",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.008"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Role-Inspector",
          "date" : "2020-05-13",
          "dist" : "Role-Inspector",
@@ -2135,9 +2488,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-role-inspector",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Scalar-Accessors-LikeHash",
          "date" : "2014-09-10",
          "dist" : "Scalar-Accessors-LikeHash",
@@ -2147,9 +2502,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-scalar-accessors-likehash",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Scalar-Does",
          "date" : "2017-01-31",
          "dist" : "Scalar-Does",
@@ -2159,9 +2516,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-scalar-does",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.203"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Set-Equivalence",
          "date" : "2013-09-30",
          "dist" : "Set-Equivalence",
@@ -2171,9 +2530,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-set-equivalence",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Smart-Dispatch",
          "date" : "2014-09-16",
          "dist" : "Smart-Dispatch",
@@ -2183,9 +2544,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-smart-dispatch",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Sort-Key-Top-PP",
          "date" : "2014-03-26",
          "dist" : "Sort-Key-Top-PP",
@@ -2195,9 +2558,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sort-key-top-pp",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Spreadsheet-Wright",
          "date" : "2020-01-04",
          "dist" : "Spreadsheet-Wright",
@@ -2207,9 +2572,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-spreadsheet-wright",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.107"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-story-interact/issues",
          "date" : "2023-06-12",
          "dist" : "Story-Interact",
@@ -2219,9 +2586,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-story-interact",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.001012"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-story-interact-www/issues",
          "date" : "2023-05-13",
          "dist" : "Story-Interact-WWW",
@@ -2231,9 +2600,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-story-interact-www",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.001006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=String-Interpolate-Delayed",
          "date" : "2014-09-10",
          "dist" : "String-Interpolate-Delayed",
@@ -2243,9 +2614,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-string-interpolate-delayed",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Sub-Block",
          "date" : "2013-09-30",
          "dist" : "Sub-Block",
@@ -2255,9 +2628,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-block",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-sub-boolean/issues",
          "date" : "2022-11-07",
          "dist" : "Sub-Boolean",
@@ -2267,9 +2642,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-boolean",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.000000"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-sub-handlesvia/issues",
          "date" : "2023-04-05",
          "dist" : "Sub-HandlesVia",
@@ -2279,9 +2656,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-handlesvia",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.050000"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Sub-Infix",
          "date" : "2014-07-02",
          "dist" : "Sub-Infix",
@@ -2291,9 +2670,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-infix",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Sub-Lazy",
          "date" : "2014-09-10",
          "dist" : "Sub-Lazy",
@@ -2303,9 +2684,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-lazy",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-sub-multimethod/issues",
          "date" : "2022-09-23",
          "dist" : "Sub-MultiMethod",
@@ -2315,9 +2698,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-multimethod",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.000"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-sub-nonrole/issues",
          "date" : "2022-06-17",
          "dist" : "Sub-NonRole",
@@ -2327,9 +2712,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-nonrole",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Sub-Operable",
          "date" : "2020-10-02",
          "dist" : "Sub-Operable",
@@ -2339,9 +2726,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-operable",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-sub-symmethod/issues",
          "date" : "2022-09-23",
          "dist" : "Sub-SymMethod",
@@ -2351,9 +2740,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-symmethod",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.000"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Sub-Talisman",
          "date" : "2017-05-27",
          "dist" : "Sub-Talisman",
@@ -2363,9 +2754,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-talisman",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Sub-Talisman-Struct",
          "date" : "2017-05-27",
          "dist" : "Sub-Talisman-Struct",
@@ -2375,9 +2768,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-talisman-struct",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Sub-Trigger-Lock",
          "date" : "2014-09-13",
          "dist" : "Sub-Trigger-Lock",
@@ -2387,9 +2782,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-trigger-lock",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Subclass-Of",
          "date" : "2020-11-18",
          "dist" : "Subclass-Of",
@@ -2399,9 +2796,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-subclass-of",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.009"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Switcheroo",
          "date" : "2013-10-11",
          "dist" : "Switcheroo",
@@ -2411,9 +2810,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-switcheroo",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.008"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Syntax-Collector",
          "date" : "2013-11-20",
          "dist" : "Syntax-Collector",
@@ -2423,9 +2824,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-syntax-collector",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Syntax-Feature-Qwa",
          "date" : "2014-09-10",
          "dist" : "Syntax-Feature-Qwa",
@@ -2435,9 +2838,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-syntax-feature-qwa",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Syntax-Highlight-RDF",
          "date" : "2014-09-11",
          "dist" : "Syntax-Highlight-RDF",
@@ -2447,9 +2852,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-syntax-highlight-rdf",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=TOBYINK-Pod-HTML",
          "date" : "2014-03-03",
          "dist" : "TOBYINK-Pod-HTML",
@@ -2459,9 +2866,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-tobyink-pod-html",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-tobyink-test-template/issues",
          "date" : "2023-01-24",
          "dist" : "TOBYINK-Test-Template",
@@ -2471,9 +2880,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-tobyink-test-template",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.001000"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Task-Tiny",
          "date" : "2013-11-12",
          "dist" : "Task-Tiny",
@@ -2483,9 +2894,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-task-tiny",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Test-Compiles",
          "date" : "2017-06-04",
          "dist" : "Test-Compiles",
@@ -2495,9 +2908,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-test-compiles",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Test-Fatal-matchfor",
          "date" : "2013-10-28",
          "dist" : "Test-Fatal-matchfor",
@@ -2507,9 +2922,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-test-fatal-matchfor",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Test-Modern",
          "date" : "2014-10-05",
          "dist" : "Test-Modern",
@@ -2519,9 +2936,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-test-modern",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.013"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Test-RDF-DOAP-Version",
          "date" : "2014-09-10",
          "dist" : "Test-RDF-DOAP-Version",
@@ -2531,9 +2950,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-test-rdf-doap-version",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.010"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Test-Tabs",
          "date" : "2014-09-16",
          "dist" : "Test-Tabs",
@@ -2543,9 +2964,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-test-tabs",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Test-TraceCalls",
          "date" : "2019-12-02",
          "dist" : "Test-TraceCalls",
@@ -2555,9 +2978,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-test-tracecalls",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Throwable-Factory",
          "date" : "2014-09-10",
          "dist" : "Throwable-Factory",
@@ -2567,9 +2992,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-throwable-factory",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.007"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Tie-Moose",
          "date" : "2014-10-02",
          "dist" : "Tie-Moose",
@@ -2579,9 +3006,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-tie-moose",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Tie-Reduce",
          "date" : "2018-06-27",
          "dist" : "Tie-Reduce",
@@ -2591,9 +3020,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-tie-reduce",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Time-Limit",
          "date" : "2014-09-10",
          "dist" : "Time-Limit",
@@ -2603,9 +3034,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-time-limit",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Trait-Attribute-Derived",
          "date" : "2014-09-10",
          "dist" : "Trait-Attribute-Derived",
@@ -2615,9 +3048,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-trait-attribute-derived",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Type-API",
          "date" : "2022-09-24",
          "dist" : "Type-API",
@@ -2627,9 +3062,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "docs-type-api",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "1.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-type-fromsah/issues",
          "date" : "2022-09-30",
          "dist" : "Type-FromSah",
@@ -2639,9 +3076,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-type-fromsah",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Type-Libraries",
          "date" : "2013-10-17",
          "dist" : "Type-Libraries",
@@ -2651,9 +3090,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-type-libraries",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-type-library-compiler/issues",
          "date" : "2022-07-19",
          "dist" : "Type-Library-Compiler",
@@ -2663,9 +3104,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-type-library-compiler",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-type-tiny/issues",
          "date" : "2023-04-05",
          "dist" : "Type-Tiny",
@@ -2675,9 +3118,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-type-tiny",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.004000"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-type-tiny-xs/issues",
          "date" : "2022-10-19",
          "dist" : "Type-Tiny-XS",
@@ -2687,9 +3132,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-type-tiny-xs",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.025"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Types-DBI",
          "date" : "2014-03-22",
          "dist" : "Types-DBI",
@@ -2699,9 +3146,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-dbi",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Types-DateTime",
          "date" : "2017-06-19",
          "dist" : "Types-DateTime",
@@ -2711,9 +3160,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-datetime",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Types-DualVar",
          "date" : "2019-12-17",
          "dist" : "Types-DualVar",
@@ -2723,9 +3174,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-dualvar",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Types-Encodings",
          "date" : "2019-10-01",
          "dist" : "Types-Encodings",
@@ -2735,9 +3188,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-encodings",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Types-HTML5",
          "date" : "2018-07-18",
          "dist" : "Types-HTML5",
@@ -2747,9 +3202,11 @@
          "repo_def_branch" : "",
          "repo_name" : "p5-types-html5",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Types-Interface",
          "date" : "2014-04-10",
          "dist" : "Types-Interface",
@@ -2759,9 +3216,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-interface",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-types-jsoncoercions/issues",
          "date" : "2022-06-06",
          "dist" : "Types-JsonCoercions",
@@ -2771,9 +3230,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-jsoncoercions",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Types-LoadableClass",
          "date" : "2014-04-04",
          "dist" : "Types-LoadableClass",
@@ -2783,9 +3244,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-loadableclass",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Types-ReadOnly",
          "date" : "2019-11-12",
          "dist" : "Types-ReadOnly",
@@ -2795,9 +3258,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-readonly",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-types-self/issues",
          "date" : "2022-06-07",
          "dist" : "Types-Self",
@@ -2807,9 +3272,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-self",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Types-URI",
          "date" : "2019-11-21",
          "dist" : "Types-URI",
@@ -2819,9 +3286,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-uri",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.007"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Types-UUID",
          "date" : "2014-09-27",
          "dist" : "Types-UUID",
@@ -2831,9 +3300,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-uuid",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Types-XSD",
          "date" : "2022-09-27",
          "dist" : "Types-XSD",
@@ -2843,9 +3314,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-xsd",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.008"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Types-XSD-Lite",
          "date" : "2022-09-27",
          "dist" : "Types-XSD-Lite",
@@ -2855,9 +3328,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-xsd-lite",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.007"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=UNIVERSAL-AUTHORITY",
          "date" : "2014-09-11",
          "dist" : "UNIVERSAL-AUTHORITY",
@@ -2867,9 +3342,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-universal-authority",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=UNIVERSAL-AUTHORITY-Lexical",
          "date" : "2013-07-24",
          "dist" : "UNIVERSAL-AUTHORITY-Lexical",
@@ -2879,9 +3356,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-universal-authority-lexical",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=URI-duri",
          "date" : "2014-09-10",
          "dist" : "URI-duri",
@@ -2891,9 +3370,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-uri-duri",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Unicode-Debug",
          "date" : "2013-11-09",
          "dist" : "Unicode-Debug",
@@ -2903,9 +3384,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-unicode-debug",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=WWW-Finger",
          "date" : "2013-07-17",
          "dist" : "WWW-Finger",
@@ -2915,9 +3398,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-www-finger",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.105"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Web-ID",
          "date" : "2014-05-10",
          "dist" : "Web-ID",
@@ -2927,9 +3412,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-web-id",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "1.927"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-web-perldistsite/issues",
          "date" : "2023-04-15",
          "dist" : "Web-PerlDistSite",
@@ -2939,9 +3426,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-web-perldistsite",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.001011"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=XML-LibXML-Augment",
          "date" : "2014-09-16",
          "dist" : "XML-LibXML-Augment",
@@ -2951,9 +3440,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-xml-libxml-augment",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=XML-LibXML-Debugging",
          "date" : "2014-09-11",
          "dist" : "XML-LibXML-Debugging",
@@ -2963,9 +3454,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-xml-libxml-debugging",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.103"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=XML-LibXML-Devel-SetLineNumber",
          "date" : "2014-09-16",
          "dist" : "XML-LibXML-Devel-SetLineNumber",
@@ -2975,9 +3468,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-xml-libxml-devel-setlinenumber",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=XML-LibXML-PrettyPrint",
          "date" : "2014-09-07",
          "dist" : "XML-LibXML-PrettyPrint",
@@ -2987,9 +3482,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-xml-libxml-prettyprint",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=XML-LibXML-QuerySelector",
          "date" : "2014-09-10",
          "dist" : "XML-LibXML-QuerySelector",
@@ -2999,9 +3496,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-xml-libxml-queryselector",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=XML-Saxon-XSLT2",
          "date" : "2014-09-23",
          "dist" : "XML-Saxon-XSLT2",
@@ -3011,9 +3510,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-xml-saxon-xslt2",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.010"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=XT-Manager",
          "date" : "2013-12-03",
          "dist" : "XT-Manager",
@@ -3023,9 +3524,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-xt-manager",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Z",
          "date" : "2020-11-08",
          "dist" : "Z",
@@ -3035,9 +3538,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-z",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.008"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-zydeco/issues",
          "date" : "2022-10-23",
          "dist" : "Zydeco",
@@ -3047,9 +3552,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-zydeco",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.617"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Zydeco-Lite-App",
          "date" : "2020-11-08",
          "dist" : "Zydeco-Lite-App",
@@ -3059,9 +3566,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-zydeco-lite-app",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=authority",
          "date" : "2014-09-10",
          "dist" : "authority",
@@ -3071,9 +3580,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-authority",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-builtins-compat/issues",
          "date" : "2022-07-14",
          "dist" : "builtins-compat",
@@ -3083,9 +3594,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-builtins-compat",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=isa",
          "date" : "2020-09-06",
          "dist" : "isa",
@@ -3095,9 +3608,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-isa",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "2.001"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=junk",
          "date" : "2014-09-10",
          "dist" : "junk",
@@ -3107,9 +3622,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-junk",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=lexical-underscore",
          "date" : "2017-01-30",
          "dist" : "lexical-underscore",
@@ -3119,9 +3636,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-lexical-underscore",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.004"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-match-simple/issues",
          "date" : "2023-02-15",
          "dist" : "match-simple",
@@ -3131,9 +3650,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-match-simple",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.012"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-match-simple-xs/issues",
          "date" : "2022-12-13",
          "dist" : "match-simple-XS",
@@ -3143,9 +3664,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-match-simple-xs",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=namespace-lexical",
          "date" : "2018-08-31",
          "dist" : "namespace-lexical",
@@ -3155,9 +3678,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-namespace-lexical",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=package-compute",
          "date" : "2014-09-10",
          "dist" : "package-compute",
@@ -3167,9 +3692,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-package-compute",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=portable-loader",
          "date" : "2020-01-10",
          "dist" : "portable-loader",
@@ -3179,9 +3706,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-portable-loader",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-results/issues",
          "date" : "2022-12-02",
          "dist" : "results",
@@ -3191,9 +3720,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-results",
          "repo_owner" : "tobyink",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.006"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=return-thence",
          "date" : "2014-09-10",
          "dist" : "return-thence",
@@ -3203,9 +3734,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-return-thence",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.003"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=returning",
          "date" : "2013-09-19",
          "dist" : "returning",
@@ -3215,9 +3748,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-returning",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.002"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=thanks",
          "date" : "2013-11-12",
          "dist" : "thanks",
@@ -3227,9 +3762,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-thanks",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       },
       {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=warnings-MaybeFatal",
          "date" : "2017-02-03",
          "dist" : "warnings-MaybeFatal",
@@ -3239,7 +3776,8 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-warnings-maybefatal",
          "repo_owner" : "tobyink",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.005"
       }
    ],
    "sort" : {
