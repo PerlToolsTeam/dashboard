@@ -664,10 +664,10 @@
       },
       {
          "bugtracker" : "https://github.com/briandfoy/PerlPowerTools/issues",
-         "date" : "2023-06-02",
+         "date" : "2023-06-15",
          "dist" : "PerlPowerTools",
          "insecure_repo" : "",
-         "name" : "PerlPowerTools-1.034",
+         "name" : "PerlPowerTools-1.035",
          "repo" : "https://github.com/briandfoy/PerlPowerTools",
          "repo_def_branch" : "master",
          "repo_name" : "PerlPowerTools",
