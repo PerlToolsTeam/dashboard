@@ -595,16 +595,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/Net-HTTP/issues",
-         "date" : "2022-01-21",
+         "date" : "2023-06-16",
          "dist" : "Net-HTTP",
          "insecure_repo" : "",
-         "name" : "Net-HTTP-6.22",
+         "name" : "Net-HTTP-6.23",
          "repo" : "https://github.com/libwww-perl/Net-HTTP",
          "repo_def_branch" : "master",
          "repo_name" : "Net-HTTP",
          "repo_owner" : "libwww-perl",
          "uses_rt" : "",
-         "ver" : "6.22"
+         "ver" : "6.23"
       },
       {
          "auth" : "OALDERS",
