@@ -413,16 +413,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/lwp-consolelogger/issues",
-         "date" : "2022-08-17",
+         "date" : "2023-06-21",
          "dist" : "LWP-ConsoleLogger",
          "insecure_repo" : "",
-         "name" : "LWP-ConsoleLogger-1.000000",
+         "name" : "LWP-ConsoleLogger-1.000001",
          "repo" : "https://github.com/oalders/lwp-consolelogger",
          "repo_def_branch" : "main",
          "repo_name" : "lwp-consolelogger",
          "repo_owner" : "oalders",
          "uses_rt" : "",
-         "ver" : "1.000000"
+         "ver" : "1.000001"
       },
       {
          "auth" : "OALDERS",

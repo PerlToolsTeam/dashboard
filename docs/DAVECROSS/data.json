@@ -49,16 +49,16 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/app-httpthis/issues",
-         "date" : "2023-06-05",
+         "date" : "2023-06-21",
          "dist" : "App-HTTPThis",
          "insecure_repo" : "",
-         "name" : "App-HTTPThis-0.007",
+         "name" : "App-HTTPThis-0.009",
          "repo" : "https://github.com/davorg/app-httpthis",
          "repo_def_branch" : "master",
          "repo_name" : "app-httpthis",
          "repo_owner" : "davorg",
          "uses_rt" : "",
-         "ver" : "0.007"
+         "ver" : "0.009"
       },
       {
          "auth" : "DAVECROSS",
