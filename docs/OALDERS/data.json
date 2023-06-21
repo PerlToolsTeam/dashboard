@@ -941,6 +941,20 @@
          "repo_owner" : "oalders",
          "uses_rt" : "",
          "ver" : "0.000009"
+      },
+      {
+         "auth" : "OALDERS",
+         "bugtracker" : "https://github.com/libwww-perl/libwww-perl/issues",
+         "date" : "2023-06-20",
+         "dist" : "libwww-perl",
+         "insecure_repo" : "",
+         "name" : "libwww-perl-6.71",
+         "repo" : "https://github.com/libwww-perl/libwww-perl",
+         "repo_def_branch" : "master",
+         "repo_name" : "libwww-perl",
+         "repo_owner" : "libwww-perl",
+         "uses_rt" : "",
+         "ver" : "6.71"
       }
    ],
    "sort" : {
