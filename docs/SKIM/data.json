@@ -104,6 +104,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Alien-librpm/issues",
+         "date" : "2023-06-23",
+         "dist" : "Alien-librpm",
+         "insecure_repo" : "",
+         "name" : "Alien-librpm-0.01",
+         "repo" : "https://github.com/michal-josef-spacek/Alien-librpm",
+         "repo_def_branch" : "main",
+         "repo_name" : "Alien-librpm",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : "",
+         "ver" : "0.01"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-Angle2Zodiac/issues",
          "date" : "2022-09-10",
          "dist" : "App-Angle2Zodiac",
