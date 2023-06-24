@@ -34,17 +34,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Acme-CPANAuthors-Slovak",
-         "date" : "2020-03-10",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Acme-CPANAuthors-Slovak/issues",
+         "date" : "2023-06-24",
          "dist" : "Acme-CPANAuthors-Slovak",
          "insecure_repo" : "",
-         "name" : "Acme-CPANAuthors-Slovak-0.01",
+         "name" : "Acme-CPANAuthors-Slovak-0.28",
          "repo" : "git://github.com/michal-josef-spacek/Acme-CPANAuthors-Slovak",
          "repo_def_branch" : "master",
          "repo_name" : "Acme-CPANAuthors-Slovak",
          "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : "1",
-         "ver" : "0.01"
+         "uses_rt" : "",
+         "ver" : "0.28"
       },
       {
          "auth" : "SKIM",
@@ -2302,6 +2302,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-Register/issues",
+         "date" : "2023-06-24",
+         "dist" : "Plack-App-Register",
+         "insecure_repo" : "",
+         "name" : "Plack-App-Register-0.01",
+         "repo" : "git://github.com/michal-josef-spacek/Plack-App-Register",
+         "repo_def_branch" : "main",
+         "repo_name" : "Plack-App-Register",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : "",
+         "ver" : "0.01"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-Search/issues",
          "date" : "2023-06-09",
          "dist" : "Plack-App-Search",
@@ -2639,16 +2653,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Login-Register/issues",
-         "date" : "2023-06-21",
+         "date" : "2023-06-24",
          "dist" : "Tags-HTML-Login-Register",
          "insecure_repo" : "",
-         "name" : "Tags-HTML-Login-Register-0.01",
+         "name" : "Tags-HTML-Login-Register-0.02",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Login-Register",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Login-Register",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",
