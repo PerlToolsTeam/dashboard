@@ -104,6 +104,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Alien-libpopt/issues",
+         "date" : "2023-06-24",
+         "dist" : "Alien-libpopt",
+         "insecure_repo" : "",
+         "name" : "Alien-libpopt-0.01",
+         "repo" : "https://github.com/michal-josef-spacek/Alien-libpopt",
+         "repo_def_branch" : "main",
+         "repo_name" : "Alien-libpopt",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : "",
+         "ver" : "0.01"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Alien-librpm/issues",
          "date" : "2023-06-23",
          "dist" : "Alien-librpm",
