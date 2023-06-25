@@ -2569,16 +2569,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Container/issues",
-         "date" : "2023-05-30",
+         "date" : "2023-06-25",
          "dist" : "Tags-HTML-Container",
          "insecure_repo" : "",
-         "name" : "Tags-HTML-Container-0.02",
+         "name" : "Tags-HTML-Container-0.03",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Container",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Container",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
@@ -2628,13 +2628,13 @@
          "date" : "2023-06-25",
          "dist" : "Tags-HTML-Login-Access",
          "insecure_repo" : "",
-         "name" : "Tags-HTML-Login-Access-0.03",
+         "name" : "Tags-HTML-Login-Access-0.04",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Login-Access",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Login-Access",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",
@@ -2656,13 +2656,13 @@
          "date" : "2023-06-25",
          "dist" : "Tags-HTML-Login-Register",
          "insecure_repo" : "",
-         "name" : "Tags-HTML-Login-Register-0.03",
+         "name" : "Tags-HTML-Login-Register-0.04",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Login-Register",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Login-Register",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",
@@ -2670,13 +2670,13 @@
          "date" : "2023-06-25",
          "dist" : "Tags-HTML-Messages",
          "insecure_repo" : "",
-         "name" : "Tags-HTML-Messages-0.08",
+         "name" : "Tags-HTML-Messages-0.09",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Messages",
          "repo_def_branch" : "master",
          "repo_name" : "Tags-HTML-Messages",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.08"
+         "ver" : "0.09"
       },
       {
          "auth" : "SKIM",
