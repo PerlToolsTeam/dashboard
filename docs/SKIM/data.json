@@ -804,6 +804,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Data-Commons-Image/issues",
+         "date" : "2023-06-25",
+         "dist" : "Data-Commons-Image",
+         "insecure_repo" : "",
+         "name" : "Data-Commons-Image-0.06",
+         "repo" : "git://github.com/michal-josef-spacek/Data-Commons-Image",
+         "repo_def_branch" : "main",
+         "repo_name" : "Data-Commons-Image",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : "",
+         "ver" : "0.06"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-HTML-Button/issues",
          "date" : "2022-09-29",
          "dist" : "Data-HTML-Button",
@@ -2610,6 +2624,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Login-Access/issues",
+         "date" : "2023-06-25",
+         "dist" : "Tags-HTML-Login-Access",
+         "insecure_repo" : "",
+         "name" : "Tags-HTML-Login-Access-0.05",
+         "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Login-Access",
+         "repo_def_branch" : "main",
+         "repo_name" : "Tags-HTML-Login-Access",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : "",
+         "ver" : "0.05"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Login-Button/issues",
          "date" : "2023-06-10",
          "dist" : "Tags-HTML-Login-Button",
@@ -2621,6 +2649,20 @@
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
          "ver" : "0.04"
+      },
+      {
+         "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Login-Register/issues",
+         "date" : "2023-06-25",
+         "dist" : "Tags-HTML-Login-Register",
+         "insecure_repo" : "",
+         "name" : "Tags-HTML-Login-Register-0.05",
+         "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Login-Register",
+         "repo_def_branch" : "main",
+         "repo_name" : "Tags-HTML-Login-Register",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : "",
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",
