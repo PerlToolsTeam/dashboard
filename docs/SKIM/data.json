@@ -762,6 +762,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Curses-UI-Char",
+         "date" : "2023-06-26",
+         "dist" : "Curses-UI-Char",
+         "insecure_repo" : "",
+         "name" : "Curses-UI-Char-0.01",
+         "repo" : "git://github.com/michal-josef-spacek/Curses-UI-Char",
+         "repo_def_branch" : "main",
+         "repo_name" : "Curses-UI-Char",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : "",
+         "ver" : "0.01"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Curses-UI-Number",
          "date" : "2022-10-23",
          "dist" : "Curses-UI-Number",
@@ -2821,16 +2835,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Task-Curses-UI",
-         "date" : "2020-04-05",
+         "date" : "2023-06-26",
          "dist" : "Task-Curses-UI",
          "insecure_repo" : "",
-         "name" : "Task-Curses-UI-0.04",
+         "name" : "Task-Curses-UI-0.05",
          "repo" : "git://github.com/michal-josef-spacek/Task-Curses-UI",
          "repo_def_branch" : "master",
          "repo_name" : "Task-Curses-UI",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "1",
-         "ver" : "0.04"
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",
