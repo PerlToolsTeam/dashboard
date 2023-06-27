@@ -1070,17 +1070,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Error-Pure-JSON",
-         "date" : "2015-09-27",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Error-Pure-JSON/issues",
+         "date" : "2023-06-27",
          "dist" : "Error-Pure-JSON",
          "insecure_repo" : "",
-         "name" : "Error-Pure-JSON-0.07",
-         "repo" : "git://github.com/tupinek/Error-Pure-JSON",
+         "name" : "Error-Pure-JSON-0.08",
+         "repo" : "git://github.com/michal-josef-spacek/Error-Pure-JSON",
          "repo_def_branch" : "master",
          "repo_name" : "Error-Pure-JSON",
-         "repo_owner" : "tupinek",
-         "uses_rt" : "1",
-         "ver" : "0.07"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : "",
+         "ver" : "0.08"
       },
       {
          "auth" : "SKIM",
