@@ -2639,16 +2639,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Login-Access/issues",
-         "date" : "2023-06-25",
+         "date" : "2023-06-29",
          "dist" : "Tags-HTML-Login-Access",
          "insecure_repo" : "",
-         "name" : "Tags-HTML-Login-Access-0.05",
+         "name" : "Tags-HTML-Login-Access-0.07",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Login-Access",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Login-Access",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.05"
+         "ver" : "0.07"
       },
       {
          "auth" : "SKIM",
@@ -2667,16 +2667,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Login-Register/issues",
-         "date" : "2023-06-25",
+         "date" : "2023-06-29",
          "dist" : "Tags-HTML-Login-Register",
          "insecure_repo" : "",
-         "name" : "Tags-HTML-Login-Register-0.05",
+         "name" : "Tags-HTML-Login-Register-0.06",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Login-Register",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Login-Register",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.05"
+         "ver" : "0.06"
       },
       {
          "auth" : "SKIM",
