@@ -55,6 +55,18 @@
       },
       {
          "auth" : "DRCLAW",
+         "date" : "2023-07-01",
+         "dist" : "HTTP-State",
+         "insecure_repo" : "1",
+         "name" : "HTTP-State-v0.1.0-TRAIL",
+         "repo" : "http://github.com/drclaw1394/perl-http-state",
+         "repo_def_branch" : "main",
+         "repo_name" : "perl-http-state",
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.1.0"
+      },
+      {
+         "auth" : "DRCLAW",
          "date" : "2023-06-08",
          "dist" : "Hustle-Table",
          "insecure_repo" : "1",
