@@ -441,16 +441,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/io-interactive/issues",
-         "date" : "2021-02-03",
+         "date" : "2023-07-05",
          "dist" : "IO-Interactive",
          "insecure_repo" : "",
-         "name" : "IO-Interactive-1.023",
+         "name" : "IO-Interactive-1.025",
          "repo" : "https://github.com/briandfoy/io-interactive",
          "repo_def_branch" : "master",
          "repo_name" : "io-interactive",
          "repo_owner" : "briandfoy",
          "uses_rt" : "",
-         "ver" : "1.023"
+         "ver" : "1.025"
       },
       {
          "auth" : "BDFOY",
@@ -1039,16 +1039,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/test-output/issues",
-         "date" : "2021-02-11",
+         "date" : "2023-07-05",
          "dist" : "Test-Output",
          "insecure_repo" : "",
-         "name" : "Test-Output-1.033",
+         "name" : "Test-Output-1.034",
          "repo" : "https://github.com/briandfoy/test-output",
          "repo_def_branch" : "master",
          "repo_name" : "test-output",
          "repo_owner" : "briandfoy",
          "uses_rt" : "",
-         "ver" : "1.033"
+         "ver" : "1.034"
       },
       {
          "auth" : "BDFOY",
