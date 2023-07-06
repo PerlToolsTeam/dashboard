@@ -833,16 +833,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-HTML-Button/issues",
-         "date" : "2022-09-29",
+         "date" : "2023-07-06",
          "dist" : "Data-HTML-Button",
          "insecure_repo" : "",
-         "name" : "Data-HTML-Button-0.04",
+         "name" : "Data-HTML-Button-0.05",
          "repo" : "git://github.com/michal-josef-spacek/Data-HTML-Button",
          "repo_def_branch" : "main",
          "repo_name" : "Data-HTML-Button",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.04"
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",
@@ -2569,16 +2569,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML/issues",
-         "date" : "2022-10-25",
+         "date" : "2023-07-06",
          "dist" : "Tags-HTML",
          "insecure_repo" : "",
-         "name" : "Tags-HTML-0.06",
+         "name" : "Tags-HTML-0.07",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.06"
+         "ver" : "0.07"
       },
       {
          "auth" : "SKIM",
