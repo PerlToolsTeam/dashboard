@@ -2597,16 +2597,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Form/issues",
-         "date" : "2022-11-05",
+         "date" : "2023-07-06",
          "dist" : "Tags-HTML-Form",
          "insecure_repo" : "",
-         "name" : "Tags-HTML-Form-0.07",
+         "name" : "Tags-HTML-Form-0.08",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Form",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Form",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.07"
+         "ver" : "0.08"
       },
       {
          "auth" : "SKIM",
@@ -2723,16 +2723,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Pager/issues",
-         "date" : "2022-10-06",
+         "date" : "2023-07-06",
          "dist" : "Tags-HTML-Pager",
          "insecure_repo" : "",
-         "name" : "Tags-HTML-Pager-0.04",
+         "name" : "Tags-HTML-Pager-0.05",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Pager",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Pager",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.04"
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",

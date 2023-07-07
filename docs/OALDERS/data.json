@@ -385,16 +385,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTTP-Date/issues",
-         "date" : "2019-11-19",
+         "date" : "2023-07-06",
          "dist" : "HTTP-Date",
          "insecure_repo" : "",
-         "name" : "HTTP-Date-6.05",
+         "name" : "HTTP-Date-6.06",
          "repo" : "https://github.com/libwww-perl/HTTP-Date",
          "repo_def_branch" : "master",
          "repo_name" : "HTTP-Date",
          "repo_owner" : "libwww-perl",
          "uses_rt" : "",
-         "ver" : "6.05"
+         "ver" : "6.06"
       },
       {
          "auth" : "OALDERS",
