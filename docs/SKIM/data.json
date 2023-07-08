@@ -832,6 +832,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Data-HTML-A/issues",
+         "date" : "2023-07-08",
+         "dist" : "Data-HTML-A",
+         "insecure_repo" : "",
+         "name" : "Data-HTML-A-0.01",
+         "repo" : "git://github.com/michal-josef-spacek/Data-HTML-A",
+         "repo_def_branch" : "main",
+         "repo_name" : "Data-HTML-A",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : "",
+         "ver" : "0.01"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-HTML-Button/issues",
          "date" : "2023-07-06",
          "dist" : "Data-HTML-Button",
@@ -2765,16 +2779,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Table-View/issues",
-         "date" : "2022-11-09",
+         "date" : "2023-07-08",
          "dist" : "Tags-HTML-Table-View",
          "insecure_repo" : "",
-         "name" : "Tags-HTML-Table-View-0.01",
+         "name" : "Tags-HTML-Table-View-0.02",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Table-View",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Table-View",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",
