@@ -2779,16 +2779,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Table-View/issues",
-         "date" : "2023-07-08",
+         "date" : "2023-07-09",
          "dist" : "Tags-HTML-Table-View",
          "insecure_repo" : "",
-         "name" : "Tags-HTML-Table-View-0.02",
+         "name" : "Tags-HTML-Table-View-0.03",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Table-View",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Table-View",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
