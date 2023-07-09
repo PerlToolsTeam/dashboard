@@ -1939,16 +1939,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Mo-utils/issues",
-         "date" : "2023-07-05",
+         "date" : "2023-07-09",
          "dist" : "Mo-utils",
          "insecure_repo" : "",
-         "name" : "Mo-utils-0.16",
+         "name" : "Mo-utils-0.17",
          "repo" : "git://github.com/michal-josef-spacek/Mo-utils",
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.16"
+         "ver" : "0.17"
       },
       {
          "auth" : "SKIM",
