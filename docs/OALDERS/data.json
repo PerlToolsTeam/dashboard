@@ -455,16 +455,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/LWP-Protocol-https/issues",
-         "date" : "2020-12-17",
+         "date" : "2023-07-09",
          "dist" : "LWP-Protocol-https",
          "insecure_repo" : "",
-         "name" : "LWP-Protocol-https-6.10",
+         "name" : "LWP-Protocol-https-6.11",
          "repo" : "https://github.com/libwww-perl/LWP-Protocol-https",
          "repo_def_branch" : "master",
          "repo_name" : "LWP-Protocol-https",
          "repo_owner" : "libwww-perl",
          "uses_rt" : "",
-         "ver" : "6.10"
+         "ver" : "6.11"
       },
       {
          "auth" : "OALDERS",
