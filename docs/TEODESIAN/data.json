@@ -38,13 +38,13 @@
          "date" : "2023-07-11",
          "dist" : "Audit-Log",
          "insecure_repo" : "",
-         "name" : "Audit-Log-0.004",
+         "name" : "Audit-Log-0.005",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/Audit-Log-perl",
          "repo_def_branch" : "master",
          "repo_name" : "Audit-Log-perl",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "uses_rt" : "",
-         "ver" : "0.004"
+         "ver" : "0.005"
       },
       {
          "auth" : "TEODESIAN",
