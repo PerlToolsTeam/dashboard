@@ -1,0 +1,16 @@
+{
+   "author" : {
+      "cpan" : "byterock",
+      "github" : "byterock"
+   },
+   "ci" : {
+      "use_gh_actions" : 1,
+      "gh_workflow_names" : [ "CI" ],
+      "use_cirrus" : 0,
+      "use_appveyor" : 0,
+      "use_travis" : 0,
+      "use_travis_com" : 0,
+      "use_coveralls" : 1,
+      "use_codecov" : 0
+   }
+}
