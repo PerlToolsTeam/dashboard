@@ -833,16 +833,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-HTML-A/issues",
-         "date" : "2023-07-08",
+         "date" : "2023-07-15",
          "dist" : "Data-HTML-A",
          "insecure_repo" : "",
-         "name" : "Data-HTML-A-0.01",
+         "name" : "Data-HTML-A-0.02",
          "repo" : "git://github.com/michal-josef-spacek/Data-HTML-A",
          "repo_def_branch" : "main",
          "repo_name" : "Data-HTML-A",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",
