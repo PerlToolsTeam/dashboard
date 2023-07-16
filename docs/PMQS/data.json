@@ -65,44 +65,44 @@
       {
          "auth" : "PMQS",
          "bugtracker" : "https://github.com/pmqs/Compress-Raw-Bzip2/issues",
-         "date" : "2023-02-08",
+         "date" : "2023-07-16",
          "dist" : "Compress-Raw-Bzip2",
          "insecure_repo" : "",
-         "name" : "Compress-Raw-Bzip2-2.204",
+         "name" : "Compress-Raw-Bzip2-2.205",
          "repo" : "https://github.com/pmqs/Compress-Raw-Bzip2",
          "repo_def_branch" : "master",
          "repo_name" : "Compress-Raw-Bzip2",
          "repo_owner" : "pmqs",
          "uses_rt" : "",
-         "ver" : "2.204"
+         "ver" : "2.205"
       },
       {
          "auth" : "PMQS",
          "bugtracker" : "https://github.com/pmqs/Compress-Raw-Lzma/issues",
-         "date" : "2023-02-08",
+         "date" : "2023-07-16",
          "dist" : "Compress-Raw-Lzma",
          "insecure_repo" : "",
-         "name" : "Compress-Raw-Lzma-2.204",
+         "name" : "Compress-Raw-Lzma-2.205",
          "repo" : "https://github.com/pmqs/Compress-Raw-Lzma",
          "repo_def_branch" : "master",
          "repo_name" : "Compress-Raw-Lzma",
          "repo_owner" : "pmqs",
          "uses_rt" : "",
-         "ver" : "2.204"
+         "ver" : "2.205"
       },
       {
          "auth" : "PMQS",
          "bugtracker" : "https://github.com/pmqs/Compress-Raw-Zlib/issues",
-         "date" : "2023-02-08",
+         "date" : "2023-07-16",
          "dist" : "Compress-Raw-Zlib",
          "insecure_repo" : "",
-         "name" : "Compress-Raw-Zlib-2.204",
+         "name" : "Compress-Raw-Zlib-2.205",
          "repo" : "https://github.com/pmqs/Compress-Raw-Zlib",
          "repo_def_branch" : "master",
          "repo_name" : "Compress-Raw-Zlib",
          "repo_owner" : "pmqs",
          "uses_rt" : "",
-         "ver" : "2.204"
+         "ver" : "2.205"
       },
       {
          "auth" : "PMQS",
