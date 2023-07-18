@@ -2359,16 +2359,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-Tags-HTML/issues",
-         "date" : "2023-05-29",
+         "date" : "2023-07-18",
          "dist" : "Plack-App-Tags-HTML",
          "insecure_repo" : "",
-         "name" : "Plack-App-Tags-HTML-0.12",
+         "name" : "Plack-App-Tags-HTML-0.13",
          "repo" : "git://github.com/michal-josef-spacek/Plack-App-Tags-HTML",
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-Tags-HTML",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.12"
+         "ver" : "0.13"
       },
       {
          "auth" : "SKIM",
