@@ -49,16 +49,16 @@
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/Geo-Location-TimeZoneFinder/issues",
-         "date" : "2023-01-15",
+         "date" : "2023-07-23",
          "dist" : "Geo-Location-TimeZoneFinder",
          "insecure_repo" : "",
-         "name" : "Geo-Location-TimeZoneFinder-1.000",
+         "name" : "Geo-Location-TimeZoneFinder-1.001",
          "repo" : "https://github.com/voegelas/Geo-Location-TimeZoneFinder",
          "repo_def_branch" : "main",
          "repo_name" : "Geo-Location-TimeZoneFinder",
          "repo_owner" : "voegelas",
          "uses_rt" : "",
-         "ver" : "1.000"
+         "ver" : "1.001"
       },
       {
          "auth" : "VOEGELAS",
