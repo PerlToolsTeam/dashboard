@@ -592,15 +592,15 @@
       },
       {
          "auth" : "BDFOY",
-         "date" : "2021-03-11",
+         "date" : "2023-07-24",
          "dist" : "Module-Release",
          "insecure_repo" : "",
-         "name" : "Module-Release-2.128",
+         "name" : "Module-Release-2.131",
          "repo" : "https://github.com/briandfoy/module-release",
          "repo_def_branch" : "master",
          "repo_name" : "module-release",
          "repo_owner" : "briandfoy",
-         "ver" : "2.128"
+         "ver" : "2.131"
       },
       {
          "auth" : "BDFOY",
