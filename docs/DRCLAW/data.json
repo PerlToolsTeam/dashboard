@@ -151,15 +151,15 @@
       },
       {
          "auth" : "DRCLAW",
-         "date" : "2022-12-19",
+         "date" : "2023-07-25",
          "dist" : "constant-more",
          "insecure_repo" : "",
-         "name" : "constant-more-v0.1.2",
+         "name" : "constant-more-v0.2.0",
          "repo" : "https://github.com/drclaw1394/perl-constant-more",
          "repo_def_branch" : "main",
          "repo_name" : "perl-constant-more",
          "repo_owner" : "drclaw1394",
-         "ver" : "v0.1.2"
+         "ver" : "v0.2.0"
       },
       {
          "auth" : "DRCLAW",
