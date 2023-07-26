@@ -330,16 +330,16 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpanelinc/Test-MockFile/issues",
-         "date" : "2022-11-30",
+         "date" : "2023-07-26",
          "dist" : "Test-MockFile",
          "insecure_repo" : "",
-         "name" : "Test-MockFile-0.035",
+         "name" : "Test-MockFile-0.036",
          "repo" : "https://github.com/cpanelinc/Test-MockFile",
          "repo_def_branch" : "master",
          "repo_name" : "Test-MockFile",
          "repo_owner" : "cpanelinc",
          "uses_rt" : "",
-         "ver" : "0.035"
+         "ver" : "0.036"
       },
       {
          "auth" : "TODDR",
