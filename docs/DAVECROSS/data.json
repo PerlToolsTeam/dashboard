@@ -146,6 +146,20 @@
       },
       {
          "auth" : "DAVECROSS",
+         "bugtracker" : "https://github.com/davorg/calendar-simple/issues",
+         "date" : "2023-07-27",
+         "dist" : "Calendar-Simple",
+         "insecure_repo" : "",
+         "name" : "Calendar-Simple-v2.0.2",
+         "repo" : "https://github.com/davorg/calendar-simple",
+         "repo_def_branch" : "master",
+         "repo_name" : "calendar-simple",
+         "repo_owner" : "davorg",
+         "uses_rt" : "",
+         "ver" : "v2.0.2"
+      },
+      {
+         "auth" : "DAVECROSS",
          "date" : "2022-10-18",
          "dist" : "Feed-Find",
          "insecure_repo" : "",

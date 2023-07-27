@@ -328,17 +328,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=App-PYX-Optimization",
-         "date" : "2020-05-01",
+         "bugtracker" : "https://github.com/michal-josef-spacek/App-PYX-Optimization/issues",
+         "date" : "2023-07-27",
          "dist" : "App-PYX-Optimization",
          "insecure_repo" : "",
-         "name" : "App-PYX-Optimization-0.01",
+         "name" : "App-PYX-Optimization-0.03",
          "repo" : "git://github.com/michal-josef-spacek/App-PYX-Optimization",
          "repo_def_branch" : "master",
          "repo_name" : "App-PYX-Optimization",
          "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : "1",
-         "ver" : "0.01"
+         "uses_rt" : "",
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
