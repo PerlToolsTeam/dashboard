@@ -228,6 +228,20 @@
       },
       {
          "auth" : "DAVECROSS",
+         "bugtracker" : "https://github.com/davorg/net-songkick/issues",
+         "date" : "2023-07-27",
+         "dist" : "Net-Songkick",
+         "insecure_repo" : "",
+         "name" : "Net-Songkick-v1.0.8",
+         "repo" : "https://github.com/davorg/net-songkick",
+         "repo_def_branch" : "master",
+         "repo_name" : "net-songkick",
+         "repo_owner" : "davorg",
+         "uses_rt" : "",
+         "ver" : "v1.0.8"
+      },
+      {
+         "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/p5-number-fraction/number-fraction/issues",
          "date" : "2021-04-15",
          "dist" : "Number-Fraction",
