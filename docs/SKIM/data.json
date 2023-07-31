@@ -21,16 +21,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Acme-CPANAuthors-Czech/issues",
-         "date" : "2021-09-16",
+         "date" : "2023-07-31",
          "dist" : "Acme-CPANAuthors-Czech",
          "insecure_repo" : "",
-         "name" : "Acme-CPANAuthors-Czech-0.30",
+         "name" : "Acme-CPANAuthors-Czech-0.31",
          "repo" : "git://github.com/michal-josef-spacek/Acme-CPANAuthors-Czech",
          "repo_def_branch" : "master",
          "repo_name" : "Acme-CPANAuthors-Czech",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.30"
+         "ver" : "0.31"
       },
       {
          "auth" : "SKIM",
