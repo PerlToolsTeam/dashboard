@@ -1477,16 +1477,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/License-SPDX/issues",
-         "date" : "2023-03-01",
+         "date" : "2023-08-02",
          "dist" : "License-SPDX",
          "insecure_repo" : "",
-         "name" : "License-SPDX-0.05",
+         "name" : "License-SPDX-0.06",
          "repo" : "git://github.com/michal-josef-spacek/License-SPDX",
          "repo_def_branch" : "main",
          "repo_name" : "License-SPDX",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.05"
+         "ver" : "0.06"
       },
       {
          "auth" : "SKIM",
@@ -2359,16 +2359,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-Tags-HTML/issues",
-         "date" : "2023-07-18",
+         "date" : "2023-08-02",
          "dist" : "Plack-App-Tags-HTML",
          "insecure_repo" : "",
-         "name" : "Plack-App-Tags-HTML-0.13",
+         "name" : "Plack-App-Tags-HTML-0.14",
          "repo" : "git://github.com/michal-josef-spacek/Plack-App-Tags-HTML",
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-Tags-HTML",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : "",
-         "ver" : "0.13"
+         "ver" : "0.14"
       },
       {
          "auth" : "SKIM",
