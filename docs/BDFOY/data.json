@@ -661,16 +661,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/mojolicious-plugin-directoryserver/issues",
-         "date" : "2023-04-03",
+         "date" : "2023-08-03",
          "dist" : "Mojolicious-Plugin-DirectoryServer",
          "insecure_repo" : "",
-         "name" : "Mojolicious-Plugin-DirectoryServer-1.002",
+         "name" : "Mojolicious-Plugin-DirectoryServer-1.004",
          "repo" : "https://github.com/briandfoy/mojolicious-plugin-directoryserver",
          "repo_def_branch" : "master",
          "repo_name" : "mojolicious-plugin-directoryserver",
          "repo_owner" : "briandfoy",
          "uses_rt" : "",
-         "ver" : "1.002"
+         "ver" : "1.004"
       },
       {
          "auth" : "BDFOY",
