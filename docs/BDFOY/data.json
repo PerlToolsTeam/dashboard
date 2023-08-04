@@ -592,15 +592,17 @@
       },
       {
          "auth" : "BDFOY",
-         "date" : "2023-07-24",
+         "bugtracker" : "https://github.com/briandfoy/module-release/issues",
+         "date" : "2023-08-03",
          "dist" : "Module-Release",
          "insecure_repo" : "",
-         "name" : "Module-Release-2.131",
+         "name" : "Module-Release-2.133",
          "repo" : "https://github.com/briandfoy/module-release",
          "repo_def_branch" : "master",
          "repo_name" : "module-release",
          "repo_owner" : "briandfoy",
-         "ver" : "2.131"
+         "uses_rt" : "",
+         "ver" : "2.133"
       },
       {
          "auth" : "BDFOY",
