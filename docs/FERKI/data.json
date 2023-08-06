@@ -20,6 +20,20 @@
    "modules" : [
       {
          "auth" : "FERKI",
+         "bugtracker" : "https://github.com/RexOps/Rex/issues",
+         "date" : "2023-08-05",
+         "dist" : "Rex",
+         "insecure_repo" : "",
+         "name" : "Rex-1.14.3",
+         "repo" : "https://github.com/RexOps/Rex",
+         "repo_def_branch" : "master",
+         "repo_name" : "Rex",
+         "repo_owner" : "RexOps",
+         "uses_rt" : "",
+         "ver" : "1.14.3"
+      },
+      {
+         "auth" : "FERKI",
          "bugtracker" : "https://github.com/ferki/Rex-Hook-File-Diff/issues",
          "date" : "2021-08-18",
          "dist" : "Rex-Hook-File-Diff",
