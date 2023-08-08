@@ -17,11 +17,11 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Install cpanm
-      run: sudo apt-get update && sudo apt-get install -y cpanminus
+      run: apt-get update && apt-get install -y cpanminus
 
     - name: Install modules
       run: |
-          sudo cpanm --installdeps --notest .
+          cpanm --installdeps --notest .
 
     - name: Create pages
       env:
