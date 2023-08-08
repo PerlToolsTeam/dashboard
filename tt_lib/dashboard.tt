@@ -54,34 +54,34 @@ var direction = "[% sort.direction %]";
 [% FOREACH m IN modules -%]
         <tr>
           <td><a href="[% m.repo %]">[% m.dist %]</a>[% IF m.insecure_repo %] <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span>[% END %]</td>
-          <td>[% linked_badge.cpan(m) %]</td>
-          <td>[% linked_badge.cpants(m) %]</td>
+          <td>[% badges.cpan(m) %]</td>
+          <td>[% badges.cpants(m) %]</td>
           <td>[% m.date %]</td>
           <td>[% IF m.bugtracker %]<a href="[% m.bugtracker %]">[% good_bugtracker %]</a>[% ELSE; no_bugtracker; END %]</td>
 [%   IF ci.use_gh_actions -%]
           <td>[%- FOREACH workflow_name IN ci.gh_workflow_names -%]
-            [% linked_badge.gh(workflow_name, m) %][% UNLESS loop.last %]<br>[% END -%]
+            [% badges.gh(workflow_name, m) %][% UNLESS loop.last %]<br>[% END -%]
           [%- END %]</td>
 [%   END -%]
 [%   IF ci.use_travis -%]
-          <td>[% linked_badge.travis(m) %]</td>
+          <td>[% badges.travis(m) %]</td>
 [%   END -%]
 [%   IF ci.use_travis_com -%]
-          <td>[% linked_badge.travis_com(m) %]</td>
+          <td>[% badges.travis_com(m) %]</td>
 [%   END -%]
 [%   IF ci.use_cirrus -%]
           <td>[%- FOREACH task_name IN ci.cirrus_task_names -%]
-            [% linked_badge.cirrus(task_name, m) %][% UNLESS loop.last %]<br>[% END -%]
+            [% badges.cirrus(task_name, m) %][% UNLESS loop.last %]<br>[% END -%]
           [%- END %]</td>
 [%   END -%]
 [%   IF ci.use_appveyor -%]
-          <td>[% linked_badge.appveyor(m) %]</td>
+          <td>[% badges.appveyor(m) %]</td>
 [%   END -%]
 [%   IF ci.use_coveralls -%]
-          <td>[% linked_badge.coveralls(m, author) %]</td>
+          <td>[% badges.coveralls(m, author) %]</td>
 [%   END -%]
 [%   IF ci.use_codecov -%]
-          <td>[% linked_badge.codecov(m) %]</td>
+          <td>[% badges.codecov(m) %]</td>
 [%   END -%]
         </tr>
 [% END -%]

@@ -5,6 +5,8 @@ class Dashboard::App {
   use strict;
   use warnings;
 
+  use Dashboard::BadgeMaker;
+
   use JSON;
   use Path::Tiny;
   use Template;
@@ -158,17 +160,7 @@ class Dashboard::App {
       WRAPPER      => $global_cfg->{wrapper},
       VARIABLES    => {
         analytics    => $global_cfg->{analytics},
-        linked_badge => {
-          cpan       => \&cpan_badge_link,
-          cpants     => \&cpants_badge_link,
-          gh         => \&gh_badge_link,
-          travis     => \&travis_badge_link,
-          travis_com => \&travis_com_badge_link,
-          cirrus     => \&cirrus_badge_link,
-          appveyor   => \&appveyor_badge_link,
-          coveralls  => \&coveralls_badge_link,
-          codecov    => \&codecov_badge_link,
-        },
+        badges       => Dashboard::BadgeMaker->new,
       },
     });
 
@@ -217,99 +209,6 @@ class Dashboard::App {
     # Currently we only support Github repos
     return $repo_uri =~ m|github\.com/|;
   }
-
-  sub cpan_badge_link {
-    my ($module) = @_;
-
-    return badge_link(
-      "https://metacpan.org/release/$module->{dist}",
-      "https://img.shields.io/cpan/v/$module->{dist}.svg",
-      "CPAN version for $module->{dist}",
-    );
-  }
-
-  sub cirrus_badge_link {
-    my ($task, $module) = @_;
-
-    return badge_link(
-      "https://cirrus-ci.com/github/$module->{repo_owner}/$module->{repo_name}",
-      "https://api.cirrus-ci.com/github/$module->{repo_owner}/$module->{repo_name}.svg?task=$task",
-      "Cirrus task $task",
-    );
-  }
-
-  sub gh_badge_link {
-    my ($workflow, $module) = @_;
-
-    return badge_link(
-      "https://github.com/$module->{repo_owner}/$module->{repo_name}/actions?query=workflow%3A$workflow",
-      "https://github.com/$module->{repo_owner}/$module->{repo_name}/workflows/$workflow/badge.svg",
-      "GH Action $workflow",
-    );
-  }
-
-  sub appveyor_badge_link {
-    my ($module) = @_;
-
-    return badge_link(
-      "https://ci.appveyor.com/project/$module->{repo_owner}/$module->{repo_name}",
-      "https://ci.appveyor.com/api/projects/status/github/$module->{repo_owner}/$module->{repo_name}?svg=true&passingText=Windows%20-%20OK&pendingText=Windows%20-%20%3F%3F%3F&failingText=Windows%20-%20broken",
-      "Build status for $module->{dist}",
-    );
-  }
-
-  sub travis_badge_link {
-    my ($module) = @_;
-
-    return badge_link(
-      "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}?branch=$module->{repo_def_branch}",
-      "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}.svg?branch=$module->{repo_def_branch}",
-      "Build status for $module->{dist}",
-    );
-  }
-
-  sub travis_com_badge_link {
-      my ($module) = @_;
-
-      return travis_badge_link($module) =~ s/travis-ci\.org/travis-ci.com/gr;
-  }
-
-  sub coveralls_badge_link {
-    my ($module, $author) = @_;
-
-    return badge_link(
-      "https://coveralls.io/github/$module->{repo_owner}/$module->{repo_name}?branch=$module->{repo_def_branch}",
-      "https://coveralls.io/repos/$module->{repo_owner}/$module->{repo_name}/badge.svg?branch=$module->{repo_def_branch}&service=github",
-      "Test coverage for $module->{dist}",
-    );
-  }
-
-  sub codecov_badge_link {
-    my ($module) = @_;
-
-    return badge_link(
-      "https://codecov.io/gh/$module->{repo_owner}/$module->{repo_name}",
-      "https://codecov.io/gh/$module->{repo_owner}/$module->{repo_name}/branch/$module->{repo_def_branch}/graph/badge.svg",
-      "Test coverage for $module->{dist}",
-    );
-  }
-
-  sub cpants_badge_link {
-    my ($module) = @_;
-
-    return badge_link(
-      "https://cpants.cpanauthors.org/release/$module->{auth}/$module->{dist}-$module->{ver}",
-      "https://cpants.cpanauthors.org/release/$module->{auth}/$module->{dist}-$module->{ver}.svg",
-      "Kwalitee for $module->{dist}",
-    );
-  }
-
-  sub badge_link {
-    my ($link_url, $img_url, $alt_text) = @_;
-
-    return qq[<a href="$link_url"><img class="backup_picture" alt="$alt_text" src="$img_url"></a>];
-  }
-
 }
 
 1;
