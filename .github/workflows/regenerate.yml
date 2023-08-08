@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Perl version
-      runs: perl -v
+      run: perl -v
 
     - name: Checkout
       uses: actions/checkout@v3
