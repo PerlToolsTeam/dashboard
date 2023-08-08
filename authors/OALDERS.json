@@ -14,7 +14,7 @@
       "use_codecov" : 1
    },
    "sort": {
-      "column": "Date",
+      "column": 3,
       "direction": "desc"
    }
 }
