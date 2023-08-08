@@ -14,13 +14,14 @@
       "use_appveyor" : 0,
       "use_cirrus" : 0,
       "use_codecov" : 1,
-      "use_coveralls" : 1,
+      "use_coveralls" : 0,
       "use_gh_actions" : 1,
       "use_travis" : 0,
       "use_travis_com" : 0
    },
    "modules" : [
       {
+         "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Acme-Odometer/issues",
          "date" : "2014-08-16",
          "dist" : "Acme-Odometer",
@@ -30,9 +31,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "acme-odometer",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.0.4"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/App-perlimports/issues",
          "date" : "2023-06-01",
          "dist" : "App-perlimports",
@@ -42,9 +45,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-perlimports",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000051"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/App-perlvars/issues",
          "date" : "2022-02-24",
          "dist" : "App-perlvars",
@@ -54,9 +59,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-perlvars",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000004"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/archive-any/issues",
          "date" : "2019-04-05",
          "dist" : "Archive-Any",
@@ -66,9 +73,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "archive-any",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.0946"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/authen-oath/issues",
          "date" : "2017-04-12",
          "dist" : "Authen-OATH",
@@ -78,9 +87,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "authen-oath",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.0.1"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/business-ca-gst/issues",
          "date" : "2014-08-16",
          "dist" : "Business-CA-GST",
@@ -90,9 +101,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "business-ca-gst",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.03"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/business-paypal-api/issues",
          "date" : "2017-11-13",
          "dist" : "Business-PayPal-API",
@@ -102,9 +115,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "business-paypal-api",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.77"
       },
       {
+         "auth" : "OALDERS",
          "date" : "2015-12-05",
          "dist" : "CPAN-Repository",
          "insecure_repo" : "",
@@ -112,9 +127,11 @@
          "repo" : "https://github.com/Getty/p5-cpan-repository",
          "repo_def_branch" : "master",
          "repo_name" : "p5-cpan-repository",
-         "repo_owner" : "Getty"
+         "repo_owner" : "Getty",
+         "ver" : "0.010"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Code-TidyAll-Plugin-SortLines-Naturally/issues",
          "date" : "2015-09-11",
          "dist" : "Code-TidyAll-Plugin-SortLines-Naturally",
@@ -124,9 +141,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "code-tidyall-plugin-sortlines-naturally",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000003"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/code-tidyall-plugin-uniquelines/issues",
          "date" : "2017-03-28",
          "dist" : "Code-TidyAll-Plugin-UniqueLines",
@@ -136,9 +155,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "code-tidyall-plugin-uniquelines",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000003"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Code-TidyAll-Plugin-YAML/issues",
          "date" : "2016-02-04",
          "dist" : "Code-TidyAll-Plugin-YAML",
@@ -148,9 +169,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "code-tidyall-plugin-yaml",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000001"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/code-tidyall-plugin-yapf/issues",
          "date" : "2017-07-05",
          "dist" : "Code-TidyAll-Plugin-YAPF",
@@ -160,9 +183,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "code-tidyall-plugin-yapf",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000002"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Data-Printer-Filter-DBIx-Class/issues",
          "date" : "2021-03-02",
          "dist" : "Data-Printer-Filter-DBIx-Class",
@@ -172,9 +197,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "data-printer-filter-dbix-class",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000005"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/datetime-format-paypal-ipn/issues",
          "date" : "2014-09-11",
          "dist" : "DateTime-Format-PayPal-IPN",
@@ -184,9 +211,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "datetime-format-paypal-ipn",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000001"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/dist-zilla-plugin-prepan/issues",
          "date" : "2014-08-16",
          "dist" : "Dist-Zilla-Plugin-PrePAN",
@@ -196,9 +225,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "dist-zilla-plugin-prepan",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.02"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/dist-zilla-pluginbundle-author-oalders/issues",
          "date" : "2022-01-13",
          "dist" : "Dist-Zilla-PluginBundle-Author-OALDERS",
@@ -208,9 +239,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "dist-zilla-pluginbundle-author-oalders",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000030"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/CPAN-API/p5-elasticsearch-model",
          "date" : "2019-03-10",
          "dist" : "ElasticSearchX-Model",
@@ -220,9 +253,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-elasticsearch-model",
          "repo_owner" : "CPAN-API",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.0.1"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/git-helpers/issues",
          "date" : "2021-11-02",
          "dist" : "Git-Helpers",
@@ -232,9 +267,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "git-helpers",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.000001"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/github-mergevelocity/issues",
          "date" : "2022-05-06",
          "dist" : "GitHub-MergeVelocity",
@@ -244,9 +281,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "github-mergevelocity",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000009"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/HTML-FillInForm/issues",
          "date" : "2021-09-25",
          "dist" : "HTML-FillInForm",
@@ -256,9 +295,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "HTML-FillInForm",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.22"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTML-Parser/issues",
          "date" : "2023-01-31",
          "dist" : "HTML-Parser",
@@ -268,9 +309,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "HTML-Parser",
          "repo_owner" : "libwww-perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "3.81"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/html-restrict/issues",
          "date" : "2023-04-23",
          "dist" : "HTML-Restrict",
@@ -280,9 +323,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "html-restrict",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "v3.0.2"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/http-browserdetect/issues",
          "date" : "2023-03-03",
          "dist" : "HTTP-BrowserDetect",
@@ -292,9 +337,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "http-browserdetect",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "3.38"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/http-cookiemonster/issues",
          "date" : "2020-01-31",
          "dist" : "HTTP-CookieMonster",
@@ -304,9 +351,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "http-cookiemonster",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.11"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTTP-Cookies/issues",
          "date" : "2021-01-04",
          "dist" : "HTTP-Cookies",
@@ -316,9 +365,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "HTTP-Cookies",
          "repo_owner" : "libwww-perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "6.10"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTTP-Daemon/issues",
          "date" : "2023-02-24",
          "dist" : "HTTP-Daemon",
@@ -328,21 +379,25 @@
          "repo_def_branch" : "master",
          "repo_name" : "HTTP-Daemon",
          "repo_owner" : "libwww-perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "6.16"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTTP-Date/issues",
-         "date" : "2019-11-19",
+         "date" : "2023-07-06",
          "dist" : "HTTP-Date",
          "insecure_repo" : "",
-         "name" : "HTTP-Date-6.05",
+         "name" : "HTTP-Date-6.06",
          "repo" : "https://github.com/libwww-perl/HTTP-Date",
          "repo_def_branch" : "master",
          "repo_name" : "HTTP-Date",
          "repo_owner" : "libwww-perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "6.06"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTTP-Message/issues",
          "date" : "2022-10-26",
          "dist" : "HTTP-Message",
@@ -352,21 +407,25 @@
          "repo_def_branch" : "master",
          "repo_name" : "HTTP-Message",
          "repo_owner" : "libwww-perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "6.44"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/lwp-consolelogger/issues",
-         "date" : "2022-08-17",
+         "date" : "2023-06-21",
          "dist" : "LWP-ConsoleLogger",
          "insecure_repo" : "",
-         "name" : "LWP-ConsoleLogger-1.000000",
+         "name" : "LWP-ConsoleLogger-1.000001",
          "repo" : "https://github.com/oalders/lwp-consolelogger",
          "repo_def_branch" : "main",
          "repo_name" : "lwp-consolelogger",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.000001"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/lwp-mediatypes/issues",
          "date" : "2019-03-20",
          "dist" : "LWP-MediaTypes",
@@ -376,9 +435,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "lwp-mediatypes",
          "repo_owner" : "libwww-perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "6.04"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/lwp-protocol-ghttp/issues",
          "date" : "2017-01-04",
          "dist" : "LWP-Protocol-GHTTP",
@@ -388,21 +449,25 @@
          "repo_def_branch" : "master",
          "repo_name" : "lwp-protocol-ghttp",
          "repo_owner" : "libwww-perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "6.17"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/LWP-Protocol-https/issues",
-         "date" : "2020-12-17",
+         "date" : "2023-07-09",
          "dist" : "LWP-Protocol-https",
          "insecure_repo" : "",
-         "name" : "LWP-Protocol-https-6.10",
+         "name" : "LWP-Protocol-https-6.11",
          "repo" : "https://github.com/libwww-perl/LWP-Protocol-https",
          "repo_def_branch" : "master",
          "repo_name" : "LWP-Protocol-https",
          "repo_owner" : "libwww-perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "6.11"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/metacpan/p5-metacpan-moose/issues",
          "date" : "2016-09-08",
          "dist" : "MetaCPAN-Moose",
@@ -412,9 +477,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-metacpan-moose",
          "repo_owner" : "metacpan",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000003"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Module-Version-Loaded/issues",
          "date" : "2015-03-27",
          "dist" : "Module-Version-Loaded",
@@ -424,9 +491,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "module-version-loaded",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000003"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/mojolicious-plugin-web-auth-site-dropboxv2/issues",
          "date" : "2019-03-10",
          "dist" : "Mojolicious-Plugin-Web-Auth-Site-DropboxV2",
@@ -436,9 +505,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "mojolicious-plugin-web-auth-site-dropboxv2",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000001"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/mojolicious-plugin-web-auth-site-fitbit/issues",
          "date" : "2017-02-20",
          "dist" : "Mojolicious-Plugin-Web-Auth-Site-Fitbit",
@@ -448,9 +519,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "mojolicious-plugin-web-auth-site-fitbit",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000002"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/mojolicious-plugin-web-auth-site-reddit/issues",
          "date" : "2017-02-12",
          "dist" : "Mojolicious-Plugin-Web-Auth-Site-Reddit",
@@ -460,9 +533,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "mojolicious-plugin-web-auth-site-reddit",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000004"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Mojolicious-Plugin-Web-Auth-Site-Runkeeper/issues",
          "date" : "2016-06-08",
          "dist" : "Mojolicious-Plugin-Web-Auth-Site-Runkeeper",
@@ -472,9 +547,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "mojolicious-plugin-web-auth-site-runkeeper",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000001"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Mojolicious-Plugin-Web-Auth-Site-Spotify/issues",
          "date" : "2016-02-06",
          "dist" : "Mojolicious-Plugin-Web-Auth-Site-Spotify",
@@ -484,9 +561,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "mojolicious-plugin-web-auth-site-contrib-spotify",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000001"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/mojolicious-plugin-web-auth-site-strava/issues",
          "date" : "2018-09-30",
          "dist" : "Mojolicious-Plugin-Web-Auth-Site-Strava",
@@ -496,9 +575,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "mojolicious-plugin-web-auth-site-strava",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000001"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Net-FreshBooks-API/issues",
          "date" : "2014-05-03",
          "dist" : "Net-FreshBooks-API",
@@ -508,21 +589,25 @@
          "repo_def_branch" : "master",
          "repo_name" : "net-freshbooks-api",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.24"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/Net-HTTP/issues",
-         "date" : "2022-01-21",
+         "date" : "2023-06-16",
          "dist" : "Net-HTTP",
          "insecure_repo" : "",
-         "name" : "Net-HTTP-6.22",
+         "name" : "Net-HTTP-6.23",
          "repo" : "https://github.com/libwww-perl/Net-HTTP",
          "repo_def_branch" : "master",
          "repo_name" : "Net-HTTP",
          "repo_owner" : "libwww-perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "6.23"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/open-this/issues",
          "date" : "2023-05-05",
          "dist" : "Open-This",
@@ -532,9 +617,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "open-this",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000032"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/tokuhirom/OrePAN2/issues",
          "date" : "2022-09-06",
          "dist" : "OrePAN2",
@@ -544,9 +631,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "OrePAN2",
          "repo_owner" : "tokuhirom",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.49"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/poex-role-psgiserver/issues",
          "date" : "2015-01-28",
          "dist" : "POEx-Role-PSGIServer",
@@ -556,9 +645,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "poex-role-psgiserver",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.150280"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/Perl-Critic/PPI/issues",
          "date" : "2022-07-19",
          "dist" : "PPI",
@@ -568,9 +659,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "PPI",
          "repo_owner" : "Perl-Critic",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.276"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/Perl-Critic-Policy-ProhibitImplicitImport/issues",
          "date" : "2021-02-19",
          "dist" : "Perl-Critic-Policy-ProhibitImplicitImport",
@@ -580,9 +673,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "Perl-Critic-Policy-ProhibitImplicitImport",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000001"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/Perl-Critic-Policy-ValuesAndExpressions-PreventSQLInjection/issues",
          "date" : "2021-03-05",
          "dist" : "Perl-Critic-Policy-ValuesAndExpressions-PreventSQLInjection",
@@ -592,9 +687,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Perl-Critic-Policy-ValuesAndExpressions-PreventSQLInjection",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.000001"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/plu/Pithub/issues",
          "date" : "2022-09-23",
          "dist" : "Pithub",
@@ -604,9 +701,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Pithub",
          "repo_owner" : "plu",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.01040"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Plack-Middleware-NoDeflate",
          "date" : "2010-10-07",
          "dist" : "Plack-Middleware-NoDeflate",
@@ -616,9 +715,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Plack-Middleware-NoDeflate",
          "repo_owner" : "oalders",
-         "uses_rt" : "1"
+         "uses_rt" : "1",
+         "ver" : "0.01"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/Plack-Test-Agent/issues",
          "date" : "2020-10-06",
          "dist" : "Plack-Test-Agent",
@@ -628,9 +729,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "Plack-Test-Agent",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.5"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/String-InterpolatedVariables/issues",
          "date" : "2021-03-12",
          "dist" : "String-InterpolatedVariables",
@@ -640,9 +743,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "String-InterpolatedVariables",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.000000"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/sysread/TOML-Tiny/issues",
          "date" : "2023-05-31",
          "dist" : "TOML-Tiny",
@@ -652,9 +757,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "TOML-Tiny",
          "repo_owner" : "sysread",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.16"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/acme/test-www-mechanize-psgi/issues",
          "date" : "2019-03-22",
          "dist" : "Test-WWW-Mechanize-PSGI",
@@ -664,9 +771,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "test-www-mechanize-psgi",
          "repo_owner" : "acme",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.39"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/uri-parsesearchstring-more/issues",
          "date" : "2018-08-03",
          "dist" : "URI-ParseSearchString-More",
@@ -676,9 +785,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "uri-parsesearchstring-more",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.18"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/WWW-Mechanize-Cached/issues",
          "date" : "2022-05-24",
          "dist" : "WWW-Mechanize-Cached",
@@ -688,9 +799,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "WWW-Mechanize-Cached",
          "repo_owner" : "libwww-perl",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.56"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/www-robocop/issues",
          "date" : "2022-12-02",
          "dist" : "WWW-RoboCop",
@@ -700,9 +813,11 @@
          "repo_def_branch" : "main",
          "repo_name" : "www-robocop",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000102"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/trs-80/WWW-Spotify/issues",
          "date" : "2022-10-19",
          "dist" : "WWW-Spotify",
@@ -712,9 +827,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Spotify",
          "repo_owner" : "trs-80",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.012"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/xaicron/p5-www-youtube-download/issues",
          "date" : "2020-11-19",
          "dist" : "WWW-YouTube-Download",
@@ -724,9 +841,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-www-youtube-download",
          "repo_owner" : "xaicron",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.65"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/webservice-fitbit/issues",
          "date" : "2017-02-20",
          "dist" : "WebService-Fitbit",
@@ -736,9 +855,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "webservice-fitbit",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000001"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/webservice-healthgraph/issues",
          "date" : "2016-10-27",
          "dist" : "WebService-HealthGraph",
@@ -748,9 +869,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "webservice-healthgraph",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000004"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/bradhaywood/WebService-PayPal-NVP/issues",
          "date" : "2017-03-13",
          "dist" : "WebService-PayPal-NVP",
@@ -760,9 +883,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "WebService-PayPal-NVP",
          "repo_owner" : "bradhaywood",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.006"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/webservice-reddit/issues",
          "date" : "2017-02-04",
          "dist" : "WebService-Reddit",
@@ -772,9 +897,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "webservice-reddit",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000003"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/webservice-sqlformat/issues",
          "date" : "2017-03-06",
          "dist" : "WebService-SQLFormat",
@@ -784,9 +911,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "webservice-sqlformat",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000007"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/fatfinger/issues",
          "date" : "2015-10-15",
          "dist" : "fatfinger",
@@ -796,9 +925,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "fatfinger",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000001"
       },
       {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/lazy/issues",
          "date" : "2018-07-26",
          "dist" : "lazy",
@@ -808,11 +939,26 @@
          "repo_def_branch" : "main",
          "repo_name" : "lazy",
          "repo_owner" : "oalders",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "0.000009"
+      },
+      {
+         "auth" : "OALDERS",
+         "bugtracker" : "https://github.com/libwww-perl/libwww-perl/issues",
+         "date" : "2023-07-17",
+         "dist" : "libwww-perl",
+         "insecure_repo" : "",
+         "name" : "libwww-perl-6.72",
+         "repo" : "https://github.com/libwww-perl/libwww-perl",
+         "repo_def_branch" : "master",
+         "repo_name" : "libwww-perl",
+         "repo_owner" : "libwww-perl",
+         "uses_rt" : "",
+         "ver" : "6.72"
       }
    ],
    "sort" : {
-      "column" : "0",
-      "direction" : "asc"
+      "column" : 2,
+      "direction" : "desc"
    }
 }

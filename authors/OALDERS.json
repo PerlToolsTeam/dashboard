@@ -10,8 +10,12 @@
       "use_appveyor" : 0,
       "use_travis" : 0,
       "use_travis_com" : 0,
-      "use_coveralls" : 1,
+      "use_coveralls" : 0,
       "use_codecov" : 1
+   },
+   "sort": {
+      "column": "Date",
+      "direction": "desc"
    }
 }
 

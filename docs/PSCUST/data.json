@@ -19,6 +19,7 @@
    },
    "modules" : [
       {
+         "auth" : "PSCUST",
          "bugtracker" : "https://github.com/pauloscustodio/perl-CPU-Z80-Assembler/issues",
          "date" : "2023-05-27",
          "dist" : "CPU-Z80-Assembler",
@@ -28,9 +29,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-CPU-Z80-Assembler",
          "repo_owner" : "pauloscustodio",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "2.25"
       },
       {
+         "auth" : "PSCUST",
          "bugtracker" : "https://github.com/pauloscustodio/perl-CPU-Z80-Disassembler/issues",
          "date" : "2023-05-27",
          "dist" : "CPU-Z80-Disassembler",
@@ -40,9 +43,11 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-CPU-Z80-Disassembler",
          "repo_owner" : "pauloscustodio",
-         "uses_rt" : ""
+         "uses_rt" : "",
+         "ver" : "1.02"
       },
       {
+         "auth" : "PSCUST",
          "date" : "2016-05-16",
          "dist" : "Parse-FSM",
          "insecure_repo" : "",
@@ -50,9 +55,11 @@
          "repo" : "https://github.com/pauloscustodio/perl-Parse-FSM",
          "repo_def_branch" : "master",
          "repo_name" : "perl-Parse-FSM",
-         "repo_owner" : "pauloscustodio"
+         "repo_owner" : "pauloscustodio",
+         "ver" : "1.13"
       },
       {
+         "auth" : "PSCUST",
          "date" : "2016-05-12",
          "dist" : "Preproc-Tiny",
          "insecure_repo" : "",
@@ -60,9 +67,11 @@
          "repo" : "https://github.com/pauloscustodio/perl-Preproc-Tiny",
          "repo_def_branch" : "master",
          "repo_name" : "perl-Preproc-Tiny",
-         "repo_owner" : "pauloscustodio"
+         "repo_owner" : "pauloscustodio",
+         "ver" : "0.02"
       },
       {
+         "auth" : "PSCUST",
          "date" : "2023-05-18",
          "dist" : "Text-MacroScript",
          "insecure_repo" : "",
@@ -70,7 +79,8 @@
          "repo" : "https://github.com/pauloscustodio/Text-MacroScript",
          "repo_def_branch" : "master",
          "repo_name" : "Text-MacroScript",
-         "repo_owner" : "pauloscustodio"
+         "repo_owner" : "pauloscustodio",
+         "ver" : "2.14"
       }
    ],
    "sort" : {
