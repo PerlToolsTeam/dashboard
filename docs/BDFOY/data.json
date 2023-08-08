@@ -719,16 +719,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/net-ssh-perl/issues",
-         "date" : "2023-07-25",
+         "date" : "2023-08-07",
          "dist" : "Net-SSH-Perl",
          "insecure_repo" : "",
-         "name" : "Net-SSH-Perl-2.141",
+         "name" : "Net-SSH-Perl-2.142",
          "repo" : "https://github.com/briandfoy/net-ssh-perl",
          "repo_def_branch" : "master",
          "repo_name" : "net-ssh-perl",
          "repo_owner" : "briandfoy",
          "uses_rt" : "",
-         "ver" : "2.141"
+         "ver" : "2.142"
       },
       {
          "auth" : "BDFOY",
