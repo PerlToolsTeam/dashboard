@@ -958,7 +958,7 @@
       }
    ],
    "sort" : {
-      "column" : 2,
+      "column" : "3",
       "direction" : "desc"
    }
 }
