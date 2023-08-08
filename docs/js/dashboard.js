@@ -4,6 +4,8 @@ $(document).ready(function()
         $(this).attr('src', '/images/missing_image.png');
     });
 
+    // See https://datatables.net/ for how this works
+
     $('#sort_table').DataTable({
       "paging": true,
       "columnDefs": [
