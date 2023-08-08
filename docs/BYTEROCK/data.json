@@ -23,13 +23,13 @@
          "bugtracker" : "https://github.com/byterock/Mojolicious_Command_generate_routes_restsful/issues",
          "date" : "2016-12-12",
          "dist" : "Mojolicious-Command-generate-routes_restsful",
-         "insecure_repo" : "",
+         "insecure_repo" : false,
          "name" : "Mojolicious-Command-generate-routes_restsful-0.02",
          "repo" : "https://github.com/byterock/Mojolicious_Command_generate_routes_restsful",
-         "repo_def_branch" : "",
+         "repo_def_branch" : null,
          "repo_name" : "Mojolicious_Command_generate_routes_restsful",
          "repo_owner" : "byterock",
-         "uses_rt" : "",
+         "uses_rt" : false,
          "ver" : "0.02"
       },
       {
@@ -37,13 +37,13 @@
          "bugtracker" : "https://github.com/byterock/Mojolicious_Command_generate_routes_restsful_just_routes/issues",
          "date" : "2016-12-12",
          "dist" : "Mojolicious-Command-generate-routes_restsful_just_routes",
-         "insecure_repo" : "",
+         "insecure_repo" : false,
          "name" : "Mojolicious-Command-generate-routes_restsful_just_routes-0.01",
          "repo" : "https://github.com/byterock/Mojolicious_Command_generate_routes_restsful",
-         "repo_def_branch" : "",
+         "repo_def_branch" : null,
          "repo_name" : "Mojolicious_Command_generate_routes_restsful",
          "repo_owner" : "byterock",
-         "uses_rt" : "",
+         "uses_rt" : false,
          "ver" : "0.01"
       },
       {
@@ -51,13 +51,13 @@
          "bugtracker" : "https://github.com/byterock/mojolicious-plugin-authorization/issues",
          "date" : "2021-05-19",
          "dist" : "Mojolicious-Plugin-Authorization",
-         "insecure_repo" : "",
+         "insecure_repo" : false,
          "name" : "Mojolicious-Plugin-Authorization-1.06",
          "repo" : "https://github.com/byterock/mojolicious-plugin-authorization",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : null,
          "repo_name" : "mojolicious-plugin-authorization",
          "repo_owner" : "byterock",
-         "uses_rt" : "",
+         "uses_rt" : false,
          "ver" : "1.06"
       },
       {
@@ -65,30 +65,30 @@
          "bugtracker" : "https://github.com/byterock/mojolicious-plugin-routes-restful/issues",
          "date" : "2023-01-30",
          "dist" : "Mojolicious-Plugin-Routes-Restful",
-         "insecure_repo" : "",
+         "insecure_repo" : false,
          "name" : "Mojolicious-Plugin-Routes-Restful-0.04",
          "repo" : "https://github.com/byterock/mojolicious-plugin-routes-restful",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : null,
          "repo_name" : "mojolicious-plugin-routes-restful",
          "repo_owner" : "byterock",
-         "uses_rt" : "",
+         "uses_rt" : false,
          "ver" : "0.04"
       },
       {
          "auth" : "BYTEROCK",
          "date" : "2014-03-22",
          "dist" : "Orignal",
-         "insecure_repo" : "",
+         "insecure_repo" : false,
          "name" : "Orignal-0.04",
          "repo" : "https://github.com/byterock/Orignal",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : null,
          "repo_name" : "Orignal",
          "repo_owner" : "byterock",
          "ver" : "0.04"
       }
    ],
    "sort" : {
-      "column" : "0",
+      "column" : 0,
       "direction" : "asc"
    }
 }

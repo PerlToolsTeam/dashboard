@@ -23,13 +23,13 @@
          "bugtracker" : "https://github.com/teodesian/App-Prove-Elasticsearch/issues",
          "date" : "2018-06-18",
          "dist" : "App-Prove-Plugin-Elasticsearch",
-         "insecure_repo" : "",
+         "insecure_repo" : false,
          "name" : "App-Prove-Plugin-Elasticsearch-0.001",
          "repo" : "https://github.com/teodesian/App-Prove-Elasticsearch",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : null,
          "repo_name" : "App-Prove-Elasticsearch",
          "repo_owner" : "teodesian",
-         "uses_rt" : "",
+         "uses_rt" : false,
          "ver" : "0.001"
       },
       {
@@ -37,13 +37,13 @@
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/Audit-Log-perl/issues",
          "date" : "2023-07-11",
          "dist" : "Audit-Log",
-         "insecure_repo" : "",
+         "insecure_repo" : false,
          "name" : "Audit-Log-0.005",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/Audit-Log-perl",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : null,
          "repo_name" : "Audit-Log-perl",
          "repo_owner" : "Troglodyne-Internet-Widgets",
-         "uses_rt" : "",
+         "uses_rt" : false,
          "ver" : "0.005"
       },
       {
@@ -51,13 +51,13 @@
          "bugtracker" : "https://github.com/teodesian/playwright-perl/issues",
          "date" : "2023-04-18",
          "dist" : "Playwright",
-         "insecure_repo" : "",
+         "insecure_repo" : false,
          "name" : "Playwright-1.324",
          "repo" : "https://github.com/teodesian/playwright-perl",
-         "repo_def_branch" : "main",
+         "repo_def_branch" : null,
          "repo_name" : "playwright-perl",
          "repo_owner" : "teodesian",
-         "uses_rt" : "",
+         "uses_rt" : false,
          "ver" : "1.324"
       },
       {
@@ -65,13 +65,13 @@
          "bugtracker" : "https://github.com/troglodyne-internet-widgets/selenium-client-perl/issues",
          "date" : "2021-07-16",
          "dist" : "Selenium-Client",
-         "insecure_repo" : "",
+         "insecure_repo" : false,
          "name" : "Selenium-Client-1.05",
          "repo" : "https://github.com/troglodyne-internet-widgets/selenium-client-perl",
-         "repo_def_branch" : "main",
+         "repo_def_branch" : null,
          "repo_name" : "selenium-client-perl",
          "repo_owner" : "troglodyne-internet-widgets",
-         "uses_rt" : "",
+         "uses_rt" : false,
          "ver" : "1.05"
       },
       {
@@ -79,13 +79,13 @@
          "bugtracker" : "https://github.com/teodesian/Selenium-Remote-Driver/issues",
          "date" : "2023-04-06",
          "dist" : "Selenium-Remote-Driver",
-         "insecure_repo" : "",
+         "insecure_repo" : false,
          "name" : "Selenium-Remote-Driver-1.49",
          "repo" : "https://github.com/teodesian/Selenium-Remote-Driver",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : null,
          "repo_name" : "Selenium-Remote-Driver",
          "repo_owner" : "teodesian",
-         "uses_rt" : "",
+         "uses_rt" : false,
          "ver" : "1.49"
       },
       {
@@ -93,13 +93,13 @@
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=TestLink-API",
          "date" : "2014-12-05",
          "dist" : "TestLink-API",
-         "insecure_repo" : "",
+         "insecure_repo" : false,
          "name" : "TestLink-API-0.011",
          "repo" : "git://github.com/teodesian/TestLink-Perl.git",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : null,
          "repo_name" : "TestLink-Perl",
          "repo_owner" : "teodesian",
-         "uses_rt" : "1",
+         "uses_rt" : true,
          "ver" : "0.011"
       },
       {
@@ -107,18 +107,18 @@
          "bugtracker" : "https://github.com/teodesian/TestRail-Perl/issues",
          "date" : "2022-09-11",
          "dist" : "TestRail-API",
-         "insecure_repo" : "",
+         "insecure_repo" : false,
          "name" : "TestRail-API-0.052",
          "repo" : "https://github.com/teodesian/TestRail-Perl",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : null,
          "repo_name" : "TestRail-Perl",
          "repo_owner" : "teodesian",
-         "uses_rt" : "",
+         "uses_rt" : false,
          "ver" : "0.052"
       }
    ],
    "sort" : {
-      "column" : "0",
+      "column" : 0,
       "direction" : "asc"
    }
 }
