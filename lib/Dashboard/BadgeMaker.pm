@@ -16,7 +16,7 @@ class Dashboard::BadgeMaker {
   }
 
   method cirrus {
-    my ($task, $module) = @_;
+    my ($module, $task) = @_;
 
     return $self->badge_link(
       "https://cirrus-ci.com/github/$module->{repo_owner}/$module->{repo_name}",
@@ -26,7 +26,7 @@ class Dashboard::BadgeMaker {
   }
 
   method gh {
-    my ($workflow, $module) = @_;
+    my ($module, $workflow) = @_;
 
     return $self->badge_link(
       "https://github.com/$module->{repo_owner}/$module->{repo_name}/actions?query=workflow%3A$workflow",

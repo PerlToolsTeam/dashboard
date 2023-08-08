@@ -60,7 +60,7 @@ var direction = "[% sort.direction %]";
           <td>[% IF m.bugtracker %]<a href="[% m.bugtracker %]">[% good_bugtracker %]</a>[% ELSE; no_bugtracker; END %]</td>
 [%   IF ci.use_gh_actions -%]
           <td>[%- FOREACH workflow_name IN ci.gh_workflow_names -%]
-            [% badges.gh(workflow_name, m) %][% UNLESS loop.last %]<br>[% END -%]
+            [% badges.gh(m, workflow_name) %][% UNLESS loop.last %]<br>[% END -%]
           [%- END %]</td>
 [%   END -%]
 [%   IF ci.use_travis -%]
@@ -71,7 +71,7 @@ var direction = "[% sort.direction %]";
 [%   END -%]
 [%   IF ci.use_cirrus -%]
           <td>[%- FOREACH task_name IN ci.cirrus_task_names -%]
-            [% badges.cirrus(task_name, m) %][% UNLESS loop.last %]<br>[% END -%]
+            [% badges.cirrus(m, task_name) %][% UNLESS loop.last %]<br>[% END -%]
           [%- END %]</td>
 [%   END -%]
 [%   IF ci.use_appveyor -%]

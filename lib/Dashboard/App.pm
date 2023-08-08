@@ -1,5 +1,5 @@
-use v5.26;
-use Object::Pad ':experimental(init_expr)';
+use v5.36;
+use Feature::Compat::Class;
 
 class Dashboard::App {
   use strict;
@@ -14,10 +14,10 @@ class Dashboard::App {
   use URI;
   use FindBin '$RealBin';
 
-  my $json = JSON->new->pretty->canonical->utf8;
-
-  field $mcpan { MetaCPAN::Client->new };
-  field $global_cfg { $json->decode(path('dashboard.json')->slurp_utf8) };
+  field $mcpan = MetaCPAN::Client->new;
+  field $json = JSON->new->pretty->canonical->utf8;
+  # Annoyingly, I can't use $json here
+  field $global_cfg = JSON->new->pretty->canonical->utf8->decode(path('dashboard.json')->slurp_utf8);
   field $tt;
   field @authors;
   field @all_authors;
@@ -41,6 +41,7 @@ class Dashboard::App {
  
     say "Gathering...";
 
+    # This should be the initialiser expression for $repo_def_branch
     if (-f $branch_cache_file) {
       $repo_def_branch = $json->decode(path($branch_cache_file)->slurp_utf8);
     } else {
@@ -58,7 +59,7 @@ class Dashboard::App {
   method do_author {
     my ($file) = @_;
 
-    my $cfg = decode_json(path($file)->slurp_utf8);
+    my $cfg = $json->decode_json(path($file)->slurp_utf8);
 
     $cfg->{modules} = [];
 
@@ -145,7 +146,7 @@ class Dashboard::App {
 
   method load_data {
     for (glob "$RealBin/docs/*/data.json") {
-      push @authors, decode_json(path($_)->slurp_utf8);
+      push @authors, $json->decode(path($_)->slurp_utf8);
       push @urls, "https://$global_cfg->{domain}/$authors[-1]{author}{cpan}/";
     }
   }
