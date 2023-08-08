@@ -14,7 +14,7 @@
       "use_appveyor" : 0,
       "use_cirrus" : 0,
       "use_codecov" : 1,
-      "use_coveralls" : 1,
+      "use_coveralls" : 0,
       "use_gh_actions" : 1,
       "use_travis" : 0,
       "use_travis_com" : 0
@@ -958,7 +958,7 @@
       }
    ],
    "sort" : {
-      "column" : "0",
-      "direction" : "asc"
+      "column" : 2,
+      "direction" : "desc"
    }
 }
