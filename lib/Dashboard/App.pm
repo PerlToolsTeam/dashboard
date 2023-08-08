@@ -59,7 +59,7 @@ class Dashboard::App {
   method do_author {
     my ($file) = @_;
 
-    my $cfg = $json->decode_json(path($file)->slurp_utf8);
+    my $cfg = $json->decode(path($file)->slurp_utf8);
 
     $cfg->{modules} = [];
 
