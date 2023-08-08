@@ -13,6 +13,9 @@ jobs:
     container: perl:latest
 
     steps:
+    - name: Perl version
+      runs: perl -v
+
     - name: Checkout
       uses: actions/checkout@v3
 
