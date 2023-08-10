@@ -126,6 +126,20 @@
       },
       {
          "auth" : "NHORNE",
+         "bugtracker" : "https://github.com/nigelhorne/CHI-Driver-SharedMem/issues",
+         "date" : "2023-08-10",
+         "dist" : "CHI-Driver-SharedMem",
+         "insecure_repo" : false,
+         "name" : "CHI-Driver-SharedMem-0.15",
+         "repo" : "https://github.com/nigelhorne/CHI-Driver-SharedMem",
+         "repo_def_branch" : null,
+         "repo_name" : "CHI-Driver-SharedMem",
+         "repo_owner" : "nigelhorne",
+         "uses_rt" : false,
+         "ver" : "0.15"
+      },
+      {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Class-Simple-Cached/issues",
          "date" : "2021-03-02",
          "dist" : "Class-Simple-Cached",
