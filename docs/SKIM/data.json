@@ -455,16 +455,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-Test-DWG-LibreDWG-DwgRead/issues",
-         "date" : "2023-05-23",
+         "date" : "2023-08-18",
          "dist" : "App-Test-DWG-LibreDWG-DwgRead",
          "insecure_repo" : false,
-         "name" : "App-Test-DWG-LibreDWG-DwgRead-0.02",
+         "name" : "App-Test-DWG-LibreDWG-DwgRead-0.03",
          "repo" : "git://github.com/michal-josef-spacek/App-Test-DWG-LibreDWG-DwgRead",
          "repo_def_branch" : null,
          "repo_name" : "App-Test-DWG-LibreDWG-DwgRead",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
