@@ -121,16 +121,16 @@
       {
          "auth" : "PMQS",
          "bugtracker" : "https://github.com/pmqs/DB_File/issues",
-         "date" : "2022-05-13",
+         "date" : "2023-08-21",
          "dist" : "DB_File",
          "insecure_repo" : false,
-         "name" : "DB_File-1.858",
+         "name" : "DB_File-1.859",
          "repo" : "https://github.com/pmqs/DB_File",
          "repo_def_branch" : "master",
          "repo_name" : "DB_File",
          "repo_owner" : "pmqs",
          "uses_rt" : false,
-         "ver" : "1.858"
+         "ver" : "1.859"
       },
       {
          "auth" : "PMQS",
