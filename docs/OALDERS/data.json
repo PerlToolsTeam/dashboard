@@ -776,6 +776,20 @@
       },
       {
          "auth" : "OALDERS",
+         "bugtracker" : "https://github.com/libwww-perl/URI/issues",
+         "date" : "2023-08-23",
+         "dist" : "URI",
+         "insecure_repo" : false,
+         "name" : "URI-5.21",
+         "repo" : "https://github.com/libwww-perl/URI",
+         "repo_def_branch" : null,
+         "repo_name" : "URI",
+         "repo_owner" : "libwww-perl",
+         "uses_rt" : false,
+         "ver" : "5.21"
+      },
+      {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/uri-parsesearchstring-more/issues",
          "date" : "2018-08-03",
          "dist" : "URI-ParseSearchString-More",
