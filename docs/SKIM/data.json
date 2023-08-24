@@ -469,16 +469,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-Test-DWG-LibreDWG-JSON/issues",
-         "date" : "2023-08-03",
+         "date" : "2023-08-24",
          "dist" : "App-Test-DWG-LibreDWG-JSON",
          "insecure_repo" : false,
-         "name" : "App-Test-DWG-LibreDWG-JSON-0.03",
+         "name" : "App-Test-DWG-LibreDWG-JSON-0.04",
          "repo" : "git://github.com/michal-josef-spacek/App-Test-DWG-LibreDWG-JSON",
          "repo_def_branch" : null,
          "repo_name" : "App-Test-DWG-LibreDWG-JSON",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",
