@@ -106,12 +106,12 @@
          "date" : "2023-08-26",
          "dist" : "Import-These",
          "insecure_repo" : true,
-         "name" : "Import-These-v0.1.1",
+         "name" : "Import-These-v0.1.2",
          "repo" : "http://github.com/drclaw1394/perl-import-these",
          "repo_def_branch" : null,
          "repo_name" : "perl-import-these",
          "repo_owner" : "drclaw1394",
-         "ver" : "v0.1.1"
+         "ver" : "v0.1.2"
       },
       {
          "auth" : "DRCLAW",
