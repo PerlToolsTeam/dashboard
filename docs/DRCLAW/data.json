@@ -43,15 +43,15 @@
       },
       {
          "auth" : "DRCLAW",
-         "date" : "2023-08-11",
+         "date" : "2023-08-26",
          "dist" : "Export-These",
          "insecure_repo" : true,
-         "name" : "Export-These-v0.1.0",
+         "name" : "Export-These-v0.1.1",
          "repo" : "http://github.com/drclaw1394/perl-export-these",
          "repo_def_branch" : null,
          "repo_name" : "perl-export-these",
          "repo_owner" : "drclaw1394",
-         "ver" : "v0.1.0"
+         "ver" : "v0.1.1"
       },
       {
          "auth" : "DRCLAW",
@@ -103,15 +103,15 @@
       },
       {
          "auth" : "DRCLAW",
-         "date" : "2023-08-11",
+         "date" : "2023-08-26",
          "dist" : "Import-These",
          "insecure_repo" : true,
-         "name" : "Import-These-v0.1.0",
+         "name" : "Import-These-v0.1.1",
          "repo" : "http://github.com/drclaw1394/perl-import-these",
          "repo_def_branch" : null,
          "repo_name" : "perl-import-these",
          "repo_owner" : "drclaw1394",
-         "ver" : "v0.1.0"
+         "ver" : "v0.1.1"
       },
       {
          "auth" : "DRCLAW",
