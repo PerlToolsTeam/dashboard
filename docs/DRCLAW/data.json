@@ -127,18 +127,6 @@
       },
       {
          "auth" : "DRCLAW",
-         "date" : "2023-07-25",
-         "dist" : "Log-OK",
-         "insecure_repo" : true,
-         "name" : "Log-OK-v0.2.0",
-         "repo" : "http://github.com/drclaw1394/perl-log-ok",
-         "repo_def_branch" : null,
-         "repo_name" : "perl-log-ok",
-         "repo_owner" : "drclaw1394",
-         "ver" : "v0.2.0"
-      },
-      {
-         "auth" : "DRCLAW",
          "date" : "2023-05-26",
          "dist" : "Socket-More",
          "insecure_repo" : true,
