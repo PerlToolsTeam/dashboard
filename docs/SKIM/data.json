@@ -874,6 +874,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Data-HashType/issues",
+         "date" : "2023-09-01",
+         "dist" : "Data-HashType",
+         "insecure_repo" : false,
+         "name" : "Data-HashType-0.02",
+         "repo" : "git://github.com/michal-josef-spacek/Data-HashType",
+         "repo_def_branch" : null,
+         "repo_name" : "Data-HashType",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.02"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-Image/issues",
          "date" : "2023-06-23",
          "dist" : "Data-Image",

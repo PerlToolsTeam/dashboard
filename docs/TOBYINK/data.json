@@ -2578,16 +2578,16 @@
       {
          "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-story-interact/issues",
-         "date" : "2023-06-12",
+         "date" : "2023-09-01",
          "dist" : "Story-Interact",
          "insecure_repo" : false,
-         "name" : "Story-Interact-0.001012",
+         "name" : "Story-Interact-0.001014",
          "repo" : "https://github.com/tobyink/p5-story-interact",
          "repo_def_branch" : "master",
          "repo_name" : "p5-story-interact",
          "repo_owner" : "tobyink",
          "uses_rt" : false,
-         "ver" : "0.001012"
+         "ver" : "0.001014"
       },
       {
          "auth" : "TOBYINK",
