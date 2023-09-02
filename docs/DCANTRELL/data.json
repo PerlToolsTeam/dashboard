@@ -135,6 +135,20 @@
       },
       {
          "auth" : "DCANTRELL",
+         "bugtracker" : "https://github.com/DrHyde/perl-modules-DBM-Deep/issues",
+         "date" : "2023-09-01",
+         "dist" : "DBM-Deep",
+         "insecure_repo" : false,
+         "name" : "DBM-Deep-2.0017",
+         "repo" : "https://github.com/DrHyde/perl-modules-DBM-Deep",
+         "repo_def_branch" : null,
+         "repo_name" : "perl-modules-DBM-Deep",
+         "repo_owner" : "DrHyde",
+         "uses_rt" : false,
+         "ver" : "2.0017"
+      },
+      {
+         "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-Data-CompactReadonly/issues",
          "date" : "2022-01-08",
          "dist" : "Data-CompactReadonly",
