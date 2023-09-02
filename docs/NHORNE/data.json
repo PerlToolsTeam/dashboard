@@ -265,16 +265,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/FCGI-Buffer/issues",
-         "date" : "2023-02-26",
+         "date" : "2023-09-02",
          "dist" : "FCGI-Buffer",
          "insecure_repo" : false,
-         "name" : "FCGI-Buffer-0.18",
+         "name" : "FCGI-Buffer-0.19",
          "repo" : "https://github.com/nigelhorne/FCGI-Buffer",
          "repo_def_branch" : "master",
          "repo_name" : "FCGI-Buffer",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.18"
+         "ver" : "0.19"
       },
       {
          "auth" : "NHORNE",
