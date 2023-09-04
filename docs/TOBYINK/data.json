@@ -1221,6 +1221,20 @@
       },
       {
          "auth" : "TOBYINK",
+         "bugtracker" : "https://github.com/tobyink/p5-missing-xs/issues",
+         "date" : "2023-09-04",
+         "dist" : "Missing-XS",
+         "insecure_repo" : false,
+         "name" : "Missing-XS-0.001000",
+         "repo" : "https://github.com/tobyink/p5-missing-xs",
+         "repo_def_branch" : null,
+         "repo_name" : "p5-missing-xs",
+         "repo_owner" : "tobyink",
+         "uses_rt" : false,
+         "ver" : "0.001000"
+      },
+      {
+         "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-mite/issues",
          "date" : "2022-12-12",
          "dist" : "Mite",
