@@ -55,15 +55,15 @@
       },
       {
          "auth" : "DRCLAW",
-         "date" : "2023-05-10",
+         "date" : "2023-09-05",
          "dist" : "File-Meta-Cache",
          "insecure_repo" : true,
-         "name" : "File-Meta-Cache-v0.1.1",
+         "name" : "File-Meta-Cache-v0.2.0",
          "repo" : "http://github.com/drclaw1394/perl-file-meta-cache",
          "repo_def_branch" : null,
          "repo_name" : "perl-file-meta-cache",
          "repo_owner" : "drclaw1394",
-         "ver" : "v0.1.1"
+         "ver" : "v0.2.0"
       },
       {
          "auth" : "DRCLAW",
@@ -139,15 +139,15 @@
       },
       {
          "auth" : "DRCLAW",
-         "date" : "2023-05-26",
+         "date" : "2023-09-05",
          "dist" : "Socket-More",
          "insecure_repo" : true,
-         "name" : "Socket-More-v0.4.2",
+         "name" : "Socket-More-v0.4.3",
          "repo" : "http://github.com/drclaw1394/perl-socket-more",
          "repo_def_branch" : null,
          "repo_name" : "perl-socket-more",
          "repo_owner" : "drclaw1394",
-         "ver" : "v0.4.2"
+         "ver" : "v0.4.3"
       },
       {
          "auth" : "DRCLAW",
