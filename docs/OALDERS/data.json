@@ -608,17 +608,17 @@
       },
       {
          "auth" : "OALDERS",
-         "bugtracker" : "https://github.com/oalders/open-this/issues",
-         "date" : "2023-05-05",
+         "bugtracker" : "https://github.com/perl-ide/open-this/issues",
+         "date" : "2023-09-12",
          "dist" : "Open-This",
          "insecure_repo" : false,
-         "name" : "Open-This-0.000032",
-         "repo" : "https://github.com/oalders/open-this",
+         "name" : "Open-This-0.000033",
+         "repo" : "https://github.com/perl-ide/open-this",
          "repo_def_branch" : null,
          "repo_name" : "open-this",
-         "repo_owner" : "oalders",
+         "repo_owner" : "perl-ide",
          "uses_rt" : false,
-         "ver" : "0.000032"
+         "ver" : "0.000033"
       },
       {
          "auth" : "OALDERS",
