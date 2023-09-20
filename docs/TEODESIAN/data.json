@@ -63,16 +63,16 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/troglodyne-internet-widgets/selenium-client-perl/issues",
-         "date" : "2021-07-16",
+         "date" : "2023-09-19",
          "dist" : "Selenium-Client",
          "insecure_repo" : false,
-         "name" : "Selenium-Client-1.05",
+         "name" : "Selenium-Client-1.06",
          "repo" : "https://github.com/troglodyne-internet-widgets/selenium-client-perl",
          "repo_def_branch" : null,
          "repo_name" : "selenium-client-perl",
          "repo_owner" : "troglodyne-internet-widgets",
          "uses_rt" : false,
-         "ver" : "1.05"
+         "ver" : "1.06"
       },
       {
          "auth" : "TEODESIAN",
