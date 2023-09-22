@@ -650,20 +650,6 @@
       },
       {
          "auth" : "OALDERS",
-         "bugtracker" : "https://github.com/Perl-Critic/PPI/issues",
-         "date" : "2022-07-19",
-         "dist" : "PPI",
-         "insecure_repo" : false,
-         "name" : "PPI-1.276",
-         "repo" : "https://github.com/Perl-Critic/PPI",
-         "repo_def_branch" : null,
-         "repo_name" : "PPI",
-         "repo_owner" : "Perl-Critic",
-         "uses_rt" : false,
-         "ver" : "1.276"
-      },
-      {
-         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/Perl-Critic-Policy-ProhibitImplicitImport/issues",
          "date" : "2021-02-19",
          "dist" : "Perl-Critic-Policy-ProhibitImplicitImport",
