@@ -119,16 +119,16 @@
       {
          "auth" : "SLAFFAN",
          "bugtracker" : "https://github.com/shawnlaffan/perl-alien-proj/issues/",
-         "date" : "2022-11-26",
+         "date" : "2023-09-24",
          "dist" : "Alien-proj",
          "insecure_repo" : false,
-         "name" : "Alien-proj-1.25",
+         "name" : "Alien-proj-1.26",
          "repo" : "https://github.com/shawnlaffan/perl-alien-proj",
          "repo_def_branch" : "master",
          "repo_name" : "perl-alien-proj",
          "repo_owner" : "shawnlaffan",
          "uses_rt" : false,
-         "ver" : "1.25"
+         "ver" : "1.26"
       },
       {
          "auth" : "SLAFFAN",
