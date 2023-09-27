@@ -399,16 +399,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTTP-Message/issues",
-         "date" : "2022-10-26",
+         "date" : "2023-09-27",
          "dist" : "HTTP-Message",
          "insecure_repo" : false,
-         "name" : "HTTP-Message-6.44",
+         "name" : "HTTP-Message-6.45",
          "repo" : "https://github.com/libwww-perl/HTTP-Message",
          "repo_def_branch" : null,
          "repo_name" : "HTTP-Message",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "6.44"
+         "ver" : "6.45"
       },
       {
          "auth" : "OALDERS",
