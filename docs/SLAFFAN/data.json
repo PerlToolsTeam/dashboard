@@ -187,16 +187,16 @@
       {
          "auth" : "SLAFFAN",
          "bugtracker" : "https://github.com/shawnlaffan/perl-List-Unique-DeterministicOrder/issues/",
-         "date" : "2022-09-24",
+         "date" : "2023-10-05",
          "dist" : "List-Unique-DeterministicOrder",
          "insecure_repo" : false,
-         "name" : "List-Unique-DeterministicOrder-0.003",
+         "name" : "List-Unique-DeterministicOrder-0.004",
          "repo" : "https://github.com/shawnlaffan/perl-List-Unique-DeterministicOrder",
          "repo_def_branch" : "master",
          "repo_name" : "perl-List-Unique-DeterministicOrder",
          "repo_owner" : "shawnlaffan",
          "uses_rt" : false,
-         "ver" : 0.003
+         "ver" : 0.004
       },
       {
          "auth" : "SLAFFAN",
