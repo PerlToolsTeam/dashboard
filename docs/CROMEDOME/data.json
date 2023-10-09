@@ -47,16 +47,16 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/PerlDancer/Dancer2/issues",
-         "date" : "2023-02-05",
+         "date" : "2023-10-09",
          "dist" : "Dancer2",
          "insecure_repo" : false,
-         "name" : "Dancer2-0.400001",
+         "name" : "Dancer2-1.0.0",
          "repo" : "https://github.com/PerlDancer/Dancer2",
          "repo_def_branch" : null,
          "repo_name" : "Dancer2",
          "repo_owner" : "PerlDancer",
          "uses_rt" : false,
-         "ver" : "0.400001"
+         "ver" : "1.0.0"
       },
       {
          "auth" : "CROMEDOME",
