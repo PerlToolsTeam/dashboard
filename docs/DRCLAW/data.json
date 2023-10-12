@@ -139,6 +139,18 @@
       },
       {
          "auth" : "DRCLAW",
+         "date" : "2023-10-11",
+         "dist" : "Socket-More-Constants",
+         "insecure_repo" : true,
+         "name" : "Socket-More-Constants-v0.1.0",
+         "repo" : "http://github.com/drclaw1394/perl-socket-more-constants",
+         "repo_def_branch" : null,
+         "repo_name" : "perl-socket-more-constants",
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.1.0"
+      },
+      {
+         "auth" : "DRCLAW",
          "date" : "2023-09-05",
          "dist" : "Socket-More",
          "insecure_repo" : true,
