@@ -484,16 +484,16 @@
       {
          "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/Test-Differences/issues",
-         "date" : "2023-07-07",
+         "date" : "2023-10-12",
          "dist" : "Test-Differences",
          "insecure_repo" : false,
-         "name" : "Test-Differences-0.70",
+         "name" : "Test-Differences-0.71",
          "repo" : "https://github.com/DrHyde/Test-Differences",
          "repo_def_branch" : "master",
          "repo_name" : "Test-Differences",
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
-         "ver" : "0.70"
+         "ver" : "0.71"
       },
       {
          "auth" : "DCANTRELL",
