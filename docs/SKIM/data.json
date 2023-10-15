@@ -2149,16 +2149,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/PYX-Optimization/issues",
-         "date" : "2021-02-21",
+         "date" : "2023-10-15",
          "dist" : "PYX-Optimization",
          "insecure_repo" : false,
-         "name" : "PYX-Optimization-0.04",
+         "name" : "PYX-Optimization-0.05",
          "repo" : "git://github.com/michal-josef-spacek/PYX-Optimization",
          "repo_def_branch" : null,
          "repo_name" : "PYX-Optimization",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.04"
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",
@@ -2204,17 +2204,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=PYX-Stack",
-         "date" : "2015-10-13",
+         "bugtracker" : "https://github.com/michal-josef-spacek/PYX-Stack/issues",
+         "date" : "2023-10-15",
          "dist" : "PYX-Stack",
          "insecure_repo" : false,
-         "name" : "PYX-Stack-0.04",
-         "repo" : "git://github.com/tupinek/PYX-Stack",
+         "name" : "PYX-Stack-0.05",
+         "repo" : "git://github.com/michal-josef-spacek/PYX-Stack",
          "repo_def_branch" : null,
          "repo_name" : "PYX-Stack",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.04"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",
