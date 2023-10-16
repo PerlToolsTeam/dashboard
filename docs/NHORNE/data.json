@@ -346,6 +346,20 @@
       },
       {
          "auth" : "NHORNE",
+         "bugtracker" : "https://github.com/nigelhorne/Genealogy-Wills/issues",
+         "date" : "2023-10-15",
+         "dist" : "Genealogy-Wills",
+         "insecure_repo" : false,
+         "name" : "Genealogy-Wills-0.03",
+         "repo" : "https://github.com/nigelhorne/Genealogy-Wills",
+         "repo_def_branch" : "master",
+         "repo_name" : "Genealogy-Wills",
+         "repo_owner" : "nigelhorne",
+         "uses_rt" : false,
+         "ver" : "0.03"
+      },
+      {
+         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-Abbreviations/issues",
          "date" : "2023-06-08",
          "dist" : "Geo-Coder-Abbreviations",
