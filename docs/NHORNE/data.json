@@ -333,30 +333,30 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Genealogy-ObituaryDailyTimes/issues",
-         "date" : "2023-06-24",
+         "date" : "2023-10-15",
          "dist" : "Genealogy-ObituaryDailyTimes",
          "insecure_repo" : false,
-         "name" : "Genealogy-ObituaryDailyTimes-0.09",
+         "name" : "Genealogy-ObituaryDailyTimes-0.10",
          "repo" : "https://github.com/nigelhorne/Genealogy-ObituaryDailyTimes",
          "repo_def_branch" : "master",
          "repo_name" : "Genealogy-ObituaryDailyTimes",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.09"
+         "ver" : "0.10"
       },
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Genealogy-Wills/issues",
-         "date" : "2023-03-04",
+         "date" : "2023-10-15",
          "dist" : "Genealogy-Wills",
          "insecure_repo" : false,
-         "name" : "Genealogy-Wills-0.02",
+         "name" : "Genealogy-Wills-0.03",
          "repo" : "https://github.com/nigelhorne/Genealogy-Wills",
          "repo_def_branch" : "master",
          "repo_name" : "Genealogy-Wills",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "NHORNE",
