@@ -91,16 +91,16 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/Perl-Critic/Perl-Critic/issues",
-         "date" : "2023-03-05",
+         "date" : "2023-10-17",
          "dist" : "Perl-Critic",
          "insecure_repo" : false,
-         "name" : "Perl-Critic-1.150",
+         "name" : "Perl-Critic-1.152",
          "repo" : "git://github.com/Perl-Critic/Perl-Critic.git",
          "repo_def_branch" : "dev",
          "repo_name" : "Perl-Critic",
          "repo_owner" : "Perl-Critic",
          "uses_rt" : false,
-         "ver" : "1.150"
+         "ver" : "1.152"
       },
       {
          "auth" : "PETDANCE",
