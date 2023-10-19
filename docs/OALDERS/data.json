@@ -329,16 +329,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/http-browserdetect/issues",
-         "date" : "2023-09-08",
+         "date" : "2023-10-19",
          "dist" : "HTTP-BrowserDetect",
          "insecure_repo" : false,
-         "name" : "HTTP-BrowserDetect-3.39",
+         "name" : "HTTP-BrowserDetect-3.40",
          "repo" : "https://github.com/oalders/http-browserdetect",
          "repo_def_branch" : null,
          "repo_name" : "http-browserdetect",
          "repo_owner" : "oalders",
          "uses_rt" : false,
-         "ver" : "3.39"
+         "ver" : "3.40"
       },
       {
          "auth" : "OALDERS",
