@@ -35,16 +35,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/CGI-Buffer/issues",
-         "date" : "2023-08-26",
+         "date" : "2023-10-20",
          "dist" : "CGI-Buffer",
          "insecure_repo" : false,
-         "name" : "CGI-Buffer-0.84",
+         "name" : "CGI-Buffer-0.85",
          "repo" : "https://github.com/nigelhorne/CGI-Buffer",
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Buffer",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.84"
+         "ver" : "0.85"
       },
       {
          "auth" : "NHORNE",
