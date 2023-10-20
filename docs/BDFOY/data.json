@@ -175,16 +175,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/business-isbn-data/issues",
-         "date" : "2023-10-13",
+         "date" : "2023-10-20",
          "dist" : "Business-ISBN-Data",
          "insecure_repo" : false,
-         "name" : "Business-ISBN-Data-20231013.001",
+         "name" : "Business-ISBN-Data-20231020.001",
          "repo" : "https://github.com/briandfoy/business-isbn-data",
          "repo_def_branch" : "master",
          "repo_name" : "business-isbn-data",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "20231013.001"
+         "ver" : "20231020.001"
       },
       {
          "auth" : "BDFOY",
