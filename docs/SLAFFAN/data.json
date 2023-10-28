@@ -147,16 +147,16 @@
       {
          "auth" : "SLAFFAN",
          "bugtracker" : "https://github.com/shawnlaffan/perl-pp-autolink/issues/",
-         "date" : "2023-05-18",
+         "date" : "2023-10-28",
          "dist" : "App-PP-Autolink",
          "insecure_repo" : false,
-         "name" : "App-PP-Autolink-2.11",
+         "name" : "App-PP-Autolink-2.12",
          "repo" : "https://github.com/shawnlaffan/perl-pp-autolink",
          "repo_def_branch" : "master",
          "repo_name" : "perl-pp-autolink",
          "repo_owner" : "shawnlaffan",
          "uses_rt" : false,
-         "ver" : "2.11"
+         "ver" : "2.12"
       },
       {
          "auth" : "SLAFFAN",
