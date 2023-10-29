@@ -1,0 +1,23 @@
+{
+   "author" : {
+      "cpan" : "GEEKRUTH",
+      "github" : "GeekRuthie",
+      "gravatar" : null,
+      "name" : "D Ruth Holloway"
+   },
+   "ci" : {
+      "gh_workflow_names" : [],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 0,
+      "use_gh_actions" : 0,
+      "use_travis" : 0,
+      "use_travis_com" : 0
+   },
+   "modules" : [],
+   "sort" : {
+      "column" : 0,
+      "direction" : "asc"
+   }
+}
