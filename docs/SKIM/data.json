@@ -3575,30 +3575,30 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Wikibase-Datatype-Print/issues",
-         "date" : "2023-10-27",
+         "date" : "2023-10-29",
          "dist" : "Wikibase-Datatype-Print",
          "insecure_repo" : false,
-         "name" : "Wikibase-Datatype-Print-0.14",
+         "name" : "Wikibase-Datatype-Print-0.15",
          "repo" : "git://github.com/michal-josef-spacek/Wikibase-Datatype-Print",
          "repo_def_branch" : "main",
          "repo_name" : "Wikibase-Datatype-Print",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.14"
+         "ver" : "0.15"
       },
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Wikibase-Datatype-Query/issues",
-         "date" : "2023-10-27",
+         "date" : "2023-10-29",
          "dist" : "Wikibase-Datatype-Query",
          "insecure_repo" : false,
-         "name" : "Wikibase-Datatype-Query-0.01",
+         "name" : "Wikibase-Datatype-Query-0.02",
          "repo" : "git://github.com/michal-josef-spacek/Wikibase-Datatype-Query",
          "repo_def_branch" : "main",
          "repo_name" : "Wikibase-Datatype-Query",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",
