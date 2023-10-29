@@ -17,7 +17,7 @@
    },
    "modules" : [],
    "sort" : {
-      "column" : 0,
+      "column" : "0",
       "direction" : "asc"
    }
 }
