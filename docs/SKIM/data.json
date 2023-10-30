@@ -3589,16 +3589,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Wikibase-Datatype-Query/issues",
-         "date" : "2023-10-29",
+         "date" : "2023-10-30",
          "dist" : "Wikibase-Datatype-Query",
          "insecure_repo" : false,
-         "name" : "Wikibase-Datatype-Query-0.02",
+         "name" : "Wikibase-Datatype-Query-0.03",
          "repo" : "git://github.com/michal-josef-spacek/Wikibase-Datatype-Query",
          "repo_def_branch" : "main",
          "repo_name" : "Wikibase-Datatype-Query",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
