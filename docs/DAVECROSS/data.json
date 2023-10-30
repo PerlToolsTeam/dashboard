@@ -248,7 +248,7 @@
          "insecure_repo" : false,
          "name" : "Number-Fraction-v3.0.4",
          "repo" : "https://github.com/p5-number-fraction/number-fraction",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "number-fraction",
          "repo_owner" : "p5-number-fraction",
          "uses_rt" : false,

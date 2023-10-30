@@ -37,7 +37,7 @@
          "insecure_repo" : false,
          "name" : "Address-PostCode-India-0.13",
          "repo" : "https://github.com/Manwar/Address-PostCode-India",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "Address-PostCode-India",
          "repo_owner" : "Manwar",
          "ver" : "0.13"
@@ -61,7 +61,7 @@
          "insecure_repo" : false,
          "name" : "Address-PostCode-UserAgent-0.09",
          "repo" : "https://github.com/Manwar/Address-PostCode-UserAgent",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "Address-PostCode-UserAgent",
          "repo_owner" : "Manwar",
          "ver" : "0.09"
@@ -157,7 +157,7 @@
          "insecure_repo" : false,
          "name" : "CPAN-Search-Tester-0.04",
          "repo" : "https://github.com/Manwar/CPAN-Search-Tester",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "CPAN-Search-Tester",
          "repo_owner" : "Manwar",
          "ver" : "0.04"
@@ -584,7 +584,7 @@
          "insecure_repo" : false,
          "name" : "Debug-Client-0.31",
          "repo" : "git://github.com/PadreIDE/Debug-Client.git",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "Debug-Client",
          "repo_owner" : "PadreIDE",
          "uses_rt" : false,
@@ -753,7 +753,7 @@
          "insecure_repo" : false,
          "name" : "LWP-UserAgent-Anonymous-0.09",
          "repo" : "https://github.com/Manwar/LWP-UserAgent-Anonymous",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "LWP-UserAgent-Anonymous",
          "repo_owner" : "Manwar",
          "ver" : "0.09"
@@ -849,7 +849,7 @@
          "insecure_repo" : false,
          "name" : "Map-Tube-Exception-3.21",
          "repo" : "https://github.com/Manwar/Map-Tube-Exception",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "Map-Tube-Exception",
          "repo_owner" : "Manwar",
          "ver" : "3.21"
@@ -1006,7 +1006,7 @@
          "insecure_repo" : false,
          "name" : "Parse-ErrorString-Perl-0.27",
          "repo" : "https://github.com/PadreIDE/Parse-ErrorString-Perl",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "Parse-ErrorString-Perl",
          "repo_owner" : "PadreIDE",
          "uses_rt" : false,
@@ -1093,7 +1093,7 @@
          "insecure_repo" : false,
          "name" : "Term-Screen-Lite-0.06",
          "repo" : "https://github.com/Manwar/Term-Screen-Lite",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "Term-Screen-Lite",
          "repo_owner" : "Manwar",
          "ver" : "0.06"
@@ -1329,7 +1329,7 @@
          "insecure_repo" : false,
          "name" : "WWW-MovieReviews-NYT-0.05",
          "repo" : "https://github.com/Manwar/WWW-MovieReviews-NYT",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "WWW-MovieReviews-NYT",
          "repo_owner" : "Manwar",
          "ver" : "0.05"
@@ -1341,7 +1341,7 @@
          "insecure_repo" : false,
          "name" : "WWW-OReillyMedia-Store-0.10",
          "repo" : "https://github.com/Manwar/WWW-OReillyMedia-Store",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "WWW-OReillyMedia-Store",
          "repo_owner" : "Manwar",
          "ver" : "0.10"
@@ -1365,7 +1365,7 @@
          "insecure_repo" : false,
          "name" : "WWW-StatsMix-0.07",
          "repo" : "https://github.com/Manwar/WWW-StatsMix",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "WWW-StatsMix",
          "repo_owner" : "Manwar",
          "ver" : "0.07"

@@ -150,16 +150,16 @@
       {
          "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-Data-CompactReadonly/issues",
-         "date" : "2022-01-08",
+         "date" : "2023-10-29",
          "dist" : "Data-CompactReadonly",
          "insecure_repo" : false,
-         "name" : "Data-CompactReadonly-0.1.0",
+         "name" : "Data-CompactReadonly-0.1.1",
          "repo" : "https://github.com/DrHyde/perl-modules-Data-CompactReadonly",
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Data-CompactReadonly",
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
-         "ver" : "v0.1.0"
+         "ver" : "v0.1.1"
       },
       {
          "auth" : "DCANTRELL",
@@ -400,16 +400,16 @@
       {
          "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-Scalar-Type/issues",
-         "date" : "2022-03-10",
+         "date" : "2023-10-29",
          "dist" : "Scalar-Type",
          "insecure_repo" : false,
-         "name" : "Scalar-Type-0.3.2",
+         "name" : "Scalar-Type-1.0.0",
          "repo" : "https://github.com/DrHyde/perl-modules-Scalar-Type",
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Scalar-Type",
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
-         "ver" : "v0.3.2"
+         "ver" : "v1.0.0"
       },
       {
          "auth" : "DCANTRELL",
@@ -442,16 +442,16 @@
       {
          "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-String-Binary-Interpolation/issues",
-         "date" : "2020-11-20",
+         "date" : "2023-10-29",
          "dist" : "String-Binary-Interpolation",
          "insecure_repo" : false,
-         "name" : "String-Binary-Interpolation-1.0.0",
+         "name" : "String-Binary-Interpolation-1.0.1",
          "repo" : "https://github.com/DrHyde/perl-modules-String-Binary-Interpolation",
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-String-Binary-Interpolation",
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
-         "ver" : "v1.0.0"
+         "ver" : "v1.0.1"
       },
       {
          "auth" : "DCANTRELL",
