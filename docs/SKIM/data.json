@@ -3561,16 +3561,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Wikibase-Datatype/issues",
-         "date" : "2023-10-27",
+         "date" : "2023-11-02",
          "dist" : "Wikibase-Datatype",
          "insecure_repo" : false,
-         "name" : "Wikibase-Datatype-0.32",
+         "name" : "Wikibase-Datatype-0.33",
          "repo" : "git://github.com/michal-josef-spacek/Wikibase-Datatype",
          "repo_def_branch" : "main",
          "repo_name" : "Wikibase-Datatype",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.32"
+         "ver" : "0.33"
       },
       {
          "auth" : "SKIM",
