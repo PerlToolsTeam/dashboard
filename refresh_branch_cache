@@ -7,7 +7,7 @@ use feature 'say';
 use Path::Tiny;
 use JSON;
 
-my $json = JSON->new->pretty->utf8;
+my $json = JSON->new->pretty->canonical->utf8;
 my $branch_cache_file = 'repo_def_branch.json';
 
 unless (-f $branch_cache_file) {

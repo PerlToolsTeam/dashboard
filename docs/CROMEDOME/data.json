@@ -22,7 +22,7 @@
          "auth" : "CROMEDOME",
          "date" : "2011-01-06",
          "dist" : "CGI-Application-Plugin-CAPTCHA",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "CGI-Application-Plugin-CAPTCHA-0.04",
          "repo" : "https://github.com/cromedome/cgi-application-plugin-captcha",
          "repo_def_branch" : "master",
@@ -35,13 +35,13 @@
          "bugtracker" : "https://github.com/cromedome/Dancer-Plugin-reCAPTCHA/issues",
          "date" : "2018-11-10",
          "dist" : "Dancer-Plugin-reCAPTCHA",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Dancer-Plugin-reCAPTCHA-0.91",
          "repo" : "https://github.com/cromedome/Dancer-Plugin-reCAPTCHA",
          "repo_def_branch" : "master",
          "repo_name" : "Dancer-Plugin-reCAPTCHA",
          "repo_owner" : "cromedome",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "0.91"
       },
       {
@@ -49,13 +49,13 @@
          "bugtracker" : "https://github.com/PerlDancer/Dancer2/issues",
          "date" : "2023-10-09",
          "dist" : "Dancer2",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Dancer2-1.0.0",
          "repo" : "https://github.com/PerlDancer/Dancer2",
          "repo_def_branch" : "main",
          "repo_name" : "Dancer2",
          "repo_owner" : "PerlDancer",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "1.0.0"
       },
       {
@@ -63,13 +63,13 @@
          "bugtracker" : "https://github.com/cromedome/Dancer2-Logger-Log4perl/issues",
          "date" : "2018-11-10",
          "dist" : "Dancer2-Logger-Log4perl",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Dancer2-Logger-Log4perl-0.06",
          "repo" : "https://github.com/cromedome/Dancer2-Logger-Log4perl",
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Logger-Log4perl",
          "repo_owner" : "cromedome",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "0.06"
       },
       {
@@ -77,13 +77,13 @@
          "bugtracker" : "https://github.com/PerlDancer/Dancer2-Plugin-Ajax/issues",
          "date" : "2018-11-13",
          "dist" : "Dancer2-Plugin-Ajax",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Dancer2-Plugin-Ajax-0.400000",
          "repo" : "https://github.com/PerlDancer/Dancer2-Plugin-Ajax",
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Ajax",
          "repo_owner" : "PerlDancer",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "0.400000"
       },
       {
@@ -91,13 +91,13 @@
          "bugtracker" : "https://github.com/cromedome/Dancer2-Plugin-Minion/issues",
          "date" : "2020-12-20",
          "dist" : "Dancer2-Plugin-Minion",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Dancer2-Plugin-Minion-0.3.3",
          "repo" : "https://github.com/cromedome/Dancer2-Plugin-Minion",
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Minion",
          "repo_owner" : "cromedome",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "0.3.3"
       },
       {
@@ -105,13 +105,13 @@
          "bugtracker" : "https://github.com/PerlDancer/dancer2-plugin-queue/issues",
          "date" : "2016-01-26",
          "dist" : "Dancer2-Plugin-Queue",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Dancer2-Plugin-Queue-0.006",
          "repo" : "https://github.com/PerlDancer/dancer2-plugin-queue",
          "repo_def_branch" : "master",
          "repo_name" : "dancer2-plugin-queue",
          "repo_owner" : "PerlDancer",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "0.006"
       },
       {
@@ -119,13 +119,13 @@
          "bugtracker" : "https://github.com/cromedome/Dancer2-Plugin-Syntax-ParamKeywords/issues",
          "date" : "2021-05-14",
          "dist" : "Dancer2-Plugin-Syntax-ParamKeywords",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Dancer2-Plugin-Syntax-ParamKeywords-0.2.0",
          "repo" : "https://github.com/cromedome/Dancer2-Plugin-Syntax-ParamKeywords",
          "repo_def_branch" : "main",
          "repo_name" : "Dancer2-Plugin-Syntax-ParamKeywords",
          "repo_owner" : "cromedome",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "0.2.0"
       },
       {
@@ -133,13 +133,13 @@
          "bugtracker" : "https://github.com/cromedome/Dancer2-Session-CHI/issues",
          "date" : "2023-02-05",
          "dist" : "Dancer2-Session-CHI",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Dancer2-Session-CHI-0.05",
          "repo" : "https://github.com/cromedome/Dancer2-Session-CHI",
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Session-CHI",
          "repo_owner" : "cromedome",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "0.05"
       },
       {
@@ -147,13 +147,13 @@
          "bugtracker" : "https://github.com/PerlDancer/dancer2-session-json/issues",
          "date" : "2020-04-10",
          "dist" : "Dancer2-Session-JSON",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Dancer2-Session-JSON-0.003",
          "repo" : "https://github.com/PerlDancer/dancer2-session-json",
          "repo_def_branch" : "master",
          "repo_name" : "dancer2-session-json",
          "repo_owner" : "PerlDancer",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "0.003"
       },
       {
@@ -161,13 +161,13 @@
          "bugtracker" : "https://github.com/PerlDancer/dancer2-session-mongodb/issues",
          "date" : "2016-08-17",
          "dist" : "Dancer2-Session-MongoDB",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Dancer2-Session-MongoDB-0.004",
          "repo" : "https://github.com/PerlDancer/dancer2-session-mongodb",
          "repo_def_branch" : "master",
          "repo_name" : "dancer2-session-mongodb",
          "repo_owner" : "PerlDancer",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "0.004"
       },
       {
@@ -175,18 +175,18 @@
          "bugtracker" : "https://github.com/PerlDancer/dancer2-template-xslate/issues",
          "date" : "2023-02-05",
          "dist" : "Dancer2-Template-Xslate",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Dancer2-Template-Xslate-v0.2.0",
          "repo" : "git://github.com/PerlDancer/dancer2-template-xslate.git",
          "repo_def_branch" : "master",
          "repo_name" : "dancer2-template-xslate",
          "repo_owner" : "PerlDancer",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "v0.2.0"
       }
    ],
    "sort" : {
-      "column" : 0,
+      "column" : "0",
       "direction" : "asc"
    }
 }

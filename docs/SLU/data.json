@@ -17,13 +17,13 @@
          "bugtracker" : "https://github.com/soren/Acme-Be-Modern/issues",
          "date" : "2020-11-11",
          "dist" : "Acme-Be-Modern",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Acme-Be-Modern-0.04",
          "repo" : "https://github.com/soren/Acme-Be-Modern",
          "repo_def_branch" : "master",
          "repo_name" : "Acme-Be-Modern",
          "repo_owner" : "soren",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "0.04"
       },
       {
@@ -31,18 +31,18 @@
          "bugtracker" : "https://github.com/soren/App-TimeClock/issues",
          "date" : "2017-01-04",
          "dist" : "App-TimeClock",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "App-TimeClock-0.13",
          "repo" : "https://github.com/soren/App-TimeClock",
          "repo_def_branch" : "master",
          "repo_name" : "App-TimeClock",
          "repo_owner" : "soren",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "0.13"
       }
    ],
    "sort" : {
-      "column" : 0,
+      "column" : "0",
       "direction" : "asc"
    }
 }
