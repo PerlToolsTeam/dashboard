@@ -3,9 +3,9 @@
       "p5-elasticsearch-model" : "master"
    },
    "CPAN-Adoptable-Modules" : {
-      "http-simplelinkchecker" : "master",
-      "http-size" : "master",
-      "netscape-bookmarks" : "master"
+      "http-simplelinkchecker" : "",
+      "http-size" : "",
+      "netscape-bookmarks" : ""
    },
    "CpanelInc" : {
       "Overload-FileCheck" : "master"
@@ -60,16 +60,16 @@
       "p5-cpan-repository" : "master"
    },
    "Manwar" : {
-      "Address-PostCode-India" : "",
-      "Address-PostCode-UserAgent" : "",
-      "CPAN-Search-Tester" : "",
-      "LWP-UserAgent-Anonymous" : "",
-      "Map-Tube-Exception" : "",
-      "Term-Screen-Lite" : "",
-      "WWW-MovieReviews-NYT" : "",
-      "WWW-OReillyMedia-Store" : "",
-      "WWW-StatsMix" : "",
-      "data-verifier" : ""
+      "Address-PostCode-India" : "master",
+      "Address-PostCode-UserAgent" : "master",
+      "CPAN-Search-Tester" : "master",
+      "LWP-UserAgent-Anonymous" : "master",
+      "Map-Tube-Exception" : "master",
+      "Term-Screen-Lite" : "master",
+      "WWW-MovieReviews-NYT" : "master",
+      "WWW-OReillyMedia-Store" : "master",
+      "WWW-StatsMix" : "master",
+      "data-verifier" : "master"
    },
    "PadreIDE" : {
       "Debug-Client" : "",
@@ -104,8 +104,8 @@
       "Rex" : "master"
    },
    "Troglodyne-Internet-Widgets" : {
-      "Audit-Log-perl" : "master",
-      "Microsoft-Translator-Perl" : "master"
+      "Audit-Log-perl" : "",
+      "Microsoft-Translator-Perl" : ""
    },
    "acme" : {
       "test-www-mechanize-psgi" : "master"
@@ -141,12 +141,12 @@
    },
    "briandfoy" : {
       "Acme-MyFirstModule-BDFOY" : "master",
-      "Bundle-BDFOY" : "",
+      "Bundle-BDFOY" : "master",
       "ConfigReader-Simple" : "master",
       "HTTP-Cookies-Mozilla" : "master",
       "Log-Log4perl-Appender-ScreenColoredLevels-UsingMyColors" : "master",
       "Mac-Errors" : "master",
-      "PerlPowerTools" : "",
+      "PerlPowerTools" : "master",
       "Roman-Unicode" : "master",
       "Test-Env" : "master",
       "antsy" : "master",
@@ -158,7 +158,7 @@
       "business-isbn" : "master",
       "business-isbn-data" : "master",
       "business-ismn" : "master",
-      "business-issn" : "",
+      "business-issn" : "master",
       "cacertorg-ca" : "master",
       "chemistry-elements" : "master",
       "cpan-audit" : "master",
@@ -166,7 +166,7 @@
       "data-constraint" : "master",
       "distribution-cooker" : "master",
       "distribution-guess-buildsystem" : "master",
-      "dumbbench" : "",
+      "dumbbench" : "master",
       "file-find-closures" : "master",
       "file-fingerprint" : "master",
       "http-cookies-chrome" : "master",
@@ -201,7 +201,7 @@
       "sourcecode-linecounter-perl" : "master",
       "string-sprintf" : "master",
       "surveyor-app" : "master",
-      "surveyor-benchmark-htmlentities" : "",
+      "surveyor-benchmark-htmlentities" : "master",
       "surveyor-benchmark-schwartziantransform-sortfilesbysize" : "master",
       "task-masteringperl" : "master",
       "task-mojolearningenvironment" : "master",
@@ -223,7 +223,7 @@
       "unicode-unihan" : "master"
    },
    "bricas" : {
-      "geo-ipfree" : ""
+      "geo-ipfree" : "master"
    },
    "byterock" : {
       "Mojolicious_Command_generate_routes_restsful" : "",
@@ -237,48 +237,48 @@
    },
    "cromedome" : {
       "Dancer-Plugin-reCAPTCHA" : "master",
-      "Dancer2-Logger-Log4perl" : "master",
+      "Dancer2-Logger-Log4perl" : "",
       "Dancer2-Plugin-Minion" : "master",
-      "Dancer2-Plugin-Syntax-ParamKeywords" : "main",
-      "Dancer2-Session-CHI" : "master",
-      "cgi-application-plugin-captcha" : "master"
+      "Dancer2-Plugin-Syntax-ParamKeywords" : "",
+      "Dancer2-Session-CHI" : "",
+      "cgi-application-plugin-captcha" : ""
    },
    "davorg" : {
-      "Feed-Find" : "master",
-      "Ogg-Vorbis-Header" : "master",
-      "app-aphra" : "master",
-      "app-cpanmodulesite" : "main",
-      "app-httpthis" : "master",
-      "array-compare" : "master",
-      "audiofile-info" : "master",
-      "audiofile-info-mp3-id3lib" : "master",
-      "audiofile-info-mp3-tag" : "master",
-      "audiofile-info-ogg-vorbis-header" : "master",
-      "audiofile-info-ogg-vorbis-header-pureperl" : "master",
-      "calendar-simple" : "master",
-      "genealogy-ahnentafel" : "master",
-      "genealogy-ancestorchart" : "main",
-      "genealogy-relationship" : "master",
-      "moox-role-json_ld" : "master",
-      "net-songkick" : "master",
-      "parse-rpm-spec" : "master",
-      "perl-ogg-vorbis-header-pureperl" : "master",
-      "perlanet" : "master",
-      "plack-app-directoryindex" : "main",
-      "qmail-queuehandler" : "master",
-      "svg-christmastree" : "master",
-      "svg-timeline" : "master",
-      "svg-timeline-genealogy" : "master",
-      "svg-trafficlight" : "master",
-      "symbol-approx-sub" : "master",
-      "template-plugin-audiofile-info" : "master",
-      "template-plugin-rpm2" : "master",
-      "template-plugin-xml-feed" : "master",
-      "template-provider-pandoc" : "master",
-      "tie-hash-cannabinol" : "master",
-      "tie-hash-fixedkeys" : "master",
-      "tie-hash-regex" : "master",
-      "xml-feed" : "master"
+      "Feed-Find" : "",
+      "Ogg-Vorbis-Header" : "",
+      "app-aphra" : "",
+      "app-cpanmodulesite" : "",
+      "app-httpthis" : "",
+      "array-compare" : "",
+      "audiofile-info" : "",
+      "audiofile-info-mp3-id3lib" : "",
+      "audiofile-info-mp3-tag" : "",
+      "audiofile-info-ogg-vorbis-header" : "",
+      "audiofile-info-ogg-vorbis-header-pureperl" : "",
+      "calendar-simple" : "",
+      "genealogy-ahnentafel" : "",
+      "genealogy-ancestorchart" : "",
+      "genealogy-relationship" : "",
+      "moox-role-json_ld" : "",
+      "net-songkick" : "",
+      "parse-rpm-spec" : "",
+      "perl-ogg-vorbis-header-pureperl" : "",
+      "perlanet" : "",
+      "plack-app-directoryindex" : "",
+      "qmail-queuehandler" : "",
+      "svg-christmastree" : "",
+      "svg-timeline" : "",
+      "svg-timeline-genealogy" : "",
+      "svg-trafficlight" : "",
+      "symbol-approx-sub" : "",
+      "template-plugin-audiofile-info" : "",
+      "template-plugin-rpm2" : "",
+      "template-plugin-xml-feed" : "",
+      "template-provider-pandoc" : "",
+      "tie-hash-cannabinol" : "",
+      "tie-hash-fixedkeys" : "",
+      "tie-hash-regex" : "",
+      "xml-feed" : ""
    },
    "drclaw1394" : {
       "perl-constant-more" : "main",
@@ -309,7 +309,7 @@
       "Rex-Hook-File-Impostor" : "master"
    },
    "kjetilk" : {
-      "p5-rdf-doap" : "master"
+      "p5-rdf-doap" : ""
    },
    "kohts" : {
       "Schedule--Cron--Events" : "master"
@@ -704,60 +704,60 @@
       "sub-private-perl/tree/master" : ""
    },
    "oalders" : {
-      "App-perlimports" : "",
-      "App-perlvars" : "",
-      "HTML-FillInForm" : "",
-      "Perl-Critic-Policy-ProhibitImplicitImport" : "",
-      "Perl-Critic-Policy-ValuesAndExpressions-PreventSQLInjection" : "",
-      "Plack-Middleware-NoDeflate" : "",
-      "Plack-Test-Agent" : "",
-      "String-InterpolatedVariables" : "",
-      "acme-odometer" : "",
-      "archive-any" : "",
-      "authen-oath" : "",
-      "business-ca-gst" : "",
-      "business-paypal-api" : "",
-      "code-tidyall-plugin-sortlines-naturally" : "",
-      "code-tidyall-plugin-uniquelines" : "",
-      "code-tidyall-plugin-yaml" : "",
-      "code-tidyall-plugin-yapf" : "",
-      "data-printer-filter-dbix-class" : "",
-      "datetime-format-paypal-ipn" : "",
-      "dist-zilla-plugin-prepan" : "",
-      "dist-zilla-pluginbundle-author-oalders" : "",
-      "fatfinger" : "",
-      "git-helpers" : "",
-      "github-mergevelocity" : "",
-      "html-restrict" : "",
-      "http-browserdetect" : "",
-      "http-cookiemonster" : "",
-      "lazy" : "",
-      "lwp-consolelogger" : "",
-      "module-version-loaded" : "",
-      "mojolicious-plugin-web-auth-site-contrib-spotify" : "",
-      "mojolicious-plugin-web-auth-site-dropboxv2" : "",
-      "mojolicious-plugin-web-auth-site-fitbit" : "",
-      "mojolicious-plugin-web-auth-site-reddit" : "",
-      "mojolicious-plugin-web-auth-site-runkeeper" : "",
-      "mojolicious-plugin-web-auth-site-strava" : "",
-      "net-freshbooks-api" : "",
-      "poex-role-psgiserver" : "",
-      "uri-parsesearchstring-more" : "",
-      "webservice-fitbit" : "",
-      "webservice-healthgraph" : "",
-      "webservice-reddit" : "",
-      "webservice-sqlformat" : "",
-      "www-robocop" : ""
+      "App-perlimports" : "main",
+      "App-perlvars" : "main",
+      "HTML-FillInForm" : "main",
+      "Perl-Critic-Policy-ProhibitImplicitImport" : "main",
+      "Perl-Critic-Policy-ValuesAndExpressions-PreventSQLInjection" : "master",
+      "Plack-Middleware-NoDeflate" : "master",
+      "Plack-Test-Agent" : "master",
+      "String-InterpolatedVariables" : "master",
+      "acme-odometer" : "master",
+      "archive-any" : "master",
+      "authen-oath" : "master",
+      "business-ca-gst" : "master",
+      "business-paypal-api" : "master",
+      "code-tidyall-plugin-sortlines-naturally" : "master",
+      "code-tidyall-plugin-uniquelines" : "master",
+      "code-tidyall-plugin-yaml" : "master",
+      "code-tidyall-plugin-yapf" : "master",
+      "data-printer-filter-dbix-class" : "master",
+      "datetime-format-paypal-ipn" : "master",
+      "dist-zilla-plugin-prepan" : "master",
+      "dist-zilla-pluginbundle-author-oalders" : "main",
+      "fatfinger" : "master",
+      "git-helpers" : "main",
+      "github-mergevelocity" : "main",
+      "html-restrict" : "main",
+      "http-browserdetect" : "main",
+      "http-cookiemonster" : "master",
+      "lazy" : "main",
+      "lwp-consolelogger" : "main",
+      "module-version-loaded" : "master",
+      "mojolicious-plugin-web-auth-site-contrib-spotify" : "master",
+      "mojolicious-plugin-web-auth-site-dropboxv2" : "master",
+      "mojolicious-plugin-web-auth-site-fitbit" : "master",
+      "mojolicious-plugin-web-auth-site-reddit" : "master",
+      "mojolicious-plugin-web-auth-site-runkeeper" : "master",
+      "mojolicious-plugin-web-auth-site-strava" : "master",
+      "net-freshbooks-api" : "master",
+      "poex-role-psgiserver" : "master",
+      "uri-parsesearchstring-more" : "master",
+      "webservice-fitbit" : "master",
+      "webservice-healthgraph" : "master",
+      "webservice-reddit" : "master",
+      "webservice-sqlformat" : "master",
+      "www-robocop" : "main"
    },
    "p5-number-fraction" : {
       "number-fraction" : ""
    },
    "pauloscustodio" : {
-      "Text-MacroScript" : "",
-      "perl-CPU-Z80-Assembler" : "",
-      "perl-CPU-Z80-Disassembler" : "",
-      "perl-Parse-FSM" : "",
-      "perl-Preproc-Tiny" : ""
+      "Text-MacroScript" : "master",
+      "perl-CPU-Z80-Assembler" : "master",
+      "perl-CPU-Z80-Disassembler" : "master",
+      "perl-Parse-FSM" : "master",
+      "perl-Preproc-Tiny" : "master"
    },
    "perl" : {
       "perl5" : "blead"
@@ -770,54 +770,54 @@
    },
    "petdance" : {
       "file-next/tree/master" : "",
-      "html-lint" : "",
-      "html-tidy" : "",
-      "html-tidy5" : "",
-      "list-cycle" : "",
-      "perl-critic-bangs" : "",
-      "sql-tiny" : "",
-      "test-taint" : "",
-      "test-www-mechanize" : ""
+      "html-lint" : "dev",
+      "html-tidy" : "dev",
+      "html-tidy5" : "dev",
+      "list-cycle" : "main",
+      "perl-critic-bangs" : "dev",
+      "sql-tiny" : "dev",
+      "test-taint" : "dev",
+      "test-www-mechanize" : "dev"
    },
    "pjf" : {
-      "autodie" : "master"
+      "autodie" : ""
    },
    "plu" : {
-      "Pithub" : ""
+      "Pithub" : "master"
    },
    "pmqs" : {
-      "Archive-Zip-SimpleZip" : "master",
-      "BerkeleyDB" : "master",
-      "Compress-Raw-Bzip2" : "master",
-      "Compress-Raw-Lzma" : "master",
-      "Compress-Raw-Zlib" : "master",
-      "Compress-Stream-Zstd" : "master",
-      "DB_File" : "master",
-      "IO-Compress" : "master",
-      "IO-Compress-Lzf" : "master",
-      "IO-Compress-Lzma" : "master",
-      "IO-Compress-Lzop" : "master",
-      "IO-Compress-Zstd" : "master",
-      "zipdetails" : "main"
+      "Archive-Zip-SimpleZip" : "",
+      "BerkeleyDB" : "",
+      "Compress-Raw-Bzip2" : "",
+      "Compress-Raw-Lzma" : "",
+      "Compress-Raw-Zlib" : "",
+      "Compress-Stream-Zstd" : "",
+      "DB_File" : "",
+      "IO-Compress" : "",
+      "IO-Compress-Lzf" : "",
+      "IO-Compress-Lzma" : "",
+      "IO-Compress-Lzop" : "",
+      "IO-Compress-Zstd" : "",
+      "zipdetails" : ""
    },
    "ranguard" : {
       "plack-middleware-dirindex" : "master"
    },
    "shawnlaffan" : {
-      "Alien-Build-Plugin-Cleanse-BuildDir" : "master",
-      "Geo-ShapeFile" : "master",
-      "Statistics-Descriptive-PDL" : "master",
-      "geo-converter-dms2dd" : "master",
+      "Alien-Build-Plugin-Cleanse-BuildDir" : "",
+      "Geo-ShapeFile" : "",
+      "Statistics-Descriptive-PDL" : "",
+      "geo-converter-dms2dd" : "",
       "lib/Alien-Build-Plugin-PkgConfig-PPWrapper" : "",
-      "perl-List-Unique-DeterministicOrder" : "master",
-      "perl-alien-freexl" : "master",
-      "perl-alien-gdal" : "master",
-      "perl-alien-geos" : "master",
-      "perl-alien-libtiff" : "master",
-      "perl-alien-proj" : "master",
-      "perl-alien-sqlite" : "master",
-      "perl-pp-autolink" : "master",
-      "perl-statistics-sampler-multinomial" : "master"
+      "perl-List-Unique-DeterministicOrder" : "",
+      "perl-alien-freexl" : "",
+      "perl-alien-gdal" : "",
+      "perl-alien-geos" : "",
+      "perl-alien-libtiff" : "",
+      "perl-alien-proj" : "",
+      "perl-alien-sqlite" : "",
+      "perl-pp-autolink" : "",
+      "perl-statistics-sampler-multinomial" : ""
    },
    "sleinen" : {
       "snmp-session" : "master"
@@ -1156,10 +1156,10 @@
       "OrePAN2" : "master"
    },
    "troglodyne-internet-widgets" : {
-      "selenium-client-perl" : "main"
+      "selenium-client-perl" : ""
    },
    "trs-80" : {
-      "WWW-Spotify" : "master"
+      "WWW-Spotify" : ""
    },
    "tupinek" : {
       "Config-Dot-Array" : "master",
