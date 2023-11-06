@@ -43,15 +43,15 @@
       },
       {
          "auth" : "DRCLAW",
-         "date" : "2023-09-07",
+         "date" : "2023-11-05",
          "dist" : "Export-These",
          "insecure_repo" : true,
-         "name" : "Export-These-v0.1.2",
+         "name" : "Export-These-v0.2.0",
          "repo" : "http://github.com/drclaw1394/perl-export-these",
          "repo_def_branch" : "main",
          "repo_name" : "perl-export-these",
          "repo_owner" : "drclaw1394",
-         "ver" : "v0.1.2"
+         "ver" : "v0.2.0"
       },
       {
          "auth" : "DRCLAW",
