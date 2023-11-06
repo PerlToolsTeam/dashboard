@@ -403,16 +403,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-Free/issues",
-         "date" : "2023-06-22",
+         "date" : "2023-11-06",
          "dist" : "Geo-Coder-Free",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-Free-0.32",
+         "name" : "Geo-Coder-Free-0.33",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-Free",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-Free",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.32"
+         "ver" : "0.33"
       },
       {
          "auth" : "NHORNE",
