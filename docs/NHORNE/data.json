@@ -402,20 +402,6 @@
       },
       {
          "auth" : "NHORNE",
-         "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-Free/issues",
-         "date" : "2023-11-06",
-         "dist" : "Geo-Coder-Free",
-         "insecure_repo" : false,
-         "name" : "Geo-Coder-Free-0.34",
-         "repo" : "https://github.com/nigelhorne/Geo-Coder-Free",
-         "repo_def_branch" : "master",
-         "repo_name" : "Geo-Coder-Free",
-         "repo_owner" : "nigelhorne",
-         "uses_rt" : false,
-         "ver" : "0.34"
-      },
-      {
-         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-GooglePlaces/issues",
          "date" : "2023-04-29",
          "dist" : "Geo-Coder-GooglePlaces",
