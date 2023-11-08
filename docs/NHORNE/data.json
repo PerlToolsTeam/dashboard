@@ -515,16 +515,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Location-Point/issues",
-         "date" : "2023-06-15",
+         "date" : "2023-11-08",
          "dist" : "Geo-Location-Point",
          "insecure_repo" : false,
-         "name" : "Geo-Location-Point-0.09",
+         "name" : "Geo-Location-Point-0.10",
          "repo" : "https://github.com/nigelhorne/Geo-Location-Point",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Location-Point",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.09"
+         "ver" : "0.10"
       },
       {
          "auth" : "NHORNE",
