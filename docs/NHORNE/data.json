@@ -771,16 +771,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Weather-Meto/issues",
-         "date" : "2023-06-16",
+         "date" : "2023-11-09",
          "dist" : "Weather-Meteo",
          "insecure_repo" : false,
-         "name" : "Weather-Meteo-0.06",
+         "name" : "Weather-Meteo-0.07",
          "repo" : "https://github.com/nigelhorne/Weather-Meto",
          "repo_def_branch" : "",
          "repo_name" : "Weather-Meto",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.06"
+         "ver" : "0.07"
       }
    ],
    "sort" : {
