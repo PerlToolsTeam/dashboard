@@ -35,16 +35,16 @@
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/CPANPLUS-Dist-Debora/issues",
-         "date" : "2022-12-23",
+         "date" : "2023-11-10",
          "dist" : "CPANPLUS-Dist-Debora",
          "insecure_repo" : false,
-         "name" : "CPANPLUS-Dist-Debora-0.011",
+         "name" : "CPANPLUS-Dist-Debora-0.012",
          "repo" : "https://github.com/voegelas/CPANPLUS-Dist-Debora",
          "repo_def_branch" : "main",
          "repo_name" : "CPANPLUS-Dist-Debora",
          "repo_owner" : "voegelas",
          "uses_rt" : false,
-         "ver" : "0.011"
+         "ver" : "0.012"
       },
       {
          "auth" : "VOEGELAS",
