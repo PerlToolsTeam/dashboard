@@ -91,6 +91,18 @@
       },
       {
          "auth" : "DRCLAW",
+         "date" : "2023-11-12",
+         "dist" : "IO-FD",
+         "insecure_repo" : false,
+         "name" : "IO-FD-v0.3.3",
+         "repo" : "https://github.com/drclaw1394/perl-io-fd",
+         "repo_def_branch" : "main",
+         "repo_name" : "perl-io-fd",
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.3.3"
+      },
+      {
+         "auth" : "DRCLAW",
          "date" : "2023-08-26",
          "dist" : "Import-These",
          "insecure_repo" : true,

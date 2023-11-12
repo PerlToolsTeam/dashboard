@@ -136,16 +136,16 @@
       {
          "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DBM-Deep/DBM-Deep/issues",
-         "date" : "2023-11-08",
+         "date" : "2023-11-12",
          "dist" : "DBM-Deep",
          "insecure_repo" : false,
-         "name" : "DBM-Deep-2.0018",
+         "name" : "DBM-Deep-2.0019",
          "repo" : "https://github.com/DBM-Deep/DBM-Deep",
          "repo_def_branch" : null,
          "repo_name" : "DBM-Deep",
          "repo_owner" : "DBM-Deep",
          "uses_rt" : false,
-         "ver" : "2.0018"
+         "ver" : "2.0019"
       },
       {
          "auth" : "DCANTRELL",

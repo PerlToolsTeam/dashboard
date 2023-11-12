@@ -1994,6 +1994,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Mo-utils/issues",
+         "date" : "2023-11-12",
+         "dist" : "Mo-utils",
+         "insecure_repo" : false,
+         "name" : "Mo-utils-0.20",
+         "repo" : "git://github.com/michal-josef-spacek/Mo-utils",
+         "repo_def_branch" : "main",
+         "repo_name" : "Mo-utils",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.20"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Mo-utils-EAN/issues",
          "date" : "2023-08-27",
          "dist" : "Mo-utils-EAN",
