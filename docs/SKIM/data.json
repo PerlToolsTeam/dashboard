@@ -1574,6 +1574,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/MARC-Convert-Wikidata-Object/issues",
+         "date" : "2023-11-12",
+         "dist" : "MARC-Convert-Wikidata-Object",
+         "insecure_repo" : false,
+         "name" : "MARC-Convert-Wikidata-Object-0.02",
+         "repo" : "git://github.com/michal-josef-spacek/MARC-Convert-Wikidata-Object",
+         "repo_def_branch" : "main",
+         "repo_name" : "MARC-Convert-Wikidata-Object",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.02"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=METS-Files",
          "date" : "2022-08-26",
          "dist" : "METS-Files",
