@@ -824,7 +824,7 @@
          "insecure_repo" : false,
          "name" : "WWW-Spotify-0.012",
          "repo" : "https://github.com/trs-80/WWW-Spotify",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "WWW-Spotify",
          "repo_owner" : "trs-80",
          "uses_rt" : false,
