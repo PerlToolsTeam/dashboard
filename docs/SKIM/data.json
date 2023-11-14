@@ -1575,16 +1575,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/MARC-Convert-Wikidata-Object/issues",
-         "date" : "2023-11-12",
+         "date" : "2023-11-14",
          "dist" : "MARC-Convert-Wikidata-Object",
          "insecure_repo" : false,
-         "name" : "MARC-Convert-Wikidata-Object-0.02",
+         "name" : "MARC-Convert-Wikidata-Object-0.03",
          "repo" : "git://github.com/michal-josef-spacek/MARC-Convert-Wikidata-Object",
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Convert-Wikidata-Object",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
