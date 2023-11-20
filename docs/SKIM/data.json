@@ -315,16 +315,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-MARC-Leader/issues",
-         "date" : "2023-11-19",
+         "date" : "2023-11-20",
          "dist" : "App-MARC-Leader",
          "insecure_repo" : false,
-         "name" : "App-MARC-Leader-0.01",
+         "name" : "App-MARC-Leader-0.02",
          "repo" : "git://github.com/michal-josef-spacek/App-MARC-Leader",
          "repo_def_branch" : null,
          "repo_name" : "App-MARC-Leader",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",
@@ -945,16 +945,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-MARC-Leader/issues",
-         "date" : "2023-11-19",
+         "date" : "2023-11-20",
          "dist" : "Data-MARC-Leader",
          "insecure_repo" : false,
-         "name" : "Data-MARC-Leader-0.02",
+         "name" : "Data-MARC-Leader-0.03",
          "repo" : "git://github.com/michal-josef-spacek/Data-MARC-Leader",
          "repo_def_branch" : null,
          "repo_name" : "Data-MARC-Leader",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
@@ -1477,16 +1477,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Indent-Form/issues",
-         "date" : "2021-06-28",
+         "date" : "2023-11-20",
          "dist" : "Indent-Form",
          "insecure_repo" : false,
-         "name" : "Indent-Form-0.07",
+         "name" : "Indent-Form-0.08",
          "repo" : "git://github.com/michal-josef-spacek/Indent-Form",
          "repo_def_branch" : "master",
          "repo_name" : "Indent-Form",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.07"
+         "ver" : "0.08"
       },
       {
          "auth" : "SKIM",
@@ -1589,16 +1589,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/MARC-Convert-Wikidata/issues",
-         "date" : "2023-11-11",
+         "date" : "2023-11-20",
          "dist" : "MARC-Convert-Wikidata",
          "insecure_repo" : false,
-         "name" : "MARC-Convert-Wikidata-0.05",
+         "name" : "MARC-Convert-Wikidata-0.06",
          "repo" : "git://github.com/michal-josef-spacek/MARC-Convert-Wikidata",
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Convert-Wikidata",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.05"
+         "ver" : "0.06"
       },
       {
          "auth" : "SKIM",
@@ -1617,16 +1617,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/MARC-Leader/issues",
-         "date" : "2023-11-19",
+         "date" : "2023-11-20",
          "dist" : "MARC-Leader",
          "insecure_repo" : false,
-         "name" : "MARC-Leader-0.03",
+         "name" : "MARC-Leader-0.04",
          "repo" : "git://github.com/michal-josef-spacek/MARC-Leader",
          "repo_def_branch" : null,
          "repo_name" : "MARC-Leader",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",
@@ -1634,13 +1634,13 @@
          "date" : "2023-11-20",
          "dist" : "MARC-Leader-Print",
          "insecure_repo" : false,
-         "name" : "MARC-Leader-Print-0.02",
+         "name" : "MARC-Leader-Print-0.03",
          "repo" : "git://github.com/michal-josef-spacek/MARC-Leader-Print",
          "repo_def_branch" : null,
          "repo_name" : "MARC-Leader-Print",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",

@@ -665,16 +665,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Log-Dispatch-Email-Sendmail/issues",
-         "date" : "2022-01-06",
+         "date" : "2023-11-20",
          "dist" : "Log-Dispatch-Email-Sendmail",
          "insecure_repo" : false,
-         "name" : "Log-Dispatch-Email-Sendmail-0.03",
+         "name" : "Log-Dispatch-Email-Sendmail-0.04",
          "repo" : "https://github.com/nigelhorne/Log-Dispatch-Email-Sendmail",
          "repo_def_branch" : "master",
          "repo_name" : "Log-Dispatch-Email-Sendmail",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "NHORNE",
