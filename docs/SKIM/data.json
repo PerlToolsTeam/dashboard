@@ -1224,17 +1224,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Error-Pure-Output-Text",
-         "date" : "2018-01-22",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Error-Pure-Output-Text/issues",
+         "date" : "2023-11-22",
          "dist" : "Error-Pure-Output-Text",
          "insecure_repo" : false,
-         "name" : "Error-Pure-Output-Text-0.23",
-         "repo" : "git://github.com/tupinek/Error-Pure-Output-Text",
-         "repo_def_branch" : "master",
+         "name" : "Error-Pure-Output-Text-0.24",
+         "repo" : "git://github.com/michal-josef-spacek/Error-Pure-Output-Text",
+         "repo_def_branch" : null,
          "repo_name" : "Error-Pure-Output-Text",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.23"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.24"
       },
       {
          "auth" : "SKIM",
@@ -3030,17 +3030,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Task-Error-Pure",
-         "date" : "2015-10-30",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Task-Error-Pure/issues",
+         "date" : "2023-11-22",
          "dist" : "Task-Error-Pure",
          "insecure_repo" : false,
-         "name" : "Task-Error-Pure-0.03",
-         "repo" : "git://github.com/tupinek/Task-Error-Pure",
-         "repo_def_branch" : "master",
+         "name" : "Task-Error-Pure-0.04",
+         "repo" : "git://github.com/michal-josef-spacek/Task-Error-Pure",
+         "repo_def_branch" : null,
          "repo_name" : "Task-Error-Pure",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.03"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",
