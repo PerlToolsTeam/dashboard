@@ -1042,17 +1042,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Dicom-UID-Generator",
-         "date" : "2016-08-25",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Dicom-UID-Generator/issues",
+         "date" : "2023-11-23",
          "dist" : "Dicom-UID-Generator",
          "insecure_repo" : false,
-         "name" : "Dicom-UID-Generator-0.01",
-         "repo" : "git://github.com/tupinek/Dicom-UID-Generator",
-         "repo_def_branch" : "master",
+         "name" : "Dicom-UID-Generator-0.02",
+         "repo" : "git://github.com/michal-josef-spacek/Dicom-UID-Generator",
+         "repo_def_branch" : null,
          "repo_name" : "Dicom-UID-Generator",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.01"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",
