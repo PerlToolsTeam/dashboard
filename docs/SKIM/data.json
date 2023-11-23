@@ -763,16 +763,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Config-Dot-Array",
-         "date" : "2018-02-10",
+         "date" : "2023-11-22",
          "dist" : "Config-Dot-Array",
          "insecure_repo" : false,
-         "name" : "Config-Dot-Array-0.06",
-         "repo" : "git://github.com/tupinek/Config-Dot-Array",
-         "repo_def_branch" : "master",
+         "name" : "Config-Dot-Array-0.07",
+         "repo" : "git://github.com/michal-josef-spacek/Config-Dot-Array",
+         "repo_def_branch" : null,
          "repo_name" : "Config-Dot-Array",
-         "repo_owner" : "tupinek",
+         "repo_owner" : "michal-josef-spacek",
          "uses_rt" : true,
-         "ver" : "0.06"
+         "ver" : "0.07"
       },
       {
          "auth" : "SKIM",
@@ -832,17 +832,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Curses-UI-Volume",
-         "date" : "2022-12-10",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Curses-UI-Volume/issues",
+         "date" : "2023-11-22",
          "dist" : "Curses-UI-Volume",
          "insecure_repo" : false,
-         "name" : "Curses-UI-Volume-0.03",
-         "repo" : "git://github.com/tupinek/Curses-UI-Volume",
-         "repo_def_branch" : "master",
+         "name" : "Curses-UI-Volume-0.04",
+         "repo" : "git://github.com/michal-josef-spacek/Curses-UI-Volume",
+         "repo_def_branch" : null,
          "repo_name" : "Curses-UI-Volume",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.03"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",
