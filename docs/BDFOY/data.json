@@ -789,16 +789,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/PerlPowerTools/issues",
-         "date" : "2023-10-02",
+         "date" : "2023-11-24",
          "dist" : "PerlPowerTools",
          "insecure_repo" : false,
-         "name" : "PerlPowerTools-1.040",
+         "name" : "PerlPowerTools-1.041",
          "repo" : "https://github.com/briandfoy/PerlPowerTools",
          "repo_def_branch" : "master",
          "repo_name" : "PerlPowerTools",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.040"
+         "ver" : "1.041"
       },
       {
          "auth" : "BDFOY",
