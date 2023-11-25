@@ -1546,20 +1546,6 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Lego-Part-Image",
-         "date" : "2015-09-23",
-         "dist" : "Lego-Part-Image",
-         "insecure_repo" : false,
-         "name" : "Lego-Part-Image-0.05",
-         "repo" : "git://github.com/tupinek/Lego-Part-Image",
-         "repo_def_branch" : "master",
-         "repo_name" : "Lego-Part-Image",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.05"
-      },
-      {
-         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/License-SPDX/issues",
          "date" : "2023-08-02",
          "dist" : "License-SPDX",
