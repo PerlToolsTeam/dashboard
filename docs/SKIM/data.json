@@ -146,6 +146,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/App-CPAN-Get/issues",
+         "date" : "2023-11-25",
+         "dist" : "App-CPAN-Get",
+         "insecure_repo" : false,
+         "name" : "App-CPAN-Get-0.09",
+         "repo" : "git://github.com/michal-josef-spacek/App-CPAN-Get",
+         "repo_def_branch" : "main",
+         "repo_name" : "App-CPAN-Get",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.09"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-CPAN-Search/issues",
          "date" : "2023-01-23",
          "dist" : "App-CPAN-Search",
