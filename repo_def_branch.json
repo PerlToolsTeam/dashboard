@@ -1,11 +1,11 @@
 {
    "CPAN-API" : {
-      "p5-elasticsearch-model" : "master"
+      "p5-elasticsearch-model" : ""
    },
    "CPAN-Adoptable-Modules" : {
-      "http-simplelinkchecker" : "",
-      "http-size" : "",
-      "netscape-bookmarks" : ""
+      "http-simplelinkchecker" : "master",
+      "http-size" : "master",
+      "netscape-bookmarks" : "master"
    },
    "CpanelInc" : {
       "Overload-FileCheck" : "master"
@@ -57,25 +57,25 @@
       "digest" : "master"
    },
    "Getty" : {
-      "p5-cpan-repository" : ""
+      "p5-cpan-repository" : "master"
    },
    "Manwar" : {
-      "Address-PostCode-India" : "master",
-      "Address-PostCode-UserAgent" : "master",
-      "CPAN-Search-Tester" : "master",
-      "LWP-UserAgent-Anonymous" : "master",
-      "Map-Tube-Exception" : "master",
-      "Term-Screen-Lite" : "master",
-      "WWW-MovieReviews-NYT" : "master",
-      "WWW-OReillyMedia-Store" : "master",
-      "WWW-StatsMix" : "master",
-      "data-verifier" : "master"
+      "Address-PostCode-India" : "",
+      "Address-PostCode-UserAgent" : "",
+      "CPAN-Search-Tester" : "",
+      "LWP-UserAgent-Anonymous" : "",
+      "Map-Tube-Exception" : "",
+      "Term-Screen-Lite" : "",
+      "WWW-MovieReviews-NYT" : "",
+      "WWW-OReillyMedia-Store" : "",
+      "WWW-StatsMix" : "",
+      "data-verifier" : ""
    },
    "PadreIDE" : {
-      "Debug-Client" : "",
-      "Padre" : "",
-      "Parse-ErrorString-Perl" : "",
-      "Parse-Functions" : ""
+      "Debug-Client" : "master",
+      "Padre" : "master",
+      "Parse-ErrorString-Perl" : "master",
+      "Parse-Functions" : "master"
    },
    "Perl" : {
       "perl5" : "blead",
@@ -101,7 +101,7 @@
       "dancer2-template-xslate" : "master"
    },
    "RexOps" : {
-      "Rex" : "master"
+      "Rex" : ""
    },
    "Troglodyne-Internet-Widgets" : {
       "Audit-Log-perl" : "master",
@@ -134,7 +134,7 @@
       "perl-TimeDate" : "master"
    },
    "beyondgrep" : {
-      "ack3" : "dev"
+      "ack3" : ""
    },
    "bradhaywood" : {
       "WebService-PayPal-NVP" : "master"
@@ -223,13 +223,13 @@
       "unicode-unihan" : "master"
    },
    "bricas" : {
-      "geo-ipfree" : "master"
+      "geo-ipfree" : ""
    },
    "byterock" : {
       "Mojolicious_Command_generate_routes_restsful" : "",
-      "Orignal" : "",
-      "mojolicious-plugin-authorization" : "",
-      "mojolicious-plugin-routes-restful" : ""
+      "Orignal" : "master",
+      "mojolicious-plugin-authorization" : "master",
+      "mojolicious-plugin-routes-restful" : "master"
    },
    "cpanelinc" : {
       "Test-MockFile" : "master",
@@ -309,10 +309,10 @@
       "Rex-Hook-File-Impostor" : "master"
    },
    "kjetilk" : {
-      "p5-rdf-doap" : ""
+      "p5-rdf-doap" : "master"
    },
    "kohts" : {
-      "Schedule--Cron--Events" : "master"
+      "Schedule--Cron--Events" : ""
    },
    "libwww-perl" : {
       "HTML-Parser" : "master",
@@ -331,52 +331,52 @@
    "manwar" : {
       "Address-PostCode-Australia" : "master",
       "Address-PostCode-UK" : "master",
-      "App-Search-BackPAN" : "",
-      "App-Timer" : "",
-      "App-ValidateBankAccount" : "",
+      "App-Search-BackPAN" : "master",
+      "App-Timer" : "master",
+      "App-ValidateBankAccount" : "master",
       "App-calendr" : "master",
       "Astro-Utils" : "master",
-      "BankAccount-Validator-UK" : "",
+      "BankAccount-Validator-UK" : "master",
       "CGI--Simple" : "master",
       "CPANTS-Kwalitee-Report" : "master",
       "Calendar-Bahai" : "master",
-      "Calendar-Gregorian" : "",
+      "Calendar-Gregorian" : "master",
       "Calendar-Hebrew" : "master",
-      "Calendar-Hijri" : "",
+      "Calendar-Hijri" : "master",
       "Calendar-Julian" : "master",
       "Calendar-Persian" : "master",
       "Calendar-Plugin-Renderer" : "master",
       "Calendar-Saka" : "master",
       "Check-ISA" : "master",
       "Compare-Directory" : "master",
-      "Crypt-Affine" : "",
+      "Crypt-Affine" : "master",
       "Crypt-Hill" : "master",
       "Crypt-Trifid" : "master",
       "Dancer2-Plugin-Captcha" : "master",
       "Dancer2-Plugin-Chain" : "master",
-      "Dancer2-Plugin-Map-Tube" : "",
-      "Dancer2-Plugin-Paginator" : "",
+      "Dancer2-Plugin-Map-Tube" : "master",
+      "Dancer2-Plugin-Paginator" : "master",
       "Dancer2-Plugin-Res" : "master",
-      "Data-Money" : "",
+      "Data-Money" : "master",
       "Data-Money-Converter" : "master",
-      "Data-Money-Converter-WebserviceX" : "",
-      "Data-Password-Filter" : "",
+      "Data-Money-Converter-WebserviceX" : "master",
+      "Data-Password-Filter" : "master",
       "Data-Types" : "master",
-      "Date-Bahai-Simple" : "",
+      "Date-Bahai-Simple" : "master",
       "Date-Exception" : "master",
       "Date-Gregorian-Simple" : "master",
-      "Date-Hebrew-Simple" : "",
-      "Date-Hijri-Simple" : "",
-      "Date-Julian-Simple" : "",
-      "Date-Persian-Simple" : "",
-      "Date-Saka-Simple" : "",
+      "Date-Hebrew-Simple" : "master",
+      "Date-Hijri-Simple" : "master",
+      "Date-Julian-Simple" : "master",
+      "Date-Persian-Simple" : "master",
+      "Date-Saka-Simple" : "master",
       "Date-Utils" : "master",
       "Devel-Timer" : "master",
       "Dist-Zilla-Plugin-PkgAuthority" : "master",
       "Dist-Zilla-Plugin-Test-Map-Tube" : "master",
       "Dist-Zilla-PluginBundle-MANWAR" : "master",
       "File-Same" : "master",
-      "Filesys-DiskUsage" : "",
+      "Filesys-DiskUsage" : "master",
       "Food-ECodes" : "master",
       "Games-Cards-Pair" : "master",
       "Games-Domino" : "master",
@@ -386,20 +386,20 @@
       "Lingua-IND-Numbers" : "master",
       "Map-Tube" : "master",
       "Map-Tube-API" : "master",
-      "Map-Tube-Barcelona" : "",
-      "Map-Tube-CLI" : "",
+      "Map-Tube-Barcelona" : "master",
+      "Map-Tube-CLI" : "master",
       "Map-Tube-Cookbook" : "master",
-      "Map-Tube-Delhi" : "",
+      "Map-Tube-Delhi" : "master",
       "Map-Tube-Kolkatta" : "master",
-      "Map-Tube-London" : "",
+      "Map-Tube-London" : "master",
       "Map-Tube-Madrid" : "master",
-      "Map-Tube-NYC" : "",
-      "Map-Tube-Plugin-Formatter" : "",
+      "Map-Tube-NYC" : "master",
+      "Map-Tube-Plugin-Formatter" : "master",
       "Map-Tube-Plugin-Graph" : "master",
       "Map-Tube-Server" : "master",
       "Map-Tube-Tokyo" : "master",
-      "Method-ParamValidator" : "",
-      "MouseX-Params-Validate" : "",
+      "Method-ParamValidator" : "master",
+      "MouseX-Params-Validate" : "master",
       "Pod-Tree" : "master",
       "Regexp-Common-time" : "master",
       "SVG" : "master",
@@ -408,29 +408,29 @@
       "Test-CSS" : "master",
       "Test-Excel" : "master",
       "Test-Internet" : "master",
-      "Test-Map-Tube" : "",
-      "Test-Strict" : "",
+      "Test-Map-Tube" : "master",
+      "Test-Strict" : "master",
       "Test-XPath" : "master",
-      "Text-CSV-Pivot" : "",
-      "Text-MostFreqKDistance" : "",
-      "Text-Trac" : "",
+      "Text-CSV-Pivot" : "master",
+      "Text-MostFreqKDistance" : "master",
+      "Text-Trac" : "main",
       "Time-Warp" : "master",
       "URL-Check" : "master",
-      "WWW-Google-APIDiscovery" : "",
+      "WWW-Google-APIDiscovery" : "master",
       "WWW-Google-CustomSearch" : "master",
-      "WWW-Google-DistanceMatrix" : "",
+      "WWW-Google-DistanceMatrix" : "master",
       "WWW-Google-KnowledgeGraphSearch" : "master",
       "WWW-Google-PageSpeedOnline" : "master",
       "WWW-Google-Places" : "master",
-      "WWW-Google-UserAgent" : "",
+      "WWW-Google-UserAgent" : "master",
       "WWW-SmartSheet" : "master",
       "WebService-Wikimapia" : "master",
       "XML-SAX-Simple" : "master",
       "XML-XPath" : "master",
-      "data-verifier" : "",
+      "data-verifier" : "master",
       "guardian-openplatform-api" : "master",
-      "net-backpack" : "",
-      "pdf-create" : ""
+      "net-backpack" : "master",
+      "pdf-create" : "master"
    },
    "melo" : {
       "app-httpthis" : ""
@@ -646,67 +646,67 @@
       "oauth-cmdline" : "master"
    },
    "nigelhorne" : {
-      "CGI-ACL" : "master",
-      "CGI-Buffer" : "master",
-      "CGI-Info" : "master",
-      "CGI-Lingua" : "master",
-      "CGI-Untaint-CountyStateProvince" : "master",
-      "CGI-Untaint-CountyStateProvince-GB" : "master",
-      "CGI-Untaint-Facebook" : "master",
-      "CGI-Untaint-Twitter" : "master",
-      "CHI-Driver-SharedMem" : "master",
-      "Class-Simple-Cached" : "master",
-      "Class-Simple-Readonly-Cached" : "master",
-      "Comment-Spell" : "master",
-      "DBD-XMLSimple" : "master",
-      "DBIx-AnyDBD" : "master",
-      "Data-Fetch" : "master",
-      "Data-Text" : "master",
-      "DateTime-Format-Genealogy" : "master",
-      "DateTime-Format-Text" : "master",
-      "FCGI-Buffer" : "master",
-      "File-Open-NoCache-ReadOnly" : "master",
-      "File-Print-Many" : "master",
-      "File-pfopen" : "master",
-      "Genealogy-ChroniclingAmerica" : "master",
-      "Genealogy-ObituaryDailyTimes" : "master",
-      "Genealogy-Wills" : "master",
-      "Geo-Coder-Abbreviations" : "master",
-      "Geo-Coder-CA" : "master",
-      "Geo-Coder-DataScienceToolkit" : "master",
-      "Geo-Coder-Free" : "master",
-      "Geo-Coder-GooglePlaces" : "master",
-      "Geo-Coder-List" : "master",
-      "Geo-Coder-Mapbox" : "master",
-      "Geo-Coder-Postcodes" : "master",
-      "Geo-Coder-US-Census" : "master",
-      "Geo-Coder-XYZ" : "master",
-      "Geo-GeoNames" : "master",
-      "Geo-Location-Point" : "master",
-      "HTML-SimpleLinkExtor" : "master",
-      "HTML-SocialMedia" : "master",
+      "CGI-ACL" : "",
+      "CGI-Buffer" : "",
+      "CGI-Info" : "",
+      "CGI-Lingua" : "",
+      "CGI-Untaint-CountyStateProvince" : "",
+      "CGI-Untaint-CountyStateProvince-GB" : "",
+      "CGI-Untaint-Facebook" : "",
+      "CGI-Untaint-Twitter" : "",
+      "CHI-Driver-SharedMem" : "",
+      "Class-Simple-Cached" : "",
+      "Class-Simple-Readonly-Cached" : "",
+      "Comment-Spell" : "",
+      "DBD-XMLSimple" : "",
+      "DBIx-AnyDBD" : "",
+      "Data-Fetch" : "",
+      "Data-Text" : "",
+      "DateTime-Format-Genealogy" : "",
+      "DateTime-Format-Text" : "",
+      "FCGI-Buffer" : "",
+      "File-Open-NoCache-ReadOnly" : "",
+      "File-Print-Many" : "",
+      "File-pfopen" : "",
+      "Genealogy-ChroniclingAmerica" : "",
+      "Genealogy-ObituaryDailyTimes" : "",
+      "Genealogy-Wills" : "",
+      "Geo-Coder-Abbreviations" : "",
+      "Geo-Coder-CA" : "",
+      "Geo-Coder-DataScienceToolkit" : "",
+      "Geo-Coder-Free" : "",
+      "Geo-Coder-GooglePlaces" : "",
+      "Geo-Coder-List" : "",
+      "Geo-Coder-Mapbox" : "",
+      "Geo-Coder-Postcodes" : "",
+      "Geo-Coder-US-Census" : "",
+      "Geo-Coder-XYZ" : "",
+      "Geo-GeoNames" : "",
+      "Geo-Location-Point" : "",
+      "HTML-SimpleLinkExtor" : "",
+      "HTML-SocialMedia" : "",
       "LWP-UserAgent::Throttled" : "",
-      "Lingua-Conjunction" : "master",
-      "Lingua-FR-Nums2Words" : "main",
-      "Lingua-String" : "master",
+      "Lingua-Conjunction" : "",
+      "Lingua-FR-Nums2Words" : "",
+      "Lingua-String" : "",
       "Locale-AU-Info" : "",
       "Locale-CA-Info" : "",
       "Locale-Codes/Country-FR" : "",
-      "Locale-Places" : "master",
-      "Log-Dispatch-Email-Sendmail" : "master",
-      "Log-Log4perl-Layout-Syslog" : "master",
+      "Locale-Places" : "",
+      "Log-Dispatch-Email-Sendmail" : "",
+      "Log-Log4perl-Layout-Syslog" : "",
       "Log::WarnDie" : "",
-      "Test-HTTPStatus" : "master",
-      "Text-Names-GB" : "master",
-      "TimeZone-TimeZoneDB" : "master",
-      "WWW-Scrape-FindaGrave" : "master",
+      "Test-HTTPStatus" : "",
+      "Text-Names-GB" : "",
+      "TimeZone-TimeZoneDB" : "",
+      "WWW-Scrape-FindaGrave" : "",
       "Weather-Meto" : "",
       "sub-private-perl/tree/master" : ""
    },
    "oalders" : {
       "App-perlimports" : "main",
       "App-perlvars" : "main",
-      "HTML-FillInForm" : "main",
+      "HTML-FillInForm" : "",
       "Perl-Critic-Policy-ProhibitImplicitImport" : "main",
       "Perl-Critic-Policy-ValuesAndExpressions-PreventSQLInjection" : "master",
       "Plack-Middleware-NoDeflate" : "master",
@@ -724,12 +724,12 @@
       "data-printer-filter-dbix-class" : "master",
       "datetime-format-paypal-ipn" : "master",
       "dist-zilla-plugin-prepan" : "master",
-      "dist-zilla-pluginbundle-author-oalders" : "main",
+      "dist-zilla-pluginbundle-author-oalders" : "",
       "fatfinger" : "master",
       "git-helpers" : "main",
       "github-mergevelocity" : "main",
-      "html-restrict" : "main",
-      "http-browserdetect" : "main",
+      "html-restrict" : "",
+      "http-browserdetect" : "",
       "http-cookiemonster" : "master",
       "lazy" : "main",
       "lwp-consolelogger" : "main",
@@ -760,24 +760,24 @@
       "perl-Preproc-Tiny" : "master"
    },
    "perl" : {
-      "perl5" : ""
+      "perl5" : "blead"
    },
    "perl-ide" : {
       "open-this" : "main"
    },
    "perlreview" : {
-      "returnvalue" : "master"
+      "returnvalue" : ""
    },
    "petdance" : {
       "file-next/tree/master" : "",
-      "html-lint" : "",
-      "html-tidy" : "",
-      "html-tidy5" : "",
-      "list-cycle" : "",
-      "perl-critic-bangs" : "",
-      "sql-tiny" : "",
-      "test-taint" : "",
-      "test-www-mechanize" : ""
+      "html-lint" : "dev",
+      "html-tidy" : "dev",
+      "html-tidy5" : "dev",
+      "list-cycle" : "main",
+      "perl-critic-bangs" : "dev",
+      "sql-tiny" : "dev",
+      "test-taint" : "dev",
+      "test-www-mechanize" : "dev"
    },
    "pjf" : {
       "autodie" : ""
@@ -786,38 +786,38 @@
       "Pithub" : "master"
    },
    "pmqs" : {
-      "Archive-Zip-SimpleZip" : "",
-      "BerkeleyDB" : "",
-      "Compress-Raw-Bzip2" : "",
-      "Compress-Raw-Lzma" : "",
-      "Compress-Raw-Zlib" : "",
-      "Compress-Stream-Zstd" : "",
-      "DB_File" : "",
-      "IO-Compress" : "",
-      "IO-Compress-Lzf" : "",
-      "IO-Compress-Lzma" : "",
-      "IO-Compress-Lzop" : "",
-      "IO-Compress-Zstd" : "",
-      "zipdetails" : ""
+      "Archive-Zip-SimpleZip" : "master",
+      "BerkeleyDB" : "master",
+      "Compress-Raw-Bzip2" : "master",
+      "Compress-Raw-Lzma" : "master",
+      "Compress-Raw-Zlib" : "master",
+      "Compress-Stream-Zstd" : "master",
+      "DB_File" : "master",
+      "IO-Compress" : "master",
+      "IO-Compress-Lzf" : "master",
+      "IO-Compress-Lzma" : "master",
+      "IO-Compress-Lzop" : "master",
+      "IO-Compress-Zstd" : "master",
+      "zipdetails" : "main"
    },
    "ranguard" : {
-      "plack-middleware-dirindex" : "master"
+      "plack-middleware-dirindex" : ""
    },
    "shawnlaffan" : {
-      "Alien-Build-Plugin-Cleanse-BuildDir" : "master",
-      "Geo-ShapeFile" : "master",
-      "Statistics-Descriptive-PDL" : "master",
-      "geo-converter-dms2dd" : "master",
+      "Alien-Build-Plugin-Cleanse-BuildDir" : "",
+      "Geo-ShapeFile" : "",
+      "Statistics-Descriptive-PDL" : "",
+      "geo-converter-dms2dd" : "",
       "lib/Alien-Build-Plugin-PkgConfig-PPWrapper" : "",
-      "perl-List-Unique-DeterministicOrder" : "master",
-      "perl-alien-freexl" : "master",
-      "perl-alien-gdal" : "master",
-      "perl-alien-geos" : "master",
-      "perl-alien-libtiff" : "master",
-      "perl-alien-proj" : "master",
-      "perl-alien-sqlite" : "master",
-      "perl-pp-autolink" : "master",
-      "perl-statistics-sampler-multinomial" : "master"
+      "perl-List-Unique-DeterministicOrder" : "",
+      "perl-alien-freexl" : "",
+      "perl-alien-gdal" : "",
+      "perl-alien-geos" : "",
+      "perl-alien-libtiff" : "",
+      "perl-alien-proj" : "",
+      "perl-alien-sqlite" : "",
+      "perl-pp-autolink" : "",
+      "perl-statistics-sampler-multinomial" : ""
    },
    "sleinen" : {
       "snmp-session" : "master"
@@ -827,7 +827,7 @@
       "App-TimeClock" : "master"
    },
    "sysread" : {
-      "TOML-Tiny" : ""
+      "TOML-Tiny" : "master"
    },
    "szabgab" : {
       "App-PerlTidy-Tk" : "master",
@@ -1132,28 +1132,28 @@
       "p5-zydeco-lite-app" : "master"
    },
    "toddr" : {
-      "Business-UPS" : "",
-      "CDB_File" : "",
-      "Crypt-OpenSSL-RSA" : "",
+      "Business-UPS" : "master",
+      "CDB_File" : "master",
+      "Crypt-OpenSSL-RSA" : "master",
       "Crypt-RIPEMD160/tree/master" : "",
-      "IO-Stty" : "",
-      "IO-Tty" : "",
-      "IPC-Run" : "",
-      "Net-Daemon" : "",
-      "Net-Ident" : "",
-      "Razor2-Client-Agent" : "",
+      "IO-Stty" : "master",
+      "IO-Tty" : "master",
+      "IPC-Run" : "master",
+      "Net-Daemon" : "master",
+      "Net-Ident" : "master",
+      "Razor2-Client-Agent" : "master",
       "Regexp-Parser/tree/master" : "",
-      "Safe-Hole" : "",
+      "Safe-Hole" : "master",
       "Sys-Mmap/tree/master" : "",
-      "Tie-DBI" : "",
-      "Tree-MultiNode" : "",
-      "XML-Parser" : "",
-      "YAML-Syck" : "",
-      "net-oscar" : "",
+      "Tie-DBI" : "master",
+      "Tree-MultiNode" : "master",
+      "XML-Parser" : "master",
+      "YAML-Syck" : "master",
+      "net-oscar" : "master",
       "perl-net-jabber-bot/tree/master" : ""
    },
    "tokuhirom" : {
-      "OrePAN2" : "master"
+      "OrePAN2" : ""
    },
    "troglodyne-internet-widgets" : {
       "selenium-client-perl" : ""
