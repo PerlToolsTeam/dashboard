@@ -2148,17 +2148,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Mock-Person-EN",
-         "date" : "2015-10-06",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Mock-Person-EN/issues",
+         "date" : "2023-11-27",
          "dist" : "Mock-Person-EN",
          "insecure_repo" : false,
-         "name" : "Mock-Person-EN-0.04",
-         "repo" : "git://github.com/tupinek/Mock-Person-EN",
-         "repo_def_branch" : "master",
+         "name" : "Mock-Person-EN-0.05",
+         "repo" : "git://github.com/michal-josef-spacek/Mock-Person-EN",
+         "repo_def_branch" : null,
          "repo_name" : "Mock-Person-EN",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.04"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",
