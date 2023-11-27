@@ -2275,7 +2275,7 @@
          "insecure_repo" : false,
          "name" : "RDF-DOAP-0.105",
          "repo" : "https://github.com/kjetilk/p5-rdf-doap",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-doap",
          "repo_owner" : "kjetilk",
          "uses_rt" : false,

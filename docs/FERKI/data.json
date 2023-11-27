@@ -26,7 +26,7 @@
          "insecure_repo" : false,
          "name" : "Rex-1.14.3",
          "repo" : "https://github.com/RexOps/Rex",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "Rex",
          "repo_owner" : "RexOps",
          "uses_rt" : false,
