@@ -164,16 +164,16 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/IO-Tty/issues",
-         "date" : "2022-11-11",
+         "date" : "2023-11-28",
          "dist" : "IO-Tty",
          "insecure_repo" : false,
-         "name" : "IO-Tty-1.17",
+         "name" : "IO-Tty-1.18",
          "repo" : "https://github.com/toddr/IO-Tty",
          "repo_def_branch" : "master",
          "repo_name" : "IO-Tty",
          "repo_owner" : "toddr",
          "uses_rt" : false,
-         "ver" : "1.17"
+         "ver" : "1.18"
       },
       {
          "auth" : "TODDR",
