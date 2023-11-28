@@ -805,16 +805,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/www-robocop/issues",
-         "date" : "2022-12-02",
+         "date" : "2023-11-28",
          "dist" : "WWW-RoboCop",
          "insecure_repo" : false,
-         "name" : "WWW-RoboCop-0.000102",
+         "name" : "WWW-RoboCop-0.000103",
          "repo" : "https://github.com/oalders/www-robocop",
          "repo_def_branch" : "main",
          "repo_name" : "www-robocop",
          "repo_owner" : "oalders",
          "uses_rt" : false,
-         "ver" : "0.000102"
+         "ver" : "0.000103"
       },
       {
          "auth" : "OALDERS",

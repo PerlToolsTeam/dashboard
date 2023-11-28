@@ -770,17 +770,17 @@
       },
       {
          "auth" : "NHORNE",
-         "bugtracker" : "https://github.com/nigelhorne/Weather-Meto/issues",
-         "date" : "2023-11-09",
+         "bugtracker" : "https://github.com/nigelhorne/Weather-Meteo/issues",
+         "date" : "2023-11-28",
          "dist" : "Weather-Meteo",
          "insecure_repo" : false,
-         "name" : "Weather-Meteo-0.07",
-         "repo" : "https://github.com/nigelhorne/Weather-Meto",
-         "repo_def_branch" : "",
-         "repo_name" : "Weather-Meto",
+         "name" : "Weather-Meteo-0.08",
+         "repo" : "https://github.com/nigelhorne/Weather-Meteo",
+         "repo_def_branch" : null,
+         "repo_name" : "Weather-Meteo",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.07"
+         "ver" : "0.08"
       }
    ],
    "sort" : {
