@@ -1980,17 +1980,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Map-Tube-Text-Shortest",
-         "date" : "2015-02-22",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Map-Tube-Text-Shortest/issues",
+         "date" : "2023-12-01",
          "dist" : "Map-Tube-Text-Shortest",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Text-Shortest-0.01",
-         "repo" : "git://github.com/tupinek/Map-Tube-Text-Shortest",
-         "repo_def_branch" : "master",
+         "name" : "Map-Tube-Text-Shortest-0.02",
+         "repo" : "git://github.com/michal-josef-spacek/Map-Tube-Text-Shortest",
+         "repo_def_branch" : null,
          "repo_name" : "Map-Tube-Text-Shortest",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.01"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",
