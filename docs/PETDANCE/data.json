@@ -192,7 +192,7 @@
          "insecure_repo" : false,
          "name" : "ack-v3.7.0",
          "repo" : "git://github.com/beyondgrep/ack3.git",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "dev",
          "repo_name" : "ack3",
          "repo_owner" : "beyondgrep",
          "uses_rt" : false,

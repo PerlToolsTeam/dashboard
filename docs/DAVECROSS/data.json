@@ -332,7 +332,7 @@
          "insecure_repo" : false,
          "name" : "Plack-Middleware-DirIndex-1.01",
          "repo" : "https://github.com/ranguard/plack-middleware-dirindex",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "plack-middleware-dirindex",
          "repo_owner" : "ranguard",
          "uses_rt" : false,

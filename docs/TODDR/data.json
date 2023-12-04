@@ -433,7 +433,7 @@
          "insecure_repo" : false,
          "name" : "autodie-2.36",
          "repo" : "https://github.com/pjf/autodie",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "autodie",
          "repo_owner" : "pjf",
          "uses_rt" : false,
