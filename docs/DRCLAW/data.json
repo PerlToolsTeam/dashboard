@@ -43,15 +43,15 @@
       },
       {
          "auth" : "DRCLAW",
-         "date" : "2023-11-05",
+         "date" : "2023-12-04",
          "dist" : "Export-These",
          "insecure_repo" : true,
-         "name" : "Export-These-v0.2.0",
+         "name" : "Export-These-v0.2.1",
          "repo" : "http://github.com/drclaw1394/perl-export-these",
          "repo_def_branch" : "main",
          "repo_name" : "perl-export-these",
          "repo_owner" : "drclaw1394",
-         "ver" : "v0.2.0"
+         "ver" : "v0.2.1"
       },
       {
          "auth" : "DRCLAW",
@@ -91,15 +91,15 @@
       },
       {
          "auth" : "DRCLAW",
-         "date" : "2023-11-12",
+         "date" : "2023-12-04",
          "dist" : "IO-FD",
          "insecure_repo" : false,
-         "name" : "IO-FD-v0.3.3",
+         "name" : "IO-FD-v0.3.5",
          "repo" : "https://github.com/drclaw1394/perl-io-fd",
          "repo_def_branch" : "main",
          "repo_name" : "perl-io-fd",
          "repo_owner" : "drclaw1394",
-         "ver" : "v0.3.3"
+         "ver" : "v0.3.5"
       },
       {
          "auth" : "DRCLAW",

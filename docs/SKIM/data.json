@@ -1756,17 +1756,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Map-Tube-Kazan",
-         "date" : "2017-11-23",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Map-Tube-Kazan/issues",
+         "date" : "2023-12-04",
          "dist" : "Map-Tube-Kazan",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Kazan-0.05",
-         "repo" : "git://github.com/tupinek/Map-Tube-Kazan",
-         "repo_def_branch" : "master",
+         "name" : "Map-Tube-Kazan-0.06",
+         "repo" : "git://github.com/michal-josef-spacek/Map-Tube-Kazan",
+         "repo_def_branch" : null,
          "repo_name" : "Map-Tube-Kazan",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.05"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.06"
       },
       {
          "auth" : "SKIM",
@@ -2555,16 +2555,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Pod-CopyrightYears/issues",
-         "date" : "2023-01-23",
+         "date" : "2023-12-04",
          "dist" : "Pod-CopyrightYears",
          "insecure_repo" : false,
-         "name" : "Pod-CopyrightYears-0.02",
+         "name" : "Pod-CopyrightYears-0.03",
          "repo" : "git://github.com/michal-josef-spacek/Pod-CopyrightYears",
          "repo_def_branch" : "main",
          "repo_name" : "Pod-CopyrightYears",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
