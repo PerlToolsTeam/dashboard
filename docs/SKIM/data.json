@@ -2176,17 +2176,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Mock-Person-SK-ROM",
-         "date" : "2015-10-27",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Mock-Person-SK-ROM/issues",
+         "date" : "2023-12-05",
          "dist" : "Mock-Person-SK-ROM",
          "insecure_repo" : false,
-         "name" : "Mock-Person-SK-ROM-0.02",
-         "repo" : "git://github.com/tupinek/Mock-Person-SK-ROM",
-         "repo_def_branch" : "master",
+         "name" : "Mock-Person-SK-ROM-0.03",
+         "repo" : "git://github.com/michal-josef-spacek/Mock-Person-SK-ROM",
+         "repo_def_branch" : null,
          "repo_name" : "Mock-Person-SK-ROM",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.02"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
