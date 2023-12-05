@@ -63,16 +63,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Alien-DjVuLibre/issues",
-         "date" : "2022-11-05",
+         "date" : "2023-12-05",
          "dist" : "Alien-DjVuLibre",
          "insecure_repo" : false,
-         "name" : "Alien-DjVuLibre-0.06",
+         "name" : "Alien-DjVuLibre-0.07",
          "repo" : "https://github.com/michal-josef-spacek/Alien-DjVuLibre",
          "repo_def_branch" : "main",
          "repo_name" : "Alien-DjVuLibre",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.06"
+         "ver" : "0.07"
       },
       {
          "auth" : "SKIM",
@@ -230,17 +230,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=App-Image-Generator",
-         "date" : "2022-01-06",
+         "bugtracker" : "https://github.com/michal-josef-spacek/App-Image-Generator/issues",
+         "date" : "2023-12-05",
          "dist" : "App-Image-Generator",
          "insecure_repo" : false,
-         "name" : "App-Image-Generator-0.04",
+         "name" : "App-Image-Generator-0.05",
          "repo" : "git://github.com/michal-josef-spacek/App-Image-Generator",
          "repo_def_branch" : "master",
          "repo_name" : "App-Image-Generator",
          "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : true,
-         "ver" : "0.04"
+         "uses_rt" : false,
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",
@@ -1071,16 +1071,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/DjVu-Detect/issues",
-         "date" : "2021-11-13",
+         "date" : "2023-12-05",
          "dist" : "DjVu-Detect",
          "insecure_repo" : false,
-         "name" : "DjVu-Detect-0.03",
+         "name" : "DjVu-Detect-0.04",
          "repo" : "git://github.com/michal-josef-spacek/DjVu-Detect",
          "repo_def_branch" : "main",
          "repo_name" : "DjVu-Detect",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",
@@ -1770,17 +1770,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Map-Tube-Kharkiv",
-         "date" : "2017-11-23",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Map-Tube-Kharkiv/issues",
+         "date" : "2023-12-05",
          "dist" : "Map-Tube-Kharkiv",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Kharkiv-0.06",
-         "repo" : "git://github.com/tupinek/Map-Tube-Kharkiv",
-         "repo_def_branch" : "master",
+         "name" : "Map-Tube-Kharkiv-0.07",
+         "repo" : "git://github.com/michal-josef-spacek/Map-Tube-Kharkiv",
+         "repo_def_branch" : null,
          "repo_name" : "Map-Tube-Kharkiv",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.06"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.07"
       },
       {
          "auth" : "SKIM",
@@ -2358,17 +2358,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Person-ID-CZ-RC",
-         "date" : "2015-09-28",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Person-ID-CZ-RC/issues",
+         "date" : "2023-12-05",
          "dist" : "Person-ID-CZ-RC",
          "insecure_repo" : false,
-         "name" : "Person-ID-CZ-RC-0.04",
-         "repo" : "git://github.com/tupinek/Person-ID-CZ-RC",
-         "repo_def_branch" : "master",
+         "name" : "Person-ID-CZ-RC-0.05",
+         "repo" : "git://github.com/michal-josef-spacek/Person-ID-CZ-RC",
+         "repo_def_branch" : null,
          "repo_name" : "Person-ID-CZ-RC",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.04"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",
