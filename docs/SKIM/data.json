@@ -805,16 +805,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Curses-UI-Char",
-         "date" : "2023-06-26",
+         "date" : "2023-12-06",
          "dist" : "Curses-UI-Char",
          "insecure_repo" : false,
-         "name" : "Curses-UI-Char-0.01",
+         "name" : "Curses-UI-Char-0.02",
          "repo" : "git://github.com/michal-josef-spacek/Curses-UI-Char",
          "repo_def_branch" : "main",
          "repo_name" : "Curses-UI-Char",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",

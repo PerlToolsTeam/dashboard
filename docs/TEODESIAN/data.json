@@ -76,6 +76,20 @@
       },
       {
          "auth" : "TEODESIAN",
+         "bugtracker" : "https://github.com/teodesian/RPM-Verify/issues",
+         "date" : "2023-12-06",
+         "dist" : "RPM-Verify",
+         "insecure_repo" : false,
+         "name" : "RPM-Verify-1.000",
+         "repo" : "https://github.com/teodesian/RPM-Verify.git",
+         "repo_def_branch" : null,
+         "repo_name" : "RPM-Verify",
+         "repo_owner" : "teodesian",
+         "uses_rt" : false,
+         "ver" : "1.000"
+      },
+      {
+         "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/troglodyne-internet-widgets/selenium-client-perl/issues",
          "date" : "2023-09-19",
          "dist" : "Selenium-Client",
@@ -133,16 +147,16 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/Trog-TOTP/issues",
-         "date" : "2023-12-05",
+         "date" : "2023-12-06",
          "dist" : "Trog-TOTP",
          "insecure_repo" : false,
-         "name" : "Trog-TOTP-1.001",
+         "name" : "Trog-TOTP-1.003",
          "repo" : "https://github.com/teodesian/Trog-TOTP.git",
          "repo_def_branch" : null,
          "repo_name" : "Trog-TOTP",
          "repo_owner" : "teodesian",
          "uses_rt" : false,
-         "ver" : "1.001"
+         "ver" : "1.003"
       }
    ],
    "sort" : {
