@@ -776,17 +776,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Config-Dot-Array",
-         "date" : "2023-11-22",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Config-Dot-Array/issues",
+         "date" : "2023-12-06",
          "dist" : "Config-Dot-Array",
          "insecure_repo" : false,
-         "name" : "Config-Dot-Array-0.07",
+         "name" : "Config-Dot-Array-0.08",
          "repo" : "git://github.com/michal-josef-spacek/Config-Dot-Array",
          "repo_def_branch" : null,
          "repo_name" : "Config-Dot-Array",
          "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : true,
-         "ver" : "0.07"
+         "uses_rt" : false,
+         "ver" : "0.08"
       },
       {
          "auth" : "SKIM",
@@ -1071,16 +1071,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/DjVu-Detect/issues",
-         "date" : "2023-12-05",
+         "date" : "2023-12-06",
          "dist" : "DjVu-Detect",
          "insecure_repo" : false,
-         "name" : "DjVu-Detect-0.04",
+         "name" : "DjVu-Detect-0.05",
          "repo" : "git://github.com/michal-josef-spacek/DjVu-Detect",
          "repo_def_branch" : "main",
          "repo_name" : "DjVu-Detect",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.04"
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",
@@ -2694,17 +2694,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=SysV-Init-Service",
-         "date" : "2015-10-07",
+         "bugtracker" : "https://github.com/michal-josef-spacek/SysV-Init-Service/issues",
+         "date" : "2023-12-06",
          "dist" : "SysV-Init-Service",
          "insecure_repo" : false,
-         "name" : "SysV-Init-Service-0.06",
-         "repo" : "git://github.com/tupinek/SysV-Init-Service",
-         "repo_def_branch" : "master",
+         "name" : "SysV-Init-Service-0.07",
+         "repo" : "git://github.com/michal-josef-spacek/SysV-Init-Service",
+         "repo_def_branch" : null,
          "repo_name" : "SysV-Init-Service",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.06"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.07"
       },
       {
          "auth" : "SKIM",
@@ -3016,17 +3016,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Task-Curses-UI",
-         "date" : "2023-06-26",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Task-Curses-UI/issues",
+         "date" : "2023-12-06",
          "dist" : "Task-Curses-UI",
          "insecure_repo" : false,
-         "name" : "Task-Curses-UI-0.05",
+         "name" : "Task-Curses-UI-0.06",
          "repo" : "git://github.com/michal-josef-spacek/Task-Curses-UI",
          "repo_def_branch" : "master",
          "repo_name" : "Task-Curses-UI",
          "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : true,
-         "ver" : "0.05"
+         "uses_rt" : false,
+         "ver" : "0.06"
       },
       {
          "auth" : "SKIM",
