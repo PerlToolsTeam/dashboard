@@ -129,6 +129,20 @@
          "repo_owner" : "teodesian",
          "uses_rt" : false,
          "ver" : "0.052"
+      },
+      {
+         "auth" : "TEODESIAN",
+         "bugtracker" : "https://github.com/teodesian/Trog-TOTP/issues",
+         "date" : "2023-12-05",
+         "dist" : "Trog-TOTP",
+         "insecure_repo" : false,
+         "name" : "Trog-TOTP-1.001",
+         "repo" : "https://github.com/teodesian/Trog-TOTP.git",
+         "repo_def_branch" : null,
+         "repo_name" : "Trog-TOTP",
+         "repo_owner" : "teodesian",
+         "uses_rt" : false,
+         "ver" : "1.001"
       }
    ],
    "sort" : {
