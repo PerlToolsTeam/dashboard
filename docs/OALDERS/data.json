@@ -357,16 +357,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTTP-Cookies/issues",
-         "date" : "2021-01-04",
+         "date" : "2023-12-07",
          "dist" : "HTTP-Cookies",
          "insecure_repo" : false,
-         "name" : "HTTP-Cookies-6.10",
+         "name" : "HTTP-Cookies-6.11",
          "repo" : "https://github.com/libwww-perl/HTTP-Cookies",
          "repo_def_branch" : "master",
          "repo_name" : "HTTP-Cookies",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "6.10"
+         "ver" : "6.11"
       },
       {
          "auth" : "OALDERS",
