@@ -776,17 +776,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Config-Dot",
-         "date" : "2020-01-11",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Config-Dot/issues",
+         "date" : "2023-12-08",
          "dist" : "Config-Dot",
          "insecure_repo" : false,
-         "name" : "Config-Dot-0.09",
+         "name" : "Config-Dot-0.10",
          "repo" : "git://github.com/michal-josef-spacek/Config-Dot",
          "repo_def_branch" : "master",
          "repo_name" : "Config-Dot",
          "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : true,
-         "ver" : "0.09"
+         "uses_rt" : false,
+         "ver" : "0.10"
       },
       {
          "auth" : "SKIM",
@@ -1715,30 +1715,30 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Map-Tube-Budapest/issues",
-         "date" : "2023-12-07",
+         "date" : "2023-12-08",
          "dist" : "Map-Tube-Budapest",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Budapest-0.06",
+         "name" : "Map-Tube-Budapest-0.07",
          "repo" : "git://github.com/michal-josef-spacek/Map-Tube-Budapest",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Budapest",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.06"
+         "ver" : "0.07"
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Map-Tube-Dnipropetrovsk",
-         "date" : "2020-01-18",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Map-Tube-Dnipropetrovsk/issues",
+         "date" : "2023-12-08",
          "dist" : "Map-Tube-Dnipropetrovsk",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Dnipropetrovsk-0.07",
+         "name" : "Map-Tube-Dnipropetrovsk-0.08",
          "repo" : "git://github.com/michal-josef-spacek/Map-Tube-Dnipropetrovsk",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Dnipropetrovsk",
          "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : true,
-         "ver" : "0.07"
+         "uses_rt" : false,
+         "ver" : "0.08"
       },
       {
          "auth" : "SKIM",
