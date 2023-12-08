@@ -1700,17 +1700,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Map-Tube-Bucharest",
-         "date" : "2020-01-11",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Map-Tube-Bucharest/issues",
+         "date" : "2023-12-08",
          "dist" : "Map-Tube-Bucharest",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Bucharest-0.10",
+         "name" : "Map-Tube-Bucharest-0.11",
          "repo" : "git://github.com/michal-josef-spacek/Map-Tube-Bucharest",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Bucharest",
          "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : true,
-         "ver" : "0.10"
+         "uses_rt" : false,
+         "ver" : "0.11"
       },
       {
          "auth" : "SKIM",
@@ -2050,17 +2050,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Map-Tube-Yekaterinburg",
-         "date" : "2015-10-16",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Map-Tube-Yekaterinburg/issues",
+         "date" : "2023-12-08",
          "dist" : "Map-Tube-Yekaterinburg",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Yekaterinburg-0.05",
-         "repo" : "git://github.com/tupinek/Map-Tube-Yekaterinburg",
-         "repo_def_branch" : "master",
+         "name" : "Map-Tube-Yekaterinburg-0.06",
+         "repo" : "git://github.com/michal-josef-spacek/Map-Tube-Yekaterinburg",
+         "repo_def_branch" : null,
          "repo_name" : "Map-Tube-Yekaterinburg",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.05"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.06"
       },
       {
          "auth" : "SKIM",
@@ -3142,17 +3142,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Task-Map-Tube",
-         "date" : "2016-06-27",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Task-Map-Tube/issues",
+         "date" : "2023-12-08",
          "dist" : "Task-Map-Tube",
          "insecure_repo" : false,
-         "name" : "Task-Map-Tube-0.46",
-         "repo" : "git://github.com/tupinek/Task-Map-Tube",
-         "repo_def_branch" : "master",
+         "name" : "Task-Map-Tube-0.47",
+         "repo" : "git://github.com/michal-josef-spacek/Task-Map-Tube",
+         "repo_def_branch" : null,
          "repo_name" : "Task-Map-Tube",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.46"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.47"
       },
       {
          "auth" : "SKIM",
