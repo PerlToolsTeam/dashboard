@@ -85,7 +85,7 @@
          "insecure_repo" : false,
          "name" : "Digest-1.20",
          "repo" : "https://github.com/Dual-Life/digest",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "digest",
          "repo_owner" : "Dual-Life",
          "uses_rt" : false,

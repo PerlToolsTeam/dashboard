@@ -97,7 +97,7 @@
          "insecure_repo" : false,
          "name" : "Devel-PPPort-3.68",
          "repo" : "https://github.com/Dual-Life/Devel-PPPort",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "Devel-PPPort",
          "repo_owner" : "Dual-Life",
          "uses_rt" : false,
