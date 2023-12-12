@@ -3506,17 +3506,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=WWW-Search-KacurCZ",
-         "date" : "2014-09-02",
+         "bugtracker" : "https://github.com/michal-josef-spacek/WWW-Search-KacurCZ/issues",
+         "date" : "2023-12-12",
          "dist" : "WWW-Search-KacurCZ",
          "insecure_repo" : false,
-         "name" : "WWW-Search-KacurCZ-0.01",
-         "repo" : "git://github.com/tupinek/WWW-Search-KacurCZ",
-         "repo_def_branch" : "master",
+         "name" : "WWW-Search-KacurCZ-0.02",
+         "repo" : "git://github.com/michal-josef-spacek/WWW-Search-KacurCZ",
+         "repo_def_branch" : null,
          "repo_name" : "WWW-Search-KacurCZ",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.01"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",
@@ -3535,16 +3535,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/WWW-Search-ValentinskaCZ/issues",
-         "date" : "2023-12-11",
+         "date" : "2023-12-12",
          "dist" : "WWW-Search-ValentinskaCZ",
          "insecure_repo" : false,
-         "name" : "WWW-Search-ValentinskaCZ-0.04",
+         "name" : "WWW-Search-ValentinskaCZ-0.06",
          "repo" : "git://github.com/michal-josef-spacek/WWW-Search-ValentinskaCZ",
          "repo_def_branch" : null,
          "repo_name" : "WWW-Search-ValentinskaCZ",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.04"
+         "ver" : "0.06"
       },
       {
          "auth" : "SKIM",
