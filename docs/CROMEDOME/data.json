@@ -116,6 +116,20 @@
       },
       {
          "auth" : "CROMEDOME",
+         "bugtracker" : "https://github.com/dagolden/dancer2-plugin-syntax-getpost/issues",
+         "date" : "2023-12-13",
+         "dist" : "Dancer2-Plugin-Syntax-GetPost",
+         "insecure_repo" : false,
+         "name" : "Dancer2-Plugin-Syntax-GetPost-0.003",
+         "repo" : "https://github.com/dagolden/dancer2-plugin-syntax-getpost",
+         "repo_def_branch" : null,
+         "repo_name" : "dancer2-plugin-syntax-getpost",
+         "repo_owner" : "dagolden",
+         "uses_rt" : false,
+         "ver" : "0.002"
+      },
+      {
+         "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/cromedome/Dancer2-Plugin-Syntax-ParamKeywords/issues",
          "date" : "2021-05-14",
          "dist" : "Dancer2-Plugin-Syntax-ParamKeywords",
