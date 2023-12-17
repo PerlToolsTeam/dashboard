@@ -60,20 +60,6 @@
       },
       {
          "auth" : "CROMEDOME",
-         "bugtracker" : "https://github.com/cromedome/Dancer2-Logger-Log4perl/issues",
-         "date" : "2018-11-10",
-         "dist" : "Dancer2-Logger-Log4perl",
-         "insecure_repo" : false,
-         "name" : "Dancer2-Logger-Log4perl-0.06",
-         "repo" : "https://github.com/cromedome/Dancer2-Logger-Log4perl",
-         "repo_def_branch" : "",
-         "repo_name" : "Dancer2-Logger-Log4perl",
-         "repo_owner" : "cromedome",
-         "uses_rt" : false,
-         "ver" : "0.06"
-      },
-      {
-         "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/PerlDancer/Dancer2-Plugin-Ajax/issues",
          "date" : "2018-11-13",
          "dist" : "Dancer2-Plugin-Ajax",
