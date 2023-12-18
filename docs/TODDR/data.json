@@ -127,7 +127,7 @@
          "insecure_repo" : false,
          "name" : "FindBin-1.53",
          "repo" : "https://github.com/perl/perl5",
-         "repo_def_branch" : "blead",
+         "repo_def_branch" : "",
          "repo_name" : "perl5",
          "repo_owner" : "perl",
          "uses_rt" : false,
