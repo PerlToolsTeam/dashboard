@@ -2606,16 +2606,16 @@
       {
          "auth" : "TOBYINK",
          "bugtracker" : "https://github.com/tobyink/p5-story-interact-www/issues",
-         "date" : "2023-05-13",
+         "date" : "2023-12-19",
          "dist" : "Story-Interact-WWW",
          "insecure_repo" : false,
-         "name" : "Story-Interact-WWW-0.001006",
+         "name" : "Story-Interact-WWW-0.002000",
          "repo" : "https://github.com/tobyink/p5-story-interact-www",
          "repo_def_branch" : "master",
          "repo_name" : "p5-story-interact-www",
          "repo_owner" : "tobyink",
          "uses_rt" : false,
-         "ver" : "0.001006"
+         "ver" : "0.002000"
       },
       {
          "auth" : "TOBYINK",
