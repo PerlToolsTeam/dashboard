@@ -777,16 +777,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/uri-parsesearchstring-more/issues",
-         "date" : "2018-08-03",
+         "date" : "2023-12-23",
          "dist" : "URI-ParseSearchString-More",
          "insecure_repo" : false,
-         "name" : "URI-ParseSearchString-More-0.18",
+         "name" : "URI-ParseSearchString-More-0.19",
          "repo" : "https://github.com/oalders/uri-parsesearchstring-more",
          "repo_def_branch" : "master",
          "repo_name" : "uri-parsesearchstring-more",
          "repo_owner" : "oalders",
          "uses_rt" : false,
-         "ver" : "0.18"
+         "ver" : "0.19"
       },
       {
          "auth" : "OALDERS",
