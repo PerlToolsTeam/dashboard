@@ -57,7 +57,7 @@
       "digest" : ""
    },
    "Getty" : {
-      "p5-cpan-repository" : "master"
+      "p5-cpan-repository" : ""
    },
    "Manwar" : {
       "Address-PostCode-India" : "master",
@@ -93,12 +93,12 @@
       "Alien-patchelf" : "main"
    },
    "PerlDancer" : {
-      "Dancer2" : "main",
-      "Dancer2-Plugin-Ajax" : "master",
-      "dancer2-plugin-queue" : "master",
-      "dancer2-session-json" : "master",
-      "dancer2-session-mongodb" : "master",
-      "dancer2-template-xslate" : "master"
+      "Dancer2" : "",
+      "Dancer2-Plugin-Ajax" : "",
+      "dancer2-plugin-queue" : "",
+      "dancer2-session-json" : "",
+      "dancer2-session-mongodb" : "",
+      "dancer2-template-xslate" : ""
    },
    "RexOps" : {
       "Rex" : "master"
@@ -137,7 +137,7 @@
       "ack3" : "dev"
    },
    "bradhaywood" : {
-      "WebService-PayPal-NVP" : ""
+      "WebService-PayPal-NVP" : "master"
    },
    "briandfoy" : {
       "Acme-MyFirstModule-BDFOY" : "master",
@@ -145,21 +145,21 @@
       "ConfigReader-Simple" : "master",
       "HTTP-Cookies-Mozilla" : "master",
       "Log-Log4perl-Appender-ScreenColoredLevels-UsingMyColors" : "master",
-      "Mac-Errors" : "",
+      "Mac-Errors" : "master",
       "PerlPowerTools" : "master",
       "Roman-Unicode" : "master",
       "Test-Env" : "master",
-      "antsy" : "",
-      "app-bcrypt" : "",
-      "app-module-lister" : "",
+      "antsy" : "master",
+      "app-bcrypt" : "master",
+      "app-module-lister" : "master",
       "app-ppi-dumper" : "master",
       "app-url" : "master",
       "brick" : "master",
       "business-isbn" : "master",
-      "business-isbn-data" : "",
+      "business-isbn-data" : "master",
       "business-ismn" : "master",
       "business-issn" : "master",
-      "cacertorg-ca" : "",
+      "cacertorg-ca" : "master",
       "chemistry-elements" : "master",
       "cpan-audit" : "master",
       "cpan-packagedetails" : "master",
@@ -167,32 +167,32 @@
       "distribution-cooker" : "master",
       "distribution-guess-buildsystem" : "master",
       "dumbbench" : "master",
-      "file-find-closures" : "",
+      "file-find-closures" : "master",
       "file-fingerprint" : "master",
-      "http-cookies-chrome" : "",
+      "http-cookies-chrome" : "master",
       "http-cookies-safari" : "",
       "io-interactive" : "master",
       "mac-osversion" : "master",
-      "mac-propertylist" : "",
+      "mac-propertylist" : "master",
       "math-nocarry" : "master",
       "module-extract-declaredminimumperl" : "master",
       "module-extract-declaredversion" : "master",
       "module-extract-namespaces" : "master",
       "module-extract-use" : "master",
       "module-extract-version" : "master",
-      "module-release" : "",
-      "module-release-git" : "",
-      "module-starter-addmodule" : "",
+      "module-release" : "master",
+      "module-release-git" : "master",
+      "module-starter-addmodule" : "master",
       "modulino-demo" : "master",
       "mojo-promise-role-higherorder" : "master",
       "mojolicious-plugin-directoryserver" : "master",
       "mycpan-app-dpan" : "master",
       "mycpan-indexer" : "master",
       "net-publicsuffixlist" : "master",
-      "net-ssh-perl" : "",
+      "net-ssh-perl" : "master",
       "object-iterate" : "master",
-      "perlbench" : "",
-      "pod-perldoc-totoc" : "",
+      "perlbench" : "master",
+      "pod-perldoc-totoc" : "master",
       "polyglot" : "master",
       "ppi-app-ppi_version-bdfoy" : "master",
       "scriptdist" : "master",
@@ -200,18 +200,18 @@
       "sort-fields" : "master",
       "sourcecode-linecounter-perl" : "master",
       "string-sprintf" : "master",
-      "surveyor-app" : "",
+      "surveyor-app" : "master",
       "surveyor-benchmark-htmlentities" : "master",
       "surveyor-benchmark-schwartziantransform-sortfilesbysize" : "master",
       "task-masteringperl" : "master",
       "task-mojolearningenvironment" : "master",
       "test-data" : "master",
       "test-file" : "master",
-      "test-isbn" : "",
+      "test-isbn" : "master",
       "test-manifest" : "master",
       "test-output" : "master",
       "test-prereq" : "master",
-      "test-uri" : "",
+      "test-uri" : "master",
       "text-multimarkdown" : "master",
       "tie-boundedinteger" : "master",
       "tie-cycle" : "master",
@@ -223,7 +223,7 @@
       "unicode-unihan" : "master"
    },
    "bricas" : {
-      "geo-ipfree" : ""
+      "geo-ipfree" : "master"
    },
    "byterock" : {
       "Mojolicious_Command_generate_routes_restsful" : "",
@@ -302,7 +302,7 @@
       "digest-md5" : "master"
    },
    "dwimperl" : {
-      "Task-DWIM" : ""
+      "Task-DWIM" : "master"
    },
    "ferki" : {
       "Rex-Hook-File-Diff" : "master",
@@ -312,7 +312,7 @@
       "p5-rdf-doap" : "master"
    },
    "kohts" : {
-      "Schedule--Cron--Events" : "master"
+      "Schedule--Cron--Events" : ""
    },
    "libwww-perl" : {
       "HTML-Parser" : "master",
@@ -649,57 +649,57 @@
       "CGI-ACL" : "master",
       "CGI-Buffer" : "master",
       "CGI-Info" : "master",
-      "CGI-Lingua" : "master",
-      "CGI-Untaint-CountyStateProvince" : "master",
+      "CGI-Lingua" : "",
+      "CGI-Untaint-CountyStateProvince" : "",
       "CGI-Untaint-CountyStateProvince-GB" : "master",
-      "CGI-Untaint-Facebook" : "master",
+      "CGI-Untaint-Facebook" : "",
       "CGI-Untaint-Twitter" : "master",
-      "CHI-Driver-SharedMem" : "master",
+      "CHI-Driver-SharedMem" : "",
       "Class-Simple-Cached" : "master",
       "Class-Simple-Readonly-Cached" : "master",
-      "Comment-Spell" : "master",
-      "DBD-XMLSimple" : "master",
-      "DBIx-AnyDBD" : "master",
+      "Comment-Spell" : "",
+      "DBD-XMLSimple" : "",
+      "DBIx-AnyDBD" : "",
       "Data-Fetch" : "master",
       "Data-Text" : "master",
       "DateTime-Format-Genealogy" : "master",
-      "DateTime-Format-Text" : "master",
-      "FCGI-Buffer" : "master",
-      "File-Open-NoCache-ReadOnly" : "master",
-      "File-Print-Many" : "master",
+      "DateTime-Format-Text" : "",
+      "FCGI-Buffer" : "",
+      "File-Open-NoCache-ReadOnly" : "",
+      "File-Print-Many" : "",
       "File-pfopen" : "master",
-      "Genealogy-ChroniclingAmerica" : "master",
-      "Genealogy-ObituaryDailyTimes" : "master",
+      "Genealogy-ChroniclingAmerica" : "",
+      "Genealogy-ObituaryDailyTimes" : "",
       "Genealogy-Wills" : "master",
-      "Geo-Coder-Abbreviations" : "master",
+      "Geo-Coder-Abbreviations" : "",
       "Geo-Coder-CA" : "master",
-      "Geo-Coder-DataScienceToolkit" : "master",
-      "Geo-Coder-Free" : "master",
-      "Geo-Coder-GooglePlaces" : "master",
+      "Geo-Coder-DataScienceToolkit" : "",
+      "Geo-Coder-Free" : "",
+      "Geo-Coder-GooglePlaces" : "",
       "Geo-Coder-List" : "master",
-      "Geo-Coder-Mapbox" : "master",
-      "Geo-Coder-Postcodes" : "master",
-      "Geo-Coder-US-Census" : "master",
-      "Geo-Coder-XYZ" : "master",
+      "Geo-Coder-Mapbox" : "",
+      "Geo-Coder-Postcodes" : "",
+      "Geo-Coder-US-Census" : "",
+      "Geo-Coder-XYZ" : "",
       "Geo-GeoNames" : "master",
       "Geo-Location-Point" : "master",
       "HTML-SimpleLinkExtor" : "master",
       "HTML-SocialMedia" : "master",
       "LWP-UserAgent::Throttled" : "",
-      "Lingua-Conjunction" : "master",
-      "Lingua-FR-Nums2Words" : "main",
-      "Lingua-String" : "master",
+      "Lingua-Conjunction" : "",
+      "Lingua-FR-Nums2Words" : "",
+      "Lingua-String" : "",
       "Locale-AU-Info" : "",
       "Locale-CA-Info" : "",
       "Locale-Codes/Country-FR" : "",
       "Locale-Places" : "master",
-      "Log-Dispatch-Email-Sendmail" : "master",
-      "Log-Log4perl-Layout-Syslog" : "master",
+      "Log-Dispatch-Email-Sendmail" : "",
+      "Log-Log4perl-Layout-Syslog" : "",
       "Log::WarnDie" : "",
       "Test-HTTPStatus" : "master",
       "Text-Names-GB" : "master",
-      "TimeZone-TimeZoneDB" : "master",
-      "WWW-Scrape-FindaGrave" : "master",
+      "TimeZone-TimeZoneDB" : "",
+      "WWW-Scrape-FindaGrave" : "",
       "Weather-Meto" : "",
       "sub-private-perl/tree/master" : ""
    },
@@ -742,7 +742,7 @@
       "mojolicious-plugin-web-auth-site-strava" : "master",
       "net-freshbooks-api" : "master",
       "poex-role-psgiserver" : "master",
-      "uri-parsesearchstring-more" : "master",
+      "uri-parsesearchstring-more" : "main",
       "webservice-fitbit" : "master",
       "webservice-healthgraph" : "master",
       "webservice-reddit" : "master",
@@ -760,27 +760,27 @@
       "perl-Preproc-Tiny" : "master"
    },
    "perl" : {
-      "perl5" : ""
+      "perl5" : "blead"
    },
    "perl-ide" : {
       "open-this" : ""
    },
    "perlreview" : {
-      "returnvalue" : "master"
+      "returnvalue" : ""
    },
    "petdance" : {
       "file-next/tree/master" : "",
-      "html-lint" : "",
-      "html-tidy" : "",
-      "html-tidy5" : "",
-      "list-cycle" : "",
-      "perl-critic-bangs" : "",
-      "sql-tiny" : "",
-      "test-taint" : "",
-      "test-www-mechanize" : ""
+      "html-lint" : "dev",
+      "html-tidy" : "dev",
+      "html-tidy5" : "dev",
+      "list-cycle" : "main",
+      "perl-critic-bangs" : "dev",
+      "sql-tiny" : "dev",
+      "test-taint" : "dev",
+      "test-www-mechanize" : "dev"
    },
    "pjf" : {
-      "autodie" : "master"
+      "autodie" : ""
    },
    "plu" : {
       "Pithub" : "master"
@@ -804,20 +804,20 @@
       "plack-middleware-dirindex" : "master"
    },
    "shawnlaffan" : {
-      "Alien-Build-Plugin-Cleanse-BuildDir" : "",
-      "Geo-ShapeFile" : "",
-      "Statistics-Descriptive-PDL" : "",
-      "geo-converter-dms2dd" : "",
+      "Alien-Build-Plugin-Cleanse-BuildDir" : "master",
+      "Geo-ShapeFile" : "master",
+      "Statistics-Descriptive-PDL" : "master",
+      "geo-converter-dms2dd" : "master",
       "lib/Alien-Build-Plugin-PkgConfig-PPWrapper" : "",
-      "perl-List-Unique-DeterministicOrder" : "",
-      "perl-alien-freexl" : "",
-      "perl-alien-gdal" : "",
-      "perl-alien-geos" : "",
-      "perl-alien-libtiff" : "",
-      "perl-alien-proj" : "",
-      "perl-alien-sqlite" : "",
-      "perl-pp-autolink" : "",
-      "perl-statistics-sampler-multinomial" : ""
+      "perl-List-Unique-DeterministicOrder" : "master",
+      "perl-alien-freexl" : "master",
+      "perl-alien-gdal" : "master",
+      "perl-alien-geos" : "master",
+      "perl-alien-libtiff" : "master",
+      "perl-alien-proj" : "master",
+      "perl-alien-sqlite" : "master",
+      "perl-pp-autolink" : "master",
+      "perl-statistics-sampler-multinomial" : "master"
    },
    "sleinen" : {
       "snmp-session" : "master"
@@ -857,11 +857,11 @@
       "test-snapshots" : "master"
    },
    "teodesian" : {
-      "App-Prove-Elasticsearch" : "",
-      "Selenium-Remote-Driver" : "",
-      "TestLink-Perl" : "",
-      "TestRail-Perl" : "",
-      "playwright-perl" : ""
+      "App-Prove-Elasticsearch" : "master",
+      "Selenium-Remote-Driver" : "master",
+      "TestLink-Perl" : "master",
+      "TestRail-Perl" : "master",
+      "playwright-perl" : "main"
    },
    "tobyink" : {
       "Data-Perl" : "master",
@@ -1132,31 +1132,31 @@
       "p5-zydeco-lite-app" : "master"
    },
    "toddr" : {
-      "Business-UPS" : "master",
-      "CDB_File" : "master",
-      "Crypt-OpenSSL-RSA" : "master",
+      "Business-UPS" : "",
+      "CDB_File" : "",
+      "Crypt-OpenSSL-RSA" : "",
       "Crypt-RIPEMD160/tree/master" : "",
-      "IO-Stty" : "master",
-      "IO-Tty" : "master",
-      "IPC-Run" : "master",
-      "Net-Daemon" : "master",
-      "Net-Ident" : "master",
-      "Razor2-Client-Agent" : "master",
+      "IO-Stty" : "",
+      "IO-Tty" : "",
+      "IPC-Run" : "",
+      "Net-Daemon" : "",
+      "Net-Ident" : "",
+      "Razor2-Client-Agent" : "",
       "Regexp-Parser/tree/master" : "",
-      "Safe-Hole" : "master",
+      "Safe-Hole" : "",
       "Sys-Mmap/tree/master" : "",
-      "Tie-DBI" : "master",
-      "Tree-MultiNode" : "master",
-      "XML-Parser" : "master",
-      "YAML-Syck" : "master",
-      "net-oscar" : "master",
+      "Tie-DBI" : "",
+      "Tree-MultiNode" : "",
+      "XML-Parser" : "",
+      "YAML-Syck" : "",
+      "net-oscar" : "",
       "perl-net-jabber-bot/tree/master" : ""
    },
    "tokuhirom" : {
       "OrePAN2" : "master"
    },
    "troglodyne-internet-widgets" : {
-      "selenium-client-perl" : ""
+      "selenium-client-perl" : "main"
    },
    "trs-80" : {
       "WWW-Spotify" : "master"
@@ -1221,14 +1221,14 @@
       "perl-WWW-Splunk" : "master"
    },
    "voegelas" : {
-      "Alien-libmaxminddb" : "",
-      "CPANPLUS-Dist-Debora" : "",
-      "Geo-Location-TimeZoneFinder" : "",
-      "IP-Geolocation-MMDB" : "",
-      "Mail-Exim-ACL-Attachments" : "",
-      "Mail-Exim-ACL-Geolocation" : "",
-      "Mojolicious-Plugin-Geolocation-MMDB" : "",
-      "Statocles-Plugin-Highlight-Kamelon" : ""
+      "Alien-libmaxminddb" : "main",
+      "CPANPLUS-Dist-Debora" : "main",
+      "Geo-Location-TimeZoneFinder" : "main",
+      "IP-Geolocation-MMDB" : "main",
+      "Mail-Exim-ACL-Attachments" : "main",
+      "Mail-Exim-ACL-Geolocation" : "main",
+      "Mojolicious-Plugin-Geolocation-MMDB" : "main",
+      "Statocles-Plugin-Highlight-Kamelon" : "main"
    },
    "xaicron" : {
       "p5-www-youtube-download" : "master"
