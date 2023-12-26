@@ -231,16 +231,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/cpan-audit/issues",
-         "date" : "2023-11-29",
+         "date" : "2023-12-26",
          "dist" : "CPAN-Audit",
          "insecure_repo" : false,
-         "name" : "CPAN-Audit-20231129.001",
+         "name" : "CPAN-Audit-20231226.001",
          "repo" : "https://github.com/briandfoy/cpan-audit",
          "repo_def_branch" : "master",
          "repo_name" : "cpan-audit",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "20231129.001"
+         "ver" : "20231226.001"
       },
       {
          "auth" : "BDFOY",
