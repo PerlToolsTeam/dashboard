@@ -74,16 +74,16 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/CGI-Upload/issues",
-         "date" : "2023-05-29",
+         "date" : "2023-12-28",
          "dist" : "CGI-Upload",
          "insecure_repo" : false,
-         "name" : "CGI-Upload-1.13",
+         "name" : "CGI-Upload-1.14",
          "repo" : "https://github.com/szabgab/CGI-Upload",
          "repo_def_branch" : "main",
          "repo_name" : "CGI-Upload",
          "repo_owner" : "szabgab",
          "uses_rt" : false,
-         "ver" : "1.13"
+         "ver" : "1.14"
       },
       {
          "auth" : "SZABGAB",
