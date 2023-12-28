@@ -164,16 +164,16 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/IO-Tty/issues",
-         "date" : "2023-11-28",
+         "date" : "2023-12-28",
          "dist" : "IO-Tty",
          "insecure_repo" : false,
-         "name" : "IO-Tty-1.18",
+         "name" : "IO-Tty-1.19",
          "repo" : "https://github.com/toddr/IO-Tty",
          "repo_def_branch" : "",
          "repo_name" : "IO-Tty",
          "repo_owner" : "toddr",
          "uses_rt" : false,
-         "ver" : "1.18"
+         "ver" : "1.19"
       },
       {
          "auth" : "TODDR",
@@ -344,16 +344,16 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpanelinc/Test2-Harness-Renderer-JUnit/issues",
-         "date" : "2021-05-13",
+         "date" : "2023-12-28",
          "dist" : "Test2-Harness-Renderer-JUnit",
          "insecure_repo" : false,
-         "name" : "Test2-Harness-Renderer-JUnit-1.000004",
+         "name" : "Test2-Harness-Renderer-JUnit-1.000005",
          "repo" : "https://github.com/cpanelinc/Test2-Harness-Renderer-JUnit",
          "repo_def_branch" : "master",
          "repo_name" : "Test2-Harness-Renderer-JUnit",
          "repo_owner" : "cpanelinc",
          "uses_rt" : false,
-         "ver" : "1.000004"
+         "ver" : "1.000005"
       },
       {
          "auth" : "TODDR",
