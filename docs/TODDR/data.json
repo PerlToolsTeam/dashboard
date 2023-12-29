@@ -122,16 +122,16 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/perl/perl5/issues",
-         "date" : "2023-01-23",
+         "date" : "2023-12-29",
          "dist" : "FindBin",
          "insecure_repo" : false,
-         "name" : "FindBin-1.53",
+         "name" : "FindBin-1.54",
          "repo" : "https://github.com/perl/perl5",
          "repo_def_branch" : "blead",
          "repo_name" : "perl5",
          "repo_owner" : "perl",
          "uses_rt" : false,
-         "ver" : "1.53"
+         "ver" : "1.54"
       },
       {
          "auth" : "TODDR",
