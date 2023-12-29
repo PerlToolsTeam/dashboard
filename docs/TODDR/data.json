@@ -167,13 +167,13 @@
          "date" : "2023-12-28",
          "dist" : "IO-Tty",
          "insecure_repo" : false,
-         "name" : "IO-Tty-1.19",
+         "name" : "IO-Tty-1.20",
          "repo" : "https://github.com/toddr/IO-Tty",
          "repo_def_branch" : "",
          "repo_name" : "IO-Tty",
          "repo_owner" : "toddr",
          "uses_rt" : false,
-         "ver" : "1.19"
+         "ver" : "1.20"
       },
       {
          "auth" : "TODDR",
@@ -400,16 +400,16 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/XML-Parser/issues",
-         "date" : "2019-09-24",
+         "date" : "2023-12-29",
          "dist" : "XML-Parser",
          "insecure_repo" : true,
-         "name" : "XML-Parser-2.46",
+         "name" : "XML-Parser-2.47",
          "repo" : "http://github.com/toddr/XML-Parser",
          "repo_def_branch" : "",
          "repo_name" : "XML-Parser",
          "repo_owner" : "toddr",
          "uses_rt" : false,
-         "ver" : "2.46"
+         "ver" : "2.47"
       },
       {
          "auth" : "TODDR",
@@ -428,16 +428,16 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/pjf/autodie/issues",
-         "date" : "2023-01-30",
+         "date" : "2023-12-28",
          "dist" : "autodie",
          "insecure_repo" : false,
-         "name" : "autodie-2.36",
+         "name" : "autodie-2.37",
          "repo" : "https://github.com/pjf/autodie",
          "repo_def_branch" : "",
          "repo_name" : "autodie",
          "repo_owner" : "pjf",
          "uses_rt" : false,
-         "ver" : "2.36"
+         "ver" : "2.37"
       }
    ],
    "sort" : {
