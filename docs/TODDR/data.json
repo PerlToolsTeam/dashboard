@@ -94,30 +94,30 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/Dual-Life/digest-md5/issues",
-         "date" : "2020-10-05",
+         "date" : "2023-12-30",
          "dist" : "Digest-MD5",
          "insecure_repo" : false,
-         "name" : "Digest-MD5-2.58",
+         "name" : "Digest-MD5-2.59",
          "repo" : "https://github.com/dual-Life/digest-md5",
          "repo_def_branch" : "master",
          "repo_name" : "digest-md5",
          "repo_owner" : "dual-Life",
          "uses_rt" : false,
-         "ver" : "2.58"
+         "ver" : "2.59"
       },
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/Perl/perl5/issues",
-         "date" : "2023-01-23",
+         "date" : "2023-12-30",
          "dist" : "Exporter",
          "insecure_repo" : false,
-         "name" : "Exporter-5.77",
+         "name" : "Exporter-5.78",
          "repo" : "https://github.com/Perl/perl5/tree/blead/dist/Exporter",
          "repo_def_branch" : "",
          "repo_name" : "perl5/tree/blead/dist/Exporter",
          "repo_owner" : "Perl",
          "uses_rt" : false,
-         "ver" : "5.77"
+         "ver" : "5.78"
       },
       {
          "auth" : "TODDR",
@@ -136,16 +136,16 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/perl/perl5/issues",
-         "date" : "2023-01-23",
+         "date" : "2023-12-30",
          "dist" : "IO",
          "insecure_repo" : false,
-         "name" : "IO-1.51",
+         "name" : "IO-1.55",
          "repo" : "https://github.com/Perl/perl5/tree/blead/dist/IO",
          "repo_def_branch" : "",
          "repo_name" : "perl5/tree/blead/dist/IO",
          "repo_owner" : "Perl",
          "uses_rt" : false,
-         "ver" : "1.51"
+         "ver" : "1.55"
       },
       {
          "auth" : "TODDR",
@@ -192,16 +192,16 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/perl/perl5/issues",
-         "date" : "2022-08-22",
+         "date" : "2023-12-30",
          "dist" : "Locale-Maketext",
          "insecure_repo" : false,
-         "name" : "Locale-Maketext-1.32",
+         "name" : "Locale-Maketext-1.33",
          "repo" : "https://github.com/Perl/perl5/tree/blead/dist/Locale-Maketext",
          "repo_def_branch" : "",
          "repo_name" : "perl5/tree/blead/dist/Locale-Maketext",
          "repo_owner" : "Perl",
          "uses_rt" : false,
-         "ver" : "1.32"
+         "ver" : "1.33"
       },
       {
          "auth" : "TODDR",
