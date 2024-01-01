@@ -1686,17 +1686,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=METS-Files",
-         "date" : "2022-08-26",
+         "bugtracker" : "https://github.com/michal-josef-spacek/METS-Files/issues",
+         "date" : "2024-01-01",
          "dist" : "METS-Files",
          "insecure_repo" : false,
-         "name" : "METS-Files-0.02",
+         "name" : "METS-Files-0.03",
          "repo" : "git://github.com/michal-josef-spacek/METS-Files",
          "repo_def_branch" : "master",
          "repo_name" : "METS-Files",
          "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : true,
-         "ver" : "0.02"
+         "uses_rt" : false,
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
