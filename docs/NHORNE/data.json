@@ -251,16 +251,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=DateTime-Format-Text",
-         "date" : "2023-07-29",
+         "date" : "2024-01-02",
          "dist" : "DateTime-Format-Text",
          "insecure_repo" : false,
-         "name" : "DateTime-Format-Text-0.06",
+         "name" : "DateTime-Format-Text-0.07",
          "repo" : "https://github.com/nigelhorne/DateTime-Format-Text",
          "repo_def_branch" : "master",
          "repo_name" : "DateTime-Format-Text",
          "repo_owner" : "nigelhorne",
          "uses_rt" : true,
-         "ver" : "0.06"
+         "ver" : "0.07"
       },
       {
          "auth" : "NHORNE",
