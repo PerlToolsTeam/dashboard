@@ -3100,17 +3100,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Task-Graph-Reader",
-         "date" : "2015-11-03",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Task-Graph-Reader/issues",
+         "date" : "2024-01-03",
          "dist" : "Task-Graph-Reader",
          "insecure_repo" : false,
-         "name" : "Task-Graph-Reader-0.03",
-         "repo" : "git://github.com/tupinek/Task-Graph-Reader",
-         "repo_def_branch" : "master",
+         "name" : "Task-Graph-Reader-0.04",
+         "repo" : "git://github.com/michal-josef-spacek/Task-Graph-Reader",
+         "repo_def_branch" : null,
          "repo_name" : "Task-Graph-Reader",
-         "repo_owner" : "tupinek",
-         "uses_rt" : true,
-         "ver" : "0.03"
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",
