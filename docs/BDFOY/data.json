@@ -231,16 +231,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/cpan-audit/issues",
-         "date" : "2023-12-26",
+         "date" : "2024-01-03",
          "dist" : "CPAN-Audit",
          "insecure_repo" : false,
-         "name" : "CPAN-Audit-20231226.001",
+         "name" : "CPAN-Audit-20240103.001",
          "repo" : "https://github.com/briandfoy/cpan-audit",
          "repo_def_branch" : "master",
          "repo_name" : "cpan-audit",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "20231226.001"
+         "ver" : "20240103.001"
       },
       {
          "auth" : "BDFOY",
@@ -1111,16 +1111,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/tie-boundedinteger/issues",
-         "date" : "2018-05-23",
+         "date" : "2024-01-03",
          "dist" : "Tie-BoundedInteger",
          "insecure_repo" : false,
-         "name" : "Tie-BoundedInteger-1.005",
+         "name" : "Tie-BoundedInteger-1.073",
          "repo" : "https://github.com/briandfoy/tie-boundedinteger",
          "repo_def_branch" : "master",
          "repo_name" : "tie-boundedinteger",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.005"
+         "ver" : "1.073"
       },
       {
          "auth" : "BDFOY",
