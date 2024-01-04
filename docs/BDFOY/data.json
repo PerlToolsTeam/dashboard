@@ -774,6 +774,20 @@
       },
       {
          "auth" : "BDFOY",
+         "bugtracker" : "https://github.com/briandfoy/perl-version/issues",
+         "date" : "2024-01-04",
+         "dist" : "Perl-Version",
+         "insecure_repo" : false,
+         "name" : "Perl-Version-1.015",
+         "repo" : "https://github.com/briandfoy/perl-version",
+         "repo_def_branch" : null,
+         "repo_name" : "perl-version",
+         "repo_owner" : "briandfoy",
+         "uses_rt" : false,
+         "ver" : "1.015"
+      },
+      {
+         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/perlbench/issues",
          "date" : "2017-04-23",
          "dist" : "PerlBench",
