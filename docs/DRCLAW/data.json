@@ -91,15 +91,15 @@
       },
       {
          "auth" : "DRCLAW",
-         "date" : "2024-01-02",
+         "date" : "2024-01-04",
          "dist" : "IO-FD",
          "insecure_repo" : false,
-         "name" : "IO-FD-v0.3.6",
+         "name" : "IO-FD-v0.3.7",
          "repo" : "https://github.com/drclaw1394/perl-io-fd",
          "repo_def_branch" : "main",
          "repo_name" : "perl-io-fd",
          "repo_owner" : "drclaw1394",
-         "ver" : "v0.3.6"
+         "ver" : "v0.3.7"
       },
       {
          "auth" : "DRCLAW",
