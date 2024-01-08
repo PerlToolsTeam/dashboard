@@ -35,16 +35,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/antsy/issues",
-         "date" : "2021-12-24",
+         "date" : "2024-01-07",
          "dist" : "Antsy",
          "insecure_repo" : false,
-         "name" : "Antsy-0.903",
+         "name" : "Antsy-0.904",
          "repo" : "https://github.com/briandfoy/antsy",
          "repo_def_branch" : "master",
          "repo_name" : "antsy",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "0.903"
+         "ver" : "0.904"
       },
       {
          "auth" : "BDFOY",
@@ -357,16 +357,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/file-fingerprint/issues",
-         "date" : "2018-05-14",
+         "date" : "2024-01-07",
          "dist" : "File-Fingerprint",
          "insecure_repo" : false,
-         "name" : "File-Fingerprint-0.102",
+         "name" : "File-Fingerprint-0.104",
          "repo" : "https://github.com/briandfoy/file-fingerprint",
          "repo_def_branch" : "master",
          "repo_name" : "file-fingerprint",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "0.102"
+         "ver" : "0.104"
       },
       {
          "auth" : "BDFOY",
@@ -418,7 +418,7 @@
          "insecure_repo" : false,
          "name" : "HTTP-SimpleLinkChecker-1.168",
          "repo" : "https://github.com/CPAN-Adoptable-Modules/http-simplelinkchecker",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "http-simplelinkchecker",
          "repo_owner" : "CPAN-Adoptable-Modules",
          "uses_rt" : false,
@@ -432,7 +432,7 @@
          "insecure_repo" : false,
          "name" : "HTTP-Size-1.153",
          "repo" : "https://github.com/CPAN-Adoptable-Modules/http-size",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "http-size",
          "repo_owner" : "CPAN-Adoptable-Modules",
          "uses_rt" : false,
@@ -738,7 +738,7 @@
          "insecure_repo" : false,
          "name" : "Netscape-Bookmarks-2.304",
          "repo" : "https://github.com/CPAN-Adoptable-Modules/netscape-bookmarks",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "netscape-bookmarks",
          "repo_owner" : "CPAN-Adoptable-Modules",
          "uses_rt" : false,
