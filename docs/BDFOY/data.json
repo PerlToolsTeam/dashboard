@@ -91,16 +91,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/scriptdist/issues",
-         "date" : "2021-01-29",
+         "date" : "2024-01-08",
          "dist" : "App-scriptdist",
          "insecure_repo" : false,
-         "name" : "App-scriptdist-1.001",
+         "name" : "App-scriptdist-1.003",
          "repo" : "https://github.com/briandfoy/scriptdist",
          "repo_def_branch" : "master",
          "repo_name" : "scriptdist",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.001"
+         "ver" : "1.003"
       },
       {
          "auth" : "BDFOY",
@@ -593,16 +593,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/module-release/issues",
-         "date" : "2023-08-03",
+         "date" : "2024-01-08",
          "dist" : "Module-Release",
          "insecure_repo" : false,
-         "name" : "Module-Release-2.133",
+         "name" : "Module-Release-2.135",
          "repo" : "https://github.com/briandfoy/module-release",
          "repo_def_branch" : "master",
          "repo_name" : "module-release",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "2.133"
+         "ver" : "2.135"
       },
       {
          "auth" : "BDFOY",
@@ -1055,16 +1055,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/test-manifest/issues",
-         "date" : "2022-01-08",
+         "date" : "2024-01-08",
          "dist" : "Test-Manifest",
          "insecure_repo" : false,
-         "name" : "Test-Manifest-2.023",
+         "name" : "Test-Manifest-2.024",
          "repo" : "https://github.com/briandfoy/test-manifest",
          "repo_def_branch" : "master",
          "repo_name" : "test-manifest",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "2.023"
+         "ver" : "2.024"
       },
       {
          "auth" : "BDFOY",
