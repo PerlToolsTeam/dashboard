@@ -651,16 +651,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Locale-Places/issues",
-         "date" : "2023-09-19",
+         "date" : "2024-01-08",
          "dist" : "Locale-Places",
          "insecure_repo" : false,
-         "name" : "Locale-Places-0.08",
+         "name" : "Locale-Places-0.09",
          "repo" : "https://github.com/nigelhorne/Locale-Places",
          "repo_def_branch" : "",
          "repo_name" : "Locale-Places",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.08"
+         "ver" : "0.09"
       },
       {
          "auth" : "NHORNE",
