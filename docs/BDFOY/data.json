@@ -231,16 +231,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/cpan-audit/issues",
-         "date" : "2024-01-04",
+         "date" : "2024-01-10",
          "dist" : "CPAN-Audit",
          "insecure_repo" : false,
-         "name" : "CPAN-Audit-20240103.002",
+         "name" : "CPAN-Audit-20240110.001",
          "repo" : "https://github.com/briandfoy/cpan-audit",
          "repo_def_branch" : "master",
          "repo_name" : "cpan-audit",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "20240103.002"
+         "ver" : "20240110.001"
       },
       {
          "auth" : "BDFOY",
@@ -343,16 +343,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/file-find-closures/issues",
-         "date" : "2021-02-04",
+         "date" : "2024-01-10",
          "dist" : "File-Find-Closures",
          "insecure_repo" : false,
-         "name" : "File-Find-Closures-1.113",
+         "name" : "File-Find-Closures-1.116",
          "repo" : "https://github.com/briandfoy/file-find-closures",
          "repo_def_branch" : "master",
          "repo_name" : "file-find-closures",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.113"
+         "ver" : "1.116"
       },
       {
          "auth" : "BDFOY",
