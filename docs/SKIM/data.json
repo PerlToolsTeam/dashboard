@@ -1140,20 +1140,6 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://github.com/michal-josef-spacek/Error-Pure/issues",
-         "date" : "2024-01-09",
-         "dist" : "Error-Pure",
-         "insecure_repo" : false,
-         "name" : "Error-Pure-0.33",
-         "repo" : "git://github.com/michal-josef-spacek/Error-Pure",
-         "repo_def_branch" : "master",
-         "repo_name" : "Error-Pure",
-         "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : false,
-         "ver" : "0.33"
-      },
-      {
-         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Error-Pure-ANSIColor/issues",
          "date" : "2022-12-14",
          "dist" : "Error-Pure-ANSIColor",
