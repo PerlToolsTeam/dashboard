@@ -329,16 +329,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-MARC-Leader/issues",
-         "date" : "2023-11-20",
+         "date" : "2024-01-11",
          "dist" : "App-MARC-Leader",
          "insecure_repo" : false,
-         "name" : "App-MARC-Leader-0.02",
+         "name" : "App-MARC-Leader-0.03",
          "repo" : "git://github.com/michal-josef-spacek/App-MARC-Leader",
          "repo_def_branch" : null,
          "repo_name" : "App-MARC-Leader",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
@@ -1673,16 +1673,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/MARC-Leader-Print/issues",
-         "date" : "2023-11-20",
+         "date" : "2024-01-11",
          "dist" : "MARC-Leader-Print",
          "insecure_repo" : false,
-         "name" : "MARC-Leader-Print-0.03",
+         "name" : "MARC-Leader-Print-0.04",
          "repo" : "git://github.com/michal-josef-spacek/MARC-Leader-Print",
          "repo_def_branch" : null,
          "repo_name" : "MARC-Leader-Print",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",
