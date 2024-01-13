@@ -49,16 +49,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/app-module-lister/issues",
-         "date" : "2022-01-08",
+         "date" : "2024-01-13",
          "dist" : "App-Module-Lister",
          "insecure_repo" : false,
-         "name" : "App-Module-Lister-0.155",
+         "name" : "App-Module-Lister-1.001",
          "repo" : "https://github.com/briandfoy/app-module-lister",
          "repo_def_branch" : "master",
          "repo_name" : "app-module-lister",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "0.155"
+         "ver" : "1.001"
       },
       {
          "auth" : "BDFOY",
