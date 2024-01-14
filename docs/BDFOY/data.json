@@ -35,16 +35,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/antsy/issues",
-         "date" : "2024-01-07",
+         "date" : "2024-01-14",
          "dist" : "Antsy",
          "insecure_repo" : false,
-         "name" : "Antsy-0.904",
+         "name" : "Antsy-0.905",
          "repo" : "https://github.com/briandfoy/antsy",
          "repo_def_branch" : "master",
          "repo_name" : "antsy",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "0.904"
+         "ver" : "0.905"
       },
       {
          "auth" : "BDFOY",
@@ -217,16 +217,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/cacertorg-ca/issues",
-         "date" : "2021-01-15",
+         "date" : "2024-01-14",
          "dist" : "CACertOrg-CA",
          "insecure_repo" : false,
-         "name" : "CACertOrg-CA-20210114.001",
+         "name" : "CACertOrg-CA-20210114.002",
          "repo" : "https://github.com/briandfoy/cacertorg-ca",
          "repo_def_branch" : "master",
          "repo_name" : "cacertorg-ca",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "20210114.001"
+         "ver" : "20210114.002"
       },
       {
          "auth" : "BDFOY",
@@ -245,16 +245,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/cpan-packagedetails/issues",
-         "date" : "2021-02-05",
+         "date" : "2024-01-14",
          "dist" : "CPAN-PackageDetails",
          "insecure_repo" : false,
-         "name" : "CPAN-PackageDetails-0.263",
+         "name" : "CPAN-PackageDetails-0.264",
          "repo" : "https://github.com/briandfoy/cpan-packagedetails",
          "repo_def_branch" : "master",
          "repo_name" : "cpan-packagedetails",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "0.263"
+         "ver" : "0.264"
       },
       {
          "auth" : "BDFOY",
