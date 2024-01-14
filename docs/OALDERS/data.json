@@ -36,17 +36,17 @@
       },
       {
          "auth" : "OALDERS",
-         "bugtracker" : "https://github.com/oalders/App-perlimports/issues",
-         "date" : "2023-08-19",
+         "bugtracker" : "https://github.com/perl-ide/App-perlimports/issues",
+         "date" : "2024-01-13",
          "dist" : "App-perlimports",
          "insecure_repo" : false,
-         "name" : "App-perlimports-0.000052",
-         "repo" : "https://github.com/oalders/App-perlimports",
-         "repo_def_branch" : "main",
+         "name" : "App-perlimports-0.000053",
+         "repo" : "https://github.com/perl-ide/App-perlimports",
+         "repo_def_branch" : null,
          "repo_name" : "App-perlimports",
-         "repo_owner" : "oalders",
+         "repo_owner" : "perl-ide",
          "uses_rt" : false,
-         "ver" : "0.000052"
+         "ver" : "0.000053"
       },
       {
          "auth" : "OALDERS",
@@ -945,16 +945,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/libwww-perl/issues",
-         "date" : "2023-07-17",
+         "date" : "2024-01-13",
          "dist" : "libwww-perl",
          "insecure_repo" : false,
-         "name" : "libwww-perl-6.72",
+         "name" : "libwww-perl-6.73",
          "repo" : "https://github.com/libwww-perl/libwww-perl",
          "repo_def_branch" : "master",
          "repo_name" : "libwww-perl",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "6.72"
+         "ver" : "6.73"
       }
    ],
    "sort" : {
