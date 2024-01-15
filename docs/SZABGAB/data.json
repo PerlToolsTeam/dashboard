@@ -278,7 +278,7 @@
          "insecure_repo" : false,
          "name" : "Task-DWIM-Linux-0.10",
          "repo" : "https://github.com/dwimperl/Task-DWIM",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "Task-DWIM",
          "repo_owner" : "dwimperl",
          "ver" : "0.10"
