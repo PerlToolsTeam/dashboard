@@ -147,16 +147,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/Bundle-BDFOY/issues",
-         "date" : "2021-01-14",
+         "date" : "2024-01-16",
          "dist" : "Bundle-BDFOY",
          "insecure_repo" : false,
-         "name" : "Bundle-BDFOY-20210113",
+         "name" : "Bundle-BDFOY-20240116",
          "repo" : "https://github.com/briandfoy/Bundle-BDFOY",
          "repo_def_branch" : "",
          "repo_name" : "Bundle-BDFOY",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "20210113"
+         "ver" : "20240116"
       },
       {
          "auth" : "BDFOY",
@@ -175,16 +175,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/business-isbn-data/issues",
-         "date" : "2024-01-11",
+         "date" : "2024-01-16",
          "dist" : "Business-ISBN-Data",
          "insecure_repo" : false,
-         "name" : "Business-ISBN-Data-20240111.001",
+         "name" : "Business-ISBN-Data-20240116.001",
          "repo" : "https://github.com/briandfoy/business-isbn-data",
          "repo_def_branch" : "",
          "repo_name" : "business-isbn-data",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "20240111.001"
+         "ver" : "20240116.001"
       },
       {
          "auth" : "BDFOY",
