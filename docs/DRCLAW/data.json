@@ -151,6 +151,18 @@
       },
       {
          "auth" : "DRCLAW",
+         "date" : "2024-01-15",
+         "dist" : "Socket-More-Interface",
+         "insecure_repo" : false,
+         "name" : "Socket-More-Interface-v0.1.0",
+         "repo" : "https://github.com/drclaw1394/perl-socket-more-interface",
+         "repo_def_branch" : null,
+         "repo_name" : "perl-socket-more-interface",
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.1.0"
+      },
+      {
+         "auth" : "DRCLAW",
          "date" : "2023-09-05",
          "dist" : "Socket-More",
          "insecure_repo" : true,

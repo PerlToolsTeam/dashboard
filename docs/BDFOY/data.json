@@ -259,16 +259,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/chemistry-elements/issues",
-         "date" : "2021-10-26",
+         "date" : "2024-01-15",
          "dist" : "Chemistry-Elements",
          "insecure_repo" : false,
-         "name" : "Chemistry-Elements-1.075",
+         "name" : "Chemistry-Elements-1.077",
          "repo" : "https://github.com/briandfoy/chemistry-elements",
          "repo_def_branch" : "",
          "repo_name" : "chemistry-elements",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.075"
+         "ver" : "1.077"
       },
       {
          "auth" : "BDFOY",
