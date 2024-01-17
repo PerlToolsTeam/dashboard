@@ -163,6 +163,18 @@
       },
       {
          "auth" : "DRCLAW",
+         "date" : "2024-01-17",
+         "dist" : "Socket-More-Lookup",
+         "insecure_repo" : false,
+         "name" : "Socket-More-Lookup-v0.1.0",
+         "repo" : "https://github.com/drclaw1394/perl-socket-more-lookup",
+         "repo_def_branch" : null,
+         "repo_name" : "perl-socket-more-lookup",
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.1.0"
+      },
+      {
+         "auth" : "DRCLAW",
          "date" : "2023-09-05",
          "dist" : "Socket-More",
          "insecure_repo" : true,
