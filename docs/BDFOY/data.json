@@ -649,16 +649,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/mojo-promise-role-higherorder/issues",
-         "date" : "2021-05-25",
+         "date" : "2024-01-18",
          "dist" : "Mojo-Promise-Role-HigherOrder",
          "insecure_repo" : false,
-         "name" : "Mojo-Promise-Role-HigherOrder-1.005",
+         "name" : "Mojo-Promise-Role-HigherOrder-1.006",
          "repo" : "https://github.com/briandfoy/mojo-promise-role-higherorder",
          "repo_def_branch" : "",
          "repo_name" : "mojo-promise-role-higherorder",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.005"
+         "ver" : "1.006"
       },
       {
          "auth" : "BDFOY",
