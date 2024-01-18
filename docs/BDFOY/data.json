@@ -761,16 +761,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/ppi-app-ppi_version-bdfoy/issues",
-         "date" : "2021-02-07",
+         "date" : "2024-01-18",
          "dist" : "PPI-App-ppi_version-BDFOY",
          "insecure_repo" : false,
-         "name" : "PPI-App-ppi_version-BDFOY-1.001",
+         "name" : "PPI-App-ppi_version-BDFOY-1.003",
          "repo" : "https://github.com/briandfoy/ppi-app-ppi_version-bdfoy",
          "repo_def_branch" : "",
          "repo_name" : "ppi-app-ppi_version-bdfoy",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.001"
+         "ver" : "1.003"
       },
       {
          "auth" : "BDFOY",
