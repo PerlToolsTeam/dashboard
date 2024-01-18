@@ -540,16 +540,16 @@
       {
          "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-Unix-Sudo/issues",
-         "date" : "2021-08-06",
+         "date" : "2024-01-17",
          "dist" : "Unix-Sudo",
          "insecure_repo" : false,
-         "name" : "Unix-Sudo-4.567.89",
+         "name" : "Unix-Sudo-65535",
          "repo" : "https://github.com/DrHyde/perl-modules-Unix-Sudo",
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Unix-Sudo",
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
-         "ver" : "v4.567.89"
+         "ver" : "65535"
       },
       {
          "auth" : "DCANTRELL",

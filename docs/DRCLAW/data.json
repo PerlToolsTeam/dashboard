@@ -175,15 +175,27 @@
       },
       {
          "auth" : "DRCLAW",
-         "date" : "2023-09-05",
+         "date" : "2024-01-17",
+         "dist" : "Socket-More-Resolver",
+         "insecure_repo" : false,
+         "name" : "Socket-More-Resolver-v0.1.0",
+         "repo" : "https://github.com/drclaw1394/perl-socket-more-resolver",
+         "repo_def_branch" : null,
+         "repo_name" : "perl-socket-more-resolver",
+         "repo_owner" : "drclaw1394",
+         "ver" : "v0.1.0"
+      },
+      {
+         "auth" : "DRCLAW",
+         "date" : "2024-01-18",
          "dist" : "Socket-More",
          "insecure_repo" : true,
-         "name" : "Socket-More-v0.4.3",
+         "name" : "Socket-More-v0.5.0",
          "repo" : "http://github.com/drclaw1394/perl-socket-more",
          "repo_def_branch" : "main",
          "repo_name" : "perl-socket-more",
          "repo_owner" : "drclaw1394",
-         "ver" : "v0.4.3"
+         "ver" : "v0.5.0"
       },
       {
          "auth" : "DRCLAW",

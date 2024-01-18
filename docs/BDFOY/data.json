@@ -119,16 +119,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/app-url/issues",
-         "date" : "2021-02-13",
+         "date" : "2024-01-17",
          "dist" : "App-url",
          "insecure_repo" : false,
-         "name" : "App-url-1.007",
+         "name" : "App-url-1.009",
          "repo" : "https://github.com/briandfoy/app-url",
          "repo_def_branch" : "",
          "repo_name" : "app-url",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.007"
+         "ver" : "1.009"
       },
       {
          "auth" : "BDFOY",
@@ -231,16 +231,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/cpan-audit/issues",
-         "date" : "2024-01-10",
+         "date" : "2024-01-17",
          "dist" : "CPAN-Audit",
          "insecure_repo" : false,
-         "name" : "CPAN-Audit-20240110.002",
+         "name" : "CPAN-Audit-20240117.001",
          "repo" : "https://github.com/briandfoy/cpan-audit",
          "repo_def_branch" : "master",
          "repo_name" : "cpan-audit",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "20240110.002"
+         "ver" : "20240117.001"
       },
       {
          "auth" : "BDFOY",
