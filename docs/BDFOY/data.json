@@ -831,16 +831,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/polyglot/issues",
-         "date" : "2021-02-06",
+         "date" : "2024-01-19",
          "dist" : "Polyglot",
          "insecure_repo" : false,
-         "name" : "Polyglot-1.004",
+         "name" : "Polyglot-1.005",
          "repo" : "https://github.com/briandfoy/polyglot",
          "repo_def_branch" : "",
          "repo_name" : "polyglot",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.004"
+         "ver" : "1.005"
       },
       {
          "auth" : "BDFOY",

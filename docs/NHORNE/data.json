@@ -49,16 +49,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/CGI-Info/issues",
-         "date" : "2024-01-03",
+         "date" : "2024-01-19",
          "dist" : "CGI-Info",
          "insecure_repo" : false,
-         "name" : "CGI-Info-0.79",
+         "name" : "CGI-Info-0.80",
          "repo" : "https://github.com/nigelhorne/CGI-Info",
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Info",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.79"
+         "ver" : "0.80"
       },
       {
          "auth" : "NHORNE",
