@@ -187,15 +187,15 @@
       },
       {
          "auth" : "DRCLAW",
-         "date" : "2024-01-18",
+         "date" : "2024-01-20",
          "dist" : "Socket-More",
          "insecure_repo" : true,
-         "name" : "Socket-More-v0.5.0",
+         "name" : "Socket-More-v0.5.1",
          "repo" : "http://github.com/drclaw1394/perl-socket-more",
          "repo_def_branch" : "main",
          "repo_name" : "perl-socket-more",
          "repo_owner" : "drclaw1394",
-         "ver" : "v0.5.0"
+         "ver" : "v0.5.1"
       },
       {
          "auth" : "DRCLAW",
