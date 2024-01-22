@@ -238,7 +238,7 @@
          "insecure_repo" : false,
          "name" : "Devel-Hide-0.0015",
          "repo" : "https://github.com/aferreira/cpan-Devel-Hide",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "cpan-Devel-Hide",
          "repo_owner" : "aferreira",
          "ver" : "0.0015"
