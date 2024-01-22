@@ -817,16 +817,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/pod-perldoc-totoc/issues",
-         "date" : "2021-09-02",
+         "date" : "2024-01-22",
          "dist" : "Pod-Perldoc-ToToc",
          "insecure_repo" : false,
-         "name" : "Pod-Perldoc-ToToc-1.122",
+         "name" : "Pod-Perldoc-ToToc-1.123",
          "repo" : "https://github.com/briandfoy/pod-perldoc-totoc",
          "repo_def_branch" : "master",
          "repo_name" : "pod-perldoc-totoc",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.122"
+         "ver" : "1.123"
       },
       {
          "auth" : "BDFOY",
