@@ -175,16 +175,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/business-isbn-data/issues",
-         "date" : "2024-01-16",
+         "date" : "2024-01-23",
          "dist" : "Business-ISBN-Data",
          "insecure_repo" : false,
-         "name" : "Business-ISBN-Data-20240116.001",
+         "name" : "Business-ISBN-Data-20240123.001",
          "repo" : "https://github.com/briandfoy/business-isbn-data",
          "repo_def_branch" : "master",
          "repo_name" : "business-isbn-data",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "20240116.001"
+         "ver" : "20240123.001"
       },
       {
          "auth" : "BDFOY",
@@ -273,16 +273,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/ConfigReader-Simple/issues",
-         "date" : "2022-01-09",
+         "date" : "2024-01-23",
          "dist" : "ConfigReader-Simple",
          "insecure_repo" : false,
-         "name" : "ConfigReader-Simple-1.295",
+         "name" : "ConfigReader-Simple-1.296",
          "repo" : "https://github.com/briandfoy/ConfigReader-Simple",
          "repo_def_branch" : "master",
          "repo_name" : "ConfigReader-Simple",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.295"
+         "ver" : "1.296"
       },
       {
          "auth" : "BDFOY",
