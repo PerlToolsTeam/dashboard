@@ -63,16 +63,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/app-ppi-dumper/issues",
-         "date" : "2022-01-09",
+         "date" : "2024-01-22",
          "dist" : "App-PPI-Dumper",
          "insecure_repo" : false,
-         "name" : "App-PPI-Dumper-1.023",
+         "name" : "App-PPI-Dumper-1.024",
          "repo" : "https://github.com/briandfoy/app-ppi-dumper",
          "repo_def_branch" : "master",
          "repo_name" : "app-ppi-dumper",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.023"
+         "ver" : "1.024"
       },
       {
          "auth" : "BDFOY",
