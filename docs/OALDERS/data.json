@@ -945,16 +945,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/libwww-perl/issues",
-         "date" : "2024-01-22",
+         "date" : "2024-01-24",
          "dist" : "libwww-perl",
          "insecure_repo" : false,
-         "name" : "libwww-perl-6.74",
+         "name" : "libwww-perl-6.75",
          "repo" : "https://github.com/libwww-perl/libwww-perl",
          "repo_def_branch" : "master",
          "repo_name" : "libwww-perl",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "6.74"
+         "ver" : "6.75"
       }
    ],
    "sort" : {

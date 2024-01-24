@@ -20,31 +20,31 @@
    "modules" : [
       {
          "auth" : "DAVECROSS",
-         "bugtracker" : "https://github.com/davorg/app-aphra/issues",
-         "date" : "2023-10-27",
+         "bugtracker" : "https://github.com/davorg-cpan/app-aphra/issues",
+         "date" : "2024-01-24",
          "dist" : "App-Aphra",
          "insecure_repo" : false,
-         "name" : "App-Aphra-0.1.0",
-         "repo" : "https://github.com/davorg/app-aphra",
-         "repo_def_branch" : "master",
+         "name" : "App-Aphra-0.1.1",
+         "repo" : "https://github.com/davorg-cpan/app-aphra",
+         "repo_def_branch" : null,
          "repo_name" : "app-aphra",
-         "repo_owner" : "davorg",
+         "repo_owner" : "davorg-cpan",
          "uses_rt" : false,
-         "ver" : "v0.1.0"
+         "ver" : "v0.1.1"
       },
       {
          "auth" : "DAVECROSS",
-         "bugtracker" : "https://github.com/davorg/app-cpanmodulesite/issues",
-         "date" : "2021-05-13",
+         "bugtracker" : "https://github.com/davorg-cpan/app-cpanmodulesite/issues",
+         "date" : "2024-01-24",
          "dist" : "App-CPANModuleSite",
          "insecure_repo" : false,
-         "name" : "App-CPANModuleSite-0.0.9",
-         "repo" : "https://github.com/davorg/app-cpanmodulesite",
-         "repo_def_branch" : "main",
+         "name" : "App-CPANModuleSite-0.0.10",
+         "repo" : "https://github.com/davorg-cpan/app-cpanmodulesite",
+         "repo_def_branch" : null,
          "repo_name" : "app-cpanmodulesite",
-         "repo_owner" : "davorg",
+         "repo_owner" : "davorg-cpan",
          "uses_rt" : false,
-         "ver" : "v0.0.9"
+         "ver" : "v0.0.10"
       },
       {
          "auth" : "DAVECROSS",
