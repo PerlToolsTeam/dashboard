@@ -287,16 +287,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/data-constraint/issues",
-         "date" : "2022-01-09",
+         "date" : "2024-01-24",
          "dist" : "Data-Constraint",
          "insecure_repo" : false,
-         "name" : "Data-Constraint-1.203",
+         "name" : "Data-Constraint-1.204",
          "repo" : "https://github.com/briandfoy/data-constraint",
          "repo_def_branch" : "master",
          "repo_name" : "data-constraint",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.203"
+         "ver" : "1.204"
       },
       {
          "auth" : "BDFOY",

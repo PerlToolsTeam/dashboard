@@ -372,16 +372,16 @@
       {
          "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-Params-Validate-Dependencies/issues",
-         "date" : "2023-04-23",
+         "date" : "2024-01-24",
          "dist" : "Params-Validate-Dependencies",
          "insecure_repo" : false,
-         "name" : "Params-Validate-Dependencies-1.41",
+         "name" : "Params-Validate-Dependencies-2.00",
          "repo" : "https://github.com/DrHyde/perl-modules-Params-Validate-Dependencies",
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Params-Validate-Dependencies",
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
-         "ver" : "1.41"
+         "ver" : "2.00"
       },
       {
          "auth" : "DCANTRELL",
