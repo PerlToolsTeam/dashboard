@@ -315,16 +315,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/distribution-guess-buildsystem/issues",
-         "date" : "2022-01-08",
+         "date" : "2024-01-25",
          "dist" : "Distribution-Guess-BuildSystem",
          "insecure_repo" : false,
-         "name" : "Distribution-Guess-BuildSystem-1.004",
+         "name" : "Distribution-Guess-BuildSystem-1.005",
          "repo" : "https://github.com/briandfoy/distribution-guess-buildsystem",
          "repo_def_branch" : "master",
          "repo_name" : "distribution-guess-buildsystem",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.004"
+         "ver" : "1.005"
       },
       {
          "auth" : "BDFOY",
