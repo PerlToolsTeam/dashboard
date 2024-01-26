@@ -766,13 +766,13 @@
          "date" : "2024-01-25",
          "dist" : "URI",
          "insecure_repo" : false,
-         "name" : "URI-5.22",
+         "name" : "URI-5.23",
          "repo" : "https://github.com/libwww-perl/URI",
          "repo_def_branch" : "master",
          "repo_name" : "URI",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "5.22"
+         "ver" : "5.23"
       },
       {
          "auth" : "OALDERS",
@@ -945,16 +945,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/libwww-perl/issues",
-         "date" : "2024-01-24",
+         "date" : "2024-01-25",
          "dist" : "libwww-perl",
          "insecure_repo" : false,
-         "name" : "libwww-perl-6.75",
+         "name" : "libwww-perl-6.76",
          "repo" : "https://github.com/libwww-perl/libwww-perl",
          "repo_def_branch" : "master",
          "repo_name" : "libwww-perl",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "6.75"
+         "ver" : "6.76"
       }
    ],
    "sort" : {
