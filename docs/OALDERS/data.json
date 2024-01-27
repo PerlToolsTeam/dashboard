@@ -763,16 +763,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/URI/issues",
-         "date" : "2024-01-26",
+         "date" : "2024-01-27",
          "dist" : "URI",
          "insecure_repo" : false,
-         "name" : "URI-5.24",
+         "name" : "URI-5.25",
          "repo" : "https://github.com/libwww-perl/URI",
          "repo_def_branch" : "master",
          "repo_name" : "URI",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "5.24"
+         "ver" : "5.25"
       },
       {
          "auth" : "OALDERS",
