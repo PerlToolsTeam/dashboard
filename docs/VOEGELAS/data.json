@@ -21,16 +21,16 @@
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/Alien-libmaxminddb/issues",
-         "date" : "2023-12-23",
+         "date" : "2024-01-27",
          "dist" : "Alien-libmaxminddb",
          "insecure_repo" : false,
-         "name" : "Alien-libmaxminddb-1.013",
+         "name" : "Alien-libmaxminddb-1.014",
          "repo" : "https://github.com/voegelas/Alien-libmaxminddb",
          "repo_def_branch" : "main",
          "repo_name" : "Alien-libmaxminddb",
          "repo_owner" : "voegelas",
          "uses_rt" : false,
-         "ver" : "1.013"
+         "ver" : "1.014"
       },
       {
          "auth" : "VOEGELAS",
