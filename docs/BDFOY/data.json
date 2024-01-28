@@ -509,30 +509,30 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/math-nocarry/issues",
-         "date" : "2022-01-08",
+         "date" : "2024-01-28",
          "dist" : "Math-NoCarry",
          "insecure_repo" : false,
-         "name" : "Math-NoCarry-1.114",
+         "name" : "Math-NoCarry-1.115",
          "repo" : "https://github.com/briandfoy/math-nocarry",
          "repo_def_branch" : "master",
          "repo_name" : "math-nocarry",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.114"
+         "ver" : "1.115"
       },
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/module-extract-declaredminimumperl/issues",
-         "date" : "2022-01-08",
+         "date" : "2024-01-28",
          "dist" : "Module-Extract-DeclaredMinimumPerl",
          "insecure_repo" : false,
-         "name" : "Module-Extract-DeclaredMinimumPerl-1.023",
+         "name" : "Module-Extract-DeclaredMinimumPerl-1.024",
          "repo" : "https://github.com/briandfoy/module-extract-declaredminimumperl",
          "repo_def_branch" : "master",
          "repo_name" : "module-extract-declaredminimumperl",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.023"
+         "ver" : "1.024"
       },
       {
          "auth" : "BDFOY",
