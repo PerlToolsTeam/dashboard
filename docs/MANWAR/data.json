@@ -356,15 +356,15 @@
       },
       {
          "auth" : "MANWAR",
-         "date" : "2018-04-22",
+         "date" : "2024-01-28",
          "dist" : "Dancer2-Plugin-Map-Tube",
          "insecure_repo" : false,
-         "name" : "Dancer2-Plugin-Map-Tube-0.02",
+         "name" : "Dancer2-Plugin-Map-Tube-0.03",
          "repo" : "https://github.com/manwar/Dancer2-Plugin-Map-Tube",
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Map-Tube",
          "repo_owner" : "manwar",
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "MANWAR",
@@ -772,27 +772,27 @@
       },
       {
          "auth" : "MANWAR",
-         "date" : "2022-05-19",
+         "date" : "2024-01-28",
          "dist" : "Map-Tube",
          "insecure_repo" : false,
-         "name" : "Map-Tube-3.68",
+         "name" : "Map-Tube-3.69",
          "repo" : "https://github.com/manwar/Map-Tube",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube",
          "repo_owner" : "manwar",
-         "ver" : "3.68"
+         "ver" : "3.69"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2018-04-18",
+         "date" : "2024-01-28",
          "dist" : "Map-Tube-API",
          "insecure_repo" : false,
-         "name" : "Map-Tube-API-0.05",
+         "name" : "Map-Tube-API-0.07",
          "repo" : "https://github.com/manwar/Map-Tube-API",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-API",
          "repo_owner" : "manwar",
-         "ver" : "0.05"
+         "ver" : "0.07"
       },
       {
          "auth" : "MANWAR",
@@ -931,12 +931,12 @@
          "date" : "2024-01-28",
          "dist" : "Map-Tube-Server",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Server-0.02",
+         "name" : "Map-Tube-Server-0.05",
          "repo" : "https://github.com/manwar/Map-Tube-Server",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Server",
          "repo_owner" : "manwar",
-         "ver" : "0.02"
+         "ver" : "0.05"
       },
       {
          "auth" : "MANWAR",
