@@ -808,15 +808,15 @@
       },
       {
          "auth" : "MANWAR",
-         "date" : "2022-05-19",
+         "date" : "2024-01-28",
          "dist" : "Map-Tube-CLI",
          "insecure_repo" : false,
-         "name" : "Map-Tube-CLI-0.67",
+         "name" : "Map-Tube-CLI-0.68",
          "repo" : "https://github.com/manwar/Map-Tube-CLI",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-CLI",
          "repo_owner" : "manwar",
-         "ver" : "0.67"
+         "ver" : "0.68"
       },
       {
          "auth" : "MANWAR",
