@@ -386,16 +386,16 @@
       {
          "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-Params-Validate-Dependencies-all_or_none_of/issues",
-         "date" : "2015-03-21",
+         "date" : "2024-01-29",
          "dist" : "Params-Validate-Dependencies-all_or_none_of",
          "insecure_repo" : false,
-         "name" : "Params-Validate-Dependencies-all_or_none_of-1.01",
+         "name" : "Params-Validate-Dependencies-all_or_none_of-1.02",
          "repo" : "https://github.com/DrHyde/perl-modules-Params-Validate-Dependencies-all_or_none_of",
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Params-Validate-Dependencies-all_or_none_of",
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
-         "ver" : "1.01"
+         "ver" : "1.02"
       },
       {
          "auth" : "DCANTRELL",
