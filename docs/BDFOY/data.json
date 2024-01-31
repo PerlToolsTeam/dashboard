@@ -621,16 +621,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/module-starter-addmodule/issues",
-         "date" : "2022-01-09",
+         "date" : "2024-01-31",
          "dist" : "Module-Starter-AddModule",
          "insecure_repo" : false,
-         "name" : "Module-Starter-AddModule-1.008",
+         "name" : "Module-Starter-AddModule-1.009",
          "repo" : "https://github.com/briandfoy/module-starter-addmodule",
          "repo_def_branch" : "master",
          "repo_name" : "module-starter-addmodule",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.008"
+         "ver" : "1.009"
       },
       {
          "auth" : "BDFOY",
