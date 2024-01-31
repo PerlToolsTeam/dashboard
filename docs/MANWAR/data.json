@@ -140,15 +140,15 @@
       },
       {
          "auth" : "MANWAR",
-         "date" : "2022-01-11",
+         "date" : "2024-01-31",
          "dist" : "CGI-Simple",
          "insecure_repo" : true,
-         "name" : "CGI-Simple-1.280",
+         "name" : "CGI-Simple-1.281",
          "repo" : "http://github.com/manwar/CGI--Simple",
          "repo_def_branch" : "master",
          "repo_name" : "CGI--Simple",
          "repo_owner" : "manwar",
-         "ver" : "1.280"
+         "ver" : "1.281"
       },
       {
          "auth" : "MANWAR",
