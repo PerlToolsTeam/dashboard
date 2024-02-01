@@ -356,15 +356,15 @@
       },
       {
          "auth" : "MANWAR",
-         "date" : "2024-01-28",
+         "date" : "2024-02-01",
          "dist" : "Dancer2-Plugin-Map-Tube",
          "insecure_repo" : false,
-         "name" : "Dancer2-Plugin-Map-Tube-0.03",
+         "name" : "Dancer2-Plugin-Map-Tube-0.04",
          "repo" : "https://github.com/manwar/Dancer2-Plugin-Map-Tube",
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Map-Tube",
          "repo_owner" : "manwar",
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "MANWAR",
@@ -928,15 +928,15 @@
       },
       {
          "auth" : "MANWAR",
-         "date" : "2024-01-28",
+         "date" : "2024-02-01",
          "dist" : "Map-Tube-Server",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Server-0.05",
+         "name" : "Map-Tube-Server-0.06",
          "repo" : "https://github.com/manwar/Map-Tube-Server",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Server",
          "repo_owner" : "manwar",
-         "ver" : "0.05"
+         "ver" : "0.06"
       },
       {
          "auth" : "MANWAR",
