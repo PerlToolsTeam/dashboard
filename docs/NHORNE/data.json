@@ -182,15 +182,17 @@
       },
       {
          "auth" : "NHORNE",
-         "date" : "2017-09-03",
+         "bugtracker" : "https://github.com/nigelhorne/DBD-XMLSimple/issues",
+         "date" : "2024-02-02",
          "dist" : "DBD-XMLSimple",
          "insecure_repo" : false,
-         "name" : "DBD-XMLSimple-0.06",
+         "name" : "DBD-XMLSimple-0.07",
          "repo" : "https://github.com/nigelhorne/DBD-XMLSimple",
          "repo_def_branch" : "master",
          "repo_name" : "DBD-XMLSimple",
          "repo_owner" : "nigelhorne",
-         "ver" : "0.06"
+         "uses_rt" : false,
+         "ver" : "0.07"
       },
       {
          "auth" : "NHORNE",
@@ -237,16 +239,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Database-Abstraction/issues",
-         "date" : "2024-02-01",
+         "date" : "2024-02-02",
          "dist" : "Database-Abstraction",
          "insecure_repo" : false,
-         "name" : "Database-Abstraction-0.03",
+         "name" : "Database-Abstraction-0.04",
          "repo" : "https://github.com/nigelhorne/Database-Abstraction",
          "repo_def_branch" : null,
          "repo_name" : "Database-Abstraction",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "NHORNE",
