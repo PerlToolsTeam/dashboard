@@ -455,16 +455,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/Log-Log4perl-Appender-ScreenColoredLevels-UsingMyColors/issues",
-         "date" : "2022-01-09",
+         "date" : "2024-02-03",
          "dist" : "Log-Log4perl-Appender-ScreenColoredLevels-UsingMyColors",
          "insecure_repo" : false,
-         "name" : "Log-Log4perl-Appender-ScreenColoredLevels-UsingMyColors-0.114",
+         "name" : "Log-Log4perl-Appender-ScreenColoredLevels-UsingMyColors-0.115",
          "repo" : "https://github.com/briandfoy/Log-Log4perl-Appender-ScreenColoredLevels-UsingMyColors",
          "repo_def_branch" : "master",
          "repo_name" : "Log-Log4perl-Appender-ScreenColoredLevels-UsingMyColors",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "0.114"
+         "ver" : "0.115"
       },
       {
          "auth" : "BDFOY",
