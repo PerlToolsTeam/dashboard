@@ -1097,16 +1097,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/test-uri/issues",
-         "date" : "2022-01-09",
+         "date" : "2024-02-04",
          "dist" : "Test-URI",
          "insecure_repo" : false,
-         "name" : "Test-URI-1.084",
+         "name" : "Test-URI-1.085",
          "repo" : "https://github.com/briandfoy/test-uri",
          "repo_def_branch" : "master",
          "repo_name" : "test-uri",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.084"
+         "ver" : "1.085"
       },
       {
          "auth" : "BDFOY",
@@ -1139,16 +1139,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/tie-cycle/issues",
-         "date" : "2022-01-08",
+         "date" : "2024-02-04",
          "dist" : "Tie-Cycle",
          "insecure_repo" : false,
-         "name" : "Tie-Cycle-1.227",
+         "name" : "Tie-Cycle-1.228",
          "repo" : "https://github.com/briandfoy/tie-cycle",
          "repo_def_branch" : "master",
          "repo_name" : "tie-cycle",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.227"
+         "ver" : "1.228"
       },
       {
          "auth" : "BDFOY",

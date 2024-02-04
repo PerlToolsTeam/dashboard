@@ -320,6 +320,18 @@
       },
       {
          "auth" : "MANWAR",
+         "date" : "2024-02-04",
+         "dist" : "Crypt-Image",
+         "insecure_repo" : false,
+         "name" : "Crypt-Image-0.15",
+         "repo" : "https://github.com/manwar/Crypt-Image",
+         "repo_def_branch" : null,
+         "repo_name" : "Crypt-Image",
+         "repo_owner" : "manwar",
+         "ver" : "0.15"
+      },
+      {
+         "auth" : "MANWAR",
          "date" : "2019-09-23",
          "dist" : "Crypt-Trifid",
          "insecure_repo" : false,
