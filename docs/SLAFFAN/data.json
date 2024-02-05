@@ -110,7 +110,7 @@
          "insecure_repo" : false,
          "name" : "Alien-patchelf-0.08",
          "repo" : "https://github.com/PerlAlien/Alien-patchelf",
-         "repo_def_branch" : "main",
+         "repo_def_branch" : "",
          "repo_name" : "Alien-patchelf",
          "repo_owner" : "PerlAlien",
          "uses_rt" : false,

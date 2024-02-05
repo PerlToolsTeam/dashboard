@@ -850,7 +850,7 @@
          "insecure_repo" : false,
          "name" : "ReturnValue-0.903",
          "repo" : "https://github.com/perlreview/returnvalue",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "returnvalue",
          "repo_owner" : "perlreview",
          "uses_rt" : false,
