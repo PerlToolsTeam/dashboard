@@ -1153,16 +1153,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/tie-stringarray/issues",
-         "date" : "2022-01-09",
+         "date" : "2024-02-05",
          "dist" : "Tie-StringArray",
          "insecure_repo" : false,
-         "name" : "Tie-StringArray-1.103",
+         "name" : "Tie-StringArray-1.104",
          "repo" : "https://github.com/briandfoy/tie-stringarray",
          "repo_def_branch" : "master",
          "repo_name" : "tie-stringarray",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.103"
+         "ver" : "1.104"
       },
       {
          "auth" : "BDFOY",
