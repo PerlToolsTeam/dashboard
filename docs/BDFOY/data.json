@@ -175,16 +175,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/business-isbn-data/issues",
-         "date" : "2024-01-26",
+         "date" : "2024-02-06",
          "dist" : "Business-ISBN-Data",
          "insecure_repo" : false,
-         "name" : "Business-ISBN-Data-20240126.001",
+         "name" : "Business-ISBN-Data-20240206.001",
          "repo" : "https://github.com/briandfoy/business-isbn-data",
          "repo_def_branch" : "master",
          "repo_name" : "business-isbn-data",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "20240126.001"
+         "ver" : "20240206.001"
       },
       {
          "auth" : "BDFOY",
@@ -1167,16 +1167,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/tie-timely/issues",
-         "date" : "2022-01-21",
+         "date" : "2024-02-06",
          "dist" : "Tie-Timely",
          "insecure_repo" : false,
-         "name" : "Tie-Timely-1.024",
+         "name" : "Tie-Timely-1.025",
          "repo" : "https://github.com/briandfoy/tie-timely",
          "repo_def_branch" : "master",
          "repo_name" : "tie-timely",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.024"
+         "ver" : "1.025"
       },
       {
          "auth" : "BDFOY",
