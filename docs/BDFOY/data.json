@@ -565,16 +565,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/module-extract-use/issues",
-         "date" : "2022-01-09",
+         "date" : "2024-02-05",
          "dist" : "Module-Extract-Use",
          "insecure_repo" : false,
-         "name" : "Module-Extract-Use-1.051",
+         "name" : "Module-Extract-Use-1.052",
          "repo" : "https://github.com/briandfoy/module-extract-use",
          "repo_def_branch" : "master",
          "repo_name" : "module-extract-use",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.051"
+         "ver" : "1.052"
       },
       {
          "auth" : "BDFOY",
@@ -1180,17 +1180,15 @@
       },
       {
          "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/tie-toggle/issues",
-         "date" : "2022-01-08",
+         "date" : "2024-02-05",
          "dist" : "Tie-Toggle",
          "insecure_repo" : false,
-         "name" : "Tie-Toggle-1.084",
+         "name" : "Tie-Toggle-1.085",
          "repo" : "https://github.com/briandfoy/tie-toggle",
          "repo_def_branch" : "master",
          "repo_name" : "tie-toggle",
          "repo_owner" : "briandfoy",
-         "uses_rt" : false,
-         "ver" : "1.084"
+         "ver" : "1.085"
       },
       {
          "auth" : "BDFOY",
