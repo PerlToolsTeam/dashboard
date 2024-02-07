@@ -888,20 +888,6 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://github.com/michal-josef-spacek/Data-HTML-Button/issues",
-         "date" : "2023-07-06",
-         "dist" : "Data-HTML-Button",
-         "insecure_repo" : false,
-         "name" : "Data-HTML-Button-0.05",
-         "repo" : "git://github.com/michal-josef-spacek/Data-HTML-Button",
-         "repo_def_branch" : "main",
-         "repo_name" : "Data-HTML-Button",
-         "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : false,
-         "ver" : "0.05"
-      },
-      {
-         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-HTML-Element/issues",
          "date" : "2024-02-04",
          "dist" : "Data-HTML-Element",
@@ -913,34 +899,6 @@
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
          "ver" : "0.10"
-      },
-      {
-         "auth" : "SKIM",
-         "bugtracker" : "https://github.com/michal-josef-spacek/Data-HTML-Form/issues",
-         "date" : "2023-12-29",
-         "dist" : "Data-HTML-Form",
-         "insecure_repo" : false,
-         "name" : "Data-HTML-Form-0.07",
-         "repo" : "git://github.com/michal-josef-spacek/Data-HTML-Form",
-         "repo_def_branch" : "main",
-         "repo_name" : "Data-HTML-Form",
-         "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : false,
-         "ver" : "0.07"
-      },
-      {
-         "auth" : "SKIM",
-         "bugtracker" : "https://github.com/michal-josef-spacek/Data-HTML-Textarea/issues",
-         "date" : "2023-12-30",
-         "dist" : "Data-HTML-Textarea",
-         "insecure_repo" : false,
-         "name" : "Data-HTML-Textarea-0.02",
-         "repo" : "git://github.com/michal-josef-spacek/Data-HTML-Textarea",
-         "repo_def_branch" : null,
-         "repo_name" : "Data-HTML-Textarea",
-         "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : false,
-         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",
