@@ -2414,6 +2414,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-ChangePassword/issues",
+         "date" : "2024-02-08",
+         "dist" : "Plack-App-ChangePassword",
+         "insecure_repo" : false,
+         "name" : "Plack-App-ChangePassword-0.01",
+         "repo" : "git://github.com/michal-josef-spacek/Plack-App-ChangePassword",
+         "repo_def_branch" : null,
+         "repo_name" : "Plack-App-ChangePassword",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.01"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-Data-Printer/issues",
          "date" : "2022-05-09",
          "dist" : "Plack-App-Data-Printer",
@@ -2793,16 +2807,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-ChangePassword/issues",
-         "date" : "2024-02-07",
+         "date" : "2024-02-08",
          "dist" : "Tags-HTML-ChangePassword",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-ChangePassword-0.01",
+         "name" : "Tags-HTML-ChangePassword-0.02",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-ChangePassword",
          "repo_def_branch" : null,
          "repo_name" : "Tags-HTML-ChangePassword",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",
