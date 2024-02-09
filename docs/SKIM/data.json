@@ -2415,16 +2415,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-ChangePassword/issues",
-         "date" : "2024-02-08",
+         "date" : "2024-02-09",
          "dist" : "Plack-App-ChangePassword",
          "insecure_repo" : false,
-         "name" : "Plack-App-ChangePassword-0.01",
+         "name" : "Plack-App-ChangePassword-0.02",
          "repo" : "git://github.com/michal-josef-spacek/Plack-App-ChangePassword",
          "repo_def_branch" : null,
          "repo_name" : "Plack-App-ChangePassword",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",
