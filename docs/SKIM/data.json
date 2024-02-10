@@ -2414,6 +2414,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-ChangePassword/issues",
+         "date" : "2024-02-10",
+         "dist" : "Plack-App-ChangePassword",
+         "insecure_repo" : false,
+         "name" : "Plack-App-ChangePassword-0.03",
+         "repo" : "git://github.com/michal-josef-spacek/Plack-App-ChangePassword",
+         "repo_def_branch" : null,
+         "repo_name" : "Plack-App-ChangePassword",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.03"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-Data-Printer/issues",
          "date" : "2022-05-09",
          "dist" : "Plack-App-Data-Printer",
