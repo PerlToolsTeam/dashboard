@@ -160,17 +160,17 @@
       },
       {
          "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/business-isbn/issues",
-         "date" : "2023-03-23",
-         "dist" : "Business-ISBN",
+         "bugtracker" : "https://github.com/briandfoy/business-isbn-data/issues",
+         "date" : "2024-02-09",
+         "dist" : "Business-ISBN-Data",
          "insecure_repo" : false,
-         "name" : "Business-ISBN-3.008",
-         "repo" : "https://github.com/briandfoy/business-isbn",
+         "name" : "Business-ISBN-Data-20240209.001",
+         "repo" : "https://github.com/briandfoy/business-isbn-data",
          "repo_def_branch" : "master",
-         "repo_name" : "business-isbn",
+         "repo_name" : "business-isbn-data",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "3.008"
+         "ver" : "20240209.001"
       },
       {
          "auth" : "BDFOY",
@@ -519,34 +519,6 @@
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
          "ver" : "1.024"
-      },
-      {
-         "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/module-extract-declaredversion/issues",
-         "date" : "2022-01-21",
-         "dist" : "Module-Extract-DeclaredVersion",
-         "insecure_repo" : false,
-         "name" : "Module-Extract-DeclaredVersion-1.024",
-         "repo" : "https://github.com/briandfoy/module-extract-declaredversion",
-         "repo_def_branch" : "master",
-         "repo_name" : "module-extract-declaredversion",
-         "repo_owner" : "briandfoy",
-         "uses_rt" : false,
-         "ver" : "1.024"
-      },
-      {
-         "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/module-extract-namespaces/issues",
-         "date" : "2022-01-21",
-         "dist" : "Module-Extract-Namespaces",
-         "insecure_repo" : false,
-         "name" : "Module-Extract-Namespaces-1.023",
-         "repo" : "https://github.com/briandfoy/module-extract-namespaces",
-         "repo_def_branch" : "master",
-         "repo_name" : "module-extract-namespaces",
-         "repo_owner" : "briandfoy",
-         "uses_rt" : false,
-         "ver" : "1.023"
       },
       {
          "auth" : "BDFOY",
