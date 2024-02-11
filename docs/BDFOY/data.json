@@ -174,20 +174,6 @@
       },
       {
          "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/business-ismn/issues",
-         "date" : "2023-03-16",
-         "dist" : "Business-ISMN",
-         "insecure_repo" : false,
-         "name" : "Business-ISMN-1.203",
-         "repo" : "https://github.com/briandfoy/business-ismn",
-         "repo_def_branch" : "master",
-         "repo_name" : "business-ismn",
-         "repo_owner" : "briandfoy",
-         "uses_rt" : false,
-         "ver" : "1.203"
-      },
-      {
-         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/business-issn/issues",
          "date" : "2022-02-18",
          "dist" : "Business-ISSN",
@@ -536,20 +522,6 @@
       },
       {
          "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/module-extract-version/issues",
-         "date" : "2022-10-25",
-         "dist" : "Module-Extract-VERSION",
-         "insecure_repo" : false,
-         "name" : "Module-Extract-VERSION-1.116",
-         "repo" : "https://github.com/briandfoy/module-extract-version",
-         "repo_def_branch" : "master",
-         "repo_name" : "module-extract-version",
-         "repo_owner" : "briandfoy",
-         "uses_rt" : false,
-         "ver" : "1.116"
-      },
-      {
-         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/module-release/issues",
          "date" : "2024-01-08",
          "dist" : "Module-Release",
@@ -830,20 +802,6 @@
       },
       {
          "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/set-crossproduct/issues",
-         "date" : "2022-03-15",
-         "dist" : "Set-CrossProduct",
-         "insecure_repo" : false,
-         "name" : "Set-CrossProduct-2.008",
-         "repo" : "https://github.com/briandfoy/set-crossproduct",
-         "repo_def_branch" : "master",
-         "repo_name" : "set-crossproduct",
-         "repo_owner" : "briandfoy",
-         "uses_rt" : false,
-         "ver" : "2.008"
-      },
-      {
-         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/sort-fields/issues",
          "date" : "2021-01-04",
          "dist" : "Sort-Fields",
@@ -869,20 +827,6 @@
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
          "ver" : "1.022"
-      },
-      {
-         "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/string-sprintf/issues",
-         "date" : "2022-02-02",
-         "dist" : "String-Sprintf",
-         "insecure_repo" : false,
-         "name" : "String-Sprintf-1.002",
-         "repo" : "https://github.com/briandfoy/string-sprintf",
-         "repo_def_branch" : "master",
-         "repo_name" : "string-sprintf",
-         "repo_owner" : "briandfoy",
-         "uses_rt" : false,
-         "ver" : "1.002"
       },
       {
          "auth" : "BDFOY",
