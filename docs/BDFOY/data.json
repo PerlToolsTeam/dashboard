@@ -76,20 +76,6 @@
       },
       {
          "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/app-bcrypt/issues",
-         "date" : "2023-06-14",
-         "dist" : "App-bcrypt",
-         "insecure_repo" : false,
-         "name" : "App-bcrypt-1.001",
-         "repo" : "https://github.com/briandfoy/app-bcrypt",
-         "repo_def_branch" : "master",
-         "repo_name" : "app-bcrypt",
-         "repo_owner" : "briandfoy",
-         "uses_rt" : false,
-         "ver" : "1.001"
-      },
-      {
-         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/scriptdist/issues",
          "date" : "2024-01-08",
          "dist" : "App-scriptdist",
@@ -269,20 +255,6 @@
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
          "ver" : "1.204"
-      },
-      {
-         "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/distribution-cooker/issues",
-         "date" : "2023-04-02",
-         "dist" : "Distribution-Cooker",
-         "insecure_repo" : false,
-         "name" : "Distribution-Cooker-2.002",
-         "repo" : "https://github.com/briandfoy/distribution-cooker",
-         "repo_def_branch" : "master",
-         "repo_name" : "distribution-cooker",
-         "repo_owner" : "briandfoy",
-         "uses_rt" : false,
-         "ver" : "2.002"
       },
       {
          "auth" : "BDFOY",
@@ -634,20 +606,6 @@
       },
       {
          "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/net-publicsuffixlist/issues",
-         "date" : "2022-03-19",
-         "dist" : "Net-PublicSuffixList",
-         "insecure_repo" : false,
-         "name" : "Net-PublicSuffixList-0.502",
-         "repo" : "https://github.com/briandfoy/net-publicsuffixlist",
-         "repo_def_branch" : "master",
-         "repo_name" : "net-publicsuffixlist",
-         "repo_owner" : "briandfoy",
-         "uses_rt" : false,
-         "ver" : "0.502"
-      },
-      {
-         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/net-ssh-perl/issues",
          "date" : "2023-08-07",
          "dist" : "Net-SSH-Perl",
@@ -780,7 +738,7 @@
          "insecure_repo" : false,
          "name" : "ReturnValue-0.903",
          "repo" : "https://github.com/perlreview/returnvalue",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "returnvalue",
          "repo_owner" : "perlreview",
          "uses_rt" : false,

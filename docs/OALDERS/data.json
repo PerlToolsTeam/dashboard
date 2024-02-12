@@ -894,7 +894,7 @@
          "insecure_repo" : false,
          "name" : "WebService-PayPal-NVP-0.006",
          "repo" : "https://github.com/bradhaywood/WebService-PayPal-NVP",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "WebService-PayPal-NVP",
          "repo_owner" : "bradhaywood",
          "uses_rt" : false,

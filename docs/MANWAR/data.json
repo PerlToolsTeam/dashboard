@@ -25,7 +25,7 @@
          "insecure_repo" : false,
          "name" : "Address-PostCode-Australia-0.12",
          "repo" : "https://github.com/manwar/Address-PostCode-Australia",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Address-PostCode-Australia",
          "repo_owner" : "manwar",
          "ver" : "0.12"
@@ -37,7 +37,7 @@
          "insecure_repo" : false,
          "name" : "Address-PostCode-India-0.13",
          "repo" : "https://github.com/Manwar/Address-PostCode-India",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Address-PostCode-India",
          "repo_owner" : "Manwar",
          "ver" : "0.13"
@@ -61,7 +61,7 @@
          "insecure_repo" : false,
          "name" : "Address-PostCode-UserAgent-0.09",
          "repo" : "https://github.com/Manwar/Address-PostCode-UserAgent",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Address-PostCode-UserAgent",
          "repo_owner" : "Manwar",
          "ver" : "0.09"
@@ -73,7 +73,7 @@
          "insecure_repo" : false,
          "name" : "App-Search-BackPAN-0.06",
          "repo" : "https://github.com/manwar/App-Search-BackPAN",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "App-Search-BackPAN",
          "repo_owner" : "manwar",
          "ver" : "0.06"
@@ -97,7 +97,7 @@
          "insecure_repo" : false,
          "name" : "App-ValidateBankAccount-0.10",
          "repo" : "https://github.com/manwar/App-ValidateBankAccount",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "App-ValidateBankAccount",
          "repo_owner" : "manwar",
          "ver" : "0.10"
@@ -133,7 +133,7 @@
          "insecure_repo" : false,
          "name" : "BankAccount-Validator-UK-0.65",
          "repo" : "https://github.com/manwar/BankAccount-Validator-UK",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "BankAccount-Validator-UK",
          "repo_owner" : "manwar",
          "ver" : "0.65"
@@ -157,7 +157,7 @@
          "insecure_repo" : false,
          "name" : "CPAN-Search-Tester-0.04",
          "repo" : "https://github.com/Manwar/CPAN-Search-Tester",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "CPAN-Search-Tester",
          "repo_owner" : "Manwar",
          "ver" : "0.04"
@@ -169,7 +169,7 @@
          "insecure_repo" : false,
          "name" : "CPANTS-Kwalitee-Report-0.11",
          "repo" : "https://github.com/manwar/CPANTS-Kwalitee-Report",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "CPANTS-Kwalitee-Report",
          "repo_owner" : "manwar",
          "ver" : "0.11"
@@ -193,7 +193,7 @@
          "insecure_repo" : false,
          "name" : "Calendar-Gregorian-0.25",
          "repo" : "https://github.com/manwar/Calendar-Gregorian",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Calendar-Gregorian",
          "repo_owner" : "manwar",
          "ver" : "0.25"
@@ -205,7 +205,7 @@
          "insecure_repo" : false,
          "name" : "Calendar-Hebrew-0.15",
          "repo" : "https://github.com/manwar/Calendar-Hebrew",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Calendar-Hebrew",
          "repo_owner" : "manwar",
          "ver" : "0.15"
@@ -253,7 +253,7 @@
          "insecure_repo" : false,
          "name" : "Calendar-Plugin-Renderer-0.16",
          "repo" : "https://github.com/manwar/Calendar-Plugin-Renderer",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Calendar-Plugin-Renderer",
          "repo_owner" : "manwar",
          "ver" : "0.16"
@@ -265,7 +265,7 @@
          "insecure_repo" : false,
          "name" : "Calendar-Saka-1.44",
          "repo" : "https://github.com/manwar/Calendar-Saka",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Calendar-Saka",
          "repo_owner" : "manwar",
          "ver" : "1.44"
@@ -313,7 +313,7 @@
          "insecure_repo" : false,
          "name" : "Crypt-Hill-0.12",
          "repo" : "https://github.com/manwar/Crypt-Hill",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Crypt-Hill",
          "repo_owner" : "manwar",
          "ver" : "0.12"
@@ -349,7 +349,7 @@
          "insecure_repo" : false,
          "name" : "Dancer2-Plugin-Captcha-0.14",
          "repo" : "https://github.com/manwar/Dancer2-Plugin-Captcha",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Captcha",
          "repo_owner" : "manwar",
          "ver" : "0.14"
@@ -373,7 +373,7 @@
          "insecure_repo" : false,
          "name" : "Dancer2-Plugin-Map-Tube-0.04",
          "repo" : "https://github.com/manwar/Dancer2-Plugin-Map-Tube",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Map-Tube",
          "repo_owner" : "manwar",
          "ver" : "0.04"
@@ -547,7 +547,7 @@
          "insecure_repo" : false,
          "name" : "Date-Julian-Simple-0.17",
          "repo" : "https://github.com/manwar/Date-Julian-Simple",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Date-Julian-Simple",
          "repo_owner" : "manwar",
          "ver" : "0.17"
@@ -559,7 +559,7 @@
          "insecure_repo" : false,
          "name" : "Date-Persian-Simple-0.25",
          "repo" : "https://github.com/manwar/Date-Persian-Simple",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Date-Persian-Simple",
          "repo_owner" : "manwar",
          "ver" : "0.25"
@@ -609,7 +609,7 @@
          "insecure_repo" : false,
          "name" : "Devel-Timer-0.14",
          "repo" : "https://github.com/manwar/Devel-Timer",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Devel-Timer",
          "repo_owner" : "manwar",
          "ver" : "0.14"
@@ -657,7 +657,7 @@
          "insecure_repo" : false,
          "name" : "File-Same-0.11",
          "repo" : "https://github.com/manwar/File-Same",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "File-Same",
          "repo_owner" : "manwar",
          "ver" : "0.11"
@@ -669,7 +669,7 @@
          "insecure_repo" : true,
          "name" : "Filesys-DiskUsage-0.13",
          "repo" : "http://github.com/manwar/Filesys-DiskUsage",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Filesys-DiskUsage",
          "repo_owner" : "manwar",
          "ver" : "0.13"
@@ -717,7 +717,7 @@
          "insecure_repo" : false,
          "name" : "Games-TicTacToe-0.26",
          "repo" : "https://github.com/manwar/Games-TicTacToe",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Games-TicTacToe",
          "repo_owner" : "manwar",
          "ver" : "0.26"
@@ -741,7 +741,7 @@
          "insecure_repo" : false,
          "name" : "IP-CountryFlag-0.14",
          "repo" : "https://github.com/manwar/IP-CountryFlag",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "IP-CountryFlag",
          "repo_owner" : "manwar",
          "ver" : "0.14"
@@ -765,7 +765,7 @@
          "insecure_repo" : false,
          "name" : "LWP-UserAgent-Anonymous-0.09",
          "repo" : "https://github.com/Manwar/LWP-UserAgent-Anonymous",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "LWP-UserAgent-Anonymous",
          "repo_owner" : "Manwar",
          "ver" : "0.09"
@@ -777,7 +777,7 @@
          "insecure_repo" : false,
          "name" : "Lingua-IND-Numbers-0.12",
          "repo" : "https://github.com/manwar/Lingua-IND-Numbers",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Lingua-IND-Numbers",
          "repo_owner" : "manwar",
          "ver" : "0.12"
@@ -813,7 +813,7 @@
          "insecure_repo" : false,
          "name" : "Map-Tube-Barcelona-0.76",
          "repo" : "https://github.com/manwar/Map-Tube-Barcelona",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Barcelona",
          "repo_owner" : "manwar",
          "ver" : "0.76"
@@ -825,7 +825,7 @@
          "insecure_repo" : false,
          "name" : "Map-Tube-CLI-0.68",
          "repo" : "https://github.com/manwar/Map-Tube-CLI",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-CLI",
          "repo_owner" : "manwar",
          "ver" : "0.68"
@@ -837,7 +837,7 @@
          "insecure_repo" : false,
          "name" : "Map-Tube-Cookbook-0.08",
          "repo" : "https://github.com/manwar/Map-Tube-Cookbook",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Cookbook",
          "repo_owner" : "manwar",
          "ver" : "0.08"
@@ -849,7 +849,7 @@
          "insecure_repo" : false,
          "name" : "Map-Tube-Delhi-0.97",
          "repo" : "https://github.com/manwar/Map-Tube-Delhi",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Delhi",
          "repo_owner" : "manwar",
          "ver" : "0.97"
@@ -861,7 +861,7 @@
          "insecure_repo" : false,
          "name" : "Map-Tube-Exception-3.21",
          "repo" : "https://github.com/Manwar/Map-Tube-Exception",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Exception",
          "repo_owner" : "Manwar",
          "ver" : "3.21"
@@ -897,7 +897,7 @@
          "insecure_repo" : false,
          "name" : "Map-Tube-Madrid-0.39",
          "repo" : "https://github.com/manwar/Map-Tube-Madrid",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Madrid",
          "repo_owner" : "manwar",
          "ver" : "0.39"
@@ -933,7 +933,7 @@
          "insecure_repo" : false,
          "name" : "Map-Tube-Plugin-Graph-0.42",
          "repo" : "https://github.com/manwar/Map-Tube-Plugin-Graph",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Plugin-Graph",
          "repo_owner" : "manwar",
          "ver" : "0.42"
@@ -969,7 +969,7 @@
          "insecure_repo" : false,
          "name" : "Method-ParamValidator-0.16",
          "repo" : "https://github.com/manwar/Method-ParamValidator",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Method-ParamValidator",
          "repo_owner" : "manwar",
          "ver" : "0.16"
@@ -993,7 +993,7 @@
          "insecure_repo" : false,
          "name" : "Net-Backpack-1.15",
          "repo" : "https://github.com/manwar/net-backpack",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "net-backpack",
          "repo_owner" : "manwar",
          "ver" : "1.15"
@@ -1032,7 +1032,7 @@
          "insecure_repo" : true,
          "name" : "Pod-Tree-1.31",
          "repo" : "http://github.com/manwar/Pod-Tree",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Pod-Tree",
          "repo_owner" : "manwar",
          "uses_rt" : false,
@@ -1069,7 +1069,7 @@
          "insecure_repo" : false,
          "name" : "Syntax-Highlight-Engine-Kate-0.14",
          "repo" : "https://github.com/szabgab/Syntax-Highlight-Engine-Kate",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Syntax-Highlight-Engine-Kate",
          "repo_owner" : "szabgab",
          "ver" : "0.14"
@@ -1081,7 +1081,7 @@
          "insecure_repo" : false,
          "name" : "Task-Calendar-0.46",
          "repo" : "https://github.com/manwar/Task-Calendar",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Task-Calendar",
          "repo_owner" : "manwar",
          "ver" : "0.46"
@@ -1105,7 +1105,7 @@
          "insecure_repo" : false,
          "name" : "Term-Screen-Lite-0.06",
          "repo" : "https://github.com/Manwar/Term-Screen-Lite",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Term-Screen-Lite",
          "repo_owner" : "Manwar",
          "ver" : "0.06"
@@ -1118,7 +1118,7 @@
          "insecure_repo" : false,
          "name" : "Test-CSS-0.09",
          "repo" : "https://github.com/manwar/Test-CSS",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Test-CSS",
          "repo_owner" : "manwar",
          "uses_rt" : false,
@@ -1143,7 +1143,7 @@
          "insecure_repo" : false,
          "name" : "Test-Internet-0.07",
          "repo" : "https://github.com/manwar/Test-Internet",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Test-Internet",
          "repo_owner" : "manwar",
          "ver" : "0.07"
@@ -1195,7 +1195,7 @@
          "insecure_repo" : false,
          "name" : "Text-CSV-Pivot-0.09",
          "repo" : "https://github.com/manwar/Text-CSV-Pivot",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "Text-CSV-Pivot",
          "repo_owner" : "manwar",
          "ver" : "0.09"
@@ -1245,7 +1245,7 @@
          "insecure_repo" : false,
          "name" : "URL-Check-0.11",
          "repo" : "https://github.com/manwar/URL-Check",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "URL-Check",
          "repo_owner" : "manwar",
          "ver" : "0.11"
@@ -1281,7 +1281,7 @@
          "insecure_repo" : false,
          "name" : "WWW-Google-DistanceMatrix-0.21",
          "repo" : "https://github.com/manwar/WWW-Google-DistanceMatrix",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-DistanceMatrix",
          "repo_owner" : "manwar",
          "ver" : "0.21"
@@ -1317,7 +1317,7 @@
          "insecure_repo" : false,
          "name" : "WWW-Google-Places-0.37",
          "repo" : "https://github.com/manwar/WWW-Google-Places",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-Places",
          "repo_owner" : "manwar",
          "ver" : "0.37"
@@ -1341,7 +1341,7 @@
          "insecure_repo" : false,
          "name" : "WWW-MovieReviews-NYT-0.05",
          "repo" : "https://github.com/Manwar/WWW-MovieReviews-NYT",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "WWW-MovieReviews-NYT",
          "repo_owner" : "Manwar",
          "ver" : "0.05"
@@ -1353,7 +1353,7 @@
          "insecure_repo" : false,
          "name" : "WWW-OReillyMedia-Store-0.10",
          "repo" : "https://github.com/Manwar/WWW-OReillyMedia-Store",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "WWW-OReillyMedia-Store",
          "repo_owner" : "Manwar",
          "ver" : "0.10"
@@ -1377,7 +1377,7 @@
          "insecure_repo" : false,
          "name" : "WWW-StatsMix-0.07",
          "repo" : "https://github.com/Manwar/WWW-StatsMix",
-         "repo_def_branch" : "",
+         "repo_def_branch" : "master",
          "repo_name" : "WWW-StatsMix",
          "repo_owner" : "Manwar",
          "ver" : "0.07"
