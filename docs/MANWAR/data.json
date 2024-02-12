@@ -1126,15 +1126,15 @@
       },
       {
          "auth" : "MANWAR",
-         "date" : "2022-07-04",
+         "date" : "2024-02-12",
          "dist" : "Test-Excel",
          "insecure_repo" : false,
-         "name" : "Test-Excel-1.53",
+         "name" : "Test-Excel-1.54",
          "repo" : "https://github.com/manwar/Test-Excel",
          "repo_def_branch" : "master",
          "repo_name" : "Test-Excel",
          "repo_owner" : "manwar",
-         "ver" : "1.53"
+         "ver" : "1.54"
       },
       {
          "auth" : "MANWAR",
