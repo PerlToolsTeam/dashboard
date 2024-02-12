@@ -623,16 +623,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/tokuhirom/OrePAN2/issues",
-         "date" : "2024-02-10",
+         "date" : "2024-02-12",
          "dist" : "OrePAN2",
          "insecure_repo" : false,
-         "name" : "OrePAN2-0.50",
+         "name" : "OrePAN2-0.51",
          "repo" : "https://github.com/tokuhirom/OrePAN2",
          "repo_def_branch" : "master",
          "repo_name" : "OrePAN2",
          "repo_owner" : "tokuhirom",
          "uses_rt" : false,
-         "ver" : "0.50"
+         "ver" : "0.51"
       },
       {
          "auth" : "OALDERS",
