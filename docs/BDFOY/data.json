@@ -426,18 +426,6 @@
       },
       {
          "auth" : "BDFOY",
-         "date" : "2023-06-07",
-         "dist" : "Mac-OSVersion",
-         "insecure_repo" : false,
-         "name" : "Mac-OSVersion-1.009",
-         "repo" : "https://github.com/briandfoy/mac-osversion",
-         "repo_def_branch" : "master",
-         "repo_name" : "mac-osversion",
-         "repo_owner" : "briandfoy",
-         "ver" : "1.009"
-      },
-      {
-         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/mac-propertylist/issues",
          "date" : "2022-07-08",
          "dist" : "Mac-PropertyList",
