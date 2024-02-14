@@ -63,16 +63,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/CGI-Lingua/issues",
-         "date" : "2023-05-23",
+         "date" : "2024-02-14",
          "dist" : "CGI-Lingua",
          "insecure_repo" : false,
-         "name" : "CGI-Lingua-0.65",
+         "name" : "CGI-Lingua-0.66",
          "repo" : "https://github.com/nigelhorne/CGI-Lingua",
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Lingua",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.65"
+         "ver" : "0.66"
       },
       {
          "auth" : "NHORNE",
