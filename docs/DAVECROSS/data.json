@@ -480,20 +480,6 @@
       },
       {
          "auth" : "DAVECROSS",
-         "bugtracker" : "https://github.com/davorg/template-provider-pandoc/issues",
-         "date" : "2020-12-23",
-         "dist" : "Template-Provider-Pandoc",
-         "insecure_repo" : false,
-         "name" : "Template-Provider-Pandoc-0.0.4",
-         "repo" : "https://github.com/davorg/template-provider-pandoc",
-         "repo_def_branch" : "",
-         "repo_name" : "template-provider-pandoc",
-         "repo_owner" : "davorg",
-         "uses_rt" : false,
-         "ver" : "v0.0.4"
-      },
-      {
-         "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/tie-hash-cannabinol/issues",
          "date" : "2023-05-25",
          "dist" : "Tie-Hash-Cannabinol",
