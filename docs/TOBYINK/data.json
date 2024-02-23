@@ -3,7 +3,7 @@
       "cpan" : "TOBYINK",
       "github" : "tobyink",
       "gravatar" : "https://secure.gravatar.com/avatar/f8faf2a422aecd1007b7d54c19ce7f39?s=130&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Ff8faf2a422aecd1007b7d54c19ce7f39%3Fs%3D130%26d%3Didenticon",
-      "name" : "Toby Inkster ð¿"
+      "name" : "Toby Inkster"
    },
    "ci" : {
       "gh_workflow_names" : [
