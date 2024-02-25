@@ -257,16 +257,16 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/p5-number-fraction/number-fraction/issues",
-         "date" : "2021-04-15",
+         "date" : "2024-02-25",
          "dist" : "Number-Fraction",
          "insecure_repo" : false,
-         "name" : "Number-Fraction-v3.0.4",
+         "name" : "Number-Fraction-v3.0.5",
          "repo" : "https://github.com/p5-number-fraction/number-fraction",
          "repo_def_branch" : "master",
          "repo_name" : "number-fraction",
          "repo_owner" : "p5-number-fraction",
          "uses_rt" : false,
-         "ver" : "v3.0.4"
+         "ver" : "v3.0.5"
       },
       {
          "auth" : "DAVECROSS",
