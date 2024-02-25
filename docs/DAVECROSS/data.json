@@ -260,13 +260,13 @@
          "date" : "2024-02-25",
          "dist" : "Number-Fraction",
          "insecure_repo" : false,
-         "name" : "Number-Fraction-v3.0.5",
+         "name" : "Number-Fraction-v3.1.0",
          "repo" : "https://github.com/p5-number-fraction/number-fraction",
          "repo_def_branch" : "master",
          "repo_name" : "number-fraction",
          "repo_owner" : "p5-number-fraction",
          "uses_rt" : false,
-         "ver" : "v3.0.5"
+         "ver" : "v3.1.0"
       },
       {
          "auth" : "DAVECROSS",
