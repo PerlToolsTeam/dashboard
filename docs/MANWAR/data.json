@@ -217,7 +217,7 @@
          "insecure_repo" : false,
          "name" : "Calendar-Hijri-0.43",
          "repo" : "https://github.com/manwar/Calendar-Hijri",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "Calendar-Hijri",
          "repo_owner" : "manwar",
          "ver" : "0.43"
@@ -645,7 +645,7 @@
          "insecure_repo" : false,
          "name" : "Dist-Zilla-PluginBundle-MANWAR-0.08",
          "repo" : "https://github.com/manwar/Dist-Zilla-PluginBundle-MANWAR",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "Dist-Zilla-PluginBundle-MANWAR",
          "repo_owner" : "manwar",
          "ver" : "0.08"
@@ -885,7 +885,7 @@
          "insecure_repo" : false,
          "name" : "Map-Tube-London-1.35",
          "repo" : "https://github.com/manwar/Map-Tube-London",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "",
          "repo_name" : "Map-Tube-London",
          "repo_owner" : "manwar",
          "ver" : "1.35"
