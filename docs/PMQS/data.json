@@ -65,16 +65,16 @@
       {
          "auth" : "PMQS",
          "bugtracker" : "https://github.com/pmqs/Compress-Raw-Bzip2/issues",
-         "date" : "2024-02-20",
+         "date" : "2024-02-26",
          "dist" : "Compress-Raw-Bzip2",
          "insecure_repo" : false,
-         "name" : "Compress-Raw-Bzip2-2.209",
+         "name" : "Compress-Raw-Bzip2-2.210",
          "repo" : "https://github.com/pmqs/Compress-Raw-Bzip2",
          "repo_def_branch" : "",
          "repo_name" : "Compress-Raw-Bzip2",
          "repo_owner" : "pmqs",
          "uses_rt" : false,
-         "ver" : "2.209"
+         "ver" : "2.210"
       },
       {
          "auth" : "PMQS",
