@@ -93,16 +93,16 @@
       {
          "auth" : "PMQS",
          "bugtracker" : "https://github.com/pmqs/Compress-Raw-Zlib/issues",
-         "date" : "2024-02-19",
+         "date" : "2024-02-26",
          "dist" : "Compress-Raw-Zlib",
          "insecure_repo" : false,
-         "name" : "Compress-Raw-Zlib-2.208",
+         "name" : "Compress-Raw-Zlib-2.209",
          "repo" : "https://github.com/pmqs/Compress-Raw-Zlib",
          "repo_def_branch" : "",
          "repo_name" : "Compress-Raw-Zlib",
          "repo_owner" : "pmqs",
          "uses_rt" : false,
-         "ver" : "2.208"
+         "ver" : "2.209"
       },
       {
          "auth" : "PMQS",
