@@ -55,15 +55,15 @@
       },
       {
          "auth" : "DRCLAW",
-         "date" : "2023-09-05",
+         "date" : "2024-02-27",
          "dist" : "File-Meta-Cache",
-         "insecure_repo" : true,
-         "name" : "File-Meta-Cache-v0.2.0",
-         "repo" : "http://github.com/drclaw1394/perl-file-meta-cache",
+         "insecure_repo" : false,
+         "name" : "File-Meta-Cache-v0.3.0",
+         "repo" : "https://github.com/drclaw1394/perl-file-meta-cache",
          "repo_def_branch" : "",
          "repo_name" : "perl-file-meta-cache",
          "repo_owner" : "drclaw1394",
-         "ver" : "v0.2.0"
+         "ver" : "v0.3.0"
       },
       {
          "auth" : "DRCLAW",
