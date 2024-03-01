@@ -1264,15 +1264,15 @@
       },
       {
          "auth" : "MANWAR",
-         "date" : "2019-02-17",
+         "date" : "2024-03-01",
          "dist" : "WWW-Google-CustomSearch",
          "insecure_repo" : false,
-         "name" : "WWW-Google-CustomSearch-0.39",
+         "name" : "WWW-Google-CustomSearch-0.40",
          "repo" : "https://github.com/manwar/WWW-Google-CustomSearch",
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-CustomSearch",
          "repo_owner" : "manwar",
-         "ver" : "0.39"
+         "ver" : "0.40"
       },
       {
          "auth" : "MANWAR",
