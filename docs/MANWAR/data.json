@@ -784,15 +784,15 @@
       },
       {
          "auth" : "MANWAR",
-         "date" : "2024-01-28",
+         "date" : "2024-02-29",
          "dist" : "Map-Tube",
          "insecure_repo" : false,
-         "name" : "Map-Tube-3.69",
+         "name" : "Map-Tube-3.70",
          "repo" : "https://github.com/manwar/Map-Tube",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube",
          "repo_owner" : "manwar",
-         "ver" : "3.69"
+         "ver" : "3.70"
       },
       {
          "auth" : "MANWAR",
