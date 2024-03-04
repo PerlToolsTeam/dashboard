@@ -1014,6 +1014,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Data-Navigation-Item/issues",
+         "date" : "2024-03-04",
+         "dist" : "Data-Navigation-Item",
+         "insecure_repo" : false,
+         "name" : "Data-Navigation-Item-0.01",
+         "repo" : "git://github.com/michal-josef-spacek/Data-Navigation-Item",
+         "repo_def_branch" : null,
+         "repo_name" : "Data-Navigation-Item",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.01"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-Random-HashType/issues",
          "date" : "2023-09-02",
          "dist" : "Data-Random-HashType",
@@ -2107,30 +2121,30 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Mo-utils/issues",
-         "date" : "2024-02-11",
+         "date" : "2024-03-04",
          "dist" : "Mo-utils",
          "insecure_repo" : false,
-         "name" : "Mo-utils-0.22",
+         "name" : "Mo-utils-0.23",
          "repo" : "git://github.com/michal-josef-spacek/Mo-utils",
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.22"
+         "ver" : "0.23"
       },
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Mo-utils-CSS/issues",
-         "date" : "2024-02-03",
+         "date" : "2024-03-04",
          "dist" : "Mo-utils-CSS",
          "insecure_repo" : false,
-         "name" : "Mo-utils-CSS-0.04",
+         "name" : "Mo-utils-CSS-0.05",
          "repo" : "git://github.com/michal-josef-spacek/Mo-utils-CSS",
          "repo_def_branch" : null,
          "repo_name" : "Mo-utils-CSS",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.04"
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",
