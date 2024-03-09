@@ -225,16 +225,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Data-Text/issues",
-         "date" : "2023-07-15",
+         "date" : "2024-03-09",
          "dist" : "Data-Text",
          "insecure_repo" : false,
-         "name" : "Data-Text-0.12",
+         "name" : "Data-Text-0.13",
          "repo" : "https://github.com/nigelhorne/Data-Text",
          "repo_def_branch" : "master",
          "repo_name" : "Data-Text",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.12"
+         "ver" : "0.13"
       },
       {
          "auth" : "NHORNE",
