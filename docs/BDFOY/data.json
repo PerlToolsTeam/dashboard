@@ -175,16 +175,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/cpan-audit/issues",
-         "date" : "2024-03-03",
+         "date" : "2024-03-09",
          "dist" : "CPAN-Audit",
          "insecure_repo" : false,
-         "name" : "CPAN-Audit-20240302.001",
+         "name" : "CPAN-Audit-20240307.001",
          "repo" : "https://github.com/briandfoy/cpan-audit",
          "repo_def_branch" : "master",
          "repo_name" : "cpan-audit",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "20240302.001"
+         "ver" : "20240307.001"
       },
       {
          "auth" : "BDFOY",
@@ -637,16 +637,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/perl-version/issues",
-         "date" : "2024-01-05",
+         "date" : "2024-03-09",
          "dist" : "Perl-Version",
          "insecure_repo" : false,
-         "name" : "Perl-Version-1.016",
+         "name" : "Perl-Version-1.017",
          "repo" : "https://github.com/briandfoy/perl-version",
          "repo_def_branch" : null,
          "repo_name" : "perl-version",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "1.016"
+         "ver" : "1.017"
       },
       {
          "auth" : "BDFOY",
@@ -815,20 +815,6 @@
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
          "ver" : "20210122.001"
-      },
-      {
-         "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/test-data/issues",
-         "date" : "2024-01-29",
-         "dist" : "Test-Data",
-         "insecure_repo" : false,
-         "name" : "Test-Data-1.245",
-         "repo" : "https://github.com/briandfoy/test-data",
-         "repo_def_branch" : "master",
-         "repo_name" : "test-data",
-         "repo_owner" : "briandfoy",
-         "uses_rt" : false,
-         "ver" : "1.245"
       },
       {
          "auth" : "BDFOY",
