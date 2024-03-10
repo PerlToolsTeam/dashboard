@@ -48,6 +48,20 @@
       },
       {
          "auth" : "PETDANCE",
+         "bugtracker" : "https://github.com/petdance/html-tagset/issues",
+         "date" : "2024-03-10",
+         "dist" : "HTML-Tagset",
+         "insecure_repo" : false,
+         "name" : "HTML-Tagset-3.22",
+         "repo" : "https://github.com/petdance/html-tagset",
+         "repo_def_branch" : null,
+         "repo_name" : "html-tagset",
+         "repo_owner" : "petdance",
+         "uses_rt" : false,
+         "ver" : "3.22"
+      },
+      {
+         "auth" : "PETDANCE",
          "bugtracker" : "http://github.com/petdance/html-tidy/issues",
          "date" : "2017-09-13",
          "dist" : "HTML-Tidy",
