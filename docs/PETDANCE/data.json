@@ -49,16 +49,16 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/petdance/html-tagset/issues",
-         "date" : "2024-03-10",
+         "date" : "2024-03-11",
          "dist" : "HTML-Tagset",
          "insecure_repo" : false,
-         "name" : "HTML-Tagset-3.22",
+         "name" : "HTML-Tagset-3.24",
          "repo" : "https://github.com/petdance/html-tagset",
          "repo_def_branch" : null,
          "repo_name" : "html-tagset",
          "repo_owner" : "petdance",
          "uses_rt" : false,
-         "ver" : "3.22"
+         "ver" : "3.24"
       },
       {
          "auth" : "PETDANCE",
