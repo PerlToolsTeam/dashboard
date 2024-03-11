@@ -650,6 +650,20 @@
       },
       {
          "auth" : "OALDERS",
+         "bugtracker" : "https://github.com/Perl-Critic/PPI/issues",
+         "date" : "2024-03-11",
+         "dist" : "PPI",
+         "insecure_repo" : false,
+         "name" : "PPI-1.278",
+         "repo" : "https://github.com/Perl-Critic/PPI",
+         "repo_def_branch" : null,
+         "repo_name" : "PPI",
+         "repo_owner" : "Perl-Critic",
+         "uses_rt" : false,
+         "ver" : "1.278"
+      },
+      {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/Perl-Critic-Policy-ProhibitImplicitImport/issues",
          "date" : "2021-02-19",
          "dist" : "Perl-Critic-Policy-ProhibitImplicitImport",
@@ -959,16 +973,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/libwww-perl/issues",
-         "date" : "2024-01-25",
+         "date" : "2024-03-11",
          "dist" : "libwww-perl",
          "insecure_repo" : false,
-         "name" : "libwww-perl-6.76",
+         "name" : "libwww-perl-6.77",
          "repo" : "https://github.com/libwww-perl/libwww-perl",
          "repo_def_branch" : "master",
          "repo_name" : "libwww-perl",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "6.76"
+         "ver" : "6.77"
       }
    ],
    "sort" : {
