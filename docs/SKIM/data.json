@@ -1043,16 +1043,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-Random-HashType/issues",
-         "date" : "2023-09-02",
+         "date" : "2024-03-14",
          "dist" : "Data-Random-HashType",
          "insecure_repo" : false,
-         "name" : "Data-Random-HashType-0.01",
+         "name" : "Data-Random-HashType-0.02",
          "repo" : "git://github.com/michal-josef-spacek/Data-Random-HashType",
          "repo_def_branch" : "main",
          "repo_name" : "Data-Random-HashType",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",
@@ -2135,16 +2135,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Mo-utils/issues",
-         "date" : "2024-03-07",
+         "date" : "2024-03-14",
          "dist" : "Mo-utils",
          "insecure_repo" : false,
-         "name" : "Mo-utils-0.24",
+         "name" : "Mo-utils-0.25",
          "repo" : "git://github.com/michal-josef-spacek/Mo-utils",
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.24"
+         "ver" : "0.25"
       },
       {
          "auth" : "SKIM",
