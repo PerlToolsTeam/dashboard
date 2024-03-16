@@ -2737,16 +2737,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Random-AcademicTitle-CZ/issues",
-         "date" : "2023-08-29",
+         "date" : "2024-03-16",
          "dist" : "Random-AcademicTitle-CZ",
          "insecure_repo" : false,
-         "name" : "Random-AcademicTitle-CZ-0.02",
+         "name" : "Random-AcademicTitle-CZ-0.03",
          "repo" : "git://github.com/michal-josef-spacek/Random-AcademicTitle-CZ",
          "repo_def_branch" : "main",
          "repo_name" : "Random-AcademicTitle-CZ",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
