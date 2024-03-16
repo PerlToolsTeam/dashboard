@@ -2751,16 +2751,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Random-Day/issues",
-         "date" : "2023-01-26",
+         "date" : "2024-03-16",
          "dist" : "Random-Day",
          "insecure_repo" : false,
-         "name" : "Random-Day-0.13",
+         "name" : "Random-Day-0.14",
          "repo" : "git://github.com/michal-josef-spacek/Random-Day",
          "repo_def_branch" : "master",
          "repo_name" : "Random-Day",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.13"
+         "ver" : "0.14"
       },
       {
          "auth" : "SKIM",
