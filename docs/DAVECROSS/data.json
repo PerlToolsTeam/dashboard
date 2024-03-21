@@ -20,6 +20,20 @@
    "modules" : [
       {
          "auth" : "DAVECROSS",
+         "bugtracker" : "https://github.com/davorg-cpan/amazon-sites/issues",
+         "date" : "2024-03-21",
+         "dist" : "Amazon-Sites",
+         "insecure_repo" : false,
+         "name" : "Amazon-Sites-0.0.2",
+         "repo" : "https://github.com/davorg-cpan/amazon-sites",
+         "repo_def_branch" : null,
+         "repo_name" : "amazon-sites",
+         "repo_owner" : "davorg-cpan",
+         "uses_rt" : false,
+         "ver" : "v0.0.2"
+      },
+      {
+         "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/app-aphra/issues",
          "date" : "2024-01-24",
          "dist" : "App-Aphra",

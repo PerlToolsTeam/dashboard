@@ -2653,16 +2653,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-Search/issues",
-         "date" : "2024-03-14",
+         "date" : "2024-03-21",
          "dist" : "Plack-App-Search",
          "insecure_repo" : false,
-         "name" : "Plack-App-Search-0.03",
+         "name" : "Plack-App-Search-0.04",
          "repo" : "git://github.com/michal-josef-spacek/Plack-App-Search",
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-Search",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",
