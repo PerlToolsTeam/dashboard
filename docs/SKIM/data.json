@@ -2905,16 +2905,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML/issues",
-         "date" : "2023-08-01",
+         "date" : "2024-03-27",
          "dist" : "Tags-HTML",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-0.08",
+         "name" : "Tags-HTML-0.09",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.08"
+         "ver" : "0.09"
       },
       {
          "auth" : "SKIM",
