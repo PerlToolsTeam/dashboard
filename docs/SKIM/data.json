@@ -2316,17 +2316,17 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Number-Stars",
-         "date" : "2024-03-16",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Number-Stars/issues",
+         "date" : "2024-03-29",
          "dist" : "Number-Stars",
          "insecure_repo" : false,
-         "name" : "Number-Stars-0.02",
+         "name" : "Number-Stars-0.03",
          "repo" : "git://github.com/michal-josef-spacek/Number-Stars",
          "repo_def_branch" : "master",
          "repo_name" : "Number-Stars",
          "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : true,
-         "ver" : "0.02"
+         "uses_rt" : false,
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
