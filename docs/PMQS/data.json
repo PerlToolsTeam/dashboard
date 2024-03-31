@@ -135,16 +135,16 @@
       {
          "auth" : "PMQS",
          "bugtracker" : "https://github.com/pmqs/IO-Compress/issues",
-         "date" : "2024-02-18",
+         "date" : "2024-03-31",
          "dist" : "IO-Compress",
          "insecure_repo" : false,
-         "name" : "IO-Compress-2.207",
+         "name" : "IO-Compress-2.208",
          "repo" : "https://github.com/pmqs/IO-Compress",
          "repo_def_branch" : "master",
          "repo_name" : "IO-Compress",
          "repo_owner" : "pmqs",
          "uses_rt" : false,
-         "ver" : "2.207"
+         "ver" : "2.208"
       },
       {
          "auth" : "PMQS",
