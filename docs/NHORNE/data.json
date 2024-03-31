@@ -571,16 +571,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/LWP-UserAgent-Throttled/issues",
-         "date" : "2022-01-28",
+         "date" : "2024-03-30",
          "dist" : "LWP-UserAgent-Throttled",
          "insecure_repo" : false,
-         "name" : "LWP-UserAgent-Throttled-0.09",
+         "name" : "LWP-UserAgent-Throttled-0.10",
          "repo" : "https://github.com/nigelhorne/LWP-UserAgent::Throttled",
          "repo_def_branch" : "",
          "repo_name" : "LWP-UserAgent::Throttled",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.09"
+         "ver" : "0.10"
       },
       {
          "auth" : "NHORNE",
