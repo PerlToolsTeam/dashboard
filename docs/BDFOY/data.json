@@ -178,13 +178,13 @@
          "date" : "2024-04-01",
          "dist" : "CPAN-Audit",
          "insecure_repo" : false,
-         "name" : "CPAN-Audit-20240401.001",
+         "name" : "CPAN-Audit-20240401.002",
          "repo" : "https://github.com/briandfoy/cpan-audit",
          "repo_def_branch" : "master",
          "repo_name" : "cpan-audit",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "20240401.001"
+         "ver" : "20240401.002"
       },
       {
          "auth" : "BDFOY",
