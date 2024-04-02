@@ -21,16 +21,16 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/amazon-sites/issues",
-         "date" : "2024-03-31",
+         "date" : "2024-04-02",
          "dist" : "Amazon-Sites",
          "insecure_repo" : false,
-         "name" : "Amazon-Sites-0.1.4",
+         "name" : "Amazon-Sites-0.1.5",
          "repo" : "https://github.com/davorg-cpan/amazon-sites",
          "repo_def_branch" : null,
          "repo_name" : "amazon-sites",
          "repo_owner" : "davorg-cpan",
          "uses_rt" : false,
-         "ver" : "v0.1.4"
+         "ver" : "v0.1.5"
       },
       {
          "auth" : "DAVECROSS",
