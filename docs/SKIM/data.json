@@ -2233,16 +2233,30 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Mo-utils-Language/issues",
-         "date" : "2024-03-23",
+         "date" : "2024-04-03",
          "dist" : "Mo-utils-Language",
          "insecure_repo" : false,
-         "name" : "Mo-utils-Language-0.05",
+         "name" : "Mo-utils-Language-0.06",
          "repo" : "git://github.com/michal-josef-spacek/Mo-utils-Language",
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Language",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.05"
+         "ver" : "0.06"
+      },
+      {
+         "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Mo-utils-TimeZone/issues",
+         "date" : "2024-04-03",
+         "dist" : "Mo-utils-TimeZone",
+         "insecure_repo" : false,
+         "name" : "Mo-utils-TimeZone-0.01",
+         "repo" : "git://github.com/michal-josef-spacek/Mo-utils-TimeZone",
+         "repo_def_branch" : null,
+         "repo_name" : "Mo-utils-TimeZone",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.01"
       },
       {
          "auth" : "SKIM",
