@@ -21,16 +21,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/CGI-ACL/issues",
-         "date" : "2021-05-21",
+         "date" : "2024-04-02",
          "dist" : "CGI-ACL",
          "insecure_repo" : false,
-         "name" : "CGI-ACL-0.04",
+         "name" : "CGI-ACL-0.05",
          "repo" : "https://github.com/nigelhorne/CGI-ACL",
          "repo_def_branch" : "master",
          "repo_name" : "CGI-ACL",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.04"
+         "ver" : "0.05"
       },
       {
          "auth" : "NHORNE",
