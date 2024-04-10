@@ -175,16 +175,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/cpan-audit/issues",
-         "date" : "2024-04-01",
+         "date" : "2024-04-10",
          "dist" : "CPAN-Audit",
          "insecure_repo" : false,
-         "name" : "CPAN-Audit-20240401.002",
+         "name" : "CPAN-Audit-20240410.001",
          "repo" : "https://github.com/briandfoy/cpan-audit",
          "repo_def_branch" : "master",
          "repo_name" : "cpan-audit",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "20240401.002"
+         "ver" : "20240410.001"
       },
       {
          "auth" : "BDFOY",
@@ -605,20 +605,6 @@
          "repo_owner" : "CPAN-Adoptable-Modules",
          "uses_rt" : false,
          "ver" : "2.304"
-      },
-      {
-         "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/object-iterate/issues",
-         "date" : "2022-01-09",
-         "dist" : "Object-Iterate",
-         "insecure_repo" : false,
-         "name" : "Object-Iterate-1.146",
-         "repo" : "https://github.com/briandfoy/object-iterate",
-         "repo_def_branch" : "master",
-         "repo_name" : "object-iterate",
-         "repo_owner" : "briandfoy",
-         "uses_rt" : false,
-         "ver" : "1.146"
       },
       {
          "auth" : "BDFOY",

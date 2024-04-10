@@ -609,16 +609,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/perl-ide/open-this/issues",
-         "date" : "2023-09-12",
+         "date" : "2024-04-10",
          "dist" : "Open-This",
          "insecure_repo" : false,
-         "name" : "Open-This-0.000033",
+         "name" : "Open-This-0.000034",
          "repo" : "https://github.com/perl-ide/open-this",
          "repo_def_branch" : "main",
          "repo_name" : "open-this",
          "repo_owner" : "perl-ide",
          "uses_rt" : false,
-         "ver" : "0.000033"
+         "ver" : "0.000034"
       },
       {
          "auth" : "OALDERS",
