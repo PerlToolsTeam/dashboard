@@ -46,6 +46,20 @@
       },
       {
          "auth" : "CROMEDOME",
+         "bugtracker" : "https://github.com/PerlDancer/dancer-template-xslate/issues",
+         "date" : "2024-04-14",
+         "dist" : "Dancer-Template-Xslate",
+         "insecure_repo" : false,
+         "name" : "Dancer-Template-Xslate-0.04",
+         "repo" : "https://github.com/PerlDancer/dancer-template-xslate",
+         "repo_def_branch" : null,
+         "repo_name" : "dancer-template-xslate",
+         "repo_owner" : "PerlDancer",
+         "uses_rt" : false,
+         "ver" : "0.04"
+      },
+      {
+         "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/PerlDancer/Dancer2/issues",
          "date" : "2023-12-12",
          "dist" : "Dancer2",
