@@ -32,6 +32,20 @@
       },
       {
          "auth" : "CROMEDOME",
+         "bugtracker" : "https://github.com/PerlDancer/dancer-debug/issues",
+         "date" : "2024-04-14",
+         "dist" : "Dancer-Debug",
+         "insecure_repo" : false,
+         "name" : "Dancer-Debug-0.04",
+         "repo" : "git://github.com/PerlDancer/dancer-debug.git",
+         "repo_def_branch" : null,
+         "repo_name" : "dancer-debug",
+         "repo_owner" : "PerlDancer",
+         "uses_rt" : false,
+         "ver" : "0.04"
+      },
+      {
+         "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/cromedome/Dancer-Plugin-reCAPTCHA/issues",
          "date" : "2018-11-10",
          "dist" : "Dancer-Plugin-reCAPTCHA",
@@ -43,6 +57,20 @@
          "repo_owner" : "cromedome",
          "uses_rt" : false,
          "ver" : "0.91"
+      },
+      {
+         "auth" : "CROMEDOME",
+         "bugtracker" : "https://github.com/PerlDancer/dancer-session-psgi/issues",
+         "date" : "2024-04-14",
+         "dist" : "Dancer-Session-PSGI",
+         "insecure_repo" : false,
+         "name" : "Dancer-Session-PSGI-0.02",
+         "repo" : "git://github.com/PerlDancer/dancer-session-psgi.git",
+         "repo_def_branch" : null,
+         "repo_name" : "dancer-session-psgi",
+         "repo_owner" : "PerlDancer",
+         "uses_rt" : false,
+         "ver" : "0.02"
       },
       {
          "auth" : "CROMEDOME",
