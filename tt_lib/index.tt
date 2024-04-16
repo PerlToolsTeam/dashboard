@@ -4,14 +4,14 @@
       <a href="https://metacpan.org/">CPAN</a> modules.</p>
 
     <h2>Current authors</h2>
-    <div class="card-deck">
+    <div class="d-flex flex-wrap justify-content-start">
 [% FOR author IN authors.sort(cpan) -%]
-      <div class="author card">
-        <a href="/[% author.author.cpan %]/"><img class="card-img-top gravatar" src="[% author.author.gravatar %]" alt="[% author.author.cpan %]"></a>
-        <div class="card-body">
-          <a href="/[% author.author.cpan %]/">[% author.author.name OR author.author.cpan %]</a>
+        <div class="author card">
+          <a href="/[% author.author.cpan %]/"><img class="card-img-top gravatar" src="[% author.author.gravatar %]" alt="[% author.author.cpan %]"></a>
+          <div class="card-body">
+            <a href="/[% author.author.cpan %]/">[% author.author.name OR author.author.cpan %]</a>
+          </div>
         </div>
-      </div>
 [% END -%]
     </div>
     <p><a href="/add/" class="btn btn-primary">Add yourself to the list</a></p>
