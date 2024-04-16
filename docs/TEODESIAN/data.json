@@ -23,13 +23,13 @@
          "bugtracker" : "https://github.com/teodesian/App-Prove-Elasticsearch/issues",
          "date" : "2018-06-18",
          "dist" : "App-Prove-Plugin-Elasticsearch",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "App-Prove-Plugin-Elasticsearch-0.001",
          "repo" : "https://github.com/teodesian/App-Prove-Elasticsearch",
          "repo_def_branch" : "master",
          "repo_name" : "App-Prove-Elasticsearch",
          "repo_owner" : "teodesian",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "0.001"
       },
       {
@@ -37,13 +37,13 @@
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/Audit-Log-perl/issues",
          "date" : "2023-07-11",
          "dist" : "Audit-Log",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Audit-Log-0.005",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/Audit-Log-perl",
          "repo_def_branch" : "master",
          "repo_name" : "Audit-Log-perl",
          "repo_owner" : "Troglodyne-Internet-Widgets",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "0.005"
       },
       {
@@ -51,13 +51,13 @@
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/Microsoft-Translator-Perl/issues",
          "date" : "2023-10-26",
          "dist" : "Microsoft-Translator",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Microsoft-Translator-0.001",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/Microsoft-Translator-Perl.git",
          "repo_def_branch" : "master",
          "repo_name" : "Microsoft-Translator-Perl",
          "repo_owner" : "Troglodyne-Internet-Widgets",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "0.001"
       },
       {
@@ -65,13 +65,13 @@
          "bugtracker" : "https://github.com/teodesian/playwright-perl/issues",
          "date" : "2024-02-08",
          "dist" : "Playwright",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Playwright-1.401",
          "repo" : "https://github.com/teodesian/playwright-perl",
          "repo_def_branch" : "main",
          "repo_name" : "playwright-perl",
          "repo_owner" : "teodesian",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "1.401"
       },
       {
@@ -79,13 +79,13 @@
          "bugtracker" : "https://github.com/teodesian/RPM-Verify/issues",
          "date" : "2023-12-06",
          "dist" : "RPM-Verify",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "RPM-Verify-1.000",
          "repo" : "https://github.com/teodesian/RPM-Verify.git",
-         "repo_def_branch" : null,
+         "repo_def_branch" : "",
          "repo_name" : "RPM-Verify",
          "repo_owner" : "teodesian",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "1.000"
       },
       {
@@ -93,13 +93,13 @@
          "bugtracker" : "https://github.com/troglodyne-internet-widgets/selenium-client-perl/issues",
          "date" : "2024-02-05",
          "dist" : "Selenium-Client",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Selenium-Client-2.00",
          "repo" : "https://github.com/troglodyne-internet-widgets/selenium-client-perl",
          "repo_def_branch" : "main",
          "repo_name" : "selenium-client-perl",
          "repo_owner" : "troglodyne-internet-widgets",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "2.00"
       },
       {
@@ -107,13 +107,13 @@
          "bugtracker" : "https://github.com/teodesian/Selenium-Remote-Driver/issues",
          "date" : "2023-04-06",
          "dist" : "Selenium-Remote-Driver",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Selenium-Remote-Driver-1.49",
          "repo" : "https://github.com/teodesian/Selenium-Remote-Driver",
          "repo_def_branch" : "master",
          "repo_name" : "Selenium-Remote-Driver",
          "repo_owner" : "teodesian",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "1.49"
       },
       {
@@ -121,13 +121,13 @@
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=TestLink-API",
          "date" : "2014-12-05",
          "dist" : "TestLink-API",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "TestLink-API-0.011",
          "repo" : "git://github.com/teodesian/TestLink-Perl.git",
          "repo_def_branch" : "master",
          "repo_name" : "TestLink-Perl",
          "repo_owner" : "teodesian",
-         "uses_rt" : true,
+         "uses_rt" : "1",
          "ver" : "0.011"
       },
       {
@@ -135,13 +135,13 @@
          "bugtracker" : "https://github.com/teodesian/TestRail-Perl/issues",
          "date" : "2022-09-11",
          "dist" : "TestRail-API",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "TestRail-API-0.052",
          "repo" : "https://github.com/teodesian/TestRail-Perl",
          "repo_def_branch" : "master",
          "repo_name" : "TestRail-Perl",
          "repo_owner" : "teodesian",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "0.052"
       },
       {
@@ -149,18 +149,18 @@
          "bugtracker" : "https://github.com/teodesian/Trog-TOTP/issues",
          "date" : "2023-12-06",
          "dist" : "Trog-TOTP",
-         "insecure_repo" : false,
+         "insecure_repo" : "",
          "name" : "Trog-TOTP-1.003",
          "repo" : "https://github.com/teodesian/Trog-TOTP.git",
-         "repo_def_branch" : null,
+         "repo_def_branch" : "master",
          "repo_name" : "Trog-TOTP",
          "repo_owner" : "teodesian",
-         "uses_rt" : false,
+         "uses_rt" : "",
          "ver" : "1.003"
       }
    ],
    "sort" : {
-      "column" : 0,
+      "column" : "0",
       "direction" : "asc"
    }
 }
