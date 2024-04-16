@@ -13,9 +13,7 @@ var column = [% sort.column %];
 var direction = "[% sort.direction %]";
 </script>
     <h1>CPAN Dashboard - [% author.cpan %]</h1>
-[% IF author.gravatar -%]
-    <p><img alt="[% author.cpan %]" class="gravatar" src="[% author.gravatar %]"></p>
-[% END -%]
+    <p><img alt="[% author.cpan %]" class="gravatar" src="[% author.gravatar OR '/images/gravatar.png' %]"></p>
     <p>A dashboard to see the state of
       <a hrsef="https://metacpan.org/author/[% author.cpan %]">[% author.cpan %]'s CPAN modules</a>.</p>
     <p>You can download this <a href="/[% author.cpan %]/data.json">data as JSON</a>.</p>
