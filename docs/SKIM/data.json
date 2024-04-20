@@ -161,16 +161,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-CPAN-Get/issues",
-         "date" : "2023-11-25",
+         "date" : "2024-04-20",
          "dist" : "App-CPAN-Get",
          "insecure_repo" : false,
-         "name" : "App-CPAN-Get-0.09",
+         "name" : "App-CPAN-Get-0.10",
          "repo" : "git://github.com/michal-josef-spacek/App-CPAN-Get",
          "repo_def_branch" : "main",
          "repo_name" : "App-CPAN-Get",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.09"
+         "ver" : "0.10"
       },
       {
          "auth" : "SKIM",
@@ -959,16 +959,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-Image/issues",
-         "date" : "2023-06-23",
+         "date" : "2024-04-20",
          "dist" : "Data-Image",
          "insecure_repo" : false,
-         "name" : "Data-Image-0.03",
+         "name" : "Data-Image-0.04",
          "repo" : "git://github.com/michal-josef-spacek/Data-Image",
          "repo_def_branch" : "main",
          "repo_name" : "Data-Image",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",
@@ -3041,6 +3041,20 @@
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
          "ver" : "0.03"
+      },
+      {
+         "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Image/issues",
+         "date" : "2024-04-20",
+         "dist" : "Tags-HTML-Image",
+         "insecure_repo" : false,
+         "name" : "Tags-HTML-Image-0.01",
+         "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Image",
+         "repo_def_branch" : null,
+         "repo_name" : "Tags-HTML-Image",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.01"
       },
       {
          "auth" : "SKIM",
