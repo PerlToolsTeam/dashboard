@@ -2709,16 +2709,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-Search/issues",
-         "date" : "2024-03-21",
+         "date" : "2024-04-21",
          "dist" : "Plack-App-Search",
          "insecure_repo" : false,
-         "name" : "Plack-App-Search-0.04",
+         "name" : "Plack-App-Search-0.05",
          "repo" : "git://github.com/michal-josef-spacek/Plack-App-Search",
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-Search",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.04"
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",
@@ -2975,16 +2975,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-CPAN-Changes/issues",
-         "date" : "2024-03-27",
+         "date" : "2024-04-21",
          "dist" : "Tags-HTML-CPAN-Changes",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-CPAN-Changes-0.03",
+         "name" : "Tags-HTML-CPAN-Changes-0.04",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-CPAN-Changes",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-CPAN-Changes",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",
@@ -3199,16 +3199,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Table-View/issues",
-         "date" : "2024-02-06",
+         "date" : "2024-04-21",
          "dist" : "Tags-HTML-Table-View",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-Table-View-0.05",
+         "name" : "Tags-HTML-Table-View-0.06",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Table-View",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Table-View",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.05"
+         "ver" : "0.06"
       },
       {
          "auth" : "SKIM",
