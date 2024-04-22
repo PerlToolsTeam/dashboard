@@ -931,16 +931,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-HTML-Element/issues",
-         "date" : "2024-04-11",
+         "date" : "2024-04-22",
          "dist" : "Data-HTML-Element",
          "insecure_repo" : false,
-         "name" : "Data-HTML-Element-0.13",
+         "name" : "Data-HTML-Element-0.14",
          "repo" : "git://github.com/michal-josef-spacek/Data-HTML-Element",
          "repo_def_branch" : "main",
          "repo_name" : "Data-HTML-Element",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.13"
+         "ver" : "0.14"
       },
       {
          "auth" : "SKIM",
@@ -2722,6 +2722,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-Tags-HTML/issues",
+         "date" : "2024-04-21",
+         "dist" : "Plack-App-Tags-HTML",
+         "insecure_repo" : false,
+         "name" : "Plack-App-Tags-HTML-0.17",
+         "repo" : "git://github.com/michal-josef-spacek/Plack-App-Tags-HTML",
+         "repo_def_branch" : "main",
+         "repo_name" : "Plack-App-Tags-HTML",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.17"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Plack-Component-Tags-HTML/issues",
          "date" : "2024-04-21",
          "dist" : "Plack-Component-Tags-HTML",
@@ -3003,16 +3017,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Element/issues",
-         "date" : "2024-04-14",
+         "date" : "2024-04-22",
          "dist" : "Tags-HTML-Element",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-Element-0.11",
+         "name" : "Tags-HTML-Element-0.12",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Element",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Element",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.11"
+         "ver" : "0.12"
       },
       {
          "auth" : "SKIM",
