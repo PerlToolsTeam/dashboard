@@ -400,16 +400,16 @@
       {
          "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-Scalar-Type/issues",
-         "date" : "2023-10-29",
+         "date" : "2024-04-22",
          "dist" : "Scalar-Type",
          "insecure_repo" : false,
-         "name" : "Scalar-Type-1.0.0",
+         "name" : "Scalar-Type-1.0.1",
          "repo" : "https://github.com/DrHyde/perl-modules-Scalar-Type",
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Scalar-Type",
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
-         "ver" : "v1.0.0"
+         "ver" : "v1.0.1"
       },
       {
          "auth" : "DCANTRELL",
