@@ -30,16 +30,16 @@
       {
          "auth" : "DRCLAW",
          "bugtracker" : "https://github.com/drclaw1394/perl-error-show/issues",
-         "date" : "2023-05-10",
+         "date" : "2024-04-23",
          "dist" : "Error-Show",
          "insecure_repo" : false,
-         "name" : "Error-Show-v0.3.0",
+         "name" : "Error-Show-v0.4.0",
          "repo" : "https://github.com/drclaw1394/perl-error-show.git",
          "repo_def_branch" : "main",
          "repo_name" : "perl-error-show",
          "repo_owner" : "drclaw1394",
          "uses_rt" : false,
-         "ver" : "v0.3.0"
+         "ver" : "v0.4.0"
       },
       {
          "auth" : "DRCLAW",
