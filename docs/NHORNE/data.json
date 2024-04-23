@@ -253,16 +253,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/DateTime-Format-Genealogy/issues",
-         "date" : "2023-03-02",
+         "date" : "2024-04-23",
          "dist" : "DateTime-Format-Genealogy",
          "insecure_repo" : false,
-         "name" : "DateTime-Format-Genealogy-0.05",
+         "name" : "DateTime-Format-Genealogy-0.06",
          "repo" : "https://github.com/nigelhorne/DateTime-Format-Genealogy",
          "repo_def_branch" : "master",
          "repo_name" : "DateTime-Format-Genealogy",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.05"
+         "ver" : "0.06"
       },
       {
          "auth" : "NHORNE",
