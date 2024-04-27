@@ -2219,16 +2219,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Mo-utils-Email/issues",
-         "date" : "2024-01-07",
+         "date" : "2024-04-26",
          "dist" : "Mo-utils-Email",
          "insecure_repo" : false,
-         "name" : "Mo-utils-Email-0.01",
+         "name" : "Mo-utils-Email-0.02",
          "repo" : "git://github.com/michal-josef-spacek/Mo-utils-Email",
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Email",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",
