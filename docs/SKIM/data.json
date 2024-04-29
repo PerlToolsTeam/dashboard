@@ -2680,6 +2680,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-Login-Request/issues",
+         "date" : "2024-04-29",
+         "dist" : "Plack-App-Login-Request",
+         "insecure_repo" : false,
+         "name" : "Plack-App-Login-Request-0.01",
+         "repo" : "git://github.com/michal-josef-spacek/Plack-App-Login-Request",
+         "repo_def_branch" : null,
+         "repo_name" : "Plack-App-Login-Request",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.01"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-Redirect/issues",
          "date" : "2022-07-07",
          "dist" : "Plack-App-Redirect",
