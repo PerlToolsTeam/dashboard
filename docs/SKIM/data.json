@@ -2247,16 +2247,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Mo-utils-Language/issues",
-         "date" : "2024-04-03",
+         "date" : "2024-04-29",
          "dist" : "Mo-utils-Language",
          "insecure_repo" : false,
-         "name" : "Mo-utils-Language-0.06",
+         "name" : "Mo-utils-Language-0.07",
          "repo" : "git://github.com/michal-josef-spacek/Mo-utils-Language",
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Language",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.06"
+         "ver" : "0.07"
       },
       {
          "auth" : "SKIM",
@@ -3073,16 +3073,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Login-Access/issues",
-         "date" : "2023-06-29",
+         "date" : "2024-04-29",
          "dist" : "Tags-HTML-Login-Access",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-Login-Access-0.07",
+         "name" : "Tags-HTML-Login-Access-0.09",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Login-Access",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Login-Access",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.07"
+         "ver" : "0.09"
       },
       {
          "auth" : "SKIM",
@@ -3111,6 +3111,20 @@
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
          "ver" : "0.08"
+      },
+      {
+         "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Login-Request/issues",
+         "date" : "2024-04-29",
+         "dist" : "Tags-HTML-Login-Request",
+         "insecure_repo" : false,
+         "name" : "Tags-HTML-Login-Request-0.01",
+         "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Login-Request",
+         "repo_def_branch" : null,
+         "repo_name" : "Tags-HTML-Login-Request",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.01"
       },
       {
          "auth" : "SKIM",
