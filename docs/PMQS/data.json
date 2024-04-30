@@ -23,16 +23,16 @@
       {
          "auth" : "PMQS",
          "bugtracker" : "https://github.com/pmqs/zipdetails/issues",
-         "date" : "2024-04-27",
+         "date" : "2024-04-30",
          "dist" : "App-zipdetails",
          "insecure_repo" : false,
-         "name" : "App-zipdetails-4.003",
+         "name" : "App-zipdetails-4.004",
          "repo" : "https://github.com/pmqs/zipdetails",
          "repo_def_branch" : "main",
          "repo_name" : "zipdetails",
          "repo_owner" : "pmqs",
          "uses_rt" : false,
-         "ver" : "4.003"
+         "ver" : "4.004"
       },
       {
          "auth" : "PMQS",
