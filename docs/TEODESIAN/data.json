@@ -63,16 +63,16 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/playwright-perl/issues",
-         "date" : "2024-02-08",
+         "date" : "2024-04-30",
          "dist" : "Playwright",
          "insecure_repo" : false,
-         "name" : "Playwright-1.401",
+         "name" : "Playwright-1.431",
          "repo" : "https://github.com/teodesian/playwright-perl",
          "repo_def_branch" : "main",
          "repo_name" : "playwright-perl",
          "repo_owner" : "teodesian",
          "uses_rt" : false,
-         "ver" : "1.401"
+         "ver" : "1.431"
       },
       {
          "auth" : "TEODESIAN",

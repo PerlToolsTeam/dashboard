@@ -50,17 +50,17 @@
       },
       {
          "auth" : "OALDERS",
-         "bugtracker" : "https://github.com/oalders/App-perlvars/issues",
-         "date" : "2022-02-24",
+         "bugtracker" : "https://github.com/perl-ide/App-perlvars/issues",
+         "date" : "2024-04-30",
          "dist" : "App-perlvars",
          "insecure_repo" : false,
-         "name" : "App-perlvars-0.000004",
-         "repo" : "https://github.com/oalders/App-perlvars",
-         "repo_def_branch" : "main",
+         "name" : "App-perlvars-0.000005",
+         "repo" : "https://github.com/perl-ide/App-perlvars",
+         "repo_def_branch" : null,
          "repo_name" : "App-perlvars",
-         "repo_owner" : "oalders",
+         "repo_owner" : "perl-ide",
          "uses_rt" : false,
-         "ver" : "0.000004"
+         "ver" : "0.000005"
       },
       {
          "auth" : "OALDERS",
