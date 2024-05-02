@@ -2667,16 +2667,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-Login-Password/issues",
-         "date" : "2023-06-27",
+         "date" : "2024-05-02",
          "dist" : "Plack-App-Login-Password",
          "insecure_repo" : false,
-         "name" : "Plack-App-Login-Password-0.02",
+         "name" : "Plack-App-Login-Password-0.03",
          "repo" : "git://github.com/michal-josef-spacek/Plack-App-Login-Password",
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-Login-Password",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
