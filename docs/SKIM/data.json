@@ -749,16 +749,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Check-Fork/issues",
-         "date" : "2022-12-07",
+         "date" : "2024-05-02",
          "dist" : "Check-Fork",
          "insecure_repo" : false,
-         "name" : "Check-Fork-0.04",
+         "name" : "Check-Fork-0.05",
          "repo" : "git://github.com/michal-josef-spacek/Check-Fork",
          "repo_def_branch" : "main",
          "repo_name" : "Check-Fork",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.04"
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",
@@ -3087,16 +3087,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Login-Access/issues",
-         "date" : "2024-04-29",
+         "date" : "2024-05-02",
          "dist" : "Tags-HTML-Login-Access",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-Login-Access-0.09",
+         "name" : "Tags-HTML-Login-Access-0.10",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Login-Access",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Login-Access",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.09"
+         "ver" : "0.10"
       },
       {
          "auth" : "SKIM",
