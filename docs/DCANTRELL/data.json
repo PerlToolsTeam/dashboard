@@ -206,16 +206,16 @@
       {
          "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-Devel-CheckOS/issues",
-         "date" : "2023-02-04",
+         "date" : "2024-05-01",
          "dist" : "Devel-CheckOS",
          "insecure_repo" : false,
-         "name" : "Devel-CheckOS-1.96",
+         "name" : "Devel-CheckOS-2.00",
          "repo" : "https://github.com/DrHyde/perl-modules-Devel-CheckOS",
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Devel-CheckOS",
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
-         "ver" : "1.96"
+         "ver" : "2.00"
       },
       {
          "auth" : "DCANTRELL",
