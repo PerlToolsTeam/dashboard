@@ -511,16 +511,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-Schema-Deploy/issues",
-         "date" : "2022-10-04",
+         "date" : "2024-05-04",
          "dist" : "App-Schema-Deploy",
          "insecure_repo" : false,
-         "name" : "App-Schema-Deploy-0.03",
+         "name" : "App-Schema-Deploy-0.04",
          "repo" : "git://github.com/michal-josef-spacek/App-Schema-Deploy",
          "repo_def_branch" : "main",
          "repo_name" : "App-Schema-Deploy",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",
