@@ -161,16 +161,16 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/URI-Shorten/issues",
-         "date" : "2024-05-07",
+         "date" : "2024-05-08",
          "dist" : "URI-Shortener",
          "insecure_repo" : false,
-         "name" : "URI-Shortener-1.001",
+         "name" : "URI-Shortener-1.003",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/URI-Shorten",
          "repo_def_branch" : null,
          "repo_name" : "URI-Shorten",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "uses_rt" : false,
-         "ver" : "1.001"
+         "ver" : "1.003"
       }
    ],
    "sort" : {
