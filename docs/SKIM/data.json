@@ -3156,6 +3156,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Navigation-Grid/issues",
+         "date" : "2024-05-10",
+         "dist" : "Tags-HTML-Navigation-Grid",
+         "insecure_repo" : false,
+         "name" : "Tags-HTML-Navigation-Grid-0.02",
+         "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Navigation-Grid",
+         "repo_def_branch" : null,
+         "repo_name" : "Tags-HTML-Navigation-Grid",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.02"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Page-Begin/issues",
          "date" : "2024-04-08",
          "dist" : "Tags-HTML-Page-Begin",
