@@ -441,16 +441,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-Perl-Module-Examples/issues",
-         "date" : "2023-01-01",
+         "date" : "2024-05-12",
          "dist" : "App-Perl-Module-Examples",
          "insecure_repo" : false,
-         "name" : "App-Perl-Module-Examples-0.02",
+         "name" : "App-Perl-Module-Examples-0.03",
          "repo" : "git://github.com/michal-josef-spacek/App-Perl-Module-Examples",
          "repo_def_branch" : "main",
          "repo_name" : "App-Perl-Module-Examples",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
@@ -3255,16 +3255,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Tree/issues",
-         "date" : "2024-05-08",
+         "date" : "2024-05-12",
          "dist" : "Tags-HTML-Tree",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-Tree-0.03",
+         "name" : "Tags-HTML-Tree-0.04",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Tree",
          "repo_def_branch" : null,
          "repo_name" : "Tags-HTML-Tree",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",
