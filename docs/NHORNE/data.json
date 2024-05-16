@@ -447,16 +447,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Coder-List",
-         "date" : "2023-10-07",
+         "date" : "2024-05-16",
          "dist" : "Geo-Coder-List",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-List-0.32",
+         "name" : "Geo-Coder-List-0.33",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-List",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-List",
          "repo_owner" : "nigelhorne",
          "uses_rt" : true,
-         "ver" : "0.32"
+         "ver" : "0.33"
       },
       {
          "auth" : "NHORNE",
