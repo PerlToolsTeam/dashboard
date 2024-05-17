@@ -2149,16 +2149,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Mo-utils/issues",
-         "date" : "2024-04-11",
+         "date" : "2024-05-17",
          "dist" : "Mo-utils",
          "insecure_repo" : false,
-         "name" : "Mo-utils-0.26",
+         "name" : "Mo-utils-0.27",
          "repo" : "git://github.com/michal-josef-spacek/Mo-utils",
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.26"
+         "ver" : "0.27"
       },
       {
          "auth" : "SKIM",
@@ -3017,16 +3017,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Container/issues",
-         "date" : "2024-04-21",
+         "date" : "2024-05-17",
          "dist" : "Tags-HTML-Container",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-Container-0.07",
+         "name" : "Tags-HTML-Container-0.08",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Container",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Container",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.07"
+         "ver" : "0.08"
       },
       {
          "auth" : "SKIM",
