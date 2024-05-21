@@ -567,16 +567,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-Toolforge-MixNMatch/issues",
-         "date" : "2022-06-06",
+         "date" : "2024-05-21",
          "dist" : "App-Toolforge-MixNMatch",
          "insecure_repo" : false,
-         "name" : "App-Toolforge-MixNMatch-0.05",
+         "name" : "App-Toolforge-MixNMatch-0.06",
          "repo" : "git://github.com/michal-josef-spacek/App-Toolforge-MixNMatch",
          "repo_def_branch" : "main",
          "repo_name" : "App-Toolforge-MixNMatch",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.05"
+         "ver" : "0.06"
       },
       {
          "auth" : "SKIM",
@@ -931,16 +931,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-HTML-Element/issues",
-         "date" : "2024-05-18",
+         "date" : "2024-05-21",
          "dist" : "Data-HTML-Element",
          "insecure_repo" : false,
-         "name" : "Data-HTML-Element-0.16",
+         "name" : "Data-HTML-Element-0.17",
          "repo" : "git://github.com/michal-josef-spacek/Data-HTML-Element",
          "repo_def_branch" : "main",
          "repo_name" : "Data-HTML-Element",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.16"
+         "ver" : "0.17"
       },
       {
          "auth" : "SKIM",
