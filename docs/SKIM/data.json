@@ -3199,16 +3199,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Page-End/issues",
-         "date" : "2022-05-29",
+         "date" : "2024-05-23",
          "dist" : "Tags-HTML-Page-End",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-Page-End-0.05",
+         "name" : "Tags-HTML-Page-End-0.06",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Page-End",
          "repo_def_branch" : "master",
          "repo_name" : "Tags-HTML-Page-End",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.05"
+         "ver" : "0.06"
       },
       {
          "auth" : "SKIM",
@@ -3227,16 +3227,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-SendMessage/issues",
-         "date" : "2020-09-16",
+         "date" : "2024-05-23",
          "dist" : "Tags-HTML-SendMessage",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-SendMessage-0.09",
+         "name" : "Tags-HTML-SendMessage-0.10",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-SendMessage",
          "repo_def_branch" : "master",
          "repo_name" : "Tags-HTML-SendMessage",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.09"
+         "ver" : "0.10"
       },
       {
          "auth" : "SKIM",
