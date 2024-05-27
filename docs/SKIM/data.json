@@ -944,20 +944,6 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://github.com/michal-josef-spacek/Data-HashType/issues",
-         "date" : "2024-03-22",
-         "dist" : "Data-HashType",
-         "insecure_repo" : false,
-         "name" : "Data-HashType-0.05",
-         "repo" : "git://github.com/michal-josef-spacek/Data-HashType",
-         "repo_def_branch" : "main",
-         "repo_name" : "Data-HashType",
-         "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : false,
-         "ver" : "0.05"
-      },
-      {
-         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-Image/issues",
          "date" : "2024-04-20",
          "dist" : "Data-Image",
@@ -1025,20 +1011,6 @@
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
          "ver" : "0.04"
-      },
-      {
-         "auth" : "SKIM",
-         "bugtracker" : "https://github.com/michal-josef-spacek/Data-Navigation-Item/issues",
-         "date" : "2024-03-04",
-         "dist" : "Data-Navigation-Item",
-         "insecure_repo" : false,
-         "name" : "Data-Navigation-Item-0.01",
-         "repo" : "git://github.com/michal-josef-spacek/Data-Navigation-Item",
-         "repo_def_branch" : "main",
-         "repo_name" : "Data-Navigation-Item",
-         "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : false,
-         "ver" : "0.01"
       },
       {
          "auth" : "SKIM",
@@ -2145,20 +2117,6 @@
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : true,
          "ver" : "0.06"
-      },
-      {
-         "auth" : "SKIM",
-         "bugtracker" : "https://github.com/michal-josef-spacek/Mo-utils/issues",
-         "date" : "2024-05-25",
-         "dist" : "Mo-utils",
-         "insecure_repo" : false,
-         "name" : "Mo-utils-0.28",
-         "repo" : "git://github.com/michal-josef-spacek/Mo-utils",
-         "repo_def_branch" : "main",
-         "repo_name" : "Mo-utils",
-         "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : false,
-         "ver" : "0.28"
       },
       {
          "auth" : "SKIM",
