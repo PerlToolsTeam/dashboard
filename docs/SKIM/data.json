@@ -1014,6 +1014,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Data-Message-Board/issues",
+         "date" : "2024-05-27",
+         "dist" : "Data-Message-Board",
+         "insecure_repo" : false,
+         "name" : "Data-Message-Board-0.01",
+         "repo" : "git://github.com/michal-josef-spacek/Data-Message-Board",
+         "repo_def_branch" : null,
+         "repo_name" : "Data-Message-Board",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.01"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-Message-Simple/issues",
          "date" : "2024-03-23",
          "dist" : "Data-Message-Simple",
