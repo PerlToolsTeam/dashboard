@@ -3073,16 +3073,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Element/issues",
-         "date" : "2024-04-22",
+         "date" : "2024-05-29",
          "dist" : "Tags-HTML-Element",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-Element-0.12",
+         "name" : "Tags-HTML-Element-0.13",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Element",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Element",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.12"
+         "ver" : "0.13"
       },
       {
          "auth" : "SKIM",
