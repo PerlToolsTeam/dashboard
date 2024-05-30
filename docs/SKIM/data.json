@@ -3076,13 +3076,13 @@
          "date" : "2024-05-29",
          "dist" : "Tags-HTML-Element",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-Element-0.13",
+         "name" : "Tags-HTML-Element-0.14",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Element",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Element",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.13"
+         "ver" : "0.14"
       },
       {
          "auth" : "SKIM",
