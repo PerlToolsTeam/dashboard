@@ -787,16 +787,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Weather-Meteo/issues",
-         "date" : "2023-11-28",
+         "date" : "2024-05-30",
          "dist" : "Weather-Meteo",
          "insecure_repo" : false,
-         "name" : "Weather-Meteo-0.08",
+         "name" : "Weather-Meteo-0.09",
          "repo" : "https://github.com/nigelhorne/Weather-Meteo",
          "repo_def_branch" : "master",
          "repo_name" : "Weather-Meteo",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.08"
+         "ver" : "0.09"
       }
    ],
    "sort" : {
