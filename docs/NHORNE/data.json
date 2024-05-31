@@ -761,16 +761,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/TimeZone-TimeZoneDB/issues",
-         "date" : "2023-04-07",
+         "date" : "2024-05-31",
          "dist" : "TimeZone-TimeZoneDB",
          "insecure_repo" : false,
-         "name" : "TimeZone-TimeZoneDB-0.01",
+         "name" : "TimeZone-TimeZoneDB-0.02",
          "repo" : "https://github.com/nigelhorne/TimeZone-TimeZoneDB",
          "repo_def_branch" : "master",
          "repo_name" : "TimeZone-TimeZoneDB",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "NHORNE",
