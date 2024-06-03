@@ -613,16 +613,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Lingua-String/issues",
-         "date" : "2022-03-15",
+         "date" : "2024-06-03",
          "dist" : "Lingua-String",
          "insecure_repo" : false,
-         "name" : "Lingua-String-0.03",
+         "name" : "Lingua-String-0.04",
          "repo" : "https://github.com/nigelhorne/Lingua-String",
          "repo_def_branch" : "master",
          "repo_name" : "Lingua-String",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "NHORNE",
