@@ -302,16 +302,16 @@
       {
          "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-Number-Phone/issues",
-         "date" : "2024-03-08",
+         "date" : "2024-06-07",
          "dist" : "Number-Phone",
          "insecure_repo" : false,
-         "name" : "Number-Phone-4.0002",
+         "name" : "Number-Phone-4.0003",
          "repo" : "https://github.com/DrHyde/perl-modules-Number-Phone",
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Number-Phone",
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
-         "ver" : "4.0002"
+         "ver" : "4.0003"
       },
       {
          "auth" : "DCANTRELL",
