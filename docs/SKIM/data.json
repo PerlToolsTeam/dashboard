@@ -3815,16 +3815,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/WQS-SPARQL-Query/issues",
-         "date" : "2024-05-12",
+         "date" : "2024-06-07",
          "dist" : "WQS-SPARQL-Query",
          "insecure_repo" : false,
-         "name" : "WQS-SPARQL-Query-0.02",
+         "name" : "WQS-SPARQL-Query-0.03",
          "repo" : "git://github.com/michal-josef-spacek/WQS-SPARQL-Query",
          "repo_def_branch" : "main",
          "repo_name" : "WQS-SPARQL-Query",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
