@@ -77,16 +77,16 @@
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/Mail-Exim-ACL-Attachments/issues",
-         "date" : "2023-03-20",
+         "date" : "2024-06-09",
          "dist" : "Mail-Exim-ACL-Attachments",
          "insecure_repo" : false,
-         "name" : "Mail-Exim-ACL-Attachments-1.005",
+         "name" : "Mail-Exim-ACL-Attachments-1.006",
          "repo" : "https://github.com/voegelas/Mail-Exim-ACL-Attachments",
          "repo_def_branch" : "main",
          "repo_name" : "Mail-Exim-ACL-Attachments",
          "repo_owner" : "voegelas",
          "uses_rt" : false,
-         "ver" : "1.005"
+         "ver" : "1.006"
       },
       {
          "auth" : "VOEGELAS",
