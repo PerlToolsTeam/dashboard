@@ -76,20 +76,6 @@
       },
       {
          "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/scriptdist/issues",
-         "date" : "2024-01-08",
-         "dist" : "App-scriptdist",
-         "insecure_repo" : false,
-         "name" : "App-scriptdist-1.003",
-         "repo" : "https://github.com/briandfoy/scriptdist",
-         "repo_def_branch" : "master",
-         "repo_name" : "scriptdist",
-         "repo_owner" : "briandfoy",
-         "uses_rt" : false,
-         "ver" : "1.003"
-      },
-      {
-         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/unichar/issues",
          "date" : "2021-01-13",
          "dist" : "App-unichar",
