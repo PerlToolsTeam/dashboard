@@ -558,15 +558,15 @@
       },
       {
          "auth" : "NHORNE",
-         "date" : "2020-01-18",
+         "date" : "2024-06-11",
          "dist" : "HTML-SocialMedia",
          "insecure_repo" : false,
-         "name" : "HTML-SocialMedia-0.28",
+         "name" : "HTML-SocialMedia-0.29",
          "repo" : "https://github.com/nigelhorne/HTML-SocialMedia",
          "repo_def_branch" : "master",
          "repo_name" : "HTML-SocialMedia",
          "repo_owner" : "nigelhorne",
-         "ver" : "0.28"
+         "ver" : "0.29"
       },
       {
          "auth" : "NHORNE",
