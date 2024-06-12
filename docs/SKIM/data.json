@@ -3101,16 +3101,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Footer/issues",
-         "date" : "2024-06-03",
+         "date" : "2024-06-11",
          "dist" : "Tags-HTML-Footer",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-Footer-0.01",
+         "name" : "Tags-HTML-Footer-0.02",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Footer",
          "repo_def_branch" : null,
          "repo_name" : "Tags-HTML-Footer",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",
