@@ -2919,16 +2919,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Schema-Abstract/issues",
-         "date" : "2022-09-09",
+         "date" : "2024-06-13",
          "dist" : "Schema-Abstract",
          "insecure_repo" : false,
-         "name" : "Schema-Abstract-0.04",
+         "name" : "Schema-Abstract-0.05",
          "repo" : "git://github.com/michal-josef-spacek/Schema-Abstract",
          "repo_def_branch" : "main",
          "repo_name" : "Schema-Abstract",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.04"
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",
