@@ -38,13 +38,13 @@
          "date" : "2024-06-14",
          "dist" : "App-Aphra",
          "insecure_repo" : false,
-         "name" : "App-Aphra-0.1.2",
+         "name" : "App-Aphra-0.1.3",
          "repo" : "https://github.com/davorg-cpan/app-aphra",
          "repo_def_branch" : "master",
          "repo_name" : "app-aphra",
          "repo_owner" : "davorg-cpan",
          "uses_rt" : false,
-         "ver" : "v0.1.2"
+         "ver" : "v0.1.3"
       },
       {
          "auth" : "DAVECROSS",
