@@ -511,16 +511,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-Schema-Deploy/issues",
-         "date" : "2024-05-04",
+         "date" : "2024-06-13",
          "dist" : "App-Schema-Deploy",
          "insecure_repo" : false,
-         "name" : "App-Schema-Deploy-0.04",
+         "name" : "App-Schema-Deploy-0.05",
          "repo" : "git://github.com/michal-josef-spacek/App-Schema-Deploy",
          "repo_def_branch" : "main",
          "repo_name" : "App-Schema-Deploy",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.04"
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",
@@ -2863,16 +2863,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Random-Day/issues",
-         "date" : "2024-03-16",
+         "date" : "2024-06-13",
          "dist" : "Random-Day",
          "insecure_repo" : false,
-         "name" : "Random-Day-0.14",
+         "name" : "Random-Day-0.15",
          "repo" : "git://github.com/michal-josef-spacek/Random-Day",
          "repo_def_branch" : "master",
          "repo_name" : "Random-Day",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.14"
+         "ver" : "0.15"
       },
       {
          "auth" : "SKIM",
