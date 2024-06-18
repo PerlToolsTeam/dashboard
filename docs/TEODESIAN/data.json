@@ -147,16 +147,16 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/Trog-TOTP/issues",
-         "date" : "2023-12-06",
+         "date" : "2024-06-17",
          "dist" : "Trog-TOTP",
          "insecure_repo" : false,
-         "name" : "Trog-TOTP-1.003",
+         "name" : "Trog-TOTP-1.004",
          "repo" : "https://github.com/teodesian/Trog-TOTP.git",
          "repo_def_branch" : "master",
          "repo_name" : "Trog-TOTP",
          "repo_owner" : "teodesian",
          "uses_rt" : false,
-         "ver" : "1.003"
+         "ver" : "1.004"
       },
       {
          "auth" : "TEODESIAN",

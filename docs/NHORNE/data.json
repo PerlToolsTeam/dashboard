@@ -570,6 +570,20 @@
       },
       {
          "auth" : "NHORNE",
+         "bugtracker" : "https://github.com/nigelhorne/LWP-UserAgent-Throttled/issues",
+         "date" : "2024-06-17",
+         "dist" : "LWP-UserAgent-Throttled",
+         "insecure_repo" : false,
+         "name" : "LWP-UserAgent-Throttled-0.11",
+         "repo" : "https://github.com/nigelhorne/LWP-UserAgent::Throttled",
+         "repo_def_branch" : "",
+         "repo_name" : "LWP-UserAgent::Throttled",
+         "repo_owner" : "nigelhorne",
+         "uses_rt" : false,
+         "ver" : "0.11"
+      },
+      {
+         "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Lingua-Conjunction",
          "date" : "2024-02-24",
          "dist" : "Lingua-Conjunction",
