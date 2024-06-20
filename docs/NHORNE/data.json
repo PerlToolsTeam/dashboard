@@ -253,16 +253,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/DateTime-Format-Genealogy/issues",
-         "date" : "2024-04-23",
+         "date" : "2024-06-20",
          "dist" : "DateTime-Format-Genealogy",
          "insecure_repo" : false,
-         "name" : "DateTime-Format-Genealogy-0.06",
+         "name" : "DateTime-Format-Genealogy-0.07",
          "repo" : "https://github.com/nigelhorne/DateTime-Format-Genealogy",
          "repo_def_branch" : "master",
          "repo_name" : "DateTime-Format-Genealogy",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.06"
+         "ver" : "0.07"
       },
       {
          "auth" : "NHORNE",
@@ -345,6 +345,20 @@
          "repo_name" : "Genealogy-ChroniclingAmerica",
          "repo_owner" : "nigelhorne",
          "ver" : "0.03"
+      },
+      {
+         "auth" : "NHORNE",
+         "bugtracker" : "https://github.com/nigelhorne/Genealogy-ObituaryDailyTimes/issues",
+         "date" : "2024-06-20",
+         "dist" : "Genealogy-ObituaryDailyTimes",
+         "insecure_repo" : false,
+         "name" : "Genealogy-ObituaryDailyTimes-0.12",
+         "repo" : "https://github.com/nigelhorne/Genealogy-ObituaryDailyTimes",
+         "repo_def_branch" : "master",
+         "repo_name" : "Genealogy-ObituaryDailyTimes",
+         "repo_owner" : "nigelhorne",
+         "uses_rt" : false,
+         "ver" : "0.12"
       },
       {
          "auth" : "NHORNE",
