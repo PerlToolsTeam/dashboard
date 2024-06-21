@@ -141,16 +141,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Class-Simple-Cached/issues",
-         "date" : "2021-03-02",
+         "date" : "2024-06-21",
          "dist" : "Class-Simple-Cached",
          "insecure_repo" : false,
-         "name" : "Class-Simple-Cached-0.04",
+         "name" : "Class-Simple-Cached-0.05",
          "repo" : "https://github.com/nigelhorne/Class-Simple-Cached",
          "repo_def_branch" : "master",
          "repo_name" : "Class-Simple-Cached",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.04"
+         "ver" : "0.05"
       },
       {
          "auth" : "NHORNE",
