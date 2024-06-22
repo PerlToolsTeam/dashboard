@@ -329,6 +329,20 @@
       },
       {
          "auth" : "TODDR",
+         "bugtracker" : "https://github.com/abw/Template2/issues",
+         "date" : "2024-06-21",
+         "dist" : "Template-Toolkit",
+         "insecure_repo" : false,
+         "name" : "Template-Toolkit-3.102",
+         "repo" : "https://github.com/abw/Template2",
+         "repo_def_branch" : null,
+         "repo_name" : "Template2",
+         "repo_owner" : "abw",
+         "uses_rt" : false,
+         "ver" : "3.102"
+      },
+      {
+         "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpanelinc/Test-MockFile/issues",
          "date" : "2023-07-26",
          "dist" : "Test-MockFile",
