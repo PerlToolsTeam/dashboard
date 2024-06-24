@@ -155,16 +155,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Class-Simple-Readonly-Cached/issues",
-         "date" : "2023-03-13",
+         "date" : "2024-06-23",
          "dist" : "Class-Simple-Readonly-Cached",
          "insecure_repo" : false,
-         "name" : "Class-Simple-Readonly-Cached-0.09",
+         "name" : "Class-Simple-Readonly-Cached-0.10",
          "repo" : "https://github.com/nigelhorne/Class-Simple-Readonly-Cached",
          "repo_def_branch" : "master",
          "repo_name" : "Class-Simple-Readonly-Cached",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.09"
+         "ver" : "0.10"
       },
       {
          "auth" : "NHORNE",
