@@ -161,30 +161,30 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-CPAN-Get/issues",
-         "date" : "2024-06-23",
+         "date" : "2024-06-28",
          "dist" : "App-CPAN-Get",
          "insecure_repo" : false,
-         "name" : "App-CPAN-Get-0.11",
+         "name" : "App-CPAN-Get-0.12",
          "repo" : "git://github.com/michal-josef-spacek/App-CPAN-Get",
          "repo_def_branch" : "main",
          "repo_name" : "App-CPAN-Get",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.11"
+         "ver" : "0.12"
       },
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-CPAN-Search/issues",
-         "date" : "2024-06-23",
+         "date" : "2024-06-28",
          "dist" : "App-CPAN-Search",
          "insecure_repo" : false,
-         "name" : "App-CPAN-Search-0.10",
+         "name" : "App-CPAN-Search-0.11",
          "repo" : "git://github.com/michal-josef-spacek/App-CPAN-Search",
          "repo_def_branch" : "master",
          "repo_name" : "App-CPAN-Search",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.10"
+         "ver" : "0.11"
       },
       {
          "auth" : "SKIM",
@@ -469,16 +469,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-Pod-Example/issues",
-         "date" : "2024-06-23",
+         "date" : "2024-06-28",
          "dist" : "App-Pod-Example",
          "insecure_repo" : false,
-         "name" : "App-Pod-Example-0.21",
+         "name" : "App-Pod-Example-0.22",
          "repo" : "git://github.com/michal-josef-spacek/App-Pod-Example",
          "repo_def_branch" : "master",
          "repo_name" : "App-Pod-Example",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.21"
+         "ver" : "0.22"
       },
       {
          "auth" : "SKIM",
