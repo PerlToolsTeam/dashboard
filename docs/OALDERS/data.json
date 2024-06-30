@@ -37,16 +37,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/perl-ide/App-perlimports/issues",
-         "date" : "2024-01-13",
+         "date" : "2024-06-29",
          "dist" : "App-perlimports",
          "insecure_repo" : false,
-         "name" : "App-perlimports-0.000053",
+         "name" : "App-perlimports-0.000054",
          "repo" : "https://github.com/perl-ide/App-perlimports",
          "repo_def_branch" : "main",
          "repo_name" : "App-perlimports",
          "repo_owner" : "perl-ide",
          "uses_rt" : false,
-         "ver" : "0.000053"
+         "ver" : "0.000054"
       },
       {
          "auth" : "OALDERS",
