@@ -214,20 +214,6 @@
       },
       {
          "auth" : "SLAFFAN",
-         "bugtracker" : "https://github.com/shawnlaffan/Statistics-Descriptive-PDL/issues/",
-         "date" : "2022-04-24",
-         "dist" : "Statistics-Descriptive-PDL",
-         "insecure_repo" : false,
-         "name" : "Statistics-Descriptive-PDL-0.16",
-         "repo" : "https://github.com/shawnlaffan/Statistics-Descriptive-PDL",
-         "repo_def_branch" : "master",
-         "repo_name" : "Statistics-Descriptive-PDL",
-         "repo_owner" : "shawnlaffan",
-         "uses_rt" : false,
-         "ver" : "0.16"
-      },
-      {
-         "auth" : "SLAFFAN",
          "bugtracker" : "https://github.com/shawnlaffan/perl-statistics-sampler-multinomial/issues/",
          "date" : "2022-09-24",
          "dist" : "Statistics-Sampler-Multinomial",
