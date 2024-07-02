@@ -496,6 +496,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/App-Run-Command-ToFail/issues",
+         "date" : "2024-07-01",
+         "dist" : "App-Run-Command-ToFail",
+         "insecure_repo" : false,
+         "name" : "App-Run-Command-ToFail-0.05",
+         "repo" : "git://github.com/michal-josef-spacek/App-Run-Command-ToFail",
+         "repo_def_branch" : "main",
+         "repo_name" : "App-Run-Command-ToFail",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.05"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-Schema-Data/issues",
          "date" : "2022-10-24",
          "dist" : "App-Schema-Data",
