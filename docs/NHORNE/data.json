@@ -377,16 +377,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-Abbreviations/issues",
-         "date" : "2024-02-27",
+         "date" : "2024-07-02",
          "dist" : "Geo-Coder-Abbreviations",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-Abbreviations-0.07",
+         "name" : "Geo-Coder-Abbreviations-0.08",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-Abbreviations",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-Abbreviations",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.07"
+         "ver" : "0.08"
       },
       {
          "auth" : "NHORNE",
