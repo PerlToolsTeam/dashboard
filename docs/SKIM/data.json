@@ -343,16 +343,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-MARC-Filter/issues",
-         "date" : "2022-05-18",
+         "date" : "2024-07-04",
          "dist" : "App-MARC-Filter",
          "insecure_repo" : false,
-         "name" : "App-MARC-Filter-0.02",
+         "name" : "App-MARC-Filter-0.03",
          "repo" : "git://github.com/michal-josef-spacek/App-MARC-Filter",
          "repo_def_branch" : "main",
          "repo_name" : "App-MARC-Filter",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "SKIM",
