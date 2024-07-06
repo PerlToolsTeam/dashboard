@@ -131,16 +131,16 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/cromedome/Dancer2-Plugin-Minion/issues",
-         "date" : "2020-12-20",
+         "date" : "2024-07-06",
          "dist" : "Dancer2-Plugin-Minion",
          "insecure_repo" : false,
-         "name" : "Dancer2-Plugin-Minion-0.3.3",
+         "name" : "Dancer2-Plugin-Minion-1.0.0",
          "repo" : "https://github.com/cromedome/Dancer2-Plugin-Minion",
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Minion",
          "repo_owner" : "cromedome",
          "uses_rt" : false,
-         "ver" : "0.3.3"
+         "ver" : "1.0.0"
       },
       {
          "auth" : "CROMEDOME",
