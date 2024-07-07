@@ -80,13 +80,13 @@
          "date" : "2024-07-07",
          "dist" : "App-MergeCal",
          "insecure_repo" : false,
-         "name" : "App-MergeCal-0.0.3",
+         "name" : "App-MergeCal-0.0.4",
          "repo" : "https://github.com/davorg-cpan/app-mergecal",
          "repo_def_branch" : null,
          "repo_name" : "app-mergecal",
          "repo_owner" : "davorg-cpan",
          "uses_rt" : false,
-         "ver" : "v0.0.3"
+         "ver" : "v0.0.4"
       },
       {
          "auth" : "DAVECROSS",
