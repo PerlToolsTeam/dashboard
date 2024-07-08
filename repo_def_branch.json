@@ -249,7 +249,7 @@
    "cromedome" : {
       "Dancer-Plugin-reCAPTCHA" : "master",
       "Dancer2-Logger-Log4perl" : "master",
-      "Dancer2-Plugin-Minion" : "master",
+      "Dancer2-Plugin-Minion" : "main",
       "Dancer2-Plugin-Syntax-ParamKeywords" : "main",
       "Dancer2-Session-CHI" : "master",
       "cgi-application-plugin-captcha" : "master"
@@ -260,7 +260,7 @@
    "davorg" : {
       "Feed-Find" : "master",
       "Ogg-Vorbis-Header" : "master",
-      "app-aphra" : "master",
+      "app-aphra" : "main",
       "app-cpanmodulesite" : "main",
       "app-httpthis" : "master",
       "array-compare" : "master",
@@ -297,7 +297,7 @@
    },
    "davorg-cpan" : {
       "amazon-sites" : "main",
-      "app-aphra" : "master",
+      "app-aphra" : "main",
       "app-cpanmodulesite" : "main",
       "template-provider-pandoc" : "master"
    },
