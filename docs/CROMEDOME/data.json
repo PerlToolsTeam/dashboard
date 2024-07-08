@@ -136,7 +136,7 @@
          "insecure_repo" : false,
          "name" : "Dancer2-Plugin-Minion-1.0.0",
          "repo" : "https://github.com/cromedome/Dancer2-Plugin-Minion",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "main",
          "repo_name" : "Dancer2-Plugin-Minion",
          "repo_owner" : "cromedome",
          "uses_rt" : false,
