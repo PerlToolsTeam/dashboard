@@ -245,16 +245,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/dumbbench/issues",
-         "date" : "2022-04-21",
+         "date" : "2024-07-09",
          "dist" : "Dumbbench",
          "insecure_repo" : false,
-         "name" : "Dumbbench-0.503",
+         "name" : "Dumbbench-0.504",
          "repo" : "https://github.com/briandfoy/dumbbench",
          "repo_def_branch" : "master",
          "repo_name" : "dumbbench",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "0.503"
+         "ver" : "0.504"
       },
       {
          "auth" : "BDFOY",
