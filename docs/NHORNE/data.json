@@ -722,15 +722,17 @@
       },
       {
          "auth" : "NHORNE",
-         "date" : "2020-09-17",
+         "bugtracker" : "https://github.com/nigelhorne/Sub-Private/issues",
+         "date" : "2024-07-12",
          "dist" : "Sub-Private",
-         "insecure_repo" : true,
-         "name" : "Sub-Private-0.02",
-         "repo" : "http://github.com/nigelhorne/sub-private-perl/tree/master",
-         "repo_def_branch" : "",
-         "repo_name" : "sub-private-perl/tree/master",
+         "insecure_repo" : false,
+         "name" : "Sub-Private-0.03",
+         "repo" : "https://github.com/nigelhorne/Sub-Private",
+         "repo_def_branch" : null,
+         "repo_name" : "Sub-Private",
          "repo_owner" : "nigelhorne",
-         "ver" : "0.02"
+         "uses_rt" : false,
+         "ver" : "0.03"
       },
       {
          "auth" : "NHORNE",
