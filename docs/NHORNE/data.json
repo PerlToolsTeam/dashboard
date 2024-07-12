@@ -475,16 +475,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-Postcodes/issues",
-         "date" : "2022-02-09",
+         "date" : "2024-07-11",
          "dist" : "Geo-Coder-Postcodes",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-Postcodes-0.07",
+         "name" : "Geo-Coder-Postcodes-0.08",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-Postcodes",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-Postcodes",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.07"
+         "ver" : "0.08"
       },
       {
          "auth" : "NHORNE",
