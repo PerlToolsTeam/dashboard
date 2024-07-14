@@ -398,20 +398,6 @@
       },
       {
          "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/mac-propertylist/issues",
-         "date" : "2022-07-08",
-         "dist" : "Mac-PropertyList",
-         "insecure_repo" : false,
-         "name" : "Mac-PropertyList-1.504",
-         "repo" : "https://github.com/briandfoy/mac-propertylist",
-         "repo_def_branch" : "master",
-         "repo_name" : "mac-propertylist",
-         "repo_owner" : "briandfoy",
-         "uses_rt" : false,
-         "ver" : "1.504"
-      },
-      {
-         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/math-nocarry/issues",
          "date" : "2024-01-28",
          "dist" : "Math-NoCarry",
