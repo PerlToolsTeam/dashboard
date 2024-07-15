@@ -722,20 +722,6 @@
       },
       {
          "auth" : "NHORNE",
-         "bugtracker" : "https://github.com/nigelhorne/Sub-Private/issues",
-         "date" : "2024-07-12",
-         "dist" : "Sub-Private",
-         "insecure_repo" : false,
-         "name" : "Sub-Private-0.03",
-         "repo" : "https://github.com/nigelhorne/Sub-Private",
-         "repo_def_branch" : null,
-         "repo_name" : "Sub-Private",
-         "repo_owner" : "nigelhorne",
-         "uses_rt" : false,
-         "ver" : "0.03"
-      },
-      {
-         "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Test-HTTPStatus/issues",
          "date" : "2020-11-14",
          "dist" : "Test-HTTPStatus",
