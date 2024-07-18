@@ -708,17 +708,17 @@
       },
       {
          "auth" : "NHORNE",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Log::WarnDie",
-         "date" : "2017-09-12",
+         "bugtracker" : "https://github.com/nigelhorne/Log-WarnDie",
+         "date" : "2024-07-18",
          "dist" : "Log-WarnDie",
          "insecure_repo" : false,
-         "name" : "Log-WarnDie-0.09",
+         "name" : "Log-WarnDie-0.11",
          "repo" : "https://github.com/nigelhorne/Log::WarnDie",
          "repo_def_branch" : "",
          "repo_name" : "Log::WarnDie",
          "repo_owner" : "nigelhorne",
-         "uses_rt" : true,
-         "ver" : "0.09"
+         "uses_rt" : false,
+         "ver" : "0.11"
       },
       {
          "auth" : "NHORNE",
