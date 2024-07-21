@@ -461,16 +461,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Coder-Mapbox",
-         "date" : "2021-10-05",
+         "date" : "2024-07-21",
          "dist" : "Geo-Coder-Mapbox",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-Mapbox-0.01",
+         "name" : "Geo-Coder-Mapbox-0.02",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-Mapbox",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-Mapbox",
          "repo_owner" : "nigelhorne",
          "uses_rt" : true,
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "NHORNE",
