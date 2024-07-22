@@ -3,7 +3,7 @@
       "cpan" : "MANWAR",
       "github" : "manwar",
       "gravatar" : "https://secure.gravatar.com/avatar/71c853edf567f3482e0e7f21d51e9df2?s=130&d=identicon",
-      "name" : "Mohammad S Anwar"
+      "name" : "Mohammad Sajid Anwar"
    },
    "ci" : {
       "gh_workflow_names" : [
@@ -1163,16 +1163,16 @@
       {
          "auth" : "MANWAR",
          "bugtracker" : "http://github.com/manwar/Test-Strict",
-         "date" : "2019-06-16",
+         "date" : "2024-07-22",
          "dist" : "Test-Strict",
          "insecure_repo" : true,
-         "name" : "Test-Strict-0.52",
+         "name" : "Test-Strict-0.53",
          "repo" : "http://github.com/manwar/Test-Strict",
          "repo_def_branch" : "master",
          "repo_name" : "Test-Strict",
          "repo_owner" : "manwar",
          "uses_rt" : false,
-         "ver" : "0.52"
+         "ver" : "0.53"
       },
       {
          "auth" : "MANWAR",
