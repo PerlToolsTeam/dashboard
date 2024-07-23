@@ -295,16 +295,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/File-Open-NoCache-ReadOnly/issues",
-         "date" : "2019-08-12",
+         "date" : "2024-07-23",
          "dist" : "File-Open-NoCache-ReadOnly",
          "insecure_repo" : false,
-         "name" : "File-Open-NoCache-ReadOnly-0.02",
+         "name" : "File-Open-NoCache-ReadOnly-0.03",
          "repo" : "https://github.com/nigelhorne/File-Open-NoCache-ReadOnly",
          "repo_def_branch" : "master",
          "repo_name" : "File-Open-NoCache-ReadOnly",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "NHORNE",
