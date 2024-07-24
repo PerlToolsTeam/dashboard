@@ -1163,16 +1163,16 @@
       {
          "auth" : "MANWAR",
          "bugtracker" : "http://github.com/manwar/Test-Strict",
-         "date" : "2024-07-22",
+         "date" : "2024-07-24",
          "dist" : "Test-Strict",
          "insecure_repo" : true,
-         "name" : "Test-Strict-0.53",
+         "name" : "Test-Strict-0.54",
          "repo" : "http://github.com/manwar/Test-Strict",
          "repo_def_branch" : "master",
          "repo_name" : "Test-Strict",
          "repo_owner" : "manwar",
          "uses_rt" : false,
-         "ver" : "0.53"
+         "ver" : "0.54"
       },
       {
          "auth" : "MANWAR",
