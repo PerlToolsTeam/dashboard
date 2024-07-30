@@ -301,16 +301,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTML-Parser/issues",
-         "date" : "2024-03-13",
+         "date" : "2024-07-30",
          "dist" : "HTML-Parser",
          "insecure_repo" : false,
-         "name" : "HTML-Parser-3.82",
+         "name" : "HTML-Parser-3.83",
          "repo" : "https://github.com/libwww-perl/HTML-Parser",
          "repo_def_branch" : "master",
          "repo_name" : "HTML-Parser",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "3.82"
+         "ver" : "3.83"
       },
       {
          "auth" : "OALDERS",
