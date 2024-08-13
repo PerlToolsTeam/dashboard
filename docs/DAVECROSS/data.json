@@ -35,16 +35,16 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/app-aphra/issues",
-         "date" : "2024-07-01",
+         "date" : "2024-08-13",
          "dist" : "App-Aphra",
          "insecure_repo" : false,
-         "name" : "App-Aphra-0.2.0",
+         "name" : "App-Aphra-0.2.1",
          "repo" : "https://github.com/davorg-cpan/app-aphra",
          "repo_def_branch" : "main",
          "repo_name" : "app-aphra",
          "repo_owner" : "davorg-cpan",
          "uses_rt" : false,
-         "ver" : "v0.2.0"
+         "ver" : "v0.2.1"
       },
       {
          "auth" : "DAVECROSS",
