@@ -48,6 +48,20 @@
       },
       {
          "auth" : "TEODESIAN",
+         "bugtracker" : "https://github.com/teodesian/perl-Github-ReleaseFetcher/issues",
+         "date" : "2024-08-13",
+         "dist" : "Github-ReleaseFetcher",
+         "insecure_repo" : false,
+         "name" : "Github-ReleaseFetcher-1.001",
+         "repo" : "https://github.com/teodesian/perl-Github-ReleaseFetcher",
+         "repo_def_branch" : null,
+         "repo_name" : "perl-Github-ReleaseFetcher",
+         "repo_owner" : "teodesian",
+         "uses_rt" : false,
+         "ver" : "1.001"
+      },
+      {
+         "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/Microsoft-Translator-Perl/issues",
          "date" : "2023-10-26",
          "dist" : "Microsoft-Translator",
