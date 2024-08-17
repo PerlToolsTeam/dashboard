@@ -128,15 +128,15 @@
       },
       {
          "auth" : "MANWAR",
-         "date" : "2022-08-09",
+         "date" : "2024-08-16",
          "dist" : "BankAccount-Validator-UK",
          "insecure_repo" : false,
-         "name" : "BankAccount-Validator-UK-0.65",
+         "name" : "BankAccount-Validator-UK-0.66",
          "repo" : "https://github.com/manwar/BankAccount-Validator-UK",
          "repo_def_branch" : "master",
          "repo_name" : "BankAccount-Validator-UK",
          "repo_owner" : "manwar",
-         "ver" : "0.65"
+         "ver" : "0.66"
       },
       {
          "auth" : "MANWAR",
