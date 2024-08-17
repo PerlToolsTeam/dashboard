@@ -426,20 +426,6 @@
       },
       {
          "auth" : "BDFOY",
-         "bugtracker" : "https://github.com/briandfoy/module-extract-use/issues",
-         "date" : "2024-02-05",
-         "dist" : "Module-Extract-Use",
-         "insecure_repo" : false,
-         "name" : "Module-Extract-Use-1.052",
-         "repo" : "https://github.com/briandfoy/module-extract-use",
-         "repo_def_branch" : "master",
-         "repo_name" : "module-extract-use",
-         "repo_owner" : "briandfoy",
-         "uses_rt" : false,
-         "ver" : "1.052"
-      },
-      {
-         "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/module-release/issues",
          "date" : "2024-01-08",
          "dist" : "Module-Release",
