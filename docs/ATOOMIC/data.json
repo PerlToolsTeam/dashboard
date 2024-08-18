@@ -77,6 +77,20 @@
       },
       {
          "auth" : "ATOOMIC",
+         "bugtracker" : "https://github.com/garu/Clone/issues",
+         "date" : "2024-08-17",
+         "dist" : "Clone",
+         "insecure_repo" : true,
+         "name" : "Clone-0.47",
+         "repo" : "http://github.com/garu/Clone",
+         "repo_def_branch" : null,
+         "repo_name" : "Clone",
+         "repo_owner" : "garu",
+         "uses_rt" : false,
+         "ver" : "0.47"
+      },
+      {
+         "auth" : "ATOOMIC",
          "bugtracker" : "https://github.com/atoomic/Colon-Config/issues",
          "date" : "2018-12-28",
          "dist" : "Colon-Config",
