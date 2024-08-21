@@ -15,8 +15,8 @@ jobs:
     steps:
     - name: Install snapd
       run: |
-        apt-get update
-        apt-get install snapd
+        apt-get -y update
+        apt-get -y install snapd
         snap install snapd
         snap install gh
 
