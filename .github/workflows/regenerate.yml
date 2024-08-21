@@ -16,9 +16,7 @@ jobs:
     - name: Install snapd
       run: |
         apt-get -y update
-        apt-get -y install snapd
-        snap install snapd
-        snap install gh
+        apt-get -y install gh
 
     - name: Perl version
       run: perl -v
