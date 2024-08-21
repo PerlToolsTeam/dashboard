@@ -56,7 +56,7 @@
          "insecure_repo" : false,
          "name" : "App-perlvars-0.000005",
          "repo" : "https://github.com/perl-ide/App-perlvars",
-         "repo_def_branch" : null,
+         "repo_def_branch" : "main",
          "repo_name" : "App-perlvars",
          "repo_owner" : "perl-ide",
          "uses_rt" : false,

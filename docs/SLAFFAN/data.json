@@ -178,7 +178,7 @@
          "insecure_repo" : false,
          "name" : "Geo-GDAL-FFI-0.12",
          "repo" : "https://github.com/ajolma/Geo-GDAL-FFI",
-         "repo_def_branch" : null,
+         "repo_def_branch" : "master",
          "repo_name" : "Geo-GDAL-FFI",
          "repo_owner" : "ajolma",
          "uses_rt" : false,

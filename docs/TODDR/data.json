@@ -335,7 +335,7 @@
          "insecure_repo" : false,
          "name" : "Template-Toolkit-3.102",
          "repo" : "https://github.com/abw/Template2",
-         "repo_def_branch" : null,
+         "repo_def_branch" : "master",
          "repo_name" : "Template2",
          "repo_owner" : "abw",
          "uses_rt" : false,

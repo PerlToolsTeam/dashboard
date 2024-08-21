@@ -83,7 +83,7 @@
          "insecure_repo" : true,
          "name" : "Clone-0.47",
          "repo" : "http://github.com/garu/Clone",
-         "repo_def_branch" : null,
+         "repo_def_branch" : "master",
          "repo_name" : "Clone",
          "repo_owner" : "garu",
          "uses_rt" : false,
