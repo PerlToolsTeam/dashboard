@@ -13,6 +13,13 @@ jobs:
     container: perl:latest
 
     steps:
+    - name: Install snapd
+      run: |
+        apt-get update
+        apt-get install snapd
+        snap install snapd
+        snap install gh
+
     - name: Perl version
       run: perl -v
 
