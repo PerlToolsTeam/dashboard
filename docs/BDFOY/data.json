@@ -21,16 +21,16 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/Acme-MyFirstModule-BDFOY/issues",
-         "date" : "2024-07-10",
+         "date" : "2024-08-26",
          "dist" : "Acme-MyFirstModule-BDFOY",
          "insecure_repo" : false,
-         "name" : "Acme-MyFirstModule-BDFOY-0.019",
+         "name" : "Acme-MyFirstModule-BDFOY-0.022",
          "repo" : "https://github.com/briandfoy/Acme-MyFirstModule-BDFOY",
          "repo_def_branch" : "master",
          "repo_name" : "Acme-MyFirstModule-BDFOY",
          "repo_owner" : "briandfoy",
          "uses_rt" : false,
-         "ver" : "0.019"
+         "ver" : "0.022"
       },
       {
          "auth" : "BDFOY",
