@@ -787,12 +787,12 @@
          "date" : "2024-08-26",
          "dist" : "Map-Tube",
          "insecure_repo" : false,
-         "name" : "Map-Tube-3.72",
+         "name" : "Map-Tube-3.74",
          "repo" : "https://github.com/manwar/Map-Tube",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube",
          "repo_owner" : "manwar",
-         "ver" : "3.72"
+         "ver" : "3.74"
       },
       {
          "auth" : "MANWAR",
@@ -829,18 +829,6 @@
          "repo_name" : "Map-Tube-CLI",
          "repo_owner" : "manwar",
          "ver" : "0.68"
-      },
-      {
-         "auth" : "MANWAR",
-         "date" : "2017-04-06",
-         "dist" : "Map-Tube-Cookbook",
-         "insecure_repo" : false,
-         "name" : "Map-Tube-Cookbook-0.08",
-         "repo" : "https://github.com/manwar/Map-Tube-Cookbook",
-         "repo_def_branch" : "master",
-         "repo_name" : "Map-Tube-Cookbook",
-         "repo_owner" : "manwar",
-         "ver" : "0.08"
       },
       {
          "auth" : "MANWAR",
