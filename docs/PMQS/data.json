@@ -37,16 +37,16 @@
       {
          "auth" : "PMQS",
          "bugtracker" : "https://github.com/pmqs/Archive-Zip-SimpleZip/issues",
-         "date" : "2024-08-28",
+         "date" : "2024-08-29",
          "dist" : "Archive-Zip-SimpleZip",
          "insecure_repo" : false,
-         "name" : "Archive-Zip-SimpleZip-1.001",
+         "name" : "Archive-Zip-SimpleZip-1.002",
          "repo" : "https://github.com/pmqs/Archive-Zip-SimpleZip",
          "repo_def_branch" : "master",
          "repo_name" : "Archive-Zip-SimpleZip",
          "repo_owner" : "pmqs",
          "uses_rt" : false,
-         "ver" : "1.001"
+         "ver" : "1.002"
       },
       {
          "auth" : "PMQS",

@@ -76,6 +76,20 @@
       },
       {
          "auth" : "DAVECROSS",
+         "bugtracker" : "https://github.com/davorg-cpan/app-laststats/issues",
+         "date" : "2024-08-29",
+         "dist" : "App-LastStats",
+         "insecure_repo" : false,
+         "name" : "App-LastStats-0.0.8",
+         "repo" : "https://github.com/davorg-cpan/app-laststats",
+         "repo_def_branch" : "main",
+         "repo_name" : "app-laststats",
+         "repo_owner" : "davorg-cpan",
+         "uses_rt" : false,
+         "ver" : "v0.0.8"
+      },
+      {
+         "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/app-mergecal/issues",
          "date" : "2024-08-18",
          "dist" : "App-MergeCal",
