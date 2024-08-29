@@ -945,16 +945,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/lazy/issues",
-         "date" : "2018-07-26",
+         "date" : "2024-08-29",
          "dist" : "lazy",
          "insecure_repo" : false,
-         "name" : "lazy-0.000009",
+         "name" : "lazy-1.000000",
          "repo" : "https://github.com/oalders/lazy",
          "repo_def_branch" : "main",
          "repo_name" : "lazy",
          "repo_owner" : "oalders",
          "uses_rt" : false,
-         "ver" : "0.000009"
+         "ver" : "1.000000"
       },
       {
          "auth" : "OALDERS",
