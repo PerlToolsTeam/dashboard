@@ -287,6 +287,20 @@
       },
       {
          "auth" : "DCANTRELL",
+         "bugtracker" : "https://github.com/DrHyde/perl-modules-MooseX-Types-StrictScalarTypes/issues",
+         "date" : "2024-09-01",
+         "dist" : "MooseX-Types-StrictScalarTypes",
+         "insecure_repo" : false,
+         "name" : "MooseX-Types-StrictScalarTypes-1.0.0",
+         "repo" : "https://github.com/DrHyde/perl-modules-MooseX-Types-StrictScalarTypes",
+         "repo_def_branch" : "master",
+         "repo_name" : "perl-modules-MooseX-Types-StrictScalarTypes",
+         "repo_owner" : "DrHyde",
+         "uses_rt" : false,
+         "ver" : "v1.0.0"
+      },
+      {
+         "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-Net-Random/issues",
          "date" : "2020-05-10",
          "dist" : "Net-Random",
