@@ -784,15 +784,15 @@
       },
       {
          "auth" : "MANWAR",
-         "date" : "2024-08-26",
+         "date" : "2024-09-02",
          "dist" : "Map-Tube",
          "insecure_repo" : false,
-         "name" : "Map-Tube-3.74",
+         "name" : "Map-Tube-3.76",
          "repo" : "https://github.com/manwar/Map-Tube",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube",
          "repo_owner" : "manwar",
-         "ver" : "3.74"
+         "ver" : "3.76"
       },
       {
          "auth" : "MANWAR",
@@ -1135,18 +1135,6 @@
          "repo_name" : "Test-Internet",
          "repo_owner" : "manwar",
          "ver" : "0.07"
-      },
-      {
-         "auth" : "MANWAR",
-         "date" : "2024-08-25",
-         "dist" : "Test-Map-Tube",
-         "insecure_repo" : false,
-         "name" : "Test-Map-Tube-0.60",
-         "repo" : "https://github.com/manwar/Test-Map-Tube",
-         "repo_def_branch" : "master",
-         "repo_name" : "Test-Map-Tube",
-         "repo_owner" : "manwar",
-         "ver" : "0.60"
       },
       {
          "auth" : "MANWAR",
