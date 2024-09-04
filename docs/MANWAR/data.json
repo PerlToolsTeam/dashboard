@@ -916,15 +916,15 @@
       },
       {
          "auth" : "MANWAR",
-         "date" : "2024-08-18",
+         "date" : "2024-09-04",
          "dist" : "Map-Tube-Plugin-Graph",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Plugin-Graph-0.43",
+         "name" : "Map-Tube-Plugin-Graph-0.45",
          "repo" : "https://github.com/manwar/Map-Tube-Plugin-Graph",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Plugin-Graph",
          "repo_owner" : "manwar",
-         "ver" : "0.43"
+         "ver" : "0.45"
       },
       {
          "auth" : "MANWAR",
