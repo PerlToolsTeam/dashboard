@@ -868,15 +868,15 @@
       },
       {
          "auth" : "MANWAR",
-         "date" : "2024-08-26",
+         "date" : "2024-09-03",
          "dist" : "Map-Tube-London",
          "insecure_repo" : false,
-         "name" : "Map-Tube-London-1.37",
+         "name" : "Map-Tube-London-1.39",
          "repo" : "https://github.com/manwar/Map-Tube-London",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-London",
          "repo_owner" : "manwar",
-         "ver" : "1.37"
+         "ver" : "1.39"
       },
       {
          "auth" : "MANWAR",
