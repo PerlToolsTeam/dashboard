@@ -2639,16 +2639,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Plack-App-CPAN-Changes/issues",
-         "date" : "2024-08-05",
+         "date" : "2024-09-04",
          "dist" : "Plack-App-CPAN-Changes",
          "insecure_repo" : false,
-         "name" : "Plack-App-CPAN-Changes-0.03",
+         "name" : "Plack-App-CPAN-Changes-0.04",
          "repo" : "git://github.com/michal-josef-spacek/Plack-App-CPAN-Changes",
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-CPAN-Changes",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",

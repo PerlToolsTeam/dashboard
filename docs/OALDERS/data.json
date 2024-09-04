@@ -735,16 +735,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/sysread/TOML-Tiny/issues",
-         "date" : "2024-06-03",
+         "date" : "2024-09-04",
          "dist" : "TOML-Tiny",
          "insecure_repo" : false,
-         "name" : "TOML-Tiny-0.17",
+         "name" : "TOML-Tiny-0.18",
          "repo" : "https://github.com/sysread/TOML-Tiny",
          "repo_def_branch" : "master",
          "repo_name" : "TOML-Tiny",
          "repo_owner" : "sysread",
          "uses_rt" : false,
-         "ver" : "0.17"
+         "ver" : "0.18"
       },
       {
          "auth" : "OALDERS",
