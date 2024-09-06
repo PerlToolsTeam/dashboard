@@ -591,6 +591,20 @@
       },
       {
          "auth" : "TOBYINK",
+         "bugtracker" : "https://github.com/tobyink/p5-devel-cover-report-codecov-service-githubactions/issues",
+         "date" : "2024-09-06",
+         "dist" : "Devel-Cover-Report-Codecov-Service-GithubActions",
+         "insecure_repo" : false,
+         "name" : "Devel-Cover-Report-Codecov-Service-GithubActions-0.001000",
+         "repo" : "https://github.com/tobyink/p5-devel-cover-report-codecov-service-githubactions",
+         "repo_def_branch" : "master",
+         "repo_name" : "p5-devel-cover-report-codecov-service-githubactions",
+         "repo_owner" : "tobyink",
+         "uses_rt" : false,
+         "ver" : "0.001000"
+      },
+      {
+         "auth" : "TOBYINK",
          "bugtracker" : "http://rt.cpan.org/Dist/Display.html?Queue=Devel-PL_origargv",
          "date" : "2014-04-26",
          "dist" : "Devel-PL_origargv",
