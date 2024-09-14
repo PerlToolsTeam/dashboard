@@ -3157,16 +3157,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Tags-HTML-Image/issues",
-         "date" : "2024-06-24",
+         "date" : "2024-09-14",
          "dist" : "Tags-HTML-Image",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-Image-0.03",
+         "name" : "Tags-HTML-Image-0.04",
          "repo" : "git://github.com/michal-josef-spacek/Tags-HTML-Image",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Image",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "SKIM",
