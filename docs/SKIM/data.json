@@ -1000,6 +1000,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/Data-InfoBox/issues",
+         "date" : "2024-09-15",
+         "dist" : "Data-InfoBox",
+         "insecure_repo" : false,
+         "name" : "Data-InfoBox-0.01",
+         "repo" : "git://github.com/michal-josef-spacek/Data-InfoBox",
+         "repo_def_branch" : "main",
+         "repo_name" : "Data-InfoBox",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.01"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-Kramerius/issues",
          "date" : "2023-05-26",
          "dist" : "Data-Kramerius",
