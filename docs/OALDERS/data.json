@@ -50,20 +50,6 @@
       },
       {
          "auth" : "OALDERS",
-         "bugtracker" : "https://github.com/perl-ide/App-perlvars/issues",
-         "date" : "2024-04-30",
-         "dist" : "App-perlvars",
-         "insecure_repo" : false,
-         "name" : "App-perlvars-0.000005",
-         "repo" : "https://github.com/perl-ide/App-perlvars",
-         "repo_def_branch" : "main",
-         "repo_name" : "App-perlvars",
-         "repo_owner" : "perl-ide",
-         "uses_rt" : false,
-         "ver" : "0.000005"
-      },
-      {
-         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/archive-any/issues",
          "date" : "2019-04-05",
          "dist" : "Archive-Any",
@@ -787,20 +773,6 @@
          "repo_owner" : "oalders",
          "uses_rt" : false,
          "ver" : "0.19"
-      },
-      {
-         "auth" : "OALDERS",
-         "bugtracker" : "https://github.com/libwww-perl/WWW-Mechanize/issues",
-         "date" : "2024-01-30",
-         "dist" : "WWW-Mechanize",
-         "insecure_repo" : false,
-         "name" : "WWW-Mechanize-2.18",
-         "repo" : "https://github.com/libwww-perl/WWW-Mechanize",
-         "repo_def_branch" : "master",
-         "repo_name" : "WWW-Mechanize",
-         "repo_owner" : "libwww-perl",
-         "uses_rt" : false,
-         "ver" : "2.18"
       },
       {
          "auth" : "OALDERS",
