@@ -1001,16 +1001,16 @@
       {
          "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/Data-InfoBox/issues",
-         "date" : "2024-09-15",
+         "date" : "2024-09-16",
          "dist" : "Data-InfoBox",
          "insecure_repo" : false,
-         "name" : "Data-InfoBox-0.01",
+         "name" : "Data-InfoBox-0.02",
          "repo" : "git://github.com/michal-josef-spacek/Data-InfoBox",
          "repo_def_branch" : "main",
          "repo_name" : "Data-InfoBox",
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "SKIM",
