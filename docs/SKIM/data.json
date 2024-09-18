@@ -356,20 +356,6 @@
       },
       {
          "auth" : "SKIM",
-         "bugtracker" : "https://github.com/michal-josef-spacek/App-MARC-Leader/issues",
-         "date" : "2024-01-12",
-         "dist" : "App-MARC-Leader",
-         "insecure_repo" : false,
-         "name" : "App-MARC-Leader-0.04",
-         "repo" : "git://github.com/michal-josef-spacek/App-MARC-Leader",
-         "repo_def_branch" : "main",
-         "repo_name" : "App-MARC-Leader",
-         "repo_owner" : "michal-josef-spacek",
-         "uses_rt" : false,
-         "ver" : "0.04"
-      },
-      {
-         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-MARC-List/issues",
          "date" : "2022-05-19",
          "dist" : "App-MARC-List",
