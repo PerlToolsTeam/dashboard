@@ -356,6 +356,20 @@
       },
       {
          "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/App-MARC-Leader/issues",
+         "date" : "2024-09-18",
+         "dist" : "App-MARC-Leader",
+         "insecure_repo" : false,
+         "name" : "App-MARC-Leader-0.05",
+         "repo" : "git://github.com/michal-josef-spacek/App-MARC-Leader",
+         "repo_def_branch" : "main",
+         "repo_name" : "App-MARC-Leader",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.05"
+      },
+      {
+         "auth" : "SKIM",
          "bugtracker" : "https://github.com/michal-josef-spacek/App-MARC-List/issues",
          "date" : "2022-05-19",
          "dist" : "App-MARC-List",
@@ -1753,6 +1767,20 @@
          "repo_owner" : "michal-josef-spacek",
          "uses_rt" : false,
          "ver" : "0.08"
+      },
+      {
+         "auth" : "SKIM",
+         "bugtracker" : "https://github.com/michal-josef-spacek/MARC-Convert-Wikidata/issues",
+         "date" : "2024-09-19",
+         "dist" : "MARC-Convert-Wikidata",
+         "insecure_repo" : false,
+         "name" : "MARC-Convert-Wikidata-0.16",
+         "repo" : "git://github.com/michal-josef-spacek/MARC-Convert-Wikidata",
+         "repo_def_branch" : "main",
+         "repo_name" : "MARC-Convert-Wikidata",
+         "repo_owner" : "michal-josef-spacek",
+         "uses_rt" : false,
+         "ver" : "0.16"
       },
       {
          "auth" : "SKIM",
