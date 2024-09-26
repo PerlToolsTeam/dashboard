@@ -639,16 +639,16 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Locale-CA/issues",
-         "date" : "2023-02-25",
+         "date" : "2024-09-26",
          "dist" : "Locale-CA",
          "insecure_repo" : false,
-         "name" : "Locale-CA-0.05",
+         "name" : "Locale-CA-0.06",
          "repo" : "https://github.com/nigelhorne/Locale-CA-Info",
          "repo_def_branch" : "",
          "repo_name" : "Locale-CA-Info",
          "repo_owner" : "nigelhorne",
          "uses_rt" : false,
-         "ver" : "0.05"
+         "ver" : "0.06"
       },
       {
          "auth" : "NHORNE",
