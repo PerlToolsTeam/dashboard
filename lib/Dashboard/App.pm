@@ -49,7 +49,7 @@ class Dashboard::App {
       $repo_def_branch = {};
     }
 
-    for (glob "$RealBin/authors/*.json") {
+    for (glob "$RealBin/../authors/*.json") {
       push @authors, $self->do_author($_);
       push @urls, "https://$global_cfg->{domain}/$authors[-1]{author}{cpan}/";
     }
@@ -173,11 +173,6 @@ class Dashboard::App {
   }
 
   method make_static_pages {
-    use Cwd;
-    my $where = getcwd;
-    warn "Where: $where\n";
-    chdir "$RealBin/../";
-    warn "Where: $where\n";
 
     find {
       wanted => sub {
