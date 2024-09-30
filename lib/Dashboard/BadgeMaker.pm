@@ -1,5 +1,7 @@
 use v5.26;
-use Object::Pad ':experimental(init_expr)';
+use Feature::Compat::Class;
+
+no if $^V >= v5.38, warnings => 'experimental::class';
 
 class Dashboard::BadgeMaker {
   use strict;

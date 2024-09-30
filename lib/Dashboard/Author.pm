@@ -1,5 +1,7 @@
 use 5.36.0;
-use Object::Pad;
+use Feature::Compat::Class;
+
+no if $^V >= v5.38, warnings => 'experimental::class';
 
 class Dashboard::Author {
   use Dashboard::Distribution;
