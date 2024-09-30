@@ -1,6 +1,8 @@
 use v5.36;
 use Feature::Compat::Class;
 
+no if $^V >= v5.38, warnings => 'experimental::class';
+
 class Dashboard::App {
   use strict;
   use warnings;
@@ -17,8 +19,7 @@ class Dashboard::App {
 
   field $mcpan = MetaCPAN::Client->new;
   field $json = JSON->new->pretty->canonical->utf8;
-  # Annoyingly, I can't use $json here
-  field $global_cfg = JSON->new->pretty->canonical->utf8->decode(path('dashboard.json')->slurp_utf8);
+  field $global_cfg = $json->decode(path('dashboard.json')->slurp_utf8);
   field $tt;
   field @authors;
   field @all_authors;
