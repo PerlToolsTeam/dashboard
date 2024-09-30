@@ -37,7 +37,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         mkdir -p docs
-        perl dashboard
+        perl bin/dashboard
 
     - name: Commit new page
       if: github.repository == 'PerlToolsTeam/dashboard'
