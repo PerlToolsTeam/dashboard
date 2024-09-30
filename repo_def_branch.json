@@ -33,6 +33,7 @@
       "perl-modules-File-Find-Rule-Permissions" : "master",
       "perl-modules-Games-SGF-Go-Rotator" : "",
       "perl-modules-IP-World" : "master",
+      "perl-modules-MooseX-Types-StrictScalarTypes" : "master",
       "perl-modules-Net-Random" : "master",
       "perl-modules-Number-Phone" : "master",
       "perl-modules-Number-Phone-UK-DetailedLocations" : "master",
@@ -112,13 +113,20 @@
    },
    "Troglodyne-Internet-Widgets" : {
       "Audit-Log-perl" : "master",
-      "Microsoft-Translator-Perl" : "master"
+      "Microsoft-Translator-Perl" : "master",
+      "URI-Shorten" : "master"
+   },
+   "abw" : {
+      "Template2" : "master"
    },
    "acme" : {
       "test-www-mechanize-psgi" : "master"
    },
    "aferreira" : {
       "cpan-Devel-Hide" : "master"
+   },
+   "ajolma" : {
+      "Geo-GDAL-FFI" : "master"
    },
    "atoomic" : {
       "Amazon-Dash-Button" : "master",
@@ -299,7 +307,11 @@
       "amazon-sites" : "main",
       "app-aphra" : "main",
       "app-cpanmodulesite" : "main",
-      "template-provider-pandoc" : "master"
+      "app-laststats" : "main",
+      "app-mergecal" : "main",
+      "calendar-simple" : "master",
+      "template-provider-pandoc" : "master",
+      "xml-feed" : "master"
    },
    "drclaw1394" : {
       "perl-constant-more" : "main",
@@ -331,6 +343,9 @@
    "ferki" : {
       "Rex-Hook-File-Diff" : "master",
       "Rex-Hook-File-Impostor" : "master"
+   },
+   "garu" : {
+      "Clone" : "master"
    },
    "kjetilk" : {
       "p5-rdf-doap" : "master"
@@ -492,6 +507,7 @@
       "App-MARC-Leader" : "main",
       "App-MARC-List" : "main",
       "App-MARC-Record-Stats" : "main",
+      "App-NKC2MARC" : "main",
       "App-PYX-Optimization" : "master",
       "App-PYX2XML" : "master",
       "App-Perl-Module-CopyrightYears" : "main",
@@ -533,15 +549,20 @@
       "Data-HTML-A" : "main",
       "Data-HTML-Button" : "main",
       "Data-HTML-Element" : "main",
+      "Data-HTML-Footer" : "main",
       "Data-HTML-Form" : "main",
       "Data-HashType" : "main",
       "Data-Image" : "main",
+      "Data-InfoBox" : "main",
       "Data-Kramerius" : "main",
       "Data-Login" : "main",
       "Data-MARC-Leader" : "main",
+      "Data-Message-Board" : "main",
       "Data-Message-Simple" : "main",
       "Data-Navigation-Item" : "main",
+      "Data-Person" : "main",
       "Data-Random-HashType" : "main",
+      "Data-Random-Person" : "main",
       "Date-ICal" : "main",
       "DateTime-Format-PDF" : "main",
       "Dicom-DCMTK-DCMDump-Get" : "master",
@@ -648,6 +669,7 @@
       "Plack-App-File-PYX" : "master",
       "Plack-App-Login" : "master",
       "Plack-App-Login-Password" : "main",
+      "Plack-App-Login-Request" : "main",
       "Plack-App-Redirect" : "main",
       "Plack-App-Register" : "main",
       "Plack-App-Search" : "main",
@@ -671,20 +693,27 @@
       "Tags-HTML-CPAN-Changes" : "main",
       "Tags-HTML-ChangePassword" : "main",
       "Tags-HTML-Container" : "main",
+      "Tags-HTML-DefinitionList" : "main",
       "Tags-HTML-Element" : "main",
+      "Tags-HTML-Footer" : "main",
       "Tags-HTML-Form" : "main",
       "Tags-HTML-GradientIndicator" : "main",
+      "Tags-HTML-Image" : "main",
       "Tags-HTML-Image-Grid" : "main",
       "Tags-HTML-Login-Access" : "main",
       "Tags-HTML-Login-Button" : "main",
       "Tags-HTML-Login-Register" : "main",
+      "Tags-HTML-Login-Request" : "main",
+      "Tags-HTML-Message-Board" : "main",
       "Tags-HTML-Messages" : "master",
+      "Tags-HTML-Navigation-Grid" : "main",
       "Tags-HTML-Page-Begin" : "master",
       "Tags-HTML-Page-End" : "master",
       "Tags-HTML-Pager" : "main",
       "Tags-HTML-SendMessage" : "master",
       "Tags-HTML-Stars" : "master",
       "Tags-HTML-Table-View" : "main",
+      "Tags-HTML-Tree" : "main",
       "Tags-Output-Indent" : "master",
       "Tags-Output-LibXML" : "master",
       "Tags-Output-PYX" : "master",
@@ -859,6 +888,7 @@
    },
    "perl-ide" : {
       "App-perlimports" : "main",
+      "App-perlvars" : "main",
       "open-this" : "main"
    },
    "perlreview" : {
@@ -960,6 +990,7 @@
       "TestLink-Perl" : "master",
       "TestRail-Perl" : "master",
       "Trog-TOTP" : "master",
+      "perl-Github-ReleaseFetcher" : "",
       "playwright-perl" : "main"
    },
    "tobyink" : {
@@ -1008,6 +1039,7 @@
       "p5-data-validate-csv" : "master",
       "p5-datetimex-auto" : "master",
       "p5-datetimex-format-ago" : "master",
+      "p5-devel-cover-report-codecov-service-githubactions" : "master",
       "p5-devel-pl_origargv" : "master",
       "p5-devel-strictmode" : "master",
       "p5-die-hard" : "master",
@@ -1252,6 +1284,7 @@
       "perl-net-jabber-bot/tree/master" : ""
    },
    "tokuhirom" : {
+      "HTML-TreeBuilder-LibXML" : "master",
       "OrePAN2" : "master"
    },
    "troglodyne-internet-widgets" : {
