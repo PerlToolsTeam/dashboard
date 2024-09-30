@@ -1,4 +1,5 @@
 {
+  "static_dir" : "src",
   "input_dir" : "tt_lib",
   "output_dir" : "docs",
   "index_template" : "index.tt",

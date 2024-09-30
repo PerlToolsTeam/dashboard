@@ -13,6 +13,7 @@ class Dashboard::App {
   use MetaCPAN::Client;
   use URI;
   use FindBin '$RealBin';
+  use File::Find;
 
   field $mcpan = MetaCPAN::Client->new;
   field $json = JSON->new->pretty->canonical->utf8;
@@ -145,7 +146,7 @@ class Dashboard::App {
   }
 
   method load_data {
-    for (glob "$RealBin/docs/*/data.json") {
+    for (glob "$RealBin/../authors/data/*/data.json") {
       push @authors, $json->decode(path($_)->slurp_utf8);
       push @urls, "https://$global_cfg->{domain}/$authors[-1]{author}{cpan}/";
     }
@@ -165,6 +166,34 @@ class Dashboard::App {
       },
     });
 
+    $self->make_static_pages;
+    $self->make_author_pages;
+    $self->make_other_pages;
+    $self->make_sitemap;
+  }
+
+  method make_static_pages {
+    use Cwd;
+    my $where = getcwd;
+    warn "Where: $where\n";
+    chdir "$RealBin/../";
+    warn "Where: $where\n";
+
+    find {
+      wanted => sub {
+        return unless -f;
+        my $file = $_;
+        my $rel = path($file)->relative('.');
+        $rel =~ s|$global_cfg->{static_dir}/||g;
+        my $out = path($global_cfg->{output_dir}, $rel);
+        $out->parent->mkpath;
+        path($file)->copy($out);
+      },
+      no_chdir => 1,
+    }, $global_cfg->{static_dir};
+  }
+
+  method make_author_pages {
     for (@authors) {
       $tt->process(
         $global_cfg->{author_template},
@@ -172,6 +201,9 @@ class Dashboard::App {
         "$_->{author}{cpan}/index.html",
         { binmode => ':utf8' },
       ) or die $tt->error;
+
+      path("authors/data/$_->{author}{cpan}/data.json")
+        ->copy("docs/$_->{author}{cpan}/data.json");
     }
 
     $tt->process(
@@ -181,7 +213,9 @@ class Dashboard::App {
       { binmode => ':utf8' },
     );
     push @urls, "https://$global_cfg->{domain}/";
+  }
 
+  method make_other_pages {
     for (@{ $global_cfg->{page_templates} }) {
       $tt->process(
         "$_.tt",
@@ -191,7 +225,9 @@ class Dashboard::App {
       );
       push @urls, "https://$global_cfg->{domain}/$_/";
     }
+  }
 
+  method make_sitemap {
     @urls = sort @urls;
 
     $tt->process(
