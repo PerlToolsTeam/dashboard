@@ -310,6 +310,7 @@
       "app-laststats" : "main",
       "app-mergecal" : "main",
       "calendar-simple" : "master",
+      "svg-christmastree" : "master",
       "template-provider-pandoc" : "master",
       "xml-feed" : "master"
    },
