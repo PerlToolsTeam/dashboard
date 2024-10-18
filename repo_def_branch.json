@@ -355,6 +355,7 @@
       "Schedule--Cron--Events" : "master"
    },
    "libwww-perl" : {
+      "HTML-Form" : "master",
       "HTML-Parser" : "master",
       "HTTP-Cookies" : "master",
       "HTTP-Daemon" : "master",
