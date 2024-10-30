@@ -103,6 +103,7 @@ class Dashboard::Author {
   }
 
   method write_data_file {
+    path('docs/' . $cpan_name)->mkdir;
     path('docs/' . $cpan_name . '/data.json')->spew_utf8($self->as_json);
   }
 }
