@@ -348,6 +348,21 @@
    "garu" : {
       "Clone" : "master"
    },
+   "giterlizzi" : {
+      "perl-Alien-libversion" : "master",
+      "perl-CSAF" : "main",
+      "perl-CVSS" : "main",
+      "perl-Crypt-PBE" : "master",
+      "perl-Map-Tube-Rome" : "main",
+      "perl-Mojolicious-Plugin-Badge" : "main",
+      "perl-Mojolicious-Plugin-DataTables" : "master",
+      "perl-Mojolicious-Plugin-HTMX" : "main",
+      "perl-Mojolicious-Plugin-Iconify" : "master",
+      "perl-Net-OpenVAS" : "master",
+      "perl-Net-SecurityCenter" : "master",
+      "perl-URI-PackageURL" : "master",
+      "perl-Version-libversion-XS" : "master"
+   },
    "kjetilk" : {
       "p5-rdf-doap" : "master"
    },
