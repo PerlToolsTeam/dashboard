@@ -198,6 +198,7 @@ class Dashboard::App {
         { binmode => ':utf8' },
       ) or die $tt->error;
 
+      path("authors/data/$_->{author}{cpan}")->mkdir;
       path("authors/data/$_->{author}{cpan}/data.json")
         ->copy("docs/$_->{author}{cpan}/data.json");
     }
