@@ -198,9 +198,11 @@ class Dashboard::App {
         { binmode => ':utf8' },
       ) or die $tt->error;
 
-      path("docs/$_->{author}{cpan}")->mkdir;
-      path("authors/data/$_->{author}{cpan}/data.json")
-        ->copy("docs/$_->{author}{cpan}/data.json");
+      if (-f "authors/data/$_->{author}{cpan}/data.json") {
+        path("docs/$_->{author}{cpan}")->mkdir;
+        path("authors/data/$_->{author}{cpan}/data.json")
+          ->copy("docs/$_->{author}{cpan}/data.json");
+      }
     }
 
     $tt->process(
