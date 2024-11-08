@@ -317,6 +317,8 @@
    "drclaw1394" : {
       "perl-constant-more" : "main",
       "perl-data-combination" : "main",
+      "perl-data-fastpack" : "main",
+      "perl-data-jpack" : "main",
       "perl-error-show" : "main",
       "perl-export-these" : "main",
       "perl-file-meta-cache" : "main",
