@@ -68,7 +68,10 @@ class Dashboard::App {
     my $mcpan_author = $mcpan->author($cfg->{author}{cpan});
     my $releases     = $mcpan_author->releases;
 
-    $cfg->{author}{gravatar} = $mcpan_author->gravatar_url;
+    my $gravatar = $mcpan_author->gravatar_url;
+    if ($gravatar and $gravatar =~ m[^https:]) {
+      $cfg->{author}{gravatar} = $mcpan_author->gravatar_url;
+    }
     $cfg->{author}{name}     = $mcpan_author->name;
 
     while ( my $rel = $releases->next ) {

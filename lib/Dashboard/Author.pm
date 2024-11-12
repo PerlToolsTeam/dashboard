@@ -10,7 +10,7 @@ class Dashboard::Author {
   field $name :reader :param;
   field $cpan_name :reader :param;
   field $github_name :reader :param;
-  field $gravatar_url :reader :param;
+  field $gravatar_url :reader :param = '/images/gravatar.png';
   field $distributions :reader :param = [];
   field $sort :reader :param = {};
   field $ci :reader :param;
@@ -49,9 +49,13 @@ class Dashboard::Author {
 
     $ci->{gh_workflow_names} = ($data->{ci}{gh_workflow_names} // []);
 
+    my $gravatar_url = $mcpan_author->gravatar_url;
+    unless ($gravatar_url and $gravatar_url =~ m[^https:]) {
+      undef $gravatar_url;
+    }
     my $self = $class->new(
       name         => $mcpan_author->name,
-      gravatar_url => $mcpan_author->gravatar_url,
+      gravatar_url => $gravatar_url,
       cpan_name    => $data->{author}{cpan},
       github_name  => $data->{author}{github},
       sort         => $sort,
