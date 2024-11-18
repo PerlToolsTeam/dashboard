@@ -178,6 +178,7 @@
       "chemistry-elements" : "master",
       "cpan-audit" : "master",
       "cpan-packagedetails" : "master",
+      "cpan-security-advisory" : "master",
       "data-constraint" : "master",
       "distribution-cooker" : "master",
       "distribution-guess-buildsystem" : "master",
