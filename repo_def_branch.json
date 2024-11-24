@@ -178,6 +178,7 @@
       "chemistry-elements" : "master",
       "cpan-audit" : "master",
       "cpan-packagedetails" : "master",
+      "cpan-security-advisory" : "master",
       "data-constraint" : "master",
       "distribution-cooker" : "master",
       "distribution-guess-buildsystem" : "master",
@@ -355,6 +356,7 @@
       "perl-Alien-libversion" : "master",
       "perl-CSAF" : "main",
       "perl-CVSS" : "main",
+      "perl-Chart-ECharts" : "main",
       "perl-Crypt-PBE" : "master",
       "perl-Map-Tube-Rome" : "main",
       "perl-Mojolicious-Plugin-Badge" : "main",
@@ -363,6 +365,7 @@
       "perl-Mojolicious-Plugin-Iconify" : "master",
       "perl-Net-OpenVAS" : "master",
       "perl-Net-SecurityCenter" : "master",
+      "perl-STIX" : "main",
       "perl-URI-PackageURL" : "master",
       "perl-Version-libversion-XS" : "master"
    },
