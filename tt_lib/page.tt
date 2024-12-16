@@ -2,6 +2,11 @@
 <!doctype html>
 <html>
   <head>
+[% IF author_page OR template.author_page;
+     desc = "Monitoring the continuous integration for " _ author.cpan _ "'s CPAN modules.";
+   ELSE;
+     desc = "Monitor the continuous integration for your CPAN modules.";
+   END -%]
 [% IF analytics -%]
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9VMMR7SVD4"></script>
@@ -16,11 +21,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-[% IF author_page OR template.author_page -%]
-    <meta name="description" content="Monitoring the continuous integration for [% author.cpan %]'s CPAN modules.">
-[% ELSE -%]
-    <meta name="description" content="Monitor the continuous integration for your CPAN modules.">
-[% END -%]
+    <meta name="description" content="[% desc %]">
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
@@ -42,7 +43,7 @@
    END -%]
     <title>[% title %]</title>
     <meta property="og:title" content="[% title %]">
-    <meta property="og:description" content="Monitoring continuous integration for CPAN modules.">
+    <meta property="og:description" content="[% desc %]">
     <meta property="og:image" content="https://cpandashboard.com/images/dashboard.png">
     <meta property="og:url" content="[% url %]">
     <meta name="twitter:card" content="summary_large_image">
