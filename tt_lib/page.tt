@@ -1,6 +1,6 @@
 [% IF no_wrapper OR template.no_wrapper; content; ELSE -%]
 <!doctype html>
-<html>
+<html lang="en">
   <head>
 [% IF author_page OR template.author_page;
      desc = "Monitoring the continuous integration for " _ author.cpan _ "'s CPAN modules.";
