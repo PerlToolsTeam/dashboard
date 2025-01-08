@@ -312,6 +312,7 @@
       "app-laststats" : "main",
       "app-mergecal" : "main",
       "calendar-simple" : "master",
+      "moox-role-json_ld" : "master",
       "svg-christmastree" : "master",
       "template-provider-pandoc" : "master",
       "xml-feed" : "master"
