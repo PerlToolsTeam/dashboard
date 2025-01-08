@@ -1314,7 +1314,8 @@
    },
    "tokuhirom" : {
       "HTML-TreeBuilder-LibXML" : "master",
-      "OrePAN2" : "master"
+      "OrePAN2" : "master",
+      "Perl-MinimumVersion-Fast" : "master"
    },
    "troglodyne-internet-widgets" : {
       "selenium-client-perl" : "main"
