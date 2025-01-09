@@ -850,6 +850,7 @@
       "Log-Log4perl-Layout-Syslog" : "master",
       "Log::WarnDie" : "",
       "Test-HTTPStatus" : "master",
+      "Test-Mockingbird" : "master",
       "Text-Names-GB" : "master",
       "TimeZone-TimeZoneDB" : "master",
       "WWW-Scrape-FindaGrave" : "master",
