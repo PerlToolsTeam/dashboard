@@ -1395,6 +1395,7 @@
    "voegelas" : {
       "Alien-libmaxminddb" : "main",
       "CPANPLUS-Dist-Debora" : "main",
+      "Geo-Location-IP" : "main",
       "Geo-Location-TimeZoneFinder" : "main",
       "IP-Geolocation-MMDB" : "main",
       "Mail-Exim-ACL-Attachments" : "main",
