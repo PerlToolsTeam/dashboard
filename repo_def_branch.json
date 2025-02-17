@@ -313,6 +313,7 @@
       "app-mergecal" : "main",
       "calendar-simple" : "master",
       "moox-role-json_ld" : "master",
+      "perlanet" : "master",
       "svg-christmastree" : "master",
       "template-provider-pandoc" : "master",
       "xml-feed" : "master"
