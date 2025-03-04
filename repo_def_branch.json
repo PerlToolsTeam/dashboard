@@ -710,6 +710,7 @@
       "Plack-App-Login-Request" : "main",
       "Plack-App-Redirect" : "main",
       "Plack-App-Register" : "main",
+      "Plack-App-Restricted" : "main",
       "Plack-App-Search" : "main",
       "Plack-App-Tags-HTML" : "main",
       "Plack-Component-Tags-HTML" : "main",
