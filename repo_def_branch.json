@@ -837,6 +837,7 @@
       "Genealogy-FindaGrave" : "master",
       "Genealogy-ObituaryDailyTimes" : "master",
       "Genealogy-Wills" : "master",
+      "Geo-AnomalyDetector" : "master",
       "Geo-Coder-Abbreviations" : "master",
       "Geo-Coder-CA" : "master",
       "Geo-Coder-DataScienceToolkit" : "master",
