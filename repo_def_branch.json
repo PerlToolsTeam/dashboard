@@ -167,6 +167,7 @@
       "Test-Env" : "master",
       "antsy" : "master",
       "app-bcrypt" : "master",
+      "app-ipinfo" : "master",
       "app-module-lister" : "master",
       "app-ppi-dumper" : "master",
       "app-url" : "master",
