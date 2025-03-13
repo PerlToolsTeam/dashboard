@@ -682,6 +682,7 @@
       "Mo-utils-Time" : "main",
       "Mo-utils-TimeZone" : "main",
       "Mo-utils-URI" : "main",
+      "Mo-utils-Unicode" : "main",
       "Mock-Person-CZ" : "master",
       "Mock-Person-DE" : "master",
       "Mock-Person-EN" : "master",
