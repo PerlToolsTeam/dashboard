@@ -1188,6 +1188,7 @@
       "p5-moox-xsconstructor" : "master",
       "p5-namespace-lexical" : "master",
       "p5-newtype" : "master",
+      "p5-no-warnings" : "master",
       "p5-number-natural-settheory" : "master",
       "p5-object-adhoc" : "master",
       "p5-object-stash" : "master",
