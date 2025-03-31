@@ -867,6 +867,7 @@
       "Log-Dispatch-Email-Sendmail" : "master",
       "Log-Log4perl-Layout-Syslog" : "master",
       "Log::WarnDie" : "",
+      "Readonly-Values-Syslog" : "master",
       "Test-HTTPStatus" : "master",
       "Test-Mockingbird" : "master",
       "Text-Names-GB" : "master",
