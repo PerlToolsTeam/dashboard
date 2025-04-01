@@ -369,6 +369,7 @@
       "perl-Mojolicious-Plugin-Iconify" : "master",
       "perl-Net-OpenVAS" : "master",
       "perl-Net-SecurityCenter" : "master",
+      "perl-SBOM-CycloneDX" : "main",
       "perl-STIX" : "main",
       "perl-URI-PackageURL" : "master",
       "perl-Version-libversion-XS" : "master"
