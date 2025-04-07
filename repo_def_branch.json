@@ -825,6 +825,7 @@
       "Class-Simple-Cached" : "master",
       "Class-Simple-Readonly-Cached" : "master",
       "Comment-Spell" : "master",
+      "Config-Abstraction" : "master",
       "DBD-XMLSimple" : "master",
       "DBIx-AnyDBD" : "master",
       "Data-Fetch" : "master",
