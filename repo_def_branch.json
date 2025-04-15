@@ -1291,6 +1291,7 @@
       "p5-types-html5" : "",
       "p5-types-interface" : "master",
       "p5-types-jsoncoercions" : "master",
+      "p5-types-jsonschema" : "",
       "p5-types-loadableclass" : "master",
       "p5-types-readonly" : "master",
       "p5-types-self" : "master",
