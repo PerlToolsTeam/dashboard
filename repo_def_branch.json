@@ -561,6 +561,7 @@
       "CAD-AutoCAD-Version" : "master",
       "CGI-Pure" : "master",
       "CGI-Pure-Fast" : "master",
+      "CPAN-Changes-Utils" : "main",
       "CSS-Struct" : "master",
       "CSS-Struct-Output-Indent" : "master",
       "CSS-Struct-Output-Structure" : "main",
