@@ -253,6 +253,9 @@
    "commons-vote" : {
       "Data-Text-Simple" : ""
    },
+   "cpan-authors" : {
+      "Crypt-OpenSSL-RSA" : "main"
+   },
    "cpanelinc" : {
       "Test-MockFile" : "master",
       "Test2-Harness-Renderer-JUnit" : "main"
