@@ -312,6 +312,7 @@
    "davorg-cpan" : {
       "amazon-sites" : "main",
       "app-aphra" : "main",
+      "app-blurfill" : "main",
       "app-cpanmodulesite" : "main",
       "app-feeddeduplicator" : "main",
       "app-laststats" : "main",
