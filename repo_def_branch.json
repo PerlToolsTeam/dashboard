@@ -875,6 +875,7 @@
       "Locale-Codes-Country-FR" : "master",
       "Locale-Codes/Country-FR" : "",
       "Locale-Places" : "master",
+      "Log-Abstraction" : "master",
       "Log-Dispatch-Email-Sendmail" : "master",
       "Log-Log4perl-Layout-Syslog" : "master",
       "Log::WarnDie" : "",
