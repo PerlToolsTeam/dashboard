@@ -882,6 +882,7 @@
       "Log-Dispatch-Email-Sendmail" : "master",
       "Log-Log4perl-Layout-Syslog" : "master",
       "Log::WarnDie" : "",
+      "Object-Configure" : "master",
       "Readonly-Values-Syslog" : "master",
       "Test-HTTPStatus" : "master",
       "Test-Mockingbird" : "master",
