@@ -596,6 +596,7 @@
       "Data-InfoBox" : "main",
       "Data-Kramerius" : "main",
       "Data-Login" : "main",
+      "Data-MARC-Field008" : "main",
       "Data-MARC-Leader" : "main",
       "Data-Message-Board" : "main",
       "Data-Message-Simple" : "main",
