@@ -688,6 +688,7 @@
       "Mo-utils-Date" : "main",
       "Mo-utils-EAN" : "main",
       "Mo-utils-Email" : "main",
+      "Mo-utils-Hash" : "main",
       "Mo-utils-IRI" : "main",
       "Mo-utils-Language" : "main",
       "Mo-utils-Number" : "main",
