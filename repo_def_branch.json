@@ -476,6 +476,7 @@
       "Map-Tube-Tokyo" : "master",
       "Method-ParamValidator" : "master",
       "MouseX-Params-Validate" : "master",
+      "Paws-DynamoDB-Response-Parser" : "master",
       "Pod-Tree" : "master",
       "Regexp-Common-time" : "master",
       "SVG" : "master",
