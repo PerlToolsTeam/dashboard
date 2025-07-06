@@ -1,7 +1,7 @@
 # 5.40 because we use :reader
 use v5.40;
-use Feature::Compat::Class;
 
+use feature 'class';
 no if $^V >= v5.40, warnings => 'experimental::class';
 
 class Dashboard::App {

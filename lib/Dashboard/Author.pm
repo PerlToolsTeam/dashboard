@@ -1,6 +1,6 @@
-use 5.36.0;
-use Feature::Compat::Class;
+use 5.40.0;
 
+use feature 'class';
 no if $^V >= v5.38, warnings => 'experimental::class';
 
 class Dashboard::Author {

@@ -1,8 +1,7 @@
-use v5.26;
-use Feature::Compat::Class;
+use v5.40;
 
+use feature 'class';
 no if $^V >= v5.38, warnings => 'experimental::class';
-no warnings 'experimental';
 
 class Dashboard::BadgeMaker {
 
