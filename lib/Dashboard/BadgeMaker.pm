@@ -2,10 +2,9 @@ use v5.26;
 use Feature::Compat::Class;
 
 no if $^V >= v5.38, warnings => 'experimental::class';
+no warnings 'experimental';
 
 class Dashboard::BadgeMaker {
-  use strict;
-  use warnings;
 
   method cpan {
     my ($module) = @_;

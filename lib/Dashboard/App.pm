@@ -4,8 +4,7 @@ use Feature::Compat::Class;
 no if $^V >= v5.38, warnings => 'experimental::class';
 
 class Dashboard::App {
-  use strict;
-  use warnings;
+  our $VERSION = '1.0.0';
 
   use Dashboard::BadgeMaker;
 
@@ -13,11 +12,13 @@ class Dashboard::App {
   use Path::Tiny;
   use Template;
   use MetaCPAN::Client;
+  use HTTP::Tiny;
   use URI;
   use FindBin '$RealBin';
   use File::Find;
 
-  field $mcpan = MetaCPAN::Client->new;
+  # :reader only exists for the tests
+  field $mcpan :reader = MetaCPAN::Client->new(ua => HTTP::Tiny->new(agent => "CPAN Dashboard/$VERSION"));
   field $json = JSON->new->pretty->canonical->utf8;
   field $global_cfg = $json->decode(path('dashboard.json')->slurp_utf8);
   field $tt;

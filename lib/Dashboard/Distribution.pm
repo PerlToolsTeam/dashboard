@@ -12,19 +12,22 @@ class Dashboard::Distribution {
   field $name :param :reader;
   field $distribution :param :reader;
   field $main_module_name :param :reader;
-  field $version :param :reader;
-  field $author :param :reader;
-  field $date :param :reader;
-  field $repo :param :reader;
-  field $uses_rt :param :reader;
-  field $is_github :param :reader;
+  field $version :param;
+  field $author :param;
+  field $date :param;
+  field $repo :param;
+  field $uses_rt :param;
   field $repo_name :param :reader;
   field $repo_owner :param :reader;
-  field $repo_def_branch :param :reader;
-  field $is_insecure_repo :param :reader;
-  field $bugtracker :param :reader;
+  field $repo_def_branch :param;
+  field $is_insecure_repo :param;
+  field $bugtracker :param;
 
-  method new_from_release :common {
+  # TODO: Can new_from_release and new_from_data be implemented using
+  # ADJUST?
+
+  sub new_from_release {
+    my $class = shift;
     my ($release) = @_;
 
     my %dist_data;
@@ -52,12 +55,10 @@ class Dashboard::Distribution {
       return;
     }
 
-    $dist_data{is_github} = is_github_repo($dist_data{repo});
-
     $dist_data{repo} =~ s[/$][];
 
     my $repo_data;
-    if ($dist_data{is_github} and $repo_data = $class->get_github_data($dist_data{author}, $dist_data{distribution})) {
+    if ($dist_data{repo} =~ m|github\.com/| and $repo_data = $class->get_github_data($dist_data{author}, $dist_data{distribution})) {
       for (qw[repo_owner repo_name repo_def_branch]) {
         $dist_data{$_} = $repo_data->{$_};
       }
@@ -85,7 +86,8 @@ class Dashboard::Distribution {
     return $class->new(%dist_data);
   }
 
-  method new_from_data :common {
+  sub new_from_data {
+    my $class = shift;
     my ($data) = @_;
 
     return $class->new(%$data);
@@ -93,35 +95,33 @@ class Dashboard::Distribution {
 
   method dump {
     my $data = {
-      author       => $self->author,
-      bugtracker   => $self->bugtracker,
-      date         => $self->date,
-      distribution => $self->distribution,
-      is_insecure_repo => ($self->is_insecure_repo ? $JSON::true : $JSON::false ),
-      name         => $self->name,
-      main_module_name => $self->main_module_name,
-      version      => $self->version,
-      repo         => $self->repo,
-      uses_rt      => ($self->uses_rt ? $JSON::true : $JSON::false ),
+      author       => $author,
+      bugtracker   => $bugtracker,
+      date         => $date,
+      distribution => $distribution,
+      is_insecure_repo => ($is_insecure_repo ? $JSON::true : $JSON::false ),
+      name         => $name,
+      main_module_name => $main_module_name,
+      version      => $version,
+      repo         => $repo,
+      uses_rt      => ($uses_rt ? $JSON::true : $JSON::false ),
       is_github    => ($self->is_github ? $JSON::true : $JSON::false),
-      repo_name    => $self->repo_name,
-      repo_owner   => $self->repo_owner,
-      repo_def_branch => $self->repo_def_branch,
+      repo_name    => $repo_name,
+      repo_owner   => $repo_owner,
+      repo_def_branch => $repo_def_branch,
     };
 
     return $data;
   }
 
-  sub is_github_repo {
-    my ($repo_uri) = @_;
-
-    return unless defined $repo_uri;
-
+  method is_github {
+    return unless defined $repo;
     # Currently we only support Github repos
-    return $repo_uri =~ m|github\.com/|;
+    return $repo =~ m|github\.com/|;
   }
 
-  method get_github_data :common {
+  sub get_github_data {
+    my $class = shift;
     my ($author, $distribution) = @_;
 
     warn "Getting github data for $author/$distribution\n";
@@ -139,7 +139,8 @@ class Dashboard::Distribution {
     }
   }
 
-
+  # Note: a subroutine, not a method, because it needs to be
+  # called from a static context (i.e., not on an instance of the class).
   sub get_repo_default_branch {
     my ($dist_data) = @_;
 
@@ -158,3 +159,5 @@ class Dashboard::Distribution {
     return $repo_def_branch->{$dist_data->{repo_owner}}{$dist_data->{repo_name}};
   }
 }
+
+1;

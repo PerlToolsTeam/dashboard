@@ -15,8 +15,8 @@ class Dashboard::Author {
   field $sort :reader :param = {};
   field $ci :reader :param;
 
-  method new_from_file :common {
-    my ($file, $mcpan, $json) = @_;
+  sub new_from_file {
+    my ($class, $file, $mcpan, $json) = @_;
 
     my $data = $json->decode(path($file)->slurp_utf8);
 
@@ -66,8 +66,8 @@ class Dashboard::Author {
     return $self;
   }
 
-  method new_from_data :common {
-    my ($data) = @_;
+  sub new_from_data {
+    my ($class, $data) = @_;
 
     $data->{distributions} = [
       map { Dashboard::Distribution->new_from_data($_) } @{ $data->{distributions} } 
@@ -111,3 +111,5 @@ class Dashboard::Author {
     path('docs/' . $cpan_name . '/data.json')->spew_utf8($self->as_json);
   }
 }
+
+1;
