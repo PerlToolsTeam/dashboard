@@ -1,7 +1,8 @@
-use v5.36;
+# 5.40 because we use :reader
+use v5.48;
 use Feature::Compat::Class;
 
-no if $^V >= v5.38, warnings => 'experimental::class';
+no if $^V >= v5.40, warnings => 'experimental::class';
 
 class Dashboard::App {
   our $VERSION = '1.0.0';
