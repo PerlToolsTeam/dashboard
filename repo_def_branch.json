@@ -608,6 +608,7 @@
       "Data-Navigation-Item" : "main",
       "Data-OFN-Address" : "main",
       "Data-OFN-Common" : "main",
+      "Data-OFN-Thing" : "main",
       "Data-Person" : "main",
       "Data-Random-HashType" : "main",
       "Data-Random-Person" : "main",
