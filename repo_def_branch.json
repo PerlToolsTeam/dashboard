@@ -859,6 +859,7 @@
       "Date-Cmp" : "master",
       "DateTime-Format-Genealogy" : "master",
       "DateTime-Format-Text" : "master",
+      "Encode-Wide" : "master",
       "FCGI-Buffer" : "master",
       "File-Open-NoCache-ReadOnly" : "master",
       "File-Print-Many" : "master",
