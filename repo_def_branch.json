@@ -869,6 +869,7 @@
       "Genealogy-Obituary-Lookup" : "master",
       "Genealogy-ObituaryDailyTimes" : "master",
       "Genealogy-Wills" : "master",
+      "Geo-Address-Parser" : "master",
       "Geo-AnomalyDetector" : "master",
       "Geo-Coder-Abbreviations" : "master",
       "Geo-Coder-CA" : "master",
