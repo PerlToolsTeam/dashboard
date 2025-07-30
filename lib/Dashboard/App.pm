@@ -19,7 +19,9 @@ class Dashboard::App {
   use File::Find;
 
   # :reader only exists for the tests
-  field $mcpan :reader = MetaCPAN::Client->new(ua => HTTP::Tiny->new(agent => "CPAN Dashboard/$VERSION"));
+  field $mcpan :reader = MetaCPAN::Client->new(
+    ua => HTTP::Tiny->new(agent => "CPAN Dashboard/$VERSION")
+  );
   field $json = JSON->new->pretty->canonical->utf8;
   field $global_cfg = $json->decode(path('dashboard.json')->slurp_utf8);
   field $tt;
