@@ -316,6 +316,7 @@
       "app-cpanmodulesite" : "main",
       "app-feeddeduplicator" : "main",
       "app-laststats" : "main",
+      "app-linksite" : "main",
       "app-mergecal" : "main",
       "calendar-simple" : "master",
       "moox-role-json_ld" : "master",
