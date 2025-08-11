@@ -364,6 +364,7 @@
    },
    "giterlizzi" : {
       "perl-Alien-libversion" : "master",
+      "perl-App-CPAN-SBOM" : "main",
       "perl-CSAF" : "main",
       "perl-CVSS" : "main",
       "perl-Chart-ECharts" : "main",
