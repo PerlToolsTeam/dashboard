@@ -570,6 +570,7 @@
       "App-Wikidata-Template-CS-CitaceMonografie" : "main",
       "CAD-AutoCAD-Detect" : "master",
       "CAD-AutoCAD-Version" : "master",
+      "CAD-Format-DWG-Version" : "main",
       "CEFACT-Unit" : "main",
       "CGI-Pure" : "master",
       "CGI-Pure-Fast" : "master",
