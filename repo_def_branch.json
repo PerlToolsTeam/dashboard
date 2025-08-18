@@ -1024,6 +1024,9 @@
    "ranguard" : {
       "plack-middleware-dirindex" : "master"
    },
+   "robrwo" : {
+      "Readonly-Enum" : "master"
+   },
    "shawnlaffan" : {
       "Alien-Build-Plugin-Cleanse-BuildDir" : "master",
       "Geo-ShapeFile" : "master",
