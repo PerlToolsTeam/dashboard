@@ -292,6 +292,7 @@
       "net-songkick" : "master",
       "parse-rpm-spec" : "master",
       "perl-ogg-vorbis-header-pureperl" : "master",
+      "perl-tmdb" : "master",
       "perlanet" : "master",
       "plack-app-directoryindex" : "main",
       "qmail-queuehandler" : "master",
