@@ -52,7 +52,7 @@ jobs:
         if [ "$GIT_STATUS" != "" ]; then git push; fi
 
     - name: Update pages artifact
-      uses: actions/upload-pages-artifact@v3
+      uses: actions/upload-pages-artifact@v4
       with:
         path: docs/
 
