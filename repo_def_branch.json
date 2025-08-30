@@ -910,6 +910,7 @@
       "Readonly-Values-Months" : "master",
       "Readonly-Values-Syslog" : "master",
       "Return-Set" : "master",
+      "SEO-Inspector" : "master",
       "Test-HTTPStatus" : "master",
       "Test-Mockingbird" : "master",
       "Test-Returns" : "master",
