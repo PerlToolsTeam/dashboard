@@ -380,6 +380,7 @@
       "perl-SBOM-CycloneDX" : "main",
       "perl-STIX" : "main",
       "perl-URI-PackageURL" : "master",
+      "perl-Version-libversion-PP" : "main",
       "perl-Version-libversion-XS" : "master"
    },
    "kjetilk" : {
