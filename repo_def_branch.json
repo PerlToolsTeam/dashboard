@@ -101,6 +101,7 @@
    "PerlDancer" : {
       "Dancer2" : "main",
       "Dancer2-Plugin-Ajax" : "master",
+      "Dancer2-Template-Simple" : "",
       "dancer-debug" : "main",
       "dancer-session-psgi" : "main",
       "dancer-template-xslate" : "main",
