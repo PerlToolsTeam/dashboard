@@ -909,6 +909,7 @@
       "Log-Log4perl-Layout-Syslog" : "master",
       "Log::WarnDie" : "",
       "Object-Configure" : "master",
+      "Params-Validate-Strict" : "master",
       "Readonly-Values-Days" : "master",
       "Readonly-Values-Months" : "master",
       "Readonly-Values-Syslog" : "master",
