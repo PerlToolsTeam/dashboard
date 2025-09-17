@@ -702,6 +702,7 @@
       "Mo-utils-CEFACT" : "main",
       "Mo-utils-CSS" : "main",
       "Mo-utils-Country" : "main",
+      "Mo-utils-Currency" : "main",
       "Mo-utils-Date" : "main",
       "Mo-utils-EAN" : "main",
       "Mo-utils-Email" : "main",
