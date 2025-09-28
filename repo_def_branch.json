@@ -844,6 +844,7 @@
       "oauth-cmdline" : "master"
    },
    "nigelhorne" : {
+      "App-Test-Generator" : "master",
       "CGI-ACL" : "master",
       "CGI-Buffer" : "master",
       "CGI-Info" : "master",
