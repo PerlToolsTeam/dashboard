@@ -1388,7 +1388,7 @@
       "Tie-DBI" : "master",
       "Tree-MultiNode" : "master",
       "XML-Parser" : "master",
-      "YAML-Syck" : "master",
+      "YAML-Syck" : "main",
       "net-oscar" : "master",
       "perl-net-jabber-bot/tree/master" : ""
    },
