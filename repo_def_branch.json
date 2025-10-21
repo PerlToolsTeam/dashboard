@@ -879,6 +879,7 @@
       "Genealogy-ChroniclingAmerica" : "master",
       "Genealogy-FindaGrave" : "master",
       "Genealogy-Obituary-Lookup" : "master",
+      "Genealogy-Obituary-Parser" : "master",
       "Genealogy-ObituaryDailyTimes" : "master",
       "Genealogy-Wills" : "master",
       "Geo-Address-Parser" : "master",
