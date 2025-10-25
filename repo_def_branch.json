@@ -379,6 +379,7 @@
       "perl-Mojolicious-Plugin-DataTables" : "master",
       "perl-Mojolicious-Plugin-HTMX" : "main",
       "perl-Mojolicious-Plugin-Iconify" : "master",
+      "perl-Net-Gotify" : "main",
       "perl-Net-OpenVAS" : "master",
       "perl-Net-SecurityCenter" : "master",
       "perl-SBOM-CycloneDX" : "main",
