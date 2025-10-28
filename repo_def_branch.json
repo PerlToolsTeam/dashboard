@@ -866,6 +866,7 @@
       "DBD-XMLSimple" : "master",
       "DBIx-AnyDBD" : "master",
       "Data-Fetch" : "master",
+      "Data-Random-String-Matches" : "master",
       "Data-Text" : "master",
       "Database-Abstraction" : "master",
       "Date-Age" : "master",
