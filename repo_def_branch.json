@@ -514,6 +514,7 @@
       "WebService-Wikimapia" : "master",
       "XML-SAX-Simple" : "master",
       "XML-XPath" : "master",
+      "YaraFFI" : "master",
       "data-verifier" : "master",
       "guardian-openplatform-api" : "master",
       "net-backpack" : "master",
