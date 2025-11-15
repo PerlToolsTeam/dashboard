@@ -1344,6 +1344,7 @@
       "p5-type-library-compiler" : "master",
       "p5-type-tiny" : "master",
       "p5-type-tiny-xs" : "master",
+      "p5-types-capabilities" : "master",
       "p5-types-datetime" : "master",
       "p5-types-dbi" : "master",
       "p5-types-dualvar" : "master",
