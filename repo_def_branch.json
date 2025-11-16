@@ -1324,6 +1324,7 @@
       "p5-syntax-collector" : "master",
       "p5-syntax-feature-qwa" : "master",
       "p5-syntax-highlight-rdf" : "master",
+      "p5-syntax-keyword-wielding" : "master",
       "p5-task-tiny" : "master",
       "p5-test-compiles" : "master",
       "p5-test-fatal-matchfor" : "master",
