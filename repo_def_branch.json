@@ -133,7 +133,7 @@
    "atoomic" : {
       "Amazon-Dash-Button" : "master",
       "B-COW" : "master",
-      "Char-Replace" : "master",
+      "Char-Replace" : "main",
       "Check-GlobalPhase" : "master",
       "Colon-Config" : "master",
       "Dist-Zilla-PluginBundle-ATOOMIC" : "master",
