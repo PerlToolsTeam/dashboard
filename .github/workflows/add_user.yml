@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Do the thing
         run: bin/add_user '${{ toJSON(github.event.client_payload) }}'
 

@@ -22,7 +22,7 @@ jobs:
       run: perl -v
 
     - name: Checkout
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
 
     - name: Install cpanm
       run: apt-get update && apt-get install -y cpanminus
