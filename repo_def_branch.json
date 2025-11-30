@@ -1151,6 +1151,7 @@
       "p5-crypt-polybius" : "master",
       "p5-crypt-xkcdpassword" : "master",
       "p5-data-dumper-gui" : "master",
+      "p5-data-optlist-object" : "master",
       "p5-data-validate-csv" : "master",
       "p5-datetimex-auto" : "master",
       "p5-datetimex-format-ago" : "master",
