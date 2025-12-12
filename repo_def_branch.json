@@ -926,6 +926,7 @@
       "Readonly-Values-Syslog" : "master",
       "Return-Set" : "master",
       "SEO-Inspector" : "master",
+      "Schema-Validator" : "master",
       "Test-HTTPStatus" : "master",
       "Test-Mockingbird" : "master",
       "Test-Returns" : "master",
