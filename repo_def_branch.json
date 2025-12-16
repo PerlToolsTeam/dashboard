@@ -116,6 +116,7 @@
    "Troglodyne-Internet-Widgets" : {
       "Audit-Log-perl" : "master",
       "Microsoft-Translator-Perl" : "master",
+      "Pivot-ArrayOfHashes" : "master",
       "URI-Shorten" : "master"
    },
    "abw" : {
