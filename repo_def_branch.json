@@ -903,6 +903,7 @@
       "Geo-GeoNames" : "master",
       "Geo-Location-Point" : "master",
       "HTML-Genealogy-Map" : "master",
+      "HTML-Purifier" : "master",
       "HTML-SimpleLinkExtor" : "master",
       "HTML-SocialMedia" : "master",
       "Ham-DXCC-Lookup" : "master",
