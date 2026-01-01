@@ -437,6 +437,7 @@
       "Crypt-Hill" : "master",
       "Crypt-Image" : "master",
       "Crypt-Trifid" : "master",
+      "DBIx-Class-Async" : "master",
       "Dancer2-Plugin-Captcha" : "master",
       "Dancer2-Plugin-Chain" : "master",
       "Dancer2-Plugin-Map-Tube" : "master",
