@@ -14,6 +14,7 @@
       "DBM-Deep" : "master"
    },
    "DrHyde" : {
+      "Devel-Hide" : "master",
       "Test-Differences" : "master",
       "perl-modules-Algorithm-Diff-JSON" : "master",
       "perl-modules-App-ptimeout" : "master",
