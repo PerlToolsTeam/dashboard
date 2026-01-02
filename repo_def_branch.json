@@ -852,6 +852,7 @@
       "oauth-cmdline" : "master"
    },
    "nigelhorne" : {
+      "App-GHGen" : "master",
       "App-Test-Generator" : "master",
       "CGI-ACL" : "master",
       "CGI-Buffer" : "master",
