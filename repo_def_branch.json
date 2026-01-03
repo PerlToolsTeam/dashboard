@@ -855,6 +855,7 @@
    "nigelhorne" : {
       "App-GHGen" : "master",
       "App-Test-Generator" : "master",
+      "App-makefilepl2cpanfile" : "master",
       "CGI-ACL" : "master",
       "CGI-Buffer" : "master",
       "CGI-Info" : "master",
