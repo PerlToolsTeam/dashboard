@@ -679,6 +679,7 @@
       "MARC-Leader-Print" : "main",
       "MARC-Leader-Utils" : "main",
       "MARC-Validator" : "main",
+      "MARC-Validator-Filter" : "main",
       "METS-Files" : "master",
       "METS-Parse-Simple" : "master",
       "Map-Tube-Bucharest" : "master",
