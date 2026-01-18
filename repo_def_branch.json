@@ -391,6 +391,9 @@
       "perl-Version-libversion-PP" : "main",
       "perl-Version-libversion-XS" : "master"
    },
+   "hostgator" : {
+      "git-hooks-perlcritic" : "master"
+   },
    "kjetilk" : {
       "p5-rdf-doap" : "master"
    },
@@ -846,6 +849,25 @@
       "Wikidata-Reconcilation" : "main",
       "Zodiac-Angle" : "master",
       "perl-WWW-Splunk" : "master"
+   },
+   "mikkoi" : {
+      "/dist-zilla-plugin-software-policies" : "",
+      "Dancer2-Plugin-JobScheduler" : "main",
+      "TheSchwartz-JobScheduler" : "main",
+      "dancer2-plugin-queue-ironmq" : "master",
+      "database-managedhandle" : "main",
+      "database-temp" : "main",
+      "dist-zilla-plugin-signature" : "main",
+      "docker-names-random" : "master",
+      "env-assert" : "main",
+      "env-dot" : "main",
+      "git-mailmap" : "master",
+      "git-morehooks" : "master",
+      "io-iron" : "master",
+      "io-iron-applications" : "master",
+      "ipc-runexternal" : "master",
+      "software-policies" : "main",
+      "test-database-temp" : "main"
    },
    "mithun" : {
       "perl-tmdb" : "master"
