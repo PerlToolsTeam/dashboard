@@ -156,6 +156,9 @@
    "beyondgrep" : {
       "ack3" : "dev"
    },
+   "biogeospatial" : {
+      "Tree-STR" : ""
+   },
    "bradhaywood" : {
       "WebService-PayPal-NVP" : "master"
    },
