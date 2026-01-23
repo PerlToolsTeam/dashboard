@@ -1174,6 +1174,7 @@
       "p5-attribute-benchmark" : "master",
       "p5-attribute-queuestack" : "master",
       "p5-authority" : "master",
+      "p5-b-hooks-atruntime-onlycoredependencies" : "",
       "p5-benchmark-featureset-paramcheck" : "master",
       "p5-benchmark-report-github" : "master",
       "p5-builtins-compat" : "master",
