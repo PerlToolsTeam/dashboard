@@ -568,6 +568,7 @@
       "App-MARC-Record-Stats" : "main",
       "App-MARC-Validator" : "main",
       "App-MARC-Validator-Report" : "main",
+      "App-NKC2ISBD" : "main",
       "App-NKC2MARC" : "main",
       "App-PYX-Optimization" : "master",
       "App-PYX2XML" : "master",
