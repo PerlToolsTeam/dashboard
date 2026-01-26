@@ -1241,7 +1241,7 @@
       "p5-lv" : "master",
       "p5-macro-simple" : "master",
       "p5-marlin" : "master",
-      "p5-marlin-antlers" : "",
+      "p5-marlin-antlers" : "master",
       "p5-marlin-x-clone" : "master",
       "p5-marlin-x-tohash" : "master",
       "p5-marlin-x-undeftolerant" : "master",
