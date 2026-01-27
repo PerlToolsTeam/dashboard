@@ -157,6 +157,7 @@
       "ack3" : "dev"
    },
    "biogeospatial" : {
+      "Perl-Tree-STR" : "main",
       "Tree-STR" : ""
    },
    "bradhaywood" : {
