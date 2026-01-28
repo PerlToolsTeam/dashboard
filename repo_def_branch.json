@@ -1359,6 +1359,7 @@
       "p5-sub-block" : "master",
       "p5-sub-boolean" : "master",
       "p5-sub-handlesvia" : "master",
+      "p5-sub-handlesvia-xs" : "master",
       "p5-sub-infix" : "master",
       "p5-sub-lazy" : "master",
       "p5-sub-multimethod" : "master",
