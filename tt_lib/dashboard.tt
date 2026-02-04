@@ -28,9 +28,6 @@ var direction = "[% sort.direction %]";
 [% IF ci.use_gh_actions -%]
           <th>GH Actions</th>
 [% END -%]
-[% IF ci.use_travis -%]
-          <th>Travis CI (.org)</th>
-[% END -%]
 [% IF ci.use_travis_com -%]
           <th>Travis CI (.com)</th>
 [% END -%]
@@ -60,9 +57,6 @@ var direction = "[% sort.direction %]";
           <td>[%- FOREACH workflow_name IN ci.gh_workflow_names -%]
             [% badges.gh(m, workflow_name) %][% UNLESS loop.last %]<br>[% END -%]
           [%- END %]</td>
-[%   END -%]
-[%   IF ci.use_travis -%]
-          <td>[% badges.travis(m) %]</td>
 [%   END -%]
 [%   IF ci.use_travis_com -%]
           <td>[% badges.travis_com(m) %]</td>
