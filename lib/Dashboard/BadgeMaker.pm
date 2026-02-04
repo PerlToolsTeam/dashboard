@@ -45,20 +45,14 @@ class Dashboard::BadgeMaker {
     );
   }
 
-  method travis {
-    my ($module) = @_;
-
-    return $self->badge_link(
-      "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}?branch=$module->{repo_def_branch}",
-      "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}.svg?branch=$module->{repo_def_branch}",
-      "Build status for $module->{dist}",
-    );
-  }
-
   method travis_com {
       my ($module) = @_;
 
-      return $self->travis($module) =~ s/travis-ci\.org/travis-ci.com/gr;
+    return $self->badge_link(
+      "https://travis-ci.com/$module->{repo_owner}/$module->{repo_name}?branch=$module->{repo_def_branch}",
+      "https://travis-ci.com/$module->{repo_owner}/$module->{repo_name}.svg?branch=$module->{repo_def_branch}",
+      "Build status for $module->{dist}",
+    );
   }
 
   method coveralls {

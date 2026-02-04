@@ -41,7 +41,7 @@ class Dashboard::Author {
       @distributions = sort { $a->name cmp $b->name } @distributions;
     }
 
-    my @ci_systems = qw[gh_actions cirrus appveyor travis travis_com coveralls codecov];
+    my @ci_systems = qw[gh_actions cirrus appveyor travis_com coveralls codecov];
     my $ci;
 
 
