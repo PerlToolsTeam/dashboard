@@ -8,7 +8,6 @@
       "gh_workflow_names" : [ ],
       "use_cirrus" : 0,
       "use_appveyor" : 0,
-      "use_travis" : 0,
       "use_travis_com" : 0,
       "use_coveralls" : 0,
       "use_codecov" : 0

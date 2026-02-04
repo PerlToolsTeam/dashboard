@@ -6,7 +6,6 @@
    "ci" : {
       "use_gh_actions" : 1,
       "gh_workflow_names" : [ "CI" ],
-      "use_travis" : 0,
       "use_coveralls" : 1,
       "use_codecov" : 1
    }

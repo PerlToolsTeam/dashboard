@@ -6,7 +6,6 @@
    "ci" : {
       "use_gh_actions" : 1,
        "gh_workflow_names" : [ "ubuntu", "macos", "windows", "testsuite", "bsd", "windows_installation" ],
-      "use_travis" : 0,
       "use_coveralls" :0,
       "use_codecov" : 0,
       "use_appveyor" : 0
