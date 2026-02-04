@@ -11,8 +11,7 @@
       ],
       "use_codecov" : 0,
       "use_coveralls" : 1,
-      "use_gh_actions" : 1,
-      "use_travis" : 1
+      "use_gh_actions" : 1
    },
    "modules" : [
       {
