@@ -328,6 +328,7 @@
       "app-linksite" : "main",
       "app-mergecal" : "main",
       "calendar-simple" : "master",
+      "cpan-changes-parser-keepachangelog" : "main",
       "moox-role-json_ld" : "master",
       "moox-role-opengraph" : "main",
       "perlanet" : "master",
