@@ -720,6 +720,7 @@
       "Memory-Process" : "master",
       "Mo-utils" : "main",
       "Mo-utils-Array" : "main",
+      "Mo-utils-Binary" : "main",
       "Mo-utils-CEFACT" : "main",
       "Mo-utils-CSS" : "main",
       "Mo-utils-Country" : "main",
