@@ -732,6 +732,7 @@
       "Mo-utils-IRI" : "main",
       "Mo-utils-Language" : "main",
       "Mo-utils-Number" : "main",
+      "Mo-utils-Perl" : "main",
       "Mo-utils-Time" : "main",
       "Mo-utils-TimeZone" : "main",
       "Mo-utils-URI" : "main",
