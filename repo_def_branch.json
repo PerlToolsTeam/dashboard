@@ -335,6 +335,7 @@
       "plack-app-directoryindex" : "main",
       "svg-christmastree" : "master",
       "template-provider-pandoc" : "master",
+      "webserver-dirindex" : "main",
       "xml-feed" : "master"
    },
    "drclaw1394" : {
@@ -617,6 +618,7 @@
       "Data-CEFACT-Unit" : "main",
       "Data-Commons-Image" : "main",
       "Data-ExternalId" : "main",
+      "Data-FSM" : "main",
       "Data-HTML-A" : "main",
       "Data-HTML-Button" : "main",
       "Data-HTML-Element" : "main",
@@ -738,6 +740,7 @@
       "Mo-utils-TimeZone" : "main",
       "Mo-utils-URI" : "main",
       "Mo-utils-Unicode" : "main",
+      "Mo-utils-common" : "main",
       "Mock-Person-CZ" : "master",
       "Mock-Person-DE" : "master",
       "Mock-Person-EN" : "master",
