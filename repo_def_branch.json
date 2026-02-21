@@ -332,6 +332,7 @@
       "moox-role-json_ld" : "master",
       "moox-role-opengraph" : "main",
       "perlanet" : "master",
+      "plack-app-directoryindex" : "main",
       "svg-christmastree" : "master",
       "template-provider-pandoc" : "master",
       "xml-feed" : "master"
