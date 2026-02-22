@@ -632,6 +632,7 @@
       "Data-Login" : "main",
       "Data-MARC-Field008" : "main",
       "Data-MARC-Leader" : "main",
+      "Data-MARC-Validator-Report" : "main",
       "Data-Message-Board" : "main",
       "Data-Message-Simple" : "main",
       "Data-Navigation-Item" : "main",
