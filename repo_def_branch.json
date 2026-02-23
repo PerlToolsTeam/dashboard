@@ -965,6 +965,7 @@
       "Log::WarnDie" : "",
       "Object-Configure" : "master",
       "Params-Validate-Strict" : "master",
+      "Readonly-Values-Boolean" : "master",
       "Readonly-Values-Days" : "master",
       "Readonly-Values-Months" : "master",
       "Readonly-Values-Syslog" : "master",
