@@ -8,7 +8,7 @@
       "netscape-bookmarks" : "master"
    },
    "CpanelInc" : {
-      "Overload-FileCheck" : "master"
+      "Overload-FileCheck" : "main"
    },
    "DBM-Deep" : {
       "DBM-Deep" : "master"
