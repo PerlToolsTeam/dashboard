@@ -512,6 +512,7 @@
       "Test-Excel" : "master",
       "Test-Internet" : "master",
       "Test-Map-Tube" : "master",
+      "Test-PostgreSQL-v2" : "master",
       "Test-Strict" : "master",
       "Test-XPath" : "master",
       "Text-CSV-Pivot" : "master",
