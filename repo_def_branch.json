@@ -151,7 +151,7 @@
       "Test-Mojo-Role-Debug-JSON" : "master",
       "XS-Logger" : "master",
       "XString" : "master",
-      "perl-TimeDate" : "master"
+      "perl-TimeDate" : "main"
    },
    "beyondgrep" : {
       "ack3" : "dev"
