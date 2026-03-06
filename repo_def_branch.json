@@ -1204,6 +1204,7 @@
       "p5-data-optlist-object" : "master",
       "p5-data-smile" : "",
       "p5-data-validate-csv" : "master",
+      "p5-data-zpath" : "master",
       "p5-datetimex-auto" : "master",
       "p5-datetimex-format-ago" : "master",
       "p5-devel-cover-report-codecov-service-githubactions" : "master",
