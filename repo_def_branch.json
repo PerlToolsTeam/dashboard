@@ -329,6 +329,7 @@
       "app-mergecal" : "main",
       "calendar-simple" : "master",
       "cpan-changes-parser-keepachangelog" : "main",
+      "genealogy-relationship" : "master",
       "moox-role-json_ld" : "master",
       "moox-role-opengraph" : "main",
       "perlanet" : "master",
