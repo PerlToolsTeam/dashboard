@@ -1253,6 +1253,7 @@
       "p5-linq-database" : "master",
       "p5-list-assignref" : "master",
       "p5-list-mapmulti" : "master",
+      "p5-loop-util" : "",
       "p5-lv" : "master",
       "p5-macro-simple" : "master",
       "p5-marlin" : "master",
