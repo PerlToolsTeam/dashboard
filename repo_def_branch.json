@@ -917,6 +917,7 @@
       "DBD-XMLSimple" : "master",
       "DBIx-AnyDBD" : "master",
       "Data-Fetch" : "master",
+      "Data-Hash-Diff-Smart" : "master",
       "Data-Random-String-Matches" : "master",
       "Data-Text" : "master",
       "Database-Abstraction" : "master",
