@@ -897,6 +897,7 @@
    "nigelhorne" : {
       "App-GHGen" : "master",
       "App-Test-Generator" : "master",
+      "App-Workflow-Lint" : "master",
       "App-makefilepl2cpanfile" : "master",
       "Array-Iterator" : "master",
       "CGI-ACL" : "master",
