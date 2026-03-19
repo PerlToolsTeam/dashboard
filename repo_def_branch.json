@@ -263,6 +263,7 @@
    },
    "cpan-authors" : {
       "Crypt-OpenSSL-RSA" : "main",
+      "IO-Stty" : "main",
       "Net-Ident" : "main",
       "XML-Parser" : "main",
       "perl-net-jabber-bot" : "main"
