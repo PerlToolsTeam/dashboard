@@ -262,7 +262,10 @@
       "Data-Text-Simple" : ""
    },
    "cpan-authors" : {
-      "Crypt-OpenSSL-RSA" : "main"
+      "Crypt-OpenSSL-RSA" : "main",
+      "Net-Ident" : "main",
+      "XML-Parser" : "main",
+      "perl-net-jabber-bot" : "main"
    },
    "cpanelinc" : {
       "Test-MockFile" : "master",
