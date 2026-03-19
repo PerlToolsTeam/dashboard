@@ -987,6 +987,7 @@
       "Test-Returns" : "master",
       "Test-Which" : "master",
       "Text-Names-Abbreviate" : "master",
+      "Text-Names-Canonicalize" : "master",
       "Text-Names-GB" : "master",
       "TimeZone-TimeZoneDB" : "master",
       "WWW-Scrape-FindaGrave" : "master",
