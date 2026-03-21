@@ -263,10 +263,15 @@
    },
    "cpan-authors" : {
       "Crypt-OpenSSL-RSA" : "main",
+      "Crypt-RIPEMD160" : "main",
       "IO-Stty" : "main",
       "Net-Ident" : "main",
+      "Safe-Hole" : "main",
       "XML-Parser" : "main",
       "perl-net-jabber-bot" : "main"
+   },
+   "cpanel" : {
+      "Test-MockFile" : "master"
    },
    "cpanelinc" : {
       "Test-MockFile" : "master",
