@@ -267,6 +267,7 @@
       "IO-Stty" : "main",
       "Net-Ident" : "main",
       "Safe-Hole" : "main",
+      "TimeDate" : "main",
       "XML-Parser" : "main",
       "perl-net-jabber-bot" : "main"
    },
