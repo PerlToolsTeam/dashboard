@@ -996,6 +996,7 @@
       "Test-Mockingbird" : "master",
       "Test-Returns" : "master",
       "Test-Which" : "master",
+      "Test::HTTP::Scenario" : "",
       "Text-Names-Abbreviate" : "master",
       "Text-Names-Canonicalize" : "master",
       "Text-Names-GB" : "master",
