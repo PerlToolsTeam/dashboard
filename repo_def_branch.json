@@ -262,6 +262,7 @@
       "Data-Text-Simple" : ""
    },
    "cpan-authors" : {
+      "Business-UPS" : "main",
       "Crypt-OpenSSL-RSA" : "main",
       "Crypt-RIPEMD160" : "main",
       "IO-Stty" : "main",
