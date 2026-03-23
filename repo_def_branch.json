@@ -266,6 +266,7 @@
       "Crypt-OpenSSL-RSA" : "main",
       "Crypt-RIPEMD160" : "main",
       "IO-Stty" : "main",
+      "Net-Daemon" : "main",
       "Net-Ident" : "main",
       "Safe-Hole" : "main",
       "TimeDate" : "main",
