@@ -568,6 +568,7 @@
       "Alien-ed-GNU" : "main",
       "Alien-libpopt" : "main",
       "Alien-librpm" : "main",
+      "Alt-Digest-MD5-OpenSSL" : "main",
       "App-Angle2Zodiac" : "main",
       "App-Bin-Search" : "main",
       "App-CPAN-Get" : "main",
