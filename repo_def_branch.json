@@ -946,6 +946,7 @@
       "Date-Cmp" : "master",
       "DateTime-Format-Genealogy" : "master",
       "DateTime-Format-Text" : "master",
+      "Email-Abuse-Investigator" : "master",
       "Encode-Wide" : "master",
       "FCGI-Buffer" : "master",
       "File-Open-NoCache-ReadOnly" : "master",
