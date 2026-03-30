@@ -276,10 +276,10 @@
       "perl-net-jabber-bot" : "main"
    },
    "cpanel" : {
-      "Test-MockFile" : "master"
+      "Test-MockFile" : "main"
    },
    "cpanelinc" : {
-      "Test-MockFile" : "master",
+      "Test-MockFile" : "main",
       "Test2-Harness-Renderer-JUnit" : "main"
    },
    "cromedome" : {
