@@ -350,6 +350,7 @@
       "plack-app-directoryindex" : "main",
       "svg-christmastree" : "master",
       "template-provider-pandoc" : "master",
+      "toon" : "main",
       "webserver-dirindex" : "main",
       "xml-feed" : "master"
    },
