@@ -680,6 +680,7 @@
       "Error-Pure-JSON" : "master",
       "Error-Pure-NoDie" : "master",
       "Error-Pure-Output-ANSIColor" : "master",
+      "Error-Pure-Output-Bio" : "master",
       "Error-Pure-Output-JSON" : "master",
       "Error-Pure-Output-Tags-HTMLCustomPage" : "master",
       "Error-Pure-Output-Text" : "master",
