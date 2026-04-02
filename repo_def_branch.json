@@ -267,6 +267,7 @@
       "Crypt-RIPEMD160" : "main",
       "IO-Stty" : "main",
       "IO-Tty" : "main",
+      "IPC-Run" : "main",
       "Net-Daemon" : "main",
       "Net-Ident" : "main",
       "Regexp-Parser" : "main",
