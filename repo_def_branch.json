@@ -966,6 +966,7 @@
       "Genealogy-ObituaryDailyTimes" : "master",
       "Genealogy-Wills" : "master",
       "Geo-Address-Parser" : "master",
+      "Geo-Address-Parser-Country" : "master",
       "Geo-AnomalyDetector" : "master",
       "Geo-Coder-Abbreviations" : "master",
       "Geo-Coder-CA" : "master",
