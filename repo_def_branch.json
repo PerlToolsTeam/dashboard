@@ -61,7 +61,7 @@
    },
    "Dual-Life" : {
       "Devel-PPPort" : "master",
-      "digest" : "master"
+      "digest" : "main"
    },
    "Getty" : {
       "p5-cpan-repository" : "master"
@@ -384,7 +384,7 @@
       "perl5-hustle-table" : "main"
    },
    "dual-Life" : {
-      "digest-md5" : "master"
+      "digest-md5" : "main"
    },
    "dwimperl" : {
       "Task-DWIM" : "master"
