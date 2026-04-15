@@ -718,6 +718,7 @@
       "MARC-Convert-Wikidata-Object" : "main",
       "MARC-Field008" : "main",
       "MARC-Leader" : "main",
+      "MARC-Leader-L10N" : "main",
       "MARC-Leader-Print" : "main",
       "MARC-Leader-Utils" : "main",
       "MARC-Validator" : "main",
