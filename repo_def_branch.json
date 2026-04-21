@@ -632,6 +632,7 @@
       "CSS-Struct-Output-Structure" : "main",
       "Check-Fork" : "main",
       "Check-Socket" : "main",
+      "Check-Term-Color" : "main",
       "Class-Params" : "master",
       "Class-Utils" : "master",
       "Commons-Link" : "main",
