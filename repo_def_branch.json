@@ -1018,6 +1018,7 @@
       "Test-Which" : "master",
       "Test::HTTP::Scenario" : "",
       "Test::Most::Explain" : "",
+      "Text-Name-Abbreviate" : "",
       "Text-Names-Abbreviate" : "master",
       "Text-Names-Canonicalize" : "master",
       "Text-Names-GB" : "master",
