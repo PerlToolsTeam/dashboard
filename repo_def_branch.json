@@ -905,6 +905,7 @@
       "database-managedhandle" : "main",
       "database-temp" : "main",
       "dist-zilla-plugin-signature" : "main",
+      "dist-zilla-plugin-weavefile" : "main",
       "docker-names-random" : "master",
       "env-assert" : "main",
       "env-dot" : "main",
