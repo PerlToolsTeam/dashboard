@@ -573,6 +573,7 @@
       "Acme-People-Happy" : "master",
       "Alien-DjVuLibre" : "main",
       "Alien-bc-GNU" : "main",
+      "Alien-cmake4" : "main",
       "Alien-ed-GNU" : "main",
       "Alien-libpopt" : "main",
       "Alien-librpm" : "main",
