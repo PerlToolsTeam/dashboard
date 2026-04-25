@@ -1182,6 +1182,7 @@
       "Task-Test" : "master",
       "Term-ReadPassword-Win32" : "master",
       "Test-CircularDependencies" : "master",
+      "Test-IsAny" : "main",
       "Text-MediawikiFormat" : "master",
       "WWW-AdServer" : "master",
       "Web-Feed" : "master",
