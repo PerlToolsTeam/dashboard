@@ -78,6 +78,9 @@
       "WWW-StatsMix" : "master",
       "data-verifier" : "master"
    },
+   "Ovid" : {
+      "test--most" : "master"
+   },
    "PadreIDE" : {
       "Debug-Client" : "master",
       "Padre" : "master",
