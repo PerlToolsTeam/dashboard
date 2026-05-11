@@ -1,4 +1,7 @@
 {
+   "BYTEROCK" : {
+      "www-vonage-api" : ""
+   },
    "CPAN-API" : {
       "p5-elasticsearch-model" : "master"
    },
