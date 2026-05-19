@@ -1530,6 +1530,7 @@
       "Perl-MinimumVersion-Fast" : "master"
    },
    "troglodyne-internet-widgets" : {
+      "perl-Net-Openssh-More" : "master",
       "selenium-client-perl" : "main"
    },
    "trs-80" : {
