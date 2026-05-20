@@ -283,6 +283,7 @@
       "Safe-Hole" : "main",
       "TimeDate" : "main",
       "Tree-MultiNode" : "main",
+      "XML-LibXML" : "main",
       "XML-Parser" : "main",
       "perl-net-jabber-bot" : "main"
    },
