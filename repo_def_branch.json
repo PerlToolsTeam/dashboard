@@ -448,6 +448,7 @@
       "URI" : "master",
       "WWW-Mechanize" : "master",
       "WWW-Mechanize-Cached" : "main",
+      "WWW-RobotRules" : "master",
       "libwww-perl" : "master",
       "lwp-mediatypes" : "master",
       "lwp-protocol-ghttp" : "master"
