@@ -200,6 +200,7 @@
       "distribution-guess-buildsystem" : "master",
       "dumbbench" : "master",
       "file-find-closures" : "master",
+      "file-findroot" : "master",
       "file-fingerprint" : "master",
       "http-cookies-chrome" : "master",
       "http-cookies-safari" : "",
