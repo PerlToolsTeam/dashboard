@@ -128,7 +128,7 @@
       "URI-Shorten" : "master"
    },
    "abw" : {
-      "Template2" : "master"
+      "Template2" : "main"
    },
    "acme" : {
       "test-www-mechanize-psgi" : "master"
