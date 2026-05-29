@@ -1618,5 +1618,8 @@
    },
    "xsawyerx" : {
       "template-plugin-cgi" : "main"
+   },
+   "zuzuscript" : {
+      "zuzu-perl" : "main"
    }
 }
