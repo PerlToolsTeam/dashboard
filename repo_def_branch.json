@@ -1060,7 +1060,7 @@
       "String-InterpolatedVariables" : "master",
       "acme-odometer" : "master",
       "archive-any" : "master",
-      "authen-oath" : "master",
+      "authen-oath" : "main",
       "business-ca-gst" : "master",
       "business-paypal-api" : "master",
       "code-tidyall-plugin-sortlines-naturally" : "master",
