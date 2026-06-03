@@ -457,6 +457,7 @@
    "manwar" : {
       "Address-PostCode-Australia" : "master",
       "Address-PostCode-UK" : "master",
+      "Alien-YARA" : "master",
       "App-Search-BackPAN" : "master",
       "App-Timer" : "master",
       "App-ValidateBankAccount" : "master",
