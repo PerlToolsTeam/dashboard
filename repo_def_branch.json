@@ -1191,6 +1191,7 @@
       "CPAN-Digger" : "main",
       "CPAN-Porters" : "main",
       "CPAN-Test-Dummy-SCO" : "master",
+      "FalkorDB-Perl" : "main",
       "File-Tools" : "master",
       "Math-RPN" : "master",
       "MetaCPAN-Clients" : "master",
