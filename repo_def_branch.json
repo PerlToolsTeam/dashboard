@@ -1622,6 +1622,9 @@
    "xsawyerx" : {
       "template-plugin-cgi" : "main"
    },
+   "yourname" : {
+      "DBIx-Class-Schema-GraphQL" : ""
+   },
    "zuzuscript" : {
       "zuzu-perl" : "main"
    }
