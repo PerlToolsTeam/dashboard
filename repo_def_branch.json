@@ -1033,6 +1033,7 @@
       "Return-Set" : "master",
       "SEO-Inspector" : "master",
       "Schema-Validator" : "master",
+      "Sub-Protected" : "master",
       "Syntax-Feature-With" : "master",
       "Test-HTTPStatus" : "master",
       "Test-Mockingbird" : "master",
