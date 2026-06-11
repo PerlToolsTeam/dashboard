@@ -956,6 +956,7 @@
       "CGI-Untaint-Facebook" : "master",
       "CGI-Untaint-Twitter" : "master",
       "CHI-Driver-SharedMem" : "master",
+      "Class-Abstract" : "master",
       "Class-Debug" : "master",
       "Class-Simple-Cached" : "master",
       "Class-Simple-Readonly-Cached" : "master",
