@@ -266,7 +266,8 @@
       "mojolicious-plugin-routes-restful" : "master"
    },
    "commons-vote" : {
-      "Data-Text-Simple" : ""
+      "Data-Text-Simple" : "",
+      "Schema-Test" : ""
    },
    "cpan-authors" : {
       "Business-UPS" : "main",
