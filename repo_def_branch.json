@@ -363,6 +363,7 @@
       "perlanet" : "master",
       "plack-app-directoryindex" : "main",
       "svg-christmastree" : "master",
+      "svg-timeline" : "master",
       "template-provider-pandoc" : "master",
       "toon" : "main",
       "webserver-dirindex" : "main",
