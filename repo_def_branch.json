@@ -680,6 +680,7 @@
       "Data-MARC-Validator-Report" : "main",
       "Data-Message-Board" : "main",
       "Data-Message-Simple" : "main",
+      "Data-Metadata" : "main",
       "Data-Navigation-Item" : "main",
       "Data-OFN-Address" : "main",
       "Data-OFN-Common" : "main",
