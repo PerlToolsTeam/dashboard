@@ -352,6 +352,7 @@
       "app-blurfill" : "main",
       "app-cpanmodulesite" : "main",
       "app-feeddeduplicator" : "main",
+      "app-httpthis" : "master",
       "app-laststats" : "main",
       "app-linksite" : "main",
       "app-mergecal" : "main",
