@@ -947,6 +947,7 @@
    },
    "nigelhorne" : {
       "App-GHGen" : "master",
+      "App-Project-Doctor" : "master",
       "App-Test-Generator" : "master",
       "App-Workflow-Lint" : "master",
       "App-makefilepl2cpanfile" : "master",
