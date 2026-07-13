@@ -465,6 +465,7 @@
       "App-Timer" : "master",
       "App-ValidateBankAccount" : "master",
       "App-calendr" : "master",
+      "App-genstopwords" : "master",
       "Astro-Utils" : "master",
       "BankAccount-Validator-UK" : "master",
       "CGI--Simple" : "master",
