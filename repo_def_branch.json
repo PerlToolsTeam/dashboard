@@ -936,6 +936,7 @@
       "io-iron" : "master",
       "io-iron-applications" : "master",
       "ipc-runexternal" : "master",
+      "log-any-adapter-jsonlines" : "main",
       "software-policies" : "main",
       "test-database-temp" : "main"
    },
