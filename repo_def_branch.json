@@ -361,6 +361,7 @@
       "genealogy-relationship" : "master",
       "moox-role-json_ld" : "master",
       "moox-role-opengraph" : "main",
+      "moox-role-seotags" : "main",
       "perlanet" : "master",
       "plack-app-directoryindex" : "main",
       "svg-christmastree" : "master",
