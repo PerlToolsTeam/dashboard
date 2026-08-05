@@ -542,6 +542,7 @@
       "MouseX-Params-Validate" : "master",
       "OpenAPI-Linter" : "master",
       "PAGI-FastAPI" : "master",
+      "PAGI-FastAPI-Security" : "master",
       "Paws-DynamoDB-Response-Parser" : "master",
       "Pod-Tree" : "master",
       "Regexp-Common-time" : "master",
