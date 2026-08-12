@@ -543,6 +543,8 @@
       "MouseX-Params-Validate" : "master",
       "OpenAPI-Linter" : "master",
       "PAGI-FastAPI" : "master",
+      "PAGI-FastAPI-RateLimit-Driver-CHI" : "master",
+      "PAGI-FastAPI-RateLimit-Driver-Redis" : "master",
       "PAGI-FastAPI-Security" : "master",
       "Paws-DynamoDB-Response-Parser" : "master",
       "Pod-Tree" : "master",
