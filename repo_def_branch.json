@@ -280,6 +280,7 @@
       "Net-Daemon" : "main",
       "Net-Ident" : "main",
       "Overload-FileCheck" : "main",
+      "Perl-Critic-Policy-PreferredModules" : "main",
       "Razor2-Client-Agent" : "main",
       "Regexp-Parser" : "main",
       "Safe-Hole" : "main",
