@@ -544,6 +544,7 @@
       "MouseX-Params-Validate" : "master",
       "OpenAPI-Linter" : "master",
       "PAGI-FastAPI" : "master",
+      "PAGI-FastAPI-Queue-Driver-Redis" : "master",
       "PAGI-FastAPI-RateLimit-Driver-CHI" : "master",
       "PAGI-FastAPI-RateLimit-Driver-Redis" : "master",
       "PAGI-FastAPI-Security" : "master",
