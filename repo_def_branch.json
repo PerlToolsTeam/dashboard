@@ -987,6 +987,7 @@
       "Data-Random-String-Matches" : "master",
       "Data-Text" : "master",
       "Database-Abstraction" : "master",
+      "Database-Join" : "master",
       "Date-Age" : "master",
       "Date-Cmp" : "master",
       "DateTime-Format-Genealogy" : "master",
