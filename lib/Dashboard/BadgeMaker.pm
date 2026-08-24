@@ -106,7 +106,10 @@ class Dashboard::BadgeMaker {
   method has_repo_details {
     my ($module) = @_;
 
-    return $module->{repo_owner} && $module->{repo_name};
+    return $module->{repo}
+      && $module->{repo} =~ m|github\.com/|
+      && $module->{repo_owner}
+      && $module->{repo_name};
   }
 
   method has_branch_details {

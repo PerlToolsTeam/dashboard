@@ -116,7 +116,7 @@ class Dashboard::App {
 
     if ($rel->resources->{bugtracker}{web}) {
       $mod->{bugtracker} = $rel->resources->{bugtracker}{web};
-      $mod->{uses_rt} = $mod->{bugtracker} =~ /rt.cpan.org/;
+      $mod->{uses_rt} = $mod->{bugtracker} =~ /rt\.cpan\.org/;
     }
 
     unless ($mod->{repo}) {
@@ -258,7 +258,7 @@ class Dashboard::App {
 
     return unless defined $repo_uri;
 
-    # Default branch lookup only works for Github repos
+    # Default branch lookup only works for GitHub repos
     return $repo_uri =~ m|github\.com/|;
   }
 }

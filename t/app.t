@@ -22,7 +22,6 @@ use Dashboard::BadgeMaker;
 }
 
 {
-  no warnings 'redefine';
   local *Dashboard::App::get_repo_default_branch = sub ($self, $module) {
     return 'main';
   };
@@ -57,8 +56,8 @@ use Dashboard::BadgeMaker;
   ));
 
   is($non_github->{repo}, 'https://gitlab.example.com/team/non-gh', 'non-GitHub repo is preserved');
-  is($non_github->{repo_owner}, 'team', 'non-GitHub repo owner is derived from path');
-  is($non_github->{repo_name}, 'non-gh', 'non-GitHub repo name is derived from path');
+  is($non_github->{repo_owner}, 'team', 'non-GitHub repo owner is parsed from the repo path');
+  is($non_github->{repo_name}, 'non-gh', 'non-GitHub repo name is parsed from the repo path');
   ok(!exists $non_github->{repo_def_branch}, 'non-GitHub repo does not require a default branch');
 
   my $github = $app->module_from_release(Local::Release->new(
@@ -79,6 +78,7 @@ use Dashboard::BadgeMaker;
   my $badges = Dashboard::BadgeMaker->new;
 
   is($badges->gh({ dist => 'No-Repo' }, 'test.yml'), '', 'GitHub badge is blank without repo details');
+  is($badges->gh({ repo => 'https://gitlab.example.com/team/non-gh', repo_owner => 'team', repo_name => 'non-gh', dist => 'Non-GH' }, 'test.yml'), '', 'GitHub badge is blank for non-GitHub repos');
   is($badges->travis({ repo_owner => 'example', repo_name => 'repo', dist => 'Repo' }), '', 'branch-based badge is blank without branch details');
 }
 
