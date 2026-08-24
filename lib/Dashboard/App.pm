@@ -79,49 +79,7 @@ class Dashboard::App {
     $cfg->{author}{name}     = $mcpan_author->name;
 
     while ( my $rel = $releases->next ) {
-      my $mod;
-      $mod->{name} = $rel->name;
-      $mod->{dist} = $rel->distribution;
-      $mod->{ver}  = $rel->version;
-      $mod->{auth} = $rel->author;
-      $mod->{date} = (split /T/, $rel->date)[0];
-      # Get the repo link.
-      # 1. It should be in the "web" key
-      # 2. Otherwise, check the "url" key
-      $mod->{repo} = $rel->resources->{repository}{web}
-        // $rel->resources->{repository}{url};
-
-       if ($rel->resources->{bugtracker}{web}) {
-        $mod->{bugtracker} = $rel->resources->{bugtracker}{web};
-        $mod->{uses_rt} = $mod->{bugtracker} =~ /rt.cpan.org/;
-      }
-
-      unless ($mod->{repo}) {
-        warn "No repo for $mod->{name}\n";
-        next;
-      }
-
-      unless (valid_repo($mod->{repo})) {
-        warn "Skipping $mod->{repo}\n";
-        next;
-      }
-
-      $mod->{repo} =~ s[/$][];
-      # We need the repo's name. Try to extract it from the URL
-      my $repo_uri = URI->new($mod->{repo});
-      if ($mod->{repo} =~ /^(http|git)/) {
-        my $path = $repo_uri->path;
-        $path =~ s|^/||; # Remove leading slash
-        $path =~ s|\.git$||; # Remove trailing .git
-        @$mod{qw[repo_owner repo_name]} = split m|/|, $path, 2;
-        $mod->{repo_name} =~ s/\.git$// if $mod->{repo} =~ /^git/;
-        $mod->{repo_def_branch} = $self->get_repo_default_branch($mod);
-        chomp($mod->{repo_def_branch});
-      } else {
-        warn "Strange repo for $mod->{name} ($mod->{repo}). Skipping.\n";
-        next;
-      }
-      $mod->{insecure_repo} = $mod->{repo} =~ m|^http:|;
+      my $mod = $self->module_from_release($rel);
       push @{ $cfg->{modules} }, $mod;
     }
 
@@ -136,6 +94,57 @@ class Dashboard::App {
     path("docs/$cfg->{author}{cpan}/data.json")->spew_utf8($json->encode($cfg));
 
      return $cfg;
+  }
+
+  method module_from_release {
+    my ($rel) = @_;
+
+    my $mod;
+    $mod->{name} = $rel->name;
+    $mod->{dist} = $rel->distribution;
+    $mod->{ver}  = $rel->version;
+    $mod->{auth} = $rel->author;
+    $mod->{date} = (split /T/, $rel->date)[0];
+    $mod->{bugtracker} = '';
+    $mod->{uses_rt} = 0;
+
+    # Get the repo link.
+    # 1. It should be in the "web" key
+    # 2. Otherwise, check the "url" key
+    $mod->{repo} = $rel->resources->{repository}{web}
+      // $rel->resources->{repository}{url};
+
+    if ($rel->resources->{bugtracker}{web}) {
+      $mod->{bugtracker} = $rel->resources->{bugtracker}{web};
+      $mod->{uses_rt} = $mod->{bugtracker} =~ /rt.cpan.org/;
+    }
+
+    unless ($mod->{repo}) {
+      return $mod;
+    }
+
+    $mod->{repo} =~ s[/$][];
+
+    # We need the repo's name. Try to extract it from the URL.
+    if ($mod->{repo} =~ /^(http|git)/) {
+      my $repo_uri = URI->new($mod->{repo});
+      my $path = $repo_uri->path;
+      $path =~ s|^/||; # Remove leading slash
+      $path =~ s|\.git$||; # Remove trailing .git
+      @$mod{qw[repo_owner repo_name]} = split m|/|, $path, 2;
+      $mod->{repo_name} =~ s/\.git$// if $mod->{repo} =~ /^git/;
+
+      if (valid_repo($mod->{repo})) {
+        $mod->{repo_def_branch} = $self->get_repo_default_branch($mod);
+        chomp($mod->{repo_def_branch});
+      }
+    } else {
+      warn "Strange repo for $mod->{name} ($mod->{repo}).\n";
+    }
+
+    $mod->{insecure_repo} = $mod->{repo} =~ m|^http:|;
+
+    return $mod;
   }
 
   method get_repo_default_branch {
@@ -249,7 +258,7 @@ class Dashboard::App {
 
     return unless defined $repo_uri;
 
-    # Currently we only support Github repos
+    # Default branch lookup only works for Github repos
     return $repo_uri =~ m|github\.com/|;
   }
 }

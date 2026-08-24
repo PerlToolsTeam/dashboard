@@ -17,6 +17,7 @@ class Dashboard::BadgeMaker {
 
   method cirrus {
     my ($module, $task) = @_;
+    return '' unless $self->has_repo_details($module);
 
     return $self->badge_link(
       "https://cirrus-ci.com/github/$module->{repo_owner}/$module->{repo_name}",
@@ -27,6 +28,7 @@ class Dashboard::BadgeMaker {
 
   method gh {
     my ($module, $workflow) = @_;
+    return '' unless $self->has_repo_details($module);
 
     return $self->badge_link(
       "https://github.com/$module->{repo_owner}/$module->{repo_name}/actions?query=workflow%3A$workflow",
@@ -37,6 +39,7 @@ class Dashboard::BadgeMaker {
 
   method appveyor {
     my ($module) = @_;
+    return '' unless $self->has_repo_details($module);
 
     return $self->badge_link(
       "https://ci.appveyor.com/project/$module->{repo_owner}/$module->{repo_name}",
@@ -47,6 +50,7 @@ class Dashboard::BadgeMaker {
 
   method travis {
     my ($module) = @_;
+    return '' unless $self->has_branch_details($module);
 
     return $self->badge_link(
       "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}?branch=$module->{repo_def_branch}",
@@ -63,6 +67,7 @@ class Dashboard::BadgeMaker {
 
   method coveralls {
     my ($module, $author) = @_;
+    return '' unless $self->has_branch_details($module);
 
     return $self->badge_link(
       "https://coveralls.io/github/$module->{repo_owner}/$module->{repo_name}?branch=$module->{repo_def_branch}",
@@ -73,6 +78,7 @@ class Dashboard::BadgeMaker {
 
   method codecov {
     my ($module) = @_;
+    return '' unless $self->has_branch_details($module);
 
     return $self->badge_link(
       "https://codecov.io/gh/$module->{repo_owner}/$module->{repo_name}",
@@ -95,6 +101,18 @@ class Dashboard::BadgeMaker {
     my ($link_url, $img_url, $alt_text) = @_;
 
     return qq[<a href="$link_url"><img class="backup_picture" alt="$alt_text" src="$img_url"></a>];
+  }
+
+  method has_repo_details {
+    my ($module) = @_;
+
+    return $module->{repo_owner} && $module->{repo_name};
+  }
+
+  method has_branch_details {
+    my ($module) = @_;
+
+    return $self->has_repo_details($module) && $module->{repo_def_branch};
   }
 
 }
