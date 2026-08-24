@@ -51,7 +51,7 @@ var direction = "[% sort.direction %]";
       <tbody>
 [% FOREACH m IN modules -%]
         <tr>
-          <td><a href="[% m.repo %]">[% m.dist %]</a>[% IF m.insecure_repo %] <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span>[% END %]</td>
+          <td>[% IF m.repo %]<a href="[% m.repo %]">[% m.dist %]</a>[% ELSE %][% m.dist %][% END %][% IF m.insecure_repo %] <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span>[% END %]</td>
           <td>[% badges.cpan(m) %]</td>
           <td>[% badges.cpants(m) %]</td>
           <td>[% m.date %]</td>
