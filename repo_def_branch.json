@@ -1245,6 +1245,9 @@
       "Trog-TOTP" : "master",
       "perl-Github-ReleaseFetcher" : "",
       "perl-critic-policy-prohibitpipeopen" : "",
+      "perl-critic-policy-prohibitusagesubs" : "",
+      "perl-critic-policy-prohibituselib" : "",
+      "perl-critic-policy-requireqwforliterallists" : "",
       "perl-json-validator-schema-troglodyne" : "",
       "playwright-perl" : "main"
    },
