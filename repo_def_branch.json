@@ -451,6 +451,7 @@
       "HTTP-Daemon" : "master",
       "HTTP-Date" : "master",
       "HTTP-Message" : "master",
+      "LWP-MediaTypes" : "master",
       "LWP-Protocol-https" : "master",
       "Net-HTTP" : "master",
       "URI" : "master",
