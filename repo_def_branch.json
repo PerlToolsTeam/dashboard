@@ -1248,6 +1248,7 @@
       "perl-configd" : "",
       "perl-critic-policy-prohibitnowarningsredefine" : "",
       "perl-critic-policy-prohibitpipeopen" : "",
+      "perl-critic-policy-prohibitprintstderr" : "",
       "perl-critic-policy-prohibitunusedimports" : "",
       "perl-critic-policy-prohibitusagesubs" : "",
       "perl-critic-policy-prohibituselib" : "",
