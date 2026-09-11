@@ -125,7 +125,8 @@
       "Audit-Log-perl" : "master",
       "Microsoft-Translator-Perl" : "master",
       "Pivot-ArrayOfHashes" : "master",
-      "URI-Shorten" : "master"
+      "URI-Shorten" : "master",
+      "perl-critic-policy-preferredbinaries" : "master"
    },
    "abw" : {
       "Template2" : "main"
@@ -279,6 +280,7 @@
       "Net-ACME2" : "main",
       "Net-Daemon" : "main",
       "Net-Ident" : "main",
+      "OpenStack-MetaAPI" : "main",
       "Overload-FileCheck" : "main",
       "Perl-Critic-Policy-PreferredModules" : "main",
       "Razor2-Client-Agent" : "main",
