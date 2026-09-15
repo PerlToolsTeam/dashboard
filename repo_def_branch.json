@@ -1249,6 +1249,7 @@
       "Trog-TOTP" : "master",
       "perl-Github-ReleaseFetcher" : "",
       "perl-configd" : "",
+      "perl-critic-policy-prohibitleadingzeros" : "",
       "perl-critic-policy-prohibitnowarningsredefine" : "",
       "perl-critic-policy-prohibitpipeopen" : "",
       "perl-critic-policy-prohibitprintstderr" : "",
