@@ -126,7 +126,8 @@
       "Microsoft-Translator-Perl" : "master",
       "Pivot-ArrayOfHashes" : "master",
       "URI-Shorten" : "master",
-      "perl-critic-policy-preferredbinaries" : "master"
+      "perl-critic-policy-preferredbinaries" : "master",
+      "perl-critic-policy-prohibitunuseddefinitions" : "master"
    },
    "abw" : {
       "Template2" : "main"
