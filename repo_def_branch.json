@@ -127,6 +127,7 @@
       "Pivot-ArrayOfHashes" : "master",
       "URI-Shorten" : "master",
       "perl-critic-policy-preferredbinaries" : "master",
+      "perl-critic-policy-preventuselessmetacharacterescapes" : "master",
       "perl-critic-policy-prohibitunuseddefinitions" : "master"
    },
    "abw" : {
@@ -802,6 +803,7 @@
       "Mo-utils-Language" : "main",
       "Mo-utils-Number" : "main",
       "Mo-utils-Perl" : "main",
+      "Mo-utils-Text" : "main",
       "Mo-utils-Time" : "main",
       "Mo-utils-TimeZone" : "main",
       "Mo-utils-UDC" : "main",
