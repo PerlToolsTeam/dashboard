@@ -1049,6 +1049,7 @@
       "Log-Dispatch-Email-Sendmail" : "master",
       "Log-Log4perl-Layout-Syslog" : "master",
       "Log::WarnDie" : "",
+      "NWC2MusicXML" : "master",
       "Object-Configure" : "master",
       "Params-Get" : "master",
       "Params-Validate-Strict" : "master",
