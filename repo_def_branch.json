@@ -128,7 +128,8 @@
       "URI-Shorten" : "master",
       "perl-critic-policy-preferredbinaries" : "master",
       "perl-critic-policy-preventuselessmetacharacterescapes" : "master",
-      "perl-critic-policy-prohibitunuseddefinitions" : "master"
+      "perl-critic-policy-prohibitunuseddefinitions" : "master",
+      "perl-tests-covering" : "main"
    },
    "abw" : {
       "Template2" : "main"
