@@ -1266,6 +1266,7 @@
       "perl-critic-policy-prohibitrepeatedprints" : "",
       "perl-critic-policy-prohibitunusedimports" : "",
       "perl-critic-policy-prohibitusagesubs" : "",
+      "perl-critic-policy-prohibituselessvarclearing" : "",
       "perl-critic-policy-prohibituselib" : "",
       "perl-critic-policy-requirefatalwarnings" : "",
       "perl-critic-policy-requireqwforliterallists" : "",
