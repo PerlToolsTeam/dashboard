@@ -1264,6 +1264,7 @@
       "perl-critic-policy-prohibitregexforsimplesubstring" : "",
       "perl-critic-policy-prohibitregextostripaffix" : "",
       "perl-critic-policy-prohibitrepeatedprints" : "",
+      "perl-critic-policy-prohibittailrecursion" : "",
       "perl-critic-policy-prohibitunusedimports" : "",
       "perl-critic-policy-prohibitusagesubs" : "",
       "perl-critic-policy-prohibituselessvarclearing" : "",
