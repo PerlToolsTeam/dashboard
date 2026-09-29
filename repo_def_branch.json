@@ -1263,6 +1263,7 @@
       "perl-critic-policy-prohibitpipeopen" : "",
       "perl-critic-policy-prohibitprintstderr" : "",
       "perl-critic-policy-prohibitregexforsimplesubstring" : "",
+      "perl-critic-policy-prohibitregextochomp" : "",
       "perl-critic-policy-prohibitregextostripaffix" : "",
       "perl-critic-policy-prohibitrepeatedprints" : "",
       "perl-critic-policy-prohibittailrecursion" : "",
