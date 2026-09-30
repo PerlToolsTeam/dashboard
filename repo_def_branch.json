@@ -1071,6 +1071,7 @@
       "Test-CPAN-Health" : "master",
       "Test-HTTPStatus" : "master",
       "Test-Mockingbird" : "master",
+      "Test-Permissions" : "master",
       "Test-Returns" : "master",
       "Test-Which" : "master",
       "Test::HTTP::Scenario" : "",
