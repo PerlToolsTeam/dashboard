@@ -1267,6 +1267,7 @@
       "perl-critic-policy-prohibitregextochomp" : "",
       "perl-critic-policy-prohibitregextostripaffix" : "",
       "perl-critic-policy-prohibitrepeatedprints" : "",
+      "perl-critic-policy-prohibitsingleuselexicalsubs" : "",
       "perl-critic-policy-prohibittailrecursion" : "",
       "perl-critic-policy-prohibitunderscoreprivatesubs" : "",
       "perl-critic-policy-prohibitunusedimports" : "",
