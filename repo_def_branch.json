@@ -1085,7 +1085,8 @@
       "Weather-Meteo" : "master",
       "Weather-Meto" : "",
       "XML-PP" : "master",
-      "sub-private-perl/tree/master" : ""
+      "sub-private-perl/tree/master" : "",
+      "syslogd" : "master"
    },
    "oalders" : {
       "App-perlimports" : "main",
@@ -1155,6 +1156,7 @@
       "returnvalue" : ""
    },
    "petdance" : {
+      "file-next" : "dev",
       "file-next/tree/master" : "",
       "html-lint" : "dev",
       "html-tagset" : "dev",
@@ -1198,6 +1200,7 @@
       "Geo-ShapeFile" : "master",
       "Statistics-Descriptive-PDL" : "master",
       "geo-converter-dms2dd" : "master",
+      "lib" : "",
       "lib/Alien-Build-Plugin-PkgConfig-PPWrapper" : "",
       "perl-List-Unique-DeterministicOrder" : "master",
       "perl-alien-freexl" : "master",
@@ -1581,6 +1584,7 @@
       "Razor2-Client-Agent" : "main",
       "Regexp-Parser/tree/master" : "",
       "Safe-Hole" : "main",
+      "Sys-Mmap" : "main",
       "Sys-Mmap/tree/master" : "",
       "Tie-DBI" : "main",
       "Tree-MultiNode" : "main",
