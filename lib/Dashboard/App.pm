@@ -136,7 +136,7 @@ class Dashboard::App {
       @$mod{qw[repo_owner repo_name]} = split m|/|, $path, 3;
 
       if (defined $mod->{repo_owner} and defined $mod->{repo_name}) {
-        $mod_repo_name =~ s|\.git$||;
+        $mod->{repo_name} =~ s|\.git$||;
 
         if (valid_repo($mod->{repo}) and $mod->{repo_owner} and $mod->{repo_name}) {
           $mod->{repo_def_branch} = $self->get_repo_default_branch($mod);
