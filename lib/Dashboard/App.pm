@@ -128,15 +128,24 @@ class Dashboard::App {
     # We need the repo's name. Try to extract it from the URL.
     if ($mod->{repo} =~ /^(http|git)/) {
       my $repo_uri = URI->new($mod->{repo});
-      my $path = $repo_uri->path;
-      $path =~ s|^/||; # Remove leading slash
+      my $path = $repo_uri->path // '';
+      $path =~ s|^/||;     # Remove leading slash
       $path =~ s|\.git$||; # Remove trailing .git
-      @$mod{qw[repo_owner repo_name]} = split m|/|, $path, 2;
-      $mod->{repo_name} =~ s/\.git$// if $mod->{repo} =~ /^git/;
+      $path =~ s|/+$||;    # Remove trailin slashes
 
-      if (valid_repo($mod->{repo})) {
-        $mod->{repo_def_branch} = $self->get_repo_default_branch($mod);
-        chomp($mod->{repo_def_branch});
+      @$mod{qw[repo_owner repo_name]} = split m|/|, $path, 3;
+
+      if (defined $mod->{repo_owner} and defined $mod->{repo_name}) {
+        $mod_repo_name =~ s|\.git$||;
+
+        if (valid_repo($mod->{repo}) and $mod->{repo_owner} and $mod->{repo_name}) {
+          $mod->{repo_def_branch} = $self->get_repo_default_branch($mod);
+          chomp($mod->{repo_def_branch});
+        } else {
+          warn "Strange repo for $mod->{name} ($mod->{repo}).\n";
+        }
+      } else {
+        warn "Strange repo for $mod->{name} ($mod->{repo}).\n";
       }
     } else {
       warn "Strange repo for $mod->{name} ($mod->{repo}).\n";
@@ -149,6 +158,8 @@ class Dashboard::App {
 
   method get_repo_default_branch {
     my ($module) = @_;
+
+    return unless $module->{repo_owner} && $module->{repo_name};
 
     my $path = "$module->{repo_owner}/$module->{repo_name}";
 
