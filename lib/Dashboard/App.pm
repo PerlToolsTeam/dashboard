@@ -69,21 +69,37 @@ class Dashboard::App {
 
     $cfg->{modules} = [];
 
-    my $mcpan_author = $mcpan->author($cfg->{author}{cpan});
-    my $releases     = $mcpan_author->releases;
+    my @modules;
 
-    my $gravatar = $mcpan_author->gravatar_url;
-    if ($gravatar and $gravatar =~ m[^https:]) {
-      $cfg->{author}{gravatar} = $mcpan_author->gravatar_url;
+    try {
+      my $mcpan_author = $mcpan->author($cfg->{author}{cpan});
+      my $releases     = $mcpan_author->releases;
+
+      my $gravatar = $mcpan_author->gravatar_url;
+      if ($gravatar and $gravatar =~ m[^https:]) {
+        $cfg->{author}{gravatar} = $gravatar;
+      }
+      $cfg->{author}{name} = $mcpan_author->name;
+
+      while ( my $rel = $releases->next ) {
+        push @modules, $self->module_from_release($rel);
+      }
     }
-    $cfg->{author}{name}     = $mcpan_author->name;
+    catch ($e) {
+      chomp $e;
+      my $data_file = path("docs/$cfg->{author}{cpan}/data.json");
 
-    while ( my $rel = $releases->next ) {
-      my $mod = $self->module_from_release($rel);
-      push @{ $cfg->{modules} }, $mod;
+      if ($data_file->is_file) {
+        warn "MetaCPAN fetch failed for $cfg->{author}{cpan}: $e\n"
+           . "Re-using previously generated data from $data_file.\n";
+        return $json->decode($data_file->slurp_utf8);
+      }
+
+      die "MetaCPAN fetch failed for $cfg->{author}{cpan} "
+        . "and no cached data is available: $e\n";
     }
 
-    $cfg->{modules} = [ sort { $a->{name} cmp $b->{name} } @{$cfg->{modules}} ];
+    $cfg->{modules} = [ sort { $a->{name} cmp $b->{name} } @modules ];
 
     $cfg->{sort} //= {};
     $cfg->{sort}{column} //= 0;
@@ -93,7 +109,7 @@ class Dashboard::App {
     path("docs/$cfg->{author}{cpan}")->mkdir;
     path("docs/$cfg->{author}{cpan}/data.json")->spew_utf8($json->encode($cfg));
 
-     return $cfg;
+    return $cfg;
   }
 
   method module_from_release {
