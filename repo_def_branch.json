@@ -1263,6 +1263,7 @@
       "perl-critic-policy-prohibitchainingsamelistsub" : "",
       "perl-critic-policy-prohibitdefinedbeforelength" : "",
       "perl-critic-policy-prohibitleadingzeros" : "",
+      "perl-critic-policy-prohibitliteralarithmetic" : "",
       "perl-critic-policy-prohibitnowarningsredefine" : "",
       "perl-critic-policy-prohibitpipeopen" : "",
       "perl-critic-policy-prohibitprintstderr" : "",
