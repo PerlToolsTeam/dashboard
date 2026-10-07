@@ -1070,6 +1070,7 @@
       "Syntax-Feature-With" : "master",
       "Test-CPAN-Health" : "master",
       "Test-HTTPStatus" : "master",
+      "Test-Log-Abstraction" : "master",
       "Test-Mockingbird" : "master",
       "Test-Permissions" : "master",
       "Test-Returns" : "master",
