@@ -181,9 +181,18 @@ class Dashboard::App {
 
     unless (exists $repo_def_branch->{$module->{repo_owner}} and
       exists $repo_def_branch->{$module->{repo_owner}}{$module->{repo_name}}) {
-        $repo_def_branch->{$module->{repo_owner}}{$module->{repo_name}}
-          = `gh repo view $path --json defaultBranchRef -q .defaultBranchRef.name`;
-        chomp $repo_def_branch->{$module->{repo_owner}}{$module->{repo_name}};
+        my $branch;
+        try {
+          $branch = `gh repo view $path --json defaultBranchRef -q .defaultBranchRef.name`;
+          die "gh repo view exited with status " . ($? >> 8) . "\n" if $? != 0;
+          chomp $branch;
+        }
+        catch ($e) {
+          chomp $e;
+          warn "Could not get default branch for $path: $e\n";
+          $branch = '';
+        }
+        $repo_def_branch->{$module->{repo_owner}}{$module->{repo_name}} = $branch;
     }
 
     return $repo_def_branch->{$module->{repo_owner}}{$module->{repo_name}};
