@@ -4,7 +4,8 @@ use_ok($_) for qw[Dashboard::Author
                   Dashboard::BadgeMaker
                   Dashboard::App
                   Dashboard::Repository
-                  Dashboard::BranchCache];
+                  Dashboard::BranchCache
+                  Dashboard::Config];
 
 done_testing();
 

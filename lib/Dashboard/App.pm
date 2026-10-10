@@ -10,6 +10,7 @@ class Dashboard::App {
   use Dashboard::BadgeMaker;
   use Dashboard::BranchCache;
   use Dashboard::Repository qw(github_repository);
+  use Dashboard::Config qw(read_json_file read_global_config normalize_author);
 
   use JSON;
   use Path::Tiny;
@@ -23,7 +24,7 @@ class Dashboard::App {
 
   field $json = JSON->new->pretty->canonical;
   field $config_file :param = 'dashboard.json';
-  field $global_cfg = $json->decode(path($config_file)->slurp_utf8);
+  field $global_cfg = read_global_config($config_file);
   field $mcpan :reader :param = MetaCPAN::Client->new(
     ua => HTTP::Tiny->new(agent => "CPAN Dashboard/$VERSION",
       timeout => $global_cfg->{http_timeout} // 20)
@@ -53,18 +54,23 @@ class Dashboard::App {
  
     say "Gathering...";
 
-    for (sort { "$a" cmp "$b" } path($global_cfg->{author_dir} // 'authors')->children(qr/\.json\z/)) {
-      push @authors, $self->do_author($_);
+    my @registrations;
+    my %seen;
+    for my $file (sort { "$a" cmp "$b" } path($global_cfg->{author_dir})->children(qr/\.json\z/)) {
+      my $cfg = normalize_author(read_json_file($file), $file);
+      die "Duplicate author.cpan $cfg->{author}{cpan} in $file\n" if $seen{$cfg->{author}{cpan}}++;
+      push @registrations, [$file, $cfg];
+    }
+    for my $registration (@registrations) {
+      push @authors, $self->do_author(@$registration);
       push @urls, "https://$global_cfg->{domain}/$authors[-1]{author}{cpan}/";
     }
 
     $branch_cache->save;
   }
 
-  method do_author {
-    my ($file) = @_;
-
-    my $cfg = $json->decode(path($file)->slurp_utf8);
+  method do_author ($file, $cfg = undef) {
+    $cfg //= normalize_author(read_json_file($file), $file);
 
     my $id = $cfg->{author}{cpan} // '';
     die "Invalid CPAN identifier in $file\n" unless $id =~ /\A[A-Z][A-Z0-9]*\z/;
@@ -121,10 +127,6 @@ class Dashboard::App {
       push @modules, $self->module_from_release($release);
     }
     $fresh->{modules} = [sort { $a->{name} cmp $b->{name} } @modules];
-    $fresh->{sort} //= {};
-    $fresh->{sort}{column} //= 0;
-    $fresh->{sort}{column} = 3 if lc($fresh->{sort}{column}) eq 'date';
-    $fresh->{sort}{direction} //= 'asc';
     $fresh->{gathered_at} = strftime('%Y-%m-%dT%H:%M:%SZ', gmtime);
     delete $fresh->{fetch_warning};
     return $fresh;
@@ -144,7 +146,7 @@ class Dashboard::App {
   }
 
   method read_snapshot ($file, $id) {
-    my $data = $json->decode(path($file)->slurp_utf8);
+    my $data = normalize_author(read_json_file($file), $file);
     die "Invalid author snapshot in $file\n"
       unless ref($data) eq 'HASH' && ref($data->{author}) eq 'HASH'
         && ($data->{author}{cpan} // '') eq $id && ref($data->{modules}) eq 'ARRAY'
@@ -241,6 +243,8 @@ class Dashboard::App {
       WRAPPER      => $global_cfg->{wrapper},
       VARIABLES    => {
         analytics    => $global_cfg->{analytics},
+        menu         => $global_cfg->{menu},
+        domain       => $global_cfg->{domain},
         badges       => Dashboard::BadgeMaker->new,
       },
     });

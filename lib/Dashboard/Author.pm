@@ -6,6 +6,7 @@ no if $^V >= v5.38, warnings => 'experimental::class';
 class Dashboard::Author {
   use Dashboard::Distribution;
   use Path::Tiny;
+  use Dashboard::Config qw(normalize_author);
 
   field $name :reader :param;
   field $cpan_name :reader :param;
@@ -18,14 +19,11 @@ class Dashboard::Author {
   sub new_from_file {
     my ($class, $file, $mcpan, $json) = @_;
 
-    my $data = $json->decode(path($file)->slurp_utf8);
+    my $data = normalize_author($json->decode(path($file)->slurp_utf8), $file);
 
     my $mcpan_author = $mcpan->author($data->{author}{cpan});
 
     my $sort = $data->{sort} // {};
-    $sort->{column} //= 0;
-    $sort->{column} = 2 if 'date' eq lc $sort->{column};
-    $sort->{direction} //= 'asc';
 
     my @distributions;
 
@@ -41,13 +39,7 @@ class Dashboard::Author {
       @distributions = sort { $a->name cmp $b->name } @distributions;
     }
 
-    my @ci_systems = qw[gh_actions cirrus appveyor travis travis_com coveralls codecov];
-    my $ci;
-
-
-    $ci->{"use_$_"} = ($data->{ci}{"use_$_"} // 0) for @ci_systems;
-
-    $ci->{gh_workflow_names} = ($data->{ci}{gh_workflow_names} // []);
+    my $ci = $data->{ci};
 
     my $gravatar_url = $mcpan_author->gravatar_url;
     unless ($gravatar_url and $gravatar_url =~ m[^https:]) {
@@ -55,7 +47,7 @@ class Dashboard::Author {
     }
     my $self = $class->new(
       name         => $mcpan_author->name,
-      gravatar_url => $gravatar_url,
+      gravatar_url => $gravatar_url // '/images/gravatar.png',
       cpan_name    => $data->{author}{cpan},
       github_name  => $data->{author}{github},
       sort         => $sort,

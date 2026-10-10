@@ -24,3 +24,5 @@ jobs:
         run: cpanm --installdeps --notest .
       - name: Run offline tests
         run: prove -Ilib t
+      - name: Check browser script behavior
+        run: node t/dashboard-js.test.cjs

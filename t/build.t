@@ -17,6 +17,7 @@ my $config = {
   branch_cache_file => "$temp/branches.json", index_template => 'index.tt',
   author_template => 'dashboard.tt', wrapper => 'page.tt', page_templates => ['add'],
   domain => 'example.invalid', fetch_attempts => 3, retry_delay => 0,
+  menu => [{title => 'Docs & help', link => '/help/'}],
 };
 $temp->child('config.json')->spew_utf8($json->encode($config));
 $temp->child('authors')->mkpath;
@@ -55,6 +56,10 @@ like($output->child('EXAMPLE/index.html')->slurp_utf8, qr/>Fresh<\/td>/, 'HTML u
 unlike($output->child('EXAMPLE/index.html')->slurp_utf8, qr/>Old<\/td>/, 'old snapshot cannot overwrite HTML data');
 ok($output->child('index.html')->is_file, 'root index generated');
 like($output->child('index.html')->slurp_utf8, qr/Example Áuthor/, 'root index includes author name');
+like($output->child('index.html')->slurp_utf8, qr{href="/help/">Docs &amp; help</a>},
+  'top-level configured menu is rendered and escaped');
+like($output->child('EXAMPLE/index.html')->slurp_utf8, qr{data-sort-name="date"},
+  'template supplies stable date column identity');
 ok($output->child('add/index.html')->is_file, 'onboarding page generated');
 is($output->child('js/dashboard.js')->slurp_utf8, $root->child('src/js/dashboard.js')->slurp_utf8,
   'static JavaScript copied into configured output');

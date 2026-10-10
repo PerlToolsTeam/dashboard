@@ -13,10 +13,10 @@ jobs:
     container: perl:latest
 
     steps:
-    - name: Install snapd
+    - name: Install GitHub CLI and Node.js
       run: |
         apt-get -y update
-        apt-get -y install gh
+        apt-get -y install gh nodejs
 
     - name: Perl version
       run: perl -v
@@ -33,6 +33,9 @@ jobs:
 
     - name: Run tests
       run: prove -Ilib t
+
+    - name: Check browser script behavior
+      run: node t/dashboard-js.test.cjs
 
     - name: Create pages
       env:

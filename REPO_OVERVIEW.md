@@ -48,6 +48,7 @@ does not discard the last-known-good author data.
 | [lib/Dashboard/App.pm](lib/Dashboard/App.pm) | Active application: configuration, MetaCPAN retrieval, repository parsing, caching, and site generation. |
 | [lib/Dashboard/BadgeMaker.pm](lib/Dashboard/BadgeMaker.pm) | Produces linked badge image HTML for the dashboard tables. |
 | [lib/Dashboard/Repository.pm](lib/Dashboard/Repository.pm), [lib/Dashboard/BranchCache.pm](lib/Dashboard/BranchCache.pm) | Shared repository URL validation, shell-free GitHub CLI lookup, and last-known-good branch caching. |
+| [lib/Dashboard/Config.pm](lib/Dashboard/Config.pm) | Global configuration validation and shared author/CI/sort normalization. |
 | [lib/Dashboard/Author.pm](lib/Dashboard/Author.pm), [lib/Dashboard/Distribution.pm](lib/Dashboard/Distribution.pm) | Separate class-based data model, exercised by some tests but unused by the main entry point. |
 | [dashboard.json](dashboard.json) | Global paths, template names, analytics setting, and sitemap domain. |
 | `authors/*.json` | Per-author registration and CI configuration. |
@@ -173,11 +174,12 @@ The current global configuration separates input and output paths:
 - `domain`: domain used in the sitemap;
 - `analytics`: analytics identifier exposed to the templates.
 
-Some configuration support is incomplete. Canonical/social URLs and `src/CNAME` name
-`cpandashboard.com` directly. The wrapper iterates `output.menu`, whereas the
-global configuration has a top-level `menu` that the renderer does not pass in.
-Changing global settings alone is therefore insufficient for every deployment
-customization.
+Configuration is validated before fetching or generating files. Errors identify
+the source file and field. Output must be separate from static sources, templates,
+registrations, snapshots, and the branch cache, including paths containing `..`
+or existing symlinks. The top-level `menu` is passed to the wrapper and rendered
+with escaped titles and links. Canonical/social URLs and `src/CNAME` still name
+`cpandashboard.com` directly; changing domain requires updating those sources.
 
 Per-author files use this shape:
 
@@ -194,16 +196,18 @@ Per-author files use this shape:
     "use_codecov": 0
   },
   "sort": {
-    "column": 3,
+    "column": "date",
     "direction": "desc"
   }
 }
 ```
 
-The example selects release-date ordering. Browser column indexes are zero-based:
-name/repository is `0`, MetaCPAN is `1`, CPANTS is `2`, and date is `3`. The
-application converts a textual `"date"` sort setting to `3`, matching the
-rendered table.
+The example selects release-date ordering. Sort columns are `name` (or `repo`)
+and `date`, with `asc` or `desc` direction. Legacy numeric settings `0` and `3`
+are accepted and normalized to names. The browser finds the current index from
+the header's `data-sort-name` attribute, so adding or moving columns preserves
+the intended ordering. Other column settings are rejected. Missing settings
+default to name ascending.
 
 CPAN version and CPANTS quality badges are always included. Author-level flags
 enable columns for GitHub Actions, Travis `.org` or `.com`, Cirrus, AppVeyor,
@@ -217,8 +221,9 @@ distribution's repository. CI and coverage image availability is separate from
 the metadata gathered when the site builds.
 
 In the browser, Bootstrap provides styling and jQuery DataTables provides table
-searching, pagination, and ordering. Only name/repository and date columns are
-configured as orderable. `src/js/dashboard.js` also replaces failed badge images
+searching, pagination, and ordering. Headers with `data-sort-name` are orderable.
+Pages without a dashboard table do not initialize DataTables or require author
+sort globals. `src/js/dashboard.js` also replaces failed badge images
 with `/images/missing_image.png`.
 
 ## Running and checking it locally
@@ -251,6 +256,7 @@ Useful checks are:
 ```sh
 prove -Ilib t/00-load.t t/app.t
 prove -Ilib t
+node t/dashboard-js.test.cjs
 ```
 
 The first command runs module-loading and local release-parsing/badge checks.
@@ -258,6 +264,9 @@ The full default suite also exercises the separate `Author`/`Distribution`
 classes using fixed fixtures and tests the repository helper and branch cache
 with a stub GitHub CLI. It requires neither network access nor credentials.
 The default tests do not depend on the experimental `github_repo.json`.
+The Node.js checks execute the browser script with a small jQuery/DataTables
+fixture to verify reordered columns and initialization on pages without tables;
+they do not constitute a real-browser rendering test.
 
 During this examination, the first command passed **14 tests across two files**
 using Perl 5.42.3. An isolated build using copied source and snapshots succeeded,
@@ -299,6 +308,12 @@ it does not run the test suite. The generation workflow runs `prove -Ilib t`
 before generating or publishing pages. A separate test workflow runs on pushes
 and pull requests with Perl 5.40 and 5.42. The branch-refresh workflow explicitly
 sets up Perl 5.40 before loading the shared cache class.
+
+Supported configuration limits are 1–5 fetch attempts, 1–60 seconds per HTTP
+request, and 0–10 seconds for initial backoff. CI flags accept 0/1 or JSON booleans;
+workflow/task lists contain non-empty names and default to empty arrays. All
+registrations are checked, including duplicate CPAN IDs, before the first author
+is fetched. Snapshots receive the same author/CI/sort validation before rendering.
 
 ## Where to start when changing the project
 
