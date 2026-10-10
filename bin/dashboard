@@ -9,15 +9,22 @@ use Getopt::Long;
 use Dashboard::App;
 
 my %opt;
-if (@ARGV) {
-  @opt{qw[build gather]} = (0, 0);
-  GetOptions(\%opt, 'gather', 'build', 'help');
+GetOptions(\%opt, 'gather', 'build', 'author=s', 'config=s', 'help')
+  or die "Invalid options; use --help for usage\n";
+die "Unexpected arguments: @ARGV\n" if @ARGV;
+
+if (delete $opt{help}) {
+  help();
+}
+
+if (exists($opt{gather}) || exists($opt{build})) {
+  $opt{gather} //= 0;
+  $opt{build} //= 0;
 } else {
   @opt{qw[build gather]} = (1, 1);
 }
-
-if ($opt{help}) {
-  help();
+if (exists $opt{config}) {
+  $opt{config_file} = delete $opt{config};
 }
 
 my $app = Dashboard::App->new(%opt);
@@ -29,7 +36,7 @@ sub help {
 
   print <<"EOHELP";
 
-  $me [--gather] [--build]
+  $me [--gather] [--build] [--author CPANID] [--config FILE]
   $me --help
 
 $me is the program that generates the CPAN Dashboard web site.
@@ -42,7 +49,14 @@ This process is carried out in two stages.
     into a web site
 
 Usually, you want to run both stages - so that's what happens if you
-don't give it any command-line options.
+don't select a stage with --gather or --build.
+
+--author selects one uppercase CPAN identifier. This is intended for development:
+the generated index and sitemap contain only that author. Use --config to select
+a configuration with a separate output directory for single-author builds.
+
+--config defaults to dashboard.json. Relative paths remain relative to the
+current working directory.
 
 EOHELP
 

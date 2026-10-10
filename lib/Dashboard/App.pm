@@ -24,6 +24,7 @@ class Dashboard::App {
 
   field $json = JSON->new->pretty->canonical;
   field $config_file :param = 'dashboard.json';
+  field $selected_author :param(author) = undef;
   field $global_cfg = read_global_config($config_file);
   field $mcpan :reader :param = MetaCPAN::Client->new(
     ua => HTTP::Tiny->new(agent => "CPAN Dashboard/$VERSION",
@@ -38,6 +39,11 @@ class Dashboard::App {
   field $branch_cache = Dashboard::BranchCache->new(
     file => $global_cfg->{branch_cache_file} // 'repo_def_branch.json'
   );
+
+  ADJUST {
+    die "Invalid --author: expected an uppercase CPAN identifier\n"
+      if defined($selected_author) && $selected_author !~ /\A[A-Z][A-Z0-9]*\z/;
+  }
 
   method run {
     @authors = ();
@@ -59,8 +65,18 @@ class Dashboard::App {
 
     my @registrations;
     my %seen;
-    for my $file (sort { "$a" cmp "$b" } path($global_cfg->{author_dir})->children(qr/\.json\z/)) {
+    my @files;
+    if (defined $selected_author) {
+      my $file = path($global_cfg->{author_dir}, "$selected_author.json");
+      die "No registration for author $selected_author at $file\n" unless $file->is_file;
+      @files = ($file);
+    } else {
+      @files = sort { "$a" cmp "$b" } path($global_cfg->{author_dir})->children(qr/\.json\z/);
+    }
+    for my $file (@files) {
       my $cfg = normalize_author(read_json_file($file), $file);
+      die "Author identifier mismatch in $file\n"
+        if defined($selected_author) && $cfg->{author}{cpan} ne $selected_author;
       die "Duplicate author.cpan $cfg->{author}{cpan} in $file\n" if $seen{$cfg->{author}{cpan}}++;
       push @registrations, [$file, $cfg];
     }
@@ -237,6 +253,11 @@ class Dashboard::App {
   }
 
   method load_data {
+    if (defined $selected_author) {
+      push @authors, $self->read_snapshot($self->snapshot_path($selected_author), $selected_author);
+      push @urls, "https://$global_cfg->{domain}/$selected_author/";
+      return;
+    }
     my $dir = path($global_cfg->{data_dir} // 'authors/data');
     for my $author_dir (sort { "$a" cmp "$b" } $dir->children) {
       next unless $author_dir->is_dir && $author_dir->child('data.json')->is_file;

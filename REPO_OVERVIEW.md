@@ -105,7 +105,7 @@ The repository URL comes from release metadata, preferring
 are parsed to identify an owner and repository name. GitHub default branches are
 looked up through `gh repo view` when the cache lacks a usable entry. Failed
 lookups warn and preserve the previous value; unresolved entries are retried on
-later runs. Repeated failures are suppressed within one cache instance.
+later runs. Repeated failures are suppressed within one run.
 Branch-dependent badges are blank when no valid branch is known.
 Distributions without a repository, or with a non-GitHub repository, still appear
 in the table; GitHub-specific badges require GitHub repository details.
@@ -146,7 +146,7 @@ At examination time, the checkout had 26 author configurations and 23 snapshots.
 3. Writes that same in-memory author data to `AUTHOR/data.json` in the configured
    output directory.
 4. Renders `tt_lib/index.tt` to the site's root `index.html`.
-5. Renders configured additional pages, currently `add/index.html`.
+5. Renders configured additional pages, currently `add/index.html` and `status/index.html`.
 6. Writes `sitemap.xml` with author, home, and additional-page URLs.
 
 The shared `page.tt` wrapper supplies navigation, page metadata, external CSS and
@@ -190,6 +190,14 @@ remain in build logs; public reports contain predefined messages and identifiers
 Cached builds explicitly state that they did not check current service availability.
 Fatal failures cannot publish a new status page, so the page links to generation
 workflow logs. Badge-image availability is evaluated by the browser, not the build.
+
+During development, select one author with `perl -Ilib bin/dashboard --author
+CPANID`. Add `--build` for a cached build or `--gather` to update just its snapshot.
+Author-only invocation still runs both stages by default. `--config FILE` selects
+an alternative global configuration; relative paths use the working directory.
+Single-author builds create a partial index and sitemap and leave existing output
+files alone. Configure a separate output directory for these development builds.
+The normal publication workflow continues processing all authors.
 
 Per-author files use this shape:
 

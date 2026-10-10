@@ -105,3 +105,19 @@ Validation: 362 offline Perl checks across ten files and five JavaScript checks
 pass. Coverage includes recovery reports, repeated runs, no-network cached builds,
 escaped public fields, retained branches, and fatal failure preserving the previous
 status report. External badge availability remains a browser concern.
+
+## Sprint 6: single-author development runs
+
+Addresses #47.
+
+- Added `--author CPANID` for gather, cached build, and combined runs, without
+  fetching or changing unselected author snapshots.
+- Added `--config FILE` to make isolated development output easy to select.
+- Preserved both-stage defaults when only an author or configuration is supplied;
+  rejected unknown options and unexpected arguments instead of silently building.
+- Documented partial indexes/sitemaps and recommended separate development output.
+
+Validation: 391 offline Perl checks across eleven files and five JavaScript checks
+pass. Selection tests cover missing/invalid IDs, identity mismatch, unchanged
+unselected snapshots, unrelated invalid registrations, real CLI cached selection,
+stage defaults, and help/error handling.
