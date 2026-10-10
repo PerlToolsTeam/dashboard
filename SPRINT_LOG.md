@@ -158,3 +158,18 @@ Addresses #31 and #115.
 Validation: 400 offline Perl checks across twelve files and twelve JavaScript
 checks pass. Live API totals matched rendered rows exactly for both cited authors.
 The read-only audit did not replace stored snapshots or change branch caches.
+
+## Sprint 9: final failure-path review
+
+Completes additional edge cases under #93 and #121.
+
+- Made a failed home-page template render stop the build, matching author,
+  additional-page, and sitemap error handling.
+- Classified retry reasons after removing MetaCPAN's URL and Perl callsite;
+  author IDs and filenames containing timeout/network words no longer trigger retries.
+- Added HTTP::Tiny's actual connection/DNS failure phrases and ensured explicit
+  permanent HTTP responses and certificate verification errors are not retried.
+
+Validation: 415 offline Perl checks across thirteen files and twelve JavaScript
+checks pass. Invalid home-page templates stop before status/sitemap publication;
+network errors remain retryable while context-only matches remain permanent.

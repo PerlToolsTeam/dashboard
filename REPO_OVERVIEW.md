@@ -125,6 +125,9 @@ Transient retrieval failures are retried up to `fetch_attempts` times with
 exponential backoff capped at ten seconds between attempts. The HTTP request
 timeout is `http_timeout` seconds. HTTP 408/429/5xx codes and common network/server
 failure reason messages are treated as transient; other failures are not retried.
+Classification ignores the request URL and Perl callsite, so an author ID or
+filename containing a retry keyword does not affect the decision. Explicit
+permanent HTTP responses and certificate verification errors are not retried.
 If retrieval still fails, the app reads the persistent last-known-good snapshot.
 Logs identify the author, error, snapshot path, and previous gather time; the
 dashboard displays a cached-data warning. Missing or invalid fallback data stops

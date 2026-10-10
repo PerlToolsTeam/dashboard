@@ -154,7 +154,16 @@ class Dashboard::App {
   }
 
   sub retryable_fetch_error ($error) {
-    return $error =~ /\b(?:HTTP(?:\/\d(?:\.\d)?)?\s+|status[ :=]+)(?:408|429|5\d\d)\b|timed?\s*out|timeout|connection|network|temporary|too many requests|internal server error|bad gateway|service unavailable|gateway timeout|name or service not known/i;
+    return 0 unless defined $error;
+    # MetaCPAN::Client drops the status code and wraps the HTTP reason in a URL
+    # and a Perl callsite. Neither is evidence that an error is transient.
+    $error =~ s/\AFailed to fetch '[^']*':\s*//;
+    $error =~ s/\s+at\s+\S+\s+line\s+\d+.*\z//s;
+    if ($error =~ /\b(?:HTTP(?:\/\d(?:\.\d)?)?\s+|status[ :=]+)(4\d\d)\b/i) {
+      return $1 == 408 || $1 == 429;
+    }
+    return 0 if $error =~ /certificate (?:verify failed|verification)|invalid certificate/i;
+    return $error =~ /\b(?:HTTP(?:\/\d(?:\.\d)?)?\s+|status[ :=]+)5\d\d\b|timed?\s*out|timeout|connection|network|temporary|could not connect|could not resolve|failed to connect|too many requests|internal server error|bad gateway|service unavailable|gateway timeout|name or service not known/i;
   }
 
   method wait_before_retry ($attempt) {
@@ -322,7 +331,7 @@ class Dashboard::App {
       { authors => \@authors },
       'index.html',
       { binmode => ':utf8' },
-    );
+    ) or die $tt->error;
     push @urls, "https://$global_cfg->{domain}/";
   }
 
