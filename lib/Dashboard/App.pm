@@ -123,9 +123,15 @@ class Dashboard::App {
     }
     my @modules;
     my $releases = $author->releases;
+    my $expected = $releases->can('total') ? $releases->total : undef;
     while (my $release = $releases->next) {
+      my $uploader = $release->author // '';
+      die "Unexpected release author '$uploader' while gathering $cfg->{author}{cpan}\n"
+        unless $uploader eq $cfg->{author}{cpan};
       push @modules, $self->module_from_release($release);
     }
+    die "Incomplete release list for $cfg->{author}{cpan}: expected $expected, received " . scalar(@modules) . "\n"
+      if defined($expected) && @modules != $expected;
     $fresh->{modules} = [sort { $a->{name} cmp $b->{name} } @modules];
     $fresh->{gathered_at} = strftime('%Y-%m-%dT%H:%M:%SZ', gmtime);
     delete $fresh->{fetch_warning};
@@ -133,6 +139,9 @@ class Dashboard::App {
   }
 
   sub retryable_fetch_error ($error) {
+    # MetaCPAN::Client's scroller suppresses the HTTP status in these errors.
+    # Restart the complete fetch, and never persist a partial/mismatched result.
+    return 1 if $error =~ /failed to (?:fetch next scrolled batch|create a scrolled search)|unexpected release author|incomplete release list/i;
     return $error =~ /\b(?:HTTP(?:\/\d(?:\.\d)?)?\s+|status[ :=]+)(?:408|429|5\d\d)\b|timed?\s*out|timeout|connection|network|temporary|too many requests|internal server error|bad gateway|service unavailable|gateway timeout|name or service not known/i;
   }
 

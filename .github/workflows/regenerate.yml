@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: perl:latest
+    container: perl:5.44
 
     steps:
     - name: Install GitHub CLI and Node.js
