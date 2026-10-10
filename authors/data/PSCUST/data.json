@@ -7,6 +7,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [
          "CI"
       ],
@@ -18,11 +19,40 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:47:47Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [
+         "CI"
+      ],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 0,
+      "use_gh_actions" : 1,
+      "use_travis" : 0,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:51:45Z",
    "modules" : [
       {
          "auth" : "PSCUST",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2019-03-03",
          "dist" : "Asm-Preproc",
          "name" : "Asm-Preproc-1.03",
@@ -33,6 +63,20 @@
       {
          "auth" : "PSCUST",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2015-12-28",
          "dist" : "Asm-Z80-Table",
          "name" : "Asm-Z80-Table-0.03",
@@ -43,6 +87,20 @@
       {
          "auth" : "PSCUST",
          "bugtracker" : "https://github.com/pauloscustodio/perl-CPU-Z80-Assembler/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-05-27",
          "dist" : "CPU-Z80-Assembler",
          "insecure_repo" : false,
@@ -57,6 +115,20 @@
       {
          "auth" : "PSCUST",
          "bugtracker" : "https://github.com/pauloscustodio/perl-CPU-Z80-Disassembler/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-05-27",
          "dist" : "CPU-Z80-Disassembler",
          "insecure_repo" : false,
@@ -71,6 +143,20 @@
       {
          "auth" : "PSCUST",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2019-03-03",
          "dist" : "Iterator-Simple-Lookahead",
          "name" : "Iterator-Simple-Lookahead-0.09",
@@ -81,6 +167,20 @@
       {
          "auth" : "PSCUST",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2016-05-16",
          "dist" : "Parse-FSM",
          "insecure_repo" : false,
@@ -95,6 +195,20 @@
       {
          "auth" : "PSCUST",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2011-12-31",
          "dist" : "ParseLex",
          "name" : "ParseLex-2.21",
@@ -105,6 +219,20 @@
       {
          "auth" : "PSCUST",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2012-02-28",
          "dist" : "ParseTemplate",
          "name" : "ParseTemplate-3.08",
@@ -115,6 +243,20 @@
       {
          "auth" : "PSCUST",
          "bugtracker" : "https://github.com/pauloscustodio/perl-Preproc-Tiny/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-03",
          "dist" : "Preproc-Tiny",
          "insecure_repo" : false,
@@ -129,6 +271,20 @@
       {
          "auth" : "PSCUST",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-05-18",
          "dist" : "Text-MacroScript",
          "insecure_repo" : false,

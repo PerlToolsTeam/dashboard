@@ -7,6 +7,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [
          "ubuntu",
          "macos",
@@ -23,11 +24,50 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:48:05Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [
+         "ubuntu",
+         "macos",
+         "windows",
+         "testsuite",
+         "bsd",
+         "windows_installation"
+      ],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 0,
+      "use_gh_actions" : 1,
+      "use_travis" : 0,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:52:09Z",
    "modules" : [
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpan-authors/Business-UPS/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-04",
          "dist" : "Business-UPS",
          "insecure_repo" : false,
@@ -42,6 +82,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/CDB_File/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2020-12-11",
          "dist" : "CDB_File",
          "insecure_repo" : false,
@@ -56,6 +115,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpan-authors/Crypt-RIPEMD160/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-23",
          "dist" : "Crypt-RIPEMD160",
          "insecure_repo" : false,
@@ -70,6 +148,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/Dual-Life/digest/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-08-24",
          "dist" : "Digest",
          "insecure_repo" : false,
@@ -84,6 +181,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/Dual-Life/digest-md5/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-30",
          "dist" : "Digest-MD5",
          "insecure_repo" : false,
@@ -98,6 +214,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/Perl/perl5/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-06",
          "dist" : "Exporter",
          "insecure_repo" : false,
@@ -111,6 +246,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/perl/perl5/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-29",
          "dist" : "FindBin",
          "insecure_repo" : false,
@@ -125,6 +279,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/perl/perl5/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-30",
          "dist" : "IO",
          "insecure_repo" : false,
@@ -138,6 +311,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpan-authors/IO-Stty/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-02",
          "dist" : "IO-Stty",
          "insecure_repo" : false,
@@ -152,6 +344,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpan-authors/IO-Tty/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-05-25",
          "dist" : "IO-Tty",
          "insecure_repo" : false,
@@ -166,6 +377,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpan-authors/IPC-Run/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-02",
          "dist" : "IPC-Run",
          "insecure_repo" : false,
@@ -180,6 +410,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/perl/perl5/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-30",
          "dist" : "Locale-Maketext",
          "insecure_repo" : false,
@@ -193,6 +442,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpan-authors/Net-ACME2/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-06",
          "dist" : "Net-ACME2",
          "insecure_repo" : false,
@@ -207,6 +475,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpan-authors/Net-Daemon/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-06",
          "dist" : "Net-Daemon",
          "insecure_repo" : false,
@@ -221,6 +508,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpan-authors/Net-Ident/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-02",
          "dist" : "Net-Ident",
          "insecure_repo" : false,
@@ -235,6 +541,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpan-authors/perl-net-jabber-bot/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-03",
          "dist" : "Net-Jabber-Bot",
          "insecure_repo" : false,
@@ -249,6 +574,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2010-10-07",
          "dist" : "Net-OSCAR",
          "insecure_repo" : false,
@@ -263,6 +607,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpan-authors/Razor2-Client-Agent/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-03",
          "dist" : "Razor2-Client-Agent",
          "insecure_repo" : false,
@@ -277,6 +640,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpan-authors/Regexp-Parser/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-25",
          "dist" : "Regexp-Parser",
          "insecure_repo" : false,
@@ -291,6 +673,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpan-authors/Safe-Hole/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-25",
          "dist" : "Safe-Hole",
          "insecure_repo" : false,
@@ -305,6 +706,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/Sys-Mmap/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-22",
          "dist" : "Sys-Mmap",
          "insecure_repo" : true,
@@ -318,6 +738,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/xsawyerx/template-plugin-cgi/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-04-27",
          "dist" : "Template-Plugin-CGI",
          "insecure_repo" : false,
@@ -332,6 +771,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/abw/Template2/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-05-25",
          "dist" : "Template-Toolkit",
          "insecure_repo" : false,
@@ -346,6 +804,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpanel/Test-MockFile/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-22",
          "dist" : "Test-MockFile",
          "insecure_repo" : false,
@@ -360,6 +837,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpanelinc/Test2-Harness-Renderer-JUnit/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-28",
          "dist" : "Test2-Harness-Renderer-JUnit",
          "insecure_repo" : false,
@@ -374,6 +870,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "http://github.com/toddr/Tie-DBI/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2020-01-19",
          "dist" : "Tie-DBI",
          "insecure_repo" : true,
@@ -388,6 +903,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/Perl/perl5/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-02-20",
          "dist" : "Tie-File",
          "insecure_repo" : false,
@@ -401,6 +935,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpan-authors/Tree-MultiNode/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-06",
          "dist" : "Tree-MultiNode",
          "insecure_repo" : false,
@@ -415,6 +968,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpan-authors/XML-LibXML/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-05-21",
          "dist" : "XML-LibXML",
          "insecure_repo" : false,
@@ -429,6 +1001,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/cpan-authors/XML-Parser/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-05-20",
          "dist" : "XML-Parser",
          "insecure_repo" : false,
@@ -443,6 +1034,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/toddr/YAML-Syck/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-13",
          "dist" : "YAML-Syck",
          "insecure_repo" : false,
@@ -457,6 +1067,25 @@
       {
          "auth" : "TODDR",
          "bugtracker" : "https://github.com/pjf/autodie/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows",
+               "testsuite",
+               "bsd",
+               "windows_installation"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-28",
          "dist" : "autodie",
          "insecure_repo" : false,

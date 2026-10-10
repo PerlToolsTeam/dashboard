@@ -6,6 +6,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [],
       "use_appveyor" : 0,
       "use_cirrus" : 0,
@@ -15,11 +16,36 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:47:39Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 0,
+      "use_gh_actions" : 0,
+      "use_travis" : 0,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:51:32Z",
    "modules" : [
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "https://gitlab.com/GeekRuthie/DBIx-Class-MoreHelpers/-/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-07-10",
          "dist" : "DBIx-Class-MoreHelpers",
          "insecure_repo" : false,
@@ -33,6 +59,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-06-30",
          "dist" : "DBIx-Class-PseudoEnum",
          "insecure_repo" : false,
@@ -46,6 +84,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "https://gitlab.com/GeekRuthie/DBIx-Class-Schema-ResultSetNames/-/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-07-02",
          "dist" : "DBIx-Class-Schema-ResultSetNames",
          "insecure_repo" : false,
@@ -59,6 +109,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "https://gitlab.com/GeekRuthie/DBIx-Class-TemporalRelations/-/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-05-15",
          "dist" : "DBIx-Class-TemporalRelations",
          "insecure_repo" : false,
@@ -72,6 +134,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "https://gitlab.com/GeekRuthie/dancer2-plugin-auth-extensible-provider-dbixclass/-/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-05-22",
          "dist" : "Dancer2-Plugin-Auth-Extensible-Provider-DBIxClass",
          "insecure_repo" : false,
@@ -85,6 +159,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "https://codeberg.org/GeekRuthie/Dancer2-Plugin-ContentCache/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-16",
          "dist" : "Dancer2-Plugin-ContentCache",
          "insecure_repo" : false,
@@ -98,6 +184,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "https://gitlab.com/GeekRuthie/Dancer2-Plugin-DBIx-Class/-/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-05-23",
          "dist" : "Dancer2-Plugin-DBIx-Class",
          "insecure_repo" : false,
@@ -111,6 +209,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "https://gitlab.com/GeekRuthie/Dancer2-Plugin-HostSpecificRoute/-/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-10-21",
          "dist" : "Dancer2-Plugin-HostSpecificRoute",
          "insecure_repo" : false,
@@ -124,6 +234,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-07-06",
          "dist" : "Dancer2-Plugin-NYTProf",
          "name" : "Dancer2-Plugin-NYTProf-0.0101",
@@ -134,6 +256,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "https://codeberg.org/GeekRuthie/Dancer2-Plugin-QuickORM/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-16",
          "dist" : "Dancer2-Plugin-QuickORM",
          "insecure_repo" : false,
@@ -147,6 +281,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "https://gitlab.com/GeekRuthie/Dancer2-Plugin-DBIx-Class/-/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-03-10",
          "dist" : "Dancer2-Template-Handlebars",
          "insecure_repo" : false,
@@ -160,6 +306,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "https://gitlab.com/GeekRuthie/Dist-Zilla-Plugin-Upload-OrePAN2/-/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-01-24",
          "dist" : "Dist-Zilla-Plugin-Upload-OrePAN2",
          "insecure_repo" : false,
@@ -173,6 +331,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-14",
          "dist" : "Dist-Zilla-PluginBundle-Codeberg",
          "name" : "Dist-Zilla-PluginBundle-Codeberg-2.0102",
@@ -183,6 +353,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "https://codeberg.org/GeekRuthie/Dist-Zilla-PluginBundle-GEEKRUTH/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-24",
          "dist" : "Dist-Zilla-PluginBundle-GEEKRUTH",
          "insecure_repo" : false,
@@ -196,6 +378,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-01-09",
          "dist" : "Dist-Zilla-PluginBundle-GitLab",
          "name" : "Dist-Zilla-PluginBundle-GitLab-1.0002",
@@ -206,6 +400,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "https://gitlab.com/GeekRuthie/Perl-Critic-Dancer2/-/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-07-31",
          "dist" : "Perl-Critic-Dancer2",
          "insecure_repo" : false,
@@ -219,6 +425,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "https://codeberg.org/GeekRuthie/Task-BeLike-GEEKRUTH/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-16",
          "dist" : "Task-BeLike-GEEKRUTH",
          "insecure_repo" : false,
@@ -232,6 +450,18 @@
       {
          "auth" : "GEEKRUTH",
          "bugtracker" : "https://codeberg.org/GeekRuthie/WebService-Qdrant/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-24",
          "dist" : "WebService-Qdrant",
          "insecure_repo" : false,

@@ -7,6 +7,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [
          "CI"
       ],
@@ -18,11 +19,40 @@
       "use_travis" : 1,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:47:42Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [
+         "CI"
+      ],
+      "use_appveyor" : 1,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 1,
+      "use_gh_actions" : 1,
+      "use_travis" : 1,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:51:37Z",
    "modules" : [
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=App-access2csv",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-03",
          "dist" : "App-Access2CSV",
          "insecure_repo" : false,
@@ -37,6 +67,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=App-GHGen",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-19",
          "dist" : "App-GHGen",
          "insecure_repo" : false,
@@ -51,6 +95,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=App-Project-Doctor",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-01",
          "dist" : "App-Project-Doctor",
          "insecure_repo" : false,
@@ -65,6 +123,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=App-Syslogd",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-02",
          "dist" : "App-Syslogd",
          "insecure_repo" : false,
@@ -79,6 +151,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=App-Test-Generator",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-08",
          "dist" : "App-Test-Generator",
          "insecure_repo" : false,
@@ -93,6 +179,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=App-Workflow-Lint",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-18",
          "dist" : "App-Workflow-Lint",
          "insecure_repo" : false,
@@ -107,6 +207,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/App-makefilepl2cpanfile/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-30",
          "dist" : "App-makefilepl2cpanfile",
          "insecure_repo" : false,
@@ -121,6 +235,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Array-Iterator",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-11",
          "dist" : "Array-Iterator",
          "insecure_repo" : false,
@@ -135,6 +263,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/CGI-ACL/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-05",
          "dist" : "CGI-ACL",
          "insecure_repo" : false,
@@ -149,6 +291,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/CGI-Buffer/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-03-23",
          "dist" : "CGI-Buffer",
          "insecure_repo" : false,
@@ -163,6 +319,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=CGI-Info",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-02",
          "dist" : "CGI-Info",
          "insecure_repo" : false,
@@ -177,6 +347,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=CGI-Lingua",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-09",
          "dist" : "CGI-Lingua",
          "insecure_repo" : false,
@@ -191,6 +375,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=CGI-Untaint-CountyStateProvince",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-01-15",
          "dist" : "CGI-Untaint-CountyStateProvince",
          "insecure_repo" : false,
@@ -205,6 +403,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-01-24",
          "dist" : "CGI-Untaint-CountyStateProvince-GB",
          "insecure_repo" : false,
@@ -219,6 +431,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/CGI-Untaint-CountyStateProvince-US/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-01-27",
          "dist" : "CGI-Untaint-CountyStateProvince-US",
          "insecure_repo" : false,
@@ -233,6 +459,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2023-04-14",
          "dist" : "CGI-Untaint-Facebook",
          "insecure_repo" : false,
@@ -247,6 +487,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2019-12-03",
          "dist" : "CGI-Untaint-Twitter",
          "insecure_repo" : false,
@@ -261,6 +515,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/CHI-Driver-SharedMem/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2023-08-30",
          "dist" : "CHI-Driver-SharedMem",
          "insecure_repo" : false,
@@ -275,6 +543,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-01-11",
          "dist" : "CPAN-UnsupportedFinder",
          "name" : "CPAN-UnsupportedFinder-0.06",
@@ -285,6 +567,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Class-Abstract",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-06-11",
          "dist" : "Class-Abstract",
          "insecure_repo" : false,
@@ -299,6 +595,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Class-Debug/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-05-29",
          "dist" : "Class-Debug",
          "insecure_repo" : false,
@@ -313,6 +623,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Class-Simple-Cached/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-07",
          "dist" : "Class-Simple-Cached",
          "insecure_repo" : false,
@@ -327,6 +651,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Class-Simple-Readonly-Cached",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-10",
          "dist" : "Class-Simple-Readonly-Cached",
          "insecure_repo" : false,
@@ -341,6 +679,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Comment-Spell/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2021-04-30",
          "dist" : "Comment-Spell",
          "insecure_repo" : false,
@@ -355,6 +707,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Config-Abstraction",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-06",
          "dist" : "Config-Abstraction",
          "insecure_repo" : false,
@@ -369,6 +735,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/DB-Berkeley/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-07-10",
          "dist" : "DB-Berkeley",
          "insecure_repo" : false,
@@ -383,6 +763,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=DBD-XMLSimple",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-11-05",
          "dist" : "DBD-XMLSimple",
          "insecure_repo" : false,
@@ -397,6 +791,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/DBIx-AnyDBD/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2020-11-14",
          "dist" : "DBIx-AnyDBD",
          "insecure_repo" : false,
@@ -411,6 +819,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Data-Fetch/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-07-13",
          "dist" : "Data-Fetch",
          "insecure_repo" : false,
@@ -425,6 +847,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Data-Hash-Diff-Smart",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-03",
          "dist" : "Data-Hash-Diff-Smart",
          "insecure_repo" : false,
@@ -439,6 +875,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Data-Hash-Patch-Smart",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-17",
          "dist" : "Data-Hash-Patch-Smart",
          "insecure_repo" : false,
@@ -453,6 +903,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Data-Random-String-Matches",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-11-04",
          "dist" : "Data-Random-String-Matches",
          "insecure_repo" : false,
@@ -467,6 +931,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Data-Text",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-03",
          "dist" : "Data-Text",
          "insecure_repo" : false,
@@ -481,6 +959,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Database-Abstraction",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-07",
          "dist" : "Database-Abstraction",
          "insecure_repo" : false,
@@ -495,6 +987,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Database-BI/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-06",
          "dist" : "Database-BI",
          "insecure_repo" : false,
@@ -509,6 +1015,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Database-Join",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-02",
          "dist" : "Database-Join",
          "insecure_repo" : false,
@@ -523,6 +1043,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Date-Age",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-12-01",
          "dist" : "Date-Age",
          "insecure_repo" : false,
@@ -537,6 +1071,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Date-Cmp",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-18",
          "dist" : "Date-Cmp",
          "insecure_repo" : false,
@@ -551,6 +1099,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/DateTime-Format-Genealogy/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-25",
          "dist" : "DateTime-Format-Genealogy",
          "insecure_repo" : false,
@@ -565,6 +1127,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=DateTime-Format-Text",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-01-18",
          "dist" : "DateTime-Format-Text",
          "insecure_repo" : false,
@@ -579,6 +1155,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2020-09-22",
          "dist" : "Devel-FIXME",
          "name" : "Devel-FIXME-0.02",
@@ -589,6 +1179,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Email-Abuse-Investigator",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-20",
          "dist" : "Email-Abuse-Investigator",
          "insecure_repo" : false,
@@ -603,6 +1207,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Encode-Wide",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-17",
          "dist" : "Encode-Wide",
          "insecure_repo" : false,
@@ -617,6 +1235,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=CGI-Buffer",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-19",
          "dist" : "FCGI-Buffer",
          "insecure_repo" : false,
@@ -631,6 +1263,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/File-Open-NoCache-ReadOnly/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-06-03",
          "dist" : "File-Open-NoCache-ReadOnly",
          "insecure_repo" : false,
@@ -645,6 +1291,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=File-Print-Many",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-02-17",
          "dist" : "File-Print-Many",
          "insecure_repo" : false,
@@ -659,6 +1319,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=File-pfopen",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2024-11-06",
          "dist" : "File-pfopen",
          "insecure_repo" : false,
@@ -673,6 +1347,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Genealogy-ChroniclingAmerica",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-08-15",
          "dist" : "Genealogy-ChroniclingAmerica",
          "insecure_repo" : false,
@@ -687,6 +1375,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Genealogy-FindaGrave/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-01-14",
          "dist" : "Genealogy-FindaGrave",
          "insecure_repo" : false,
@@ -701,6 +1403,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Genealogy-Military-Branch",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-05-26",
          "dist" : "Genealogy-Military-Branch",
          "insecure_repo" : false,
@@ -715,6 +1431,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Genealogy-Obituary-Lookup",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-15",
          "dist" : "Genealogy-Obituary-Lookup",
          "insecure_repo" : false,
@@ -729,6 +1459,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Genealogy-Obituary-Parser/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-10-21",
          "dist" : "Genealogy-Obituary-Parser",
          "insecure_repo" : false,
@@ -743,6 +1487,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Genealogy-ObituaryDailyTimes/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-04-15",
          "dist" : "Genealogy-ObituaryDailyTimes",
          "insecure_repo" : false,
@@ -757,6 +1515,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Genealogy-Occupation",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-05-11",
          "dist" : "Genealogy-Occupation",
          "insecure_repo" : false,
@@ -771,6 +1543,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Genealogy-Relationship-Name",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-14",
          "dist" : "Genealogy-Relationship-Name",
          "insecure_repo" : false,
@@ -785,6 +1571,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Genealogy-Wills",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-11",
          "dist" : "Genealogy-Wills",
          "insecure_repo" : false,
@@ -799,6 +1599,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Address-Parser",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-03",
          "dist" : "Geo-Address-Parser",
          "insecure_repo" : false,
@@ -813,6 +1627,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Address-Parser-Country",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-05-06",
          "dist" : "Geo-Address-Parser-Country",
          "insecure_repo" : false,
@@ -827,6 +1655,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-AnomalyDetector/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-03-07",
          "dist" : "Geo-AnomalyDetector",
          "insecure_repo" : false,
@@ -841,6 +1683,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-Abbreviations/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2024-08-14",
          "dist" : "Geo-Coder-Abbreviations",
          "insecure_repo" : false,
@@ -855,6 +1711,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-CA/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-02-08",
          "dist" : "Geo-Coder-CA",
          "insecure_repo" : false,
@@ -869,6 +1739,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Coder-DataScienceToolkit",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2019-02-02",
          "dist" : "Geo-Coder-DataScienceToolkit",
          "insecure_repo" : false,
@@ -883,6 +1767,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Coder-Free",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-10",
          "dist" : "Geo-Coder-Free",
          "insecure_repo" : false,
@@ -897,6 +1795,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Coder-GeoApify",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-03-04",
          "dist" : "Geo-Coder-GeoApify",
          "insecure_repo" : false,
@@ -911,6 +1823,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-GooglePlaces/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2023-04-29",
          "dist" : "Geo-Coder-GooglePlaces",
          "insecure_repo" : false,
@@ -925,6 +1851,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Coder-List",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-10",
          "dist" : "Geo-Coder-List",
          "insecure_repo" : false,
@@ -939,6 +1879,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Coder-Mapbox",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2024-07-21",
          "dist" : "Geo-Coder-Mapbox",
          "insecure_repo" : false,
@@ -953,6 +1907,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-Postcodes/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2024-07-11",
          "dist" : "Geo-Coder-Postcodes",
          "insecure_repo" : false,
@@ -967,6 +1935,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Coder-US-Census",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-02-01",
          "dist" : "Geo-Coder-US-Census",
          "insecure_repo" : false,
@@ -981,6 +1963,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Coder-XYZ",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-07-13",
          "dist" : "Geo-Coder-XYZ",
          "insecure_repo" : false,
@@ -995,6 +1991,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-GeoNames/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-12-28",
          "dist" : "Geo-GeoNames",
          "insecure_repo" : false,
@@ -1009,6 +2019,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Geo-Location-Point/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-08-25",
          "dist" : "Geo-Location-Point",
          "insecure_repo" : false,
@@ -1023,6 +2047,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-01-09",
          "dist" : "Grammar-Improver",
          "name" : "Grammar-Improver-0.02",
@@ -1033,6 +2071,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-23",
          "dist" : "HTML-D3",
          "name" : "HTML-D3-0.18",
@@ -1043,6 +2095,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=HTML-Genealogy-Map",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-10-15",
          "dist" : "HTML-Genealogy-Map",
          "insecure_repo" : false,
@@ -1057,6 +2123,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-13",
          "dist" : "HTML-OSM",
          "name" : "HTML-OSM-0.10",
@@ -1067,6 +2147,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/HTML-Purifier/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-12-30",
          "dist" : "HTML-Purifier",
          "insecure_repo" : false,
@@ -1081,6 +2175,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/HTML-SimpleLinkExtor/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2020-11-13",
          "dist" : "HTML-SimpleLinkExtor",
          "insecure_repo" : false,
@@ -1095,6 +2203,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2024-06-11",
          "dist" : "HTML-SocialMedia",
          "insecure_repo" : false,
@@ -1109,6 +2231,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Ham-DXCC-Lookup/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-24",
          "dist" : "Ham-DXCC-Lookup",
          "insecure_repo" : false,
@@ -1123,6 +2259,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/LWP-UserAgent-Throttled/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-07-31",
          "dist" : "LWP-UserAgent-Throttled",
          "insecure_repo" : false,
@@ -1136,6 +2286,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Lingua-Conjunction",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2024-11-21",
          "dist" : "Lingua-Conjunction",
          "insecure_repo" : false,
@@ -1150,6 +2314,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2020-11-15",
          "dist" : "Lingua-EN-NameCase",
          "name" : "Lingua-EN-NameCase-1.21",
@@ -1160,6 +2338,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Lingua-FR-Nums2Words/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2020-11-13",
          "dist" : "Lingua-FR-Nums2Words",
          "insecure_repo" : false,
@@ -1174,6 +2366,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Lingua-String/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-03-03",
          "dist" : "Lingua-String",
          "insecure_repo" : false,
@@ -1188,6 +2394,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Lingua-Text/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-23",
          "dist" : "Lingua-Text",
          "insecure_repo" : false,
@@ -1202,6 +2422,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-02-02",
          "dist" : "Locale-AU",
          "insecure_repo" : false,
@@ -1216,6 +2450,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Locale-CA/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-06-28",
          "dist" : "Locale-CA",
          "insecure_repo" : false,
@@ -1230,6 +2478,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Locale-Codes-Country-FR/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-02-10",
          "dist" : "Locale-Codes-Country-FR",
          "insecure_repo" : false,
@@ -1244,6 +2506,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Locale-Places/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-01-28",
          "dist" : "Locale-Places",
          "insecure_repo" : false,
@@ -1258,6 +2534,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Log-Abstraction",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-07",
          "dist" : "Log-Abstraction",
          "insecure_repo" : false,
@@ -1272,6 +2562,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Log-Dispatch-Email-Sendmail/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2023-11-20",
          "dist" : "Log-Dispatch-Email-Sendmail",
          "insecure_repo" : false,
@@ -1286,6 +2590,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Log-Log4perl-Layout-Syslog/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2024-11-08",
          "dist" : "Log-Log4perl-Layout-Syslog",
          "insecure_repo" : false,
@@ -1300,6 +2618,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Log-WarnDie",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-09-24",
          "dist" : "Log-WarnDie",
          "insecure_repo" : false,
@@ -1313,6 +2645,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Music-NWC2MusicXML",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-10",
          "dist" : "Music-NWC2MusicXML",
          "insecure_repo" : false,
@@ -1327,6 +2673,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Object-Configure",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-20",
          "dist" : "Object-Configure",
          "insecure_repo" : false,
@@ -1341,6 +2701,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Params-Get",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-19",
          "dist" : "Params-Get",
          "insecure_repo" : false,
@@ -1355,6 +2729,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Params-Validate-Strict",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-03",
          "dist" : "Params-Validate-Strict",
          "insecure_repo" : false,
@@ -1369,6 +2757,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Readonly-Enum",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-08-18",
          "dist" : "Readonly-Enum",
          "insecure_repo" : false,
@@ -1383,6 +2785,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Readonly-Values-Boolean/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-02-23",
          "dist" : "Readonly-Values-Boolean",
          "insecure_repo" : false,
@@ -1397,6 +2813,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Readonly-Values-Days/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-09-03",
          "dist" : "Readonly-Values-Days",
          "insecure_repo" : false,
@@ -1411,6 +2841,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Readonly-Values-Months/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-29",
          "dist" : "Readonly-Values-Months",
          "insecure_repo" : false,
@@ -1425,6 +2869,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Readonly-Values-Syslog",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-08-07",
          "dist" : "Readonly-Values-Syslog",
          "insecure_repo" : false,
@@ -1439,6 +2897,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Return-Set",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-04",
          "dist" : "Return-Set",
          "insecure_repo" : false,
@@ -1453,6 +2925,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/SEO-Inspector/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-09-06",
          "dist" : "SEO-Inspector",
          "insecure_repo" : false,
@@ -1467,6 +2953,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Schema-Validator",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-06-02",
          "dist" : "Schema-Validator",
          "insecure_repo" : false,
@@ -1481,6 +2981,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Sub-Abstract",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-06-10",
          "dist" : "Sub-Abstract",
          "insecure_repo" : false,
@@ -1495,6 +3009,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Sub-Private",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-05",
          "dist" : "Sub-Private",
          "insecure_repo" : false,
@@ -1509,6 +3037,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Sub-Protected",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-05",
          "dist" : "Sub-Protected",
          "insecure_repo" : false,
@@ -1523,6 +3065,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Syntax-Feature-With",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-17",
          "dist" : "Syntax-Feature-With",
          "insecure_repo" : false,
@@ -1537,6 +3093,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Test-CPAN-Health/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-04",
          "dist" : "Test-CPAN-Health",
          "insecure_repo" : false,
@@ -1551,6 +3121,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Test::HTTP::Scenario",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-21",
          "dist" : "Test-HTTP-Scenario",
          "insecure_repo" : false,
@@ -1564,6 +3148,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/NoAuth/Bugs.html?Dist=Test-HTTPStatus",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-10-10",
          "dist" : "Test-HTTPStatus",
          "insecure_repo" : false,
@@ -1578,6 +3176,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Test-Log-Abstraction",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-07",
          "dist" : "Test-Log-Abstraction",
          "insecure_repo" : false,
@@ -1592,6 +3204,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Test-Mockingbird",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-28",
          "dist" : "Test-Mockingbird",
          "insecure_repo" : false,
@@ -1606,6 +3232,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Test::Most::Explain",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-22",
          "dist" : "Test-Most-Explain",
          "insecure_repo" : false,
@@ -1619,6 +3259,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Test-Permissions",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-06",
          "dist" : "Test-Permissions",
          "insecure_repo" : false,
@@ -1633,6 +3287,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Test-Returns/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-08",
          "dist" : "Test-Returns",
          "insecure_repo" : false,
@@ -1647,6 +3315,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Test-Which",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-15",
          "dist" : "Test-Which",
          "insecure_repo" : false,
@@ -1661,6 +3343,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Text-Name-Abbreviate",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-11",
          "dist" : "Text-Names-Abbreviate",
          "insecure_repo" : false,
@@ -1675,6 +3371,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Text-Names-Canonicalize",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-19",
          "dist" : "Text-Names-Canonicalize",
          "insecure_repo" : false,
@@ -1689,6 +3399,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2024-11-08",
          "dist" : "Text-Names-GB",
          "insecure_repo" : false,
@@ -1703,6 +3427,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/TimeZone-TimeZoneDB/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-06-02",
          "dist" : "TimeZone-TimeZoneDB",
          "insecure_repo" : false,
@@ -1717,6 +3455,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://github.com/nigelhorne/Weather-Meteo/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-13",
          "dist" : "Weather-Meteo",
          "insecure_repo" : false,
@@ -1731,6 +3483,20 @@
       {
          "auth" : "NHORNE",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=XML-PP",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-28",
          "dist" : "XML-PP",
          "insecure_repo" : false,

@@ -7,6 +7,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [
          "build and test"
       ],
@@ -18,11 +19,40 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:47:37Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [
+         "build and test"
+      ],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 1,
+      "use_gh_actions" : 1,
+      "use_travis" : 0,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:51:31Z",
    "modules" : [
       {
          "auth" : "FERKI",
          "bugtracker" : "https://github.com/RexOps/Rex/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "build and test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-07-05",
          "dist" : "Rex",
          "insecure_repo" : false,
@@ -37,6 +67,20 @@
       {
          "auth" : "FERKI",
          "bugtracker" : "https://github.com/ferki/Rex-Hook-File-Diff/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "build and test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-08-18",
          "dist" : "Rex-Hook-File-Diff",
          "insecure_repo" : false,
@@ -51,6 +95,20 @@
       {
          "auth" : "FERKI",
          "bugtracker" : "https://github.com/ferki/Rex-Hook-File-Impostor/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "build and test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-07-28",
          "dist" : "Rex-Hook-File-Impostor",
          "insecure_repo" : false,

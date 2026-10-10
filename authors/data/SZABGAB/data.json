@@ -7,6 +7,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [
          "CI"
       ],
@@ -18,11 +19,40 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:47:50Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [
+         "CI"
+      ],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 1,
+      "use_gh_actions" : 1,
+      "use_travis" : 0,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:51:54Z",
    "modules" : [
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/App-PerlTidy-Tk/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2020-11-16",
          "dist" : "App-PerlTidy-Tk",
          "insecure_repo" : false,
@@ -37,6 +67,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/App-Tk-Deparse/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2020-11-04",
          "dist" : "App-Tk-Deparse",
          "insecure_repo" : false,
@@ -51,6 +95,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/Array-Unique/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-05-29",
          "dist" : "Array-Unique",
          "insecure_repo" : false,
@@ -65,6 +123,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/CAM-PDF-Annot/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-05-29",
          "dist" : "CAM-PDF-Annot",
          "insecure_repo" : false,
@@ -79,6 +151,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2008-04-08",
          "dist" : "CGI-FileManager",
          "name" : "CGI-FileManager-0.06",
@@ -89,6 +175,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/CGI-Upload/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-28",
          "dist" : "CGI-Upload",
          "insecure_repo" : false,
@@ -103,6 +203,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/CPAN-Digger/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2020-11-12",
          "dist" : "CPAN-Digger",
          "insecure_repo" : false,
@@ -117,6 +231,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/CPAN-Porters/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-05-30",
          "dist" : "CPAN-Porters",
          "insecure_repo" : false,
@@ -131,6 +259,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2014-10-28",
          "dist" : "CPAN-Test-Dummy-SCO-Lacks",
          "insecure_repo" : false,
@@ -145,6 +287,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2014-10-31",
          "dist" : "CPAN-Test-Dummy-SCO-Pirated",
          "insecure_repo" : true,
@@ -159,6 +315,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2014-10-28",
          "dist" : "CPAN-Test-Dummy-SCO-Special",
          "insecure_repo" : true,
@@ -173,6 +343,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/PadreIDE/Debug-Client/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-01-10",
          "dist" : "Debug-Client",
          "insecure_repo" : false,
@@ -187,6 +371,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/FalkorDB-Perl/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-06-04",
          "dist" : "FalkorDB",
          "insecure_repo" : false,
@@ -201,6 +399,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2011-12-21",
          "dist" : "File-Open-OOP",
          "name" : "File-Open-OOP-0.01",
@@ -211,6 +423,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/File-Tools/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-06-02",
          "dist" : "File-Tools",
          "insecure_repo" : false,
@@ -225,6 +451,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2017-10-25",
          "dist" : "Games-Sudoku-CLI",
          "insecure_repo" : true,
@@ -239,6 +479,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/perl5-markua-parser/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2018-03-28",
          "dist" : "Markua-Parser",
          "insecure_repo" : false,
@@ -253,6 +507,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2012-07-27",
          "dist" : "Math-RPN",
          "insecure_repo" : false,
@@ -267,6 +535,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/MetaCPAN-Clients/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2020-11-17",
          "dist" : "MetaCPAN-Clients",
          "insecure_repo" : false,
@@ -281,6 +563,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2007-05-06",
          "dist" : "Module-Packaged-Report",
          "name" : "Module-Packaged-Report-0.04",
@@ -291,6 +587,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "http://padre.perlide.org/trac/",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-06-14",
          "dist" : "Padre",
          "insecure_repo" : false,
@@ -305,6 +615,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/PadreIDE/Parse-Functions/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2014-09-12",
          "dist" : "Parse-Functions",
          "insecure_repo" : false,
@@ -319,6 +643,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/Pipe/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-06-01",
          "dist" : "Pipe",
          "insecure_repo" : false,
@@ -333,6 +671,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/Pipe-Tube-Csv/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-06-01",
          "dist" : "Pipe-Tube-Csv",
          "insecure_repo" : false,
@@ -347,6 +699,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2014-05-24",
          "dist" : "Task-DWIM-Linux",
          "insecure_repo" : false,
@@ -361,6 +727,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/Task-Test",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2014-08-14",
          "dist" : "Task-Test",
          "insecure_repo" : false,
@@ -375,6 +755,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2014-08-26",
          "dist" : "Term-ReadPassword-Win32",
          "insecure_repo" : false,
@@ -389,6 +783,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/Test-CircularDependencies",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-01-09",
          "dist" : "Test-CircularDependencies",
          "insecure_repo" : false,
@@ -403,6 +811,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/test-class/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-02-17",
          "dist" : "Test-Class",
          "insecure_repo" : false,
@@ -417,6 +839,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/Test-IsAny",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-25",
          "dist" : "Test-IsAny",
          "insecure_repo" : false,
@@ -431,6 +867,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2009-04-10",
          "dist" : "Test-Snapshots",
          "insecure_repo" : true,
@@ -445,6 +895,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "http://github.com/szabgab/Text-MediawikiFormat/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2014-12-01",
          "dist" : "Text-MediawikiFormat",
          "insecure_repo" : true,
@@ -459,6 +923,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2009-04-27",
          "dist" : "Text-SmartLinks",
          "insecure_repo" : true,
@@ -472,6 +950,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2013-09-27",
          "dist" : "WWW-AdServer",
          "insecure_repo" : false,
@@ -486,6 +978,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/Web-Feed/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-05-29",
          "dist" : "Web-Feed",
          "insecure_repo" : false,
@@ -500,6 +1006,20 @@
       {
          "auth" : "SZABGAB",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2013-10-18",
          "dist" : "WebService-GData",
          "insecure_repo" : false,

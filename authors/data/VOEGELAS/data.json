@@ -7,6 +7,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [
          "linux"
       ],
@@ -18,11 +19,40 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:48:06Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [
+         "linux"
+      ],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 1,
+      "use_gh_actions" : 1,
+      "use_travis" : 0,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:52:14Z",
    "modules" : [
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/Alien-libmaxminddb/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "linux"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-12",
          "dist" : "Alien-libmaxminddb",
          "insecure_repo" : false,
@@ -37,6 +67,20 @@
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/CPANPLUS-Dist-Debora/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "linux"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-07-30",
          "dist" : "CPANPLUS-Dist-Debora",
          "insecure_repo" : false,
@@ -51,6 +95,20 @@
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/Geo-Location-IP/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "linux"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-05-16",
          "dist" : "Geo-Location-IP",
          "insecure_repo" : false,
@@ -65,6 +123,20 @@
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/Geo-Location-TimeZoneFinder/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "linux"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-02-27",
          "dist" : "Geo-Location-TimeZoneFinder",
          "insecure_repo" : false,
@@ -79,6 +151,20 @@
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/IP-Geolocation-MMDB/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "linux"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-03-16",
          "dist" : "IP-Geolocation-MMDB",
          "insecure_repo" : false,
@@ -93,6 +179,20 @@
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/Mail-Exim-ACL-Attachments/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "linux"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-06-09",
          "dist" : "Mail-Exim-ACL-Attachments",
          "insecure_repo" : false,
@@ -107,6 +207,20 @@
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/Mail-Exim-ACL-Geolocation/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "linux"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-02-26",
          "dist" : "Mail-Exim-ACL-Geolocation",
          "insecure_repo" : false,
@@ -121,6 +235,20 @@
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/Mojolicious-Plugin-Geolocation-MMDB/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "linux"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-12-24",
          "dist" : "Mojolicious-Plugin-Geolocation-MMDB",
          "insecure_repo" : false,
@@ -135,6 +263,20 @@
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/Statocles-Plugin-Highlight-Kamelon/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "linux"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-08-09",
          "dist" : "Statocles-Plugin-Highlight-Kamelon",
          "insecure_repo" : false,

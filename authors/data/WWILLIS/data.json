@@ -7,6 +7,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [],
       "use_appveyor" : 0,
       "use_cirrus" : 0,
@@ -16,11 +17,36 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:48:06Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 0,
+      "use_gh_actions" : 0,
+      "use_travis" : 0,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:52:15Z",
    "modules" : [
       {
          "auth" : "WWILLIS",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-01-11",
          "dist" : "ACME-2026",
          "name" : "ACME-2026-0.01",
@@ -31,6 +57,18 @@
       {
          "auth" : "WWILLIS",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 0,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-09-27",
          "dist" : "Acme-MyFirstModule-WWILLIS",
          "name" : "Acme-MyFirstModule-WWILLIS-0.03",

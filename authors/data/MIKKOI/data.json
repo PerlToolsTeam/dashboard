@@ -7,6 +7,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [
          "CI"
       ],
@@ -18,11 +19,40 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:47:40Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [
+         "CI"
+      ],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 1,
+      "use_coveralls" : 1,
+      "use_gh_actions" : 1,
+      "use_travis" : 0,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:51:35Z",
    "modules" : [
       {
          "auth" : "MIKKOI",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dancer2-Plugin-JobScheduler",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-18",
          "dist" : "Dancer2-Plugin-JobScheduler",
          "insecure_repo" : false,
@@ -37,6 +67,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "https://github.com/mikkoi/dancer2-plugin-queue-ironmq/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2017-04-14",
          "dist" : "Dancer2-Plugin-Queue-IronMQ",
          "insecure_repo" : false,
@@ -51,6 +95,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dancer2-Session-Pg",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-08",
          "dist" : "Dancer2-Session-Pg",
          "insecure_repo" : false,
@@ -65,6 +123,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Database-ManagedHandle",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-26",
          "dist" : "Database-ManagedHandle",
          "insecure_repo" : false,
@@ -79,6 +151,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Database-Temp",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-19",
          "dist" : "Database-Temp",
          "insecure_repo" : false,
@@ -93,6 +179,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-Signature",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-10-13",
          "dist" : "Dist-Zilla-Plugin-Signature",
          "insecure_repo" : false,
@@ -107,6 +207,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-Software-Policies",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-01-12",
          "dist" : "Dist-Zilla-Plugin-Software-Policies",
          "insecure_repo" : false,
@@ -120,6 +234,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-WeaveFile",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-05-17",
          "dist" : "Dist-Zilla-Plugin-WeaveFile",
          "insecure_repo" : false,
@@ -134,6 +262,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-05-17",
          "dist" : "Dist-Zilla-PluginBundle-MIKKOI",
          "name" : "Dist-Zilla-PluginBundle-MIKKOI-0.005",
@@ -144,6 +286,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Docker-Names-Random",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2020-05-15",
          "dist" : "Docker-Names-Random",
          "insecure_repo" : false,
@@ -158,6 +314,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Env-Assert",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-03",
          "dist" : "Env-Assert",
          "insecure_repo" : false,
@@ -172,6 +342,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Env-Dot",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-02",
          "dist" : "Env-Dot",
          "insecure_repo" : false,
@@ -186,6 +370,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "https://github.com/hostgator/git-hooks-perlcritic/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2014-11-23",
          "dist" : "Git-Hooks-PerlCritic",
          "insecure_repo" : false,
@@ -200,6 +398,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Git-Mailmap",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2019-03-19",
          "dist" : "Git-Mailmap",
          "insecure_repo" : false,
@@ -214,6 +426,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Git-MoreHooks",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-06",
          "dist" : "Git-MoreHooks",
          "insecure_repo" : false,
@@ -228,6 +454,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=IO-Iron",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-09-02",
          "dist" : "IO-Iron",
          "insecure_repo" : false,
@@ -242,6 +482,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=IO-Iron-Applications",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2014-08-31",
          "dist" : "IO-Iron-Applications",
          "insecure_repo" : false,
@@ -256,6 +510,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=IPC-RunExternal",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-08-16",
          "dist" : "IPC-RunExternal",
          "insecure_repo" : false,
@@ -270,6 +538,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Log-Any-Adapter-JSONLines",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-16",
          "dist" : "Log-Any-Adapter-JSONLines",
          "insecure_repo" : false,
@@ -284,6 +566,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Software-Policies",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-07",
          "dist" : "Software-Policies",
          "insecure_repo" : false,
@@ -298,6 +594,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Test-Database-Temp",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-21",
          "dist" : "Test-Database-Temp",
          "insecure_repo" : false,
@@ -312,6 +622,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2012-08-06",
          "dist" : "Text-HistogramChart",
          "name" : "Text-HistogramChart-0.005",
@@ -322,6 +646,20 @@
       {
          "auth" : "MIKKOI",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=TheSchwartz-JobScheduler",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-25",
          "dist" : "TheSchwartz-JobScheduler",
          "insecure_repo" : false,

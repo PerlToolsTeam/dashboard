@@ -6,6 +6,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [
          "CI"
       ],
@@ -17,11 +18,40 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:47:38Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [
+         "CI"
+      ],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 1,
+      "use_gh_actions" : 1,
+      "use_travis" : 0,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:51:32Z",
    "modules" : [
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-Alien-libversion/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-05-01",
          "dist" : "Alien-libversion",
          "insecure_repo" : false,
@@ -36,6 +66,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-App-CPAN-SBOM/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-05-22",
          "dist" : "App-CPAN-SBOM",
          "insecure_repo" : false,
@@ -50,6 +94,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-CSAF/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-07-05",
          "dist" : "CSAF",
          "insecure_repo" : false,
@@ -64,6 +122,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-CVSS/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-06-29",
          "dist" : "CVSS",
          "insecure_repo" : false,
@@ -78,6 +150,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-Chart-ECharts/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-10-31",
          "dist" : "Chart-ECharts",
          "insecure_repo" : false,
@@ -92,6 +178,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-04-28",
          "dist" : "Crypt-PBE",
          "insecure_repo" : false,
@@ -106,6 +206,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-DBD-DuckDB/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-04-07",
          "dist" : "DBD-DuckDB",
          "insecure_repo" : false,
@@ -120,6 +234,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-Map-Tube-Rome/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-12-27",
          "dist" : "Map-Tube-Rome",
          "insecure_repo" : false,
@@ -134,6 +262,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-Mojolicious-Plugin-Badge/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-10-05",
          "dist" : "Mojolicious-Plugin-Badge",
          "insecure_repo" : false,
@@ -148,6 +290,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-03-20",
          "dist" : "Mojolicious-Plugin-DataTables",
          "insecure_repo" : false,
@@ -162,6 +318,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-Mojolicious-Plugin-HTMX/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-08-26",
          "dist" : "Mojolicious-Plugin-HTMX",
          "insecure_repo" : false,
@@ -176,6 +346,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-12-23",
          "dist" : "Mojolicious-Plugin-Iconify",
          "insecure_repo" : false,
@@ -190,6 +374,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-Net-Gotify/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-10-24",
          "dist" : "Net-Gotify",
          "insecure_repo" : false,
@@ -204,6 +402,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-01-19",
          "dist" : "Net-OpenVAS",
          "insecure_repo" : false,
@@ -218,6 +430,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-05-17",
          "dist" : "Net-SecurityCenter",
          "insecure_repo" : false,
@@ -232,6 +458,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-SBOM-CycloneDX/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-06-28",
          "dist" : "SBOM-CycloneDX",
          "insecure_repo" : false,
@@ -246,6 +486,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-SSVC/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-14",
          "dist" : "SSVC",
          "insecure_repo" : false,
@@ -260,6 +514,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-STIX/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-11-19",
          "dist" : "STIX",
          "insecure_repo" : false,
@@ -274,6 +542,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-URI-PackageURL/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-01-26",
          "dist" : "URI-PackageURL",
          "insecure_repo" : false,
@@ -288,6 +570,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-Version-libversion-PP/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-09-07",
          "dist" : "Version-libversion-PP",
          "insecure_repo" : false,
@@ -302,6 +598,20 @@
       {
          "auth" : "GDT",
          "bugtracker" : "https://github.com/giterlizzi/perl-Version-libversion-XS/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-05-01",
          "dist" : "Version-libversion-XS",
          "insecure_repo" : false,

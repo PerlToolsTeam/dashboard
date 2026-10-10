@@ -7,6 +7,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [
          "CI"
       ],
@@ -18,11 +19,40 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:47:33Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [
+         "CI"
+      ],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 0,
+      "use_gh_actions" : 1,
+      "use_travis" : 0,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:51:28Z",
    "modules" : [
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2011-01-06",
          "dist" : "CGI-Application-Plugin-CAPTCHA",
          "insecure_repo" : false,
@@ -37,6 +67,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2011-01-05",
          "dist" : "CGI-Application-Plugin-HTDot",
          "name" : "CGI-Application-Plugin-HTDot-0.07",
@@ -47,6 +91,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2004-10-27",
          "dist" : "CGI-Session-ODBC",
          "name" : "CGI-Session-ODBC-0.5",
@@ -57,6 +115,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/PerlDancer/dancer-debug/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-04-14",
          "dist" : "Dancer-Debug",
          "insecure_repo" : false,
@@ -71,6 +143,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/cromedome/Dancer-Plugin-reCAPTCHA/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2018-11-10",
          "dist" : "Dancer-Plugin-reCAPTCHA",
          "insecure_repo" : false,
@@ -85,6 +171,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/PerlDancer/dancer-session-psgi/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-04-14",
          "dist" : "Dancer-Session-PSGI",
          "insecure_repo" : false,
@@ -99,6 +199,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/PerlDancer/dancer-template-xslate/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-04-14",
          "dist" : "Dancer-Template-Xslate",
          "insecure_repo" : false,
@@ -113,6 +227,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/PerlDancer/Dancer2/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-28",
          "dist" : "Dancer2",
          "insecure_repo" : false,
@@ -127,6 +255,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/cromedome/Dancer2-Logger-Log4perl/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-17",
          "dist" : "Dancer2-Logger-Log4perl",
          "insecure_repo" : false,
@@ -141,6 +283,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/PerlDancer/Dancer2-Plugin-Ajax/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2018-11-13",
          "dist" : "Dancer2-Plugin-Ajax",
          "insecure_repo" : false,
@@ -155,6 +311,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/cromedome/Dancer2-Plugin-Minion/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-07-06",
          "dist" : "Dancer2-Plugin-Minion",
          "insecure_repo" : false,
@@ -169,6 +339,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/PerlDancer/dancer2-plugin-queue/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2016-01-26",
          "dist" : "Dancer2-Plugin-Queue",
          "insecure_repo" : false,
@@ -183,6 +367,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/dagolden/dancer2-plugin-syntax-getpost/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-13",
          "dist" : "Dancer2-Plugin-Syntax-GetPost",
          "insecure_repo" : false,
@@ -197,6 +395,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/cromedome/Dancer2-Plugin-Syntax-ParamKeywords/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-05-14",
          "dist" : "Dancer2-Plugin-Syntax-ParamKeywords",
          "insecure_repo" : false,
@@ -211,6 +423,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/cromedome/Dancer2-Session-CHI/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-02-05",
          "dist" : "Dancer2-Session-CHI",
          "insecure_repo" : false,
@@ -225,6 +451,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/PerlDancer/dancer2-session-json/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2020-04-10",
          "dist" : "Dancer2-Session-JSON",
          "insecure_repo" : false,
@@ -239,6 +479,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/PerlDancer/dancer2-session-mongodb/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2016-08-17",
          "dist" : "Dancer2-Session-MongoDB",
          "insecure_repo" : false,
@@ -253,6 +507,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/PerlDancer/Dancer2-Template-Simple/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-09-15",
          "dist" : "Dancer2-Template-Simple",
          "insecure_repo" : false,
@@ -267,6 +535,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/PerlDancer/dancer2-template-xslate/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-02-05",
          "dist" : "Dancer2-Template-Xslate",
          "insecure_repo" : false,
@@ -281,6 +563,20 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-02-05",
          "dist" : "Task-Dancer2",
          "name" : "Task-Dancer2-0.07",

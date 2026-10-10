@@ -7,6 +7,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [
          "Build",
          "dzil build and test",
@@ -20,11 +21,44 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:47:43Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [
+         "Build",
+         "dzil build and test",
+         "test"
+      ],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 1,
+      "use_coveralls" : 0,
+      "use_gh_actions" : 1,
+      "use_travis" : 0,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:51:38Z",
    "modules" : [
       {
          "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Acme-Odometer/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2014-08-16",
          "dist" : "Acme-Odometer",
          "insecure_repo" : false,
@@ -39,6 +73,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/perl-ide/App-perlimports/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-07",
          "dist" : "App-perlimports",
          "insecure_repo" : false,
@@ -53,6 +103,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/perl-ide/App-perlvars/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-19",
          "dist" : "App-perlvars",
          "insecure_repo" : false,
@@ -67,6 +133,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/archive-any/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2019-04-05",
          "dist" : "Archive-Any",
          "insecure_repo" : false,
@@ -81,6 +163,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/authen-oath/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-05-26",
          "dist" : "Authen-OATH",
          "insecure_repo" : false,
@@ -95,6 +193,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/business-ca-gst/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2014-08-16",
          "dist" : "Business-CA-GST",
          "insecure_repo" : false,
@@ -109,6 +223,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/business-paypal-api/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2017-11-13",
          "dist" : "Business-PayPal-API",
          "insecure_repo" : false,
@@ -123,6 +253,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2015-12-05",
          "dist" : "CPAN-Repository",
          "insecure_repo" : false,
@@ -137,6 +283,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Code-TidyAll-Plugin-SortLines-Naturally/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2015-09-11",
          "dist" : "Code-TidyAll-Plugin-SortLines-Naturally",
          "insecure_repo" : false,
@@ -151,6 +313,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/code-tidyall-plugin-uniquelines/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2017-03-28",
          "dist" : "Code-TidyAll-Plugin-UniqueLines",
          "insecure_repo" : false,
@@ -165,6 +343,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Code-TidyAll-Plugin-YAML/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2016-02-04",
          "dist" : "Code-TidyAll-Plugin-YAML",
          "insecure_repo" : false,
@@ -179,6 +373,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/code-tidyall-plugin-yapf/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2017-07-05",
          "dist" : "Code-TidyAll-Plugin-YAPF",
          "insecure_repo" : false,
@@ -193,6 +403,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Data-Printer-Filter-DBIx-Class/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-03-02",
          "dist" : "Data-Printer-Filter-DBIx-Class",
          "insecure_repo" : false,
@@ -207,6 +433,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/datetime-format-paypal-ipn/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2014-09-11",
          "dist" : "DateTime-Format-PayPal-IPN",
          "insecure_repo" : false,
@@ -221,6 +463,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/dist-zilla-plugin-prepan/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2014-08-16",
          "dist" : "Dist-Zilla-Plugin-PrePAN",
          "insecure_repo" : false,
@@ -235,6 +493,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/dist-zilla-pluginbundle-author-oalders/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-01-13",
          "dist" : "Dist-Zilla-PluginBundle-Author-OALDERS",
          "insecure_repo" : false,
@@ -249,6 +523,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/CPAN-API/p5-elasticsearch-model",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2019-03-10",
          "dist" : "ElasticSearchX-Model",
          "insecure_repo" : false,
@@ -263,6 +553,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/git-helpers/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-11-02",
          "dist" : "Git-Helpers",
          "insecure_repo" : false,
@@ -277,6 +583,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/github-mergevelocity/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-05-06",
          "dist" : "GitHub-MergeVelocity",
          "insecure_repo" : false,
@@ -291,6 +613,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/HTML-FillInForm/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-09-25",
          "dist" : "HTML-FillInForm",
          "insecure_repo" : false,
@@ -305,6 +643,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTML-Form/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-10-22",
          "dist" : "HTML-Form",
          "insecure_repo" : false,
@@ -319,6 +673,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTML-Parser/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-19",
          "dist" : "HTML-Parser",
          "insecure_repo" : false,
@@ -333,6 +703,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/html-restrict/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-04-23",
          "dist" : "HTML-Restrict",
          "insecure_repo" : false,
@@ -347,6 +733,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/http-browserdetect/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-11-01",
          "dist" : "HTTP-BrowserDetect",
          "insecure_repo" : false,
@@ -361,6 +763,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/http-cookiemonster/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2020-01-31",
          "dist" : "HTTP-CookieMonster",
          "insecure_repo" : false,
@@ -375,6 +793,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTTP-Cookies/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-26",
          "dist" : "HTTP-Cookies",
          "insecure_repo" : false,
@@ -389,6 +823,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTTP-Daemon/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-05-19",
          "dist" : "HTTP-Daemon",
          "insecure_repo" : false,
@@ -403,6 +853,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTTP-Date/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-09",
          "dist" : "HTTP-Date",
          "insecure_repo" : false,
@@ -417,6 +883,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTTP-Message/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-24",
          "dist" : "HTTP-Message",
          "insecure_repo" : false,
@@ -431,6 +913,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/lwp-consolelogger/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-18",
          "dist" : "LWP-ConsoleLogger",
          "insecure_repo" : false,
@@ -445,6 +943,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/LWP-MediaTypes/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-04",
          "dist" : "LWP-MediaTypes",
          "insecure_repo" : false,
@@ -459,6 +973,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/lwp-protocol-ghttp/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2017-01-04",
          "dist" : "LWP-Protocol-GHTTP",
          "insecure_repo" : false,
@@ -473,6 +1003,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/LWP-Protocol-https/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-23",
          "dist" : "LWP-Protocol-https",
          "insecure_repo" : false,
@@ -487,6 +1033,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/metacpan/p5-metacpan-moose/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2016-09-08",
          "dist" : "MetaCPAN-Moose",
          "insecure_repo" : false,
@@ -501,6 +1063,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Module-Version-Loaded/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2015-03-27",
          "dist" : "Module-Version-Loaded",
          "insecure_repo" : false,
@@ -515,6 +1093,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/mojolicious-plugin-web-auth-site-dropboxv2/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2019-03-10",
          "dist" : "Mojolicious-Plugin-Web-Auth-Site-DropboxV2",
          "insecure_repo" : false,
@@ -529,6 +1123,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/mojolicious-plugin-web-auth-site-fitbit/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2017-02-20",
          "dist" : "Mojolicious-Plugin-Web-Auth-Site-Fitbit",
          "insecure_repo" : false,
@@ -543,6 +1153,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/mojolicious-plugin-web-auth-site-reddit/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2017-02-12",
          "dist" : "Mojolicious-Plugin-Web-Auth-Site-Reddit",
          "insecure_repo" : false,
@@ -557,6 +1183,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Mojolicious-Plugin-Web-Auth-Site-Runkeeper/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2016-06-08",
          "dist" : "Mojolicious-Plugin-Web-Auth-Site-Runkeeper",
          "insecure_repo" : false,
@@ -571,6 +1213,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Mojolicious-Plugin-Web-Auth-Site-Spotify/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2016-02-06",
          "dist" : "Mojolicious-Plugin-Web-Auth-Site-Spotify",
          "insecure_repo" : false,
@@ -585,6 +1243,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/mojolicious-plugin-web-auth-site-strava/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2018-09-30",
          "dist" : "Mojolicious-Plugin-Web-Auth-Site-Strava",
          "insecure_repo" : false,
@@ -599,6 +1273,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/Net-FreshBooks-API/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2014-05-03",
          "dist" : "Net-FreshBooks-API",
          "insecure_repo" : false,
@@ -613,6 +1303,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/Net-HTTP/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-08-29",
          "dist" : "Net-HTTP",
          "insecure_repo" : false,
@@ -627,6 +1333,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/perl-ide/open-this/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-10-28",
          "dist" : "Open-This",
          "insecure_repo" : false,
@@ -641,6 +1363,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/tokuhirom/OrePAN2/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-23",
          "dist" : "OrePAN2",
          "insecure_repo" : false,
@@ -655,6 +1393,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/poex-role-psgiserver/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2015-01-28",
          "dist" : "POEx-Role-PSGIServer",
          "insecure_repo" : false,
@@ -669,6 +1423,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/Perl-Critic-Policy-ProhibitImplicitImport/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-02-19",
          "dist" : "Perl-Critic-Policy-ProhibitImplicitImport",
          "insecure_repo" : false,
@@ -683,6 +1453,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/Perl-Critic-Policy-ValuesAndExpressions-PreventSQLInjection/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-03-05",
          "dist" : "Perl-Critic-Policy-ValuesAndExpressions-PreventSQLInjection",
          "insecure_repo" : false,
@@ -697,6 +1483,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/plu/Pithub/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-05-31",
          "dist" : "Pithub",
          "insecure_repo" : false,
@@ -711,6 +1513,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Plack-Middleware-NoDeflate",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2010-10-07",
          "dist" : "Plack-Middleware-NoDeflate",
          "insecure_repo" : true,
@@ -725,6 +1543,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/Plack-Test-Agent/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-07-05",
          "dist" : "Plack-Test-Agent",
          "insecure_repo" : false,
@@ -739,6 +1573,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/String-InterpolatedVariables/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-03-12",
          "dist" : "String-InterpolatedVariables",
          "insecure_repo" : false,
@@ -753,6 +1603,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/sysread/TOML-Tiny/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-06-03",
          "dist" : "TOML-Tiny",
          "insecure_repo" : false,
@@ -767,6 +1633,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/acme/test-www-mechanize-psgi/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2019-03-22",
          "dist" : "Test-WWW-Mechanize-PSGI",
          "insecure_repo" : false,
@@ -781,6 +1663,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/URI/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-03",
          "dist" : "URI",
          "insecure_repo" : false,
@@ -795,6 +1693,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/uri-parsesearchstring-more/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-23",
          "dist" : "URI-ParseSearchString-More",
          "insecure_repo" : false,
@@ -809,6 +1723,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/WWW-Mechanize/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-06-18",
          "dist" : "WWW-Mechanize",
          "insecure_repo" : false,
@@ -823,6 +1753,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/WWW-Mechanize-Cached/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-05-14",
          "dist" : "WWW-Mechanize-Cached",
          "insecure_repo" : false,
@@ -837,6 +1783,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/www-robocop/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-11-28",
          "dist" : "WWW-RoboCop",
          "insecure_repo" : false,
@@ -851,6 +1813,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/WWW-RobotRules/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-05-23",
          "dist" : "WWW-RobotRules",
          "insecure_repo" : false,
@@ -865,6 +1843,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/xaicron/p5-www-youtube-download/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2020-11-19",
          "dist" : "WWW-YouTube-Download",
          "insecure_repo" : false,
@@ -879,6 +1873,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/webservice-fitbit/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2017-02-20",
          "dist" : "WebService-Fitbit",
          "insecure_repo" : false,
@@ -893,6 +1903,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/webservice-healthgraph/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2016-10-27",
          "dist" : "WebService-HealthGraph",
          "insecure_repo" : false,
@@ -907,6 +1933,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/bradhaywood/WebService-PayPal-NVP/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2017-03-13",
          "dist" : "WebService-PayPal-NVP",
          "insecure_repo" : false,
@@ -921,6 +1963,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/webservice-reddit/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2017-02-04",
          "dist" : "WebService-Reddit",
          "insecure_repo" : false,
@@ -935,6 +1993,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/webservice-sqlformat/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2017-03-06",
          "dist" : "WebService-SQLFormat",
          "insecure_repo" : false,
@@ -949,6 +2023,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "http://github.com/oalders/fatfinger/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2015-10-15",
          "dist" : "fatfinger",
          "insecure_repo" : false,
@@ -963,6 +2053,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/lazy/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-08",
          "dist" : "lazy",
          "insecure_repo" : false,
@@ -977,6 +2083,22 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/libwww-perl/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "Build",
+               "dzil build and test",
+               "test"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 1,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-05-12",
          "dist" : "libwww-perl",
          "insecure_repo" : false,

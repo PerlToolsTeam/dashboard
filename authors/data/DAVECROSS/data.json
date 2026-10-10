@@ -7,6 +7,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [
          "CI"
       ],
@@ -18,11 +19,40 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:47:34Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [
+         "CI"
+      ],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 1,
+      "use_gh_actions" : 1,
+      "use_travis" : 0,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:51:29Z",
    "modules" : [
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/amazon-sites/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-17",
          "dist" : "Amazon-Sites",
          "insecure_repo" : false,
@@ -37,6 +67,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/app-aphra/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-11",
          "dist" : "App-Aphra",
          "insecure_repo" : false,
@@ -51,6 +95,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/app-blurfill/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-31",
          "dist" : "App-BlurFill",
          "insecure_repo" : false,
@@ -65,6 +123,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/app-blurfill-web/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-31",
          "dist" : "App-BlurFill-Web",
          "insecure_repo" : false,
@@ -79,6 +151,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/app-cpanmodulesite/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-01-24",
          "dist" : "App-CPANModuleSite",
          "insecure_repo" : false,
@@ -93,6 +179,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/app-feeddeduplicator/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-11-15",
          "dist" : "App-FeedDeduplicator",
          "insecure_repo" : false,
@@ -107,6 +207,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/app-httpthis/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-03",
          "dist" : "App-HTTPThis",
          "insecure_repo" : false,
@@ -121,6 +235,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/app-laststats/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-02-09",
          "dist" : "App-LastStats",
          "insecure_repo" : false,
@@ -135,6 +263,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/app-linksite/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-17",
          "dist" : "App-LinkSite",
          "insecure_repo" : false,
@@ -149,6 +291,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/app-mergecal/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-08-18",
          "dist" : "App-MergeCal",
          "insecure_repo" : false,
@@ -163,6 +319,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/array-compare/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2020-12-21",
          "dist" : "Array-Compare",
          "insecure_repo" : false,
@@ -177,6 +347,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/audiofile-info-mp3-id3lib/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-03-02",
          "dist" : "AudioFile-Info-MP3-ID3Lib",
          "insecure_repo" : false,
@@ -191,6 +375,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/audiofile-info-mp3-info/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-01-04",
          "dist" : "AudioFile-Info-MP3-Info",
          "insecure_repo" : false,
@@ -205,6 +403,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/audiofile-info-mp3-tag/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-28",
          "dist" : "AudioFile-Info-MP3-Tag",
          "insecure_repo" : false,
@@ -219,6 +431,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/audiofile-info-ogg-vorbis-header-pureperl/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-01-23",
          "dist" : "AudioFile-Info-Ogg-Vorbis-Header-PurePerl",
          "insecure_repo" : false,
@@ -233,6 +459,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/audiofile-info-ogg-vorbis-header/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-01-04",
          "dist" : "AudioFile-Info-Ogg-Vorbis-Header",
          "insecure_repo" : false,
@@ -247,6 +487,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/audiofile-info/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-01-04",
          "dist" : "AudioFile-Info",
          "insecure_repo" : false,
@@ -261,6 +515,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/cpan-changes-parser-keepachangelog/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-02-11",
          "dist" : "CPAN-Changes-Parser-KeepAChangeLog",
          "insecure_repo" : false,
@@ -275,6 +543,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/calendar-simple/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-05-04",
          "dist" : "Calendar-Simple",
          "insecure_repo" : false,
@@ -289,6 +571,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-10-18",
          "dist" : "Feed-Find",
          "insecure_repo" : false,
@@ -303,6 +599,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/genealogy-ahnentafel/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-01-22",
          "dist" : "Genealogy-Ahnentafel",
          "insecure_repo" : false,
@@ -317,6 +627,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/genealogy-ancestorchart/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-02-15",
          "dist" : "Genealogy-AncestorChart",
          "insecure_repo" : false,
@@ -331,6 +655,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/genealogy-relationship/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-06",
          "dist" : "Genealogy-Relationship",
          "insecure_repo" : false,
@@ -345,6 +683,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/tokuhirom/HTML-TreeBuilder-LibXML/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-06-20",
          "dist" : "HTML-TreeBuilder-LibXML",
          "insecure_repo" : false,
@@ -359,6 +711,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/moox-role-json_ld/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-30",
          "dist" : "MooX-Role-JSON_LD",
          "insecure_repo" : false,
@@ -373,6 +739,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/moox-role-seotags/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-20",
          "dist" : "MooX-Role-SEOTags",
          "insecure_repo" : false,
@@ -387,6 +767,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/net-songkick/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-07-27",
          "dist" : "Net-Songkick",
          "insecure_repo" : false,
@@ -401,6 +795,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/p5-number-fraction/number-fraction/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-02-25",
          "dist" : "Number-Fraction",
          "insecure_repo" : false,
@@ -415,6 +823,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/Ogg-Vorbis-Header/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-01-04",
          "dist" : "Ogg-Vorbis-Header",
          "insecure_repo" : false,
@@ -429,6 +851,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/perl-ogg-vorbis-header-pureperl/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2020-12-06",
          "dist" : "Ogg-Vorbis-Header-PurePerl",
          "insecure_repo" : false,
@@ -443,6 +879,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/parse-rpm-spec/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-01-13",
          "dist" : "Parse-RPM-Spec",
          "insecure_repo" : false,
@@ -457,6 +907,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/perlanet/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-24",
          "dist" : "Perlanet",
          "insecure_repo" : false,
@@ -471,6 +935,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/plack-app-directoryindex/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-07-01",
          "dist" : "Plack-App-DirectoryIndex",
          "insecure_repo" : false,
@@ -485,6 +963,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/ranguard/plack-middleware-dirindex/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-03-26",
          "dist" : "Plack-Middleware-DirIndex",
          "insecure_repo" : false,
@@ -499,6 +991,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/qmail-queuehandler/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-01-13",
          "dist" : "QMail-QueueHandler",
          "insecure_repo" : false,
@@ -513,6 +1019,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/svg-christmastree/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-01-01",
          "dist" : "SVG-ChristmasTree",
          "insecure_repo" : false,
@@ -527,6 +1047,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/svg-timeline/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-06-22",
          "dist" : "SVG-Timeline",
          "insecure_repo" : false,
@@ -541,6 +1075,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/svg-timeline-genealogy/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-03-22",
          "dist" : "SVG-Timeline-Genealogy",
          "insecure_repo" : false,
@@ -555,6 +1103,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/svg-trafficlight/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2020-12-22",
          "dist" : "SVG-TrafficLight",
          "insecure_repo" : false,
@@ -569,6 +1131,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/symbol-approx-sub/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-01-13",
          "dist" : "Symbol-Approx-Sub",
          "insecure_repo" : false,
@@ -583,6 +1159,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/perl-tmdb/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-08-21",
          "dist" : "TMDB",
          "insecure_repo" : false,
@@ -597,6 +1187,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/toon/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-30",
          "dist" : "TOON",
          "insecure_repo" : false,
@@ -611,6 +1215,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/template-plugin-audiofile-info/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-01-23",
          "dist" : "Template-Plugin-AudioFile-Info",
          "insecure_repo" : false,
@@ -625,6 +1243,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/template-plugin-rpm2/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-01-25",
          "dist" : "Template-Plugin-RPM2",
          "insecure_repo" : false,
@@ -639,6 +1271,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/template-plugin-xml-feed/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-01-28",
          "dist" : "Template-Plugin-XML-Feed",
          "insecure_repo" : false,
@@ -653,6 +1299,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/template-provider-pandoc/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-01-14",
          "dist" : "Template-Provider-Pandoc",
          "insecure_repo" : false,
@@ -667,6 +1327,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/tie-hash-cannabinol/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-05-25",
          "dist" : "Tie-Hash-Cannabinol",
          "insecure_repo" : false,
@@ -681,6 +1355,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg/tie-hash-fixedkeys/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-01-25",
          "dist" : "Tie-Hash-FixedKeys",
          "insecure_repo" : false,
@@ -695,6 +1383,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-21",
          "dist" : "Tie-Hash-Regex",
          "name" : "Tie-Hash-Regex-2.0.0",
@@ -705,6 +1407,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "https://github.com/davorg-cpan/webserver-dirindex/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-03-16",
          "dist" : "WebServer-DirIndex",
          "insecure_repo" : false,
@@ -719,6 +1435,20 @@
       {
          "auth" : "DAVECROSS",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-08",
          "dist" : "XML-Feed",
          "name" : "XML-Feed-1.0.1",

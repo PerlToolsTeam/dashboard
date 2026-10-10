@@ -6,6 +6,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [
          "CI"
       ],
@@ -17,11 +18,40 @@
       "use_travis" : 1,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:47:59Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [
+         "CI"
+      ],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 1,
+      "use_gh_actions" : 0,
+      "use_travis" : 1,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:52:02Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/App-Prove-Elasticsearch/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2018-06-18",
          "dist" : "App-Prove-Plugin-Elasticsearch",
          "insecure_repo" : false,
@@ -36,6 +66,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/Audit-Log-perl/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2023-07-11",
          "dist" : "Audit-Log",
          "insecure_repo" : false,
@@ -50,6 +94,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-configd/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-06",
          "dist" : "Configd",
          "insecure_repo" : false,
@@ -64,6 +122,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-Github-ReleaseFetcher/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2024-08-13",
          "dist" : "Github-ReleaseFetcher",
          "insecure_repo" : false,
@@ -78,6 +150,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/Linode-API/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-22",
          "dist" : "Linode-API",
          "insecure_repo" : false,
@@ -92,6 +178,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/Microsoft-Translator-Perl/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2023-10-26",
          "dist" : "Microsoft-Translator",
          "insecure_repo" : false,
@@ -106,6 +206,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/troglodyne-internet-widgets/perl-Net-Openssh-More/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-28",
          "dist" : "Net-OpenSSH-More",
          "insecure_repo" : false,
@@ -120,6 +234,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-distribution/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-08",
          "dist" : "Perl-Critic-Distribution",
          "insecure_repo" : false,
@@ -134,6 +262,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitchainingsamelistsub/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-24",
          "dist" : "Perl-Critic-Policy-BuiltinFunctions-ProhibitChainingSameListSub",
          "insecure_repo" : false,
@@ -148,6 +290,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitindirectbooleangrep/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-08",
          "dist" : "Perl-Critic-Policy-BuiltinFunctions-ProhibitIndirectBooleanGrep",
          "insecure_repo" : false,
@@ -162,6 +318,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitmutatinglistfunctionsstricter/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-09",
          "dist" : "Perl-Critic-Policy-ControlStructures-ProhibitMutatingListFunctionsStricter",
          "insecure_repo" : false,
@@ -176,6 +346,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-requirecheckedindirectresults/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-09",
          "dist" : "Perl-Critic-Policy-ErrorHandling-RequireCheckedIndirectResults",
          "insecure_repo" : false,
@@ -190,6 +374,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitrepeatedprints/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-16",
          "dist" : "Perl-Critic-Policy-InputOutput-ProhibitRepeatedPrints",
          "insecure_repo" : false,
@@ -204,6 +402,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/perl-critic-policy-preferredbinaries/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-11",
          "dist" : "Perl-Critic-Policy-PreferredBinaries",
          "insecure_repo" : false,
@@ -218,6 +430,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/perl-critic-policy-prohibitunuseddefinitions/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-08",
          "dist" : "Perl-Critic-Policy-ProhibitUnusedDefinitions",
          "insecure_repo" : false,
@@ -232,6 +458,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/perl-critic-policy-preventuselessmetacharacterescapes/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-16",
          "dist" : "Perl-Critic-Policy-RegularExpressions-PreventUselessMetacharacterEscapes",
          "insecure_repo" : false,
@@ -246,6 +486,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitregexforstringequality/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-30",
          "dist" : "Perl-Critic-Policy-RegularExpressions-ProhibitRegexForStringEquality",
          "insecure_repo" : false,
@@ -260,6 +514,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitregextochomp/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-29",
          "dist" : "Perl-Critic-Policy-RegularExpressions-ProhibitRegexToChomp",
          "insecure_repo" : false,
@@ -274,6 +542,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitregextostripaffix/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-24",
          "dist" : "Perl-Critic-Policy-RegularExpressions-ProhibitRegexToStripAffix",
          "insecure_repo" : false,
@@ -288,6 +570,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitsingleuselexicalsubs/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-30",
          "dist" : "Perl-Critic-Policy-Subroutines-ProhibitSingleUseLexicalSubs",
          "insecure_repo" : false,
@@ -302,6 +598,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibittailrecursion/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-27",
          "dist" : "Perl-Critic-Policy-Subroutines-ProhibitTailRecursion",
          "insecure_repo" : false,
@@ -316,6 +626,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitunderscoreprivatesubs/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-30",
          "dist" : "Perl-Critic-Policy-Subroutines-ProhibitUnderscorePrivateSubs",
          "insecure_repo" : false,
@@ -330,6 +654,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitdefinedbeforelength/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-18",
          "dist" : "Perl-Critic-Policy-ValuesAndExpressions-ProhibitDefinedBeforeLength",
          "insecure_repo" : false,
@@ -344,6 +682,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitliteralarithmetic/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-10-06",
          "dist" : "Perl-Critic-Policy-ValuesAndExpressions-ProhibitLiteralArithmetic",
          "insecure_repo" : false,
@@ -358,6 +710,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibituselessvarclearing/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-25",
          "dist" : "Perl-Critic-Policy-Variables-ProhibitUselessVarClearing",
          "insecure_repo" : false,
@@ -372,6 +738,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/perl-tests-covering/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-19",
          "dist" : "Perl-Tests-Covering",
          "insecure_repo" : false,
@@ -386,6 +766,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/Pivot-ArrayOfHashes/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-01-20",
          "dist" : "Pivot-ArrayOfHashes",
          "insecure_repo" : false,
@@ -400,6 +794,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/playwright-perl/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-02",
          "dist" : "Playwright",
          "insecure_repo" : false,
@@ -414,6 +822,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/RPM-Verify/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2023-12-06",
          "dist" : "RPM-Verify",
          "insecure_repo" : false,
@@ -428,6 +850,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/troglodyne-internet-widgets/selenium-client-perl/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2024-08-14",
          "dist" : "Selenium-Client",
          "insecure_repo" : false,
@@ -442,6 +878,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/Selenium-Remote-Driver/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-10-06",
          "dist" : "Selenium-Remote-Driver",
          "insecure_repo" : false,
@@ -456,6 +906,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/perl-solusvm-client/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-21",
          "dist" : "SolusVM-Client",
          "insecure_repo" : false,
@@ -470,6 +934,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=TestLink-API",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2014-12-05",
          "dist" : "TestLink-API",
          "insecure_repo" : false,
@@ -484,6 +962,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/TestRail-Perl/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2022-09-11",
          "dist" : "TestRail-API",
          "insecure_repo" : false,
@@ -498,6 +990,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/Trog-TOTP/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-25",
          "dist" : "Trog-TOTP",
          "insecure_repo" : false,
@@ -512,6 +1018,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/URI-Shorten/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-02-19",
          "dist" : "URI-Shortener",
          "insecure_repo" : false,
@@ -526,6 +1046,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-json-validator-schema-troglodyne/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-27",
          "dist" : "json-validator-schema-troglodyne",
          "insecure_repo" : false,
@@ -540,6 +1074,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitleadingzeros/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-15",
          "dist" : "perl-critic-policy-prohibitleadingzeros",
          "insecure_repo" : false,
@@ -554,6 +1102,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitnowarningsredefine/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-02",
          "dist" : "perl-critic-policy-prohibitnowarningsredefine",
          "insecure_repo" : false,
@@ -568,6 +1130,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitpipeopen/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-08-31",
          "dist" : "perl-critic-policy-prohibitpipeopen",
          "insecure_repo" : false,
@@ -582,6 +1158,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitprintstderr/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-08",
          "dist" : "perl-critic-policy-prohibitprintstderr",
          "insecure_repo" : false,
@@ -596,6 +1186,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitregexforsimplesubstring/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-15",
          "dist" : "perl-critic-policy-prohibitregexforsimplesubstring",
          "insecure_repo" : false,
@@ -610,6 +1214,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitunusedimports/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-04",
          "dist" : "perl-critic-policy-prohibitunusedimports",
          "insecure_repo" : false,
@@ -624,6 +1242,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitusagesubs/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-02",
          "dist" : "perl-critic-policy-prohibitusagesubs",
          "insecure_repo" : false,
@@ -638,6 +1270,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibituselib/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-02",
          "dist" : "perl-critic-policy-prohibituselib",
          "insecure_repo" : false,
@@ -652,6 +1298,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-requirefatalwarnings/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-02",
          "dist" : "perl-critic-policy-requirefatalwarnings",
          "insecure_repo" : false,
@@ -666,6 +1326,20 @@
       {
          "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/teodesian/perl-critic-policy-requireqwforliterallists/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-09-02",
          "dist" : "perl-critic-policy-requireqwforliterallists",
          "insecure_repo" : false,

@@ -7,6 +7,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [
          "ubuntu",
          "macos",
@@ -20,11 +21,44 @@
       "use_travis" : 1,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:47:32Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [
+         "ubuntu",
+         "macos",
+         "windows"
+      ],
+      "use_appveyor" : 1,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 1,
+      "use_gh_actions" : 1,
+      "use_travis" : 1,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:51:26Z",
    "modules" : [
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/dumbbench/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2024-10-15",
          "dist" : "Dumbbench",
          "insecure_repo" : false,
@@ -39,6 +73,22 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/HTTP-Cookies-Mozilla/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2019-07-23",
          "dist" : "HTTP-Cookies-Mozilla",
          "insecure_repo" : false,
@@ -53,6 +103,22 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/mycpan-app-dpan/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2018-05-16",
          "dist" : "MyCPAN-App-DPAN",
          "insecure_repo" : false,
@@ -67,6 +133,22 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/mycpan-indexer/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2018-05-16",
          "dist" : "MyCPAN-Indexer",
          "insecure_repo" : false,
@@ -81,6 +163,22 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/briandfoy/net-ssh-perl/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2026-01-23",
          "dist" : "Net-SSH-Perl",
          "insecure_repo" : false,
@@ -95,6 +193,22 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/CPAN-Adoptable-Modules/netscape-bookmarks/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2019-07-21",
          "dist" : "Netscape-Bookmarks",
          "insecure_repo" : false,
@@ -109,6 +223,22 @@
       {
          "auth" : "BDFOY",
          "bugtracker" : "https://github.com/tokuhirom/Perl-MinimumVersion-Fast/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "ubuntu",
+               "macos",
+               "windows"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
          "date" : "2025-01-07",
          "dist" : "Perl-MinimumVersion-Fast",
          "insecure_repo" : false,

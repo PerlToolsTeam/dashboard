@@ -7,6 +7,7 @@
    },
    "ci" : {
       "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
       "gh_workflow_names" : [
          "testsuite"
       ],
@@ -18,11 +19,40 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
-   "gathered_at" : "2026-10-10T16:47:45Z",
+   "display_ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_files" : [],
+      "gh_workflow_names" : [
+         "testsuite"
+      ],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 0,
+      "use_gh_actions" : 1,
+      "use_travis" : 0,
+      "use_travis_com" : 0
+   },
+   "distribution_ci" : {},
+   "gathered_at" : "2026-10-10T16:51:39Z",
    "modules" : [
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2004-11-22",
          "dist" : "Apache-Lint",
          "name" : "Apache-Lint-0.10",
@@ -33,6 +63,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2005-09-17",
          "dist" : "Apache-Pod",
          "name" : "Apache-Pod-0.22",
@@ -43,6 +87,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/petdance/carp-assert-more/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2025-03-06",
          "dist" : "Carp-Assert-More",
          "name" : "Carp-Assert-More-2.9.0",
@@ -53,6 +111,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2004-11-18",
          "dist" : "Data-Hash-Totals",
          "name" : "Data-Hash-Totals-0.10",
@@ -63,6 +135,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2007-10-15",
          "dist" : "Data-PerlSurvey2007",
          "name" : "Data-PerlSurvey2007-1.00",
@@ -73,6 +159,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=File-Find-Wanted",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2012-06-08",
          "dist" : "File-Find-Wanted",
          "name" : "File-Find-Wanted-1.00",
@@ -83,6 +183,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "http://github.com/petdance/file-next/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2019-08-27",
          "dist" : "File-Next",
          "insecure_repo" : true,
@@ -96,6 +210,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/petdance/html-lint/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2018-06-22",
          "dist" : "HTML-Lint",
          "insecure_repo" : false,
@@ -110,6 +238,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2023-07-06",
          "dist" : "HTML-Scrape",
          "name" : "HTML-Scrape-0.3.0",
@@ -120,6 +262,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/petdance/html-tagset/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-03-11",
          "dist" : "HTML-Tagset",
          "insecure_repo" : false,
@@ -134,6 +290,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "http://github.com/petdance/html-tidy/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2017-09-13",
          "dist" : "HTML-Tidy",
          "insecure_repo" : true,
@@ -148,6 +318,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "http://github.com/petdance/html-tidy5/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2019-10-26",
          "dist" : "HTML-Tidy5",
          "insecure_repo" : true,
@@ -162,6 +346,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/petdance/list-cycle/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2020-12-23",
          "dist" : "List-Cycle",
          "insecure_repo" : false,
@@ -176,6 +374,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2006-11-24",
          "dist" : "Module-Depends-Tree",
          "name" : "Module-Depends-Tree-1.00",
@@ -186,6 +398,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/Perl-Critic/Perl-Critic/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-10-23",
          "dist" : "Perl-Critic",
          "insecure_repo" : false,
@@ -200,6 +426,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/petdance/perl-critic-bangs",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-10-21",
          "dist" : "Perl-Critic-Bangs",
          "insecure_repo" : false,
@@ -214,6 +454,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/Perl-Critic/Perl-Critic-StricterSubs/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-10-22",
          "dist" : "Perl-Critic-StricterSubs",
          "insecure_repo" : false,
@@ -228,6 +482,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2005-01-03",
          "dist" : "Pod-Outline",
          "name" : "Pod-Outline-0.10",
@@ -238,6 +506,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/petdance/sql-tiny/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2019-04-07",
          "dist" : "SQL-Tiny",
          "insecure_repo" : false,
@@ -252,6 +534,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2010-08-17",
          "dist" : "TAP-Parser-SourceHandler-PHP",
          "name" : "TAP-Parser-SourceHandler-PHP-0.01",
@@ -262,6 +558,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-03-10",
          "dist" : "Template-Plugin-Cache",
          "name" : "Template-Plugin-Cache-0.14",
@@ -272,6 +582,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/petdance/template-plugin-package/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2024-03-12",
          "dist" : "Template-Plugin-Package",
          "name" : "Template-Plugin-Package-1.00",
@@ -282,6 +606,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2009-03-07",
          "dist" : "Template-Timer",
          "name" : "Template-Timer-1.00",
@@ -292,6 +630,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2004-02-26",
          "dist" : "Test-HTML-Tidy",
          "name" : "Test-HTML-Tidy-1.00",
@@ -302,6 +654,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2016-01-28",
          "dist" : "Test-Memory-Cycle",
          "name" : "Test-Memory-Cycle-1.06",
@@ -312,6 +678,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/Perl-Critic/Test-Perl-Critic/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2018-03-26",
          "dist" : "Test-Perl-Critic",
          "insecure_repo" : false,
@@ -326,6 +706,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2019-06-12",
          "dist" : "Test-Taint",
          "insecure_repo" : false,
@@ -340,6 +734,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/petdance/test-www-mechanize/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2022-12-05",
          "dist" : "Test-WWW-Mechanize",
          "insecure_repo" : false,
@@ -354,6 +762,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2016-10-04",
          "dist" : "Test2-Tools-Explain",
          "name" : "Test2-Tools-Explain-0.02",
@@ -364,6 +786,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2016-10-07",
          "dist" : "Test2-Tools-Expressive",
          "name" : "Test2-Tools-Expressive-0.02",
@@ -374,6 +810,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2021-03-27",
          "dist" : "Text-Sparkline",
          "name" : "Text-Sparkline-v0.1.0",
@@ -384,6 +834,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2003-12-02",
          "dist" : "WDDX",
          "name" : "WDDX-1.02",
@@ -394,6 +858,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/petdance/webservice-solr/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2020-01-10",
          "dist" : "WebService-Solr",
          "name" : "WebService-Solr-0.44",
@@ -404,6 +882,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/beyondgrep/ack3",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2026-06-07",
          "dist" : "ack",
          "insecure_repo" : false,
@@ -418,6 +910,20 @@
       {
          "auth" : "PETDANCE",
          "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "testsuite"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
          "date" : "2006-03-02",
          "dist" : "hwd",
          "name" : "hwd-0.20",
