@@ -34,8 +34,7 @@ for my $url (
 
 my $temp = Path::Tiny->tempdir;
 my $gh = $temp->child('gh');
-$gh->spew_utf8(<<'STUB');
-#!/usr/bin/perl
+$gh->spew_utf8("#!$^X\n" . <<'STUB');
 use strict;
 use warnings;
 use JSON;

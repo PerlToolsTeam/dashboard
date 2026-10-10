@@ -188,3 +188,12 @@ Validation: 424 offline Perl checks across thirteen files and twelve JavaScript
 checks pass. All three declared CDN integrity hashes match the pinned asset bytes.
 An isolated Chromium check verifies accordion expansion/collapse and registration
 generation using those exact Bootstrap assets with external networking disabled.
+
+## Publication follow-up
+
+PR #122 was merged during the session, and #123 now targets master. Tests on
+Perl 5.40 and 5.42 passed, but the generation container exposed a fixture portability
+bug: the fake GitHub CLI used `/usr/bin/perl`, while dependencies were installed
+for `/usr/local/bin/perl`. Updated its shebang to the running test interpreter
+(`$^X`). The publication gate correctly prevented deployment of that failed run.
+This fix is included in #123; the generator must be rerun after it is merged.
