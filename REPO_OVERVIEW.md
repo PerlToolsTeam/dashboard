@@ -297,12 +297,15 @@ Useful checks are:
 prove -Ilib t/00-load.t t/app.t
 prove -Ilib t
 node t/dashboard-js.test.cjs
+node t/onboarding-js.test.cjs
 ```
 
 The first command runs module-loading and local release-parsing/badge checks.
 The full default suite also exercises the separate `Author`/`Distribution`
 classes using fixed fixtures and tests the repository helper and branch cache
-with a stub GitHub CLI. It requires neither network access nor credentials.
+with a stub GitHub CLI. It requires Perl 5.40+, Node.js, and neither network access
+nor credentials. The onboarding fixture checks browser-generated JSON using the
+production Perl configuration validator.
 The default tests do not depend on the experimental `github_repo.json`.
 The Node.js checks execute the browser script with a small jQuery/DataTables
 fixture to verify reordered columns and initialization on pages without tables;
@@ -336,8 +339,14 @@ back only for the upstream repository. The script uses the same validated lookup
 as the application. Failed or empty lookups preserve valid cache entries, and
 writes use atomic file replacement.
 
-The documented onboarding path in `tt_lib/add.tt` is to add an author JSON file
-through a pull request. A separate [add_user.yml](.github/workflows/add_user.yml)
+The onboarding page in `tt_lib/add.tt` offers a browser form that generates an
+author registration JSON file. Services are optional and default to disabled.
+Contributors paste the result into GitHub's file editor and propose a pull request;
+the instructions also support copying an existing file without JavaScript.
+The form only prepares JSON and performs no external writes or requests.
+The documented policy follows the maintainer's decision in #103: authors register
+themselves; helpers can prepare JSON and instructions for the author to submit.
+A separate [add_user.yml](.github/workflows/add_user.yml)
 handles an `add_user` repository-dispatch event, but its helper
 [bin/add_user](bin/add_user) only converts the payload to configuration JSON and
 prints it to standard error. It does not save a file, open a pull request, or

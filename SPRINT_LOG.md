@@ -121,3 +121,21 @@ Validation: 391 offline Perl checks across eleven files and five JavaScript chec
 pass. Selection tests cover missing/invalid IDs, identity mismatch, unchanged
 unselected snapshots, unrelated invalid registrations, real CLI cached selection,
 stage defaults, and help/error handling.
+
+## Sprint 7: simpler author onboarding
+
+Addresses #24 and documents the maintainer's existing policy in #103.
+
+- Replaced the fork/clone checklist with GitHub's web-file editor flow and linked
+  official instructions for automatically creating a fork and proposing a change.
+- Added a browser form that prepares validated registration JSON and its filename,
+  with optional services disabled by default and workflow-name validation.
+- Retained instructions for contributors using the page without JavaScript.
+- Added form behavior checks to PR and publication gates, plus a cross-language
+  fixture validating the generated JSON with the production Perl validator.
+
+Validation: 397 Perl checks across twelve files and twelve JavaScript checks pass.
+Browser behavior covers minimal registration, optional services, escaping through
+JSON serialization, invalid IDs/usernames, missing workflow names, and stale output.
+An additional headless Chromium check passes against generated onboarding HTML
+for minimal signup, workflow validation, and selected services with networking disabled.

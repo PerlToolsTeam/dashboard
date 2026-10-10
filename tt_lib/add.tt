@@ -5,21 +5,55 @@ page. Repository links can point to GitHub, GitLab, Bitbucket, or another web
 host. The supported CI and coverage badges currently use GitHub repositories;
 CPAN version and CPANTS badges remain available for other hosts.</p>
 
-<p>Here are the steps to follow:</p>
+<p>You can add your registration using GitHub's web editor. CI services are
+optional; CPAN version and CPANTS badges are available without them.</p>
+<p>Register your own CPAN account. If you are helping another author, send them
+the prepared JSON and these instructions so they can submit their registration.</p>
 
+<h2>Prepare your registration</h2>
+<form id="registration-form">
+  <div class="mb-3">
+    <label for="registration-cpan">CPAN author ID</label>
+    <input id="registration-cpan" class="form-control" required pattern="[A-Za-z][A-Za-z0-9]*" autocomplete="off">
+  </div>
+  <div class="mb-3">
+    <label for="registration-github">GitHub username (optional)</label>
+    <input id="registration-github" class="form-control" autocomplete="off">
+  </div>
+  <fieldset class="mb-3">
+    <legend>Services you already use</legend>
+    <label><input id="registration-actions" type="checkbox"> GitHub Actions</label>
+    <label><input id="registration-coveralls" type="checkbox"> Coveralls</label>
+    <label><input id="registration-codecov" type="checkbox"> Codecov</label>
+    <label><input id="registration-cirrus" type="checkbox"> Cirrus CI</label>
+  </fieldset>
+  <div class="mb-3">
+    <label for="registration-workflows">GitHub Actions workflow names (one per line)</label>
+    <textarea id="registration-workflows" class="form-control" rows="2" placeholder="CI"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Generate JSON</button>
+  <p id="registration-error" role="alert"></p>
+</form>
+<div id="registration-result" hidden>
+  <p>Create <code id="registration-filename"></code> in the <code>authors</code> directory,
+  and paste this JSON into the file:</p>
+  <label for="registration-json">Registration JSON</label>
+  <textarea id="registration-json" class="form-control" rows="18" readonly></textarea>
+</div>
+<script src="/js/onboarding.js" defer></script>
+
+<h2>Submit your registration</h2>
 <ol>
-<li>Decide which of the supported CI services you want to use and configure
-them correctly. (More details on the various services below.)</li>
-<li>Take a fork of the <a href="https://github.com/PerlToolsTeam/dashboard">CPAN Dashboard</a> repo.</li>
-<li>Add a file in the <tt>authors</tt> directory. Copy
-<a href="https://github.com/PerlToolsTeam/dashboard/blob/master/authors/DAVECROSS.json">this file</a> and
-name the new file using your CPAN author name.</li>
-<li>Update the file to contain the correct information about your CPAN and Github usenames and
-the CI services that you use. Switch the various <tt>ci.use_XXX</tt> flags to 0 for services
-that you don't use.</li>
-<li>Send a <a href="https://github.com/PerlToolsTeam/dashboard/pulls">pull request</a> adding your file
-to my repo.</li>
-<li>Sit back and wait for me to merge your PR.</li>
+<li>Sign in to GitHub and open the
+<a href="https://github.com/PerlToolsTeam/dashboard/new/master/authors">new-file editor in the authors directory</a>.</li>
+<li>Name the file <code>YOURCPANID.json</code> and paste the generated JSON. With JavaScript
+ disabled, copy <a href="https://github.com/PerlToolsTeam/dashboard/blob/master/authors/DAVECROSS.json">an existing registration</a>
+ and change its author ID, GitHub username, and service settings.</li>
+<li>Commit the file and follow GitHub's prompts to propose a pull request. GitHub
+can create the fork for you, as described in its
+<a href="https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files">new-file instructions</a>.</li>
+<li>After the pull request is merged, the next site refresh gathers your release
+metadata and adds your dashboard.</li>
 </ol>
 
 <h2>Supported CI services</h2>

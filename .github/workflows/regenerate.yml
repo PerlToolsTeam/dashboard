@@ -35,7 +35,9 @@ jobs:
       run: prove -Ilib t
 
     - name: Check browser script behavior
-      run: node t/dashboard-js.test.cjs
+      run: |
+        node t/dashboard-js.test.cjs
+        node t/onboarding-js.test.cjs
 
     - name: Create pages
       env:
