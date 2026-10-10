@@ -31,6 +31,9 @@ jobs:
       run: |
           cpanm --installdeps --notest .
 
+    - name: Run tests
+      run: prove -Ilib t
+
     - name: Create pages
       env:
         PERL5LIB: lib

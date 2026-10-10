@@ -13,12 +13,14 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v7
 
-    - name: Install cpanm
-      run: sudo apt-get update && sudo apt-get install -y cpanminus
+    - name: Set up Perl
+      uses: shogo82148/actions-setup-perl@v1
+      with:
+        perl-version: '5.40'
 
     - name: Install modules
       run: |
-          sudo cpanm --installdeps --notest .
+          cpanm --installdeps --notest .
 
     - name: Rebuild branch cache
       env:

@@ -5,6 +5,8 @@ no if $^V >= v5.38, warnings => 'experimental::class';
 
 class Dashboard::BadgeMaker {
 
+  use Dashboard::Repository qw(github_repository);
+
   method cpan {
     my ($module) = @_;
 
@@ -106,10 +108,10 @@ class Dashboard::BadgeMaker {
   method has_repo_details {
     my ($module) = @_;
 
-    return $module->{repo}
-      && $module->{repo} =~ m|github\.com/|
-      && $module->{repo_owner}
-      && $module->{repo_name};
+    my $repo = github_repository($module->{repo}) or return;
+    return $module->{repo_owner} && $module->{repo_name}
+      && $module->{repo_owner} eq $repo->{owner}
+      && $module->{repo_name} eq $repo->{name};
   }
 
   method has_branch_details {

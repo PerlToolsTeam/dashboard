@@ -46,6 +46,7 @@ over the downloadable JSON in `docs/`; see the data-handling details below.
 | [bin/dashboard](bin/dashboard) | Command-line entry point; chooses gathering, building, or both. |
 | [lib/Dashboard/App.pm](lib/Dashboard/App.pm) | Active application: configuration, MetaCPAN retrieval, repository parsing, caching, and site generation. |
 | [lib/Dashboard/BadgeMaker.pm](lib/Dashboard/BadgeMaker.pm) | Produces linked badge image HTML for the dashboard tables. |
+| [lib/Dashboard/Repository.pm](lib/Dashboard/Repository.pm), [lib/Dashboard/BranchCache.pm](lib/Dashboard/BranchCache.pm) | Shared repository URL validation, shell-free GitHub CLI lookup, and last-known-good branch caching. |
 | [lib/Dashboard/Author.pm](lib/Dashboard/Author.pm), [lib/Dashboard/Distribution.pm](lib/Dashboard/Distribution.pm) | Separate class-based data model, exercised by some tests but unused by the main entry point. |
 | [dashboard.json](dashboard.json) | Global paths, template names, analytics setting, and sitemap domain. |
 | `authors/*.json` | Per-author registration and CI configuration. |
@@ -100,8 +101,10 @@ Each release becomes a hash containing fields such as:
 The repository URL comes from release metadata, preferring
 `resources.repository.web` to `resources.repository.url`. Supported URL forms
 are parsed to identify an owner and repository name. GitHub default branches are
-looked up through `gh repo view` only when the cache lacks an entry. Failed
-lookups warn and cache an empty branch. Branch-dependent badges are then blank.
+looked up through `gh repo view` when the cache lacks a usable entry. Failed
+lookups warn and preserve the previous value; unresolved entries are retried on
+later runs. Repeated failures are suppressed within one cache instance.
+Branch-dependent badges are blank when no valid branch is known.
 Distributions without a repository, or with a non-GitHub repository, still appear
 in the table; GitHub-specific badges require GitHub repository details.
 
@@ -242,12 +245,10 @@ prove -Ilib t
 ```
 
 The first command runs module-loading and local release-parsing/badge checks.
-The full suite additionally queries MetaCPAN and exercises the separate
-`Author`/`Distribution` classes. It includes an outdated assertion that
-DAVECROSS's GitHub username is `davorg`, while the current configuration says
-`davorg-cpan`. The separate distribution code also uses `Data::Printer`, which
-is absent from `cpanfile`. These make the full suite different from a self-contained
-test of the main generation path.
+The full default suite also exercises the separate `Author`/`Distribution`
+classes using fixed fixtures and tests the repository helper and branch cache
+with a stub GitHub CLI. It requires neither network access nor credentials.
+The default tests do not depend on the experimental `github_repo.json`.
 
 During this examination, the first command passed **14 tests across two files**
 using Perl 5.42.3. An isolated build using copied source and snapshots succeeded,
@@ -270,9 +271,9 @@ deploys that artifact to GitHub Pages.
 
 [rebuild_cache.yml](.github/workflows/rebuild_cache.yml) refreshes the default
 branch cache weekly at Monday 00:00 UTC and on manual dispatch, committing it
-back only for the upstream repository. Unlike the main app's lookup, the refresh
-script does not check `gh`'s exit status before replacing a cache entry; a failed
-lookup can leave an empty branch value.
+back only for the upstream repository. The script uses the same validated lookup
+as the application. Failed or empty lookups preserve valid cache entries, and
+writes use atomic file replacement.
 
 The documented onboarding path in `tt_lib/add.tt` is to add an author JSON file
 through a pull request. A separate [add_user.yml](.github/workflows/add_user.yml)
@@ -282,8 +283,9 @@ prints it to standard error. It does not save a file, open a pull request, or
 register an author by itself.
 
 The remaining development setup workflow installs Perl 5.40 and dependencies;
-it does not run the test suite. The generation workflow likewise skips dependency
-tests and has no explicit project-test step.
+it does not run the test suite. The generation workflow runs `prove -Ilib t`
+before generating or publishing pages. The branch-refresh workflow explicitly
+sets up Perl 5.40 before loading the shared cache class.
 
 ## Where to start when changing the project
 
@@ -296,7 +298,14 @@ file and use live gathering to see its effect.
 The `Author` and `Distribution` classes appear to be an unfinished alternate
 model: they use `distributions` and longer field names such as `distribution`
 and `version`, while the active app, snapshots, and templates use `modules`,
-`dist`, and `ver`. `Distribution` also has an empty command in its default-branch
-lookup. They are not drop-in replacements for the current app's hash-based data
-flow. Treat their integration as a code change that needs explicit design and
-verification.
+`dist`, and `ver`. Both models now use the same repository validation and branch
+cache; neither reads `github_repo.json`. They are not drop-in replacements for
+the current app's hash-based data flow. Treat their integration as a code change
+that needs explicit design and verification.
+
+GitHub repository metadata accepts HTTP(S), `git://`, `ssh://git@github.com/`,
+and `git@github.com:owner/repo` URLs. Validation checks the hostname and two-part
+repository path, then normalizes valid GitHub links to HTTPS. Subpages, query
+strings, fragments, credentials in HTTP URLs, and malformed components cannot
+trigger GitHub lookups or badges. CLI calls use separate arguments without a
+shell, including calls from the cache-refresh script.

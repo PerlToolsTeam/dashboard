@@ -8,6 +8,8 @@ class Dashboard::App {
   our $VERSION = '1.0.0';
 
   use Dashboard::BadgeMaker;
+  use Dashboard::BranchCache;
+  use Dashboard::Repository qw(github_repository);
 
   use JSON;
   use Path::Tiny;
@@ -30,8 +32,7 @@ class Dashboard::App {
   field @urls;
   field $run_gather :param(gather) = 1;
   field $run_build :param(build) = 1;
-  field $repo_def_branch;
-  field $branch_cache_file = 'repo_def_branch.json';
+  field $branch_cache = Dashboard::BranchCache->new;
 
   method run {
     if ($run_gather) {
@@ -47,19 +48,12 @@ class Dashboard::App {
  
     say "Gathering...";
 
-    # This should be the initialiser expression for $repo_def_branch
-    if (-f $branch_cache_file) {
-      $repo_def_branch = $json->decode(path($branch_cache_file)->slurp_utf8);
-    } else {
-      $repo_def_branch = {};
-    }
-
     for (glob "$RealBin/../authors/*.json") {
       push @authors, $self->do_author($_);
       push @urls, "https://$global_cfg->{domain}/$authors[-1]{author}{cpan}/";
     }
 
-    path($branch_cache_file)->spew_utf8($json->encode($repo_def_branch));
+    $branch_cache->save;
   }
 
   method do_author {
@@ -139,7 +133,16 @@ class Dashboard::App {
       return $mod;
     }
 
-    $mod->{repo} =~ s[/$][];
+    $mod->{insecure_repo} = $mod->{repo} =~ m|^http:|;
+    $mod->{repo} =~ s[/+$][];
+
+    if (my $github = github_repository($mod->{repo})) {
+      $mod->{repo} = $github->{url};
+      $mod->{repo_owner} = $github->{owner};
+      $mod->{repo_name} = $github->{name};
+      $mod->{repo_def_branch} = $self->get_repo_default_branch($mod);
+      return $mod;
+    }
 
     # We need the repo's name. Try to extract it from the URL.
     if ($mod->{repo} =~ /^(http|git)/) {
@@ -154,12 +157,7 @@ class Dashboard::App {
       if (defined $mod->{repo_owner} and defined $mod->{repo_name}) {
         $mod->{repo_name} =~ s|\.git$||;
 
-        if (valid_repo($mod->{repo}) and $mod->{repo_owner} and $mod->{repo_name}) {
-          $mod->{repo_def_branch} = $self->get_repo_default_branch($mod);
-          chomp($mod->{repo_def_branch});
-        } else {
-          warn "Strange repo for $mod->{name} ($mod->{repo}).\n";
-        }
+        warn "Unsupported repository for GitHub badges: $mod->{name} ($mod->{repo}).\n";
       } else {
         warn "Strange repo for $mod->{name} ($mod->{repo}).\n";
       }
@@ -167,35 +165,14 @@ class Dashboard::App {
       warn "Strange repo for $mod->{name} ($mod->{repo}).\n";
     }
 
-    $mod->{insecure_repo} = $mod->{repo} =~ m|^http:|;
-
     return $mod;
   }
 
   method get_repo_default_branch {
     my ($module) = @_;
 
-    return unless $module->{repo_owner} && $module->{repo_name};
-
-    my $path = "$module->{repo_owner}/$module->{repo_name}";
-
-    unless (exists $repo_def_branch->{$module->{repo_owner}} and
-      exists $repo_def_branch->{$module->{repo_owner}}{$module->{repo_name}}) {
-        my $branch;
-        try {
-          $branch = `gh repo view $path --json defaultBranchRef -q .defaultBranchRef.name`;
-          die "gh repo view exited with status " . ($? >> 8) . "\n" if $? != 0;
-          chomp $branch;
-        }
-        catch ($e) {
-          chomp $e;
-          warn "Could not get default branch for $path: $e\n";
-          $branch = '';
-        }
-        $repo_def_branch->{$module->{repo_owner}}{$module->{repo_name}} = $branch;
-    }
-
-    return $repo_def_branch->{$module->{repo_owner}}{$module->{repo_name}};
+    my $repo = github_repository($module->{repo}) or return '';
+    return $branch_cache->get($repo->{owner}, $repo->{name});
   }
 
   method load_data {
@@ -295,7 +272,7 @@ class Dashboard::App {
     return unless defined $repo_uri;
 
     # Default branch lookup only works for GitHub repos
-    return $repo_uri =~ m|github\.com/|;
+    return !!github_repository($repo_uri);
   }
 }
 
