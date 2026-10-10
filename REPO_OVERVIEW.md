@@ -124,7 +124,10 @@ It saves the updated default-branch cache after gathering all authors.
 Transient retrieval failures are retried up to `fetch_attempts` times with
 exponential backoff capped at ten seconds between attempts. The HTTP request
 timeout is `http_timeout` seconds. HTTP 408/429/5xx codes and common network/server
-failure reason messages are treated as transient; other failures are not retried.
+failure reason messages are treated as transient. MetaCPAN search/scroll failures,
+incorrect release ownership, and incomplete lists also restart the fetch within
+the same attempt limit. Each release must belong to the requested author, and
+the fetched count must match the API total before a snapshot can be saved.
 Classification ignores the request URL and Perl callsite, so an author ID or
 filename containing a retry keyword does not affect the decision. Explicit
 permanent HTTP responses and certificate verification errors are not retried.
@@ -144,6 +147,8 @@ before that author has release metadata available for a cached build.
 
 At examination time, the checkout had 26 author configurations and 23 snapshots.
 `GDT`, `MIKKOI`, and `WWILLIS` had configurations but no checked-in snapshot.
+A verified 23-release MIKKOI snapshot was subsequently added after a production
+scrolling failure exposed the missing fallback.
 
 ### 4. Render the website
 
@@ -332,7 +337,7 @@ Unicode metadata, and atomic snapshot write failure.
 
 [regenerate.yml](.github/workflows/regenerate.yml) runs on pushes to `master`,
 manual dispatch, and every six hours at minute 7, as defined by its cron schedule.
-It uses a `perl:latest` container, installs GitHub CLI and Perl dependencies,
+It uses a `perl:5.44` container, installs GitHub CLI and Perl dependencies,
 creates `docs/`, and runs both generation stages with `PERL5LIB=lib` and the
 workflow's GitHub token.
 
@@ -363,7 +368,7 @@ register an author by itself.
 The remaining development setup workflow installs Perl 5.40 and dependencies;
 it does not run the test suite. The generation workflow runs `prove -Ilib t`
 before generating or publishing pages. A separate test workflow runs on pushes
-and pull requests with Perl 5.40 and 5.42. The branch-refresh workflow explicitly
+and pull requests with Perl 5.40, 5.42, and 5.44. The branch-refresh workflow explicitly
 sets up Perl 5.40 before loading the shared cache class.
 
 Supported configuration limits are 1–5 fetch attempts, 1–60 seconds per HTTP

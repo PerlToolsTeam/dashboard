@@ -197,3 +197,10 @@ bug: the fake GitHub CLI used `/usr/bin/perl`, while dependencies were installed
 for `/usr/local/bin/perl`. Updated its shebang to the running test interpreter
 (`$^X`). The publication gate correctly prevented deployment of that failed run.
 This fix is included in #123; the generator must be rerun after it is merged.
+
+The subsequent generation run passed its test gates but failed on an opaque
+MetaCPAN scrolling error for MIKKOI, which had no fallback snapshot. PR #125 adds
+bounded retries for those errors, checks release ownership and completeness,
+and supplies a verified 23-release snapshot. The same recovery fix is included
+here, with CI expanded to Perl 5.44 and generation pinned to that tested major.
+Combined validation now passes 457 Perl checks and twelve JavaScript checks.
