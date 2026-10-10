@@ -1,7 +1,7 @@
 {
    "author" : {
       "cpan" : "DAVECROSS",
-      "github" : "davorg"
+      "github" : "davorg-cpan"
    },
    "ci" : {
       "use_gh_actions" : 1,
