@@ -27,11 +27,13 @@ package Dashboard::TestData::Author;
 sub name ($self) { $self->{name} }
 sub gravatar_url ($self) { $self->{gravatar_url} }
 sub releases ($self) {
-  return bless { items => [@{ $self->{releases} }], error => $self->{iterator_error} },
+  return bless { items => [@{ $self->{releases} }], error => $self->{iterator_error},
+    total => $self->{declared_total} // scalar(@{ $self->{releases} }) },
     'Dashboard::TestData::Releases';
 }
 
 package Dashboard::TestData::Releases;
+sub total ($self) { return $self->{total} }
 sub next ($self) {
   return shift @{ $self->{items} } if @{ $self->{items} };
   die $self->{error} if $self->{error};

@@ -14,7 +14,7 @@ jobs:
     timeout-minutes: 15
     strategy:
       matrix:
-        perl: ['5.40', '5.42']
+        perl: ['5.40', '5.42', '5.44']
     steps:
       - uses: actions/checkout@v7
       - uses: shogo82148/actions-setup-perl@v1
