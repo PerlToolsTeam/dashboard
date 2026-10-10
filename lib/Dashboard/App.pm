@@ -8,6 +8,9 @@ class Dashboard::App {
   our $VERSION = '1.0.0';
 
   use Dashboard::BadgeMaker;
+  use Dashboard::BranchCache;
+  use Dashboard::Repository qw(github_repository);
+  use Dashboard::Config qw(read_json_file read_global_config normalize_author);
 
   use JSON;
   use Path::Tiny;
@@ -15,25 +18,29 @@ class Dashboard::App {
   use MetaCPAN::Client;
   use HTTP::Tiny;
   use URI;
-  use FindBin '$RealBin';
   use File::Find;
+  use POSIX 'strftime';
+  use Time::HiRes ();
 
-  # :reader only exists for the tests
-  field $mcpan :reader = MetaCPAN::Client->new(
-    ua => HTTP::Tiny->new(agent => "CPAN Dashboard/$VERSION")
+  field $json = JSON->new->pretty->canonical;
+  field $config_file :param = 'dashboard.json';
+  field $global_cfg = read_global_config($config_file);
+  field $mcpan :reader :param = MetaCPAN::Client->new(
+    ua => HTTP::Tiny->new(agent => "CPAN Dashboard/$VERSION",
+      timeout => $global_cfg->{http_timeout} // 20)
   );
-  field $json = JSON->new->pretty->canonical->utf8;
-  field $global_cfg = $json->decode(path('dashboard.json')->slurp_utf8);
   field $tt;
   field @authors;
-  field @all_authors;
   field @urls;
   field $run_gather :param(gather) = 1;
   field $run_build :param(build) = 1;
-  field $repo_def_branch;
-  field $branch_cache_file = 'repo_def_branch.json';
+  field $branch_cache = Dashboard::BranchCache->new(
+    file => $global_cfg->{branch_cache_file} // 'repo_def_branch.json'
+  );
 
   method run {
+    @authors = ();
+    @urls = ();
     if ($run_gather) {
       $self->gather_data;
     } else {
@@ -47,69 +54,104 @@ class Dashboard::App {
  
     say "Gathering...";
 
-    # This should be the initialiser expression for $repo_def_branch
-    if (-f $branch_cache_file) {
-      $repo_def_branch = $json->decode(path($branch_cache_file)->slurp_utf8);
-    } else {
-      $repo_def_branch = {};
+    my @registrations;
+    my %seen;
+    for my $file (sort { "$a" cmp "$b" } path($global_cfg->{author_dir})->children(qr/\.json\z/)) {
+      my $cfg = normalize_author(read_json_file($file), $file);
+      die "Duplicate author.cpan $cfg->{author}{cpan} in $file\n" if $seen{$cfg->{author}{cpan}}++;
+      push @registrations, [$file, $cfg];
     }
-
-    for (glob "$RealBin/../authors/*.json") {
-      push @authors, $self->do_author($_);
+    for my $registration (@registrations) {
+      push @authors, $self->do_author(@$registration);
       push @urls, "https://$global_cfg->{domain}/$authors[-1]{author}{cpan}/";
     }
 
-    path($branch_cache_file)->spew_utf8($json->encode($repo_def_branch));
+    $branch_cache->save;
   }
 
-  method do_author {
-    my ($file) = @_;
+  method do_author ($file, $cfg = undef) {
+    $cfg //= normalize_author(read_json_file($file), $file);
 
-    my $cfg = $json->decode(path($file)->slurp_utf8);
+    my $id = $cfg->{author}{cpan} // '';
+    die "Invalid CPAN identifier in $file\n" unless $id =~ /\A[A-Z][A-Z0-9]*\z/;
+    my $attempts = $global_cfg->{fetch_attempts} // 3;
+    my ($fresh, $error);
+    for my $attempt (1 .. $attempts) {
+      try {
+        $fresh = $self->fetch_author($cfg);
+      }
+      catch ($exception) {
+        $error = $exception;
+      }
+      last if $fresh;
+      last if $attempt == $attempts || !retryable_fetch_error($error);
+      warn "MetaCPAN fetch failed for $id (attempt $attempt/$attempts); retrying: $error";
+      $self->wait_before_retry($attempt);
+    }
 
-    $cfg->{modules} = [];
+    if ($fresh) {
+      my $snapshot = $self->snapshot_path($id);
+      $snapshot->parent->mkpath;
+      $snapshot->spew_utf8($json->encode($fresh));
+      return $fresh;
+    }
 
+    chomp $error;
+    my $snapshot = $self->snapshot_path($id);
+    my ($cached, $cache_error);
+    try { $cached = $self->read_snapshot($snapshot, $id) }
+    catch ($exception) { $cache_error = $exception }
+    unless ($cached) {
+      die "MetaCPAN fetch failed for $id: $error\n"
+        . "No usable author snapshot at $snapshot: $cache_error";
+    }
+    warn "MetaCPAN fetch failed for $id: $error\n"
+      . "Using cached snapshot $snapshot (gathered "
+      . ($cached->{gathered_at} // 'at an unknown time') . ").\n";
+    $cached->{fetch_warning} = 'Release metadata could not be refreshed; showing cached data.';
+    return $cached;
+  }
+
+  method fetch_author ($cfg) {
+    # Do not expose partial pages or replace a snapshot if iteration fails.
+    my $fresh = $json->decode($json->encode($cfg));
+    my $author = $mcpan->author($cfg->{author}{cpan});
+    $fresh->{author}{name} = $author->name;
+    my $gravatar = $author->gravatar_url;
+    if ($gravatar && $gravatar =~ m{\Ahttps://}) {
+      $fresh->{author}{gravatar} = $gravatar;
+    }
     my @modules;
-
-    try {
-      my $mcpan_author = $mcpan->author($cfg->{author}{cpan});
-      my $releases     = $mcpan_author->releases;
-
-      my $gravatar = $mcpan_author->gravatar_url;
-      if ($gravatar and $gravatar =~ m[^https:]) {
-        $cfg->{author}{gravatar} = $gravatar;
-      }
-      $cfg->{author}{name} = $mcpan_author->name;
-
-      while ( my $rel = $releases->next ) {
-        push @modules, $self->module_from_release($rel);
-      }
+    my $releases = $author->releases;
+    while (my $release = $releases->next) {
+      push @modules, $self->module_from_release($release);
     }
-    catch ($e) {
-      chomp $e;
-      my $data_file = path("docs/$cfg->{author}{cpan}/data.json");
+    $fresh->{modules} = [sort { $a->{name} cmp $b->{name} } @modules];
+    $fresh->{gathered_at} = strftime('%Y-%m-%dT%H:%M:%SZ', gmtime);
+    delete $fresh->{fetch_warning};
+    return $fresh;
+  }
 
-      if ($data_file->is_file) {
-        warn "MetaCPAN fetch failed for $cfg->{author}{cpan}: $e\n"
-           . "Re-using previously generated data from $data_file.\n";
-        return $json->decode($data_file->slurp_utf8);
-      }
+  sub retryable_fetch_error ($error) {
+    return $error =~ /\b(?:HTTP(?:\/\d(?:\.\d)?)?\s+|status[ :=]+)(?:408|429|5\d\d)\b|timed?\s*out|timeout|connection|network|temporary|too many requests|internal server error|bad gateway|service unavailable|gateway timeout|name or service not known/i;
+  }
 
-      die "MetaCPAN fetch failed for $cfg->{author}{cpan} "
-        . "and no cached data is available: $e\n";
-    }
+  method wait_before_retry ($attempt) {
+    my $delay = ($global_cfg->{retry_delay} // 1) * 2 ** ($attempt - 1);
+    Time::HiRes::sleep($delay > 10 ? 10 : $delay);
+  }
 
-    $cfg->{modules} = [ sort { $a->{name} cmp $b->{name} } @modules ];
+  method snapshot_path ($id) {
+    return path($global_cfg->{data_dir} // 'authors/data', $id, 'data.json');
+  }
 
-    $cfg->{sort} //= {};
-    $cfg->{sort}{column} //= 0;
-    $cfg->{sort}{column} = 2 if 'date' eq lc $cfg->{sort}{column};
-    $cfg->{sort}{direction} //= 'asc';
-
-    path("docs/$cfg->{author}{cpan}")->mkdir;
-    path("docs/$cfg->{author}{cpan}/data.json")->spew_utf8($json->encode($cfg));
-
-    return $cfg;
+  method read_snapshot ($file, $id) {
+    my $data = normalize_author(read_json_file($file), $file);
+    die "Invalid author snapshot in $file\n"
+      unless ref($data) eq 'HASH' && ref($data->{author}) eq 'HASH'
+        && ($data->{author}{cpan} // '') eq $id && ref($data->{modules}) eq 'ARRAY'
+        && !grep { ref($_) ne 'HASH' } @{ $data->{modules} };
+    return $data;
   }
 
   method module_from_release {
@@ -122,7 +164,7 @@ class Dashboard::App {
     $mod->{auth} = $rel->author;
     $mod->{date} = (split /T/, $rel->date)[0];
     $mod->{bugtracker} = '';
-    $mod->{uses_rt} = 0;
+    $mod->{uses_rt} = $JSON::false;
 
     # Get the repo link.
     # 1. It should be in the "web" key
@@ -132,14 +174,23 @@ class Dashboard::App {
 
     if ($rel->resources->{bugtracker}{web}) {
       $mod->{bugtracker} = $rel->resources->{bugtracker}{web};
-      $mod->{uses_rt} = $mod->{bugtracker} =~ /rt\.cpan\.org/;
+      $mod->{uses_rt} = $mod->{bugtracker} =~ /rt\.cpan\.org/ ? $JSON::true : $JSON::false;
     }
 
     unless ($mod->{repo}) {
       return $mod;
     }
 
-    $mod->{repo} =~ s[/$][];
+    $mod->{insecure_repo} = $mod->{repo} =~ m|^http:| ? $JSON::true : $JSON::false;
+    $mod->{repo} =~ s[/+$][];
+
+    if (my $github = github_repository($mod->{repo})) {
+      $mod->{repo} = $github->{url};
+      $mod->{repo_owner} = $github->{owner};
+      $mod->{repo_name} = $github->{name};
+      $mod->{repo_def_branch} = $self->get_repo_default_branch($mod);
+      return $mod;
+    }
 
     # We need the repo's name. Try to extract it from the URL.
     if ($mod->{repo} =~ /^(http|git)/) {
@@ -154,12 +205,7 @@ class Dashboard::App {
       if (defined $mod->{repo_owner} and defined $mod->{repo_name}) {
         $mod->{repo_name} =~ s|\.git$||;
 
-        if (valid_repo($mod->{repo}) and $mod->{repo_owner} and $mod->{repo_name}) {
-          $mod->{repo_def_branch} = $self->get_repo_default_branch($mod);
-          chomp($mod->{repo_def_branch});
-        } else {
-          warn "Strange repo for $mod->{name} ($mod->{repo}).\n";
-        }
+        warn "Unsupported repository for GitHub badges: $mod->{name} ($mod->{repo}).\n";
       } else {
         warn "Strange repo for $mod->{name} ($mod->{repo}).\n";
       }
@@ -167,46 +213,28 @@ class Dashboard::App {
       warn "Strange repo for $mod->{name} ($mod->{repo}).\n";
     }
 
-    $mod->{insecure_repo} = $mod->{repo} =~ m|^http:|;
-
     return $mod;
   }
 
   method get_repo_default_branch {
     my ($module) = @_;
 
-    return unless $module->{repo_owner} && $module->{repo_name};
-
-    my $path = "$module->{repo_owner}/$module->{repo_name}";
-
-    unless (exists $repo_def_branch->{$module->{repo_owner}} and
-      exists $repo_def_branch->{$module->{repo_owner}}{$module->{repo_name}}) {
-        my $branch;
-        try {
-          $branch = `gh repo view $path --json defaultBranchRef -q .defaultBranchRef.name`;
-          die "gh repo view exited with status " . ($? >> 8) . "\n" if $? != 0;
-          chomp $branch;
-        }
-        catch ($e) {
-          chomp $e;
-          warn "Could not get default branch for $path: $e\n";
-          $branch = '';
-        }
-        $repo_def_branch->{$module->{repo_owner}}{$module->{repo_name}} = $branch;
-    }
-
-    return $repo_def_branch->{$module->{repo_owner}}{$module->{repo_name}};
+    my $repo = github_repository($module->{repo}) or return '';
+    return $branch_cache->get($repo->{owner}, $repo->{name});
   }
 
   method load_data {
-    for (glob "$RealBin/../authors/data/*/data.json") {
-      push @authors, $json->decode(path($_)->slurp_utf8);
+    my $dir = path($global_cfg->{data_dir} // 'authors/data');
+    for my $author_dir (sort { "$a" cmp "$b" } $dir->children) {
+      next unless $author_dir->is_dir && $author_dir->child('data.json')->is_file;
+      push @authors, $self->read_snapshot($author_dir->child('data.json'), $author_dir->basename);
       push @urls, "https://$global_cfg->{domain}/$authors[-1]{author}{cpan}/";
     }
   }
 
   method build_site {
     say "Building...";
+    path($global_cfg->{output_dir})->mkpath;
 
     $tt = Template->new({
       ENCODING     => 'utf8',
@@ -215,6 +243,8 @@ class Dashboard::App {
       WRAPPER      => $global_cfg->{wrapper},
       VARIABLES    => {
         analytics    => $global_cfg->{analytics},
+        menu         => $global_cfg->{menu},
+        domain       => $global_cfg->{domain},
         badges       => Dashboard::BadgeMaker->new,
       },
     });
@@ -231,8 +261,7 @@ class Dashboard::App {
       wanted => sub {
         return unless -f;
         my $file = $_;
-        my $rel = path($file)->relative('.');
-        $rel =~ s|$global_cfg->{static_dir}/||g;
+        my $rel = path($file)->relative($global_cfg->{static_dir});
         my $out = path($global_cfg->{output_dir}, $rel);
         $out->parent->mkpath;
         path($file)->copy($out);
@@ -250,11 +279,8 @@ class Dashboard::App {
         { binmode => ':utf8' },
       ) or die $tt->error;
 
-      if (-f "authors/data/$_->{author}{cpan}/data.json") {
-        path("docs/$_->{author}{cpan}")->mkdir;
-        path("authors/data/$_->{author}{cpan}/data.json")
-          ->copy("docs/$_->{author}{cpan}/data.json");
-      }
+      path($global_cfg->{output_dir}, $_->{author}{cpan}, 'data.json')
+        ->spew_utf8($json->encode($_));
     }
 
     $tt->process(
@@ -273,7 +299,7 @@ class Dashboard::App {
         { name => ucfirst $_ },
         "$_/index.html",
         { binmode => ':utf8' },
-      );
+      ) or die $tt->error;
       push @urls, "https://$global_cfg->{domain}/$_/";
     }
   }
@@ -286,7 +312,7 @@ class Dashboard::App {
       { urls => \@urls},
       'sitemap.xml',
       { binmode => ':utf8' },
-    );
+    ) or die $tt->error;
   }
 
   sub valid_repo {
@@ -295,7 +321,7 @@ class Dashboard::App {
     return unless defined $repo_uri;
 
     # Default branch lookup only works for GitHub repos
-    return $repo_uri =~ m|github\.com/|;
+    return !!github_repository($repo_uri);
   }
 }
 

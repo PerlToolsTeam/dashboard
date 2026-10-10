@@ -6,12 +6,26 @@ $(document).ready(function()
 
     // See https://datatables.net/ for how this works
 
-    $('#sort_table').DataTable({
-      "paging": true,
-      "columnDefs": [
-        { "targets": [0, 3], "orderable": true },
-        { "targets": "_all", "orderable": false },
-      ],
-      "order": [[ column, direction ]]
-    });
+    var table = $('#sort_table');
+    if (table.length) {
+      var settings = window.dashboardSort || { column: 'name', direction: 'asc' };
+      var columns = table.find('thead th');
+      var orderable = [];
+      var sortIndex = 0;
+      columns.each(function(index) {
+        var name = $(this).attr('data-sort-name');
+        if (name) {
+          orderable.push(index);
+          if (name === settings.column) sortIndex = index;
+        }
+      });
+      table.DataTable({
+        "paging": true,
+        "columnDefs": [
+          { "targets": orderable, "orderable": true },
+          { "targets": "_all", "orderable": false },
+        ],
+        "order": [[ sortIndex, settings.direction ]]
+      });
+    }
 });

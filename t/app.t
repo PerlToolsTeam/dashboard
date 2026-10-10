@@ -72,6 +72,19 @@ use Dashboard::BadgeMaker;
   ));
 
   is($github->{repo_def_branch}, 'main', 'GitHub repo still gets a default branch');
+
+  for my $url ('https://evil.invalid/github.com/example/repo',
+    'https://github.com.evil.invalid/example/repo',
+    'https://github.com/example/repo;touch-marker',
+    'https://github.com/example/repo/issues') {
+    my $module = $app->module_from_release(Local::Release->new(
+      name => 'Malformed-1.0', distribution => 'Malformed', version => '1.0',
+      author => 'AUTHOR', date => '2026-10-10T00:00:00',
+      resources => { repository => { web => $url } },
+    ));
+    is($module->{dist}, 'Malformed', 'malformed repository does not lose distribution');
+    ok(!exists $module->{repo_def_branch}, 'malformed repository never triggers branch lookup');
+  }
 }
 
 {

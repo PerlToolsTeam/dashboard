@@ -9,10 +9,15 @@
 [% END -%]
 [% META author_page = 1 -%]
 <script>
-var column = [% sort.column %];
-var direction = "[% sort.direction %]";
+window.dashboardSort = { column: "[% sort.column %]", direction: "[% sort.direction %]" };
 </script>
     <h1>CPAN Dashboard - [% author.cpan %]</h1>
+[% IF fetch_warning -%]
+    <p class="alert alert-warning">[% fetch_warning | html %]</p>
+[% END -%]
+[% IF gathered_at -%]
+    <p>Release metadata gathered at [% gathered_at | html %].</p>
+[% END -%]
     <p><img alt="[% author.cpan %]" class="gravatar" src="[% author.gravatar OR '/images/gravatar.png' %]"></p>
     <p>A dashboard to see the state of
       <a hrsef="https://metacpan.org/author/[% author.cpan %]">[% author.cpan %]'s CPAN modules</a>.</p>
@@ -20,10 +25,10 @@ var direction = "[% sort.direction %]";
     <table class="table table-striped table-hover" id="sort_table">
       <thead>
         <tr>
-          <th>Name / Repo</th>
+          <th data-sort-name="name">Name / Repo</th>
           <th>MetaCPAN</th>
           <th>CPANTS</th>
-          <th>Date</th>
+          <th data-sort-name="date">Date</th>
           <th>Bugs</th>
 [% IF ci.use_gh_actions -%]
           <th>GH Actions</th>

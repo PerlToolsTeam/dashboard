@@ -23,7 +23,7 @@ flowchart TD
     Config[dashboard.json and authors/*.json] --> Gather[Gather release metadata]
     Meta[MetaCPAN API] --> Gather
     GitHub[GitHub CLI and repo_def_branch.json] --> Gather
-    Gather --> Live[docs/AUTHOR/data.json and in-memory author data]
+    Gather --> Live[authors/data/AUTHOR/data.json and in-memory author data]
     Snapshots[authors/data/AUTHOR/data.json] --> Cached[Load cached author data]
     Live --> Render[Render Template Toolkit templates]
     Cached --> Render
@@ -35,9 +35,10 @@ flowchart TD
     Services[External badge services] --> Browser
 ```
 
-The two data sources shown above are distinct. A normal run gathers live data;
-`--build` loads checked-in snapshots. The renderer also copies existing snapshots
-over the downloadable JSON in `docs/`; see the data-handling details below.
+A normal run gathers live data and updates the persistent author snapshots;
+`--build` loads those same snapshots. HTML and downloadable JSON are rendered
+from the same author data. The generated site is disposable; deleting `docs/`
+does not discard the last-known-good author data.
 
 ## Repository map
 
@@ -46,6 +47,8 @@ over the downloadable JSON in `docs/`; see the data-handling details below.
 | [bin/dashboard](bin/dashboard) | Command-line entry point; chooses gathering, building, or both. |
 | [lib/Dashboard/App.pm](lib/Dashboard/App.pm) | Active application: configuration, MetaCPAN retrieval, repository parsing, caching, and site generation. |
 | [lib/Dashboard/BadgeMaker.pm](lib/Dashboard/BadgeMaker.pm) | Produces linked badge image HTML for the dashboard tables. |
+| [lib/Dashboard/Repository.pm](lib/Dashboard/Repository.pm), [lib/Dashboard/BranchCache.pm](lib/Dashboard/BranchCache.pm) | Shared repository URL validation, shell-free GitHub CLI lookup, and last-known-good branch caching. |
+| [lib/Dashboard/Config.pm](lib/Dashboard/Config.pm) | Global configuration validation and shared author/CI/sort normalization. |
 | [lib/Dashboard/Author.pm](lib/Dashboard/Author.pm), [lib/Dashboard/Distribution.pm](lib/Dashboard/Distribution.pm) | Separate class-based data model, exercised by some tests but unused by the main entry point. |
 | [dashboard.json](dashboard.json) | Global paths, template names, analytics setting, and sitemap domain. |
 | `authors/*.json` | Per-author registration and CI configuration. |
@@ -75,14 +78,14 @@ requested stages are enabled:
 | Command | Behavior |
 | --- | --- |
 | `perl -Ilib bin/dashboard` | Gather live metadata, then build the site. |
-| `perl -Ilib bin/dashboard --gather` | Gather metadata and update generated JSON and the branch cache; skip HTML generation. |
+| `perl -Ilib bin/dashboard --gather` | Gather metadata and update persistent snapshots and the branch cache; leave the published site untouched. |
 | `perl -Ilib bin/dashboard --build` | Load checked-in snapshots and build the site without gathering metadata. |
 | `perl -Ilib bin/dashboard --gather --build` | Explicitly run both stages. |
 | `perl -Ilib bin/dashboard --help` | Print usage and exit. |
 
 Run these commands from the repository root. Global configuration, templates,
 static assets, output paths, and the branch cache are resolved relative to the
-working directory. Author discovery uses paths relative to the executable.
+working directory, including the configured author and snapshot directories.
 
 ### 2. Gather release metadata
 
@@ -100,19 +103,27 @@ Each release becomes a hash containing fields such as:
 The repository URL comes from release metadata, preferring
 `resources.repository.web` to `resources.repository.url`. Supported URL forms
 are parsed to identify an owner and repository name. GitHub default branches are
-looked up through `gh repo view` only when the cache lacks an entry. Failed
-lookups warn and cache an empty branch. Branch-dependent badges are then blank.
+looked up through `gh repo view` when the cache lacks a usable entry. Failed
+lookups warn and preserve the previous value; unresolved entries are retried on
+later runs. Repeated failures are suppressed within one cache instance.
+Branch-dependent badges are blank when no valid branch is known.
 Distributions without a repository, or with a non-GitHub repository, still appear
 in the table; GitHub-specific badges require GitHub repository details.
 
 The application sorts releases by release name, applies default table-sort
-settings, and writes the combined author configuration and release data to
-`docs/AUTHOR/data.json`. It saves the updated default-branch cache after gathering
-all authors.
+settings, and atomically writes the combined author configuration and complete
+release data to `authors/data/AUTHOR/data.json` (or the configured `data_dir`).
+Snapshots include `gathered_at`, the UTC timestamp of the successful fetch.
+It saves the updated default-branch cache after gathering all authors.
 
-If an author's metadata fetch fails, the application tries to reuse
-`docs/AUTHOR/data.json`. If that file does not exist, generation fails. This
-fallback does **not** automatically read `authors/data/AUTHOR/data.json`.
+Transient retrieval failures are retried up to `fetch_attempts` times with
+exponential backoff capped at ten seconds between attempts. The HTTP request
+timeout is `http_timeout` seconds. HTTP 408/429/5xx codes and common network/server
+failure reason messages are treated as transient; other failures are not retried.
+If retrieval still fails, the app reads the persistent last-known-good snapshot.
+Logs identify the author, error, snapshot path, and previous gather time; the
+dashboard displays a cached-data warning. Missing or invalid fallback data stops
+generation with an explicit error. Partial release lists never replace snapshots.
 
 ### 3. Alternatively, load snapshots
 
@@ -130,8 +141,8 @@ At examination time, the checkout had 26 author configurations and 23 snapshots.
 
 1. Copies `src/` into the configured output directory.
 2. Renders `tt_lib/dashboard.tt` to `AUTHOR/index.html` for each loaded author.
-3. Copies that author's checked-in snapshot to `docs/AUTHOR/data.json`, if one
-   exists.
+3. Writes that same in-memory author data to `AUTHOR/data.json` in the configured
+   output directory.
 4. Renders `tt_lib/index.tt` to the site's root `index.html`.
 5. Renders configured additional pages, currently `add/index.html`.
 6. Writes `sitemap.xml` with author, home, and additional-page URLs.
@@ -142,11 +153,9 @@ opts out of this HTML wrapper. The generated onboarding page overwrites the
 older `src/add/index.html` copied in the first step, so `tt_lib/add.tt` is the
 effective source for that page.
 
-**A current data inconsistency:** a gather-and-build run renders HTML from the
-freshly gathered in-memory data, but step 3 can replace the fresh downloadable
-JSON with an older checked-in snapshot. There is no active step that updates
-`authors/data/` from gathering. The two JSON locations should not be treated as
-interchangeable caches.
+HTML and downloadable JSON always use the same data, including when gathering
+falls back to a previous snapshot. Gathering updates the persistent data while
+building only updates the disposable site output.
 
 ## Configuration and badges
 
@@ -155,17 +164,22 @@ The current global configuration separates input and output paths:
 - `static_dir`: static source directory, currently `src`;
 - `input_dir`: template directory, currently `tt_lib`;
 - `output_dir`: generated output directory, currently `docs`;
+- `author_dir`: author registration files, currently `authors`;
+- `data_dir`: persistent author snapshots, currently `authors/data`;
+- `branch_cache_file`: persistent GitHub default-branch cache;
+- `fetch_attempts`, `http_timeout`, and `retry_delay`: retrieval attempt limit,
+  request timeout, and initial backoff delay (defaults: 3, 20 seconds, 1 second);
 - `index_template`, `author_template`, and `wrapper`: primary template names;
 - `page_templates`: additional page names, currently `["add"]`;
 - `domain`: domain used in the sitemap;
 - `analytics`: analytics identifier exposed to the templates.
 
-Some configuration support is incomplete. Several output JSON paths are
-hard-coded to `docs/`, and canonical/social URLs and `src/CNAME` name
-`cpandashboard.com` directly. The wrapper iterates `output.menu`, whereas the
-global configuration has a top-level `menu` that the renderer does not pass in.
-Changing global settings alone is therefore insufficient for every deployment
-customization.
+Configuration is validated before fetching or generating files. Errors identify
+the source file and field. Output must be separate from static sources, templates,
+registrations, snapshots, and the branch cache, including paths containing `..`
+or existing symlinks. The top-level `menu` is passed to the wrapper and rendered
+with escaped titles and links. Canonical/social URLs and `src/CNAME` still name
+`cpandashboard.com` directly; changing domain requires updating those sources.
 
 Per-author files use this shape:
 
@@ -182,16 +196,18 @@ Per-author files use this shape:
     "use_codecov": 0
   },
   "sort": {
-    "column": 3,
+    "column": "date",
     "direction": "desc"
   }
 }
 ```
 
-The example selects release-date ordering. Browser column indexes are zero-based:
-name/repository is `0`, MetaCPAN is `1`, CPANTS is `2`, and date is `3`. The
-application currently converts a textual `"date"` sort setting to `2`, which
-does not match the template; use numeric `3` for date ordering.
+The example selects release-date ordering. Sort columns are `name` (or `repo`)
+and `date`, with `asc` or `desc` direction. Legacy numeric settings `0` and `3`
+are accepted and normalized to names. The browser finds the current index from
+the header's `data-sort-name` attribute, so adding or moving columns preserves
+the intended ordering. Other column settings are rejected. Missing settings
+default to name ascending.
 
 CPAN version and CPANTS quality badges are always included. Author-level flags
 enable columns for GitHub Actions, Travis `.org` or `.com`, Cirrus, AppVeyor,
@@ -205,8 +221,9 @@ distribution's repository. CI and coverage image availability is separate from
 the metadata gathered when the site builds.
 
 In the browser, Bootstrap provides styling and jQuery DataTables provides table
-searching, pagination, and ordering. Only name/repository and date columns are
-configured as orderable. `src/js/dashboard.js` also replaces failed badge images
+searching, pagination, and ordering. Headers with `data-sort-name` are orderable.
+Pages without a dashboard table do not initialize DataTables or require author
+sort globals. `src/js/dashboard.js` also replaces failed badge images
 with `/images/missing_image.png`.
 
 ## Running and checking it locally
@@ -239,21 +256,26 @@ Useful checks are:
 ```sh
 prove -Ilib t/00-load.t t/app.t
 prove -Ilib t
+node t/dashboard-js.test.cjs
 ```
 
 The first command runs module-loading and local release-parsing/badge checks.
-The full suite additionally queries MetaCPAN and exercises the separate
-`Author`/`Distribution` classes. It includes an outdated assertion that
-DAVECROSS's GitHub username is `davorg`, while the current configuration says
-`davorg-cpan`. The separate distribution code also uses `Data::Printer`, which
-is absent from `cpanfile`. These make the full suite different from a self-contained
-test of the main generation path.
+The full default suite also exercises the separate `Author`/`Distribution`
+classes using fixed fixtures and tests the repository helper and branch cache
+with a stub GitHub CLI. It requires neither network access nor credentials.
+The default tests do not depend on the experimental `github_repo.json`.
+The Node.js checks execute the browser script with a small jQuery/DataTables
+fixture to verify reordered columns and initialization on pages without tables;
+they do not constitute a real-browser rendering test.
 
 During this examination, the first command passed **14 tests across two files**
 using Perl 5.42.3. An isolated build using copied source and snapshots succeeded,
 producing 23 author HTML pages and JSON files, the home and onboarding pages,
 copied assets, and a sitemap with 25 URLs. Live gathering, browser rendering,
-the network-dependent tests, and deployment were not exercised.
+and deployment were not exercised. The subsequent robustness work adds an
+offline end-to-end suite covering combined, gather-only, build-only, and CLI
+builds, HTML/JSON consistency, retry/fallback behavior, partial iteration failure,
+Unicode metadata, and atomic snapshot write failure.
 
 ## Automation and publication
 
@@ -270,9 +292,9 @@ deploys that artifact to GitHub Pages.
 
 [rebuild_cache.yml](.github/workflows/rebuild_cache.yml) refreshes the default
 branch cache weekly at Monday 00:00 UTC and on manual dispatch, committing it
-back only for the upstream repository. Unlike the main app's lookup, the refresh
-script does not check `gh`'s exit status before replacing a cache entry; a failed
-lookup can leave an empty branch value.
+back only for the upstream repository. The script uses the same validated lookup
+as the application. Failed or empty lookups preserve valid cache entries, and
+writes use atomic file replacement.
 
 The documented onboarding path in `tt_lib/add.tt` is to add an author JSON file
 through a pull request. A separate [add_user.yml](.github/workflows/add_user.yml)
@@ -282,8 +304,16 @@ prints it to standard error. It does not save a file, open a pull request, or
 register an author by itself.
 
 The remaining development setup workflow installs Perl 5.40 and dependencies;
-it does not run the test suite. The generation workflow likewise skips dependency
-tests and has no explicit project-test step.
+it does not run the test suite. The generation workflow runs `prove -Ilib t`
+before generating or publishing pages. A separate test workflow runs on pushes
+and pull requests with Perl 5.40 and 5.42. The branch-refresh workflow explicitly
+sets up Perl 5.40 before loading the shared cache class.
+
+Supported configuration limits are 1–5 fetch attempts, 1–60 seconds per HTTP
+request, and 0–10 seconds for initial backoff. CI flags accept 0/1 or JSON booleans;
+workflow/task lists contain non-empty names and default to empty arrays. All
+registrations are checked, including duplicate CPAN IDs, before the first author
+is fetched. Snapshots receive the same author/CI/sort validation before rendering.
 
 ## Where to start when changing the project
 
@@ -296,7 +326,14 @@ file and use live gathering to see its effect.
 The `Author` and `Distribution` classes appear to be an unfinished alternate
 model: they use `distributions` and longer field names such as `distribution`
 and `version`, while the active app, snapshots, and templates use `modules`,
-`dist`, and `ver`. `Distribution` also has an empty command in its default-branch
-lookup. They are not drop-in replacements for the current app's hash-based data
-flow. Treat their integration as a code change that needs explicit design and
-verification.
+`dist`, and `ver`. Both models now use the same repository validation and branch
+cache; neither reads `github_repo.json`. They are not drop-in replacements for
+the current app's hash-based data flow. Treat their integration as a code change
+that needs explicit design and verification.
+
+GitHub repository metadata accepts HTTP(S), `git://`, `ssh://git@github.com/`,
+and `git@github.com:owner/repo` URLs. Validation checks the hostname and two-part
+repository path, then normalizes valid GitHub links to HTTPS. Subpages, query
+strings, fragments, credentials in HTTP URLs, and malformed components cannot
+trigger GitHub lookups or badges. CLI calls use separate arguments without a
+shell, including calls from the cache-refresh script.

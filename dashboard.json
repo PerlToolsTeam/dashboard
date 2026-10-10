@@ -2,6 +2,12 @@
   "static_dir" : "src",
   "input_dir" : "tt_lib",
   "output_dir" : "docs",
+  "author_dir" : "authors",
+  "data_dir" : "authors/data",
+  "branch_cache_file" : "repo_def_branch.json",
+  "fetch_attempts" : 3,
+  "http_timeout" : 20,
+  "retry_delay" : 1,
   "index_template" : "index.tt",
   "page_templates" : [
     "add"
