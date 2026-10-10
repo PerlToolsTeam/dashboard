@@ -55,8 +55,9 @@ class Dashboard::App {
     }
 
     for (glob "$RealBin/../authors/*.json") {
-      push @authors, $self->do_author($_);
-      push @urls, "https://$global_cfg->{domain}/$authors[-1]{author}{cpan}/";
+      my $author = $self->do_author($_) or next;
+      push @authors, $author;
+      push @urls, "https://$global_cfg->{domain}/$author->{author}{cpan}/";
     }
 
     path($branch_cache_file)->spew_utf8($json->encode($repo_def_branch));
@@ -95,8 +96,9 @@ class Dashboard::App {
         return $json->decode($data_file->slurp_utf8);
       }
 
-      die "MetaCPAN fetch failed for $cfg->{author}{cpan} "
-        . "and no cached data is available: $e\n";
+      warn "MetaCPAN fetch failed for $cfg->{author}{cpan} "
+         . "and no cached data is available; skipping: $e\n";
+      return;
     }
 
     $cfg->{modules} = [ sort { $a->{name} cmp $b->{name} } @modules ];
