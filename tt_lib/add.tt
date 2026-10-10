@@ -192,6 +192,13 @@ metadata and adds your dashboard.</li>
   </div>
 </div>
 
+<h2 id="repository-metadata">Repository metadata</h2>
+
+<p>A distribution stays in the dashboard when its repository link is absent or
+unsupported. Add a web URL under <code>resources.repository.web</code> in the
+distribution metadata, then publish a new release. Links to other web hosts are
+retained; the supported service badges require a recognized GitHub repository.</p>
+
 <h2>Fixing issues</h2>
 
 A number of issue that could be discovered by the CPAN Dashboard and how to fix them.

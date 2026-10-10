@@ -66,6 +66,9 @@ for my $name (qw(NoRepo GitLab Bitbucket Unsafe)) {
 like($rows{GitLab}, qr{href="https://gitlab.com/group/subgroup/project"}, 'nested GitLab repository link is preserved');
 like($rows{Bitbucket}, qr{href="https://bitbucket.org/example/project"}, 'Bitbucket repository link is preserved');
 unlike($html, qr{href="javascript:}, 'unsafe repository and bugtracker protocols are not linked');
+like($rows{NoRepo}, qr{Repository link unavailable}, 'missing repository is identified in its retained row');
+like($rows{NoRepo}, qr{/add/#repository-metadata}, 'missing repository links to instructions');
+unlike($rows{GitLab}, qr{Repository link unavailable}, 'valid alternative repository does not look missing');
 my ($thead) = $html =~ m{<thead>(.*?)</thead>}s;
 my $columns = scalar(() = $thead =~ /<th\b/g);
 for my $row (@rows) { is(scalar(() = $row =~ /<td\b/g), $columns, 'disabled service cells preserve table alignment') }

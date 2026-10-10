@@ -1,0 +1,26 @@
+{
+  "audited_at_utc": "2026-10-10T16:07:37Z",
+  "issues": [
+    31,
+    115
+  ],
+  "source": "MetaCPAN::Client author->releases; author = CPANID and status = latest",
+  "method": "Parse each release with Dashboard::App::module_from_release, normalize with production configuration validator, render dashboard.tt, compare tbody row count with API result total. Branch lookups stubbed to avoid unrelated GitHub requests.",
+  "scope": "Read-only live audit. Persistent repository snapshots and caches were not changed. Counts cover the API latest-release query, not historical uploads or author ownership across maintainers.",
+  "results": [
+    {
+      "api_total_latest_releases": 347,
+      "author": "TOBYINK",
+      "missing_usable_repository": 15,
+      "non_github_repository": 40,
+      "rendered_rows": 347
+    },
+    {
+      "api_total_latest_releases": 36,
+      "author": "SZABGAB",
+      "missing_usable_repository": 3,
+      "non_github_repository": 1,
+      "rendered_rows": 36
+    }
+  ]
+}

@@ -139,3 +139,22 @@ Browser behavior covers minimal registration, optional services, escaping throug
 JSON serialization, invalid IDs/usernames, missing workflow names, and stale output.
 An additional headless Chromium check passes against generated onboarding HTML
 for minimal signup, workflow validation, and selected services with networking disabled.
+
+## Sprint 8: catalogue audit and missing-metadata guidance
+
+Addresses #31 and #115.
+
+- Audited the authors in #31 against the current live MetaCPAN latest-release
+  query and rendered every returned release through the production parser/template.
+- TOBYINK returned 347 releases and 347 rows, including 15 without a usable
+  repository and 40 with a non-GitHub repository. SZABGAB returned 36 and 36,
+  including three without a repository and one with a non-GitHub repository.
+- Recorded query scope and counts in `audits/catalogue-2026-10-10.json`.
+  The historical repository-only filter was already absent from the active
+  parser; this session adds regression coverage and a visible explanation.
+- Added a missing-link indicator with guidance for updating release metadata.
+  Valid GitLab/Bitbucket links remain usable and retain generic badges.
+
+Validation: 400 offline Perl checks across twelve files and twelve JavaScript
+checks pass. Live API totals matched rendered rows exactly for both cited authors.
+The read-only audit did not replace stored snapshots or change branch caches.

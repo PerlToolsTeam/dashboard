@@ -109,6 +109,11 @@ later runs. Repeated failures are suppressed within one run.
 Branch-dependent badges are blank when no valid branch is known.
 Distributions without a repository, or with a non-GitHub repository, still appear
 in the table; GitHub-specific badges require GitHub repository details.
+Rows without a usable repository link show a label linking to metadata guidance.
+The read-only [catalogue audit](audits/catalogue-2026-10-10.json) compared the live
+latest-release query with production-rendered rows for the authors in #31:
+347/347 for TOBYINK and 36/36 for SZABGAB on 10 October 2026, including missing
+and non-GitHub repositories. These counts cover that query, not historical uploads.
 
 The application sorts releases by release name, applies default table-sort
 settings, and atomically writes the combined author configuration and complete

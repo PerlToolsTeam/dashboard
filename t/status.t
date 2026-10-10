@@ -84,7 +84,7 @@ my $hostile = release(distribution => 'Broken', resources => {repository => {web
 app(mcpan => client(releases => [$hostile]))->run;
 $report = $json->decode($report_path->slurp_utf8);
 is($report->{problems}[0]{service}, 'Metadata', 'unsupported link is reported without losing distribution');
-like($temp->child('site/EXAMPLE/index.html')->slurp_utf8, qr/>Broken<\/td>/, 'unsupported link retains row');
+like($temp->child('site/EXAMPLE/index.html')->slurp_utf8, qr/>Broken(?:<\/td>|<br>)/, 'unsupported link retains row');
 
 # Template escaping covers public report fields independently of API normalization.
 my $tt = Template->new(INCLUDE_PATH => "$root/tt_lib", WRAPPER => 'page.tt');

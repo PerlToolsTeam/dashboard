@@ -56,7 +56,7 @@ window.dashboardSort = { column: "[% sort.column %]", direction: "[% sort.direct
       <tbody>
 [% FOREACH m IN modules -%]
         <tr>
-          <td>[% IF m.repo %]<a href="[% m.repo | html %]">[% m.dist | html %]</a>[% ELSE %][% m.dist | html %][% END %][% IF m.insecure_repo %] <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span>[% END %]</td>
+          <td>[% IF m.repo %]<a href="[% m.repo | html %]">[% m.dist | html %]</a>[% ELSE %][% m.dist | html %]<br><small><a href="/add/#repository-metadata">Repository link unavailable</a></small>[% END %][% IF m.insecure_repo %] <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span>[% END %]</td>
           <td>[% badges.cpan(m) %]</td>
           <td>[% badges.cpants(m) %]</td>
           <td>[% m.date | html %]</td>
