@@ -10,12 +10,14 @@
   "retry_delay" : 1,
   "index_template" : "index.tt",
   "page_templates" : [
-    "add"
+    "add",
+    "status"
   ],
   "author_template" : "dashboard.tt",
   "wrapper" : "page.tt",
   "analytics" : "G-9VMMR7SVD4",
   "menu" : [
+    { "title" : "Build status", "link" : "/status/" }
   ],
   "domain" : "cpandashboard.com"
 }

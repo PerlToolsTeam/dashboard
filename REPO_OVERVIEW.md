@@ -172,7 +172,7 @@ The current global configuration separates input and output paths:
 - `fetch_attempts`, `http_timeout`, and `retry_delay`: retrieval attempt limit,
   request timeout, and initial backoff delay (defaults: 3, 20 seconds, 1 second);
 - `index_template`, `author_template`, and `wrapper`: primary template names;
-- `page_templates`: additional page names, currently `["add"]`;
+- `page_templates`: additional page names, currently `["add", "status"]`;
 - `domain`: domain used in the sitemap;
 - `analytics`: analytics identifier exposed to the templates.
 
@@ -182,6 +182,14 @@ registrations, snapshots, and the branch cache, including paths containing `..`
 or existing symlinks. The top-level `menu` is passed to the wrapper and rendered
 with escaped titles and links. Canonical/social URLs and `src/CNAME` still name
 `cpandashboard.com` directly; changing domain requires updating those sources.
+
+The `/status/` page and `/status/data.json` describe the last successful site
+build. They report recovered MetaCPAN failures with the cached snapshot date,
+failed GitHub branch lookups, and unsupported repository URLs. Raw exceptions
+remain in build logs; public reports contain predefined messages and identifiers.
+Cached builds explicitly state that they did not check current service availability.
+Fatal failures cannot publish a new status page, so the page links to generation
+workflow logs. Badge-image availability is evaluated by the browser, not the build.
 
 Per-author files use this shape:
 

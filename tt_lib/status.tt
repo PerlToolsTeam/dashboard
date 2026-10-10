@@ -1,0 +1,31 @@
+<h1>Build status</h1>
+
+<p>This report describes the last successful site build, completed at
+<time>[% report.generated_at | html %]</time> UTC for [% report.author_count %] authors.</p>
+[% IF report.mode == 'cached-build' %]
+<p>This build used stored snapshots. It did not contact MetaCPAN or verify current service availability.</p>
+[% ELSE %]
+<p>This build attempted to refresh release metadata.</p>
+[% END %]
+
+[% IF report.problems.size %]
+<h2>Problems recovered during this build</h2>
+<table class="table">
+  <thead><tr><th>Service</th><th>Author or distribution</th><th>Result</th></tr></thead>
+  <tbody>
+[% FOR problem IN report.problems %]
+    <tr><td>[% problem.service | html %]</td><td>[% problem.subject | html %]</td>
+      <td>[% problem.message | html %]
+      [% IF problem.gathered_at %] Last successful metadata refresh: [% problem.gathered_at | html %].[% END %]</td></tr>
+[% END %]
+  </tbody>
+</table>
+[% ELSE %]
+<p>No processing problems were recorded during this build.</p>
+[% END %]
+
+<p>Builds that fail before publication cannot update this report. See the
+<a href="https://github.com/PerlToolsTeam/dashboard/actions/workflows/regenerate.yml">generation workflow logs</a>
+for failed runs and detailed diagnostics. External badge images are loaded by your browser;
+their current availability is not checked by this report.</p>
+<p><a href="data.json">Download this report as JSON</a>.</p>

@@ -3,7 +3,7 @@
 Session window: 14:51–16:21 UTC (90 minutes).
 Branch: `robustness-sprints-2026-10-10`.
 The fourth sprint continues on `dashboard-ci-overrides-2026-10-10`, based on the
-three robustness commits in draft PR #122.
+three robustness commits in draft PR #122. Sprints 4 onward are in draft PR #123.
 
 ## Sprint 1: repository lookup and branch-cache recovery
 
@@ -87,3 +87,21 @@ The real catalogue test uses the production templates with mixed repository
 hosts, disabled services, alternate workflow filenames, and changed cached-build
 settings. The original distribution-count discrepancy in #31 has not been
 reproduced against current MetaCPAN data, so that issue remains an audit candidate.
+
+## Sprint 5: visible processing problems
+
+Addresses #45.
+
+- Added a navigable build-status page and machine-readable report with build time,
+  build mode, author count, and recovered processing problems.
+- Exposed metadata fallbacks, snapshot dates, failed branch lookups, and unsupported
+  repository links using predefined public messages; raw errors stay in logs.
+- Distinguished cached builds from successful metadata refreshes and linked to
+  workflow logs for fatal failures that cannot update the published report.
+- Reset lookup failure memoization between runs of a reused application, allowing
+  later runs to retry without duplicating old problems.
+
+Validation: 362 offline Perl checks across ten files and five JavaScript checks
+pass. Coverage includes recovery reports, repeated runs, no-network cached builds,
+escaped public fields, retained branches, and fatal failure preserving the previous
+status report. External badge availability remains a browser concern.

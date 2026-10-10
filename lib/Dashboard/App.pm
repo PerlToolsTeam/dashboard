@@ -32,6 +32,7 @@ class Dashboard::App {
   field $tt;
   field @authors;
   field @urls;
+  field @problems;
   field $run_gather :param(gather) = 1;
   field $run_build :param(build) = 1;
   field $branch_cache = Dashboard::BranchCache->new(
@@ -41,6 +42,8 @@ class Dashboard::App {
   method run {
     @authors = ();
     @urls = ();
+    @problems = ();
+    $branch_cache->begin_run;
     if ($run_gather) {
       $self->gather_data;
     } else {
@@ -109,6 +112,8 @@ class Dashboard::App {
       . "Using cached snapshot $snapshot (gathered "
       . ($cached->{gathered_at} // 'at an unknown time') . ").\n";
     $cached->{fetch_warning} = 'Release metadata could not be refreshed; showing cached data.';
+    push @problems, { service => 'MetaCPAN', subject => $id,
+      message => $cached->{fetch_warning}, gathered_at => $cached->{gathered_at} };
     return $cached;
   }
 
@@ -204,6 +209,8 @@ class Dashboard::App {
     my $web_url = resource_url($mod->{repo});
     unless ($web_url) {
       warn "Unsupported repository URL for $mod->{name}; retaining distribution without a link.\n";
+      push @problems, { service => 'Metadata', subject => $mod->{dist},
+        message => 'Unsupported repository URL; distribution retained without a repository link.' };
       $mod->{repo} = undef;
       return $mod;
     }
@@ -299,13 +306,23 @@ class Dashboard::App {
   }
 
   method make_other_pages {
+    my $report = {
+      generated_at => strftime('%Y-%m-%dT%H:%M:%SZ', gmtime),
+      mode => $run_gather ? 'gather-and-build' : 'cached-build',
+      author_count => scalar @authors,
+      problems => [@problems, @{ $branch_cache->problems }],
+    };
+    # Rendering can stringify numeric scalars; preserve the JSON value types.
+    my $report_json = $json->encode($report);
     for (@{ $global_cfg->{page_templates} }) {
       $tt->process(
         "$_.tt",
-        { name => ucfirst $_ },
+        { name => ucfirst $_, report => $report },
         "$_/index.html",
         { binmode => ':utf8' },
       ) or die $tt->error;
+      path($global_cfg->{output_dir}, 'status', 'data.json')->spew_utf8($report_json)
+        if $_ eq 'status';
       push @urls, "https://$global_cfg->{domain}/$_/";
     }
   }
