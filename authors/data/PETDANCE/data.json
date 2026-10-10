@@ -6,6 +6,7 @@
       "name" : "Andy Lester"
    },
    "ci" : {
+      "cirrus_task_names" : [],
       "gh_workflow_names" : [
          "testsuite"
       ],
@@ -17,7 +18,68 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
+   "gathered_at" : "2026-10-10T16:47:45Z",
    "modules" : [
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2004-11-22",
+         "dist" : "Apache-Lint",
+         "name" : "Apache-Lint-0.10",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.10"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2005-09-17",
+         "dist" : "Apache-Pod",
+         "name" : "Apache-Pod-0.22",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.22"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "https://github.com/petdance/carp-assert-more/issues",
+         "date" : "2025-03-06",
+         "dist" : "Carp-Assert-More",
+         "name" : "Carp-Assert-More-2.9.0",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "v2.9.0"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2004-11-18",
+         "dist" : "Data-Hash-Totals",
+         "name" : "Data-Hash-Totals-0.10",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.10"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2007-10-15",
+         "dist" : "Data-PerlSurvey2007",
+         "name" : "Data-PerlSurvey2007-1.00",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.00"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=File-Find-Wanted",
+         "date" : "2012-06-08",
+         "dist" : "File-Find-Wanted",
+         "name" : "File-Find-Wanted-1.00",
+         "repo" : null,
+         "uses_rt" : true,
+         "ver" : "1.00"
+      },
       {
          "auth" : "PETDANCE",
          "bugtracker" : "http://github.com/petdance/file-next/issues",
@@ -26,8 +88,7 @@
          "insecure_repo" : true,
          "name" : "File-Next-1.18",
          "repo" : "http://github.com/petdance/file-next/tree/master",
-         "repo_def_branch" : "",
-         "repo_name" : "file-next/tree/master",
+         "repo_name" : "file-next",
          "repo_owner" : "petdance",
          "uses_rt" : false,
          "ver" : "1.18"
@@ -45,6 +106,16 @@
          "repo_owner" : "petdance",
          "uses_rt" : false,
          "ver" : "2.32"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2023-07-06",
+         "dist" : "HTML-Scrape",
+         "name" : "HTML-Scrape-0.3.0",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "v0.3.0"
       },
       {
          "auth" : "PETDANCE",
@@ -67,7 +138,7 @@
          "dist" : "HTML-Tidy",
          "insecure_repo" : true,
          "name" : "HTML-Tidy-1.60",
-         "repo" : "http://github.com/petdance/html-tidy",
+         "repo" : "https://github.com/petdance/html-tidy",
          "repo_def_branch" : "dev",
          "repo_name" : "html-tidy",
          "repo_owner" : "petdance",
@@ -81,7 +152,7 @@
          "dist" : "HTML-Tidy5",
          "insecure_repo" : true,
          "name" : "HTML-Tidy5-1.06",
-         "repo" : "http://github.com/petdance/html-tidy5",
+         "repo" : "https://github.com/petdance/html-tidy5",
          "repo_def_branch" : "dev",
          "repo_name" : "html-tidy5",
          "repo_owner" : "petdance",
@@ -95,7 +166,7 @@
          "dist" : "List-Cycle",
          "insecure_repo" : false,
          "name" : "List-Cycle-1.04",
-         "repo" : "git://github.com/petdance/list-cycle.git",
+         "repo" : "https://github.com/petdance/list-cycle",
          "repo_def_branch" : "main",
          "repo_name" : "list-cycle",
          "repo_owner" : "petdance",
@@ -104,45 +175,65 @@
       },
       {
          "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2006-11-24",
+         "dist" : "Module-Depends-Tree",
+         "name" : "Module-Depends-Tree-1.00",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.00"
+      },
+      {
+         "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/Perl-Critic/Perl-Critic/issues",
-         "date" : "2023-10-17",
+         "date" : "2024-10-23",
          "dist" : "Perl-Critic",
          "insecure_repo" : false,
-         "name" : "Perl-Critic-1.152",
-         "repo" : "git://github.com/Perl-Critic/Perl-Critic.git",
+         "name" : "Perl-Critic-1.156",
+         "repo" : "https://github.com/Perl-Critic/Perl-Critic",
          "repo_def_branch" : "dev",
          "repo_name" : "Perl-Critic",
          "repo_owner" : "Perl-Critic",
          "uses_rt" : false,
-         "ver" : "1.152"
+         "ver" : "1.156"
       },
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/petdance/perl-critic-bangs",
-         "date" : "2017-05-25",
+         "date" : "2024-10-21",
          "dist" : "Perl-Critic-Bangs",
          "insecure_repo" : false,
-         "name" : "Perl-Critic-Bangs-1.12",
-         "repo" : "git://github.com/petdance/perl-critic-bangs.git",
+         "name" : "Perl-Critic-Bangs-1.14",
+         "repo" : "https://github.com/petdance/perl-critic-bangs",
          "repo_def_branch" : "dev",
          "repo_name" : "perl-critic-bangs",
          "repo_owner" : "petdance",
          "uses_rt" : false,
-         "ver" : "1.12"
+         "ver" : "1.14"
       },
       {
          "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/Perl-Critic/Perl-Critic-StricterSubs/issues",
-         "date" : "2022-04-26",
+         "date" : "2024-10-22",
          "dist" : "Perl-Critic-StricterSubs",
          "insecure_repo" : false,
-         "name" : "Perl-Critic-StricterSubs-0.06",
-         "repo" : "git://github.com/Perl-Critic/Perl-Critic-StricterSubs.git",
+         "name" : "Perl-Critic-StricterSubs-0.08",
+         "repo" : "https://github.com/Perl-Critic/Perl-Critic-StricterSubs",
          "repo_def_branch" : "dev",
          "repo_name" : "Perl-Critic-StricterSubs",
          "repo_owner" : "Perl-Critic",
          "uses_rt" : false,
-         "ver" : "0.06"
+         "ver" : "0.08"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2005-01-03",
+         "dist" : "Pod-Outline",
+         "name" : "Pod-Outline-0.10",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.10"
       },
       {
          "auth" : "PETDANCE",
@@ -151,7 +242,7 @@
          "dist" : "SQL-Tiny",
          "insecure_repo" : false,
          "name" : "SQL-Tiny-0.04",
-         "repo" : "git://github.com/petdance/sql-tiny.git",
+         "repo" : "https://github.com/petdance/sql-tiny",
          "repo_def_branch" : "dev",
          "repo_name" : "sql-tiny",
          "repo_owner" : "petdance",
@@ -160,12 +251,72 @@
       },
       {
          "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2010-08-17",
+         "dist" : "TAP-Parser-SourceHandler-PHP",
+         "name" : "TAP-Parser-SourceHandler-PHP-0.01",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.01"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2022-03-10",
+         "dist" : "Template-Plugin-Cache",
+         "name" : "Template-Plugin-Cache-0.14",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.14"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "https://github.com/petdance/template-plugin-package/issues",
+         "date" : "2024-03-12",
+         "dist" : "Template-Plugin-Package",
+         "name" : "Template-Plugin-Package-1.00",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.00"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2009-03-07",
+         "dist" : "Template-Timer",
+         "name" : "Template-Timer-1.00",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.00"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2004-02-26",
+         "dist" : "Test-HTML-Tidy",
+         "name" : "Test-HTML-Tidy-1.00",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.00"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2016-01-28",
+         "dist" : "Test-Memory-Cycle",
+         "name" : "Test-Memory-Cycle-1.06",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.06"
+      },
+      {
+         "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/Perl-Critic/Test-Perl-Critic/issues",
          "date" : "2018-03-26",
          "dist" : "Test-Perl-Critic",
          "insecure_repo" : false,
          "name" : "Test-Perl-Critic-1.04",
-         "repo" : "git://github.com/Perl-Critic/Test-Perl-Critic.git",
+         "repo" : "https://github.com/Perl-Critic/Test-Perl-Critic",
          "repo_def_branch" : "dev",
          "repo_name" : "Test-Perl-Critic",
          "repo_owner" : "Perl-Critic",
@@ -174,6 +325,7 @@
       },
       {
          "auth" : "PETDANCE",
+         "bugtracker" : "",
          "date" : "2019-06-12",
          "dist" : "Test-Taint",
          "insecure_repo" : false,
@@ -182,6 +334,7 @@
          "repo_def_branch" : "dev",
          "repo_name" : "test-taint",
          "repo_owner" : "petdance",
+         "uses_rt" : false,
          "ver" : "1.08"
       },
       {
@@ -200,21 +353,81 @@
       },
       {
          "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2016-10-04",
+         "dist" : "Test2-Tools-Explain",
+         "name" : "Test2-Tools-Explain-0.02",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.02"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2016-10-07",
+         "dist" : "Test2-Tools-Expressive",
+         "name" : "Test2-Tools-Expressive-0.02",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.02"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2021-03-27",
+         "dist" : "Text-Sparkline",
+         "name" : "Text-Sparkline-v0.1.0",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "v0.1.0"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2003-12-02",
+         "dist" : "WDDX",
+         "name" : "WDDX-1.02",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.02"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "https://github.com/petdance/webservice-solr/issues",
+         "date" : "2020-01-10",
+         "dist" : "WebService-Solr",
+         "name" : "WebService-Solr-0.44",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.44"
+      },
+      {
+         "auth" : "PETDANCE",
          "bugtracker" : "https://github.com/beyondgrep/ack3",
-         "date" : "2023-02-27",
+         "date" : "2026-06-07",
          "dist" : "ack",
          "insecure_repo" : false,
-         "name" : "ack-v3.7.0",
-         "repo" : "git://github.com/beyondgrep/ack3.git",
+         "name" : "ack-v3.10.0",
+         "repo" : "https://github.com/beyondgrep/ack3",
          "repo_def_branch" : "dev",
          "repo_name" : "ack3",
          "repo_owner" : "beyondgrep",
          "uses_rt" : false,
-         "ver" : "v3.7.0"
+         "ver" : "v3.10.0"
+      },
+      {
+         "auth" : "PETDANCE",
+         "bugtracker" : "",
+         "date" : "2006-03-02",
+         "dist" : "hwd",
+         "name" : "hwd-0.20",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.20"
       }
    ],
    "sort" : {
-      "column" : 0,
+      "column" : "name",
       "direction" : "asc"
    }
 }

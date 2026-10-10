@@ -3,9 +3,10 @@
       "cpan" : "VOEGELAS",
       "github" : "voegelas",
       "gravatar" : "https://secure.gravatar.com/avatar/b748542b466dd73c8513245b1b609750?s=130",
-      "name" : "Andreas VÃ¶gele"
+      "name" : "Andreas Vögele"
    },
    "ci" : {
+      "cirrus_task_names" : [],
       "gh_workflow_names" : [
          "linux"
       ],
@@ -17,62 +18,77 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
+   "gathered_at" : "2026-10-10T16:48:06Z",
    "modules" : [
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/Alien-libmaxminddb/issues",
-         "date" : "2024-07-16",
+         "date" : "2026-09-12",
          "dist" : "Alien-libmaxminddb",
          "insecure_repo" : false,
-         "name" : "Alien-libmaxminddb-1.015",
+         "name" : "Alien-libmaxminddb-2.005",
          "repo" : "https://github.com/voegelas/Alien-libmaxminddb",
          "repo_def_branch" : "main",
          "repo_name" : "Alien-libmaxminddb",
          "repo_owner" : "voegelas",
          "uses_rt" : false,
-         "ver" : "1.015"
+         "ver" : "2.005"
       },
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/CPANPLUS-Dist-Debora/issues",
-         "date" : "2024-06-30",
+         "date" : "2025-07-30",
          "dist" : "CPANPLUS-Dist-Debora",
          "insecure_repo" : false,
-         "name" : "CPANPLUS-Dist-Debora-0.013",
+         "name" : "CPANPLUS-Dist-Debora-0.018",
          "repo" : "https://github.com/voegelas/CPANPLUS-Dist-Debora",
          "repo_def_branch" : "main",
          "repo_name" : "CPANPLUS-Dist-Debora",
          "repo_owner" : "voegelas",
          "uses_rt" : false,
-         "ver" : "0.013"
+         "ver" : "0.018"
+      },
+      {
+         "auth" : "VOEGELAS",
+         "bugtracker" : "https://github.com/voegelas/Geo-Location-IP/issues",
+         "date" : "2025-05-16",
+         "dist" : "Geo-Location-IP",
+         "insecure_repo" : false,
+         "name" : "Geo-Location-IP-0.005",
+         "repo" : "https://github.com/voegelas/Geo-Location-IP",
+         "repo_def_branch" : "main",
+         "repo_name" : "Geo-Location-IP",
+         "repo_owner" : "voegelas",
+         "uses_rt" : false,
+         "ver" : "0.005"
       },
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/Geo-Location-TimeZoneFinder/issues",
-         "date" : "2023-07-23",
+         "date" : "2026-02-27",
          "dist" : "Geo-Location-TimeZoneFinder",
          "insecure_repo" : false,
-         "name" : "Geo-Location-TimeZoneFinder-1.001",
+         "name" : "Geo-Location-TimeZoneFinder-1.002",
          "repo" : "https://github.com/voegelas/Geo-Location-TimeZoneFinder",
          "repo_def_branch" : "main",
          "repo_name" : "Geo-Location-TimeZoneFinder",
          "repo_owner" : "voegelas",
          "uses_rt" : false,
-         "ver" : "1.001"
+         "ver" : "1.002"
       },
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/IP-Geolocation-MMDB/issues",
-         "date" : "2022-12-24",
+         "date" : "2025-03-16",
          "dist" : "IP-Geolocation-MMDB",
          "insecure_repo" : false,
-         "name" : "IP-Geolocation-MMDB-1.010",
+         "name" : "IP-Geolocation-MMDB-1.013",
          "repo" : "https://github.com/voegelas/IP-Geolocation-MMDB",
          "repo_def_branch" : "main",
          "repo_name" : "IP-Geolocation-MMDB",
          "repo_owner" : "voegelas",
          "uses_rt" : false,
-         "ver" : "1.010"
+         "ver" : "1.013"
       },
       {
          "auth" : "VOEGELAS",
@@ -91,16 +107,16 @@
       {
          "auth" : "VOEGELAS",
          "bugtracker" : "https://github.com/voegelas/Mail-Exim-ACL-Geolocation/issues",
-         "date" : "2022-12-24",
+         "date" : "2025-02-26",
          "dist" : "Mail-Exim-ACL-Geolocation",
          "insecure_repo" : false,
-         "name" : "Mail-Exim-ACL-Geolocation-1.004",
+         "name" : "Mail-Exim-ACL-Geolocation-1.005",
          "repo" : "https://github.com/voegelas/Mail-Exim-ACL-Geolocation",
          "repo_def_branch" : "main",
          "repo_name" : "Mail-Exim-ACL-Geolocation",
          "repo_owner" : "voegelas",
          "uses_rt" : false,
-         "ver" : "1.004"
+         "ver" : "1.005"
       },
       {
          "auth" : "VOEGELAS",
@@ -132,7 +148,7 @@
       }
    ],
    "sort" : {
-      "column" : 0,
+      "column" : "name",
       "direction" : "asc"
    }
 }

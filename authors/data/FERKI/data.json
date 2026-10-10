@@ -6,6 +6,7 @@
       "name" : "Ferenc Erki"
    },
    "ci" : {
+      "cirrus_task_names" : [],
       "gh_workflow_names" : [
          "build and test"
       ],
@@ -17,20 +18,21 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
+   "gathered_at" : "2026-10-10T16:47:37Z",
    "modules" : [
       {
          "auth" : "FERKI",
          "bugtracker" : "https://github.com/RexOps/Rex/issues",
-         "date" : "2023-08-05",
+         "date" : "2025-07-05",
          "dist" : "Rex",
          "insecure_repo" : false,
-         "name" : "Rex-1.14.3",
+         "name" : "Rex-1.16.1",
          "repo" : "https://github.com/RexOps/Rex",
          "repo_def_branch" : "master",
          "repo_name" : "Rex",
          "repo_owner" : "RexOps",
          "uses_rt" : false,
-         "ver" : "1.14.3"
+         "ver" : "1.16.1"
       },
       {
          "auth" : "FERKI",
@@ -62,7 +64,7 @@
       }
    ],
    "sort" : {
-      "column" : 0,
+      "column" : "name",
       "direction" : "asc"
    }
 }

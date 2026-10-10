@@ -1,0 +1,46 @@
+{
+   "author" : {
+      "cpan" : "WWILLIS",
+      "github" : "willwillis",
+      "gravatar" : "https://en.gravatar.com/userimage/10731026/9d80f820fc6b58a682f31ca01b89f074.png",
+      "name" : "Will Willis"
+   },
+   "ci" : {
+      "cirrus_task_names" : [],
+      "gh_workflow_names" : [],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
+      "use_coveralls" : 0,
+      "use_gh_actions" : 0,
+      "use_travis" : 0,
+      "use_travis_com" : 0
+   },
+   "gathered_at" : "2026-10-10T16:48:06Z",
+   "modules" : [
+      {
+         "auth" : "WWILLIS",
+         "bugtracker" : "",
+         "date" : "2026-01-11",
+         "dist" : "ACME-2026",
+         "name" : "ACME-2026-0.01",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.01"
+      },
+      {
+         "auth" : "WWILLIS",
+         "bugtracker" : "",
+         "date" : "2023-09-27",
+         "dist" : "Acme-MyFirstModule-WWILLIS",
+         "name" : "Acme-MyFirstModule-WWILLIS-0.03",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.03"
+      }
+   ],
+   "sort" : {
+      "column" : "name",
+      "direction" : "asc"
+   }
+}

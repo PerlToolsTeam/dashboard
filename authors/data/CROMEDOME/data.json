@@ -6,6 +6,7 @@
       "name" : "Jason A. Crome"
    },
    "ci" : {
+      "cirrus_task_names" : [],
       "gh_workflow_names" : [
          "CI"
       ],
@@ -17,9 +18,11 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
+   "gathered_at" : "2026-10-10T16:47:33Z",
    "modules" : [
       {
          "auth" : "CROMEDOME",
+         "bugtracker" : "",
          "date" : "2011-01-06",
          "dist" : "CGI-Application-Plugin-CAPTCHA",
          "insecure_repo" : false,
@@ -28,7 +31,28 @@
          "repo_def_branch" : "master",
          "repo_name" : "cgi-application-plugin-captcha",
          "repo_owner" : "cromedome",
+         "uses_rt" : false,
          "ver" : "0.04"
+      },
+      {
+         "auth" : "CROMEDOME",
+         "bugtracker" : "",
+         "date" : "2011-01-05",
+         "dist" : "CGI-Application-Plugin-HTDot",
+         "name" : "CGI-Application-Plugin-HTDot-0.07",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.07"
+      },
+      {
+         "auth" : "CROMEDOME",
+         "bugtracker" : "",
+         "date" : "2004-10-27",
+         "dist" : "CGI-Session-ODBC",
+         "name" : "CGI-Session-ODBC-0.5",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.5"
       },
       {
          "auth" : "CROMEDOME",
@@ -37,7 +61,7 @@
          "dist" : "Dancer-Debug",
          "insecure_repo" : false,
          "name" : "Dancer-Debug-0.04",
-         "repo" : "git://github.com/PerlDancer/dancer-debug.git",
+         "repo" : "https://github.com/PerlDancer/dancer-debug",
          "repo_def_branch" : "main",
          "repo_name" : "dancer-debug",
          "repo_owner" : "PerlDancer",
@@ -65,7 +89,7 @@
          "dist" : "Dancer-Session-PSGI",
          "insecure_repo" : false,
          "name" : "Dancer-Session-PSGI-0.02",
-         "repo" : "git://github.com/PerlDancer/dancer-session-psgi.git",
+         "repo" : "https://github.com/PerlDancer/dancer-session-psgi",
          "repo_def_branch" : "main",
          "repo_name" : "dancer-session-psgi",
          "repo_owner" : "PerlDancer",
@@ -89,16 +113,16 @@
       {
          "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/PerlDancer/Dancer2/issues",
-         "date" : "2024-07-18",
+         "date" : "2026-09-28",
          "dist" : "Dancer2",
          "insecure_repo" : false,
-         "name" : "Dancer2-1.1.1",
+         "name" : "Dancer2-2.2.2",
          "repo" : "https://github.com/PerlDancer/Dancer2",
          "repo_def_branch" : "main",
          "repo_name" : "Dancer2",
          "repo_owner" : "PerlDancer",
          "uses_rt" : false,
-         "ver" : "1.1.1"
+         "ver" : "2.2.2"
       },
       {
          "auth" : "CROMEDOME",
@@ -228,21 +252,45 @@
       },
       {
          "auth" : "CROMEDOME",
+         "bugtracker" : "https://github.com/PerlDancer/Dancer2-Template-Simple/issues",
+         "date" : "2025-09-15",
+         "dist" : "Dancer2-Template-Simple",
+         "insecure_repo" : false,
+         "name" : "Dancer2-Template-Simple-2.0.0",
+         "repo" : "https://github.com/PerlDancer/Dancer2-Template-Simple",
+         "repo_def_branch" : "",
+         "repo_name" : "Dancer2-Template-Simple",
+         "repo_owner" : "PerlDancer",
+         "uses_rt" : false,
+         "ver" : "2.0.0"
+      },
+      {
+         "auth" : "CROMEDOME",
          "bugtracker" : "https://github.com/PerlDancer/dancer2-template-xslate/issues",
          "date" : "2023-02-05",
          "dist" : "Dancer2-Template-Xslate",
          "insecure_repo" : false,
          "name" : "Dancer2-Template-Xslate-v0.2.0",
-         "repo" : "git://github.com/PerlDancer/dancer2-template-xslate.git",
+         "repo" : "https://github.com/PerlDancer/dancer2-template-xslate",
          "repo_def_branch" : "master",
          "repo_name" : "dancer2-template-xslate",
          "repo_owner" : "PerlDancer",
          "uses_rt" : false,
          "ver" : "v0.2.0"
+      },
+      {
+         "auth" : "CROMEDOME",
+         "bugtracker" : "",
+         "date" : "2023-02-05",
+         "dist" : "Task-Dancer2",
+         "name" : "Task-Dancer2-0.07",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.06"
       }
    ],
    "sort" : {
-      "column" : 0,
+      "column" : "name",
       "direction" : "asc"
    }
 }

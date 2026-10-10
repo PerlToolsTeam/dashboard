@@ -6,6 +6,7 @@
       "name" : "Paulo Custodio"
    },
    "ci" : {
+      "cirrus_task_names" : [],
       "gh_workflow_names" : [
          "CI"
       ],
@@ -17,7 +18,28 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
+   "gathered_at" : "2026-10-10T16:47:47Z",
    "modules" : [
+      {
+         "auth" : "PSCUST",
+         "bugtracker" : "",
+         "date" : "2019-03-03",
+         "dist" : "Asm-Preproc",
+         "name" : "Asm-Preproc-1.03",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.03"
+      },
+      {
+         "auth" : "PSCUST",
+         "bugtracker" : "",
+         "date" : "2015-12-28",
+         "dist" : "Asm-Z80-Table",
+         "name" : "Asm-Z80-Table-0.03",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.03"
+      },
       {
          "auth" : "PSCUST",
          "bugtracker" : "https://github.com/pauloscustodio/perl-CPU-Z80-Assembler/issues",
@@ -48,6 +70,17 @@
       },
       {
          "auth" : "PSCUST",
+         "bugtracker" : "",
+         "date" : "2019-03-03",
+         "dist" : "Iterator-Simple-Lookahead",
+         "name" : "Iterator-Simple-Lookahead-0.09",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.09"
+      },
+      {
+         "auth" : "PSCUST",
+         "bugtracker" : "",
          "date" : "2016-05-16",
          "dist" : "Parse-FSM",
          "insecure_repo" : false,
@@ -56,22 +89,46 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-Parse-FSM",
          "repo_owner" : "pauloscustodio",
+         "uses_rt" : false,
          "ver" : "1.13"
       },
       {
          "auth" : "PSCUST",
-         "date" : "2016-05-12",
+         "bugtracker" : "",
+         "date" : "2011-12-31",
+         "dist" : "ParseLex",
+         "name" : "ParseLex-2.21",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "2.21"
+      },
+      {
+         "auth" : "PSCUST",
+         "bugtracker" : "",
+         "date" : "2012-02-28",
+         "dist" : "ParseTemplate",
+         "name" : "ParseTemplate-3.08",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "3.08"
+      },
+      {
+         "auth" : "PSCUST",
+         "bugtracker" : "https://github.com/pauloscustodio/perl-Preproc-Tiny/issues",
+         "date" : "2026-08-03",
          "dist" : "Preproc-Tiny",
          "insecure_repo" : false,
-         "name" : "Preproc-Tiny-0.02",
+         "name" : "Preproc-Tiny-0.10",
          "repo" : "https://github.com/pauloscustodio/perl-Preproc-Tiny",
          "repo_def_branch" : "master",
          "repo_name" : "perl-Preproc-Tiny",
          "repo_owner" : "pauloscustodio",
-         "ver" : "0.02"
+         "uses_rt" : false,
+         "ver" : "0.10"
       },
       {
          "auth" : "PSCUST",
+         "bugtracker" : "",
          "date" : "2023-05-18",
          "dist" : "Text-MacroScript",
          "insecure_repo" : false,
@@ -80,11 +137,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Text-MacroScript",
          "repo_owner" : "pauloscustodio",
+         "uses_rt" : false,
          "ver" : "2.14"
       }
    ],
    "sort" : {
-      "column" : 0,
+      "column" : "name",
       "direction" : "asc"
    }
 }

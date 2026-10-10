@@ -6,6 +6,7 @@
       "name" : "Olaf Alders"
    },
    "ci" : {
+      "cirrus_task_names" : [],
       "gh_workflow_names" : [
          "Build",
          "dzil build and test",
@@ -19,6 +20,7 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
+   "gathered_at" : "2026-10-10T16:47:43Z",
    "modules" : [
       {
          "auth" : "OALDERS",
@@ -37,30 +39,30 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/perl-ide/App-perlimports/issues",
-         "date" : "2024-07-04",
+         "date" : "2026-10-07",
          "dist" : "App-perlimports",
          "insecure_repo" : false,
-         "name" : "App-perlimports-0.000055",
+         "name" : "App-perlimports-0.000067",
          "repo" : "https://github.com/perl-ide/App-perlimports",
          "repo_def_branch" : "main",
          "repo_name" : "App-perlimports",
          "repo_owner" : "perl-ide",
          "uses_rt" : false,
-         "ver" : "0.000055"
+         "ver" : "0.000067"
       },
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/perl-ide/App-perlvars/issues",
-         "date" : "2024-09-16",
+         "date" : "2026-09-19",
          "dist" : "App-perlvars",
          "insecure_repo" : false,
-         "name" : "App-perlvars-0.000006",
+         "name" : "App-perlvars-0.000008",
          "repo" : "https://github.com/perl-ide/App-perlvars",
          "repo_def_branch" : "main",
          "repo_name" : "App-perlvars",
          "repo_owner" : "perl-ide",
          "uses_rt" : false,
-         "ver" : "0.000006"
+         "ver" : "0.000008"
       },
       {
          "auth" : "OALDERS",
@@ -79,16 +81,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/authen-oath/issues",
-         "date" : "2017-04-12",
+         "date" : "2026-05-26",
          "dist" : "Authen-OATH",
          "insecure_repo" : false,
-         "name" : "Authen-OATH-2.0.1",
+         "name" : "Authen-OATH-3.000001",
          "repo" : "https://github.com/oalders/authen-oath",
-         "repo_def_branch" : "master",
+         "repo_def_branch" : "main",
          "repo_name" : "authen-oath",
          "repo_owner" : "oalders",
          "uses_rt" : false,
-         "ver" : "2.0.1"
+         "ver" : "3.000001"
       },
       {
          "auth" : "OALDERS",
@@ -120,6 +122,7 @@
       },
       {
          "auth" : "OALDERS",
+         "bugtracker" : "",
          "date" : "2015-12-05",
          "dist" : "CPAN-Repository",
          "insecure_repo" : false,
@@ -128,6 +131,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-cpan-repository",
          "repo_owner" : "Getty",
+         "uses_rt" : false,
          "ver" : "0.010"
       },
       {
@@ -300,17 +304,31 @@
       },
       {
          "auth" : "OALDERS",
+         "bugtracker" : "https://github.com/libwww-perl/HTML-Form/issues",
+         "date" : "2025-10-22",
+         "dist" : "HTML-Form",
+         "insecure_repo" : false,
+         "name" : "HTML-Form-6.13",
+         "repo" : "https://github.com/libwww-perl/HTML-Form",
+         "repo_def_branch" : "master",
+         "repo_name" : "HTML-Form",
+         "repo_owner" : "libwww-perl",
+         "uses_rt" : false,
+         "ver" : "6.13"
+      },
+      {
+         "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTML-Parser/issues",
-         "date" : "2024-07-30",
+         "date" : "2026-09-19",
          "dist" : "HTML-Parser",
          "insecure_repo" : false,
-         "name" : "HTML-Parser-3.83",
+         "name" : "HTML-Parser-3.86",
          "repo" : "https://github.com/libwww-perl/HTML-Parser",
          "repo_def_branch" : "master",
          "repo_name" : "HTML-Parser",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "3.83"
+         "ver" : "3.86"
       },
       {
          "auth" : "OALDERS",
@@ -329,16 +347,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/http-browserdetect/issues",
-         "date" : "2023-10-19",
+         "date" : "2025-11-01",
          "dist" : "HTTP-BrowserDetect",
          "insecure_repo" : false,
-         "name" : "HTTP-BrowserDetect-3.40",
+         "name" : "HTTP-BrowserDetect-3.45",
          "repo" : "https://github.com/oalders/http-browserdetect",
          "repo_def_branch" : "main",
          "repo_name" : "http-browserdetect",
          "repo_owner" : "oalders",
          "uses_rt" : false,
-         "ver" : "3.40"
+         "ver" : "3.45"
       },
       {
          "auth" : "OALDERS",
@@ -357,86 +375,86 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTTP-Cookies/issues",
-         "date" : "2023-12-07",
+         "date" : "2026-07-26",
          "dist" : "HTTP-Cookies",
          "insecure_repo" : false,
-         "name" : "HTTP-Cookies-6.11",
+         "name" : "HTTP-Cookies-6.12",
          "repo" : "https://github.com/libwww-perl/HTTP-Cookies",
          "repo_def_branch" : "master",
          "repo_name" : "HTTP-Cookies",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "6.11"
+         "ver" : "6.12"
       },
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTTP-Daemon/issues",
-         "date" : "2023-02-24",
+         "date" : "2026-05-19",
          "dist" : "HTTP-Daemon",
          "insecure_repo" : false,
-         "name" : "HTTP-Daemon-6.16",
+         "name" : "HTTP-Daemon-6.17",
          "repo" : "https://github.com/libwww-perl/HTTP-Daemon",
          "repo_def_branch" : "master",
          "repo_name" : "HTTP-Daemon",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "6.16"
+         "ver" : "6.17"
       },
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTTP-Date/issues",
-         "date" : "2023-07-06",
+         "date" : "2026-07-09",
          "dist" : "HTTP-Date",
          "insecure_repo" : false,
-         "name" : "HTTP-Date-6.06",
+         "name" : "HTTP-Date-6.08",
          "repo" : "https://github.com/libwww-perl/HTTP-Date",
          "repo_def_branch" : "master",
          "repo_name" : "HTTP-Date",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "6.06"
+         "ver" : "6.08"
       },
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/HTTP-Message/issues",
-         "date" : "2024-05-27",
+         "date" : "2026-07-24",
          "dist" : "HTTP-Message",
          "insecure_repo" : false,
-         "name" : "HTTP-Message-6.46",
+         "name" : "HTTP-Message-7.04",
          "repo" : "https://github.com/libwww-perl/HTTP-Message",
          "repo_def_branch" : "master",
          "repo_name" : "HTTP-Message",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "6.46"
+         "ver" : "7.04"
       },
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/lwp-consolelogger/issues",
-         "date" : "2023-06-21",
+         "date" : "2026-09-18",
          "dist" : "LWP-ConsoleLogger",
          "insecure_repo" : false,
-         "name" : "LWP-ConsoleLogger-1.000001",
+         "name" : "LWP-ConsoleLogger-1.000003",
          "repo" : "https://github.com/oalders/lwp-consolelogger",
          "repo_def_branch" : "main",
          "repo_name" : "lwp-consolelogger",
          "repo_owner" : "oalders",
          "uses_rt" : false,
-         "ver" : "1.000001"
+         "ver" : "1.000003"
       },
       {
          "auth" : "OALDERS",
-         "bugtracker" : "https://github.com/libwww-perl/lwp-mediatypes/issues",
-         "date" : "2019-03-20",
+         "bugtracker" : "https://github.com/libwww-perl/LWP-MediaTypes/issues",
+         "date" : "2026-09-04",
          "dist" : "LWP-MediaTypes",
          "insecure_repo" : false,
-         "name" : "LWP-MediaTypes-6.04",
-         "repo" : "https://github.com/libwww-perl/lwp-mediatypes",
+         "name" : "LWP-MediaTypes-6.05",
+         "repo" : "https://github.com/libwww-perl/LWP-MediaTypes",
          "repo_def_branch" : "master",
-         "repo_name" : "lwp-mediatypes",
+         "repo_name" : "LWP-MediaTypes",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "6.04"
+         "ver" : "6.05"
       },
       {
          "auth" : "OALDERS",
@@ -455,16 +473,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/LWP-Protocol-https/issues",
-         "date" : "2024-03-11",
+         "date" : "2026-07-23",
          "dist" : "LWP-Protocol-https",
          "insecure_repo" : false,
-         "name" : "LWP-Protocol-https-6.14",
+         "name" : "LWP-Protocol-https-6.17",
          "repo" : "https://github.com/libwww-perl/LWP-Protocol-https",
          "repo_def_branch" : "master",
          "repo_name" : "LWP-Protocol-https",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "6.14"
+         "ver" : "6.17"
       },
       {
          "auth" : "OALDERS",
@@ -595,44 +613,44 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/Net-HTTP/issues",
-         "date" : "2023-06-16",
+         "date" : "2025-08-29",
          "dist" : "Net-HTTP",
          "insecure_repo" : false,
-         "name" : "Net-HTTP-6.23",
+         "name" : "Net-HTTP-6.24",
          "repo" : "https://github.com/libwww-perl/Net-HTTP",
          "repo_def_branch" : "master",
          "repo_name" : "Net-HTTP",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "6.23"
+         "ver" : "6.24"
       },
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/perl-ide/open-this/issues",
-         "date" : "2024-04-10",
+         "date" : "2025-10-28",
          "dist" : "Open-This",
          "insecure_repo" : false,
-         "name" : "Open-This-0.000034",
+         "name" : "Open-This-0.000035",
          "repo" : "https://github.com/perl-ide/open-this",
          "repo_def_branch" : "main",
          "repo_name" : "open-this",
          "repo_owner" : "perl-ide",
          "uses_rt" : false,
-         "ver" : "0.000034"
+         "ver" : "0.000035"
       },
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/tokuhirom/OrePAN2/issues",
-         "date" : "2024-02-19",
+         "date" : "2026-08-23",
          "dist" : "OrePAN2",
          "insecure_repo" : false,
-         "name" : "OrePAN2-0.52",
+         "name" : "OrePAN2-0.54",
          "repo" : "https://github.com/tokuhirom/OrePAN2",
          "repo_def_branch" : "master",
          "repo_name" : "OrePAN2",
          "repo_owner" : "tokuhirom",
          "uses_rt" : false,
-         "ver" : "0.52"
+         "ver" : "0.54"
       },
       {
          "auth" : "OALDERS",
@@ -641,7 +659,7 @@
          "dist" : "POEx-Role-PSGIServer",
          "insecure_repo" : false,
          "name" : "POEx-Role-PSGIServer-1.150280",
-         "repo" : "git://github.com/oalders/poex-role-psgiserver.git",
+         "repo" : "https://github.com/oalders/poex-role-psgiserver",
          "repo_def_branch" : "master",
          "repo_name" : "poex-role-psgiserver",
          "repo_owner" : "oalders",
@@ -679,16 +697,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/plu/Pithub/issues",
-         "date" : "2023-08-24",
+         "date" : "2025-05-31",
          "dist" : "Pithub",
          "insecure_repo" : false,
-         "name" : "Pithub-0.01041",
+         "name" : "Pithub-0.01043",
          "repo" : "https://github.com/plu/Pithub",
          "repo_def_branch" : "master",
          "repo_name" : "Pithub",
          "repo_owner" : "plu",
          "uses_rt" : false,
-         "ver" : "0.01041"
+         "ver" : "0.01043"
       },
       {
          "auth" : "OALDERS",
@@ -697,7 +715,7 @@
          "dist" : "Plack-Middleware-NoDeflate",
          "insecure_repo" : true,
          "name" : "Plack-Middleware-NoDeflate-0.01",
-         "repo" : "http://github.com/oalders/Plack-Middleware-NoDeflate",
+         "repo" : "https://github.com/oalders/Plack-Middleware-NoDeflate",
          "repo_def_branch" : "master",
          "repo_name" : "Plack-Middleware-NoDeflate",
          "repo_owner" : "oalders",
@@ -707,16 +725,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/Plack-Test-Agent/issues",
-         "date" : "2020-10-06",
+         "date" : "2025-07-05",
          "dist" : "Plack-Test-Agent",
          "insecure_repo" : false,
-         "name" : "Plack-Test-Agent-1.5",
+         "name" : "Plack-Test-Agent-1.6",
          "repo" : "https://github.com/oalders/Plack-Test-Agent",
          "repo_def_branch" : "master",
          "repo_name" : "Plack-Test-Agent",
          "repo_owner" : "oalders",
          "uses_rt" : false,
-         "ver" : "1.5"
+         "ver" : "1.6"
       },
       {
          "auth" : "OALDERS",
@@ -735,16 +753,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/sysread/TOML-Tiny/issues",
-         "date" : "2024-09-04",
+         "date" : "2026-06-03",
          "dist" : "TOML-Tiny",
          "insecure_repo" : false,
-         "name" : "TOML-Tiny-0.18",
+         "name" : "TOML-Tiny-0.22",
          "repo" : "https://github.com/sysread/TOML-Tiny",
          "repo_def_branch" : "master",
          "repo_name" : "TOML-Tiny",
          "repo_owner" : "sysread",
          "uses_rt" : false,
-         "ver" : "0.18"
+         "ver" : "0.22"
       },
       {
          "auth" : "OALDERS",
@@ -763,16 +781,16 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/URI/issues",
-         "date" : "2024-09-05",
+         "date" : "2026-09-03",
          "dist" : "URI",
          "insecure_repo" : false,
-         "name" : "URI-5.29",
+         "name" : "URI-5.37",
          "repo" : "https://github.com/libwww-perl/URI",
          "repo_def_branch" : "master",
          "repo_name" : "URI",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "5.29"
+         "ver" : "5.37"
       },
       {
          "auth" : "OALDERS",
@@ -791,30 +809,30 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/WWW-Mechanize/issues",
-         "date" : "2024-09-16",
+         "date" : "2026-06-18",
          "dist" : "WWW-Mechanize",
          "insecure_repo" : false,
-         "name" : "WWW-Mechanize-2.19",
+         "name" : "WWW-Mechanize-2.22",
          "repo" : "https://github.com/libwww-perl/WWW-Mechanize",
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Mechanize",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "2.19"
+         "ver" : "2.22"
       },
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/WWW-Mechanize-Cached/issues",
-         "date" : "2022-05-24",
+         "date" : "2026-05-14",
          "dist" : "WWW-Mechanize-Cached",
          "insecure_repo" : false,
-         "name" : "WWW-Mechanize-Cached-1.56",
+         "name" : "WWW-Mechanize-Cached-2.00",
          "repo" : "https://github.com/libwww-perl/WWW-Mechanize-Cached",
          "repo_def_branch" : "main",
          "repo_name" : "WWW-Mechanize-Cached",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "1.56"
+         "ver" : "2.00"
       },
       {
          "auth" : "OALDERS",
@@ -832,17 +850,17 @@
       },
       {
          "auth" : "OALDERS",
-         "bugtracker" : "https://github.com/trs-80/WWW-Spotify/issues",
-         "date" : "2022-10-19",
-         "dist" : "WWW-Spotify",
+         "bugtracker" : "https://github.com/libwww-perl/WWW-RobotRules/issues",
+         "date" : "2026-05-23",
+         "dist" : "WWW-RobotRules",
          "insecure_repo" : false,
-         "name" : "WWW-Spotify-0.012",
-         "repo" : "https://github.com/trs-80/WWW-Spotify",
+         "name" : "WWW-RobotRules-6.03",
+         "repo" : "https://github.com/libwww-perl/WWW-RobotRules",
          "repo_def_branch" : "master",
-         "repo_name" : "WWW-Spotify",
-         "repo_owner" : "trs-80",
+         "repo_name" : "WWW-RobotRules",
+         "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "0.012"
+         "ver" : "6.03"
       },
       {
          "auth" : "OALDERS",
@@ -945,34 +963,34 @@
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/oalders/lazy/issues",
-         "date" : "2024-08-29",
+         "date" : "2026-09-08",
          "dist" : "lazy",
          "insecure_repo" : false,
-         "name" : "lazy-1.000000",
+         "name" : "lazy-1.000003",
          "repo" : "https://github.com/oalders/lazy",
          "repo_def_branch" : "main",
          "repo_name" : "lazy",
          "repo_owner" : "oalders",
          "uses_rt" : false,
-         "ver" : "1.000000"
+         "ver" : "1.000003"
       },
       {
          "auth" : "OALDERS",
          "bugtracker" : "https://github.com/libwww-perl/libwww-perl/issues",
-         "date" : "2024-03-11",
+         "date" : "2026-05-12",
          "dist" : "libwww-perl",
          "insecure_repo" : false,
-         "name" : "libwww-perl-6.77",
+         "name" : "libwww-perl-6.83",
          "repo" : "https://github.com/libwww-perl/libwww-perl",
          "repo_def_branch" : "master",
          "repo_name" : "libwww-perl",
          "repo_owner" : "libwww-perl",
          "uses_rt" : false,
-         "ver" : "6.77"
+         "ver" : "6.83"
       }
    ],
    "sort" : {
-      "column" : 3,
+      "column" : "date",
       "direction" : "desc"
    }
 }

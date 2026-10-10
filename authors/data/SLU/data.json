@@ -3,14 +3,20 @@
       "cpan" : "SLU",
       "github" : "soren",
       "gravatar" : "https://secure.gravatar.com/avatar/73a36c0741de4c5e128a31f3db4f90b3?s=130&d=identicon",
-      "name" : "SÃ¸ren Lund"
+      "name" : "Søren Lund"
    },
    "ci" : {
+      "cirrus_task_names" : [],
       "gh_workflow_names" : [],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
+      "use_codecov" : 0,
       "use_coveralls" : 1,
       "use_gh_actions" : 0,
-      "use_travis" : 1
+      "use_travis" : 1,
+      "use_travis_com" : 0
    },
+   "gathered_at" : "2026-10-10T16:47:49Z",
    "modules" : [
       {
          "auth" : "SLU",
@@ -39,10 +45,30 @@
          "repo_owner" : "soren",
          "uses_rt" : false,
          "ver" : "0.13"
+      },
+      {
+         "auth" : "SLU",
+         "bugtracker" : "",
+         "date" : "2011-10-20",
+         "dist" : "Digest-PasswordComposer",
+         "name" : "Digest-PasswordComposer-0.1",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.1"
+      },
+      {
+         "auth" : "SLU",
+         "bugtracker" : "",
+         "date" : "2019-05-19",
+         "dist" : "Map-Tube-Copenhagen",
+         "name" : "Map-Tube-Copenhagen-0.04",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.04"
       }
    ],
    "sort" : {
-      "column" : 0,
+      "column" : "name",
       "direction" : "asc"
    }
 }

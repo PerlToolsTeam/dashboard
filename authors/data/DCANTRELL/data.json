@@ -6,6 +6,7 @@
       "name" : "David Cantrell"
    },
    "ci" : {
+      "cirrus_task_names" : [],
       "gh_workflow_names" : [
          "Linux",
          "FreeBSD",
@@ -18,9 +19,41 @@
       "use_codecov" : 0,
       "use_coveralls" : 1,
       "use_gh_actions" : 1,
+      "use_travis" : 0,
       "use_travis_com" : 0
    },
+   "gathered_at" : "2026-10-10T16:47:35Z",
    "modules" : [
+      {
+         "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2002-09-19",
+         "dist" : "Acme-Licence",
+         "name" : "Acme-Licence-1.0",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.0"
+      },
+      {
+         "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2001-07-10",
+         "dist" : "Acme-Pony",
+         "name" : "Acme-Pony-1.1.2",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "v1.1.2"
+      },
+      {
+         "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2004-10-25",
+         "dist" : "Acme-Scurvy-Whoreson-BilgeRat",
+         "name" : "Acme-Scurvy-Whoreson-BilgeRat-1.1",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.1"
+      },
       {
          "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-Algorithm-Diff-JSON/issues",
@@ -38,30 +71,30 @@
       {
          "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-App-ptimeout/issues",
-         "date" : "2023-04-14",
+         "date" : "2026-04-26",
          "dist" : "App-ptimeout",
          "insecure_repo" : false,
-         "name" : "App-ptimeout-1.0.2",
+         "name" : "App-ptimeout-1.0.3",
          "repo" : "https://github.com/DrHyde/perl-modules-App-ptimeout",
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-App-ptimeout",
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
-         "ver" : "v1.0.2"
+         "ver" : "v1.0.3"
       },
       {
          "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-CPAN-FindDependencies/issues",
-         "date" : "2022-05-24",
+         "date" : "2026-10-08",
          "dist" : "CPAN-FindDependencies",
          "insecure_repo" : false,
-         "name" : "CPAN-FindDependencies-3.13",
+         "name" : "CPAN-FindDependencies-4.01",
          "repo" : "https://github.com/DrHyde/perl-modules-CPAN-FindDependencies",
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-CPAN-FindDependencies",
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
-         "ver" : "3.13"
+         "ver" : "4.01"
       },
       {
          "auth" : "DCANTRELL",
@@ -121,6 +154,16 @@
       },
       {
          "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2014-06-05",
+         "dist" : "Class-DBI-ClassGenerator",
+         "name" : "Class-DBI-ClassGenerator-1.04",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.04"
+      },
+      {
+         "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-Class-Mockable/issues",
          "date" : "2022-08-09",
          "dist" : "Class-Mockable",
@@ -132,6 +175,26 @@
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
          "ver" : "1.3002"
+      },
+      {
+         "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2012-05-16",
+         "dist" : "DBIx-Class-QueryLog-WithStackTrace",
+         "name" : "DBIx-Class-QueryLog-WithStackTrace-1.0",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.0"
+      },
+      {
+         "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2008-06-26",
+         "dist" : "DBIx-Class-SingletonRows",
+         "name" : "DBIx-Class-SingletonRows-0.11",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.11"
       },
       {
          "auth" : "DCANTRELL",
@@ -174,6 +237,16 @@
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
          "ver" : 1.29
+      },
+      {
+         "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2012-05-29",
+         "dist" : "Data-Hexdumper",
+         "name" : "Data-Hexdumper-3.0001",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "3.0001"
       },
       {
          "auth" : "DCANTRELL",
@@ -233,15 +306,17 @@
       },
       {
          "auth" : "DCANTRELL",
-         "date" : "2021-09-28",
+         "bugtracker" : "https://github.com/DrHyde/Devel-Hide/issues",
+         "date" : "2026-01-02",
          "dist" : "Devel-Hide",
          "insecure_repo" : false,
-         "name" : "Devel-Hide-0.0015",
-         "repo" : "https://github.com/aferreira/cpan-Devel-Hide",
+         "name" : "Devel-Hide-0.0016",
+         "repo" : "https://github.com/DrHyde/Devel-Hide",
          "repo_def_branch" : "master",
-         "repo_name" : "cpan-Devel-Hide",
-         "repo_owner" : "aferreira",
-         "ver" : "0.0015"
+         "repo_name" : "Devel-Hide",
+         "repo_owner" : "DrHyde",
+         "uses_rt" : false,
+         "ver" : "0.0016"
       },
       {
          "auth" : "DCANTRELL",
@@ -256,6 +331,30 @@
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
          "ver" : "2.04"
+      },
+      {
+         "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2010-01-22",
+         "dist" : "File-Overwrite",
+         "name" : "File-Overwrite-1.2",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.2"
+      },
+      {
+         "auth" : "DCANTRELL",
+         "bugtracker" : "https://github.com/DrHyde/perl-modules-Games-Dice-Advanced/issues",
+         "date" : "2024-11-30",
+         "dist" : "Games-Dice-Advanced",
+         "insecure_repo" : false,
+         "name" : "Games-Dice-Advanced-1.2",
+         "repo" : "https://github.com/DrHyde/perl-modules-Games-Dice-Advanced",
+         "repo_def_branch" : "master",
+         "repo_name" : "perl-modules-Games-Dice-Advanced",
+         "repo_owner" : "DrHyde",
+         "uses_rt" : false,
+         "ver" : "1.2"
       },
       {
          "auth" : "DCANTRELL",
@@ -301,31 +400,27 @@
       },
       {
          "auth" : "DCANTRELL",
-         "bugtracker" : "https://github.com/DrHyde/perl-modules-Net-Random/issues",
-         "date" : "2020-05-10",
-         "dist" : "Net-Random",
-         "insecure_repo" : false,
-         "name" : "Net-Random-2.32",
-         "repo" : "https://github.com/DrHyde/perl-modules-Net-Random",
-         "repo_def_branch" : "master",
-         "repo_name" : "perl-modules-Net-Random",
-         "repo_owner" : "DrHyde",
+         "bugtracker" : "",
+         "date" : "2003-06-26",
+         "dist" : "NestedMap",
+         "name" : "NestedMap-1.0",
+         "repo" : null,
          "uses_rt" : false,
-         "ver" : "2.32"
+         "ver" : "1.0"
       },
       {
          "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-Number-Phone/issues",
-         "date" : "2024-09-10",
+         "date" : "2026-09-04",
          "dist" : "Number-Phone",
          "insecure_repo" : false,
-         "name" : "Number-Phone-4.0004",
+         "name" : "Number-Phone-4.0012",
          "repo" : "https://github.com/DrHyde/perl-modules-Number-Phone",
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Number-Phone",
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
-         "ver" : "4.0004"
+         "ver" : "4.0012"
       },
       {
          "auth" : "DCANTRELL",
@@ -340,6 +435,16 @@
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
          "ver" : "1.5"
+      },
+      {
+         "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2010-07-27",
+         "dist" : "Palm-ProjectGutenberg",
+         "name" : "Palm-ProjectGutenberg-1.02",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.02"
       },
       {
          "auth" : "DCANTRELL",
@@ -455,6 +560,16 @@
       },
       {
          "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2004-01-23",
+         "dist" : "Statistics-SerialCorrelation",
+         "name" : "Statistics-SerialCorrelation-1.1",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.1"
+      },
+      {
+         "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-String-Binary-Interpolation/issues",
          "date" : "2023-10-29",
          "dist" : "String-Binary-Interpolation",
@@ -497,17 +612,31 @@
       },
       {
          "auth" : "DCANTRELL",
+         "bugtracker" : "https://github.com/DrHyde/perl-modules-Task-BeLike-DCANTRELL/issues",
+         "date" : "2025-12-31",
+         "dist" : "Task-BeLike-DCANTRELL",
+         "insecure_repo" : false,
+         "name" : "Task-BeLike-DCANTRELL-1",
+         "repo" : "https://github.com/DrHyde/perl-modules-Task-BeLike-DCANTRELL",
+         "repo_def_branch" : "master",
+         "repo_name" : "perl-modules-Task-BeLike-DCANTRELL",
+         "repo_owner" : "DrHyde",
+         "uses_rt" : false,
+         "ver" : "1"
+      },
+      {
+         "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/Test-Differences/issues",
-         "date" : "2023-10-12",
+         "date" : "2026-10-03",
          "dist" : "Test-Differences",
          "insecure_repo" : false,
-         "name" : "Test-Differences-0.71",
+         "name" : "Test-Differences-0.73",
          "repo" : "https://github.com/DrHyde/Test-Differences",
          "repo_def_branch" : "master",
          "repo_name" : "Test-Differences",
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
-         "ver" : "0.71"
+         "ver" : "0.73"
       },
       {
          "auth" : "DCANTRELL",
@@ -522,6 +651,40 @@
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
          "ver" : "v1.0.0"
+      },
+      {
+         "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2026-05-07",
+         "dist" : "Test-Most",
+         "insecure_repo" : false,
+         "name" : "Test-Most-0.42",
+         "repo" : "https://github.com/Ovid/test--most",
+         "repo_def_branch" : "master",
+         "repo_name" : "test--most",
+         "repo_owner" : "Ovid",
+         "uses_rt" : false,
+         "ver" : "0.42"
+      },
+      {
+         "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2003-11-17",
+         "dist" : "Tie-Hash-Longest",
+         "name" : "Tie-Hash-Longest-1.1",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.1"
+      },
+      {
+         "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2001-06-13",
+         "dist" : "Tie-Hash-Rank",
+         "name" : "Tie-Hash-Rank-1.0.1",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "v1.0.1"
       },
       {
          "auth" : "DCANTRELL",
@@ -553,6 +716,16 @@
       },
       {
          "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2001-05-21",
+         "dist" : "Tie-Scalar-Decay",
+         "name" : "Tie-Scalar-Decay-1.1.1",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "v1.1.1"
+      },
+      {
+         "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-Unix-Sudo/issues",
          "date" : "2024-01-17",
          "dist" : "Unix-Sudo",
@@ -564,6 +737,16 @@
          "repo_owner" : "DrHyde",
          "uses_rt" : false,
          "ver" : "65535"
+      },
+      {
+         "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2009-02-27",
+         "dist" : "WWW-Facebook-Go-SGF",
+         "name" : "WWW-Facebook-Go-SGF-1.0",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.0"
       },
       {
          "auth" : "DCANTRELL",
@@ -595,6 +778,16 @@
       },
       {
          "auth" : "DCANTRELL",
+         "bugtracker" : "",
+         "date" : "2009-07-15",
+         "dist" : "XML-Tiny-DOM",
+         "name" : "XML-Tiny-DOM-1.1",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "1.1"
+      },
+      {
+         "auth" : "DCANTRELL",
          "bugtracker" : "https://github.com/DrHyde/perl-modules-lib-relative-to/issues",
          "date" : "2022-05-13",
          "dist" : "lib-relative-to",
@@ -609,7 +802,7 @@
       }
    ],
    "sort" : {
-      "column" : 0,
+      "column" : "name",
       "direction" : "asc"
    }
 }

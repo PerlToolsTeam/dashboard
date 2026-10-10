@@ -3,9 +3,10 @@
       "cpan" : "MANWAR",
       "github" : "manwar",
       "gravatar" : "https://secure.gravatar.com/avatar/71c853edf567f3482e0e7f21d51e9df2?s=130&d=identicon",
-      "name" : "Mohammad S Anwar"
+      "name" : "Mohammad Sajid Anwar"
    },
    "ci" : {
+      "cirrus_task_names" : [],
       "gh_workflow_names" : [
          "CI"
       ],
@@ -17,9 +18,11 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
+   "gathered_at" : "2026-10-10T16:47:40Z",
    "modules" : [
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-01-18",
          "dist" : "Address-PostCode-Australia",
          "insecure_repo" : false,
@@ -28,10 +31,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Address-PostCode-Australia",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.12"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-01-19",
          "dist" : "Address-PostCode-India",
          "insecure_repo" : false,
@@ -40,10 +45,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Address-PostCode-India",
          "repo_owner" : "Manwar",
+         "uses_rt" : false,
          "ver" : "0.13"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-01-17",
          "dist" : "Address-PostCode-UK",
          "insecure_repo" : false,
@@ -52,10 +59,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Address-PostCode-UK",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.18"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-01-16",
          "dist" : "Address-PostCode-UserAgent",
          "insecure_repo" : false,
@@ -64,10 +73,26 @@
          "repo_def_branch" : "master",
          "repo_name" : "Address-PostCode-UserAgent",
          "repo_owner" : "Manwar",
+         "uses_rt" : false,
          "ver" : "0.09"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
+         "date" : "2026-06-03",
+         "dist" : "Alien-YARA",
+         "insecure_repo" : false,
+         "name" : "Alien-YARA-v0.0.6",
+         "repo" : "https://github.com/manwar/Alien-YARA",
+         "repo_def_branch" : "master",
+         "repo_name" : "Alien-YARA",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "v0.0.6"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2021-05-31",
          "dist" : "App-Search-BackPAN",
          "insecure_repo" : false,
@@ -76,10 +101,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-Search-BackPAN",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.06"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2022-04-28",
          "dist" : "App-Timer",
          "insecure_repo" : false,
@@ -88,10 +115,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-Timer",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.02"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-09-17",
          "dist" : "App-ValidateBankAccount",
          "insecure_repo" : false,
@@ -100,10 +129,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-ValidateBankAccount",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.10"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-09-21",
          "dist" : "App-calendr",
          "insecure_repo" : false,
@@ -112,10 +143,26 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-calendr",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.26"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/App-genstopwords/issues",
+         "date" : "2026-07-13",
+         "dist" : "App-genstopwords",
+         "insecure_repo" : false,
+         "name" : "App-genstopwords-v0.0.1",
+         "repo" : "https://github.com/manwar/App-genstopwords",
+         "repo_def_branch" : "master",
+         "repo_name" : "App-genstopwords",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "v0.0.1"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2017-12-20",
          "dist" : "Astro-Utils",
          "insecure_repo" : false,
@@ -124,46 +171,40 @@
          "repo_def_branch" : "master",
          "repo_name" : "Astro-Utils",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.06"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2024-08-16",
+         "bugtracker" : "",
+         "date" : "2025-10-27",
          "dist" : "BankAccount-Validator-UK",
          "insecure_repo" : false,
-         "name" : "BankAccount-Validator-UK-0.66",
+         "name" : "BankAccount-Validator-UK-0.67",
          "repo" : "https://github.com/manwar/BankAccount-Validator-UK",
          "repo_def_branch" : "master",
          "repo_name" : "BankAccount-Validator-UK",
          "repo_owner" : "manwar",
-         "ver" : "0.66"
+         "uses_rt" : false,
+         "ver" : "0.67"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2024-01-31",
+         "bugtracker" : "",
+         "date" : "2025-08-28",
          "dist" : "CGI-Simple",
          "insecure_repo" : true,
-         "name" : "CGI-Simple-1.281",
-         "repo" : "http://github.com/manwar/CGI--Simple",
+         "name" : "CGI-Simple-1.282",
+         "repo" : "https://github.com/manwar/CGI--Simple",
          "repo_def_branch" : "master",
          "repo_name" : "CGI--Simple",
          "repo_owner" : "manwar",
-         "ver" : "1.281"
+         "uses_rt" : false,
+         "ver" : "1.282"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2015-01-19",
-         "dist" : "CPAN-Search-Tester",
-         "insecure_repo" : false,
-         "name" : "CPAN-Search-Tester-0.04",
-         "repo" : "https://github.com/Manwar/CPAN-Search-Tester",
-         "repo_def_branch" : "master",
-         "repo_name" : "CPAN-Search-Tester",
-         "repo_owner" : "Manwar",
-         "ver" : "0.04"
-      },
-      {
-         "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2018-10-25",
          "dist" : "CPANTS-Kwalitee-Report",
          "insecure_repo" : false,
@@ -172,10 +213,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "CPANTS-Kwalitee-Report",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.11"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-21",
          "dist" : "Calendar-Bahai",
          "insecure_repo" : false,
@@ -184,10 +227,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Bahai",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.56"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-22",
          "dist" : "Calendar-Gregorian",
          "insecure_repo" : false,
@@ -196,10 +241,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Gregorian",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.25"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-23",
          "dist" : "Calendar-Hebrew",
          "insecure_repo" : false,
@@ -208,10 +255,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Hebrew",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.15"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-24",
          "dist" : "Calendar-Hijri",
          "insecure_repo" : false,
@@ -220,10 +269,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Hijri",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.43"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2020-06-25",
          "dist" : "Calendar-Julian",
          "insecure_repo" : false,
@@ -232,10 +283,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Julian",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.17"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-26",
          "dist" : "Calendar-Persian",
          "insecure_repo" : false,
@@ -244,10 +297,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Persian",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.45"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-09-15",
          "dist" : "Calendar-Plugin-Renderer",
          "insecure_repo" : false,
@@ -256,10 +311,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Plugin-Renderer",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.16"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-27",
          "dist" : "Calendar-Saka",
          "insecure_repo" : false,
@@ -268,10 +325,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Saka",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "1.44"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2016-09-15",
          "dist" : "Check-ISA",
          "insecure_repo" : false,
@@ -280,10 +339,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Check-ISA",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.09"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-06",
          "dist" : "Compare-Directory",
          "insecure_repo" : false,
@@ -292,10 +353,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Compare-Directory",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "1.26"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-09-24",
          "dist" : "Crypt-Affine",
          "insecure_repo" : false,
@@ -304,10 +367,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Crypt-Affine",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.15"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-09-25",
          "dist" : "Crypt-Hill",
          "insecure_repo" : false,
@@ -316,22 +381,26 @@
          "repo_def_branch" : "master",
          "repo_name" : "Crypt-Hill",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.12"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2024-02-04",
+         "bugtracker" : "https://github.com/manwar/Crypt-Image/issues",
+         "date" : "2026-08-25",
          "dist" : "Crypt-Image",
          "insecure_repo" : false,
-         "name" : "Crypt-Image-0.15",
+         "name" : "Crypt-Image-v1.0.1",
          "repo" : "https://github.com/manwar/Crypt-Image",
          "repo_def_branch" : "master",
          "repo_name" : "Crypt-Image",
          "repo_owner" : "manwar",
-         "ver" : "0.15"
+         "uses_rt" : false,
+         "ver" : "v1.0.1"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-09-23",
          "dist" : "Crypt-Trifid",
          "insecure_repo" : false,
@@ -340,10 +409,54 @@
          "repo_def_branch" : "master",
          "repo_name" : "Crypt-Trifid",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.11"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/DBIx-Class-Async/issues",
+         "date" : "2026-09-26",
+         "dist" : "DBIx-Class-Async",
+         "insecure_repo" : false,
+         "name" : "DBIx-Class-Async-v1.2.0",
+         "repo" : "https://github.com/manwar/DBIx-Class-Async",
+         "repo_def_branch" : "master",
+         "repo_name" : "DBIx-Class-Async",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "v1.2.0"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/DBIx-Class-MockData/issues",
+         "date" : "2026-06-21",
+         "dist" : "DBIx-Class-MockData",
+         "insecure_repo" : false,
+         "name" : "DBIx-Class-MockData-v1.0.0",
+         "repo" : "https://github.com/manwar/DBIx-Class-MockData",
+         "repo_def_branch" : "master",
+         "repo_name" : "DBIx-Class-MockData",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "v1.0.0"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/DBIx-Class-Schema-GraphQL/issues",
+         "date" : "2026-06-23",
+         "dist" : "DBIx-Class-Schema-GraphQL",
+         "insecure_repo" : false,
+         "name" : "DBIx-Class-Schema-GraphQL-v0.0.3",
+         "repo" : "https://github.com/yourname/DBIx-Class-Schema-GraphQL",
+         "repo_def_branch" : "",
+         "repo_name" : "DBIx-Class-Schema-GraphQL",
+         "repo_owner" : "yourname",
+         "uses_rt" : false,
+         "ver" : "v0.0.3"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2020-07-10",
          "dist" : "Dancer2-Plugin-Captcha",
          "insecure_repo" : false,
@@ -352,10 +465,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Captcha",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.14"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-09-26",
          "dist" : "Dancer2-Plugin-Chain",
          "insecure_repo" : false,
@@ -364,10 +479,26 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Chain",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.11"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/Dancer2-Plugin-DBIC-Async/issues",
+         "date" : "2026-02-06",
+         "dist" : "Dancer2-Plugin-DBIC-Async",
+         "insecure_repo" : false,
+         "name" : "Dancer2-Plugin-DBIC-Async-0.06",
+         "repo" : "https://github.com/manwar/Dancer2-Plugin-DBIC-Async",
+         "repo_def_branch" : "master",
+         "repo_name" : "Dancer2-Plugin-DBIC-Async",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "0.06"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2024-02-01",
          "dist" : "Dancer2-Plugin-Map-Tube",
          "insecure_repo" : false,
@@ -376,6 +507,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Map-Tube",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.04"
       },
       {
@@ -394,6 +526,7 @@
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-11-04",
          "dist" : "Dancer2-Plugin-Res",
          "insecure_repo" : false,
@@ -402,24 +535,26 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Res",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.10"
       },
       {
          "auth" : "MANWAR",
          "bugtracker" : "https://github.com/manwar/Data-Money/issues",
-         "date" : "2022-07-04",
+         "date" : "2025-08-17",
          "dist" : "Data-Money",
          "insecure_repo" : false,
-         "name" : "Data-Money-0.20",
+         "name" : "Data-Money-0.21",
          "repo" : "https://github.com/manwar/Data-Money",
          "repo_def_branch" : "master",
          "repo_name" : "Data-Money",
          "repo_owner" : "manwar",
          "uses_rt" : false,
-         "ver" : "0.20"
+         "ver" : "0.21"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2016-03-26",
          "dist" : "Data-Money-Converter",
          "insecure_repo" : false,
@@ -428,10 +563,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Data-Money-Converter",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.07"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2016-08-01",
          "dist" : "Data-Money-Converter-WebserviceX",
          "insecure_repo" : false,
@@ -440,10 +577,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Data-Money-Converter-WebserviceX",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.07"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2018-10-24",
          "dist" : "Data-Password-Filter",
          "insecure_repo" : false,
@@ -452,10 +591,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Data-Password-Filter",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.18"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-02-23",
          "dist" : "Data-Types",
          "insecure_repo" : false,
@@ -464,24 +605,26 @@
          "repo_def_branch" : "master",
          "repo_name" : "Data-Types",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.17"
       },
       {
          "auth" : "MANWAR",
          "bugtracker" : "https://github.com/manwar/data-verifier/issues",
-         "date" : "2023-05-02",
+         "date" : "2024-11-30",
          "dist" : "Data-Verifier",
          "insecure_repo" : false,
-         "name" : "Data-Verifier-0.65",
+         "name" : "Data-Verifier-0.66",
          "repo" : "https://github.com/manwar/data-verifier",
          "repo_def_branch" : "master",
          "repo_name" : "data-verifier",
          "repo_owner" : "manwar",
          "uses_rt" : false,
-         "ver" : "0.65"
+         "ver" : "0.66"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-14",
          "dist" : "Date-Bahai-Simple",
          "insecure_repo" : false,
@@ -490,10 +633,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Bahai-Simple",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.28"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-12",
          "dist" : "Date-Exception",
          "insecure_repo" : false,
@@ -502,10 +647,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Exception",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.08"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-15",
          "dist" : "Date-Gregorian-Simple",
          "insecure_repo" : false,
@@ -514,10 +661,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Gregorian-Simple",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.17"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-16",
          "dist" : "Date-Hebrew-Simple",
          "insecure_repo" : false,
@@ -526,10 +675,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Hebrew-Simple",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.15"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-17",
          "dist" : "Date-Hijri-Simple",
          "insecure_repo" : false,
@@ -538,10 +689,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Hijri-Simple",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.25"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2021-10-22",
          "dist" : "Date-Julian-Simple",
          "insecure_repo" : false,
@@ -550,10 +703,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Julian-Simple",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.17"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-19",
          "dist" : "Date-Persian-Simple",
          "insecure_repo" : false,
@@ -562,10 +717,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Persian-Simple",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.25"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-20",
          "dist" : "Date-Saka-Simple",
          "insecure_repo" : false,
@@ -574,10 +731,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Saka-Simple",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.26"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-13",
          "dist" : "Date-Utils",
          "insecure_repo" : false,
@@ -586,24 +745,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Utils",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.28"
       },
       {
          "auth" : "MANWAR",
-         "bugtracker" : "https://github.com/PadreIDE/Debug-Client/issues",
-         "date" : "2017-07-04",
-         "dist" : "Debug-Client",
-         "insecure_repo" : false,
-         "name" : "Debug-Client-0.31",
-         "repo" : "git://github.com/PadreIDE/Debug-Client.git",
-         "repo_def_branch" : "master",
-         "repo_name" : "Debug-Client",
-         "repo_owner" : "PadreIDE",
-         "uses_rt" : false,
-         "ver" : "0.31"
-      },
-      {
-         "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2022-10-08",
          "dist" : "Devel-Timer",
          "insecure_repo" : false,
@@ -612,10 +759,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Devel-Timer",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.14"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2016-02-18",
          "dist" : "Dist-Zilla-Plugin-PkgAuthority",
          "insecure_repo" : false,
@@ -624,10 +773,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dist-Zilla-Plugin-PkgAuthority",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.05"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-09-11",
          "dist" : "Dist-Zilla-Plugin-Test-Map-Tube",
          "insecure_repo" : false,
@@ -636,10 +787,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dist-Zilla-Plugin-Test-Map-Tube",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.45"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2017-05-12",
          "dist" : "Dist-Zilla-PluginBundle-MANWAR",
          "insecure_repo" : false,
@@ -648,10 +801,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dist-Zilla-PluginBundle-MANWAR",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.08"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2016-05-01",
          "dist" : "File-Same",
          "insecure_repo" : false,
@@ -660,22 +815,26 @@
          "repo_def_branch" : "master",
          "repo_name" : "File-Same",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.11"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-07-28",
          "dist" : "Filesys-DiskUsage",
          "insecure_repo" : true,
          "name" : "Filesys-DiskUsage-0.13",
-         "repo" : "http://github.com/manwar/Filesys-DiskUsage",
+         "repo" : "https://github.com/manwar/Filesys-DiskUsage",
          "repo_def_branch" : "master",
          "repo_name" : "Filesys-DiskUsage",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.13"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-04",
          "dist" : "Food-ECodes",
          "insecure_repo" : false,
@@ -684,10 +843,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Food-ECodes",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.18"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-01",
          "dist" : "Games-Cards-Pair",
          "insecure_repo" : false,
@@ -696,10 +857,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Games-Cards-Pair",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.20"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-02",
          "dist" : "Games-Domino",
          "insecure_repo" : false,
@@ -708,10 +871,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Games-Domino",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.32"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-03",
          "dist" : "Games-TicTacToe",
          "insecure_repo" : false,
@@ -720,10 +885,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Games-TicTacToe",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.26"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2017-01-01",
          "dist" : "Guardian-OpenPlatform-API",
          "insecure_repo" : false,
@@ -732,10 +899,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "guardian-openplatform-api",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.09"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-08",
          "dist" : "IP-CountryFlag",
          "insecure_repo" : false,
@@ -744,10 +913,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "IP-CountryFlag",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.14"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-05",
          "dist" : "IP-Info",
          "insecure_repo" : false,
@@ -756,10 +927,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "IP-Info",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.18"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2015-10-09",
          "dist" : "LWP-UserAgent-Anonymous",
          "insecure_repo" : false,
@@ -768,10 +941,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "LWP-UserAgent-Anonymous",
          "repo_owner" : "Manwar",
+         "uses_rt" : false,
          "ver" : "0.09"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-31",
          "dist" : "Lingua-IND-Numbers",
          "insecure_repo" : false,
@@ -780,130 +955,134 @@
          "repo_def_branch" : "master",
          "repo_name" : "Lingua-IND-Numbers",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.12"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2024-09-03",
-         "dist" : "Map-Tube",
-         "insecure_repo" : false,
-         "name" : "Map-Tube-3.77",
-         "repo" : "https://github.com/manwar/Map-Tube",
-         "repo_def_branch" : "master",
-         "repo_name" : "Map-Tube",
-         "repo_owner" : "manwar",
-         "ver" : "3.77"
-      },
-      {
-         "auth" : "MANWAR",
-         "date" : "2024-01-28",
+         "bugtracker" : "https://github.com/manwar/Map-Tube-API/issues",
+         "date" : "2026-07-11",
          "dist" : "Map-Tube-API",
          "insecure_repo" : false,
-         "name" : "Map-Tube-API-0.07",
+         "name" : "Map-Tube-API-v1.0.0",
          "repo" : "https://github.com/manwar/Map-Tube-API",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-API",
          "repo_owner" : "manwar",
-         "ver" : "0.07"
+         "uses_rt" : false,
+         "ver" : "v1.0.0"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2019-08-30",
-         "dist" : "Map-Tube-Barcelona",
-         "insecure_repo" : false,
-         "name" : "Map-Tube-Barcelona-0.76",
-         "repo" : "https://github.com/manwar/Map-Tube-Barcelona",
-         "repo_def_branch" : "master",
-         "repo_name" : "Map-Tube-Barcelona",
-         "repo_owner" : "manwar",
-         "ver" : "0.76"
-      },
-      {
-         "auth" : "MANWAR",
-         "date" : "2024-01-28",
+         "bugtracker" : "https://github.com/manwar/Map-Tube-CLI/issues",
+         "date" : "2026-07-10",
          "dist" : "Map-Tube-CLI",
          "insecure_repo" : false,
-         "name" : "Map-Tube-CLI-0.68",
+         "name" : "Map-Tube-CLI-v1.0.0",
          "repo" : "https://github.com/manwar/Map-Tube-CLI",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-CLI",
          "repo_owner" : "manwar",
-         "ver" : "0.68"
+         "uses_rt" : false,
+         "ver" : "v1.0.0"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2019-10-30",
+         "bugtracker" : "",
+         "date" : "2025-04-20",
          "dist" : "Map-Tube-Delhi",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Delhi-0.97",
+         "name" : "Map-Tube-Delhi-0.99",
          "repo" : "https://github.com/manwar/Map-Tube-Delhi",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Delhi",
          "repo_owner" : "manwar",
-         "ver" : "0.97"
+         "uses_rt" : false,
+         "ver" : "0.99"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2019-09-19",
+         "bugtracker" : "",
+         "date" : "2026-06-10",
          "dist" : "Map-Tube-Exception",
-         "insecure_repo" : false,
-         "name" : "Map-Tube-Exception-3.21",
-         "repo" : "https://github.com/Manwar/Map-Tube-Exception",
-         "repo_def_branch" : "master",
-         "repo_name" : "Map-Tube-Exception",
-         "repo_owner" : "Manwar",
-         "ver" : "3.21"
+         "name" : "Map-Tube-Exception-3.25",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "3.25"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2019-09-01",
+         "bugtracker" : "",
+         "date" : "2025-04-20",
          "dist" : "Map-Tube-Kolkatta",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Kolkatta-0.33",
+         "name" : "Map-Tube-Kolkatta-0.34",
          "repo" : "https://github.com/manwar/Map-Tube-Kolkatta",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Kolkatta",
          "repo_owner" : "manwar",
-         "ver" : "0.33"
+         "uses_rt" : false,
+         "ver" : "0.34"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2024-09-03",
+         "bugtracker" : "",
+         "date" : "2026-09-30",
+         "dist" : "Map-Tube-Leipzig",
+         "insecure_repo" : false,
+         "name" : "Map-Tube-Leipzig-v0.1.0",
+         "repo" : "https://github.com/manwar/Map-Tube-Leipzig",
+         "repo_def_branch" : "master",
+         "repo_name" : "Map-Tube-Leipzig",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "v0.1.0"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/Map-Tube-London/issues",
+         "date" : "2026-07-11",
          "dist" : "Map-Tube-London",
          "insecure_repo" : false,
-         "name" : "Map-Tube-London-1.39",
+         "name" : "Map-Tube-London-v2.0.2",
          "repo" : "https://github.com/manwar/Map-Tube-London",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-London",
          "repo_owner" : "manwar",
-         "ver" : "1.39"
+         "uses_rt" : false,
+         "ver" : "v2.0.2"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2019-09-02",
+         "bugtracker" : "",
+         "date" : "2025-04-20",
          "dist" : "Map-Tube-Madrid",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Madrid-0.39",
+         "name" : "Map-Tube-Madrid-0.42",
          "repo" : "https://github.com/manwar/Map-Tube-Madrid",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Madrid",
          "repo_owner" : "manwar",
-         "ver" : "0.39"
+         "uses_rt" : false,
+         "ver" : "0.42"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2019-09-03",
+         "bugtracker" : "",
+         "date" : "2025-04-17",
          "dist" : "Map-Tube-NYC",
          "insecure_repo" : false,
-         "name" : "Map-Tube-NYC-0.70",
+         "name" : "Map-Tube-NYC-0.71",
          "repo" : "https://github.com/manwar/Map-Tube-NYC",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-NYC",
          "repo_owner" : "manwar",
-         "ver" : "0.70"
+         "uses_rt" : false,
+         "ver" : "0.71"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-09-12",
          "dist" : "Map-Tube-Plugin-Formatter",
          "insecure_repo" : false,
@@ -912,46 +1091,68 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Plugin-Formatter",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.17"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2024-09-04",
+         "bugtracker" : "https://github.com/manwar/Map-Tube-Plugin-Graph/issues",
+         "date" : "2026-09-10",
          "dist" : "Map-Tube-Plugin-Graph",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Plugin-Graph-0.45",
+         "name" : "Map-Tube-Plugin-Graph-v1.2.1",
          "repo" : "https://github.com/manwar/Map-Tube-Plugin-Graph",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Plugin-Graph",
          "repo_owner" : "manwar",
-         "ver" : "0.45"
+         "uses_rt" : false,
+         "ver" : "v1.2.1"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2024-02-01",
+         "bugtracker" : "https://github.com/manwar/Map-Tube-Server/issues",
+         "date" : "2026-07-11",
          "dist" : "Map-Tube-Server",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Server-0.06",
+         "name" : "Map-Tube-Server-v1.0.0",
          "repo" : "https://github.com/manwar/Map-Tube-Server",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Server",
          "repo_owner" : "manwar",
-         "ver" : "0.06"
+         "uses_rt" : false,
+         "ver" : "v1.0.0"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2019-09-04",
+         "bugtracker" : "",
+         "date" : "2025-04-20",
          "dist" : "Map-Tube-Tokyo",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Tokyo-0.59",
+         "name" : "Map-Tube-Tokyo-0.63",
          "repo" : "https://github.com/manwar/Map-Tube-Tokyo",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Tokyo",
          "repo_owner" : "manwar",
-         "ver" : "0.59"
+         "uses_rt" : false,
+         "ver" : "0.63"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/Map-Tube/issues",
+         "date" : "2026-07-10",
+         "dist" : "Map-Tube",
+         "insecure_repo" : false,
+         "name" : "Map-Tube-v5.1.0",
+         "repo" : "https://github.com/manwar/Map-Tube",
+         "repo_def_branch" : "master",
+         "repo_name" : "Map-Tube",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "v5.1.0"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-09",
          "dist" : "Method-ParamValidator",
          "insecure_repo" : false,
@@ -960,10 +1161,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Method-ParamValidator",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.16"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2016-11-30",
          "dist" : "MouseX-Params-Validate",
          "insecure_repo" : false,
@@ -972,10 +1175,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "MouseX-Params-Validate",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.10"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2016-04-11",
          "dist" : "Net-Backpack",
          "insecure_repo" : false,
@@ -984,18 +1189,105 @@
          "repo_def_branch" : "master",
          "repo_name" : "net-backpack",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "1.15"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/OpenAPI-Linter/issues",
+         "date" : "2026-03-07",
+         "dist" : "OpenAPI-Linter",
+         "insecure_repo" : false,
+         "name" : "OpenAPI-Linter-0.19",
+         "repo" : "https://github.com/manwar/OpenAPI-Linter",
+         "repo_def_branch" : "master",
+         "repo_name" : "OpenAPI-Linter",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "0.19"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/PAGI-FastAPI-Queue-Driver-Redis/issues",
+         "date" : "2026-08-18",
+         "dist" : "PAGI-FastAPI-Queue-Driver-Redis",
+         "insecure_repo" : false,
+         "name" : "PAGI-FastAPI-Queue-Driver-Redis-v0.0.1",
+         "repo" : "https://github.com/manwar/PAGI-FastAPI-Queue-Driver-Redis",
+         "repo_def_branch" : "master",
+         "repo_name" : "PAGI-FastAPI-Queue-Driver-Redis",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "v0.0.1"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/PAGI-FastAPI-RateLimit-Driver-CHI/issues",
+         "date" : "2026-08-12",
+         "dist" : "PAGI-FastAPI-RateLimit-Driver-CHI",
+         "insecure_repo" : false,
+         "name" : "PAGI-FastAPI-RateLimit-Driver-CHI-v0.0.1",
+         "repo" : "https://github.com/manwar/PAGI-FastAPI-RateLimit-Driver-CHI",
+         "repo_def_branch" : "master",
+         "repo_name" : "PAGI-FastAPI-RateLimit-Driver-CHI",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "v0.0.1"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/PAGI-FastAPI-RateLimit-Driver-Redis/issues",
+         "date" : "2026-08-12",
+         "dist" : "PAGI-FastAPI-RateLimit-Driver-Redis",
+         "insecure_repo" : false,
+         "name" : "PAGI-FastAPI-RateLimit-Driver-Redis-v0.1.0",
+         "repo" : "https://github.com/manwar/PAGI-FastAPI-RateLimit-Driver-Redis",
+         "repo_def_branch" : "master",
+         "repo_name" : "PAGI-FastAPI-RateLimit-Driver-Redis",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "v0.1.0"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/PAGI-FastAPI-Security/issues",
+         "date" : "2026-08-20",
+         "dist" : "PAGI-FastAPI-Security",
+         "insecure_repo" : false,
+         "name" : "PAGI-FastAPI-Security-v0.0.6",
+         "repo" : "https://github.com/manwar/PAGI-FastAPI-Security",
+         "repo_def_branch" : "master",
+         "repo_name" : "PAGI-FastAPI-Security",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "v0.0.6"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/PAGI-FastAPI/issues",
+         "date" : "2026-09-05",
+         "dist" : "PAGI-FastAPI",
+         "insecure_repo" : false,
+         "name" : "PAGI-FastAPI-v1.7.3",
+         "repo" : "https://github.com/manwar/PAGI-FastAPI",
+         "repo_def_branch" : "master",
+         "repo_name" : "PAGI-FastAPI",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "v1.7.3"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-09-30",
          "dist" : "PDF-Create",
          "insecure_repo" : true,
          "name" : "PDF-Create-1.46",
-         "repo" : "http://github.com/manwar/pdf-create",
+         "repo" : "https://github.com/manwar/pdf-create",
          "repo_def_branch" : "master",
          "repo_name" : "pdf-create",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "1.46"
       },
       {
@@ -1014,12 +1306,26 @@
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
+         "date" : "2025-06-26",
+         "dist" : "Paws-DynamoDB-Response-Parser",
+         "insecure_repo" : false,
+         "name" : "Paws-DynamoDB-Response-Parser-0.06",
+         "repo" : "https://github.com/manwar/Paws-DynamoDB-Response-Parser",
+         "repo_def_branch" : "master",
+         "repo_name" : "Paws-DynamoDB-Response-Parser",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "0.06"
+      },
+      {
+         "auth" : "MANWAR",
          "bugtracker" : "http://github.com/manwar/Pod-Tree/issues",
          "date" : "2019-02-22",
          "dist" : "Pod-Tree",
          "insecure_repo" : true,
          "name" : "Pod-Tree-1.31",
-         "repo" : "http://github.com/manwar/Pod-Tree",
+         "repo" : "https://github.com/manwar/Pod-Tree",
          "repo_def_branch" : "master",
          "repo_name" : "Pod-Tree",
          "repo_owner" : "manwar",
@@ -1028,6 +1334,17 @@
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
+         "date" : "2026-09-09",
+         "dist" : "Protocol-QUIC",
+         "name" : "Protocol-QUIC-v0.0.1",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "v0.0.1"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2018-02-28",
          "dist" : "Regexp-Common-time",
          "insecure_repo" : false,
@@ -1036,34 +1353,40 @@
          "repo_def_branch" : "master",
          "repo_name" : "Regexp-Common-time",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.16"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2022-05-19",
+         "bugtracker" : "",
+         "date" : "2026-03-05",
          "dist" : "SVG",
          "insecure_repo" : false,
-         "name" : "SVG-2.87",
+         "name" : "SVG-2.89",
          "repo" : "https://github.com/manwar/SVG",
          "repo_def_branch" : "master",
          "repo_name" : "SVG",
          "repo_owner" : "manwar",
-         "ver" : "2.87"
+         "uses_rt" : false,
+         "ver" : "2.89"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2018-01-13",
+         "bugtracker" : "",
+         "date" : "2026-02-18",
          "dist" : "Syntax-Highlight-Engine-Kate",
          "insecure_repo" : false,
-         "name" : "Syntax-Highlight-Engine-Kate-0.14",
+         "name" : "Syntax-Highlight-Engine-Kate-0.16",
          "repo" : "https://github.com/szabgab/Syntax-Highlight-Engine-Kate",
          "repo_def_branch" : "master",
          "repo_name" : "Syntax-Highlight-Engine-Kate",
          "repo_owner" : "szabgab",
-         "ver" : "0.14"
+         "uses_rt" : false,
+         "ver" : "0.16"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-10-28",
          "dist" : "Task-Calendar",
          "insecure_repo" : false,
@@ -1072,10 +1395,26 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-Calendar",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.46"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/Task-Map-Tube-Bundle/issues",
+         "date" : "2026-03-31",
+         "dist" : "Task-Map-Tube-Bundle",
+         "insecure_repo" : false,
+         "name" : "Task-Map-Tube-Bundle-v1.0.7",
+         "repo" : "https://github.com/manwar/Task-Map-Tube-Bundle",
+         "repo_def_branch" : "master",
+         "repo_name" : "Task-Map-Tube-Bundle",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "v1.0.7"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2022-10-08",
          "dist" : "Term-ProgressBar",
          "insecure_repo" : false,
@@ -1084,10 +1423,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Term-ProgressBar",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "2.23"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2018-01-10",
          "dist" : "Term-Screen-Lite",
          "insecure_repo" : false,
@@ -1096,6 +1437,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Term-Screen-Lite",
          "repo_owner" : "Manwar",
+         "uses_rt" : false,
          "ver" : "0.06"
       },
       {
@@ -1114,6 +1456,7 @@
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2024-02-12",
          "dist" : "Test-Excel",
          "insecure_repo" : false,
@@ -1122,19 +1465,36 @@
          "repo_def_branch" : "master",
          "repo_name" : "Test-Excel",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "1.54"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2017-08-27",
-         "dist" : "Test-Internet",
+         "bugtracker" : "https://github.com/manwar/Test-PostgreSQL-v2/issues",
+         "date" : "2026-02-28",
+         "dist" : "Test-PostgreSQL-v2",
          "insecure_repo" : false,
-         "name" : "Test-Internet-0.07",
-         "repo" : "https://github.com/manwar/Test-Internet",
+         "name" : "Test-PostgreSQL-v2-2.04",
+         "repo" : "https://github.com/manwar/Test-PostgreSQL-v2",
          "repo_def_branch" : "master",
-         "repo_name" : "Test-Internet",
+         "repo_name" : "Test-PostgreSQL-v2",
          "repo_owner" : "manwar",
-         "ver" : "0.07"
+         "uses_rt" : false,
+         "ver" : "2.04"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/Test-Spelling-Stopwords/issues",
+         "date" : "2026-03-07",
+         "dist" : "Test-Spelling-Stopwords",
+         "insecure_repo" : false,
+         "name" : "Test-Spelling-Stopwords-0.03",
+         "repo" : "https://github.com/manwar/Test-Spelling-Stopwords",
+         "repo_def_branch" : "master",
+         "repo_name" : "Test-Spelling-Stopwords",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "0.03"
       },
       {
          "auth" : "MANWAR",
@@ -1143,7 +1503,7 @@
          "dist" : "Test-Strict",
          "insecure_repo" : true,
          "name" : "Test-Strict-0.54",
-         "repo" : "http://github.com/manwar/Test-Strict",
+         "repo" : "https://github.com/manwar/Test-Strict",
          "repo_def_branch" : "master",
          "repo_name" : "Test-Strict",
          "repo_owner" : "manwar",
@@ -1166,6 +1526,7 @@
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2018-06-25",
          "dist" : "Text-CSV-Pivot",
          "insecure_repo" : false,
@@ -1174,10 +1535,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Text-CSV-Pivot",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.09"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2018-09-03",
          "dist" : "Text-MostFreqKDistance",
          "insecure_repo" : false,
@@ -1186,10 +1549,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "Text-MostFreqKDistance",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.10"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2018-12-09",
          "dist" : "Text-Trac",
          "insecure_repo" : false,
@@ -1198,6 +1563,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Text-Trac",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.24"
       },
       {
@@ -1207,7 +1573,7 @@
          "dist" : "Time-Warp",
          "insecure_repo" : true,
          "name" : "Time-Warp-0.55",
-         "repo" : "http://github.com/manwar/Time-Warp",
+         "repo" : "https://github.com/manwar/Time-Warp",
          "repo_def_branch" : "master",
          "repo_name" : "Time-Warp",
          "repo_owner" : "manwar",
@@ -1216,6 +1582,7 @@
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2016-03-30",
          "dist" : "URL-Check",
          "insecure_repo" : false,
@@ -1224,10 +1591,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "URL-Check",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.11"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-02-16",
          "dist" : "WWW-Google-APIDiscovery",
          "insecure_repo" : false,
@@ -1236,10 +1605,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-APIDiscovery",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.28"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2024-03-01",
          "dist" : "WWW-Google-CustomSearch",
          "insecure_repo" : false,
@@ -1248,10 +1619,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-CustomSearch",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.40"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-02-18",
          "dist" : "WWW-Google-DistanceMatrix",
          "insecure_repo" : false,
@@ -1260,10 +1633,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-DistanceMatrix",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.21"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-02-19",
          "dist" : "WWW-Google-KnowledgeGraphSearch",
          "insecure_repo" : false,
@@ -1272,10 +1647,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-KnowledgeGraphSearch",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.07"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-02-20",
          "dist" : "WWW-Google-PageSpeedOnline",
          "insecure_repo" : false,
@@ -1284,10 +1661,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-PageSpeedOnline",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.29"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-02-21",
          "dist" : "WWW-Google-Places",
          "insecure_repo" : false,
@@ -1296,10 +1675,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-Places",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.37"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-02-14",
          "dist" : "WWW-Google-UserAgent",
          "insecure_repo" : false,
@@ -1308,34 +1689,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-UserAgent",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.23"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2015-01-20",
-         "dist" : "WWW-MovieReviews-NYT",
-         "insecure_repo" : false,
-         "name" : "WWW-MovieReviews-NYT-0.05",
-         "repo" : "https://github.com/Manwar/WWW-MovieReviews-NYT",
-         "repo_def_branch" : "master",
-         "repo_name" : "WWW-MovieReviews-NYT",
-         "repo_owner" : "Manwar",
-         "ver" : "0.05"
-      },
-      {
-         "auth" : "MANWAR",
-         "date" : "2015-01-17",
-         "dist" : "WWW-OReillyMedia-Store",
-         "insecure_repo" : false,
-         "name" : "WWW-OReillyMedia-Store-0.10",
-         "repo" : "https://github.com/Manwar/WWW-OReillyMedia-Store",
-         "repo_def_branch" : "master",
-         "repo_name" : "WWW-OReillyMedia-Store",
-         "repo_owner" : "Manwar",
-         "ver" : "0.10"
-      },
-      {
-         "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2018-02-18",
          "dist" : "WWW-SmartSheet",
          "insecure_repo" : false,
@@ -1344,22 +1703,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-SmartSheet",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.06"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2015-07-21",
-         "dist" : "WWW-StatsMix",
-         "insecure_repo" : false,
-         "name" : "WWW-StatsMix-0.07",
-         "repo" : "https://github.com/Manwar/WWW-StatsMix",
-         "repo_def_branch" : "master",
-         "repo_name" : "WWW-StatsMix",
-         "repo_owner" : "Manwar",
-         "ver" : "0.07"
-      },
-      {
-         "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2019-04-02",
          "dist" : "WebService-Wikimapia",
          "insecure_repo" : false,
@@ -1368,10 +1717,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "WebService-Wikimapia",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.14"
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "",
          "date" : "2016-11-28",
          "dist" : "XML-SAX-Simple",
          "insecure_repo" : false,
@@ -1380,23 +1731,40 @@
          "repo_def_branch" : "master",
          "repo_name" : "XML-SAX-Simple",
          "repo_owner" : "manwar",
+         "uses_rt" : false,
          "ver" : "0.08"
       },
       {
          "auth" : "MANWAR",
-         "date" : "2022-08-09",
+         "bugtracker" : "https://github.com/cpan-authors/XML-Parser/issues",
+         "date" : "2026-03-29",
          "dist" : "XML-XPath",
          "insecure_repo" : false,
-         "name" : "XML-XPath-1.48",
+         "name" : "XML-XPath-1.49",
          "repo" : "https://github.com/manwar/XML-XPath",
          "repo_def_branch" : "master",
          "repo_name" : "XML-XPath",
          "repo_owner" : "manwar",
-         "ver" : "1.48"
+         "uses_rt" : false,
+         "ver" : "1.49"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "",
+         "date" : "2025-10-30",
+         "dist" : "YaraFFI",
+         "insecure_repo" : false,
+         "name" : "YaraFFI-0.07",
+         "repo" : "https://github.com/manwar/YaraFFI",
+         "repo_def_branch" : "master",
+         "repo_name" : "YaraFFI",
+         "repo_owner" : "manwar",
+         "uses_rt" : false,
+         "ver" : "0.07"
       }
    ],
    "sort" : {
-      "column" : 0,
+      "column" : "name",
       "direction" : "asc"
    }
 }

@@ -3,17 +3,22 @@
       "cpan" : "SZABGAB",
       "github" : "szabgab",
       "gravatar" : "https://secure.gravatar.com/avatar/19821078d3ecf265b2af009548e98ef3?s=130&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2F4e0a6fe2acda5df6095514e7d6329e91%3Fs%3D130%26d%3Didenticon",
-      "name" : "×××××¨ ×¡×× - GÃ¡bor SzabÃ³"
+      "name" : "גאבור סבו - Gábor Szabó"
    },
    "ci" : {
+      "cirrus_task_names" : [],
       "gh_workflow_names" : [
          "CI"
       ],
+      "use_appveyor" : 0,
+      "use_cirrus" : 0,
       "use_codecov" : 0,
       "use_coveralls" : 1,
       "use_gh_actions" : 1,
-      "use_travis" : 1
+      "use_travis" : 0,
+      "use_travis_com" : 0
    },
+   "gathered_at" : "2026-10-10T16:47:50Z",
    "modules" : [
       {
          "auth" : "SZABGAB",
@@ -73,6 +78,16 @@
       },
       {
          "auth" : "SZABGAB",
+         "bugtracker" : "",
+         "date" : "2008-04-08",
+         "dist" : "CGI-FileManager",
+         "name" : "CGI-FileManager-0.06",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.06"
+      },
+      {
+         "auth" : "SZABGAB",
          "bugtracker" : "https://github.com/szabgab/CGI-Upload/issues",
          "date" : "2023-12-28",
          "dist" : "CGI-Upload",
@@ -115,39 +130,83 @@
       },
       {
          "auth" : "SZABGAB",
+         "bugtracker" : "",
          "date" : "2014-10-28",
          "dist" : "CPAN-Test-Dummy-SCO-Lacks",
          "insecure_repo" : false,
          "name" : "CPAN-Test-Dummy-SCO-Lacks-0.01",
-         "repo" : "git://github.com/szabgab/CPAN-Test-Dummy-SCO.git",
+         "repo" : "https://github.com/szabgab/CPAN-Test-Dummy-SCO",
          "repo_def_branch" : "master",
          "repo_name" : "CPAN-Test-Dummy-SCO",
          "repo_owner" : "szabgab",
+         "uses_rt" : false,
          "ver" : "0.01"
       },
       {
          "auth" : "SZABGAB",
+         "bugtracker" : "",
          "date" : "2014-10-31",
          "dist" : "CPAN-Test-Dummy-SCO-Pirated",
          "insecure_repo" : true,
          "name" : "CPAN-Test-Dummy-SCO-Pirated-1.04",
-         "repo" : "http://github.com/szabgab/CPAN-Test-Dummy-SCO",
+         "repo" : "https://github.com/szabgab/CPAN-Test-Dummy-SCO",
          "repo_def_branch" : "master",
          "repo_name" : "CPAN-Test-Dummy-SCO",
          "repo_owner" : "szabgab",
+         "uses_rt" : false,
          "ver" : "1.04"
       },
       {
          "auth" : "SZABGAB",
+         "bugtracker" : "",
          "date" : "2014-10-28",
          "dist" : "CPAN-Test-Dummy-SCO-Special",
          "insecure_repo" : true,
          "name" : "CPAN-Test-Dummy-SCO-Special-0.04",
-         "repo" : "http://github.com/szabgab/CPAN-Test-Dummy-SCO",
+         "repo" : "https://github.com/szabgab/CPAN-Test-Dummy-SCO",
          "repo_def_branch" : "master",
          "repo_name" : "CPAN-Test-Dummy-SCO",
          "repo_owner" : "szabgab",
+         "uses_rt" : false,
          "ver" : "0.04"
+      },
+      {
+         "auth" : "SZABGAB",
+         "bugtracker" : "https://github.com/PadreIDE/Debug-Client/issues",
+         "date" : "2025-01-10",
+         "dist" : "Debug-Client",
+         "insecure_repo" : false,
+         "name" : "Debug-Client-0.34",
+         "repo" : "https://github.com/PadreIDE/Debug-Client",
+         "repo_def_branch" : "master",
+         "repo_name" : "Debug-Client",
+         "repo_owner" : "PadreIDE",
+         "uses_rt" : false,
+         "ver" : "0.34"
+      },
+      {
+         "auth" : "SZABGAB",
+         "bugtracker" : "https://github.com/szabgab/FalkorDB-Perl/issues",
+         "date" : "2026-06-04",
+         "dist" : "FalkorDB",
+         "insecure_repo" : false,
+         "name" : "FalkorDB-0.01",
+         "repo" : "https://github.com/szabgab/FalkorDB-Perl",
+         "repo_def_branch" : "main",
+         "repo_name" : "FalkorDB-Perl",
+         "repo_owner" : "szabgab",
+         "uses_rt" : false,
+         "ver" : "0.01"
+      },
+      {
+         "auth" : "SZABGAB",
+         "bugtracker" : "",
+         "date" : "2011-12-21",
+         "dist" : "File-Open-OOP",
+         "name" : "File-Open-OOP-0.01",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.01"
       },
       {
          "auth" : "SZABGAB",
@@ -165,14 +224,16 @@
       },
       {
          "auth" : "SZABGAB",
+         "bugtracker" : "",
          "date" : "2017-10-25",
          "dist" : "Games-Sudoku-CLI",
          "insecure_repo" : true,
          "name" : "Games-Sudoku-CLI-0.02",
-         "repo" : "http://github.com/szabgab/perl5-Games-Sudoku-CLI",
+         "repo" : "https://github.com/szabgab/perl5-Games-Sudoku-CLI",
          "repo_def_branch" : "master",
          "repo_name" : "perl5-Games-Sudoku-CLI",
          "repo_owner" : "szabgab",
+         "uses_rt" : false,
          "ver" : "0.02"
       },
       {
@@ -191,6 +252,7 @@
       },
       {
          "auth" : "SZABGAB",
+         "bugtracker" : "",
          "date" : "2012-07-27",
          "dist" : "Math-RPN",
          "insecure_repo" : false,
@@ -199,6 +261,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Math-RPN",
          "repo_owner" : "szabgab",
+         "uses_rt" : false,
          "ver" : "1.11"
       },
       {
@@ -214,6 +277,16 @@
          "repo_owner" : "szabgab",
          "uses_rt" : false,
          "ver" : "1.00"
+      },
+      {
+         "auth" : "SZABGAB",
+         "bugtracker" : "",
+         "date" : "2007-05-06",
+         "dist" : "Module-Packaged-Report",
+         "name" : "Module-Packaged-Report-0.04",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.04"
       },
       {
          "auth" : "SZABGAB",
@@ -273,6 +346,7 @@
       },
       {
          "auth" : "SZABGAB",
+         "bugtracker" : "",
          "date" : "2014-05-24",
          "dist" : "Task-DWIM-Linux",
          "insecure_repo" : false,
@@ -281,6 +355,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-DWIM",
          "repo_owner" : "dwimperl",
+         "uses_rt" : false,
          "ver" : "0.10"
       },
       {
@@ -299,6 +374,7 @@
       },
       {
          "auth" : "SZABGAB",
+         "bugtracker" : "",
          "date" : "2014-08-26",
          "dist" : "Term-ReadPassword-Win32",
          "insecure_repo" : false,
@@ -307,21 +383,22 @@
          "repo_def_branch" : "master",
          "repo_name" : "Term-ReadPassword-Win32",
          "repo_owner" : "szabgab",
+         "uses_rt" : false,
          "ver" : "0.05"
       },
       {
          "auth" : "SZABGAB",
-         "bugtracker" : "http://github.com/szabgab/Test-CircularDependencies",
-         "date" : "2015-09-23",
+         "bugtracker" : "https://github.com/szabgab/Test-CircularDependencies",
+         "date" : "2026-01-09",
          "dist" : "Test-CircularDependencies",
-         "insecure_repo" : true,
-         "name" : "Test-CircularDependencies-0.02",
-         "repo" : "http://github.com/szabgab/Test-CircularDependencies",
+         "insecure_repo" : false,
+         "name" : "Test-CircularDependencies-0.03",
+         "repo" : "https://github.com/szabgab/Test-CircularDependencies",
          "repo_def_branch" : "master",
          "repo_name" : "Test-CircularDependencies",
          "repo_owner" : "szabgab",
          "uses_rt" : false,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "SZABGAB",
@@ -339,14 +416,30 @@
       },
       {
          "auth" : "SZABGAB",
+         "bugtracker" : "https://github.com/szabgab/Test-IsAny",
+         "date" : "2026-04-25",
+         "dist" : "Test-IsAny",
+         "insecure_repo" : false,
+         "name" : "Test-IsAny-0.01",
+         "repo" : "https://github.com/szabgab/Test-IsAny",
+         "repo_def_branch" : "main",
+         "repo_name" : "Test-IsAny",
+         "repo_owner" : "szabgab",
+         "uses_rt" : false,
+         "ver" : "0.01"
+      },
+      {
+         "auth" : "SZABGAB",
+         "bugtracker" : "",
          "date" : "2009-04-10",
          "dist" : "Test-Snapshots",
          "insecure_repo" : true,
          "name" : "Test-Snapshots-0.02",
-         "repo" : "http://github.com/szabgab/test-snapshots",
+         "repo" : "https://github.com/szabgab/test-snapshots",
          "repo_def_branch" : "master",
          "repo_name" : "test-snapshots",
          "repo_owner" : "szabgab",
+         "uses_rt" : false,
          "ver" : "0.02"
       },
       {
@@ -356,7 +449,7 @@
          "dist" : "Text-MediawikiFormat",
          "insecure_repo" : true,
          "name" : "Text-MediawikiFormat-1.04",
-         "repo" : "http://github.com/szabgab/Text-MediawikiFormat",
+         "repo" : "https://github.com/szabgab/Text-MediawikiFormat",
          "repo_def_branch" : "master",
          "repo_name" : "Text-MediawikiFormat",
          "repo_owner" : "szabgab",
@@ -365,6 +458,20 @@
       },
       {
          "auth" : "SZABGAB",
+         "bugtracker" : "",
+         "date" : "2009-04-27",
+         "dist" : "Text-SmartLinks",
+         "insecure_repo" : true,
+         "name" : "Text-SmartLinks-0.01",
+         "repo" : "http://svn.pugscode.org/pugs/util/Text-SmartLinks",
+         "repo_name" : "util",
+         "repo_owner" : "pugs",
+         "uses_rt" : false,
+         "ver" : "0.01"
+      },
+      {
+         "auth" : "SZABGAB",
+         "bugtracker" : "",
          "date" : "2013-09-27",
          "dist" : "WWW-AdServer",
          "insecure_repo" : false,
@@ -373,6 +480,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-AdServer",
          "repo_owner" : "szabgab",
+         "uses_rt" : false,
          "ver" : "1.01"
       },
       {
@@ -391,6 +499,7 @@
       },
       {
          "auth" : "SZABGAB",
+         "bugtracker" : "",
          "date" : "2013-10-18",
          "dist" : "WebService-GData",
          "insecure_repo" : false,
@@ -399,11 +508,12 @@
          "repo_def_branch" : "master",
          "repo_name" : "WebService-GData",
          "repo_owner" : "szabgab",
+         "uses_rt" : false,
          "ver" : "0.06"
       }
    ],
    "sort" : {
-      "column" : 3,
+      "column" : "date",
       "direction" : "desc"
    }
 }

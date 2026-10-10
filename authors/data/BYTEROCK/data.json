@@ -6,6 +6,7 @@
       "name" : "John Scoles"
    },
    "ci" : {
+      "cirrus_task_names" : [],
       "gh_workflow_names" : [
          "CI"
       ],
@@ -17,7 +18,18 @@
       "use_travis" : 0,
       "use_travis_com" : 0
    },
+   "gathered_at" : "2026-10-10T16:47:32Z",
    "modules" : [
+      {
+         "auth" : "BYTEROCK",
+         "bugtracker" : "",
+         "date" : "2014-03-09",
+         "dist" : "Acme-Moose",
+         "name" : "Acme-Moose-0.02",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.02"
+      },
       {
          "auth" : "BYTEROCK",
          "bugtracker" : "https://github.com/byterock/Mojolicious_Command_generate_routes_restsful/issues",
@@ -76,6 +88,17 @@
       },
       {
          "auth" : "BYTEROCK",
+         "bugtracker" : "",
+         "date" : "2014-06-25",
+         "dist" : "MooseX-AuthorizedMethodRoles",
+         "name" : "MooseX-AuthorizedMethodRoles-0.00.05",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.00.05"
+      },
+      {
+         "auth" : "BYTEROCK",
+         "bugtracker" : "",
          "date" : "2014-03-22",
          "dist" : "Orignal",
          "insecure_repo" : false,
@@ -84,11 +107,22 @@
          "repo_def_branch" : "master",
          "repo_name" : "Orignal",
          "repo_owner" : "byterock",
+         "uses_rt" : false,
          "ver" : "0.04"
+      },
+      {
+         "auth" : "BYTEROCK",
+         "bugtracker" : "",
+         "date" : "2026-06-04",
+         "dist" : "WWW-Vonage-API",
+         "name" : "WWW-Vonage-API-0.003",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.003"
       }
    ],
    "sort" : {
-      "column" : 0,
+      "column" : "name",
       "direction" : "asc"
    }
 }
