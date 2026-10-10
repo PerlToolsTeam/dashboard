@@ -173,3 +173,18 @@ Completes additional edge cases under #93 and #121.
 Validation: 415 offline Perl checks across thirteen files and twelve JavaScript
 checks pass. Invalid home-page templates stop before status/sitemap publication;
 network errors remain retryable while context-only matches remain permanent.
+
+## Sprint 10: rendering and badge-URL review
+
+Additional rendering fixes found during final verification.
+
+- Corrected the Font Awesome integrity hash, which incorrectly contained the
+  Bootstrap CSS hash and caused browsers to block the stylesheet.
+- Updated onboarding accordion attributes for the pinned Bootstrap 5 bundle.
+- URL encoded branch names and Cirrus task names so punctuation cannot change
+  URL paths, fragments, or query values.
+
+Validation: 424 offline Perl checks across thirteen files and twelve JavaScript
+checks pass. All three declared CDN integrity hashes match the pinned asset bytes.
+An isolated Chromium check verifies accordion expansion/collapse and registration
+generation using those exact Bootstrap assets with external networking disabled.

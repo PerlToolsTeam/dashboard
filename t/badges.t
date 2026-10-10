@@ -5,7 +5,7 @@ use Dashboard::BadgeMaker;
 use Dashboard::Config qw(normalize_author effective_ci);
 
 my $badges = Dashboard::BadgeMaker->new;
-my $module = {repo => 'https://github.com/example/repo', repo_owner => 'example', repo_name => 'repo'};
+my $module = {dist => 'Example', repo => 'https://github.com/example/repo', repo_owner => 'example', repo_name => 'repo'};
 my $named = $badges->gh($module, 'Build & test');
 like($named, qr{workflows/Build%20%26%20test/badge.svg}, 'workflow display name is encoded as one path component');
 like($named, qr{query=workflow%3A%22Build%20%26%20test%22}, 'workflow search uses an encoded quoted name');
@@ -20,6 +20,15 @@ my $combined = $badges->gh_badges($module, {use_gh_actions => 1,
   gh_workflow_names => ['CI'], gh_workflow_files => ['test.yml']});
 is(scalar(() = $combined =~ /<img /g), 2, 'named and file-based workflows can both be displayed');
 like($combined, qr/<br>/, 'multiple workflow badges remain separated');
+
+my $branched = {%$module, repo_def_branch => 'feature/api&docs#2'};
+for my $service (qw(travis travis_com coveralls codecov)) {
+  my $html = $badges->$service($branched);
+  like($html, qr{feature%2Fapi%26docs%232}, "$service encodes the complete branch name");
+  unlike($html, qr{feature/api&amp;docs#2}, "$service cannot turn branch punctuation into URL syntax");
+}
+like($badges->cirrus($module, 'Test & docs'), qr{task=Test%20%26%20docs},
+  'Cirrus task names remain one query value');
 
 my $author = normalize_author({author => {cpan => 'EXAMPLE'},
   ci => {use_gh_actions => 1, use_coveralls => 1, gh_workflow_names => ['CI']},

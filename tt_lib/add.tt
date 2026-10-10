@@ -64,13 +64,13 @@ metadata and adds your dashboard.</li>
   <div class="card">
     <div class="card-header" id="headingOne">
       <h3 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+        <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                 aria-expanded="true" aria-controls="collapseOne">
           Github Actions
         </button>
       </h3>
     </div>
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
       <div class="card-body">
         <p>Github Actions can do many things. But we're just using it to run tests on each commit
           and report on the success or failure of the test run. Add a directory called
@@ -105,13 +105,13 @@ metadata and adds your dashboard.</li>
   <div class="card">
     <div class="card-header" id="headingThree">
       <h3 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree"
+        <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                 aria-expanded="true" aria-controls="collapseThree">
           Coveralls.io
         </button>
       </h3>
     </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
       <div class="card-body">
         <p><a href="https://coveralls.io/">Coveralls.io</a> measures your test coverage.  Log in
           with your Github credentials and turn on the repos that you want to use. You also have to
@@ -140,14 +140,14 @@ metadata and adds your dashboard.</li>
   <div class="card">
     <div class="card-header" id="headingFive">
       <h3 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive"
+        <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseFive"
                 aria-expanded="true" aria-controls="collapseFive">
           Codecov.io
         </button>
       </h3>
     </div>
 
-    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-bs-parent="#accordion">
       <div class="card-body">
         <p>We support <a href="https://codecov.io/">Codecov.io</a>, but haven't written instructions
           for it yet.</p>
@@ -158,14 +158,14 @@ metadata and adds your dashboard.</li>
   <div class="card">
     <div class="card-header" id="headingSix">
       <h3 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSix"
+        <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseSix"
                 aria-expanded="true" aria-controls="collapseSix">
           Cirrus CI
         </button>
       </h3>
     </div>
 
-    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-bs-parent="#accordion">
       <div class="card-body">
         <p>We support <a href="https://cirrus-ci.org/">Cirrus CI</a>, but haven't written instructions
           for it yet.</p>
@@ -176,14 +176,14 @@ metadata and adds your dashboard.</li>
   <div class="card">
     <div class="card-header" id="headingSeven">
       <h3 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSeven"
+        <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
                 aria-expanded="true" aria-controls="collapseSeven">
           AppVeyor
         </button>
       </h3>
     </div>
 
-    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-bs-parent="#accordion">
       <div class="card-body">
         <p>We support <a href="https://appveyor.com/">AppVeyor</a>, but haven't written instructions
           for it yet.</p>

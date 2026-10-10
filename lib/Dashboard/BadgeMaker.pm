@@ -21,10 +21,11 @@ class Dashboard::BadgeMaker {
   method cirrus {
     my ($module, $task) = @_;
     return '' unless $self->has_repo_details($module);
+    my $encoded_task = uri_escape_utf8($task);
 
     return $self->badge_link(
       "https://cirrus-ci.com/github/$module->{repo_owner}/$module->{repo_name}",
-      "https://api.cirrus-ci.com/github/$module->{repo_owner}/$module->{repo_name}.svg?task=$task",
+      "https://api.cirrus-ci.com/github/$module->{repo_owner}/$module->{repo_name}.svg?task=$encoded_task",
       "Cirrus task $task",
     );
   }
@@ -74,10 +75,11 @@ class Dashboard::BadgeMaker {
   method travis {
     my ($module) = @_;
     return '' unless $self->has_branch_details($module);
+    my $branch = uri_escape_utf8($module->{repo_def_branch});
 
     return $self->badge_link(
-      "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}?branch=$module->{repo_def_branch}",
-      "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}.svg?branch=$module->{repo_def_branch}",
+      "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}?branch=$branch",
+      "https://travis-ci.org/$module->{repo_owner}/$module->{repo_name}.svg?branch=$branch",
       "Build status for $module->{dist}",
     );
   }
@@ -91,10 +93,11 @@ class Dashboard::BadgeMaker {
   method coveralls {
     my ($module, $author) = @_;
     return '' unless $self->has_branch_details($module);
+    my $branch = uri_escape_utf8($module->{repo_def_branch});
 
     return $self->badge_link(
-      "https://coveralls.io/github/$module->{repo_owner}/$module->{repo_name}?branch=$module->{repo_def_branch}",
-      "https://coveralls.io/repos/$module->{repo_owner}/$module->{repo_name}/badge.svg?branch=$module->{repo_def_branch}&service=github",
+      "https://coveralls.io/github/$module->{repo_owner}/$module->{repo_name}?branch=$branch",
+      "https://coveralls.io/repos/$module->{repo_owner}/$module->{repo_name}/badge.svg?branch=$branch&service=github",
       "Test coverage for $module->{dist}",
     );
   }
@@ -102,10 +105,11 @@ class Dashboard::BadgeMaker {
   method codecov {
     my ($module) = @_;
     return '' unless $self->has_branch_details($module);
+    my $branch = uri_escape_utf8($module->{repo_def_branch});
 
     return $self->badge_link(
       "https://codecov.io/gh/$module->{repo_owner}/$module->{repo_name}",
-      "https://codecov.io/gh/$module->{repo_owner}/$module->{repo_name}/branch/$module->{repo_def_branch}/graph/badge.svg",
+      "https://codecov.io/gh/$module->{repo_owner}/$module->{repo_name}/branch/$branch/graph/badge.svg",
       "Test coverage for $module->{dist}",
     );
   }
