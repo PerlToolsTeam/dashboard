@@ -1,6 +1,10 @@
 # dashboard
 Simple dashboard for monitoring CPAN modules
 
+For the current architecture, data flow, local commands, and deployment workflow,
+see the [repository overview](REPO_OVERVIEW.md). The setup notes below describe
+the older configuration layout.
+
 ## Simple Set-Up
 
 To configure this system to work with your system, do the following:
