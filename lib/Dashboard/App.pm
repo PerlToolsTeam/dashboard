@@ -17,24 +17,29 @@ class Dashboard::App {
   use MetaCPAN::Client;
   use HTTP::Tiny;
   use URI;
-  use FindBin '$RealBin';
   use File::Find;
+  use POSIX 'strftime';
+  use Time::HiRes ();
 
-  # :reader only exists for the tests
-  field $mcpan :reader = MetaCPAN::Client->new(
-    ua => HTTP::Tiny->new(agent => "CPAN Dashboard/$VERSION")
+  field $json = JSON->new->pretty->canonical;
+  field $config_file :param = 'dashboard.json';
+  field $global_cfg = $json->decode(path($config_file)->slurp_utf8);
+  field $mcpan :reader :param = MetaCPAN::Client->new(
+    ua => HTTP::Tiny->new(agent => "CPAN Dashboard/$VERSION",
+      timeout => $global_cfg->{http_timeout} // 20)
   );
-  field $json = JSON->new->pretty->canonical->utf8;
-  field $global_cfg = $json->decode(path('dashboard.json')->slurp_utf8);
   field $tt;
   field @authors;
-  field @all_authors;
   field @urls;
   field $run_gather :param(gather) = 1;
   field $run_build :param(build) = 1;
-  field $branch_cache = Dashboard::BranchCache->new;
+  field $branch_cache = Dashboard::BranchCache->new(
+    file => $global_cfg->{branch_cache_file} // 'repo_def_branch.json'
+  );
 
   method run {
+    @authors = ();
+    @urls = ();
     if ($run_gather) {
       $self->gather_data;
     } else {
@@ -48,7 +53,7 @@ class Dashboard::App {
  
     say "Gathering...";
 
-    for (glob "$RealBin/../authors/*.json") {
+    for (sort { "$a" cmp "$b" } path($global_cfg->{author_dir} // 'authors')->children(qr/\.json\z/)) {
       push @authors, $self->do_author($_);
       push @urls, "https://$global_cfg->{domain}/$authors[-1]{author}{cpan}/";
     }
@@ -61,49 +66,90 @@ class Dashboard::App {
 
     my $cfg = $json->decode(path($file)->slurp_utf8);
 
-    $cfg->{modules} = [];
+    my $id = $cfg->{author}{cpan} // '';
+    die "Invalid CPAN identifier in $file\n" unless $id =~ /\A[A-Z][A-Z0-9]*\z/;
+    my $attempts = $global_cfg->{fetch_attempts} // 3;
+    my ($fresh, $error);
+    for my $attempt (1 .. $attempts) {
+      try {
+        $fresh = $self->fetch_author($cfg);
+      }
+      catch ($exception) {
+        $error = $exception;
+      }
+      last if $fresh;
+      last if $attempt == $attempts || !retryable_fetch_error($error);
+      warn "MetaCPAN fetch failed for $id (attempt $attempt/$attempts); retrying: $error";
+      $self->wait_before_retry($attempt);
+    }
 
+    if ($fresh) {
+      my $snapshot = $self->snapshot_path($id);
+      $snapshot->parent->mkpath;
+      $snapshot->spew_utf8($json->encode($fresh));
+      return $fresh;
+    }
+
+    chomp $error;
+    my $snapshot = $self->snapshot_path($id);
+    my ($cached, $cache_error);
+    try { $cached = $self->read_snapshot($snapshot, $id) }
+    catch ($exception) { $cache_error = $exception }
+    unless ($cached) {
+      die "MetaCPAN fetch failed for $id: $error\n"
+        . "No usable author snapshot at $snapshot: $cache_error";
+    }
+    warn "MetaCPAN fetch failed for $id: $error\n"
+      . "Using cached snapshot $snapshot (gathered "
+      . ($cached->{gathered_at} // 'at an unknown time') . ").\n";
+    $cached->{fetch_warning} = 'Release metadata could not be refreshed; showing cached data.';
+    return $cached;
+  }
+
+  method fetch_author ($cfg) {
+    # Do not expose partial pages or replace a snapshot if iteration fails.
+    my $fresh = $json->decode($json->encode($cfg));
+    my $author = $mcpan->author($cfg->{author}{cpan});
+    $fresh->{author}{name} = $author->name;
+    my $gravatar = $author->gravatar_url;
+    if ($gravatar && $gravatar =~ m{\Ahttps://}) {
+      $fresh->{author}{gravatar} = $gravatar;
+    }
     my @modules;
-
-    try {
-      my $mcpan_author = $mcpan->author($cfg->{author}{cpan});
-      my $releases     = $mcpan_author->releases;
-
-      my $gravatar = $mcpan_author->gravatar_url;
-      if ($gravatar and $gravatar =~ m[^https:]) {
-        $cfg->{author}{gravatar} = $gravatar;
-      }
-      $cfg->{author}{name} = $mcpan_author->name;
-
-      while ( my $rel = $releases->next ) {
-        push @modules, $self->module_from_release($rel);
-      }
+    my $releases = $author->releases;
+    while (my $release = $releases->next) {
+      push @modules, $self->module_from_release($release);
     }
-    catch ($e) {
-      chomp $e;
-      my $data_file = path("docs/$cfg->{author}{cpan}/data.json");
+    $fresh->{modules} = [sort { $a->{name} cmp $b->{name} } @modules];
+    $fresh->{sort} //= {};
+    $fresh->{sort}{column} //= 0;
+    $fresh->{sort}{column} = 3 if lc($fresh->{sort}{column}) eq 'date';
+    $fresh->{sort}{direction} //= 'asc';
+    $fresh->{gathered_at} = strftime('%Y-%m-%dT%H:%M:%SZ', gmtime);
+    delete $fresh->{fetch_warning};
+    return $fresh;
+  }
 
-      if ($data_file->is_file) {
-        warn "MetaCPAN fetch failed for $cfg->{author}{cpan}: $e\n"
-           . "Re-using previously generated data from $data_file.\n";
-        return $json->decode($data_file->slurp_utf8);
-      }
+  sub retryable_fetch_error ($error) {
+    return $error =~ /\b(?:HTTP(?:\/\d(?:\.\d)?)?\s+|status[ :=]+)(?:408|429|5\d\d)\b|timed?\s*out|timeout|connection|network|temporary|too many requests|internal server error|bad gateway|service unavailable|gateway timeout|name or service not known/i;
+  }
 
-      die "MetaCPAN fetch failed for $cfg->{author}{cpan} "
-        . "and no cached data is available: $e\n";
-    }
+  method wait_before_retry ($attempt) {
+    my $delay = ($global_cfg->{retry_delay} // 1) * 2 ** ($attempt - 1);
+    Time::HiRes::sleep($delay > 10 ? 10 : $delay);
+  }
 
-    $cfg->{modules} = [ sort { $a->{name} cmp $b->{name} } @modules ];
+  method snapshot_path ($id) {
+    return path($global_cfg->{data_dir} // 'authors/data', $id, 'data.json');
+  }
 
-    $cfg->{sort} //= {};
-    $cfg->{sort}{column} //= 0;
-    $cfg->{sort}{column} = 2 if 'date' eq lc $cfg->{sort}{column};
-    $cfg->{sort}{direction} //= 'asc';
-
-    path("docs/$cfg->{author}{cpan}")->mkdir;
-    path("docs/$cfg->{author}{cpan}/data.json")->spew_utf8($json->encode($cfg));
-
-    return $cfg;
+  method read_snapshot ($file, $id) {
+    my $data = $json->decode(path($file)->slurp_utf8);
+    die "Invalid author snapshot in $file\n"
+      unless ref($data) eq 'HASH' && ref($data->{author}) eq 'HASH'
+        && ($data->{author}{cpan} // '') eq $id && ref($data->{modules}) eq 'ARRAY'
+        && !grep { ref($_) ne 'HASH' } @{ $data->{modules} };
+    return $data;
   }
 
   method module_from_release {
@@ -116,7 +162,7 @@ class Dashboard::App {
     $mod->{auth} = $rel->author;
     $mod->{date} = (split /T/, $rel->date)[0];
     $mod->{bugtracker} = '';
-    $mod->{uses_rt} = 0;
+    $mod->{uses_rt} = $JSON::false;
 
     # Get the repo link.
     # 1. It should be in the "web" key
@@ -126,14 +172,14 @@ class Dashboard::App {
 
     if ($rel->resources->{bugtracker}{web}) {
       $mod->{bugtracker} = $rel->resources->{bugtracker}{web};
-      $mod->{uses_rt} = $mod->{bugtracker} =~ /rt\.cpan\.org/;
+      $mod->{uses_rt} = $mod->{bugtracker} =~ /rt\.cpan\.org/ ? $JSON::true : $JSON::false;
     }
 
     unless ($mod->{repo}) {
       return $mod;
     }
 
-    $mod->{insecure_repo} = $mod->{repo} =~ m|^http:|;
+    $mod->{insecure_repo} = $mod->{repo} =~ m|^http:| ? $JSON::true : $JSON::false;
     $mod->{repo} =~ s[/+$][];
 
     if (my $github = github_repository($mod->{repo})) {
@@ -176,14 +222,17 @@ class Dashboard::App {
   }
 
   method load_data {
-    for (glob "$RealBin/../authors/data/*/data.json") {
-      push @authors, $json->decode(path($_)->slurp_utf8);
+    my $dir = path($global_cfg->{data_dir} // 'authors/data');
+    for my $author_dir (sort { "$a" cmp "$b" } $dir->children) {
+      next unless $author_dir->is_dir && $author_dir->child('data.json')->is_file;
+      push @authors, $self->read_snapshot($author_dir->child('data.json'), $author_dir->basename);
       push @urls, "https://$global_cfg->{domain}/$authors[-1]{author}{cpan}/";
     }
   }
 
   method build_site {
     say "Building...";
+    path($global_cfg->{output_dir})->mkpath;
 
     $tt = Template->new({
       ENCODING     => 'utf8',
@@ -208,8 +257,7 @@ class Dashboard::App {
       wanted => sub {
         return unless -f;
         my $file = $_;
-        my $rel = path($file)->relative('.');
-        $rel =~ s|$global_cfg->{static_dir}/||g;
+        my $rel = path($file)->relative($global_cfg->{static_dir});
         my $out = path($global_cfg->{output_dir}, $rel);
         $out->parent->mkpath;
         path($file)->copy($out);
@@ -227,11 +275,8 @@ class Dashboard::App {
         { binmode => ':utf8' },
       ) or die $tt->error;
 
-      if (-f "authors/data/$_->{author}{cpan}/data.json") {
-        path("docs/$_->{author}{cpan}")->mkdir;
-        path("authors/data/$_->{author}{cpan}/data.json")
-          ->copy("docs/$_->{author}{cpan}/data.json");
-      }
+      path($global_cfg->{output_dir}, $_->{author}{cpan}, 'data.json')
+        ->spew_utf8($json->encode($_));
     }
 
     $tt->process(
@@ -250,7 +295,7 @@ class Dashboard::App {
         { name => ucfirst $_ },
         "$_/index.html",
         { binmode => ':utf8' },
-      );
+      ) or die $tt->error;
       push @urls, "https://$global_cfg->{domain}/$_/";
     }
   }
@@ -263,7 +308,7 @@ class Dashboard::App {
       { urls => \@urls},
       'sitemap.xml',
       { binmode => ':utf8' },
-    );
+    ) or die $tt->error;
   }
 
   sub valid_repo {

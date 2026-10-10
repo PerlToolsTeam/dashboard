@@ -23,7 +23,7 @@ flowchart TD
     Config[dashboard.json and authors/*.json] --> Gather[Gather release metadata]
     Meta[MetaCPAN API] --> Gather
     GitHub[GitHub CLI and repo_def_branch.json] --> Gather
-    Gather --> Live[docs/AUTHOR/data.json and in-memory author data]
+    Gather --> Live[authors/data/AUTHOR/data.json and in-memory author data]
     Snapshots[authors/data/AUTHOR/data.json] --> Cached[Load cached author data]
     Live --> Render[Render Template Toolkit templates]
     Cached --> Render
@@ -35,9 +35,10 @@ flowchart TD
     Services[External badge services] --> Browser
 ```
 
-The two data sources shown above are distinct. A normal run gathers live data;
-`--build` loads checked-in snapshots. The renderer also copies existing snapshots
-over the downloadable JSON in `docs/`; see the data-handling details below.
+A normal run gathers live data and updates the persistent author snapshots;
+`--build` loads those same snapshots. HTML and downloadable JSON are rendered
+from the same author data. The generated site is disposable; deleting `docs/`
+does not discard the last-known-good author data.
 
 ## Repository map
 
@@ -76,14 +77,14 @@ requested stages are enabled:
 | Command | Behavior |
 | --- | --- |
 | `perl -Ilib bin/dashboard` | Gather live metadata, then build the site. |
-| `perl -Ilib bin/dashboard --gather` | Gather metadata and update generated JSON and the branch cache; skip HTML generation. |
+| `perl -Ilib bin/dashboard --gather` | Gather metadata and update persistent snapshots and the branch cache; leave the published site untouched. |
 | `perl -Ilib bin/dashboard --build` | Load checked-in snapshots and build the site without gathering metadata. |
 | `perl -Ilib bin/dashboard --gather --build` | Explicitly run both stages. |
 | `perl -Ilib bin/dashboard --help` | Print usage and exit. |
 
 Run these commands from the repository root. Global configuration, templates,
 static assets, output paths, and the branch cache are resolved relative to the
-working directory. Author discovery uses paths relative to the executable.
+working directory, including the configured author and snapshot directories.
 
 ### 2. Gather release metadata
 
@@ -109,13 +110,19 @@ Distributions without a repository, or with a non-GitHub repository, still appea
 in the table; GitHub-specific badges require GitHub repository details.
 
 The application sorts releases by release name, applies default table-sort
-settings, and writes the combined author configuration and release data to
-`docs/AUTHOR/data.json`. It saves the updated default-branch cache after gathering
-all authors.
+settings, and atomically writes the combined author configuration and complete
+release data to `authors/data/AUTHOR/data.json` (or the configured `data_dir`).
+Snapshots include `gathered_at`, the UTC timestamp of the successful fetch.
+It saves the updated default-branch cache after gathering all authors.
 
-If an author's metadata fetch fails, the application tries to reuse
-`docs/AUTHOR/data.json`. If that file does not exist, generation fails. This
-fallback does **not** automatically read `authors/data/AUTHOR/data.json`.
+Transient retrieval failures are retried up to `fetch_attempts` times with
+exponential backoff capped at ten seconds between attempts. The HTTP request
+timeout is `http_timeout` seconds. HTTP 408/429/5xx codes and common network/server
+failure reason messages are treated as transient; other failures are not retried.
+If retrieval still fails, the app reads the persistent last-known-good snapshot.
+Logs identify the author, error, snapshot path, and previous gather time; the
+dashboard displays a cached-data warning. Missing or invalid fallback data stops
+generation with an explicit error. Partial release lists never replace snapshots.
 
 ### 3. Alternatively, load snapshots
 
@@ -133,8 +140,8 @@ At examination time, the checkout had 26 author configurations and 23 snapshots.
 
 1. Copies `src/` into the configured output directory.
 2. Renders `tt_lib/dashboard.tt` to `AUTHOR/index.html` for each loaded author.
-3. Copies that author's checked-in snapshot to `docs/AUTHOR/data.json`, if one
-   exists.
+3. Writes that same in-memory author data to `AUTHOR/data.json` in the configured
+   output directory.
 4. Renders `tt_lib/index.tt` to the site's root `index.html`.
 5. Renders configured additional pages, currently `add/index.html`.
 6. Writes `sitemap.xml` with author, home, and additional-page URLs.
@@ -145,11 +152,9 @@ opts out of this HTML wrapper. The generated onboarding page overwrites the
 older `src/add/index.html` copied in the first step, so `tt_lib/add.tt` is the
 effective source for that page.
 
-**A current data inconsistency:** a gather-and-build run renders HTML from the
-freshly gathered in-memory data, but step 3 can replace the fresh downloadable
-JSON with an older checked-in snapshot. There is no active step that updates
-`authors/data/` from gathering. The two JSON locations should not be treated as
-interchangeable caches.
+HTML and downloadable JSON always use the same data, including when gathering
+falls back to a previous snapshot. Gathering updates the persistent data while
+building only updates the disposable site output.
 
 ## Configuration and badges
 
@@ -158,13 +163,17 @@ The current global configuration separates input and output paths:
 - `static_dir`: static source directory, currently `src`;
 - `input_dir`: template directory, currently `tt_lib`;
 - `output_dir`: generated output directory, currently `docs`;
+- `author_dir`: author registration files, currently `authors`;
+- `data_dir`: persistent author snapshots, currently `authors/data`;
+- `branch_cache_file`: persistent GitHub default-branch cache;
+- `fetch_attempts`, `http_timeout`, and `retry_delay`: retrieval attempt limit,
+  request timeout, and initial backoff delay (defaults: 3, 20 seconds, 1 second);
 - `index_template`, `author_template`, and `wrapper`: primary template names;
 - `page_templates`: additional page names, currently `["add"]`;
 - `domain`: domain used in the sitemap;
 - `analytics`: analytics identifier exposed to the templates.
 
-Some configuration support is incomplete. Several output JSON paths are
-hard-coded to `docs/`, and canonical/social URLs and `src/CNAME` name
+Some configuration support is incomplete. Canonical/social URLs and `src/CNAME` name
 `cpandashboard.com` directly. The wrapper iterates `output.menu`, whereas the
 global configuration has a top-level `menu` that the renderer does not pass in.
 Changing global settings alone is therefore insufficient for every deployment
@@ -193,8 +202,8 @@ Per-author files use this shape:
 
 The example selects release-date ordering. Browser column indexes are zero-based:
 name/repository is `0`, MetaCPAN is `1`, CPANTS is `2`, and date is `3`. The
-application currently converts a textual `"date"` sort setting to `2`, which
-does not match the template; use numeric `3` for date ordering.
+application converts a textual `"date"` sort setting to `3`, matching the
+rendered table.
 
 CPAN version and CPANTS quality badges are always included. Author-level flags
 enable columns for GitHub Actions, Travis `.org` or `.com`, Cirrus, AppVeyor,
@@ -254,7 +263,10 @@ During this examination, the first command passed **14 tests across two files**
 using Perl 5.42.3. An isolated build using copied source and snapshots succeeded,
 producing 23 author HTML pages and JSON files, the home and onboarding pages,
 copied assets, and a sitemap with 25 URLs. Live gathering, browser rendering,
-the network-dependent tests, and deployment were not exercised.
+and deployment were not exercised. The subsequent robustness work adds an
+offline end-to-end suite covering combined, gather-only, build-only, and CLI
+builds, HTML/JSON consistency, retry/fallback behavior, partial iteration failure,
+Unicode metadata, and atomic snapshot write failure.
 
 ## Automation and publication
 
@@ -284,7 +296,8 @@ register an author by itself.
 
 The remaining development setup workflow installs Perl 5.40 and dependencies;
 it does not run the test suite. The generation workflow runs `prove -Ilib t`
-before generating or publishing pages. The branch-refresh workflow explicitly
+before generating or publishing pages. A separate test workflow runs on pushes
+and pull requests with Perl 5.40 and 5.42. The branch-refresh workflow explicitly
 sets up Perl 5.40 before loading the shared cache class.
 
 ## Where to start when changing the project
