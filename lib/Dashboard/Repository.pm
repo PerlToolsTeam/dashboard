@@ -4,7 +4,16 @@ use v5.40;
 use Exporter 'import';
 use URI;
 
-our @EXPORT_OK = qw(github_repository valid_repo_parts lookup_default_branch);
+our @EXPORT_OK = qw(github_repository resource_url valid_repo_parts lookup_default_branch);
+
+sub resource_url ($url) {
+  return unless defined($url) && !ref($url) && $url !~ /[\x00-\x1f\x7f]/;
+  my $uri = URI->new($url);
+  return unless $uri->scheme && $uri->scheme =~ /\Ahttps?\z/i
+    && $uri->can('host') && defined($uri->host) && length($uri->host)
+    && $uri->host !~ /[\x00-\x20\x7f<>"']/;
+  return $uri->as_string;
+}
 
 sub valid_repo_parts ($owner, $name) {
   return defined($owner) && defined($name)

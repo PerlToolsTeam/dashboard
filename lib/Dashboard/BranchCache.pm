@@ -10,6 +10,14 @@ class Dashboard::BranchCache {
   field $file :param = 'repo_def_branch.json';
   field $data = {};
   field %failed;
+  field @problems;
+
+  method begin_run {
+    %failed = ();
+    @problems = ();
+  }
+
+  method problems { return [@problems] }
 
   ADJUST {
     if (path($file)->is_file) {
@@ -40,6 +48,12 @@ class Dashboard::BranchCache {
     catch ($error) {
       chomp $error;
       warn "Could not get default branch for $owner/$name: $error\n";
+      push @problems, {
+        service => 'GitHub', subject => "$owner/$name",
+        message => length($cached)
+          ? 'Default branch lookup failed; retained the cached branch.'
+          : 'Default branch lookup failed; branch-specific badges may be unavailable.',
+      };
       $failed{"$owner/$name"} = 1;
       return $cached;
     }

@@ -4,7 +4,8 @@ use Exporter 'import';
 use JSON;
 use Path::Tiny;
 use File::Spec;
-our @EXPORT_OK = qw(read_json_file read_global_config normalize_author);
+use Dashboard::Repository qw(github_repository resource_url);
+our @EXPORT_OK = qw(read_json_file read_global_config normalize_author effective_ci);
 
 sub invalid ($file, $field, $message) {
   die "Invalid configuration in $file: $field $message\n";
@@ -105,6 +106,37 @@ sub read_global_config ($file) {
   return $cfg;
 }
 
+sub normalize_ci ($ci, $file, $field, $defaults = 1) {
+  invalid($file, $field, 'must be an object') unless ref($ci) eq 'HASH';
+  my %flags = map { ("use_$_", 1) } qw(gh_actions cirrus appveyor travis travis_com coveralls codecov);
+  my %lists = map { $_ => 1 } qw(gh_workflow_names gh_workflow_files cirrus_task_names);
+  for my $key (keys %$ci) {
+    invalid($file, "$field.$key", 'is not a supported setting') unless $flags{$key} || $lists{$key};
+  }
+  for my $key (keys %flags) {
+    $ci->{$key} //= 0 if $defaults;
+    next unless exists $ci->{$key};
+    invalid($file, "$field.$key", 'must be 0, 1, or a JSON boolean')
+      unless defined($ci->{$key}) && (JSON::is_bool($ci->{$key})
+        || (!ref($ci->{$key}) && $ci->{$key} =~ /\A[01]\z/));
+  }
+  for my $key (keys %lists) {
+    $ci->{$key} //= [] if $defaults;
+    next unless exists $ci->{$key};
+    invalid($file, "$field.$key", 'must be an array of non-empty names')
+      unless ref($ci->{$key}) eq 'ARRAY' && !grep { !text($_) || $_ !~ /\S/ } @{ $ci->{$key} };
+  }
+  for my $filename (@{ $ci->{gh_workflow_files} // [] }) {
+    invalid($file, "$field.gh_workflow_files", 'must contain workflow YAML filenames')
+      unless $filename =~ /\A[^\/\\]+\.ya?ml\z/i;
+  }
+  return $ci;
+}
+
+sub effective_ci ($data, $distribution) {
+  return { %{ $data->{ci} }, %{ $data->{distribution_ci}{$distribution} // {} } };
+}
+
 sub normalize_author ($data, $file) {
   invalid($file, 'root', 'must be an object') unless ref($data) eq 'HASH';
   invalid($file, 'author', 'must be an object') unless ref($data->{author}) eq 'HASH';
@@ -116,22 +148,13 @@ sub normalize_author ($data, $file) {
     unless !ref($author->{github}) && ($author->{github} eq ''
       || $author->{github} =~ /\A[A-Za-z0-9][A-Za-z0-9-]*\z/);
   $data->{ci} //= {};
-  invalid($file, 'ci', 'must be an object') unless ref($data->{ci}) eq 'HASH';
-  my $ci = $data->{ci};
-  my %flags = map { ("use_$_", 1) } qw(gh_actions cirrus appveyor travis travis_com coveralls codecov);
-  my %lists = map { $_ => 1 } qw(gh_workflow_names cirrus_task_names);
-  for my $key (keys %$ci) {
-    invalid($file, "ci.$key", 'is not a supported setting') unless $flags{$key} || $lists{$key};
-  }
-  for my $key (keys %flags) {
-    $ci->{$key} //= 0;
-    invalid($file, "ci.$key", 'must be 0, 1, or a JSON boolean')
-      unless JSON::is_bool($ci->{$key}) || (!ref($ci->{$key}) && $ci->{$key} =~ /\A[01]\z/);
-  }
-  for my $key (keys %lists) {
-    $ci->{$key} //= [];
-    invalid($file, "ci.$key", 'must be an array of non-empty names')
-      unless ref($ci->{$key}) eq 'ARRAY' && !grep { !text($_) } @{ $ci->{$key} };
+  normalize_ci($data->{ci}, $file, 'ci');
+  $data->{distribution_ci} //= {};
+  invalid($file, 'distribution_ci', 'must be an object') unless ref($data->{distribution_ci}) eq 'HASH';
+  for my $distribution (keys %{ $data->{distribution_ci} }) {
+    invalid($file, 'distribution_ci', 'keys must be distribution names')
+      unless $distribution =~ /\A[A-Za-z0-9][A-Za-z0-9_.-]*\z/;
+    normalize_ci($data->{distribution_ci}{$distribution}, $file, "distribution_ci.$distribution", 0);
   }
   $data->{sort} //= {};
   invalid($file, 'sort', 'must be an object') unless ref($data->{sort}) eq 'HASH';
@@ -144,6 +167,25 @@ sub normalize_author ($data, $file) {
   invalid($file, 'sort.direction', 'must be asc or desc')
     unless !ref($direction) && $direction =~ /\A(?:asc|desc)\z/i;
   $data->{sort}{direction} = lc($direction);
+  if (exists $data->{modules}) {
+    invalid($file, 'modules', 'must be an array of distribution records')
+      unless ref($data->{modules}) eq 'ARRAY';
+    my %display = %{ $data->{ci} };
+    for my $module (@{ $data->{modules} }) {
+      invalid($file, 'modules', 'must contain objects with distribution names')
+        unless ref($module) eq 'HASH' && text($module->{dist});
+      if (exists $module->{repo}) {
+        my $github = github_repository($module->{repo});
+        $module->{repo} = $github ? $github->{url} : resource_url($module->{repo});
+      }
+      $module->{bugtracker} = resource_url($module->{bugtracker}) // '' if exists $module->{bugtracker};
+      $module->{ci} = effective_ci($data, $module->{dist});
+      for my $key (grep { /^use_/ } keys %{ $module->{ci} }) {
+        $display{$key} = 1 if $module->{ci}{$key};
+      }
+    }
+    $data->{display_ci} = \%display;
+  }
   return $data;
 }
 

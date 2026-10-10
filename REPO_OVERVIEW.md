@@ -105,10 +105,15 @@ The repository URL comes from release metadata, preferring
 are parsed to identify an owner and repository name. GitHub default branches are
 looked up through `gh repo view` when the cache lacks a usable entry. Failed
 lookups warn and preserve the previous value; unresolved entries are retried on
-later runs. Repeated failures are suppressed within one cache instance.
+later runs. Repeated failures are suppressed within one run.
 Branch-dependent badges are blank when no valid branch is known.
 Distributions without a repository, or with a non-GitHub repository, still appear
 in the table; GitHub-specific badges require GitHub repository details.
+Rows without a usable repository link show a label linking to metadata guidance.
+The read-only [catalogue audit](audits/catalogue-2026-10-10.json) compared the live
+latest-release query with production-rendered rows for the authors in #31:
+347/347 for TOBYINK and 36/36 for SZABGAB on 10 October 2026, including missing
+and non-GitHub repositories. These counts cover that query, not historical uploads.
 
 The application sorts releases by release name, applies default table-sort
 settings, and atomically writes the combined author configuration and complete
@@ -119,7 +124,13 @@ It saves the updated default-branch cache after gathering all authors.
 Transient retrieval failures are retried up to `fetch_attempts` times with
 exponential backoff capped at ten seconds between attempts. The HTTP request
 timeout is `http_timeout` seconds. HTTP 408/429/5xx codes and common network/server
-failure reason messages are treated as transient; other failures are not retried.
+failure reason messages are treated as transient. MetaCPAN search/scroll failures,
+incorrect release ownership, and incomplete lists also restart the fetch within
+the same attempt limit. Each release must belong to the requested author, and
+the fetched count must match the API total before a snapshot can be saved.
+Classification ignores the request URL and Perl callsite, so an author ID or
+filename containing a retry keyword does not affect the decision. Explicit
+permanent HTTP responses and certificate verification errors are not retried.
 If retrieval still fails, the app reads the persistent last-known-good snapshot.
 Logs identify the author, error, snapshot path, and previous gather time; the
 dashboard displays a cached-data warning. Missing or invalid fallback data stops
@@ -127,13 +138,17 @@ generation with an explicit error. Partial release lists never replace snapshots
 
 ### 3. Alternatively, load snapshots
 
-With `--build`, the application loads `authors/data/*/data.json` directly. It does
-not fetch metadata or merge changes from `authors/*.json` into those snapshots.
-Adding an author configuration alone therefore does not add that author to a
-build using snapshots; changing CI flags alone does not update that build either.
+With `--build`, the application loads `authors/data/*/data.json` directly and
+overlays the corresponding registration's current GitHub username, CI settings,
+distribution overrides, and sort settings. It makes no metadata requests and does
+not rewrite persistent snapshots. HTML and JSON use the same effective settings.
+Adding an author configuration alone still requires a first successful gather
+before that author has release metadata available for a cached build.
 
 At examination time, the checkout had 26 author configurations and 23 snapshots.
 `GDT`, `MIKKOI`, and `WWILLIS` had configurations but no checked-in snapshot.
+A verified 23-release MIKKOI snapshot was subsequently added after a production
+scrolling failure exposed the missing fallback.
 
 ### 4. Render the website
 
@@ -144,7 +159,7 @@ At examination time, the checkout had 26 author configurations and 23 snapshots.
 3. Writes that same in-memory author data to `AUTHOR/data.json` in the configured
    output directory.
 4. Renders `tt_lib/index.tt` to the site's root `index.html`.
-5. Renders configured additional pages, currently `add/index.html`.
+5. Renders configured additional pages, currently `add/index.html` and `status/index.html`.
 6. Writes `sitemap.xml` with author, home, and additional-page URLs.
 
 The shared `page.tt` wrapper supplies navigation, page metadata, external CSS and
@@ -170,7 +185,7 @@ The current global configuration separates input and output paths:
 - `fetch_attempts`, `http_timeout`, and `retry_delay`: retrieval attempt limit,
   request timeout, and initial backoff delay (defaults: 3, 20 seconds, 1 second);
 - `index_template`, `author_template`, and `wrapper`: primary template names;
-- `page_templates`: additional page names, currently `["add"]`;
+- `page_templates`: additional page names, currently `["add", "status"]`;
 - `domain`: domain used in the sitemap;
 - `analytics`: analytics identifier exposed to the templates.
 
@@ -180,6 +195,22 @@ registrations, snapshots, and the branch cache, including paths containing `..`
 or existing symlinks. The top-level `menu` is passed to the wrapper and rendered
 with escaped titles and links. Canonical/social URLs and `src/CNAME` still name
 `cpandashboard.com` directly; changing domain requires updating those sources.
+
+The `/status/` page and `/status/data.json` describe the last successful site
+build. They report recovered MetaCPAN failures with the cached snapshot date,
+failed GitHub branch lookups, and unsupported repository URLs. Raw exceptions
+remain in build logs; public reports contain predefined messages and identifiers.
+Cached builds explicitly state that they did not check current service availability.
+Fatal failures cannot publish a new status page, so the page links to generation
+workflow logs. Badge-image availability is evaluated by the browser, not the build.
+
+During development, select one author with `perl -Ilib bin/dashboard --author
+CPANID`. Add `--build` for a cached build or `--gather` to update just its snapshot.
+Author-only invocation still runs both stages by default. `--config FILE` selects
+an alternative global configuration; relative paths use the working directory.
+Single-author builds create a partial index and sitemap and leave existing output
+files alone. Configure a separate output directory for these development builds.
+The normal publication workflow continues processing all authors.
 
 Per-author files use this shape:
 
@@ -195,6 +226,13 @@ Per-author files use this shape:
     "use_coveralls": 1,
     "use_codecov": 0
   },
+  "distribution_ci": {
+    "Example-Dist": {
+      "use_coveralls": 0,
+      "gh_workflow_names": [],
+      "gh_workflow_files": ["test.yml"]
+    }
+  },
   "sort": {
     "column": "date",
     "direction": "desc"
@@ -209,11 +247,26 @@ the header's `data-sort-name` attribute, so adding or moving columns preserves
 the intended ordering. Other column settings are rejected. Missing settings
 default to name ascending.
 
-CPAN version and CPANTS quality badges are always included. Author-level flags
-enable columns for GitHub Actions, Travis `.org` or `.com`, Cirrus, AppVeyor,
-Coveralls, and Codecov. GitHub Actions workflow names come from
-`ci.gh_workflow_names`; Cirrus task names come from `ci.cirrus_task_names`.
-The same configured workflow/task names apply to every release for an author.
+CPAN version and CPANTS quality badges are always included, including distributions
+without a repository or with GitLab/Bitbucket repositories. GitHub-specific
+services do not create links for those rows. Author-level flags enable columns for
+GitHub Actions, Travis `.org` or `.com`, Cirrus, AppVeyor, Coveralls, and Codecov.
+Each row inherits these settings, with optional changes in `distribution_ci`,
+keyed by CPAN distribution name. Overrides replace only supplied fields; an empty
+list replaces the inherited list, and a zero flag disables that service for that
+distribution. Disabled cells remain aligned with the rest of the table.
+
+GitHub Actions display names come from `ci.gh_workflow_names`, workflow filenames
+from `ci.gh_workflow_files`, and Cirrus tasks from `ci.cirrus_task_names`. Workflow
+filenames use GitHub's documented `actions/workflows/FILE/badge.svg` endpoint;
+names use the legacy name-based route. Names are URL encoded and badge attributes
+are HTML escaped. See [GitHub's badge documentation](https://docs.github.com/en/actions/how-tos/monitor-workflows/add-a-status-badge).
+
+If a distribution does not define the author's default workflow, disable its
+GitHub Actions flag or override its workflow list. A workflow that has not run,
+or a service that cannot supply a public image, may still have no usable badge.
+The browser shows the local fallback image, including failures that happened
+before initialization, and avoids repeatedly retrying a missing fallback.
 
 `BadgeMaker` constructs links and image URLs; it does not run CI jobs or collect
 coverage results. The relevant services must already be configured in the
@@ -257,12 +310,15 @@ Useful checks are:
 prove -Ilib t/00-load.t t/app.t
 prove -Ilib t
 node t/dashboard-js.test.cjs
+node t/onboarding-js.test.cjs
 ```
 
 The first command runs module-loading and local release-parsing/badge checks.
 The full default suite also exercises the separate `Author`/`Distribution`
 classes using fixed fixtures and tests the repository helper and branch cache
-with a stub GitHub CLI. It requires neither network access nor credentials.
+with a stub GitHub CLI. It requires Perl 5.40+, Node.js, and neither network access
+nor credentials. The onboarding fixture checks browser-generated JSON using the
+production Perl configuration validator.
 The default tests do not depend on the experimental `github_repo.json`.
 The Node.js checks execute the browser script with a small jQuery/DataTables
 fixture to verify reordered columns and initialization on pages without tables;
@@ -281,7 +337,7 @@ Unicode metadata, and atomic snapshot write failure.
 
 [regenerate.yml](.github/workflows/regenerate.yml) runs on pushes to `master`,
 manual dispatch, and every six hours at minute 7, as defined by its cron schedule.
-It uses a `perl:latest` container, installs GitHub CLI and Perl dependencies,
+It uses a `perl:5.44` container, installs GitHub CLI and Perl dependencies,
 creates `docs/`, and runs both generation stages with `PERL5LIB=lib` and the
 workflow's GitHub token.
 
@@ -296,8 +352,14 @@ back only for the upstream repository. The script uses the same validated lookup
 as the application. Failed or empty lookups preserve valid cache entries, and
 writes use atomic file replacement.
 
-The documented onboarding path in `tt_lib/add.tt` is to add an author JSON file
-through a pull request. A separate [add_user.yml](.github/workflows/add_user.yml)
+The onboarding page in `tt_lib/add.tt` offers a browser form that generates an
+author registration JSON file. Services are optional and default to disabled.
+Contributors paste the result into GitHub's file editor and propose a pull request;
+the instructions also support copying an existing file without JavaScript.
+The form only prepares JSON and performs no external writes or requests.
+The documented policy follows the maintainer's decision in #103: authors register
+themselves; helpers can prepare JSON and instructions for the author to submit.
+A separate [add_user.yml](.github/workflows/add_user.yml)
 handles an `add_user` repository-dispatch event, but its helper
 [bin/add_user](bin/add_user) only converts the payload to configuration JSON and
 prints it to standard error. It does not save a file, open a pull request, or
@@ -306,7 +368,7 @@ register an author by itself.
 The remaining development setup workflow installs Perl 5.40 and dependencies;
 it does not run the test suite. The generation workflow runs `prove -Ilib t`
 before generating or publishing pages. A separate test workflow runs on pushes
-and pull requests with Perl 5.40 and 5.42. The branch-refresh workflow explicitly
+and pull requests with Perl 5.40, 5.42, and 5.44. The branch-refresh workflow explicitly
 sets up Perl 5.40 before loading the shared cache class.
 
 Supported configuration limits are 1–5 fetch attempts, 1–60 seconds per HTTP

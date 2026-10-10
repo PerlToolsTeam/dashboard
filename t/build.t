@@ -52,8 +52,8 @@ like($fresh->{gathered_at}, qr/\A\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ\z/, 'snapshot r
 my $output = $temp->child('site');
 is_deeply($json->decode($output->child('EXAMPLE/data.json')->slurp_utf8), $fresh,
   'published JSON equals the snapshot that supplied the HTML');
-like($output->child('EXAMPLE/index.html')->slurp_utf8, qr/>Fresh<\/td>/, 'HTML uses fresh release');
-unlike($output->child('EXAMPLE/index.html')->slurp_utf8, qr/>Old<\/td>/, 'old snapshot cannot overwrite HTML data');
+like($output->child('EXAMPLE/index.html')->slurp_utf8, qr/>Fresh(?:<\/td>|<br>)/, 'HTML uses fresh release');
+unlike($output->child('EXAMPLE/index.html')->slurp_utf8, qr/>Old(?:<\/td>|<br>)/, 'old snapshot cannot overwrite HTML data');
 ok($output->child('index.html')->is_file, 'root index generated');
 like($output->child('index.html')->slurp_utf8, qr/Example Áuthor/, 'root index includes author name');
 like($output->child('index.html')->slurp_utf8, qr{href="/help/">Docs &amp; help</a>},
@@ -76,7 +76,7 @@ quiet { app(mcpan => $offline, gather => 0)->run };
 is($offline->{calls} // 0, 0, 'build-only run never fetches metadata');
 is_deeply($json->decode($output->child('EXAMPLE/data.json')->slurp_utf8), $fresh,
   'subsequent build uses the updated persistent snapshot');
-like($output->child('EXAMPLE/index.html')->slurp_utf8, qr/>Fresh<\/td>/, 'cached build HTML still matches JSON');
+like($output->child('EXAMPLE/index.html')->slurp_utf8, qr/>Fresh(?:<\/td>|<br>)/, 'cached build HTML still matches JSON');
 
 {
   $temp->child('dashboard.json')->spew_utf8($json->encode($config));

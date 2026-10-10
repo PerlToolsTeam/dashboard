@@ -9,7 +9,7 @@ class Dashboard::App {
 
   use Dashboard::BadgeMaker;
   use Dashboard::BranchCache;
-  use Dashboard::Repository qw(github_repository);
+  use Dashboard::Repository qw(github_repository resource_url);
   use Dashboard::Config qw(read_json_file read_global_config normalize_author);
 
   use JSON;
@@ -24,6 +24,7 @@ class Dashboard::App {
 
   field $json = JSON->new->pretty->canonical;
   field $config_file :param = 'dashboard.json';
+  field $selected_author :param(author) = undef;
   field $global_cfg = read_global_config($config_file);
   field $mcpan :reader :param = MetaCPAN::Client->new(
     ua => HTTP::Tiny->new(agent => "CPAN Dashboard/$VERSION",
@@ -32,15 +33,23 @@ class Dashboard::App {
   field $tt;
   field @authors;
   field @urls;
+  field @problems;
   field $run_gather :param(gather) = 1;
   field $run_build :param(build) = 1;
   field $branch_cache = Dashboard::BranchCache->new(
     file => $global_cfg->{branch_cache_file} // 'repo_def_branch.json'
   );
 
+  ADJUST {
+    die "Invalid --author: expected an uppercase CPAN identifier\n"
+      if defined($selected_author) && $selected_author !~ /\A[A-Z][A-Z0-9]*\z/;
+  }
+
   method run {
     @authors = ();
     @urls = ();
+    @problems = ();
+    $branch_cache->begin_run;
     if ($run_gather) {
       $self->gather_data;
     } else {
@@ -56,8 +65,18 @@ class Dashboard::App {
 
     my @registrations;
     my %seen;
-    for my $file (sort { "$a" cmp "$b" } path($global_cfg->{author_dir})->children(qr/\.json\z/)) {
+    my @files;
+    if (defined $selected_author) {
+      my $file = path($global_cfg->{author_dir}, "$selected_author.json");
+      die "No registration for author $selected_author at $file\n" unless $file->is_file;
+      @files = ($file);
+    } else {
+      @files = sort { "$a" cmp "$b" } path($global_cfg->{author_dir})->children(qr/\.json\z/);
+    }
+    for my $file (@files) {
       my $cfg = normalize_author(read_json_file($file), $file);
+      die "Author identifier mismatch in $file\n"
+        if defined($selected_author) && $cfg->{author}{cpan} ne $selected_author;
       die "Duplicate author.cpan $cfg->{author}{cpan} in $file\n" if $seen{$cfg->{author}{cpan}}++;
       push @registrations, [$file, $cfg];
     }
@@ -109,6 +128,8 @@ class Dashboard::App {
       . "Using cached snapshot $snapshot (gathered "
       . ($cached->{gathered_at} // 'at an unknown time') . ").\n";
     $cached->{fetch_warning} = 'Release metadata could not be refreshed; showing cached data.';
+    push @problems, { service => 'MetaCPAN', subject => $id,
+      message => $cached->{fetch_warning}, gathered_at => $cached->{gathered_at} };
     return $cached;
   }
 
@@ -135,14 +156,21 @@ class Dashboard::App {
     $fresh->{modules} = [sort { $a->{name} cmp $b->{name} } @modules];
     $fresh->{gathered_at} = strftime('%Y-%m-%dT%H:%M:%SZ', gmtime);
     delete $fresh->{fetch_warning};
-    return $fresh;
+    return normalize_author($fresh, "author $cfg->{author}{cpan}");
   }
 
   sub retryable_fetch_error ($error) {
-    # MetaCPAN::Client's scroller suppresses the HTTP status in these errors.
-    # Restart the complete fetch, and never persist a partial/mismatched result.
+    return 0 unless defined $error;
+    # MetaCPAN::Client drops the status code and wraps the HTTP reason in a URL
+    # and a Perl callsite. Neither is evidence that an error is transient.
+    $error =~ s/\AFailed to fetch '[^']*':\s*//;
+    $error =~ s/\s+at\s+\S+\s+line\s+\d+.*\z//s;
+    if ($error =~ /\b(?:HTTP(?:\/\d(?:\.\d)?)?\s+|status[ :=]+)(4\d\d)\b/i) {
+      return $1 == 408 || $1 == 429;
+    }
+    return 0 if $error =~ /certificate (?:verify failed|verification)|invalid certificate/i;
     return 1 if $error =~ /failed to (?:fetch next scrolled batch|create a scrolled search)|unexpected release author|incomplete release list/i;
-    return $error =~ /\b(?:HTTP(?:\/\d(?:\.\d)?)?\s+|status[ :=]+)(?:408|429|5\d\d)\b|timed?\s*out|timeout|connection|network|temporary|too many requests|internal server error|bad gateway|service unavailable|gateway timeout|name or service not known/i;
+    return $error =~ /\b(?:HTTP(?:\/\d(?:\.\d)?)?\s+|status[ :=]+)5\d\d\b|timed?\s*out|timeout|connection|network|temporary|could not connect|could not resolve|failed to connect|too many requests|internal server error|bad gateway|service unavailable|gateway timeout|name or service not known/i;
   }
 
   method wait_before_retry ($attempt) {
@@ -155,7 +183,16 @@ class Dashboard::App {
   }
 
   method read_snapshot ($file, $id) {
-    my $data = normalize_author(read_json_file($file), $file);
+    my $data = read_json_file($file);
+    # Apply current display settings without requiring another metadata fetch.
+    my $registration = path($global_cfg->{author_dir}, "$id.json");
+    if ($registration->is_file && ref($data) eq 'HASH' && ref($data->{author}) eq 'HASH') {
+      my $cfg = normalize_author(read_json_file($registration), $registration);
+      die "Author identifier mismatch in $registration\n" unless $cfg->{author}{cpan} eq $id;
+      $data->{author}{github} = $cfg->{author}{github};
+      $data->{$_} = $cfg->{$_} for qw(ci distribution_ci sort);
+    }
+    normalize_author($data, $file);
     die "Invalid author snapshot in $file\n"
       unless ref($data) eq 'HASH' && ref($data->{author}) eq 'HASH'
         && ($data->{author}{cpan} // '') eq $id && ref($data->{modules}) eq 'ARRAY'
@@ -182,7 +219,7 @@ class Dashboard::App {
       // $rel->resources->{repository}{url};
 
     if ($rel->resources->{bugtracker}{web}) {
-      $mod->{bugtracker} = $rel->resources->{bugtracker}{web};
+      $mod->{bugtracker} = resource_url($rel->resources->{bugtracker}{web}) // '';
       $mod->{uses_rt} = $mod->{bugtracker} =~ /rt\.cpan\.org/ ? $JSON::true : $JSON::false;
     }
 
@@ -201,26 +238,25 @@ class Dashboard::App {
       return $mod;
     }
 
-    # We need the repo's name. Try to extract it from the URL.
-    if ($mod->{repo} =~ /^(http|git)/) {
-      my $repo_uri = URI->new($mod->{repo});
-      my $path = $repo_uri->path // '';
-      $path =~ s|^/||;     # Remove leading slash
-      $path =~ s|\.git$||; # Remove trailing .git
-      $path =~ s|/+$||;    # Remove trailin slashes
-
-      @$mod{qw[repo_owner repo_name]} = split m|/|, $path, 3;
-
-      if (defined $mod->{repo_owner} and defined $mod->{repo_name}) {
-        $mod->{repo_name} =~ s|\.git$||;
-
-        warn "Unsupported repository for GitHub badges: $mod->{name} ($mod->{repo}).\n";
-      } else {
-        warn "Strange repo for $mod->{name} ($mod->{repo}).\n";
-      }
-    } else {
-      warn "Strange repo for $mod->{name} ($mod->{repo}).\n";
+    my $web_url = resource_url($mod->{repo});
+    unless ($web_url) {
+      warn "Unsupported repository URL for $mod->{name}; retaining distribution without a link.\n";
+      push @problems, { service => 'Metadata', subject => $mod->{dist},
+        message => 'Unsupported repository URL; distribution retained without a repository link.' };
+      $mod->{repo} = undef;
+      return $mod;
     }
+    $mod->{repo} = $web_url;
+
+    my $repo_uri = URI->new($mod->{repo});
+    my $path = $repo_uri->path // '';
+    $path =~ s|^/||;
+    $path =~ s|/+\z||;
+    $path =~ s|\.git\z||;
+    @$mod{qw[repo_owner repo_name]} = split m|/|, $path, 3;
+    # A valid alternative host is expected, rather than a processing error.
+    warn "Non-canonical GitHub repository for $mod->{name} ($mod->{repo}); skipping service badges.\n"
+      if lc($repo_uri->host) eq 'github.com';
 
     return $mod;
   }
@@ -233,6 +269,11 @@ class Dashboard::App {
   }
 
   method load_data {
+    if (defined $selected_author) {
+      push @authors, $self->read_snapshot($self->snapshot_path($selected_author), $selected_author);
+      push @urls, "https://$global_cfg->{domain}/$selected_author/";
+      return;
+    }
     my $dir = path($global_cfg->{data_dir} // 'authors/data');
     for my $author_dir (sort { "$a" cmp "$b" } $dir->children) {
       next unless $author_dir->is_dir && $author_dir->child('data.json')->is_file;
@@ -297,18 +338,28 @@ class Dashboard::App {
       { authors => \@authors },
       'index.html',
       { binmode => ':utf8' },
-    );
+    ) or die $tt->error;
     push @urls, "https://$global_cfg->{domain}/";
   }
 
   method make_other_pages {
+    my $report = {
+      generated_at => strftime('%Y-%m-%dT%H:%M:%SZ', gmtime),
+      mode => $run_gather ? 'gather-and-build' : 'cached-build',
+      author_count => scalar @authors,
+      problems => [@problems, @{ $branch_cache->problems }],
+    };
+    # Rendering can stringify numeric scalars; preserve the JSON value types.
+    my $report_json = $json->encode($report);
     for (@{ $global_cfg->{page_templates} }) {
       $tt->process(
         "$_.tt",
-        { name => ucfirst $_ },
+        { name => ucfirst $_, report => $report },
         "$_/index.html",
         { binmode => ':utf8' },
       ) or die $tt->error;
+      path($global_cfg->{output_dir}, 'status', 'data.json')->spew_utf8($report_json)
+        if $_ eq 'status';
       push @urls, "https://$global_cfg->{domain}/$_/";
     }
   }

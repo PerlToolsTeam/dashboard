@@ -3,6 +3,11 @@
       "cpan" : "TOBYINK",
       "github" : "tobyink"
    },
+   "distribution_ci" : {
+      "Acme-Constructor-Pythonic" : {
+         "use_gh_actions" : 0
+      }
+   },
    "ci" : {
       "use_gh_actions" : 1,
       "gh_workflow_names" : [ "CI" ],

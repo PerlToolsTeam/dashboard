@@ -1,24 +1,59 @@
 <h1>Add your modules</h1>
 
 <p>It's pretty simple to add yourself to the list of CPAN authors on our front
-page. Currently we only support code repos on Github and a limited number of
-CI services (but we plan to add support for more services in the future).</p>
+page. Repository links can point to GitHub, GitLab, Bitbucket, or another web
+host. The supported CI and coverage badges currently use GitHub repositories;
+CPAN version and CPANTS badges remain available for other hosts.</p>
 
-<p>Here are the steps to follow:</p>
+<p>You can add your registration using GitHub's web editor. CI services are
+optional; CPAN version and CPANTS badges are available without them.</p>
+<p>Register your own CPAN account. If you are helping another author, send them
+the prepared JSON and these instructions so they can submit their registration.</p>
 
+<h2>Prepare your registration</h2>
+<form id="registration-form">
+  <div class="mb-3">
+    <label for="registration-cpan">CPAN author ID</label>
+    <input id="registration-cpan" class="form-control" required pattern="[A-Za-z][A-Za-z0-9]*" autocomplete="off">
+  </div>
+  <div class="mb-3">
+    <label for="registration-github">GitHub username (optional)</label>
+    <input id="registration-github" class="form-control" autocomplete="off">
+  </div>
+  <fieldset class="mb-3">
+    <legend>Services you already use</legend>
+    <label><input id="registration-actions" type="checkbox"> GitHub Actions</label>
+    <label><input id="registration-coveralls" type="checkbox"> Coveralls</label>
+    <label><input id="registration-codecov" type="checkbox"> Codecov</label>
+    <label><input id="registration-cirrus" type="checkbox"> Cirrus CI</label>
+  </fieldset>
+  <div class="mb-3">
+    <label for="registration-workflows">GitHub Actions workflow names (one per line)</label>
+    <textarea id="registration-workflows" class="form-control" rows="2" placeholder="CI"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Generate JSON</button>
+  <p id="registration-error" role="alert"></p>
+</form>
+<div id="registration-result" hidden>
+  <p>Create <code id="registration-filename"></code> in the <code>authors</code> directory,
+  and paste this JSON into the file:</p>
+  <label for="registration-json">Registration JSON</label>
+  <textarea id="registration-json" class="form-control" rows="18" readonly></textarea>
+</div>
+<script src="/js/onboarding.js" defer></script>
+
+<h2>Submit your registration</h2>
 <ol>
-<li>Decide which of the supported CI services you want to use and configure
-them correctly. (More details on the various services below.)</li>
-<li>Take a fork of the <a href="https://github.com/PerlToolsTeam/dashboard">CPAN Dashboard</a> repo.</li>
-<li>Add a file in the <tt>authors</tt> directory. Copy
-<a href="https://github.com/PerlToolsTeam/dashboard/blob/master/authors/DAVECROSS.json">this file</a> and
-name the new file using your CPAN author name.</li>
-<li>Update the file to contain the correct information about your CPAN and Github usenames and
-the CI services that you use. Switch the various <tt>ci.use_XXX</tt> flags to 0 for services
-that you don't use.</li>
-<li>Send a <a href="https://github.com/PerlToolsTeam/dashboard/pulls">pull request</a> adding your file
-to my repo.</li>
-<li>Sit back and wait for me to merge your PR.</li>
+<li>Sign in to GitHub and open the
+<a href="https://github.com/PerlToolsTeam/dashboard/new/master/authors">new-file editor in the authors directory</a>.</li>
+<li>Name the file <code>YOURCPANID.json</code> and paste the generated JSON. With JavaScript
+ disabled, copy <a href="https://github.com/PerlToolsTeam/dashboard/blob/master/authors/DAVECROSS.json">an existing registration</a>
+ and change its author ID, GitHub username, and service settings.</li>
+<li>Commit the file and follow GitHub's prompts to propose a pull request. GitHub
+can create the fork for you, as described in its
+<a href="https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files">new-file instructions</a>.</li>
+<li>After the pull request is merged, the next site refresh gathers your release
+metadata and adds your dashboard.</li>
 </ol>
 
 <h2>Supported CI services</h2>
@@ -29,13 +64,13 @@ to my repo.</li>
   <div class="card">
     <div class="card-header" id="headingOne">
       <h3 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+        <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                 aria-expanded="true" aria-controls="collapseOne">
           Github Actions
         </button>
       </h3>
     </div>
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
       <div class="card-body">
         <p>Github Actions can do many things. But we're just using it to run tests on each commit
           and report on the success or failure of the test run. Add a directory called
@@ -47,7 +82,22 @@ to my repo.</li>
           each other in your dashboard (this isn't currently as pretty as I'd like it, but we're
           working on it). Remember the values of the <tt>name</tt> keys in your YAML files as you'll
           need to add those to the <tt>ci.gh_workflow_names</tt> option in your new configuration
-          file. We currently expect all of your modules to run the same set of Github Actions.</p>
+          file. Alternatively, list YAML filenames such as <tt>test.yml</tt> in
+          <tt>ci.gh_workflow_files</tt>.</p>
+        <p>Distributions inherit your author-level settings. To change one distribution,
+          add a <tt>distribution_ci</tt> object keyed by its distribution name. For example:</p>
+        <pre>{
+  "distribution_ci": {
+    "Example-Dist": {
+      "gh_workflow_names": [],
+      "gh_workflow_files": ["test.yml"],
+      "use_coveralls": 0
+    }
+  }
+}</pre>
+        <p>Only fields you supply override the author defaults. Set
+          <tt>use_gh_actions</tt> to 0 for a distribution without workflows.
+          Cached builds apply these settings without refreshing release metadata.</p>
       </div>
     </div>
   </div>
@@ -55,13 +105,13 @@ to my repo.</li>
   <div class="card">
     <div class="card-header" id="headingThree">
       <h3 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree"
+        <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                 aria-expanded="true" aria-controls="collapseThree">
           Coveralls.io
         </button>
       </h3>
     </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
       <div class="card-body">
         <p><a href="https://coveralls.io/">Coveralls.io</a> measures your test coverage.  Log in
           with your Github credentials and turn on the repos that you want to use. You also have to
@@ -90,14 +140,14 @@ to my repo.</li>
   <div class="card">
     <div class="card-header" id="headingFive">
       <h3 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive"
+        <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseFive"
                 aria-expanded="true" aria-controls="collapseFive">
           Codecov.io
         </button>
       </h3>
     </div>
 
-    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-bs-parent="#accordion">
       <div class="card-body">
         <p>We support <a href="https://codecov.io/">Codecov.io</a>, but haven't written instructions
           for it yet.</p>
@@ -108,14 +158,14 @@ to my repo.</li>
   <div class="card">
     <div class="card-header" id="headingSix">
       <h3 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSix"
+        <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseSix"
                 aria-expanded="true" aria-controls="collapseSix">
           Cirrus CI
         </button>
       </h3>
     </div>
 
-    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-bs-parent="#accordion">
       <div class="card-body">
         <p>We support <a href="https://cirrus-ci.org/">Cirrus CI</a>, but haven't written instructions
           for it yet.</p>
@@ -126,14 +176,14 @@ to my repo.</li>
   <div class="card">
     <div class="card-header" id="headingSeven">
       <h3 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSeven"
+        <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
                 aria-expanded="true" aria-controls="collapseSeven">
           AppVeyor
         </button>
       </h3>
     </div>
 
-    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-bs-parent="#accordion">
       <div class="card-body">
         <p>We support <a href="https://appveyor.com/">AppVeyor</a>, but haven't written instructions
           for it yet.</p>
@@ -141,6 +191,13 @@ to my repo.</li>
     </div>
   </div>
 </div>
+
+<h2 id="repository-metadata">Repository metadata</h2>
+
+<p>A distribution stays in the dashboard when its repository link is absent or
+unsupported. Add a web URL under <code>resources.repository.web</code> in the
+distribution metadata, then publish a new release. Links to other web hosts are
+retained; the supported service badges require a recognized GitHub repository.</p>
 
 <h2>Fixing issues</h2>
 
