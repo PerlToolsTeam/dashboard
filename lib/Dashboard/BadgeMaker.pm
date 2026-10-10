@@ -6,6 +6,7 @@ no if $^V >= v5.38, warnings => 'experimental::class';
 class Dashboard::BadgeMaker {
 
   use Dashboard::Repository qw(github_repository);
+  use URI::Escape 'uri_escape_utf8';
 
   method cpan {
     my ($module) = @_;
@@ -32,11 +33,31 @@ class Dashboard::BadgeMaker {
     my ($module, $workflow) = @_;
     return '' unless $self->has_repo_details($module);
 
+    my $encoded = uri_escape_utf8($workflow);
+    my $search = $workflow;
+    $search =~ s/([\\"])/\\$1/g;
+    my $query = uri_escape_utf8(qq[workflow:"$search"]);
     return $self->badge_link(
-      "https://github.com/$module->{repo_owner}/$module->{repo_name}/actions?query=workflow%3A$workflow",
-      "https://github.com/$module->{repo_owner}/$module->{repo_name}/workflows/$workflow/badge.svg",
+      "https://github.com/$module->{repo_owner}/$module->{repo_name}/actions?query=$query",
+      "https://github.com/$module->{repo_owner}/$module->{repo_name}/workflows/$encoded/badge.svg",
       "GH Action $workflow",
     );
+  }
+
+  method gh_file ($module, $file) {
+    return '' unless $self->has_repo_details($module);
+    my $encoded = uri_escape_utf8($file);
+    my $base = "https://github.com/$module->{repo_owner}/$module->{repo_name}/actions/workflows/$encoded";
+    return $self->badge_link($base, "$base/badge.svg", "GH Action $file");
+  }
+
+  method gh_badges ($module, $settings) {
+    return '' unless $settings->{use_gh_actions};
+    my @badges = (
+      (map { $self->gh($module, $_) } @{ $settings->{gh_workflow_names} // [] }),
+      (map { $self->gh_file($module, $_) } @{ $settings->{gh_workflow_files} // [] }),
+    );
+    return join '<br>', grep { length } @badges;
   }
 
   method appveyor {
@@ -101,6 +122,13 @@ class Dashboard::BadgeMaker {
 
   method badge_link {
     my ($link_url, $img_url, $alt_text) = @_;
+    for my $value ($link_url, $img_url, $alt_text) {
+      $value =~ s/&/&amp;/g;
+      $value =~ s/</&lt;/g;
+      $value =~ s/>/&gt;/g;
+      $value =~ s/"/&quot;/g;
+      $value =~ s/'/&#39;/g;
+    }
 
     return qq[<a href="$link_url"><img class="backup_picture" alt="$alt_text" src="$img_url"></a>];
   }

@@ -1,7 +1,12 @@
 $(document).ready(function()
 {
-    $(".backup_picture").on("error", function(){
-        $(this).attr('src', '/images/missing_image.png');
+    function backupImage() {
+      $(this).off('error.dashboard').attr('src', '/images/missing_image.png');
+    }
+    $(".backup_picture").each(function(){
+      $(this).one('error.dashboard', backupImage);
+      // A cached/fast error can happen before document.ready installs handlers.
+      if (this.complete && this.naturalWidth === 0) backupImage.call(this);
     });
 
     // See https://datatables.net/ for how this works

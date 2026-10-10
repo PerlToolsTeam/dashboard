@@ -2,6 +2,8 @@
 
 Session window: 14:51–16:21 UTC (90 minutes).
 Branch: `robustness-sprints-2026-10-10`.
+The fourth sprint continues on `dashboard-ci-overrides-2026-10-10`, based on the
+three robustness commits in draft PR #122.
 
 ## Sprint 1: repository lookup and branch-cache recovery
 
@@ -60,3 +62,28 @@ Addresses #120 and #82.
 Validation: 277 Perl checks across seven files and three Node.js behavior checks
 pass. Changed workflow YAML parses successfully. The first two sprint commits
 also passed GitHub Actions on Perl 5.40 and 5.42 (draft PR #122).
+
+## Sprint 4: per-distribution CI settings and reliable badge rendering
+
+Addresses #5 and #102, with regression coverage for #31 and #115.
+
+- Confirmed the workflow mismatch described in #102 through public GitHub API
+  reads: Acme-Constructor-Pythonic has no workflows, while the other cited
+  repository defines CI.
+- Added validated `distribution_ci` overrides and explicit workflow filename
+  support. Unspecified fields inherit author defaults; empty lists replace them.
+- Applied current registration settings during cached builds without changing
+  persistent metadata or fetching any external service.
+- Disabled the nonexistent default workflow for the verified TOBYINK example.
+- URL encoded workflow names/files, escaped badge attributes and repository links,
+  and rejected executable protocols in repository/bugtracker links.
+- Fixed fallback handling for badge errors that occur before document.ready and
+  prevented retry loops when the fallback image itself is missing.
+- Verified all rows and CPAN/CPANTS badges remain available for no-repo, GitLab,
+  and Bitbucket distributions, with consistent table alignment.
+
+Validation: 334 Perl checks across nine files and five JavaScript checks pass.
+The real catalogue test uses the production templates with mixed repository
+hosts, disabled services, alternate workflow filenames, and changed cached-build
+settings. The original distribution-count discrepancy in #31 has not been
+reproduced against current MetaCPAN data, so that issue remains an audit candidate.

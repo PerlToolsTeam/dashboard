@@ -1,8 +1,9 @@
 <h1>Add your modules</h1>
 
 <p>It's pretty simple to add yourself to the list of CPAN authors on our front
-page. Currently we only support code repos on Github and a limited number of
-CI services (but we plan to add support for more services in the future).</p>
+page. Repository links can point to GitHub, GitLab, Bitbucket, or another web
+host. The supported CI and coverage badges currently use GitHub repositories;
+CPAN version and CPANTS badges remain available for other hosts.</p>
 
 <p>Here are the steps to follow:</p>
 
@@ -47,7 +48,22 @@ to my repo.</li>
           each other in your dashboard (this isn't currently as pretty as I'd like it, but we're
           working on it). Remember the values of the <tt>name</tt> keys in your YAML files as you'll
           need to add those to the <tt>ci.gh_workflow_names</tt> option in your new configuration
-          file. We currently expect all of your modules to run the same set of Github Actions.</p>
+          file. Alternatively, list YAML filenames such as <tt>test.yml</tt> in
+          <tt>ci.gh_workflow_files</tt>.</p>
+        <p>Distributions inherit your author-level settings. To change one distribution,
+          add a <tt>distribution_ci</tt> object keyed by its distribution name. For example:</p>
+        <pre>{
+  "distribution_ci": {
+    "Example-Dist": {
+      "gh_workflow_names": [],
+      "gh_workflow_files": ["test.yml"],
+      "use_coveralls": 0
+    }
+  }
+}</pre>
+        <p>Only fields you supply override the author defaults. Set
+          <tt>use_gh_actions</tt> to 0 for a distribution without workflows.
+          Cached builds apply these settings without refreshing release metadata.</p>
       </div>
     </div>
   </div>

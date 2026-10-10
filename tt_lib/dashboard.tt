@@ -18,9 +18,9 @@ window.dashboardSort = { column: "[% sort.column %]", direction: "[% sort.direct
 [% IF gathered_at -%]
     <p>Release metadata gathered at [% gathered_at | html %].</p>
 [% END -%]
-    <p><img alt="[% author.cpan %]" class="gravatar" src="[% author.gravatar OR '/images/gravatar.png' %]"></p>
+    <p><img alt="[% author.cpan %]" class="gravatar" src="[% (author.gravatar OR '/images/gravatar.png') | html %]"></p>
     <p>A dashboard to see the state of
-      <a hrsef="https://metacpan.org/author/[% author.cpan %]">[% author.cpan %]'s CPAN modules</a>.</p>
+      <a href="https://metacpan.org/author/[% author.cpan %]">[% author.cpan %]'s CPAN modules</a>.</p>
     <p>You can download this <a href="/[% author.cpan %]/data.json">data as JSON</a>.</p>
     <table class="table table-striped table-hover" id="sort_table">
       <thead>
@@ -30,25 +30,25 @@ window.dashboardSort = { column: "[% sort.column %]", direction: "[% sort.direct
           <th>CPANTS</th>
           <th data-sort-name="date">Date</th>
           <th>Bugs</th>
-[% IF ci.use_gh_actions -%]
+[% IF display_ci.use_gh_actions -%]
           <th>GH Actions</th>
 [% END -%]
-[% IF ci.use_travis -%]
+[% IF display_ci.use_travis -%]
           <th>Travis CI (.org)</th>
 [% END -%]
-[% IF ci.use_travis_com -%]
+[% IF display_ci.use_travis_com -%]
           <th>Travis CI (.com)</th>
 [% END -%]
-[% IF ci.use_cirrus -%]
+[% IF display_ci.use_cirrus -%]
           <th>Cirrus CI</th>
 [% END -%]
-[% IF ci.use_appveyor -%]
+[% IF display_ci.use_appveyor -%]
           <th>Appveyor CI</th>
 [% END -%]
-[% IF ci.use_coveralls -%]
+[% IF display_ci.use_coveralls -%]
           <th>Coveralls</th>
 [% END -%]
-[% IF ci.use_codecov -%]
+[% IF display_ci.use_codecov -%]
           <th>Codecov</th>
 [% END -%]
         </tr>
@@ -56,35 +56,33 @@ window.dashboardSort = { column: "[% sort.column %]", direction: "[% sort.direct
       <tbody>
 [% FOREACH m IN modules -%]
         <tr>
-          <td>[% IF m.repo %]<a href="[% m.repo %]">[% m.dist %]</a>[% ELSE %][% m.dist %][% END %][% IF m.insecure_repo %] <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span>[% END %]</td>
+          <td>[% IF m.repo %]<a href="[% m.repo | html %]">[% m.dist | html %]</a>[% ELSE %][% m.dist | html %][% END %][% IF m.insecure_repo %] <span title="This distribution has an insecure repository link. This usually means it hasn't been updated for a while." class="warn">&#x26A0;</span>[% END %]</td>
           <td>[% badges.cpan(m) %]</td>
           <td>[% badges.cpants(m) %]</td>
-          <td>[% m.date %]</td>
-          <td>[% IF m.bugtracker %]<a href="[% m.bugtracker %]">[% good_bugtracker %]</a>[% ELSE; no_bugtracker; END %]</td>
-[%   IF ci.use_gh_actions -%]
-          <td>[%- FOREACH workflow_name IN ci.gh_workflow_names -%]
-            [% badges.gh(m, workflow_name) %][% UNLESS loop.last %]<br>[% END -%]
-          [%- END %]</td>
+          <td>[% m.date | html %]</td>
+          <td>[% IF m.bugtracker %]<a href="[% m.bugtracker | html %]">[% good_bugtracker %]</a>[% ELSE; no_bugtracker; END %]</td>
+[%   IF display_ci.use_gh_actions -%]
+          <td>[% badges.gh_badges(m, m.ci) %]</td>
 [%   END -%]
-[%   IF ci.use_travis -%]
-          <td>[% badges.travis(m) %]</td>
+[%   IF display_ci.use_travis -%]
+          <td>[% IF m.ci.use_travis %][% badges.travis(m) %][% END %]</td>
 [%   END -%]
-[%   IF ci.use_travis_com -%]
-          <td>[% badges.travis_com(m) %]</td>
+[%   IF display_ci.use_travis_com -%]
+          <td>[% IF m.ci.use_travis_com %][% badges.travis_com(m) %][% END %]</td>
 [%   END -%]
-[%   IF ci.use_cirrus -%]
-          <td>[%- FOREACH task_name IN ci.cirrus_task_names -%]
+[%   IF display_ci.use_cirrus -%]
+          <td>[%- IF m.ci.use_cirrus; FOREACH task_name IN m.ci.cirrus_task_names -%]
             [% badges.cirrus(m, task_name) %][% UNLESS loop.last %]<br>[% END -%]
-          [%- END %]</td>
+          [%- END; END %]</td>
 [%   END -%]
-[%   IF ci.use_appveyor -%]
-          <td>[% badges.appveyor(m) %]</td>
+[%   IF display_ci.use_appveyor -%]
+          <td>[% IF m.ci.use_appveyor %][% badges.appveyor(m) %][% END %]</td>
 [%   END -%]
-[%   IF ci.use_coveralls -%]
-          <td>[% badges.coveralls(m, author) %]</td>
+[%   IF display_ci.use_coveralls -%]
+          <td>[% IF m.ci.use_coveralls %][% badges.coveralls(m, author) %][% END %]</td>
 [%   END -%]
-[%   IF ci.use_codecov -%]
-          <td>[% badges.codecov(m) %]</td>
+[%   IF display_ci.use_codecov -%]
+          <td>[% IF m.ci.use_codecov %][% badges.codecov(m) %][% END %]</td>
 [%   END -%]
         </tr>
 [% END -%]

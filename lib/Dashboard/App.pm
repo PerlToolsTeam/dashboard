@@ -9,7 +9,7 @@ class Dashboard::App {
 
   use Dashboard::BadgeMaker;
   use Dashboard::BranchCache;
-  use Dashboard::Repository qw(github_repository);
+  use Dashboard::Repository qw(github_repository resource_url);
   use Dashboard::Config qw(read_json_file read_global_config normalize_author);
 
   use JSON;
@@ -129,7 +129,7 @@ class Dashboard::App {
     $fresh->{modules} = [sort { $a->{name} cmp $b->{name} } @modules];
     $fresh->{gathered_at} = strftime('%Y-%m-%dT%H:%M:%SZ', gmtime);
     delete $fresh->{fetch_warning};
-    return $fresh;
+    return normalize_author($fresh, "author $cfg->{author}{cpan}");
   }
 
   sub retryable_fetch_error ($error) {
@@ -146,7 +146,16 @@ class Dashboard::App {
   }
 
   method read_snapshot ($file, $id) {
-    my $data = normalize_author(read_json_file($file), $file);
+    my $data = read_json_file($file);
+    # Apply current display settings without requiring another metadata fetch.
+    my $registration = path($global_cfg->{author_dir}, "$id.json");
+    if ($registration->is_file && ref($data) eq 'HASH' && ref($data->{author}) eq 'HASH') {
+      my $cfg = normalize_author(read_json_file($registration), $registration);
+      die "Author identifier mismatch in $registration\n" unless $cfg->{author}{cpan} eq $id;
+      $data->{author}{github} = $cfg->{author}{github};
+      $data->{$_} = $cfg->{$_} for qw(ci distribution_ci sort);
+    }
+    normalize_author($data, $file);
     die "Invalid author snapshot in $file\n"
       unless ref($data) eq 'HASH' && ref($data->{author}) eq 'HASH'
         && ($data->{author}{cpan} // '') eq $id && ref($data->{modules}) eq 'ARRAY'
@@ -173,7 +182,7 @@ class Dashboard::App {
       // $rel->resources->{repository}{url};
 
     if ($rel->resources->{bugtracker}{web}) {
-      $mod->{bugtracker} = $rel->resources->{bugtracker}{web};
+      $mod->{bugtracker} = resource_url($rel->resources->{bugtracker}{web}) // '';
       $mod->{uses_rt} = $mod->{bugtracker} =~ /rt\.cpan\.org/ ? $JSON::true : $JSON::false;
     }
 
@@ -192,26 +201,23 @@ class Dashboard::App {
       return $mod;
     }
 
-    # We need the repo's name. Try to extract it from the URL.
-    if ($mod->{repo} =~ /^(http|git)/) {
-      my $repo_uri = URI->new($mod->{repo});
-      my $path = $repo_uri->path // '';
-      $path =~ s|^/||;     # Remove leading slash
-      $path =~ s|\.git$||; # Remove trailing .git
-      $path =~ s|/+$||;    # Remove trailin slashes
-
-      @$mod{qw[repo_owner repo_name]} = split m|/|, $path, 3;
-
-      if (defined $mod->{repo_owner} and defined $mod->{repo_name}) {
-        $mod->{repo_name} =~ s|\.git$||;
-
-        warn "Unsupported repository for GitHub badges: $mod->{name} ($mod->{repo}).\n";
-      } else {
-        warn "Strange repo for $mod->{name} ($mod->{repo}).\n";
-      }
-    } else {
-      warn "Strange repo for $mod->{name} ($mod->{repo}).\n";
+    my $web_url = resource_url($mod->{repo});
+    unless ($web_url) {
+      warn "Unsupported repository URL for $mod->{name}; retaining distribution without a link.\n";
+      $mod->{repo} = undef;
+      return $mod;
     }
+    $mod->{repo} = $web_url;
+
+    my $repo_uri = URI->new($mod->{repo});
+    my $path = $repo_uri->path // '';
+    $path =~ s|^/||;
+    $path =~ s|/+\z||;
+    $path =~ s|\.git\z||;
+    @$mod{qw[repo_owner repo_name]} = split m|/|, $path, 3;
+    # A valid alternative host is expected, rather than a processing error.
+    warn "Non-canonical GitHub repository for $mod->{name} ($mod->{repo}); skipping service badges.\n"
+      if lc($repo_uri->host) eq 'github.com';
 
     return $mod;
   }

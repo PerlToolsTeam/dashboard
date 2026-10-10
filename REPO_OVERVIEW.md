@@ -127,10 +127,12 @@ generation with an explicit error. Partial release lists never replace snapshots
 
 ### 3. Alternatively, load snapshots
 
-With `--build`, the application loads `authors/data/*/data.json` directly. It does
-not fetch metadata or merge changes from `authors/*.json` into those snapshots.
-Adding an author configuration alone therefore does not add that author to a
-build using snapshots; changing CI flags alone does not update that build either.
+With `--build`, the application loads `authors/data/*/data.json` directly and
+overlays the corresponding registration's current GitHub username, CI settings,
+distribution overrides, and sort settings. It makes no metadata requests and does
+not rewrite persistent snapshots. HTML and JSON use the same effective settings.
+Adding an author configuration alone still requires a first successful gather
+before that author has release metadata available for a cached build.
 
 At examination time, the checkout had 26 author configurations and 23 snapshots.
 `GDT`, `MIKKOI`, and `WWILLIS` had configurations but no checked-in snapshot.
@@ -195,6 +197,13 @@ Per-author files use this shape:
     "use_coveralls": 1,
     "use_codecov": 0
   },
+  "distribution_ci": {
+    "Example-Dist": {
+      "use_coveralls": 0,
+      "gh_workflow_names": [],
+      "gh_workflow_files": ["test.yml"]
+    }
+  },
   "sort": {
     "column": "date",
     "direction": "desc"
@@ -209,11 +218,26 @@ the header's `data-sort-name` attribute, so adding or moving columns preserves
 the intended ordering. Other column settings are rejected. Missing settings
 default to name ascending.
 
-CPAN version and CPANTS quality badges are always included. Author-level flags
-enable columns for GitHub Actions, Travis `.org` or `.com`, Cirrus, AppVeyor,
-Coveralls, and Codecov. GitHub Actions workflow names come from
-`ci.gh_workflow_names`; Cirrus task names come from `ci.cirrus_task_names`.
-The same configured workflow/task names apply to every release for an author.
+CPAN version and CPANTS quality badges are always included, including distributions
+without a repository or with GitLab/Bitbucket repositories. GitHub-specific
+services do not create links for those rows. Author-level flags enable columns for
+GitHub Actions, Travis `.org` or `.com`, Cirrus, AppVeyor, Coveralls, and Codecov.
+Each row inherits these settings, with optional changes in `distribution_ci`,
+keyed by CPAN distribution name. Overrides replace only supplied fields; an empty
+list replaces the inherited list, and a zero flag disables that service for that
+distribution. Disabled cells remain aligned with the rest of the table.
+
+GitHub Actions display names come from `ci.gh_workflow_names`, workflow filenames
+from `ci.gh_workflow_files`, and Cirrus tasks from `ci.cirrus_task_names`. Workflow
+filenames use GitHub's documented `actions/workflows/FILE/badge.svg` endpoint;
+names use the legacy name-based route. Names are URL encoded and badge attributes
+are HTML escaped. See [GitHub's badge documentation](https://docs.github.com/en/actions/how-tos/monitor-workflows/add-a-status-badge).
+
+If a distribution does not define the author's default workflow, disable its
+GitHub Actions flag or override its workflow list. A workflow that has not run,
+or a service that cannot supply a public image, may still have no usable badge.
+The browser shows the local fallback image, including failures that happened
+before initialization, and avoids repeatedly retrying a missing fallback.
 
 `BadgeMaker` constructs links and image URLs; it does not run CI jobs or collect
 coverage results. The relevant services must already be configured in the
