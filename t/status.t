@@ -58,7 +58,7 @@ is_deeply($report->{problems}, [], 'old fallback warnings do not leak into next 
 like($page_path->slurp_utf8, qr/did not contact MetaCPAN/, 'cached report states availability was not checked');
 
 {
-  local *Dashboard::BranchCache::lookup_default_branch = sub { die "lookup failed\n" };
+  local *Dashboard::GitHub::lookup_default_branch = sub { die "lookup failed\n" };
   my $repo = release(resources => {repository => {web => 'https://github.com/example/project'}});
   my $runner = app(mcpan => client(releases => [$repo]));
   $runner->run;
@@ -75,7 +75,7 @@ like($page_path->slurp_utf8, qr/did not contact MetaCPAN/, 'cached report states
 {
   $temp->child('branches.json')->spew_utf8($json->encode({example => {project => 'main'}}));
   my $cache = Dashboard::BranchCache->new(file => "$temp/branches.json");
-  local *Dashboard::BranchCache::lookup_default_branch = sub { die "lookup failed\n" };
+  local *Dashboard::GitHub::lookup_default_branch = sub { die "lookup failed\n" };
   is($cache->get('example', 'project', 1), 'main', 'refresh failure preserves branch');
   like($cache->problems->[0]{message}, qr/retained the cached branch/, 'report describes retained branch');
 }

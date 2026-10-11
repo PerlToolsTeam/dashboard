@@ -1,13 +1,13 @@
 use v5.40;
 use Test::More;
 use JSON;
-use Dashboard::Config qw(normalize_author);
+use Dashboard::Config;
 open my $process, '-|', 'node', 't/onboarding-js.test.cjs', '--fixture' or die $!;
 my $output = do {local $/; <$process>};
 close $process;
 is($? >> 8, 0, 'browser form fixture generates registration');
 my $cfg = JSON->new->decode($output);
-my $validated = eval { normalize_author($cfg, 'browser generated registration') };
+my $validated = eval { Dashboard::Config->new(data => $cfg, file => 'browser generated registration')->data };
 ok($validated, 'browser generated JSON passes the production validator') or diag $@;
 is($validated->{author}{cpan}, 'EXAMPLE', 'generated author ID retained');
 is($validated->{ci}{use_gh_actions}, 0, 'minimal registration disables Actions');

@@ -3,7 +3,8 @@ use Test::More;
 use Path::Tiny;
 use JSON;
 use FindBin '$RealBin';
-use Dashboard::Repository qw(github_repository lookup_default_branch);
+use VCS::Repository;
+use Dashboard::GitHub;
 use Dashboard::BranchCache;
 use Dashboard::BadgeMaker;
 
@@ -12,7 +13,8 @@ for my $url (
   'http://github.com/example/repo/', 'git://github.com/example/repo.git',
   'ssh://git@github.com/example/repo.git', 'git@github.com:example/repo.git',
 ) {
-  is_deeply(scalar github_repository($url), {
+  my $repo = VCS::Repository->from_url($url);
+  is_deeply({owner => $repo->owner, name => $repo->name, url => $repo->url}, {
     owner => 'example', name => 'repo', url => 'https://github.com/example/repo',
   }, "normalize $url");
 }
@@ -29,7 +31,9 @@ for my $url (
   q{https://github.com/example/$(touch-marker)},
   "https://github.com/example/repo\n", 'ftp://github.com/example/repo',
 ) {
-  ok(!github_repository($url), 'reject misleading or malformed GitHub URL: ' . ($url // 'undef'));
+  my $repo = VCS::Repository->from_url($url);
+  ok(!($repo && $repo->is_github && $repo->is_complete),
+    'reject misleading or malformed GitHub identity: ' . ($url // 'undef'));
 }
 
 my $temp = Path::Tiny->tempdir;
@@ -50,13 +54,27 @@ local $ENV{DASHBOARD_GH_LOG} = $temp->child('calls');
 local $ENV{DASHBOARD_GH_OUTPUT} = "main\n";
 local $ENV{DASHBOARD_GH_STATUS} = 0;
 
-is(lookup_default_branch('example', 'repo'), 'main', 'lookup succeeds');
+my $github = Dashboard::GitHub->new;
+my $repository = VCS::Repository->new(host => 'GitHub', owner => 'example', name => 'repo');
+my $unexecuted = VCS::Repository->from_url('git@example.invalid:team/project.git');
+is($unexecuted->type, undef, 'unknown SSH host does not guess a VCS type');
+ok(!path($ENV{DASHBOARD_GH_LOG})->exists, 'constructing and parsing repository objects never invokes gh');
+is($github->lookup_default_branch($repository), 'main', 'lookup succeeds');
 is_deeply(decode_json((path($ENV{DASHBOARD_GH_LOG})->lines_utf8)[0]),
   ['repo', 'view', 'example/repo', '--json', 'defaultBranchRef', '-q', '.defaultBranchRef.name'],
   'GitHub CLI receives separate literal arguments');
-eval { lookup_default_branch('example;touch-marker', 'repo') };
-like($@, qr/Invalid GitHub repository/, 'invalid cache keys never reach the CLI');
+eval { VCS::Repository->new(host => 'GitHub', owner => 'example;touch-marker', name => 'repo') };
+like($@, qr/Invalid repository owner/, 'invalid cache keys never reach the CLI');
 is(scalar path($ENV{DASHBOARD_GH_LOG})->lines_utf8, 1, 'invalid input did not run gh');
+for my $repo (
+  VCS::Repository->from_url('https://gitlab.com/example/repo'),
+  VCS::Repository->from_url('https://github.com/example/repo/issues'),
+  VCS::Repository->new(host => 'GitHub', hostname => 'enterprise.example', owner => 'example', name => 'repo'),
+) {
+  eval { $github->lookup_default_branch($repo) };
+  like($@, qr/Invalid GitHub repository/, 'adapter rejects unsupported or incomplete identities');
+}
+is(scalar path($ENV{DASHBOARD_GH_LOG})->lines_utf8, 1, 'unsupported identities never invoke gh');
 
 my $file = $temp->child('branches.json');
 $file->spew_utf8(encode_json({ example => { good => 'stable', empty => '' } }));

@@ -56,9 +56,19 @@ use Dashboard::BadgeMaker;
   ));
 
   is($non_github->{repo}, 'https://gitlab.example.com/team/non-gh', 'non-GitHub repo is preserved');
-  is($non_github->{repo_owner}, 'team', 'non-GitHub repo owner is parsed from the repo path');
-  is($non_github->{repo_name}, 'non-gh', 'non-GitHub repo name is parsed from the repo path');
+  is($non_github->{repo_owner}, undef, 'unknown hosting service does not guess an owner');
+  is($non_github->{repo_name}, undef, 'unknown hosting service does not guess a repository name');
   ok(!exists $non_github->{repo_def_branch}, 'non-GitHub repo does not require a default branch');
+
+  my $subversion = $app->module_from_release(Local::Release->new(
+    name => 'SVN-1.0', distribution => 'SVN', version => '1.0', author => 'AUTHOR',
+    date => '2026-10-11T00:00:00',
+    resources => {repository => {web => 'https://svn.example/viewvc/project/trunk', type => 'svn'}},
+  ));
+  is($subversion->{repo}, 'https://svn.example/viewvc/project/trunk', 'Subversion browser link remains usable');
+  is($subversion->{repo_type}, 'Subversion', 'explicit metadata type is normalized and retained');
+  ok(!exists $subversion->{repo_name}, 'unfamiliar SVN layout does not guess repository root');
+  ok(!exists $subversion->{repo_def_branch}, 'Subversion does not invoke GitHub lookup');
 
   my $github = $app->module_from_release(Local::Release->new(
     name         => 'GH-1.0',

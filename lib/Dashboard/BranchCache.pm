@@ -5,10 +5,12 @@ no warnings 'experimental::class';
 class Dashboard::BranchCache {
   use JSON;
   use Path::Tiny;
-  use Dashboard::Repository qw(valid_repo_parts lookup_default_branch);
+  use VCS::Repository;
+  use Dashboard::GitHub;
 
   field $file :param = 'repo_def_branch.json';
   field $data = {};
+  field $github :param = Dashboard::GitHub->new;
   field %failed;
   field @problems;
 
@@ -31,7 +33,8 @@ class Dashboard::BranchCache {
   }
 
   method get ($owner, $name, $refresh = 0) {
-    unless (valid_repo_parts($owner, $name)) {
+    my $repo = eval { VCS::Repository->new(host => 'GitHub', owner => $owner, name => $name) };
+    unless ($repo && $repo->is_complete) {
       warn "Ignoring invalid repository in branch cache\n";
       return '';
     }
@@ -41,7 +44,7 @@ class Dashboard::BranchCache {
     return $cached if $failed{"$owner/$name"};
 
     try {
-      my $branch = lookup_default_branch($owner, $name);
+      my $branch = $github->lookup_default_branch($repo);
       $data->{$owner}{$name} = $branch;
       return $branch;
     }
