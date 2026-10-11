@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T12:42:02Z",
+   "gathered_at" : "2026-10-11T21:52:16Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -2654,17 +2654,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-07",
+         "date" : "2026-10-11",
          "dist" : "Log-Abstraction",
          "insecure_repo" : false,
-         "name" : "Log-Abstraction-0.39",
+         "name" : "Log-Abstraction-0.40",
          "repo" : "https://github.com/nigelhorne/Log-Abstraction",
          "repo_def_branch" : "master",
          "repo_name" : "Log-Abstraction",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.39"
+         "ver" : "0.40"
       },
       {
          "auth" : "NHORNE",
@@ -3381,6 +3381,35 @@
          "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.01"
+      },
+      {
+         "auth" : "NHORNE",
+         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Test-NoShadow",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-10-11",
+         "dist" : "Test-NoShadow",
+         "insecure_repo" : false,
+         "name" : "Test-NoShadow-0.001.0",
+         "repo" : "https://github.com/nigelhorne/Test-NoShadow",
+         "repo_def_branch" : "master",
+         "repo_name" : "Test-NoShadow",
+         "repo_owner" : "nigelhorne",
+         "repo_type" : "Git",
+         "uses_rt" : true,
+         "ver" : "v0.001.0"
       },
       {
          "auth" : "NHORNE",
