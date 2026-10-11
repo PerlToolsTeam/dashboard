@@ -38,3 +38,21 @@ img.gravatar {
 .card-deck {
   margin-bottom: 1rem;
 }
+
+.add-page {
+  width: 100%;
+  max-width: 70ch;
+  margin-inline: auto;
+  padding-block: 1rem;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.add-page h2 {
+  margin-top: 2rem;
+}
+
+.add-page pre {
+  max-width: 100%;
+  overflow-x: auto;
+}
