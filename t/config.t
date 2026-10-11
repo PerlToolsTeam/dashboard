@@ -4,7 +4,7 @@ use Path::Tiny;
 use JSON;
 use FindBin '$RealBin';
 use lib 't/lib';
-use Dashboard::Config qw(read_global_config normalize_author);
+use Dashboard::Config;
 use Dashboard::TestData qw(client);
 use Dashboard::App;
 
@@ -23,7 +23,11 @@ my $file = $temp->child('config.json');
 
 sub write_config ($data) { $file->spew_utf8($json->encode($data)) }
 write_config($global);
-my $defaults = read_global_config("$file");
+my $global_config = Dashboard::Config->new(file => "$file", kind => 'global');
+isa_ok($global_config, 'Dashboard::Config');
+is($global_config->file, "$file", 'configuration retains its source');
+is($global_config->kind, 'global', 'configuration retains its kind');
+my $defaults = $global_config->data;
 is($defaults->{fetch_attempts}, 3, 'bounded attempts have a default');
 is($defaults->{http_timeout}, 20, 'HTTP timeout has a default');
 is_deeply($defaults->{menu}, [], 'menu defaults to empty');
@@ -52,7 +56,7 @@ for my $case (
 }
 
 my $author = { author => {cpan => 'EXAMPLE', github => 'example-user'}, ci => {} };
-my $normalized = normalize_author($json->decode($json->encode($author)), 'EXAMPLE.json');
+my $normalized = Dashboard::Config->new(data => $json->decode($json->encode($author)), file => 'EXAMPLE.json')->data;
 is_deeply($normalized->{sort}, {column => 'name', direction => 'asc'}, 'author defaults use stable sort names');
 is_deeply($normalized->{ci}{gh_workflow_names}, [], 'omitted workflow names default to empty array');
 is($normalized->{ci}{use_gh_actions}, 0, 'omitted CI flags default to disabled');
@@ -60,7 +64,7 @@ is($normalized->{ci}{use_gh_actions}, 0, 'omitted CI flags default to disabled')
 for my $case ([0 => 'name'], [3 => 'date'], [name => 'name'], [repo => 'name'], [DATE => 'date']) {
   my $data = $json->decode($json->encode($author));
   $data->{sort} = {column => $case->[0], direction => 'DESC'};
-  my $sort = normalize_author($data, 'EXAMPLE.json')->{sort};
+  my $sort = Dashboard::Config->new(data => $data, file => 'EXAMPLE.json')->data->{sort};
   is_deeply($sort, {column => $case->[1], direction => 'desc'}, 'legacy/symbolic sort settings normalize');
 }
 
@@ -100,8 +104,19 @@ my $client = client();
 like($@, qr/Duplicate author.cpan/, 'duplicate author IDs are rejected before generation');
 is($client->{calls} // 0, 0, 'duplicate registrations make no network calls');
 
-my $boolean = normalize_author({author => {cpan => 'BOOL'},
-  ci => {use_gh_actions => JSON::true, gh_workflow_names => ['Build and test']}}, 'BOOL.json');
+my $boolean = Dashboard::Config->new(data => {author => {cpan => 'BOOL'},
+  ci => {use_gh_actions => JSON::true, gh_workflow_names => ['Build and test']}}, file => 'BOOL.json')->data;
 ok($boolean->{ci}{use_gh_actions}, 'JSON boolean flags are supported');
+
+eval { $global_config->effective_ci('Example') };
+like($@, qr/author configuration/, 'global configuration cannot supply author CI settings');
+eval { Dashboard::Config->new(kind => 'unknown', data => {}) };
+like($@, qr/Unknown configuration kind/, 'unknown configuration kinds fail explicitly');
+my $other = Dashboard::Config->new(data => {author => {cpan => 'OTHER'}});
+is($other->data->{author}{cpan}, 'OTHER', 'independent author configuration');
+is($boolean->{author}{cpan}, 'BOOL', 'new configuration does not overwrite another instance');
+write_config({author => {cpan => 'FILEAUTHOR'}});
+my $from_file = Dashboard::Config->new(file => "$file");
+is($from_file->data->{author}{cpan}, 'FILEAUTHOR', 'author configuration is loaded and validated from its file');
 
 done_testing;

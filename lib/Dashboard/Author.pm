@@ -6,7 +6,7 @@ no if $^V >= v5.38, warnings => 'experimental::class';
 class Dashboard::Author {
   use Dashboard::Distribution;
   use Path::Tiny;
-  use Dashboard::Config qw(normalize_author);
+  use Dashboard::Config;
 
   field $name :reader :param;
   field $cpan_name :reader :param;
@@ -19,7 +19,7 @@ class Dashboard::Author {
   sub new_from_file {
     my ($class, $file, $mcpan, $json) = @_;
 
-    my $data = normalize_author($json->decode(path($file)->slurp_utf8), $file);
+    my $data = Dashboard::Config->new(file => "$file")->data;
 
     my $mcpan_author = $mcpan->author($data->{author}{cpan});
 

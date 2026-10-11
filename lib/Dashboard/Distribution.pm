@@ -9,7 +9,7 @@ class Dashboard::Distribution {
   use URI;
   use Path::Tiny;
   use Dashboard::BranchCache;
-  use Dashboard::Repository qw(github_repository);
+  use VCS::Repository;
 
   field $name :param :reader;
   field $distribution :param :reader;
@@ -53,10 +53,14 @@ class Dashboard::Distribution {
     $dist_data{uses_rt} = $dist_data{bugtracker} =~ /rt.cpan.org/;
 
     $dist_data{is_insecure_repo} = ($dist_data{repo} // '') =~ m|^http:|;
-    if (my $github = github_repository($dist_data{repo})) {
-      $dist_data{repo} = $github->{url};
-      $dist_data{repo_owner} = $github->{owner};
-      $dist_data{repo_name} = $github->{name};
+    my $vcs_type = $release->resources->{repository}{type};
+    my %repo_args = defined($vcs_type) && !ref($vcs_type) && $vcs_type =~ /\A(?:git|svn|subversion)\z/i
+      ? (type => $vcs_type) : ();
+    my $repository = VCS::Repository->from_url($dist_data{repo}, %repo_args);
+    if ($repository && $repository->is_github && $repository->is_complete) {
+      $dist_data{repo} = $repository->url;
+      $dist_data{repo_owner} = $repository->owner;
+      $dist_data{repo_name} = $repository->name;
       $dist_data{repo_def_branch} = get_repo_default_branch(\%dist_data);
     }
 
@@ -92,7 +96,8 @@ class Dashboard::Distribution {
   }
 
   method is_github {
-    return !!github_repository($repo);
+    my $repository = VCS::Repository->from_url($repo);
+    return !!($repository && $repository->is_github && $repository->is_complete);
   }
 
   # Note: a subroutine, not a method, because it needs to be

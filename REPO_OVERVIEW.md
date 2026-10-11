@@ -47,8 +47,10 @@ does not discard the last-known-good author data.
 | [bin/dashboard](bin/dashboard) | Command-line entry point; chooses gathering, building, or both. |
 | [lib/Dashboard/App.pm](lib/Dashboard/App.pm) | Active application: configuration, MetaCPAN retrieval, repository parsing, caching, and site generation. |
 | [lib/Dashboard/BadgeMaker.pm](lib/Dashboard/BadgeMaker.pm) | Produces linked badge image HTML for the dashboard tables. |
-| [lib/Dashboard/Repository.pm](lib/Dashboard/Repository.pm), [lib/Dashboard/BranchCache.pm](lib/Dashboard/BranchCache.pm) | Shared repository URL validation, shell-free GitHub CLI lookup, and last-known-good branch caching. |
-| [lib/Dashboard/Config.pm](lib/Dashboard/Config.pm) | Global configuration validation and shared author/CI/sort normalization. |
+| [lib/VCS/Repository.pm](lib/VCS/Repository.pm) | Local repository identity, provider-aware URL parsing/construction, and VCS/host predicates. |
+| [lib/Dashboard/GitHub.pm](lib/Dashboard/GitHub.pm), [lib/Dashboard/BranchCache.pm](lib/Dashboard/BranchCache.pm) | Explicit shell-free GitHub CLI lookup and last-known-good branch caching. |
+| [lib/Dashboard/URL.pm](lib/Dashboard/URL.pm) | Generic safe web-link validation for repository and bugtracker display links. |
+| [lib/Dashboard/Config.pm](lib/Dashboard/Config.pm) | Native configuration class owning source, kind, and validated global or author/CI/sort data. |
 | [lib/Dashboard/Author.pm](lib/Dashboard/Author.pm), [lib/Dashboard/Distribution.pm](lib/Dashboard/Distribution.pm) | Separate class-based data model, exercised by some tests but unused by the main entry point. |
 | [dashboard.json](dashboard.json) | Global paths, template names, analytics setting, and sitemap domain. |
 | `authors/*.json` | Per-author registration and CI configuration. |
@@ -399,3 +401,7 @@ repository path, then normalizes valid GitHub links to HTTPS. Subpages, query
 strings, fragments, credentials in HTTP URLs, and malformed components cannot
 trigger GitHub lookups or badges. CLI calls use separate arguments without a
 shell, including calls from the cache-refresh script.
+
+See [the class API and extraction assessment](REPOSITORY_DESIGN.md) for
+`VCS::Repository`, `Dashboard::Config`, partial repository objects, supported URL
+styles, and the boundary between local parsing and network adapters.

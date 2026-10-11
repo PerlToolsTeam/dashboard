@@ -5,7 +5,7 @@ no if $^V >= v5.38, warnings => 'experimental::class';
 
 class Dashboard::BadgeMaker {
 
-  use Dashboard::Repository qw(github_repository);
+  use VCS::Repository;
   use URI::Escape 'uri_escape_utf8';
 
   method cpan {
@@ -140,10 +140,11 @@ class Dashboard::BadgeMaker {
   method has_repo_details {
     my ($module) = @_;
 
-    my $repo = github_repository($module->{repo}) or return;
+    my $repo = VCS::Repository->from_url($module->{repo});
+    return unless $repo && $repo->is_github && $repo->is_complete;
     return $module->{repo_owner} && $module->{repo_name}
-      && $module->{repo_owner} eq $repo->{owner}
-      && $module->{repo_name} eq $repo->{name};
+      && $module->{repo_owner} eq $repo->owner
+      && $module->{repo_name} eq $repo->name;
   }
 
   method has_branch_details {

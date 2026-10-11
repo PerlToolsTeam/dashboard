@@ -9,8 +9,9 @@ class Dashboard::App {
 
   use Dashboard::BadgeMaker;
   use Dashboard::BranchCache;
-  use Dashboard::Repository qw(github_repository resource_url);
-  use Dashboard::Config qw(read_json_file read_global_config normalize_author);
+  use VCS::Repository;
+  use Dashboard::URL qw(resource_url);
+  use Dashboard::Config;
 
   use JSON;
   use Path::Tiny;
@@ -25,7 +26,8 @@ class Dashboard::App {
   field $json = JSON->new->pretty->canonical;
   field $config_file :param = 'dashboard.json';
   field $selected_author :param(author) = undef;
-  field $global_cfg = read_global_config($config_file);
+  field $config = Dashboard::Config->new(file => $config_file, kind => 'global');
+  field $global_cfg = $config->data;
   field $mcpan :reader :param = MetaCPAN::Client->new(
     ua => HTTP::Tiny->new(agent => "CPAN Dashboard/$VERSION",
       timeout => $global_cfg->{http_timeout} // 20)
@@ -74,7 +76,7 @@ class Dashboard::App {
       @files = sort { "$a" cmp "$b" } path($global_cfg->{author_dir})->children(qr/\.json\z/);
     }
     for my $file (@files) {
-      my $cfg = normalize_author(read_json_file($file), $file);
+      my $cfg = Dashboard::Config->new(file => "$file")->data;
       die "Author identifier mismatch in $file\n"
         if defined($selected_author) && $cfg->{author}{cpan} ne $selected_author;
       die "Duplicate author.cpan $cfg->{author}{cpan} in $file\n" if $seen{$cfg->{author}{cpan}}++;
@@ -89,7 +91,7 @@ class Dashboard::App {
   }
 
   method do_author ($file, $cfg = undef) {
-    $cfg //= normalize_author(read_json_file($file), $file);
+    $cfg //= Dashboard::Config->new(file => "$file")->data;
 
     my $id = $cfg->{author}{cpan} // '';
     die "Invalid CPAN identifier in $file\n" unless $id =~ /\A[A-Z][A-Z0-9]*\z/;
@@ -156,7 +158,7 @@ class Dashboard::App {
     $fresh->{modules} = [sort { $a->{name} cmp $b->{name} } @modules];
     $fresh->{gathered_at} = strftime('%Y-%m-%dT%H:%M:%SZ', gmtime);
     delete $fresh->{fetch_warning};
-    return normalize_author($fresh, "author $cfg->{author}{cpan}");
+    return Dashboard::Config->new(data => $fresh, file => "author $cfg->{author}{cpan}")->data;
   }
 
   sub retryable_fetch_error ($error) {
@@ -183,16 +185,16 @@ class Dashboard::App {
   }
 
   method read_snapshot ($file, $id) {
-    my $data = read_json_file($file);
+    my $data = Dashboard::Config->read_data($file);
     # Apply current display settings without requiring another metadata fetch.
     my $registration = path($global_cfg->{author_dir}, "$id.json");
     if ($registration->is_file && ref($data) eq 'HASH' && ref($data->{author}) eq 'HASH') {
-      my $cfg = normalize_author(read_json_file($registration), $registration);
+      my $cfg = Dashboard::Config->new(file => "$registration")->data;
       die "Author identifier mismatch in $registration\n" unless $cfg->{author}{cpan} eq $id;
       $data->{author}{github} = $cfg->{author}{github};
       $data->{$_} = $cfg->{$_} for qw(ci distribution_ci sort);
     }
-    normalize_author($data, $file);
+    $data = Dashboard::Config->new(data => $data, file => "$file")->data;
     die "Invalid author snapshot in $file\n"
       unless ref($data) eq 'HASH' && ref($data->{author}) eq 'HASH'
         && ($data->{author}{cpan} // '') eq $id && ref($data->{modules}) eq 'ARRAY'
@@ -230,10 +232,15 @@ class Dashboard::App {
     $mod->{insecure_repo} = $mod->{repo} =~ m|^http:| ? $JSON::true : $JSON::false;
     $mod->{repo} =~ s[/+$][];
 
-    if (my $github = github_repository($mod->{repo})) {
-      $mod->{repo} = $github->{url};
-      $mod->{repo_owner} = $github->{owner};
-      $mod->{repo_name} = $github->{name};
+    my $vcs_type = $rel->resources->{repository}{type};
+    my %repo_args = defined($vcs_type) && !ref($vcs_type) && $vcs_type =~ /\A(?:git|svn|subversion)\z/i
+      ? (type => $vcs_type) : ();
+    my $repository = VCS::Repository->from_url($mod->{repo}, %repo_args);
+    $mod->{repo_type} = $repository->type if $repository && defined($repository->type);
+    if ($repository && $repository->is_github && $repository->is_complete) {
+      $mod->{repo} = $repository->url;
+      $mod->{repo_owner} = $repository->owner;
+      $mod->{repo_name} = $repository->name;
       $mod->{repo_def_branch} = $self->get_repo_default_branch($mod);
       return $mod;
     }
@@ -249,11 +256,10 @@ class Dashboard::App {
     $mod->{repo} = $web_url;
 
     my $repo_uri = URI->new($mod->{repo});
-    my $path = $repo_uri->path // '';
-    $path =~ s|^/||;
-    $path =~ s|/+\z||;
-    $path =~ s|\.git\z||;
-    @$mod{qw[repo_owner repo_name]} = split m|/|, $path, 3;
+    if ($repository && $repository->is_complete) {
+      $mod->{repo_owner} = $repository->owner;
+      $mod->{repo_name} = $repository->name;
+    }
     # A valid alternative host is expected, rather than a processing error.
     warn "Non-canonical GitHub repository for $mod->{name} ($mod->{repo}); skipping service badges.\n"
       if lc($repo_uri->host) eq 'github.com';
@@ -264,8 +270,9 @@ class Dashboard::App {
   method get_repo_default_branch {
     my ($module) = @_;
 
-    my $repo = github_repository($module->{repo}) or return '';
-    return $branch_cache->get($repo->{owner}, $repo->{name});
+    my $repo = VCS::Repository->from_url($module->{repo});
+    return '' unless $repo && $repo->is_github && $repo->is_complete;
+    return $branch_cache->get($repo->owner, $repo->name);
   }
 
   method load_data {
@@ -381,7 +388,8 @@ class Dashboard::App {
     return unless defined $repo_uri;
 
     # Default branch lookup only works for GitHub repos
-    return !!github_repository($repo_uri);
+    my $repo = VCS::Repository->from_url($repo_uri);
+    return !!($repo && $repo->is_github && $repo->is_complete);
   }
 }
 
