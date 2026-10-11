@@ -1,3 +1,4 @@
+<div class="add-page">
 <h1>Add your modules</h1>
 
 <p>It's pretty simple to add yourself to the list of CPAN authors on our front
@@ -211,3 +212,4 @@ A number of issue that could be discovered by the CPAN Dashboard and how to fix 
 <li>...</li>
 </ul>
 
+</div>
