@@ -57,9 +57,67 @@ can create the fork for you, as described in its
 metadata and adds your dashboard.</li>
 </ol>
 
+<h2 id="distribution-settings">Distribution-specific settings</h2>
+
+<p>The <code>ci</code> object in <code>authors/YOURCPANID.json</code> supplies the
+defaults for all your distributions. If they use different services or workflow
+names, add a <code>distribution_ci</code> object alongside <code>author</code> and
+<code>ci</code>. Its keys are CPAN distribution names, such as
+<code>Example-Dist</code>, rather than module names, repository names, or release
+names with a version number.</p>
+
+<p>For example, this registration tracks a workflow named <code>CI</code> and
+Coveralls by default. <code>Example-Dist</code> instead tracks the workflow file
+<code>test.yml</code> and disables Coveralls; <code>Example-Legacy</code> disables
+GitHub Actions while keeping Coveralls:</p>
+
+<pre><code class="language-json">{
+  "author": {
+    "cpan": "EXAMPLE",
+    "github": "example"
+  },
+  "ci": {
+    "use_gh_actions": 1,
+    "gh_workflow_names": ["CI"],
+    "use_coveralls": 1
+  },
+  "distribution_ci": {
+    "Example-Dist": {
+      "gh_workflow_names": [],
+      "gh_workflow_files": ["test.yml"],
+      "use_coveralls": 0
+    },
+    "Example-Legacy": {
+      "use_gh_actions": 0
+    }
+  }
+}</code></pre>
+
+<ul>
+<li>Settings you omit inherit their values from <code>ci</code>.</li>
+<li>Lists replace the entire inherited list. Use <code>[]</code> to clear one.
+For example, clear <code>gh_workflow_names</code> when switching to filenames
+to avoid showing both sets of badges.</li>
+<li>Set a service's <code>use_*</code> flag to <code>1</code> to show its badges,
+or <code>0</code> to hide them. Disabling a service keeps the distribution in
+your dashboard.</li>
+<li>Any setting supported in <code>ci</code> can also go in a distribution's
+override. Changes take effect on the next site build, including builds using
+cached release metadata.</li>
+</ul>
+
+<p>The form above generates author-level defaults. Edit the generated JSON before
+submitting it to add distribution overrides, workflow filenames, Cirrus task
+names, or AppVeyor settings. For an existing registration, edit your file in the
+<a href="https://github.com/PerlToolsTeam/dashboard/tree/master/authors">authors directory</a>
+and propose a pull request.</p>
+
 <h2>Supported CI services</h2>
 
-<p>We currently support the following CI services:</p>
+<p>These settings control the badges on your dashboard. Set up each service in
+your code repository first, then enable its badges in your registration. The
+JSON settings below can go in your author-level <code>ci</code> object or in one
+distribution's <code>distribution_ci</code> override.</p>
 
 <div id="accordion">
   <div class="card">
@@ -67,38 +125,27 @@ metadata and adds your dashboard.</li>
       <h3 class="mb-0">
         <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                 aria-expanded="true" aria-controls="collapseOne">
-          Github Actions
+          GitHub Actions
         </button>
       </h3>
     </div>
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
       <div class="card-body">
-        <p>Github Actions can do many things. But we're just using it to run tests on each commit
+        <p>GitHub Actions can do many things. But we're just using it to run tests on each commit
           and report on the success or failure of the test run. Add a directory called
           <tt>.github/workflows</tt> to your code repository and in that directory create a YAML
           file that runs the processes that you want to run. A basic workflow file for testing a
           CPAN module might look
           <a href="https://github.com/davorg/array-compare/blob/master/.github/workflows/perltest.yml">something like this</a>.</p>
-        <p>You can track as many Github Actions as you like and the badges will stack on top of
+        <p>You can track as many GitHub Actions as you like and the badges will stack on top of
           each other in your dashboard (this isn't currently as pretty as I'd like it, but we're
           working on it). Remember the values of the <tt>name</tt> keys in your YAML files as you'll
           need to add those to the <tt>ci.gh_workflow_names</tt> option in your new configuration
           file. Alternatively, list YAML filenames such as <tt>test.yml</tt> in
-          <tt>ci.gh_workflow_files</tt>.</p>
-        <p>Distributions inherit your author-level settings. To change one distribution,
-          add a <tt>distribution_ci</tt> object keyed by its distribution name. For example:</p>
-        <pre>{
-  "distribution_ci": {
-    "Example-Dist": {
-      "gh_workflow_names": [],
-      "gh_workflow_files": ["test.yml"],
-      "use_coveralls": 0
-    }
-  }
-}</pre>
-        <p>Only fields you supply override the author defaults. Set
-          <tt>use_gh_actions</tt> to 0 for a distribution without workflows.
-          Cached builds apply these settings without refreshing release metadata.</p>
+          <tt>ci.gh_workflow_files</tt>. Use just the filename, without the
+          <tt>.github/workflows/</tt> directory, and set <tt>use_gh_actions</tt> to 1.</p>
+        <p>If repositories use different workflows, use the
+          <a href="#distribution-settings">distribution-specific settings</a> above.</p>
       </div>
     </div>
   </div>
@@ -117,7 +164,7 @@ metadata and adds your dashboard.</li>
         <p><a href="https://coveralls.io/">Coveralls.io</a> measures your test coverage.  Log in
           with your Github credentials and turn on the repos that you want to use. You also have to
           find a way to feed coverage data to your Coveralls.io account. For example, using GitHub
-          Actions, I define a job like this:
+          Actions, I define a job like this:</p>
         <pre>
   coverage:
     runs-on: ubuntu-latest
@@ -150,8 +197,31 @@ metadata and adds your dashboard.</li>
 
     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-bs-parent="#accordion">
       <div class="card-body">
-        <p>We support <a href="https://codecov.io/">Codecov.io</a>, but haven't written instructions
-          for it yet.</p>
+        <p><a href="https://codecov.io/">Codecov</a> displays test coverage from
+          reports uploaded by your CI workflow. Sign in with GitHub, select your
+          repository, and copy its upload token into a GitHub Actions repository
+          secret named <code>CODECOV_TOKEN</code>. The token belongs in your CI
+          secrets, rather than your dashboard registration.</p>
+        <p>For a Perl distribution, <a href="https://metacpan.org/pod/Devel::Cover::Report::Clover">Devel::Cover::Report::Clover</a>
+          produces a <a href="https://docs.codecov.com/docs/supported-report-formats">supported Clover XML report</a>.
+          Add these steps to an existing GitHub Actions job after checking out
+          your code, setting up Perl, and installing the distribution's dependencies:</p>
+        <pre><code class="language-yaml">- name: Generate coverage
+  run: |
+    cpanm --notest Devel::Cover Devel::Cover::Report::Clover
+    cover -test -report clover
+- uses: codecov/codecov-action@v5
+  with:
+    files: cover_db/clover.xml
+    token: ${{ secrets.CODECOV_TOKEN }}
+    fail_ci_if_error: true</code></pre>
+        <p>See the <a href="https://github.com/codecov/codecov-action">official Codecov action instructions</a>
+          for authentication options and further settings. After a successful
+          upload on your default branch, check that Codecov shows coverage for
+          that commit, then enable the dashboard badge:</p>
+        <pre><code class="language-json">{
+  "use_codecov": 1
+}</code></pre>
       </div>
     </div>
   </div>
@@ -168,8 +238,34 @@ metadata and adds your dashboard.</li>
 
     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-bs-parent="#accordion">
       <div class="card-body">
-        <p>We support <a href="https://cirrus-ci.org/">Cirrus CI</a>, but haven't written instructions
-          for it yet.</p>
+        <p><a href="https://cirrus-ci.com/">Cirrus CI</a> runs tasks defined in
+          <code>.cirrus.yml</code> at the root of your repository. Install the
+          <a href="https://github.com/apps/cirrus-ci">Cirrus CI GitHub app</a>
+          and give it access to the repositories you want to test, following
+          its <a href="https://github.com/cirruslabs/cirrus-ci-docs/blob/master/docs/guide/quick-start.md">quick-start guide</a>.</p>
+        <p>For a distribution with tests in <code>t</code> and modules in
+          <code>lib</code>, a starting configuration is:</p>
+        <pre><code class="language-yaml">test_task:
+  name: Tests
+  container:
+    image: perl:5.40
+  install_script: cpanm --installdeps --notest .
+  test_script: prove -l t</code></pre>
+        <p>Choose a Perl version your distribution supports and use your usual
+          build and test commands if it needs compilation or generated files.
+          Commit the file and confirm that the <code>Tests</code> task succeeds
+          on Cirrus CI. Then add both the service flag and the task names to your
+          dashboard settings:</p>
+        <pre><code class="language-json">{
+  "use_cirrus": 1,
+  "cirrus_task_names": ["Tests"]
+}</code></pre>
+        <p>Use the exact displayed task names, including capitalization. The
+          dashboard shows one badge per name; <code>use_cirrus</code> alone does
+          not produce a task badge. The form sets the flag, so add
+          <code>cirrus_task_names</code> manually. See the
+          <a href="https://github.com/cirruslabs/cirrus-ci-docs/blob/master/docs/guide/writing-tasks.md">task and badge documentation</a>
+          for more options.</p>
       </div>
     </div>
   </div>
@@ -186,8 +282,35 @@ metadata and adds your dashboard.</li>
 
     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-bs-parent="#accordion">
       <div class="card-body">
-        <p>We support <a href="https://appveyor.com/">AppVeyor</a>, but haven't written instructions
-          for it yet.</p>
+        <p><a href="https://www.appveyor.com/">AppVeyor</a> can test your Perl
+          distribution on Windows. Sign in with GitHub, create a project for
+          your repository, and add <code>appveyor.yml</code> at its root. This
+          example uses Strawberry Perl on the Visual Studio 2022 image:</p>
+        <pre><code class="language-yaml">image: Visual Studio 2022
+build: off
+install:
+  - set "PATH=C:\Strawberry\perl\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\c\bin;%PATH%"
+  - perl -V
+  - cpanm --installdeps --notest .
+test_script:
+  - prove -l t</code></pre>
+        <p>The PATH setting selects Strawberry Perl ahead of other installed
+          Perls. <code>build: off</code> skips AppVeyor's default build step;
+          <code>test_script</code> still runs. Adjust the commands if your
+          distribution needs a build step. See the
+          <a href="https://www.appveyor.com/docs/windows-images-software/">installed software list</a>
+          and <a href="https://www.appveyor.com/docs/appveyor-yml/">YAML reference</a>
+          for supported images and settings.</p>
+        <p>Commit the file and confirm a successful build on AppVeyor, then
+          add this setting manually to your registration; the form has no
+          AppVeyor checkbox:</p>
+        <pre><code class="language-json">{
+  "use_appveyor": 1
+}</code></pre>
+        <p>The dashboard labels this badge <code>Windows</code> and constructs
+          its project link from the GitHub repository's owner and name. It
+          currently has no setting for a different AppVeyor account or project
+          slug.</p>
       </div>
     </div>
   </div>
