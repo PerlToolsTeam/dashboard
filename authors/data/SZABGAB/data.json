@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:25Z",
+   "gathered_at" : "2026-10-11T09:02:31Z",
    "modules" : [
       {
          "auth" : "SZABGAB",
@@ -61,6 +61,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-PerlTidy-Tk",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -89,6 +90,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-Tk-Deparse",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -117,6 +119,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Array-Unique",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -145,6 +148,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "CAM-PDF-Annot",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -197,6 +201,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "CGI-Upload",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.14"
       },
@@ -225,6 +230,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "CPAN-Digger",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.04"
       },
@@ -253,6 +259,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "CPAN-Porters",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -281,6 +288,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "CPAN-Test-Dummy-SCO",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -309,6 +317,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "CPAN-Test-Dummy-SCO",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.04"
       },
@@ -337,6 +346,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "CPAN-Test-Dummy-SCO",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -365,6 +375,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Debug-Client",
          "repo_owner" : "PadreIDE",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.34"
       },
@@ -393,6 +404,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "FalkorDB-Perl",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -445,6 +457,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "File-Tools",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -473,6 +486,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl5-Games-Sudoku-CLI",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -501,6 +515,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl5-markua-parser",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : 0.01
       },
@@ -529,6 +544,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Math-RPN",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.11"
       },
@@ -557,6 +573,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "MetaCPAN-Clients",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.00"
       },
@@ -609,6 +626,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Padre",
          "repo_owner" : "PadreIDE",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.02"
       },
@@ -637,6 +655,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Parse-Functions",
          "repo_owner" : "PadreIDE",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -665,6 +684,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Pipe",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -693,6 +713,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Pipe-Tube-Csv",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -721,6 +742,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-DWIM",
          "repo_owner" : "dwimperl",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -749,6 +771,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-Test",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -777,6 +800,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Term-ReadPassword-Win32",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -805,6 +829,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Test-CircularDependencies",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -833,6 +858,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "test-class",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.52"
       },
@@ -861,6 +887,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Test-IsAny",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -889,6 +916,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "test-snapshots",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -917,6 +945,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Text-MediawikiFormat",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.04"
       },
@@ -942,8 +971,6 @@
          "insecure_repo" : true,
          "name" : "Text-SmartLinks-0.01",
          "repo" : "http://svn.pugscode.org/pugs/util/Text-SmartLinks",
-         "repo_name" : "util",
-         "repo_owner" : "pugs",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -972,6 +999,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-AdServer",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.01"
       },
@@ -1000,6 +1028,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Web-Feed",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.12"
       },
@@ -1028,6 +1057,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WebService-GData",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       }

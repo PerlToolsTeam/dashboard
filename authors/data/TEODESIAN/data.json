@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:34Z",
+   "gathered_at" : "2026-10-11T09:02:38Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -60,6 +60,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-Prove-Elasticsearch",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -88,6 +89,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Audit-Log-perl",
          "repo_owner" : "Troglodyne-Internet-Widgets",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.005"
       },
@@ -116,6 +118,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-configd",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.002"
       },
@@ -144,6 +147,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-Github-ReleaseFetcher",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.001"
       },
@@ -172,6 +176,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Linode-API",
          "repo_owner" : "Troglodyne-Internet-Widgets",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.002"
       },
@@ -200,6 +205,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Microsoft-Translator-Perl",
          "repo_owner" : "Troglodyne-Internet-Widgets",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -228,6 +234,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-Net-Openssh-More",
          "repo_owner" : "troglodyne-internet-widgets",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.05"
       },
@@ -256,6 +263,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-distribution",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -284,6 +292,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitchainingsamelistsub",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -312,6 +321,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitindirectbooleangrep",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -340,6 +350,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitmutatinglistfunctionsstricter",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -368,6 +379,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-requirecheckedindirectresults",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -396,6 +408,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitrepeatedprints",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -424,6 +437,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-critic-policy-preferredbinaries",
          "repo_owner" : "Troglodyne-Internet-Widgets",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.002"
       },
@@ -452,6 +466,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-critic-policy-prohibitunuseddefinitions",
          "repo_owner" : "Troglodyne-Internet-Widgets",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.005"
       },
@@ -480,6 +495,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-critic-policy-preventuselessmetacharacterescapes",
          "repo_owner" : "Troglodyne-Internet-Widgets",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000"
       },
@@ -508,6 +524,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitregexforstringequality",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -536,6 +553,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitregextochomp",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -564,6 +582,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitregextostripaffix",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -592,6 +611,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitsingleuselexicalsubs",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -620,6 +640,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibittailrecursion",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -648,6 +669,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitunderscoreprivatesubs",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -676,6 +698,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitdefinedbeforelength",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.002"
       },
@@ -704,6 +727,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitliteralarithmetic",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -732,6 +756,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibituselessvarclearing",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -760,6 +785,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "perl-tests-covering",
          "repo_owner" : "Troglodyne-Internet-Widgets",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.002"
       },
@@ -788,6 +814,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Pivot-ArrayOfHashes",
          "repo_owner" : "Troglodyne-Internet-Widgets",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.0002"
       },
@@ -816,6 +843,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "playwright-perl",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.621"
       },
@@ -844,6 +872,7 @@
          "repo_def_branch" : "",
          "repo_name" : "RPM-Verify",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000"
       },
@@ -872,6 +901,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "selenium-client-perl",
          "repo_owner" : "troglodyne-internet-widgets",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.01"
       },
@@ -900,6 +930,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Selenium-Remote-Driver",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.50"
       },
@@ -928,6 +959,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-solusvm-client",
          "repo_owner" : "Troglodyne-Internet-Widgets",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -956,6 +988,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "TestLink-Perl",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.011"
       },
@@ -984,6 +1017,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "TestRail-Perl",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.052"
       },
@@ -1012,6 +1046,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Trog-TOTP",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.007"
       },
@@ -1040,6 +1075,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "URI-Shorten",
          "repo_owner" : "Troglodyne-Internet-Widgets",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.006"
       },
@@ -1068,6 +1104,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-json-validator-schema-troglodyne",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000"
       },
@@ -1096,6 +1133,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitleadingzeros",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000"
       },
@@ -1124,6 +1162,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitnowarningsredefine",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000"
       },
@@ -1152,6 +1191,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitpipeopen",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000"
       },
@@ -1180,6 +1220,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitprintstderr",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000"
       },
@@ -1208,6 +1249,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitregexforsimplesubstring",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.001"
       },
@@ -1236,6 +1278,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitunusedimports",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.001"
       },
@@ -1264,6 +1307,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitusagesubs",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000"
       },
@@ -1292,6 +1336,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibituselib",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000"
       },
@@ -1320,6 +1365,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-requirefatalwarnings",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000"
       },
@@ -1348,6 +1394,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-requireqwforliterallists",
          "repo_owner" : "teodesian",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000"
       }

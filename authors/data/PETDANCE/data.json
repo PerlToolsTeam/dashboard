@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:18Z",
+   "gathered_at" : "2026-10-11T09:02:28Z",
    "modules" : [
       {
          "auth" : "PETDANCE",
@@ -202,8 +202,7 @@
          "insecure_repo" : true,
          "name" : "File-Next-1.18",
          "repo" : "http://github.com/petdance/file-next/tree/master",
-         "repo_name" : "file-next",
-         "repo_owner" : "petdance",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.18"
       },
@@ -232,6 +231,7 @@
          "repo_def_branch" : "dev",
          "repo_name" : "html-lint",
          "repo_owner" : "petdance",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.32"
       },
@@ -284,6 +284,7 @@
          "repo_def_branch" : "dev",
          "repo_name" : "html-tagset",
          "repo_owner" : "petdance",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "3.24"
       },
@@ -312,6 +313,7 @@
          "repo_def_branch" : "dev",
          "repo_name" : "html-tidy",
          "repo_owner" : "petdance",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.60"
       },
@@ -340,6 +342,7 @@
          "repo_def_branch" : "dev",
          "repo_name" : "html-tidy5",
          "repo_owner" : "petdance",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.06"
       },
@@ -368,6 +371,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "list-cycle",
          "repo_owner" : "petdance",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.04"
       },
@@ -420,6 +424,7 @@
          "repo_def_branch" : "dev",
          "repo_name" : "Perl-Critic",
          "repo_owner" : "Perl-Critic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.156"
       },
@@ -448,6 +453,7 @@
          "repo_def_branch" : "dev",
          "repo_name" : "perl-critic-bangs",
          "repo_owner" : "petdance",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.14"
       },
@@ -476,6 +482,7 @@
          "repo_def_branch" : "dev",
          "repo_name" : "Perl-Critic-StricterSubs",
          "repo_owner" : "Perl-Critic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -528,6 +535,7 @@
          "repo_def_branch" : "dev",
          "repo_name" : "sql-tiny",
          "repo_owner" : "petdance",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -700,6 +708,7 @@
          "repo_def_branch" : "dev",
          "repo_name" : "Test-Perl-Critic",
          "repo_owner" : "Perl-Critic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.04"
       },
@@ -728,6 +737,7 @@
          "repo_def_branch" : "dev",
          "repo_name" : "test-taint",
          "repo_owner" : "petdance",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.08"
       },
@@ -756,6 +766,7 @@
          "repo_def_branch" : "dev",
          "repo_name" : "test-www-mechanize",
          "repo_owner" : "petdance",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.60"
       },
@@ -904,6 +915,7 @@
          "repo_def_branch" : "dev",
          "repo_name" : "ack3",
          "repo_owner" : "beyondgrep",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v3.10.0"
       },

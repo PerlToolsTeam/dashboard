@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:39Z",
+   "gathered_at" : "2026-10-11T09:02:41Z",
    "modules" : [
       {
          "auth" : "VOEGELAS",
@@ -61,6 +61,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Alien-libmaxminddb",
          "repo_owner" : "voegelas",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.005"
       },
@@ -89,6 +90,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "CPANPLUS-Dist-Debora",
          "repo_owner" : "voegelas",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.018"
       },
@@ -117,6 +119,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Geo-Location-IP",
          "repo_owner" : "voegelas",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.005"
       },
@@ -145,6 +148,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Geo-Location-TimeZoneFinder",
          "repo_owner" : "voegelas",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.002"
       },
@@ -173,6 +177,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "IP-Geolocation-MMDB",
          "repo_owner" : "voegelas",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.013"
       },
@@ -201,6 +206,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mail-Exim-ACL-Attachments",
          "repo_owner" : "voegelas",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.006"
       },
@@ -229,6 +235,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mail-Exim-ACL-Geolocation",
          "repo_owner" : "voegelas",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.005"
       },
@@ -257,6 +264,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mojolicious-Plugin-Geolocation-MMDB",
          "repo_owner" : "voegelas",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000"
       },
@@ -285,6 +293,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Statocles-Plugin-Highlight-Kamelon",
          "repo_owner" : "voegelas",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000"
       }

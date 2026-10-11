@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:10Z",
+   "gathered_at" : "2026-10-11T09:02:19Z",
    "modules" : [
       {
          "auth" : "MANWAR",
@@ -61,6 +61,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Address-PostCode-Australia",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.12"
       },
@@ -89,6 +90,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Address-PostCode-India",
          "repo_owner" : "Manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.13"
       },
@@ -117,6 +119,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Address-PostCode-UK",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.18"
       },
@@ -145,6 +148,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Address-PostCode-UserAgent",
          "repo_owner" : "Manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -173,6 +177,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Alien-YARA",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v0.0.6"
       },
@@ -201,6 +206,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-Search-BackPAN",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -229,6 +235,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-Timer",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -257,6 +264,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-ValidateBankAccount",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -285,6 +293,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-calendr",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.26"
       },
@@ -313,6 +322,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-genstopwords",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v0.0.1"
       },
@@ -341,6 +351,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Astro-Utils",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -369,6 +380,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "BankAccount-Validator-UK",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.67"
       },
@@ -397,6 +409,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "CGI--Simple",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.282"
       },
@@ -425,6 +438,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "CPANTS-Kwalitee-Report",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.11"
       },
@@ -453,6 +467,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Bahai",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.56"
       },
@@ -481,6 +496,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Gregorian",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.25"
       },
@@ -509,6 +525,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Hebrew",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.15"
       },
@@ -537,6 +554,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Hijri",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.43"
       },
@@ -565,6 +583,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Julian",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.17"
       },
@@ -593,6 +612,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Persian",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.45"
       },
@@ -621,6 +641,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Plugin-Renderer",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.16"
       },
@@ -649,6 +670,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Calendar-Saka",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.44"
       },
@@ -677,6 +699,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Check-ISA",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -705,6 +728,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Compare-Directory",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.26"
       },
@@ -733,6 +757,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Crypt-Affine",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.15"
       },
@@ -761,6 +786,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Crypt-Hill",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.12"
       },
@@ -789,6 +815,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Crypt-Image",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v1.0.1"
       },
@@ -817,6 +844,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Crypt-Trifid",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.11"
       },
@@ -845,6 +873,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "DBIx-Class-Async",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v1.2.0"
       },
@@ -873,6 +902,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "DBIx-Class-MockData",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v1.0.0"
       },
@@ -901,6 +931,7 @@
          "repo_def_branch" : "",
          "repo_name" : "DBIx-Class-Schema-GraphQL",
          "repo_owner" : "yourname",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v0.0.3"
       },
@@ -929,6 +960,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Captcha",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.14"
       },
@@ -957,6 +989,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Chain",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.11"
       },
@@ -985,6 +1018,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-DBIC-Async",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -1013,6 +1047,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Map-Tube",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -1041,6 +1076,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Paginator",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.11"
       },
@@ -1069,6 +1105,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Res",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -1097,6 +1134,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Data-Money",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.21"
       },
@@ -1125,6 +1163,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Data-Money-Converter",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -1153,6 +1192,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Data-Money-Converter-WebserviceX",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -1181,6 +1221,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Data-Password-Filter",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.18"
       },
@@ -1209,6 +1250,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Data-Types",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.17"
       },
@@ -1237,6 +1279,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "data-verifier",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.66"
       },
@@ -1265,6 +1308,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Bahai-Simple",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.28"
       },
@@ -1293,6 +1337,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Exception",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -1321,6 +1366,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Gregorian-Simple",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.17"
       },
@@ -1349,6 +1395,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Hebrew-Simple",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.15"
       },
@@ -1377,6 +1424,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Hijri-Simple",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.25"
       },
@@ -1405,6 +1453,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Julian-Simple",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.17"
       },
@@ -1433,6 +1482,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Persian-Simple",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.25"
       },
@@ -1461,6 +1511,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Saka-Simple",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.26"
       },
@@ -1489,6 +1540,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Date-Utils",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.28"
       },
@@ -1517,6 +1569,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Devel-Timer",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.14"
       },
@@ -1545,6 +1598,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dist-Zilla-Plugin-PkgAuthority",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -1573,6 +1627,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dist-Zilla-Plugin-Test-Map-Tube",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.45"
       },
@@ -1601,6 +1656,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dist-Zilla-PluginBundle-MANWAR",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -1629,6 +1685,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "File-Same",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.11"
       },
@@ -1657,6 +1714,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Filesys-DiskUsage",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.13"
       },
@@ -1685,6 +1743,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Food-ECodes",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.18"
       },
@@ -1713,6 +1772,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Games-Cards-Pair",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.20"
       },
@@ -1741,6 +1801,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Games-Domino",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.32"
       },
@@ -1769,6 +1830,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Games-TicTacToe",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.26"
       },
@@ -1797,6 +1859,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "guardian-openplatform-api",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -1825,6 +1888,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "IP-CountryFlag",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.14"
       },
@@ -1853,6 +1917,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "IP-Info",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.18"
       },
@@ -1881,6 +1946,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "LWP-UserAgent-Anonymous",
          "repo_owner" : "Manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -1909,6 +1975,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Lingua-IND-Numbers",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.12"
       },
@@ -1937,6 +2004,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-API",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v1.0.0"
       },
@@ -1965,6 +2033,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-CLI",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v1.0.0"
       },
@@ -1993,6 +2062,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Delhi",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.99"
       },
@@ -2045,6 +2115,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Kolkatta",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.34"
       },
@@ -2073,6 +2144,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Leipzig",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v0.1.0"
       },
@@ -2101,6 +2173,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-London",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v2.0.2"
       },
@@ -2129,6 +2202,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Madrid",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.42"
       },
@@ -2157,6 +2231,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-NYC",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.71"
       },
@@ -2185,6 +2260,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Plugin-Formatter",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.17"
       },
@@ -2213,6 +2289,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Plugin-Graph",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v1.2.1"
       },
@@ -2241,6 +2318,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Server",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v1.0.0"
       },
@@ -2269,6 +2347,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Tokyo",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.63"
       },
@@ -2297,6 +2376,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v5.1.0"
       },
@@ -2325,6 +2405,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Method-ParamValidator",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.16"
       },
@@ -2353,6 +2434,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "MouseX-Params-Validate",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -2381,6 +2463,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "net-backpack",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.15"
       },
@@ -2409,6 +2492,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "OpenAPI-Linter",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.19"
       },
@@ -2437,6 +2521,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PAGI-FastAPI-Queue-Driver-Redis",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v0.0.1"
       },
@@ -2465,6 +2550,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PAGI-FastAPI-RateLimit-Driver-CHI",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v0.0.1"
       },
@@ -2493,6 +2579,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PAGI-FastAPI-RateLimit-Driver-Redis",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v0.1.0"
       },
@@ -2521,6 +2608,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PAGI-FastAPI-Security",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v0.0.6"
       },
@@ -2549,6 +2637,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PAGI-FastAPI",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v1.7.3"
       },
@@ -2577,6 +2666,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "pdf-create",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.46"
       },
@@ -2605,6 +2695,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Parse-ErrorString-Perl",
          "repo_owner" : "PadreIDE",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.27"
       },
@@ -2633,6 +2724,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Paws-DynamoDB-Response-Parser",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -2661,6 +2753,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Pod-Tree",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.31"
       },
@@ -2713,6 +2806,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Regexp-Common-time",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.16"
       },
@@ -2741,6 +2835,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "SVG",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.89"
       },
@@ -2769,6 +2864,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Syntax-Highlight-Engine-Kate",
          "repo_owner" : "szabgab",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.16"
       },
@@ -2797,6 +2893,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-Calendar",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.46"
       },
@@ -2825,6 +2922,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-Map-Tube-Bundle",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v1.0.7"
       },
@@ -2853,6 +2951,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Term-ProgressBar",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.23"
       },
@@ -2881,6 +2980,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Term-Screen-Lite",
          "repo_owner" : "Manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -2909,6 +3009,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Test-CSS",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -2937,6 +3038,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Test-Excel",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.54"
       },
@@ -2965,6 +3067,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Test-PostgreSQL-v2",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.04"
       },
@@ -2993,6 +3096,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Test-Spelling-Stopwords",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -3021,6 +3125,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Test-Strict",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.54"
       },
@@ -3049,6 +3154,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Test-XPath",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.20"
       },
@@ -3077,6 +3183,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Text-CSV-Pivot",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -3105,6 +3212,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Text-MostFreqKDistance",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -3133,6 +3241,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Text-Trac",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.24"
       },
@@ -3161,6 +3270,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Time-Warp",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.55"
       },
@@ -3189,6 +3299,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "URL-Check",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.11"
       },
@@ -3217,6 +3328,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-APIDiscovery",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.28"
       },
@@ -3245,6 +3357,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-CustomSearch",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.40"
       },
@@ -3273,6 +3386,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-DistanceMatrix",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.21"
       },
@@ -3301,6 +3415,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-KnowledgeGraphSearch",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -3329,6 +3444,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-PageSpeedOnline",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.29"
       },
@@ -3357,6 +3473,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-Places",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.37"
       },
@@ -3385,6 +3502,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Google-UserAgent",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.23"
       },
@@ -3413,6 +3531,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-SmartSheet",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -3441,6 +3560,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WebService-Wikimapia",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.14"
       },
@@ -3469,6 +3589,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "XML-SAX-Simple",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -3497,6 +3618,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "XML-XPath",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.49"
       },
@@ -3525,6 +3647,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "YaraFFI",
          "repo_owner" : "manwar",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       }

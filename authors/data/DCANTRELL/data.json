@@ -42,7 +42,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:06Z",
+   "gathered_at" : "2026-10-11T09:02:16Z",
    "modules" : [
       {
          "auth" : "DCANTRELL",
@@ -157,6 +157,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Algorithm-Diff-JSON",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000"
       },
@@ -189,6 +190,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-App-ptimeout",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v1.0.3"
       },
@@ -221,6 +223,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-CPAN-FindDependencies",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "4.01"
       },
@@ -253,6 +256,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-CPAN-ParseDistribution",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.54"
       },
@@ -285,6 +289,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-CPU-Emulator-Memory",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.1005"
       },
@@ -317,6 +322,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-CPU-Emulator-Z80",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.01"
       },
@@ -349,6 +355,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Class-CanBeA",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.4"
       },
@@ -409,6 +416,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Class-Mockable",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.3002"
       },
@@ -497,6 +505,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "DBM-Deep",
          "repo_owner" : "DBM-Deep",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.0019"
       },
@@ -529,6 +538,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Data-CompactReadonly",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v0.1.1"
       },
@@ -561,6 +571,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Data-Compare",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : 1.29
       },
@@ -621,6 +632,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Data-Transactional",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.04"
       },
@@ -653,6 +665,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Devel-Caller-IgnoreNamespaces",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.1"
       },
@@ -685,6 +698,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Devel-CheckOS",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.04"
       },
@@ -717,6 +731,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Devel-Deprecations",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.101"
       },
@@ -749,6 +764,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Devel-Hide",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.0016"
       },
@@ -781,6 +797,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-File-Find-Rule-Permissions",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.04"
       },
@@ -841,6 +858,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Games-Dice-Advanced",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.2"
       },
@@ -873,6 +891,7 @@
          "repo_def_branch" : "",
          "repo_name" : "perl-modules-Games-SGF-Go-Rotator",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.21"
       },
@@ -905,6 +924,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-IP-World",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.42"
       },
@@ -937,6 +957,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-MooseX-Types-StrictScalarTypes",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v1.0.0"
       },
@@ -997,6 +1018,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Number-Phone",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "4.0012"
       },
@@ -1029,6 +1051,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Number-Phone-UK-DetailedLocations",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.5"
       },
@@ -1089,6 +1112,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Palm-SMS",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -1121,6 +1145,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Palm-Treo680MessagesDB",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.02"
       },
@@ -1153,6 +1178,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Palm-TreoPhoneCallDB",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.2"
       },
@@ -1185,6 +1211,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Params-Validate-Dependencies",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.00"
       },
@@ -1217,6 +1244,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Params-Validate-Dependencies-all_or_none_of",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.02"
       },
@@ -1249,6 +1277,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Scalar-Type",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v1.0.1"
       },
@@ -1281,6 +1310,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Sort-MultipleFields",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.01"
       },
@@ -1313,6 +1343,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Statistics-ChiSquare",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.0000"
       },
@@ -1373,6 +1404,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-String-Binary-Interpolation",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v1.0.1"
       },
@@ -1405,6 +1437,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Sub-Attribute",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -1437,6 +1470,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Sub-WrapPackages",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.02"
       },
@@ -1469,6 +1503,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Task-BeLike-DCANTRELL",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1"
       },
@@ -1501,6 +1536,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Test-Differences",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.73"
       },
@@ -1533,6 +1569,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Test-Mojo-Role-HTTPstatus",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v1.0.0"
       },
@@ -1565,6 +1602,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "test--most",
          "repo_owner" : "Ovid",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.42"
       },
@@ -1653,6 +1691,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Tie-Hash-Vivify",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.04"
       },
@@ -1685,6 +1724,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Tie-STDOUT",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.0500"
       },
@@ -1745,6 +1785,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Unix-Sudo",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "65535"
       },
@@ -1805,6 +1846,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-XML-DoubleEncodedEntities",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.1"
       },
@@ -1837,6 +1879,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-XML-Tiny",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.07"
       },
@@ -1897,6 +1940,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-lib-relative-to",
          "repo_owner" : "DrHyde",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.1000"
       }

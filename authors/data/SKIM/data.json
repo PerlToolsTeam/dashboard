@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:20Z",
+   "gathered_at" : "2026-10-11T09:02:30Z",
    "modules" : [
       {
          "auth" : "SKIM",
@@ -61,6 +61,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Acme-CPANAuthors-Czech",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.32"
       },
@@ -89,6 +90,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Acme-CPANAuthors-Slovak",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.28"
       },
@@ -117,6 +119,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Acme-People-Happy",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -145,6 +148,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Alien-DjVuLibre",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -173,6 +177,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Alien-bc-GNU",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -201,6 +206,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Alien-cmake4",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -229,6 +235,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Alien-ed-GNU",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -257,6 +264,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Alien-libpopt",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -285,6 +293,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Alien-librpm",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -313,6 +322,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Alt-Digest-MD5-OpenSSL",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : 0.06
       },
@@ -341,6 +351,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Angle2Zodiac",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -369,6 +380,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Bin-Search",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -397,6 +409,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-CPAN-Get",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.14"
       },
@@ -425,6 +438,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-CPAN-Search",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.11"
       },
@@ -453,6 +467,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-DWG-Sort",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -481,6 +496,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-HL7-Dump",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -509,6 +525,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-HL7-Send",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -537,6 +554,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-ISBN-Check",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -565,6 +583,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-ISBN-Format",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -593,6 +612,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-Image-Generator",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -621,6 +641,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Images-To-DjVu",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -649,6 +670,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Kramerius-To-Images",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -677,6 +699,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Kramerius-URI",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -705,6 +728,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Kramerius-V4",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -733,6 +757,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Lorem-Tickit",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -761,6 +786,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-MARC-Count",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -789,6 +815,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-MARC-Field008",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -817,6 +844,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-MARC-Filter",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.13"
       },
@@ -845,6 +873,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-MARC-Leader",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.11"
       },
@@ -873,6 +902,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-MARC-List",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -901,6 +931,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-MARC-Record-Stats",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -929,6 +960,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-MARC-Validator",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -957,6 +989,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-MARC-Validator-Report",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -985,6 +1018,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-NKC2ISBD",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -1013,6 +1047,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-NKC2MARC",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -1041,6 +1076,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-PYX-Optimization",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -1069,6 +1105,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-PYX2XML",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -1097,6 +1134,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Perl-Module-CopyrightYears",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -1125,6 +1163,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Perl-Module-Examples",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -1153,6 +1192,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-Pod-Example",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.22"
       },
@@ -1181,6 +1221,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-RPM-Spec-License",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -1209,6 +1250,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Run-Command-ToFail",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -1237,6 +1279,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Schema-Data",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -1265,6 +1308,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Schema-Deploy",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -1293,6 +1337,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Stow-Check",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -1321,6 +1366,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Test-DWG-LibreDWG-DwgRead",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -1349,6 +1395,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Test-DWG-LibreDWG-JSON",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -1377,6 +1424,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Tickit-Hello",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -1405,6 +1453,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Toolforge-MixNMatch",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -1433,6 +1482,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-Translit-String",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -1461,6 +1511,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-Unicode-Block",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.04"
       },
@@ -1489,6 +1540,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "App-Video-Generator",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -1517,6 +1569,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Wikidata-Print",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -1545,6 +1598,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "App-Wikidata-Template-CS-CitaceMonografie",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -1573,6 +1627,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Business-UDC",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -1601,6 +1656,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "CAD-AutoCAD-Detect",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -1629,6 +1685,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "CAD-AutoCAD-Version",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -1657,6 +1714,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "CAD-Format-DWG-Version",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -1685,6 +1743,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "CEFACT-Unit",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -1713,6 +1772,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Pure",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -1741,6 +1801,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Pure-Fast",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -1769,6 +1830,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "CPAN-Changes-Utils",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -1797,6 +1859,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "CSS-Struct",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -1825,6 +1888,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "CSS-Struct-Output-Indent",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -1853,6 +1917,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "CSS-Struct-Output-Structure",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -1881,6 +1946,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Check-Fork",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -1909,6 +1975,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Check-Socket",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -1937,6 +2004,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Check-Term",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -1965,6 +2033,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Check-Term-Color",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -1993,6 +2062,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Class-Params",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -2021,6 +2091,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Class-Utils",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.15"
       },
@@ -2049,6 +2120,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Commons-Link",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -2077,6 +2149,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Config-Dot",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -2105,6 +2178,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Config-Dot-Array",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -2133,6 +2207,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Config-Utils",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -2161,6 +2236,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Curses-UI-Char",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -2189,6 +2265,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Curses-UI-Number",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.07"
       },
@@ -2217,6 +2294,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Curses-UI-Time",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.06"
       },
@@ -2245,6 +2323,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Curses-UI-Volume",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -2273,6 +2352,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-CEFACT-Unit",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -2301,6 +2381,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-Commons-Image",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -2329,6 +2410,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-ExternalId",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -2357,6 +2439,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-FSM",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -2385,6 +2468,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-HTML-Element",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.17"
       },
@@ -2413,6 +2497,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-HTML-Footer",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -2441,6 +2526,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-HashType",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -2469,6 +2555,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-Icon",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -2497,6 +2584,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-Image",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -2525,6 +2613,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-InfoBox",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -2553,6 +2642,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-Kramerius",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -2581,6 +2671,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-Login",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -2609,6 +2700,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-MARC-Field008",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -2637,6 +2729,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-MARC-Leader",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -2665,6 +2758,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-MARC-Validator-Report",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -2693,6 +2787,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-Message-Board",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -2721,6 +2816,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-Message-Simple",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -2749,6 +2845,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-Metadata",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -2777,6 +2874,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-Navigation-Item",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -2805,6 +2903,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-OFN-Address",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -2833,6 +2932,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-OFN-Common",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -2861,6 +2961,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-OFN-Thing",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -2889,6 +2990,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-Person",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -2917,6 +3019,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-Random-HashType",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -2945,6 +3048,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Data-Random-Person",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -2973,6 +3077,7 @@
          "repo_def_branch" : "",
          "repo_name" : "Data-Text-Simple",
          "repo_owner" : "commons-vote",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -3001,6 +3106,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Date-ICal",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.682"
       },
@@ -3029,6 +3135,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "DateTime-Format-PDF",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -3057,6 +3164,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dicom-DCMTK-DCMDump-Get",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -3085,6 +3193,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dicom-DCMTK-DCMQRSCP-Config",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -3113,6 +3222,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dicom-File-Detect",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -3141,6 +3251,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dicom-UID-Generator",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -3169,6 +3280,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "DjVu-Detect",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -3197,6 +3309,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Env-Browser",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.06"
       },
@@ -3225,6 +3338,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Error-Pure",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.34"
       },
@@ -3253,6 +3367,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Error-Pure-ANSIColor",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.29"
       },
@@ -3281,6 +3396,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Error-Pure-Always",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.07"
       },
@@ -3309,6 +3425,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Error-Pure-HTTP",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.16"
       },
@@ -3337,6 +3454,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Error-Pure-HTTP-JSON",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -3365,6 +3483,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Error-Pure-JSON",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -3393,6 +3512,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Error-Pure-NoDie",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.05"
       },
@@ -3421,6 +3541,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Error-Pure-Output-ANSIColor",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -3449,6 +3570,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Error-Pure-Output-Bio",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -3477,6 +3599,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Error-Pure-Output-JSON",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.11"
       },
@@ -3505,6 +3628,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Error-Pure-Output-Tags-HTMLCustomPage",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -3533,6 +3657,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Error-Pure-Output-Text",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.24"
       },
@@ -3561,6 +3686,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Fedora-RPM-Spec-License",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -3589,6 +3715,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "File-Find-Rule-BOM",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -3617,6 +3744,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "File-Find-Rule-DMIDecode",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -3645,6 +3773,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "File-Find-Rule-DWG",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -3673,6 +3802,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "File-Find-Rule-Dicom",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.05"
       },
@@ -3701,6 +3831,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "File-Find-Rule-DjVu",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -3729,6 +3860,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "File-Object",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.18"
       },
@@ -3757,6 +3889,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Finance-Random-Price",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -3785,6 +3918,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Graph-Reader-OID",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -3813,6 +3947,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Graph-Reader-TGF",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -3841,6 +3976,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Graph-Reader-TGF-CSV",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -3869,6 +4005,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Graph-Reader-UnicodeTree",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -3897,6 +4034,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "IO-Barf",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.12"
       },
@@ -3925,6 +4063,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Image-Checkerboard",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.05"
       },
@@ -3953,6 +4092,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Image-Random",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -3981,6 +4121,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Image-Select",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.05"
       },
@@ -4009,6 +4150,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Indent",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.11"
       },
@@ -4037,6 +4179,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Indent-Form",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -4065,6 +4208,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Java-Release",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -4093,6 +4237,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "LWP-Authen-OAuth2-ServiceProvider-MediaWiki",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -4121,6 +4266,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "LWP-Authen-OAuth2-ServiceProvider-Wikimedia",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -4149,6 +4295,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Lego-Part",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -4177,6 +4324,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Lego-Part-Image",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -4205,6 +4353,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "License-SPDX",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -4233,6 +4382,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Log-FreeSWITCH-Line",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -4261,6 +4411,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Convert-Wikidata",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.34"
       },
@@ -4289,6 +4440,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Convert-Wikidata-Object",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.16"
       },
@@ -4317,6 +4469,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Field008",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -4345,6 +4498,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Field008-L10N",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -4373,6 +4527,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Field008-Print",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -4401,6 +4556,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Leader",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -4429,6 +4585,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Leader-L10N",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -4457,6 +4614,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Leader-Print",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -4485,6 +4643,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Leader-Utils",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -4513,6 +4672,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Validator",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.22"
       },
@@ -4541,6 +4701,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Validator-Filter",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -4569,6 +4730,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "METS-Files",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -4597,6 +4759,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "METS-Parse-Simple",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.01"
       },
@@ -4625,6 +4788,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Bucharest",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.12"
       },
@@ -4653,6 +4817,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Budapest",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -4681,6 +4846,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Dnipropetrovsk",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -4709,6 +4875,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Graph",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -4737,6 +4904,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-GraphViz",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.07"
       },
@@ -4765,6 +4933,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Kazan",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -4793,6 +4962,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Kharkiv",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -4821,6 +4991,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Kiev",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -4849,6 +5020,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-KualaLumpur",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -4877,6 +5049,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Malaga",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.18"
       },
@@ -4905,6 +5078,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Minsk",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -4933,6 +5107,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Moscow",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -4961,6 +5136,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Nanjing",
          "repo_owner" : "tupinek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.05"
       },
@@ -4989,6 +5165,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-NizhnyNovgorod",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -5017,6 +5194,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Novosibirsk",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -5045,6 +5223,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Prague",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.16"
       },
@@ -5073,6 +5252,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-SaintPetersburg",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -5101,6 +5281,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Samara",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -5129,6 +5310,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Singapore",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.05"
       },
@@ -5157,6 +5339,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Sofia",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -5185,6 +5368,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Tbilisi",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.05"
       },
@@ -5213,6 +5397,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Text-Shortest",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -5241,6 +5426,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Text-Table",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.05"
       },
@@ -5269,6 +5455,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Vienna",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.09"
       },
@@ -5297,6 +5484,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Warsaw",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -5325,6 +5513,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Yekaterinburg",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -5353,6 +5542,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Memory-Process",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.06"
       },
@@ -5405,6 +5595,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.32"
       },
@@ -5433,6 +5624,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Array",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -5461,6 +5653,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Binary",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -5489,6 +5682,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-CEFACT",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -5517,6 +5711,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-CSS",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.13"
       },
@@ -5545,6 +5740,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Country",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -5573,6 +5769,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Currency",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -5601,6 +5798,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Date",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -5629,6 +5827,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-EAN",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -5657,6 +5856,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Email",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -5685,6 +5885,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Hash",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -5713,6 +5914,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-IRI",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -5741,6 +5943,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Language",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -5769,6 +5972,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Number",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -5797,6 +6001,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Perl",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -5825,6 +6030,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Text",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -5853,6 +6059,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Time",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -5881,6 +6088,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-TimeZone",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -5909,6 +6117,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-UDC",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -5937,6 +6146,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-URI",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -5965,6 +6175,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-Unicode",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -5993,6 +6204,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Mo-utils-common",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -6021,6 +6233,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Mock-Person-CZ",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -6049,6 +6262,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Mock-Person-DE",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -6077,6 +6291,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Mock-Person-EN",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -6105,6 +6320,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Mock-Person-SK",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.05"
       },
@@ -6133,6 +6349,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Mock-Person-SK-ROM",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -6161,6 +6378,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "NKC-Transform-BIBFRAME2MARC",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -6189,6 +6407,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "NKC-Transform-MARC2BIBFRAME",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -6217,6 +6436,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "NKC-Transform-MARC2RDA",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -6245,6 +6465,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Number-Stars",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -6273,6 +6494,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PYX",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -6301,6 +6523,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PYX-GraphViz",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -6329,6 +6552,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PYX-Hist",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -6357,6 +6581,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PYX-Optimization",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -6385,6 +6610,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PYX-SGML-Raw",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -6413,6 +6639,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PYX-SGML-Tags",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -6441,6 +6668,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PYX-Sort",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -6469,6 +6697,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PYX-Stack",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -6497,6 +6726,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PYX-Utils",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -6525,6 +6755,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PYX-XMLNorm",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -6553,6 +6784,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "PYX-XMLSchema-List",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -6581,6 +6813,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Person-ID-CZ-RC",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -6609,6 +6842,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Person-ID-CZ-RC-Generator",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -6637,6 +6871,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-CPAN-Changes",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -6665,6 +6900,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-ChangePassword",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -6693,6 +6929,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-Data-Printer",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -6721,6 +6958,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Plack-App-Directory-PYX",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.05"
       },
@@ -6749,6 +6987,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Plack-App-Env",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -6777,6 +7016,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Plack-App-File-PYX",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.01"
       },
@@ -6805,6 +7045,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Plack-App-Login",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -6833,6 +7074,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-Login-Password",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -6861,6 +7103,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-Login-Request",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -6889,6 +7132,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-Redirect",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -6917,6 +7161,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-Register",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -6945,6 +7190,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-Restricted",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -6973,6 +7219,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-Search",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -7001,6 +7248,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Plack-App-Tags-HTML",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.19"
       },
@@ -7029,6 +7277,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Plack-Component-Tags-HTML",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.18"
       },
@@ -7057,6 +7306,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Plack-Middleware-Auth-OAuth2",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -7085,6 +7335,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Pod-CopyrightYears",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -7113,6 +7364,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Pod-Example",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.17"
       },
@@ -7141,6 +7393,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Random-AcademicTitle-CZ",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -7169,6 +7422,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Random-Day",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.17"
       },
@@ -7197,6 +7451,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Random-Set",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.09"
       },
@@ -7225,6 +7480,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "SGML-PYX",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -7253,6 +7509,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "snmp-session",
          "repo_owner" : "sleinen",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.16"
       },
@@ -7281,6 +7538,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Schema-Abstract",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -7309,6 +7567,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Schema-Data",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -7337,6 +7596,7 @@
          "repo_def_branch" : "",
          "repo_name" : "Schema-Test",
          "repo_owner" : "commons-vote",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -7365,6 +7625,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "String-UpdateYears",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -7393,6 +7654,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "SysV-Init-Service",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -7421,6 +7683,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Tag-Reader-Perl",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -7449,6 +7712,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Tags",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.16"
       },
@@ -7477,6 +7741,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Tags-Element",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -7505,6 +7770,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -7533,6 +7799,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-CPAN-Changes",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -7561,6 +7828,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-ChangePassword",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -7589,6 +7857,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Container",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -7617,6 +7886,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-DefinitionList",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -7645,6 +7915,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Element",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.15"
       },
@@ -7673,6 +7944,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Footer",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -7701,6 +7973,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-GradientIndicator",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -7729,6 +8002,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Icon",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -7757,6 +8031,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Image",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -7785,6 +8060,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Image-Grid",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -7813,6 +8089,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-InfoBox",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -7841,6 +8118,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Login-Access",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.14"
       },
@@ -7869,6 +8147,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Login-Button",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -7897,6 +8176,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Login-Register",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -7925,6 +8205,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Login-Request",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -7953,6 +8234,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Message-Board",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -7981,6 +8263,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Tags-HTML-Messages",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -8009,6 +8292,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Navigation-Grid",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -8037,6 +8321,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Tags-HTML-Page-Begin",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.17"
       },
@@ -8065,6 +8350,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Tags-HTML-Page-End",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -8093,6 +8379,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Pager",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -8121,6 +8408,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Tags-HTML-SendMessage",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -8149,6 +8437,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Tags-HTML-Stars",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -8177,6 +8466,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Table-View",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -8205,6 +8495,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Tree",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -8233,6 +8524,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Tags-Output-Indent",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.14"
       },
@@ -8261,6 +8553,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Tags-Output-LibXML",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.04"
       },
@@ -8289,6 +8582,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Tags-Output-PYX",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.05"
       },
@@ -8317,6 +8611,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Tags-Output-Structure",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -8345,6 +8640,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-Curses-UI",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -8373,6 +8669,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-Dicom",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -8401,6 +8698,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-Error-Pure",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -8429,6 +8727,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-Graph-Reader",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -8457,6 +8756,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-Graph-Writer",
          "repo_owner" : "tupinek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.02"
       },
@@ -8485,6 +8785,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-HL7",
          "repo_owner" : "tupinek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.02"
       },
@@ -8513,6 +8814,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Task-Kramerius",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -8541,6 +8843,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-Lego",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -8569,6 +8872,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-Map-Tube",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.49"
       },
@@ -8597,6 +8901,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-Map-Tube-Metro",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.13"
       },
@@ -8625,6 +8930,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-Mock-Person",
          "repo_owner" : "tupinek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.03"
       },
@@ -8653,6 +8959,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-PYX",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.10"
       },
@@ -8681,6 +8988,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-Tags",
          "repo_owner" : "tupinek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.06"
       },
@@ -8709,6 +9017,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-Tickit-Widget",
          "repo_owner" : "tupinek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.05"
       },
@@ -8737,6 +9046,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Task-WWW-Search-Antiquarian-Czech",
          "repo_owner" : "tupinek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.01"
       },
@@ -8765,6 +9075,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Test-JSON-Type",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -8793,6 +9104,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Text-DSV",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.11"
       },
@@ -8821,6 +9133,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Tie-Hash-Check",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.09"
       },
@@ -8849,6 +9162,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Toolforge-MixNMatch-Diff",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -8877,6 +9191,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Toolforge-MixNMatch-Object",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -8905,6 +9220,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Toolforge-MixNMatch-Print",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -8933,6 +9249,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Toolforge-MixNMatch-Struct",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -8961,6 +9278,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Unicode-Block",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -8989,6 +9307,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Unicode-Block-Ascii",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -9017,6 +9336,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Unicode-Block-List",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -9045,6 +9365,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Video-Delay",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.07"
       },
@@ -9073,6 +9394,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Video-Generator",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.10"
       },
@@ -9101,6 +9423,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Video-Pattern",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.09"
       },
@@ -9129,6 +9452,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "WQS-SPARQL",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -9157,6 +9481,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "WQS-SPARQL-Query",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -9185,6 +9510,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "WQS-SPARQL-Result",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -9213,6 +9539,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Search-Antikvariat11CZ",
          "repo_owner" : "tupinek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.01"
       },
@@ -9241,6 +9568,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Search-AntikvariatJudaicaCZ",
          "repo_owner" : "tupinek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.02"
       },
@@ -9269,6 +9597,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Search-GalerieIlonkaCZ",
          "repo_owner" : "tupinek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.01"
       },
@@ -9297,6 +9626,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Search-KacurCZ",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -9325,6 +9655,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Search-MelcerCZ",
          "repo_owner" : "tupinek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.01"
       },
@@ -9353,6 +9684,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WWW-Search-ValentinskaCZ",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -9381,6 +9713,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-WWW-Splunk",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.09"
       },
@@ -9409,6 +9742,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WebService-Ares",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.03"
       },
@@ -9437,6 +9771,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WebService-Kramerius-API4",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -9465,6 +9800,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "WebService-MorphIO",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.04"
       },
@@ -9493,6 +9829,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Wikibase-API",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -9521,6 +9858,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Wikibase-Cache",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -9549,6 +9887,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Wikibase-Cache-Backend",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -9577,6 +9916,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Wikibase-Cache-Backend-Basic",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -9605,6 +9945,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Wikibase-Datatype",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.40"
       },
@@ -9633,6 +9974,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Wikibase-Datatype-Print",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.21"
       },
@@ -9661,6 +10003,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Wikibase-Datatype-Query",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -9689,6 +10032,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Wikibase-Datatype-Struct",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.15"
       },
@@ -9717,6 +10061,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Wikidata-Reconcilation",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -9745,6 +10090,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Zodiac-Angle",
          "repo_owner" : "michal-josef-spacek",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       }

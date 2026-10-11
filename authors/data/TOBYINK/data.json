@@ -38,7 +38,7 @@
          "use_gh_actions" : 0
       }
    },
-   "gathered_at" : "2026-10-11T05:39:38Z",
+   "gathered_at" : "2026-10-11T09:02:40Z",
    "modules" : [
       {
          "auth" : "TOBYINK",
@@ -64,6 +64,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-acme-cpanauthors-australian",
          "repo_name" : "p5-acme-cpanauthors-australian",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -92,6 +93,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-conspiracytheory-random",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.015"
       },
@@ -120,6 +122,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-constructor-pythonic",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -148,6 +151,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-futuristic-perl",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -176,6 +180,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-has-tiny",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -204,6 +209,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-lexical-thief",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -232,6 +238,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-loopy",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -260,6 +267,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-marvel-cinematicuniverse-characters",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -288,6 +296,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-mite",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.017"
       },
@@ -315,6 +324,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-acme-ppix-metasyntactic",
          "repo_name" : "p5-acme-ppix-metasyntactic",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -343,6 +353,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-perl-consensual",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -371,6 +382,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-pony-pink",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -399,6 +411,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-rundoc",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -427,6 +440,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-universal-can-t",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -455,6 +469,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-usestrict",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "1.235"
       },
@@ -483,6 +498,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-acme-what",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -511,6 +527,7 @@
          "repo_def_branch" : "",
          "repo_name" : "p5-acme-zydecotesting-app1",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -539,6 +556,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-alien-libxml",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -639,6 +657,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-alt-common-sense-tobyink",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -667,6 +686,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-app-chit",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001001"
       },
@@ -695,6 +715,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-app-filite-client",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001001"
       },
@@ -723,6 +744,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-app-ghaprove",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.008"
       },
@@ -750,6 +772,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-app-cpantimes",
          "repo_name" : "p5-app-cpantimes",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "1.502101"
       },
@@ -778,6 +801,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-app-perlrdf",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -806,6 +830,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-app-perlrdf-command-query",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -834,6 +859,7 @@
          "repo_def_branch" : "",
          "repo_name" : "p5-arrays-same",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -862,6 +888,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-ask",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.015"
       },
@@ -890,6 +917,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-attribute-benchmark",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -918,6 +946,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-attribute-queuestack",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -946,6 +975,7 @@
          "repo_def_branch" : "",
          "repo_name" : "p5-b-hooks-atruntime-onlycoredependencies",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "8.000001"
       },
@@ -974,6 +1004,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-benchmark-featureset-paramcheck",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.007"
       },
@@ -1002,6 +1033,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-benchmark-report-github",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -1030,6 +1062,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-cache-moustache",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -1058,6 +1091,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-capture-attribute",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -1086,6 +1120,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-catalystx-traitfor-dispatcher-exactmatch",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -1114,6 +1149,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-class-method-modifiersx-augment",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -1142,6 +1178,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-class-method-modifiersx-override",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -1170,6 +1207,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-class-tiny-antlers",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.024"
       },
@@ -1198,6 +1236,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-class-xsconstructor",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.023006"
       },
@@ -1226,6 +1265,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-crypt-polybius",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -1254,6 +1294,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-crypt-xkcdpassword",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.009"
       },
@@ -1282,6 +1323,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-data-dumper-gui",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -1310,6 +1352,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-data-optlist-object",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001003"
       },
@@ -1338,6 +1381,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Data-Perl",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.002011"
       },
@@ -1366,6 +1410,7 @@
          "repo_def_branch" : "",
          "repo_name" : "p5-data-smile",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001000"
       },
@@ -1394,6 +1439,7 @@
          "repo_def_branch" : "",
          "repo_name" : "p5-data-smile",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001000"
       },
@@ -1422,6 +1468,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-data-validate-csv",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -1450,6 +1497,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-data-zpath",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001000"
       },
@@ -1478,6 +1526,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-datetimex-auto",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.009"
       },
@@ -1506,6 +1555,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-datetimex-format-ago",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -1534,6 +1584,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-devel-cover-report-codecov-service-githubactions",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001001"
       },
@@ -1562,6 +1613,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-devel-pl_origargv",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -1590,6 +1642,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-devel-strictmode",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -1618,6 +1671,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-die-hard",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -1646,6 +1700,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-inkt",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.026"
       },
@@ -1674,6 +1729,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-inkt-profile-tobyink",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.024"
       },
@@ -1702,6 +1758,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-inkt-role-hg",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -1730,6 +1787,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-inkt-role-release",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -1758,6 +1816,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-inkt-role-test",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -1786,6 +1845,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-inkt-role-test-kwalitee",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -1814,6 +1874,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-inktly-minty",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.005"
       },
@@ -1842,6 +1903,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-dist-zilla-plugin-doap",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -1870,6 +1932,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-exporter-almighty",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001005"
       },
@@ -1898,6 +1961,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-exporter-lexicalvars",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -1926,6 +1990,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-exporter-tiny",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.006003"
       },
@@ -1954,6 +2019,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-finance-bitcoin",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.902"
       },
@@ -1982,6 +2048,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-fixed",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -2010,6 +2077,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-freemind-document",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -2038,6 +2106,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-global-rainbow-map",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -2065,6 +2134,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-html-data-parser",
          "repo_name" : "p5-html-data-parser",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -2093,6 +2163,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-html-embedded-turtle",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.404"
       },
@@ -2145,6 +2216,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-html-html5-dom",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -2173,6 +2245,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-html-html5-entities",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -2198,8 +2271,6 @@
          "insecure_repo" : true,
          "name" : "HTML-HTML5-Microdata-Parser-0.100",
          "repo" : "http://goddamn.co.uk/svn-web/perlmods/browse/HTML-HTML5-Microdata-Parser",
-         "repo_name" : "perlmods",
-         "repo_owner" : "svn-web",
          "uses_rt" : true,
          "ver" : "0.100"
       },
@@ -2225,8 +2296,6 @@
          "insecure_repo" : true,
          "name" : "HTML-HTML5-Microdata-ToRDFa-0.100",
          "repo" : "http://goddamn.co.uk/svn-web/perlmods/browse/HTML-HTML5-Microdata-ToRDFa",
-         "repo_name" : "perlmods",
-         "repo_owner" : "svn-web",
          "uses_rt" : true,
          "ver" : "0.100"
       },
@@ -2252,8 +2321,6 @@
          "insecure_repo" : true,
          "name" : "HTML-HTML5-Outline-0.006",
          "repo" : "http://goddamn.co.uk/svn-web/perlmods/browse/HTML-HTML5-Outline",
-         "repo_name" : "perlmods",
-         "repo_owner" : "svn-web",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -2282,6 +2349,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-html-html5-parser",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.992"
       },
@@ -2310,6 +2378,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-html-html5-sanity",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.105"
       },
@@ -2338,6 +2407,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-html-html5-totext",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -2365,6 +2435,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-html-html5-writer",
          "repo_name" : "p5-html-html5-writer",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.201"
       },
@@ -2393,6 +2464,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-html-inject",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -2420,6 +2492,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-html-microformats",
          "repo_name" : "p5-html-microformats",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.105"
       },
@@ -2445,8 +2518,6 @@
          "insecure_repo" : false,
          "name" : "HTML-Zoom-Parser-HH5P-0.002",
          "repo" : "https://metacpan.org/release/HTML-Zoom-Parser-HH5P",
-         "repo_name" : "HTML-Zoom-Parser-HH5P",
-         "repo_owner" : "release",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -2474,6 +2545,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-http-lrdd",
          "repo_name" : "p5-http-lrdd",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.106"
       },
@@ -2502,6 +2574,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-http-link-parser",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.200"
       },
@@ -2530,6 +2603,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-hash-defaultvalue",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.007"
       },
@@ -2558,6 +2632,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-hydrogen",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.021002"
       },
@@ -2631,8 +2706,6 @@
          "insecure_repo" : true,
          "name" : "Icon-FamFamFam-Silk-0.002001003",
          "repo" : "http://goddamn.co.uk/svn-web/perlmods/browse/Icon-FamFamFam-Silk",
-         "repo_name" : "perlmods",
-         "repo_owner" : "svn-web",
          "uses_rt" : true,
          "ver" : "0.002001003"
       },
@@ -2661,6 +2734,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-json-eval",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -2686,8 +2760,7 @@
          "insecure_repo" : true,
          "name" : "JSON-GRDDL-0.002",
          "repo" : "http://goddamn.co.uk/svn-web/perlmods/browse/JSON-GRDDL",
-         "repo_name" : "perlmods",
-         "repo_owner" : "svn-web",
+         "repo_type" : "Subversion",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -2715,6 +2788,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-json-hyper",
          "repo_name" : "p5-json-hyper",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.011"
       },
@@ -2743,6 +2817,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-json-multivalueordered",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -2768,8 +2843,7 @@
          "insecure_repo" : true,
          "name" : "JSON-Schema-0.016",
          "repo" : "http://goddamn.co.uk/svn-web/perlmods/browse/JSON-Schema",
-         "repo_name" : "perlmods",
-         "repo_owner" : "svn-web",
+         "repo_type" : "Subversion",
          "uses_rt" : true,
          "ver" : "0.016"
       },
@@ -2798,6 +2872,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-json-t",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.104"
       },
@@ -2826,6 +2901,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-javascript-any",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -2854,6 +2930,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-kavorka",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.039"
       },
@@ -2882,6 +2959,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-linq",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.003"
       },
@@ -2910,6 +2988,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-linq-database",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -2938,6 +3017,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-lv",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -2966,6 +3046,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-lexical-accessor",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.001002"
       },
@@ -2994,6 +3075,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-lexical-typetiny",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -3022,6 +3104,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-lingua-boolean-tiny",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.008"
       },
@@ -3050,6 +3133,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-lingua-poetry-haiku-finder",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.002"
       },
@@ -3078,6 +3162,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-list-assignref",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -3106,6 +3191,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-list-mapmulti",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -3134,6 +3220,7 @@
          "repo_def_branch" : "",
          "repo_name" : "p5-loop-util",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001000"
       },
@@ -3162,6 +3249,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-macro-simple",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.003"
       },
@@ -3190,6 +3278,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-marlin",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.023001"
       },
@@ -3218,6 +3307,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-marlin-antlers",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.003001"
       },
@@ -3246,6 +3336,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-marlin-x-clone",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.020000"
       },
@@ -3274,6 +3365,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-marlin-x-tohash",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.020000"
       },
@@ -3302,6 +3394,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-marlin-x-undeftolerant",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.020000"
       },
@@ -3330,6 +3423,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-marlin-xattribute-localwriter",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.020001"
       },
@@ -3358,6 +3452,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-marlin-xattribute-lvalue",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.020000"
       },
@@ -3386,6 +3481,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-math-erf-approx",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -3414,6 +3510,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "advent-of-code",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -3442,6 +3539,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-missing-xs",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001001"
       },
@@ -3470,6 +3568,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-mite",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.013000"
       },
@@ -3498,6 +3597,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-module-hash",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -3525,6 +3625,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-module-install-contributors",
          "repo_name" : "p5-module-install-contributors",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -3577,6 +3678,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-module-install-doap",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -3602,8 +3704,6 @@
          "insecure_repo" : true,
          "name" : "Module-Install-DOAPChangeSets-0.206",
          "repo" : "http://goddamn.co.uk/svn-web/perlmods/browse/Module-Install-DOAPChangeSets",
-         "repo_name" : "perlmods",
-         "repo_owner" : "svn-web",
          "uses_rt" : true,
          "ver" : "0.206"
       },
@@ -3632,6 +3732,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-module-install-rdf",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.009"
       },
@@ -3659,6 +3760,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-module-install-trustmetayml",
          "repo_name" : "p5-module-install-trustmetayml",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -3687,6 +3789,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-module-notify",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -3715,6 +3818,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-module-package-rdf",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.014"
       },
@@ -3743,6 +3847,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-module-quote",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -3771,6 +3876,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-mom",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.006"
       },
@@ -3799,6 +3905,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-monjon",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -3827,6 +3934,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-classattribute",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.011"
       },
@@ -3855,6 +3963,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-enumeration",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.010"
       },
@@ -3883,6 +3992,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "MooX-HandlesVia",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001009"
       },
@@ -3911,6 +4021,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-objectbuilder",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -3939,6 +4050,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-press",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.086"
       },
@@ -3967,6 +4079,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-struct",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.020"
       },
@@ -3995,6 +4108,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-traits",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -4023,6 +4137,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-xsconstructor",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003003"
       },
@@ -4051,6 +4166,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moox-late",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.100"
       },
@@ -4079,6 +4195,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moops",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.038"
       },
@@ -4107,6 +4224,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-abcd",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -4135,6 +4253,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-arrayref",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -4162,6 +4281,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-moosex-aspect",
          "repo_name" : "p5-moosex-aspect",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -4190,6 +4310,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-attributetags",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -4218,6 +4339,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-closedhash",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -4246,6 +4368,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-constructinstance",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -4274,6 +4397,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-custominitargs",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -4302,6 +4426,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-declare-context-withoptions-patch-extensible",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -4354,6 +4479,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-declarex-keyword-interface",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -4406,6 +4532,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-declarex-plugin-singleton",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -4458,6 +4585,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-deprecated",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -4486,6 +4614,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-does-delegated",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -4514,6 +4643,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-enumeration",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.010"
       },
@@ -4542,6 +4672,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-ersatzmethod",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -4570,6 +4701,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-exception-rot13",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -4598,6 +4730,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-final",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -4626,6 +4759,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-funkyattributes",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -4654,6 +4788,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-inlinetypes",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -4682,6 +4817,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-interface",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.008"
       },
@@ -4710,6 +4846,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-lvalueattribute",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.981"
       },
@@ -4738,6 +4875,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-modifytaggedmethods",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -4766,6 +4904,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-mungehas",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.011"
       },
@@ -4794,6 +4933,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-niftydelegation",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -4822,6 +4962,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-prototype",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -4850,6 +4991,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-rolefor",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -4878,6 +5020,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-roleqr",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -4906,6 +5049,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-types-moreutils",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -4934,6 +5078,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-whatthetrig",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -4962,6 +5107,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-xsaccessor",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.010"
       },
@@ -4990,6 +5136,7 @@
          "repo_def_branch" : "",
          "repo_name" : "p5-moosex-xsconstructor",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001002"
       },
@@ -5018,6 +5165,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-moosex-hasn-t",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -5046,6 +5194,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-newtype",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.002000"
       },
@@ -5074,6 +5223,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-number-natural-settheory",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -5101,6 +5251,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-owl-directsemantics",
          "repo_name" : "p5-owl-directsemantics",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -5129,6 +5280,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-object-adhoc",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.008"
       },
@@ -5157,6 +5309,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-object-stash",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -5185,6 +5338,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-object-util",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.010"
       },
@@ -5213,6 +5367,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-p5u",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.100"
       },
@@ -5241,6 +5396,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-p5u-command-changes",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -5269,6 +5425,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-p5u-command-deps",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -5296,6 +5453,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-p5u-command-peek",
          "repo_name" : "p5-p5u-command-peek",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -5323,6 +5481,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-p5u-pommand-cttail",
          "repo_name" : "p5-p5u-pommand-cttail",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -5351,6 +5510,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-arrayskip",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -5379,6 +5539,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-arrayskip-xs",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -5407,6 +5568,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-assert",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.905"
       },
@@ -5435,6 +5597,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-define",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.101"
       },
@@ -5463,6 +5626,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-maybe",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "1.202"
       },
@@ -5491,6 +5655,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-maybe-xs",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "1.001"
       },
@@ -5519,6 +5684,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-perform",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -5547,6 +5713,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-quoteoperator-inescapable",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -5575,6 +5742,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-perlx-window",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -5603,6 +5771,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-plack-middleware-apache2-modssl",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -5631,6 +5800,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-plack-middleware-auth-bitcard",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -5659,6 +5829,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-plack-middleware-gepokx-modssl",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -5687,6 +5858,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-platform",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -5715,6 +5887,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-platform",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -5743,6 +5916,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-platform",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -5771,6 +5945,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-pointy-counter",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -5799,6 +5974,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-pry",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003001"
       },
@@ -5827,6 +6003,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-acl",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.104"
       },
@@ -5854,6 +6031,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-rdf-closure",
          "repo_name" : "p5-rdf-closure",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -5881,6 +6059,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-rdf-crypt",
          "repo_name" : "p5-rdf-crypt",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -5909,6 +6088,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-doap",
          "repo_owner" : "kjetilk",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.105"
       },
@@ -5937,6 +6117,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-doap-lite",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -5962,8 +6143,6 @@
          "insecure_repo" : true,
          "name" : "RDF-KML-Exporter-0.003",
          "repo" : "http://goddamn.co.uk/svn-web/perlmods/browse/RDF-KML-Exporter",
-         "repo_name" : "perlmods",
-         "repo_owner" : "svn-web",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -5992,6 +6171,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-prefixes",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -6020,6 +6200,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-query-client",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.114"
       },
@@ -6047,6 +6228,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-rdf-query-functions-buzzword-datetime",
          "repo_name" : "p5-rdf-query-functions-buzzword-datetime",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -6074,6 +6256,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-rdf-query-functions-buzzword-gb",
          "repo_name" : "p5-rdf-query-functions-buzzword-gb",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -6101,6 +6284,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-rdf-query-functions-buzzword-util",
          "repo_name" : "p5-rdf-query-functions-buzzword-util",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -6129,6 +6313,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-queryx-lazy",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -6157,6 +6342,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-rdb2rdf",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.008"
       },
@@ -6182,8 +6368,6 @@
          "insecure_repo" : true,
          "name" : "RDF-RDFa-Linter-0.053",
          "repo" : "http://goddamn.co.uk/svn-web/perlmods/browse/RDF-RDFa-Linter",
-         "repo_name" : "perlmods",
-         "repo_owner" : "svn-web",
          "uses_rt" : true,
          "ver" : "0.053"
       },
@@ -6211,6 +6395,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-rdf-rdfa-parser",
          "repo_name" : "p5-rdf-rdfa-parser",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "1.097"
       },
@@ -6236,8 +6421,6 @@
          "insecure_repo" : true,
          "name" : "RDF-TriN3-0.206",
          "repo" : "http://goddamn.co.uk/svn-web/perlmods/browse/RDF-TriN3",
-         "repo_name" : "perlmods",
-         "repo_owner" : "svn-web",
          "uses_rt" : true,
          "ver" : "0.206"
       },
@@ -6266,6 +6449,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-trinex-functions",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -6294,6 +6478,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-trinex-serializer-mockturtlesoup",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -6322,6 +6507,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-icalendar",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -6350,6 +6536,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rdf-vcard",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.012"
       },
@@ -6378,6 +6565,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-rt-clientx-grabbugs",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -6406,6 +6594,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-refinements",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -6434,6 +6623,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-regexp-melody",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001000"
       },
@@ -6462,6 +6652,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-regexp-util",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -6490,6 +6681,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-return-type",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.007"
       },
@@ -6542,6 +6734,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-role-hooks",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.008"
       },
@@ -6570,6 +6763,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-role-inspector",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -6598,6 +6792,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-scalar-accessors-likehash",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -6626,6 +6821,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-scalar-does",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.203"
       },
@@ -6654,6 +6850,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-set-equivalence",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -6682,6 +6879,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-smart-dispatch",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -6710,6 +6908,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sort-key-top-pp",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -6762,6 +6961,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-spreadsheet-wright",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.107"
       },
@@ -6790,6 +6990,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-story-interact",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001014"
       },
@@ -6818,6 +7019,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-story-interact-www",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.002000"
       },
@@ -6846,6 +7048,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-string-interpolate-delayed",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -6874,6 +7077,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-block",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -6902,6 +7106,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-boolean",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000000"
       },
@@ -6930,6 +7135,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-handlesvia",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.053005"
       },
@@ -6958,6 +7164,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-handlesvia-xs",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.003004"
       },
@@ -6986,6 +7193,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-infix",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -7014,6 +7222,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-lazy",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -7042,6 +7251,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-multimethod",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.003"
       },
@@ -7070,6 +7280,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-nonrole",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.006"
       },
@@ -7098,6 +7309,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-operable",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -7126,6 +7338,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-symmethod",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000"
       },
@@ -7154,6 +7367,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-talisman",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -7182,6 +7396,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-talisman-struct",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -7210,6 +7425,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-sub-trigger-lock",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -7238,6 +7454,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-subclass-of",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.009"
       },
@@ -7266,6 +7483,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-switcheroo",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.008"
       },
@@ -7294,6 +7512,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-syntax-collector",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -7322,6 +7541,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-syntax-feature-qwa",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -7350,6 +7570,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-syntax-highlight-rdf",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -7378,6 +7599,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-syntax-keyword-wielding",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001001"
       },
@@ -7430,6 +7652,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-tobyink-pod-html",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -7458,6 +7681,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-tobyink-test-template",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001000"
       },
@@ -7483,8 +7707,6 @@
          "insecure_repo" : true,
          "name" : "Task-HTML5-0.103",
          "repo" : "http://goddamn.co.uk/svn-web/perlmods/browse/Task-HTML5",
-         "repo_name" : "perlmods",
-         "repo_owner" : "svn-web",
          "uses_rt" : true,
          "ver" : "0.103"
       },
@@ -7513,6 +7735,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-task-tiny",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -7565,6 +7788,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-test-compiles",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -7593,6 +7817,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-test-fatal-matchfor",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -7621,6 +7846,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-test-modern",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.013"
       },
@@ -7649,6 +7875,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-test-rdf-doap-version",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.010"
       },
@@ -7677,6 +7904,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-test-tabs",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -7705,6 +7933,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-test-tracecalls",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -7733,6 +7962,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-throwable-factory",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.007"
       },
@@ -7761,6 +7991,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-tie-moose",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -7789,6 +8020,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-tie-reduce",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -7817,6 +8049,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-time-limit",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -7845,6 +8078,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-trait-attribute-derived",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -7873,6 +8107,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "docs-type-api",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "1.001"
       },
@@ -7901,6 +8136,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-type-fromsah",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.005"
       },
@@ -7929,6 +8165,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-type-libraries",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -7957,6 +8194,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-type-library-compiler",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.008"
       },
@@ -7985,6 +8223,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-type-tiny",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.010001"
       },
@@ -8013,6 +8252,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-type-tiny-xs",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.025"
       },
@@ -8041,6 +8281,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-capabilities",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.004000"
       },
@@ -8069,6 +8310,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-dbi",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -8097,6 +8339,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-datetime",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -8125,6 +8368,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-dualvar",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -8153,6 +8397,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-encodings",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -8181,6 +8426,7 @@
          "repo_def_branch" : "",
          "repo_name" : "p5-types-html5",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -8209,6 +8455,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-interface",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -8237,6 +8484,7 @@
          "repo_def_branch" : "",
          "repo_name" : "p5-types-jsonschema",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001000"
       },
@@ -8265,6 +8513,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-jsoncoercions",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -8293,6 +8542,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-loadableclass",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -8321,6 +8571,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-readonly",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -8349,6 +8600,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-self",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.002"
       },
@@ -8377,6 +8629,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-uri",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.007"
       },
@@ -8405,6 +8658,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-uuid",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -8433,6 +8687,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-xsd",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.008"
       },
@@ -8461,6 +8716,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-types-xsd-lite",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.007"
       },
@@ -8489,6 +8745,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-universal-authority",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -8517,6 +8774,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-universal-authority-lexical",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -8545,6 +8803,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-uri-duri",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -8573,6 +8832,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-unicode-debug",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -8600,6 +8860,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-www-datawiki",
          "repo_name" : "p5-www-datawiki",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -8628,6 +8889,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-www-finger",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.105"
       },
@@ -8656,6 +8918,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-web-id",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "1.927"
       },
@@ -8683,6 +8946,7 @@
          "repo" : "https://bitbucket.org/tobyink/web-paste-simple",
          "repo_name" : "web-paste-simple",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -8711,6 +8975,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-web-perldistsite",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001011"
       },
@@ -8736,8 +9001,7 @@
          "insecure_repo" : true,
          "name" : "XML-Atom-FromOWL-0.102",
          "repo" : "http://goddamn.co.uk/svn-web/perlmods/browse/XML-Atom-FromOWL",
-         "repo_name" : "perlmods",
-         "repo_owner" : "svn-web",
+         "repo_type" : "Subversion",
          "uses_rt" : true,
          "ver" : "0.102"
       },
@@ -8765,6 +9029,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-xml-atom-microformats",
          "repo_name" : "p5-xml-atom-microformats",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -8790,8 +9055,7 @@
          "insecure_repo" : true,
          "name" : "XML-Atom-OWL-0.104",
          "repo" : "http://goddamn.co.uk/svn-web/perlmods/browse/XML-Atom-OWL",
-         "repo_name" : "perlmods",
-         "repo_owner" : "svn-web",
+         "repo_type" : "Subversion",
          "uses_rt" : true,
          "ver" : "0.104"
       },
@@ -8819,6 +9083,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-xml-grddl",
          "repo_name" : "p5-xml-grddl",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -8847,6 +9112,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-xml-libxml-augment",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -8875,6 +9141,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-xml-libxml-debugging",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.103"
       },
@@ -8903,6 +9170,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-xml-libxml-devel-setlinenumber",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -8931,6 +9199,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-xml-libxml-prettyprint",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -8959,6 +9228,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-xml-libxml-queryselector",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -8987,6 +9257,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-xml-saxon-xslt2",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.010"
       },
@@ -9014,6 +9285,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-xrd-parser",
          "repo_name" : "p5-xrd-parser",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.201"
       },
@@ -9042,6 +9314,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-xt-manager",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -9069,6 +9342,7 @@
          "repo" : "https://bitbucket.org/tobyink/p5-xt-util",
          "repo_name" : "p5-xt-util",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -9097,6 +9371,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-z",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.008"
       },
@@ -9125,6 +9400,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "zuzu-perl",
          "repo_owner" : "zuzuscript",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.007002"
       },
@@ -9153,6 +9429,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-zydeco",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.617"
       },
@@ -9181,6 +9458,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-zydeco-lite-app",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -9209,6 +9487,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-authority",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -9237,6 +9516,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-builtins-compat",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.004"
       },
@@ -9265,6 +9545,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-isa",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "2.001"
       },
@@ -9293,6 +9574,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-junk",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -9321,6 +9603,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-lexical-underscore",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.004"
       },
@@ -9349,6 +9632,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-match-simple",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.012"
       },
@@ -9377,6 +9661,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-match-simple-xs",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.002"
       },
@@ -9429,6 +9714,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-namespace-lexical",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -9457,6 +9743,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-no-warnings",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001000"
       },
@@ -9485,6 +9772,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-package-compute",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -9513,6 +9801,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-portable-loader",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -9541,6 +9830,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-results",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.006"
       },
@@ -9569,6 +9859,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-return-thence",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -9597,6 +9888,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-returning",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -9625,6 +9917,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-thanks",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -9653,6 +9946,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "p5-warnings-maybefatal",
          "repo_owner" : "tobyink",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       }

@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:11Z",
+   "gathered_at" : "2026-10-11T09:02:20Z",
    "modules" : [
       {
          "auth" : "MIKKOI",
@@ -61,6 +61,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Dancer2-Plugin-JobScheduler",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.007"
       },
@@ -89,6 +90,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "dancer2-plugin-queue-ironmq",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.002"
       },
@@ -117,6 +119,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "dancer2-session-pg",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -145,6 +148,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "database-managedhandle",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -173,6 +177,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "database-temp",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -201,6 +206,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "dist-zilla-plugin-signature",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "1.252860"
       },
@@ -226,8 +232,7 @@
          "insecure_repo" : false,
          "name" : "Dist-Zilla-Plugin-Software-Policies-0.002",
          "repo" : "https://github.com/mikkoi//dist-zilla-plugin-software-policies",
-         "repo_name" : "",
-         "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       },
@@ -256,6 +261,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "dist-zilla-plugin-weavefile",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -308,6 +314,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "docker-names-random",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.0.2"
       },
@@ -336,6 +343,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "env-assert",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.018"
       },
@@ -364,6 +372,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "env-dot",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.023"
       },
@@ -392,6 +401,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "git-hooks-perlcritic",
          "repo_owner" : "hostgator",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001001"
       },
@@ -420,6 +430,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "git-mailmap",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.005"
       },
@@ -448,6 +459,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "git-morehooks",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.020"
       },
@@ -476,6 +488,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "io-iron",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.14"
       },
@@ -504,6 +517,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "io-iron-applications",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.12"
       },
@@ -532,6 +546,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "ipc-runexternal",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.102"
       },
@@ -560,6 +575,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "log-any-adapter-jsonlines",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.001"
       },
@@ -588,6 +604,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "software-policies",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.006"
       },
@@ -616,6 +633,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "test-database-temp",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.003"
       },
@@ -668,6 +686,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "TheSchwartz-JobScheduler",
          "repo_owner" : "mikkoi",
+         "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.002"
       }

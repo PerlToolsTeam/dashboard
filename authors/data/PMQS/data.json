@@ -38,7 +38,7 @@
       "use_travis_com" : 1
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:18Z",
+   "gathered_at" : "2026-10-11T09:02:28Z",
    "modules" : [
       {
          "auth" : "PMQS",
@@ -67,6 +67,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "zipdetails",
          "repo_owner" : "pmqs",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "4.009"
       },
@@ -97,6 +98,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Archive-Zip-SimpleZip",
          "repo_owner" : "pmqs",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.002"
       },
@@ -127,6 +129,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "BerkeleyDB",
          "repo_owner" : "pmqs",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.67"
       },
@@ -209,6 +212,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Compress-Raw-Bzip2",
          "repo_owner" : "pmqs",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.225"
       },
@@ -239,6 +243,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Compress-Raw-Lzma",
          "repo_owner" : "pmqs",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.225"
       },
@@ -269,6 +274,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Compress-Raw-Zlib",
          "repo_owner" : "pmqs",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.225"
       },
@@ -299,6 +305,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Compress-Stream-Zstd",
          "repo_owner" : "pmqs",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.208"
       },
@@ -329,6 +336,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "DB_File",
          "repo_owner" : "pmqs",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.860"
       },
@@ -359,6 +367,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "IO-Compress",
          "repo_owner" : "pmqs",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.225"
       },
@@ -389,6 +398,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "IO-Compress-Lzf",
          "repo_owner" : "pmqs",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.225"
       },
@@ -419,6 +429,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "IO-Compress-Lzma",
          "repo_owner" : "pmqs",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.225"
       },
@@ -449,6 +460,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "IO-Compress-Lzop",
          "repo_owner" : "pmqs",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.225"
       },
@@ -479,6 +491,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "IO-Compress-Zstd",
          "repo_owner" : "pmqs",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.225"
       }

@@ -44,7 +44,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:02Z",
+   "gathered_at" : "2026-10-11T09:02:13Z",
    "modules" : [
       {
          "auth" : "ATOOMIC",
@@ -76,6 +76,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Amazon-Dash-Button",
          "repo_owner" : "atoomic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.11"
       },
@@ -109,6 +110,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "B-COW",
          "repo_owner" : "atoomic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.007"
       },
@@ -142,6 +144,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Char-Replace",
          "repo_owner" : "atoomic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.007"
       },
@@ -175,6 +178,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Check-GlobalPhase",
          "repo_owner" : "atoomic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.001"
       },
@@ -208,6 +212,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Clone",
          "repo_owner" : "garu",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.51"
       },
@@ -241,6 +246,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Colon-Config",
          "repo_owner" : "atoomic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.005"
       },
@@ -274,6 +280,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Devel-PPPort",
          "repo_owner" : "Dual-Life",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "3.68"
       },
@@ -307,6 +314,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dist-Zilla-PluginBundle-ATOOMIC",
          "repo_owner" : "atoomic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.00"
       },
@@ -340,6 +348,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "ExtUtils-MakeMaker-PPPort",
          "repo_owner" : "atoomic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -373,6 +382,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "FastGlob",
          "repo_owner" : "atoomic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.6"
       },
@@ -406,6 +416,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "geo-ipfree",
          "repo_owner" : "bricas",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.160001"
       },
@@ -439,6 +450,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "net-google-drive-simple",
          "repo_owner" : "mschilli",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "3.02"
       },
@@ -472,6 +484,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Net-Whois-IANA",
          "repo_owner" : "atoomic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.50"
       },
@@ -505,6 +518,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "oauth-cmdline",
          "repo_owner" : "mschilli",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -538,6 +552,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "OpenStack-MetaAPI",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.005"
       },
@@ -571,6 +586,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Overload-FileCheck",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.015"
       },
@@ -604,6 +620,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Parallel-Subs",
          "repo_owner" : "atoomic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.003"
       },
@@ -637,6 +654,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Perl-Critic-Policy-PreferredModules",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.005"
       },
@@ -670,6 +688,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Schedule--Cron--Events",
          "repo_owner" : "kohts",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.96"
       },
@@ -703,6 +722,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Simple-Accessor",
          "repo_owner" : "atoomic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.14"
       },
@@ -736,6 +756,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Slack-WebHook",
          "repo_owner" : "atoomic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.003"
       },
@@ -798,6 +819,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Test-Mojo-Role-Debug-JSON",
          "repo_owner" : "atoomic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.005"
       },
@@ -860,6 +882,7 @@
          "repo_def_branch" : "blead",
          "repo_name" : "perl5",
          "repo_owner" : "Perl",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.9764"
       },
@@ -893,6 +916,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "TimeDate",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.35"
       },
@@ -926,6 +950,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "XS-Logger",
          "repo_owner" : "atoomic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.005"
       },
@@ -959,6 +984,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "XString",
          "repo_owner" : "atoomic",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.005"
       }

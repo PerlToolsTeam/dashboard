@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:04Z",
+   "gathered_at" : "2026-10-11T09:02:14Z",
    "modules" : [
       {
          "auth" : "BYTEROCK",
@@ -85,6 +85,7 @@
          "repo_def_branch" : "",
          "repo_name" : "Mojolicious_Command_generate_routes_restsful",
          "repo_owner" : "byterock",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -113,6 +114,7 @@
          "repo_def_branch" : "",
          "repo_name" : "Mojolicious_Command_generate_routes_restsful",
          "repo_owner" : "byterock",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.01"
       },
@@ -141,6 +143,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "mojolicious-plugin-authorization",
          "repo_owner" : "byterock",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.06"
       },
@@ -169,6 +172,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "mojolicious-plugin-routes-restful",
          "repo_owner" : "byterock",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -221,6 +225,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Orignal",
          "repo_owner" : "byterock",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },

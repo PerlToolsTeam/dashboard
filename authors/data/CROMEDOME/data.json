@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:05Z",
+   "gathered_at" : "2026-10-11T09:02:15Z",
    "modules" : [
       {
          "auth" : "CROMEDOME",
@@ -61,6 +61,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "cgi-application-plugin-captcha",
          "repo_owner" : "cromedome",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -137,6 +138,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "dancer-debug",
          "repo_owner" : "PerlDancer",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -165,6 +167,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dancer-Plugin-reCAPTCHA",
          "repo_owner" : "cromedome",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.91"
       },
@@ -193,6 +196,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "dancer-session-psgi",
          "repo_owner" : "PerlDancer",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.02"
       },
@@ -221,6 +225,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "dancer-template-xslate",
          "repo_owner" : "PerlDancer",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.04"
       },
@@ -249,6 +254,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Dancer2",
          "repo_owner" : "PerlDancer",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.2.2"
       },
@@ -277,6 +283,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Logger-Log4perl",
          "repo_owner" : "cromedome",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.07"
       },
@@ -305,6 +312,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Ajax",
          "repo_owner" : "PerlDancer",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.400000"
       },
@@ -333,6 +341,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Dancer2-Plugin-Minion",
          "repo_owner" : "cromedome",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.0.0"
       },
@@ -361,6 +370,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "dancer2-plugin-queue",
          "repo_owner" : "PerlDancer",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.006"
       },
@@ -389,6 +399,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "dancer2-plugin-syntax-getpost",
          "repo_owner" : "dagolden",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.002"
       },
@@ -417,6 +428,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Dancer2-Plugin-Syntax-ParamKeywords",
          "repo_owner" : "cromedome",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.2.0"
       },
@@ -445,6 +457,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Session-CHI",
          "repo_owner" : "cromedome",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.05"
       },
@@ -473,6 +486,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "dancer2-session-json",
          "repo_owner" : "PerlDancer",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.003"
       },
@@ -501,6 +515,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "dancer2-session-mongodb",
          "repo_owner" : "PerlDancer",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.004"
       },
@@ -529,6 +544,7 @@
          "repo_def_branch" : "",
          "repo_name" : "Dancer2-Template-Simple",
          "repo_owner" : "PerlDancer",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.0.0"
       },
@@ -557,6 +573,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "dancer2-template-xslate",
          "repo_owner" : "PerlDancer",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v0.2.0"
       },

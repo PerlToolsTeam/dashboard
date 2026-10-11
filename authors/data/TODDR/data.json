@@ -44,7 +44,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:39Z",
+   "gathered_at" : "2026-10-11T09:02:41Z",
    "modules" : [
       {
          "auth" : "TODDR",
@@ -76,6 +76,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Business-UPS",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.04"
       },
@@ -109,6 +110,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "CDB_File",
          "repo_owner" : "toddr",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.05"
       },
@@ -142,6 +144,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Crypt-RIPEMD160",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.14"
       },
@@ -175,6 +178,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "digest",
          "repo_owner" : "Dual-Life",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.20"
       },
@@ -208,6 +212,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "digest-md5",
          "repo_owner" : "dual-Life",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.59"
       },
@@ -238,8 +243,7 @@
          "insecure_repo" : false,
          "name" : "Exporter-5.79",
          "repo" : "https://github.com/Perl/perl5/tree/blead/dist/Exporter",
-         "repo_name" : "perl5",
-         "repo_owner" : "Perl",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "5.79"
       },
@@ -273,6 +277,7 @@
          "repo_def_branch" : "blead",
          "repo_name" : "perl5",
          "repo_owner" : "perl",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.54"
       },
@@ -303,8 +308,7 @@
          "insecure_repo" : false,
          "name" : "IO-1.55",
          "repo" : "https://github.com/Perl/perl5/tree/blead/dist/IO",
-         "repo_name" : "perl5",
-         "repo_owner" : "Perl",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.55"
       },
@@ -338,6 +342,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "IO-Stty",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -371,6 +376,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "IO-Tty",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.31"
       },
@@ -404,6 +410,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "IPC-Run",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "20260402.0"
       },
@@ -434,8 +441,7 @@
          "insecure_repo" : false,
          "name" : "Locale-Maketext-1.33",
          "repo" : "https://github.com/Perl/perl5/tree/blead/dist/Locale-Maketext",
-         "repo_name" : "perl5",
-         "repo_owner" : "Perl",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.33"
       },
@@ -469,6 +475,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Net-ACME2",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.41"
       },
@@ -502,6 +509,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Net-Daemon",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.52"
       },
@@ -535,6 +543,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Net-Ident",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.31"
       },
@@ -568,6 +577,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "perl-net-jabber-bot",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "3.01"
       },
@@ -601,6 +611,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "net-oscar",
          "repo_owner" : "toddr",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.928"
       },
@@ -634,6 +645,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Razor2-Client-Agent",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.88"
       },
@@ -667,6 +679,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Regexp-Parser",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.27"
       },
@@ -700,6 +713,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Safe-Hole",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.17"
       },
@@ -730,8 +744,7 @@
          "insecure_repo" : true,
          "name" : "Sys-Mmap-0.21",
          "repo" : "http://github.com/toddr/Sys-Mmap/tree/master",
-         "repo_name" : "Sys-Mmap",
-         "repo_owner" : "toddr",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.21"
       },
@@ -765,6 +778,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "template-plugin-cgi",
          "repo_owner" : "xsawyerx",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "3.101"
       },
@@ -798,6 +812,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Template2",
          "repo_owner" : "abw",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "3.106"
       },
@@ -831,6 +846,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Test-MockFile",
          "repo_owner" : "cpanel",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.039"
       },
@@ -864,6 +880,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Test2-Harness-Renderer-JUnit",
          "repo_owner" : "cpanelinc",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.000005"
       },
@@ -897,6 +914,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tie-DBI",
          "repo_owner" : "toddr",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.08"
       },
@@ -927,8 +945,7 @@
          "insecure_repo" : false,
          "name" : "Tie-File-1.07",
          "repo" : "https://github.com/Perl/perl5/tree/blead/dist/Tie-File",
-         "repo_name" : "perl5",
-         "repo_owner" : "Perl",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.07"
       },
@@ -962,6 +979,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Tree-MultiNode",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.02"
       },
@@ -995,6 +1013,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "XML-LibXML",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.0213"
       },
@@ -1028,6 +1047,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "XML-Parser",
          "repo_owner" : "cpan-authors",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.59"
       },
@@ -1061,6 +1081,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "YAML-Syck",
          "repo_owner" : "toddr",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.47"
       },
@@ -1094,6 +1115,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "autodie",
          "repo_owner" : "pjf",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.37"
       }

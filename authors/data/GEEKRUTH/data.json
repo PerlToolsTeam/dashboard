@@ -29,7 +29,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:09Z",
+   "gathered_at" : "2026-10-11T09:02:18Z",
    "modules" : [
       {
          "auth" : "GEEKRUTH",
@@ -53,6 +53,7 @@
          "repo" : "https://gitlab.com/GeekRuthie/DBIx-Class-MoreHelpers",
          "repo_name" : "DBIx-Class-MoreHelpers",
          "repo_owner" : "GeekRuthie",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.0001"
       },
@@ -78,6 +79,7 @@
          "repo" : "https://GitLab.com/GeekRuthie/DBIx-Class-PseudoEnum",
          "repo_name" : "DBIx-Class-PseudoEnum",
          "repo_owner" : "GeekRuthie",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.0003"
       },
@@ -103,6 +105,7 @@
          "repo" : "https://gitlab.com/GeekRuthie/DBIx-Class-Schema-ResultSetNames",
          "repo_name" : "DBIx-Class-Schema-ResultSetNames",
          "repo_owner" : "GeekRuthie",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.0301"
       },
@@ -128,6 +131,7 @@
          "repo" : "https://gitlab.com/GeekRuthie/DBIx-Class-TemporalRelations",
          "repo_name" : "DBIx-Class-TemporalRelations",
          "repo_owner" : "GeekRuthie",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.9000"
       },
@@ -153,6 +157,7 @@
          "repo" : "https://gitlab.com/GeekRuthie/dancer2-plugin-auth-extensible-provider-dbixclass",
          "repo_name" : "dancer2-plugin-auth-extensible-provider-dbixclass",
          "repo_owner" : "GeekRuthie",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.0902"
       },
@@ -176,8 +181,7 @@
          "insecure_repo" : false,
          "name" : "Dancer2-Plugin-ContentCache-1.0000",
          "repo" : "https://codeberg.org/GeekRuthie/Dancer2-Plugin-ContentCache",
-         "repo_name" : "Dancer2-Plugin-ContentCache",
-         "repo_owner" : "GeekRuthie",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.0000"
       },
@@ -203,6 +207,7 @@
          "repo" : "https://gitlab.com/GeekRuthie/Dancer2-Plugin-DBIx-Class",
          "repo_name" : "Dancer2-Plugin-DBIx-Class",
          "repo_owner" : "GeekRuthie",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.1001"
       },
@@ -228,6 +233,7 @@
          "repo" : "https://gitlab.com/GeekRuthie/Dancer2-Plugin-HostSpecificRoute",
          "repo_name" : "Dancer2-Plugin-HostSpecificRoute",
          "repo_owner" : "GeekRuthie",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.0000"
       },
@@ -273,8 +279,7 @@
          "insecure_repo" : false,
          "name" : "Dancer2-Plugin-QuickORM-1.0000",
          "repo" : "https://codeberg.org/GeekRuthie/Dancer2-Plugin-QuickORM",
-         "repo_name" : "Dancer2-Plugin-QuickORM",
-         "repo_owner" : "GeekRuthie",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.0000"
       },
@@ -300,6 +305,7 @@
          "repo" : "https://gitlab.com/GeekRuthie/Dancer2-Plugin-DBIx-Class",
          "repo_name" : "Dancer2-Plugin-DBIx-Class",
          "repo_owner" : "GeekRuthie",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.00"
       },
@@ -325,6 +331,7 @@
          "repo" : "https://gitlab.com/GeekRuthie/Dist-Zilla-Plugin-Upload-OrePAN2",
          "repo_name" : "Dist-Zilla-Plugin-Upload-OrePAN2",
          "repo_owner" : "GeekRuthie",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.0001"
       },
@@ -370,8 +377,7 @@
          "insecure_repo" : false,
          "name" : "Dist-Zilla-PluginBundle-GEEKRUTH-4.0004",
          "repo" : "https://codeberg.org/GeekRuthie/Dist-Zilla-PluginBundle-GEEKRUTH",
-         "repo_name" : "Dist-Zilla-PluginBundle-GEEKRUTH",
-         "repo_owner" : "GeekRuthie",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "4.0004"
       },
@@ -419,6 +425,7 @@
          "repo" : "https://gitlab.com/GeekRuthie/Perl-Critic-Dancer2",
          "repo_name" : "Perl-Critic-Dancer2",
          "repo_owner" : "GeekRuthie",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.4100"
       },
@@ -442,8 +449,7 @@
          "insecure_repo" : false,
          "name" : "Task-BeLike-GEEKRUTH-2.0000",
          "repo" : "https://codeberg.org/GeekRuthie/Task-BeLike-GEEKRUTH",
-         "repo_name" : "Task-BeLike-GEEKRUTH",
-         "repo_owner" : "GeekRuthie",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.0000"
       },
@@ -467,8 +473,7 @@
          "insecure_repo" : false,
          "name" : "WebService-Qdrant-0.0001",
          "repo" : "https://codeberg.org/GeekRuthie/WebService-Qdrant",
-         "repo_name" : "WebService-Qdrant",
-         "repo_owner" : "GeekRuthie",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.0001"
       }

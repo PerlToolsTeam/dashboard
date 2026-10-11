@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:21Z",
+   "gathered_at" : "2026-10-11T09:02:30Z",
    "modules" : [
       {
          "auth" : "SLAFFAN",
@@ -61,6 +61,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Alien-Build-Plugin-Cleanse-BuildDir",
          "repo_owner" : "shawnlaffan",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -86,8 +87,7 @@
          "insecure_repo" : false,
          "name" : "Alien-Build-Plugin-PkgConfig-PPWrapper-0.03",
          "repo" : "https://github.com/shawnlaffan/lib/Alien-Build-Plugin-PkgConfig-PPWrapper",
-         "repo_name" : "lib",
-         "repo_owner" : "shawnlaffan",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.03"
       },
@@ -116,6 +116,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-alien-freexl",
          "repo_owner" : "shawnlaffan",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.06"
       },
@@ -144,6 +145,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-alien-gdal",
          "repo_owner" : "shawnlaffan",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.44"
       },
@@ -172,6 +174,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-alien-geos",
          "repo_owner" : "shawnlaffan",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.012"
       },
@@ -200,6 +203,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-alien-libtiff",
          "repo_owner" : "shawnlaffan",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.02"
       },
@@ -228,6 +232,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Alien-patchelf",
          "repo_owner" : "PerlAlien",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.08"
       },
@@ -256,6 +261,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-alien-proj",
          "repo_owner" : "shawnlaffan",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.31"
       },
@@ -284,6 +290,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-alien-sqlite",
          "repo_owner" : "shawnlaffan",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.07"
       },
@@ -312,6 +319,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-pp-autolink",
          "repo_owner" : "shawnlaffan",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.15"
       },
@@ -340,6 +348,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "geo-converter-dms2dd",
          "repo_owner" : "shawnlaffan",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       },
@@ -368,6 +377,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Geo-GDAL-FFI",
          "repo_owner" : "ajolma",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.16"
       },
@@ -396,6 +406,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Geo-ShapeFile",
          "repo_owner" : "shawnlaffan",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "3.03"
       },
@@ -424,6 +435,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-List-Unique-DeterministicOrder",
          "repo_owner" : "shawnlaffan",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : 0.004
       },
@@ -452,6 +464,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Statistics-Descriptive-PDL",
          "repo_owner" : "shawnlaffan",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.17"
       },
@@ -480,6 +493,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "perl-statistics-sampler-multinomial",
          "repo_owner" : "shawnlaffan",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.02"
       },
@@ -505,8 +519,7 @@
          "insecure_repo" : true,
          "name" : "Task-Biodiverse-3.2",
          "repo" : "http://purl.org/biodiverse",
-         "repo_name" : null,
-         "repo_owner" : "biodiverse",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "3.2"
       },
@@ -532,8 +545,7 @@
          "insecure_repo" : true,
          "name" : "Task-Biodiverse-NoGUI-3.2",
          "repo" : "http://purl.org/biodiverse",
-         "repo_name" : null,
-         "repo_owner" : "biodiverse",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "3.2"
       },
@@ -562,6 +574,7 @@
          "repo_def_branch" : "main",
          "repo_name" : "Perl-Tree-STR",
          "repo_owner" : "biogeospatial",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.06"
       }

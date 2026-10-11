@@ -38,7 +38,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T05:39:03Z",
+   "gathered_at" : "2026-10-11T09:02:14Z",
    "modules" : [
       {
          "auth" : "BDFOY",
@@ -67,6 +67,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "dumbbench",
          "repo_owner" : "briandfoy",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.505"
       },
@@ -97,6 +98,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "HTTP-Cookies-Mozilla",
          "repo_owner" : "briandfoy",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.036"
       },
@@ -127,6 +129,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "mycpan-app-dpan",
          "repo_owner" : "briandfoy",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.281"
       },
@@ -157,6 +160,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "mycpan-indexer",
          "repo_owner" : "briandfoy",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.282"
       },
@@ -187,6 +191,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "net-ssh-perl",
          "repo_owner" : "briandfoy",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.144"
       },
@@ -217,6 +222,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "netscape-bookmarks",
          "repo_owner" : "CPAN-Adoptable-Modules",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.304"
       },
@@ -247,6 +253,7 @@
          "repo_def_branch" : "master",
          "repo_name" : "Perl-MinimumVersion-Fast",
          "repo_owner" : "tokuhirom",
+         "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.22"
       }
