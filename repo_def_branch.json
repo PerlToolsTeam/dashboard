@@ -355,6 +355,7 @@
       "xml-feed" : "master"
    },
    "davorg-cpan" : {
+      "Ogg-Vorbis-Header" : "master",
       "amazon-sites" : "main",
       "app-aphra" : "main",
       "app-blurfill" : "main",
@@ -373,6 +374,7 @@
       "moox-role-seotags" : "main",
       "perlanet" : "master",
       "plack-app-directoryindex" : "main",
+      "qmail-queuehandler" : "master",
       "svg-christmastree" : "master",
       "svg-timeline" : "master",
       "template-provider-pandoc" : "master",

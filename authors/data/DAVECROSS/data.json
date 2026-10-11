@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T10:08:33Z",
+   "gathered_at" : "2026-10-11T12:41:54Z",
    "modules" : [
       {
          "auth" : "DAVECROSS",
@@ -850,7 +850,7 @@
       },
       {
          "auth" : "DAVECROSS",
-         "bugtracker" : "https://github.com/davorg/Ogg-Vorbis-Header/issues",
+         "bugtracker" : "https://github.com/davorg-cpan/Ogg-Vorbis-Header/issues",
          "ci" : {
             "cirrus_task_names" : [],
             "gh_workflow_files" : [],
@@ -865,17 +865,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2021-01-04",
+         "date" : "2026-10-11",
          "dist" : "Ogg-Vorbis-Header",
          "insecure_repo" : false,
-         "name" : "Ogg-Vorbis-Header-0.11",
-         "repo" : "https://github.com/davorg/Ogg-Vorbis-Header",
+         "name" : "Ogg-Vorbis-Header-0.12",
+         "repo" : "https://github.com/davorg-cpan/Ogg-Vorbis-Header",
          "repo_def_branch" : "master",
          "repo_name" : "Ogg-Vorbis-Header",
-         "repo_owner" : "davorg",
+         "repo_owner" : "davorg-cpan",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.11"
+         "ver" : "0.12"
       },
       {
          "auth" : "DAVECROSS",
@@ -1024,7 +1024,7 @@
       },
       {
          "auth" : "DAVECROSS",
-         "bugtracker" : "https://github.com/davorg/qmail-queuehandler/issues",
+         "bugtracker" : "https://github.com/davorg-cpan/qmail-queuehandler/issues",
          "ci" : {
             "cirrus_task_names" : [],
             "gh_workflow_files" : [],
@@ -1039,17 +1039,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2021-01-13",
+         "date" : "2026-10-11",
          "dist" : "QMail-QueueHandler",
          "insecure_repo" : false,
-         "name" : "QMail-QueueHandler-2.0.4",
-         "repo" : "https://github.com/davorg/qmail-queuehandler",
+         "name" : "QMail-QueueHandler-2.0.5",
+         "repo" : "https://github.com/davorg-cpan/qmail-queuehandler",
          "repo_def_branch" : "master",
          "repo_name" : "qmail-queuehandler",
-         "repo_owner" : "davorg",
+         "repo_owner" : "davorg-cpan",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v2.0.4"
+         "ver" : "v2.0.5"
       },
       {
          "auth" : "DAVECROSS",
@@ -1483,7 +1483,7 @@
       },
       {
          "auth" : "DAVECROSS",
-         "bugtracker" : "",
+         "bugtracker" : "https://github.com/davorg-cpan/xml-feed/issues",
          "ci" : {
             "cirrus_task_names" : [],
             "gh_workflow_files" : [],
@@ -1498,12 +1498,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-09-08",
+         "date" : "2026-10-11",
          "dist" : "XML-Feed",
-         "name" : "XML-Feed-1.0.1",
-         "repo" : null,
+         "insecure_repo" : false,
+         "name" : "XML-Feed-v1.0.2",
+         "repo" : "https://github.com/davorg-cpan/xml-feed",
+         "repo_def_branch" : "master",
+         "repo_name" : "xml-feed",
+         "repo_owner" : "davorg-cpan",
+         "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v1.0.1"
+         "ver" : "v1.0.2"
       }
    ],
    "sort" : {
