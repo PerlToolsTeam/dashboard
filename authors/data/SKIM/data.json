@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-11T09:29:53Z",
+   "gathered_at" : "2026-10-11T10:08:41Z",
    "modules" : [
       {
          "auth" : "SKIM",
@@ -1619,17 +1619,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-05-08",
+         "date" : "2026-10-11",
          "dist" : "Business-UDC",
          "insecure_repo" : false,
-         "name" : "Business-UDC-0.08",
+         "name" : "Business-UDC-0.09",
          "repo" : "https://github.com/michal-josef-spacek/Business-UDC",
          "repo_def_branch" : "main",
          "repo_name" : "Business-UDC",
          "repo_owner" : "michal-josef-spacek",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.08"
+         "ver" : "0.09"
       },
       {
          "auth" : "SKIM",
@@ -4664,17 +4664,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-06-17",
+         "date" : "2026-10-11",
          "dist" : "MARC-Validator",
          "insecure_repo" : false,
-         "name" : "MARC-Validator-0.22",
+         "name" : "MARC-Validator-0.23",
          "repo" : "https://github.com/michal-josef-spacek/MARC-Validator",
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Validator",
          "repo_owner" : "michal-josef-spacek",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.22"
+         "ver" : "0.23"
       },
       {
          "auth" : "SKIM",
