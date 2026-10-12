@@ -953,7 +953,7 @@
       "env-assert" : "main",
       "env-dot" : "main",
       "git-mailmap" : "master",
-      "git-morehooks" : "master",
+      "git-morehooks" : "main",
       "io-iron" : "master",
       "io-iron-applications" : "master",
       "ipc-runexternal" : "master",
