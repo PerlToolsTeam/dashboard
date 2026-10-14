@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-14T17:04:51Z",
+   "gathered_at" : "2026-10-14T21:37:01Z",
    "modules" : [
       {
          "auth" : "PSCUST",
@@ -300,6 +300,54 @@
          "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "2.14"
+      },
+      {
+         "auth" : "PSCUST",
+         "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-10-14",
+         "dist" : "ZX81",
+         "name" : "ZX81-0.001",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.001"
+      },
+      {
+         "auth" : "PSCUST",
+         "bugtracker" : "",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-10-14",
+         "dist" : "ZX81-Tokenize",
+         "name" : "ZX81-Tokenize-0.001",
+         "repo" : null,
+         "uses_rt" : false,
+         "ver" : "0.001"
       }
    ],
    "sort" : {
