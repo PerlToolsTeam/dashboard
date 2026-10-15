@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-15T11:20:44Z",
+   "gathered_at" : "2026-10-15T16:53:41Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1037,14 +1037,14 @@
          "date" : "2026-10-15",
          "dist" : "Database-BI",
          "insecure_repo" : false,
-         "name" : "Database-BI-0.012.0",
+         "name" : "Database-BI-0.012.1",
          "repo" : "https://github.com/nigelhorne/Database-BI",
          "repo_def_branch" : "master",
          "repo_name" : "Database-BI",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v0.012.0"
+         "ver" : "v0.012.1"
       },
       {
          "auth" : "NHORNE",
@@ -1865,17 +1865,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-07-10",
+         "date" : "2026-10-15",
          "dist" : "Geo-Coder-Free",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-Free-0.42",
+         "name" : "Geo-Coder-Free-0.44",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-Free",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-Free",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.42"
+         "ver" : "0.44"
       },
       {
          "auth" : "NHORNE",
@@ -2126,17 +2126,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2025-08-25",
+         "date" : "2026-10-15",
          "dist" : "Geo-Location-Point",
          "insecure_repo" : false,
-         "name" : "Geo-Location-Point-0.15",
+         "name" : "Geo-Location-Point-0.16",
          "repo" : "https://github.com/nigelhorne/Geo-Location-Point",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Location-Point",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.15"
+         "ver" : "0.16"
       },
       {
          "auth" : "NHORNE",
@@ -2203,17 +2203,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2025-10-15",
+         "date" : "2026-10-15",
          "dist" : "HTML-Genealogy-Map",
          "insecure_repo" : false,
-         "name" : "HTML-Genealogy-Map-0.04",
+         "name" : "HTML-Genealogy-Map-0.05",
          "repo" : "https://github.com/nigelhorne/HTML-Genealogy-Map",
          "repo_def_branch" : "master",
          "repo_name" : "HTML-Genealogy-Map",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.04"
+         "ver" : "0.05"
       },
       {
          "auth" : "NHORNE",
