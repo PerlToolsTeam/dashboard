@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-14T21:37:01Z",
+   "gathered_at" : "2026-10-15T04:29:07Z",
    "modules" : [
       {
          "auth" : "PSCUST",
@@ -344,10 +344,10 @@
          },
          "date" : "2026-10-14",
          "dist" : "ZX81-Tokenize",
-         "name" : "ZX81-Tokenize-0.001",
+         "name" : "ZX81-Tokenize-0.003",
          "repo" : null,
          "uses_rt" : false,
-         "ver" : "0.001"
+         "ver" : "0.003"
       }
    ],
    "sort" : {

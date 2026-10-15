@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-14T21:36:56Z",
+   "gathered_at" : "2026-10-15T04:29:05Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1034,17 +1034,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-12",
+         "date" : "2026-10-15",
          "dist" : "Database-BI",
          "insecure_repo" : false,
-         "name" : "Database-BI-0.011.0",
+         "name" : "Database-BI-0.012.0",
          "repo" : "https://github.com/nigelhorne/Database-BI",
          "repo_def_branch" : "master",
          "repo_name" : "Database-BI",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v0.011.0"
+         "ver" : "v0.012.0"
       },
       {
          "auth" : "NHORNE",
@@ -2179,12 +2179,12 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-13",
+         "date" : "2026-10-15",
          "dist" : "HTML-D3",
-         "name" : "HTML-D3-0.19",
+         "name" : "HTML-D3-0.20",
          "repo" : null,
          "uses_rt" : false,
-         "ver" : "0.19"
+         "ver" : "0.20"
       },
       {
          "auth" : "NHORNE",
