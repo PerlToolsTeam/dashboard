@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-15T16:54:02Z",
+   "gathered_at" : "2026-10-15T21:19:30Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -846,6 +846,35 @@
          "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.621"
+      },
+      {
+         "auth" : "TEODESIAN",
+         "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/perl-powerdns-api-acl/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-10-15",
+         "dist" : "PowerDNS-API-ACL",
+         "insecure_repo" : false,
+         "name" : "PowerDNS-API-ACL-0.002",
+         "repo" : "https://github.com/Troglodyne-Internet-Widgets/perl-powerdns-api-acl",
+         "repo_def_branch" : "master",
+         "repo_name" : "perl-powerdns-api-acl",
+         "repo_owner" : "Troglodyne-Internet-Widgets",
+         "repo_type" : "Git",
+         "uses_rt" : false,
+         "ver" : "0.002"
       },
       {
          "auth" : "TEODESIAN",
