@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-16T16:33:35Z",
+   "gathered_at" : "2026-10-16T21:01:10Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1034,17 +1034,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-15",
+         "date" : "2026-10-16",
          "dist" : "Database-BI",
          "insecure_repo" : false,
-         "name" : "Database-BI-0.012.1",
+         "name" : "Database-BI-0.013.0",
          "repo" : "https://github.com/nigelhorne/Database-BI",
          "repo_def_branch" : "master",
          "repo_name" : "Database-BI",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v0.012.1"
+         "ver" : "v0.013.0"
       },
       {
          "auth" : "NHORNE",
@@ -2596,17 +2596,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-01-28",
+         "date" : "2026-10-16",
          "dist" : "Locale-Places",
          "insecure_repo" : false,
-         "name" : "Locale-Places-0.16",
+         "name" : "Locale-Places-0.17",
          "repo" : "https://github.com/nigelhorne/Locale-Places",
          "repo_def_branch" : "master",
          "repo_name" : "Locale-Places",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.16"
+         "ver" : "0.17"
       },
       {
          "auth" : "NHORNE",

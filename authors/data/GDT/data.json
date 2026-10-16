@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-16T16:33:27Z",
+   "gathered_at" : "2026-10-16T21:01:05Z",
    "modules" : [
       {
          "auth" : "GDT",
@@ -574,17 +574,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-01-26",
+         "date" : "2026-10-16",
          "dist" : "URI-PackageURL",
          "insecure_repo" : false,
-         "name" : "URI-PackageURL-2.25",
+         "name" : "URI-PackageURL-2.26",
          "repo" : "https://github.com/giterlizzi/perl-URI-PackageURL",
          "repo_def_branch" : "master",
          "repo_name" : "perl-URI-PackageURL",
          "repo_owner" : "giterlizzi",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "2.25"
+         "ver" : "2.26"
       },
       {
          "auth" : "GDT",

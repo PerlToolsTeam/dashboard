@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-16T16:33:33Z",
+   "gathered_at" : "2026-10-16T21:01:07Z",
    "modules" : [
       {
          "auth" : "MANWAR",
@@ -180,6 +180,35 @@
          "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "v0.0.6"
+      },
+      {
+         "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/App-MCP-CLI/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-10-16",
+         "dist" : "App-MCP-CLI",
+         "insecure_repo" : false,
+         "name" : "App-MCP-CLI-v0.0.1",
+         "repo" : "https://github.com/manwar/App-MCP-CLI",
+         "repo_def_branch" : "master",
+         "repo_name" : "App-MCP-CLI",
+         "repo_owner" : "manwar",
+         "repo_type" : "Git",
+         "uses_rt" : false,
+         "ver" : "v0.0.1"
       },
       {
          "auth" : "MANWAR",
