@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-15T21:19:00Z",
+   "gathered_at" : "2026-10-16T04:23:43Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1865,17 +1865,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-15",
+         "date" : "2026-10-16",
          "dist" : "Geo-Coder-Free",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-Free-0.45",
+         "name" : "Geo-Coder-Free-0.46",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-Free",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-Free",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.45"
+         "ver" : "0.46"
       },
       {
          "auth" : "NHORNE",
