@@ -1074,6 +1074,7 @@
       "Sub-Protected" : "master",
       "Syntax-Feature-With" : "master",
       "Test-CPAN-Health" : "master",
+      "Test-Consumer-Contract" : "master",
       "Test-HTTPStatus" : "master",
       "Test-Log-Abstraction" : "master",
       "Test-Mockingbird" : "master",
