@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-17T10:34:15Z",
+   "gathered_at" : "2026-10-17T15:27:58Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -2129,14 +2129,14 @@
          "date" : "2026-10-17",
          "dist" : "Geo-Location-Point",
          "insecure_repo" : false,
-         "name" : "Geo-Location-Point-0.17",
+         "name" : "Geo-Location-Point-0.18",
          "repo" : "https://github.com/nigelhorne/Geo-Location-Point",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Location-Point",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.17"
+         "ver" : "0.18"
       },
       {
          "auth" : "NHORNE",
@@ -2181,10 +2181,10 @@
          },
          "date" : "2026-10-17",
          "dist" : "HTML-D3",
-         "name" : "HTML-D3-0.21",
+         "name" : "HTML-D3-0.23",
          "repo" : null,
          "uses_rt" : false,
-         "ver" : "0.21"
+         "ver" : "0.23"
       },
       {
          "auth" : "NHORNE",
@@ -3234,14 +3234,14 @@
          "date" : "2026-10-17",
          "dist" : "Test-Consumer-Contract",
          "insecure_repo" : false,
-         "name" : "Test-Consumer-Contract-0.01",
+         "name" : "Test-Consumer-Contract-0.02",
          "repo" : "https://github.com/nigelhorne/Test-Consumer-Contract",
          "repo_def_branch" : "master",
          "repo_name" : "Test-Consumer-Contract",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "NHORNE",
