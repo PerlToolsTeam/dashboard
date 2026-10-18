@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-17T20:31:01Z",
+   "gathered_at" : "2026-10-18T04:22:20Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1807,17 +1807,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2025-02-08",
+         "date" : "2026-10-18",
          "dist" : "Geo-Coder-CA",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-CA-0.15",
+         "name" : "Geo-Coder-CA-0.16",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-CA",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-CA",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.15"
+         "ver" : "0.16"
       },
       {
          "auth" : "NHORNE",
@@ -1836,17 +1836,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2019-02-02",
+         "date" : "2026-10-18",
          "dist" : "Geo-Coder-DataScienceToolkit",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-DataScienceToolkit-0.02",
+         "name" : "Geo-Coder-DataScienceToolkit-0.03",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-DataScienceToolkit",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-DataScienceToolkit",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "NHORNE",
@@ -2126,17 +2126,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-17",
+         "date" : "2026-10-18",
          "dist" : "Geo-Location-Point",
          "insecure_repo" : false,
-         "name" : "Geo-Location-Point-0.18",
+         "name" : "Geo-Location-Point-0.19",
          "repo" : "https://github.com/nigelhorne/Geo-Location-Point",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Location-Point",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.18"
+         "ver" : "0.19"
       },
       {
          "auth" : "NHORNE",
@@ -2203,17 +2203,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-15",
+         "date" : "2026-10-17",
          "dist" : "HTML-Genealogy-Map",
          "insecure_repo" : false,
-         "name" : "HTML-Genealogy-Map-0.05",
+         "name" : "HTML-Genealogy-Map-0.06",
          "repo" : "https://github.com/nigelhorne/HTML-Genealogy-Map",
          "repo_def_branch" : "master",
          "repo_name" : "HTML-Genealogy-Map",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.05"
+         "ver" : "0.06"
       },
       {
          "auth" : "NHORNE",
@@ -3231,17 +3231,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-17",
+         "date" : "2026-10-18",
          "dist" : "Test-Consumer-Contract",
          "insecure_repo" : false,
-         "name" : "Test-Consumer-Contract-0.02",
+         "name" : "Test-Consumer-Contract-0.03",
          "repo" : "https://github.com/nigelhorne/Test-Consumer-Contract",
          "repo_def_branch" : "master",
          "repo_name" : "Test-Consumer-Contract",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "NHORNE",
