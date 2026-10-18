@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-18T15:48:18Z",
+   "gathered_at" : "2026-10-18T20:35:40Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -2137,6 +2137,35 @@
          "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.19"
+      },
+      {
+         "auth" : "NHORNE",
+         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Location-Predicate",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-10-18",
+         "dist" : "Geo-Location-Predicate",
+         "insecure_repo" : false,
+         "name" : "Geo-Location-Predicate-0.01",
+         "repo" : "https://github.com/nigelhorne/Geo-Location-Predicate",
+         "repo_def_branch" : "master",
+         "repo_name" : "Geo-Location-Predicate",
+         "repo_owner" : "nigelhorne",
+         "repo_type" : "Git",
+         "uses_rt" : true,
+         "ver" : "0.01"
       },
       {
          "auth" : "NHORNE",

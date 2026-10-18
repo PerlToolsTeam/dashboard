@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-18T15:48:23Z",
+   "gathered_at" : "2026-10-18T20:35:45Z",
    "modules" : [
       {
          "auth" : "SKIM",
@@ -1619,17 +1619,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-11",
+         "date" : "2026-10-18",
          "dist" : "Business-UDC",
          "insecure_repo" : false,
-         "name" : "Business-UDC-0.09",
+         "name" : "Business-UDC-0.10",
          "repo" : "https://github.com/michal-josef-spacek/Business-UDC",
          "repo_def_branch" : "main",
          "repo_name" : "Business-UDC",
          "repo_owner" : "michal-josef-spacek",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.09"
+         "ver" : "0.10"
       },
       {
          "auth" : "SKIM",

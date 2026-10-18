@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-18T15:48:34Z",
+   "gathered_at" : "2026-10-18T20:35:53Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -1049,6 +1049,35 @@
          "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.052"
+      },
+      {
+         "auth" : "TEODESIAN",
+         "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/Trog-SQLite/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-10-18",
+         "dist" : "Trog-SQLite",
+         "insecure_repo" : false,
+         "name" : "Trog-SQLite-0.001",
+         "repo" : "https://github.com/Troglodyne-Internet-Widgets/Trog-SQLite",
+         "repo_def_branch" : "master",
+         "repo_name" : "Trog-SQLite",
+         "repo_owner" : "Troglodyne-Internet-Widgets",
+         "repo_type" : "Git",
+         "uses_rt" : false,
+         "ver" : "0.001"
       },
       {
          "auth" : "TEODESIAN",

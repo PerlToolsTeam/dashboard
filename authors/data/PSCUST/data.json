@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-18T15:48:21Z",
+   "gathered_at" : "2026-10-18T20:35:41Z",
    "modules" : [
       {
          "auth" : "PSCUST",
@@ -342,12 +342,12 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-16",
+         "date" : "2026-10-18",
          "dist" : "ZX81-Tape",
-         "name" : "ZX81-Tape-0.002",
+         "name" : "ZX81-Tape-0.004",
          "repo" : null,
          "uses_rt" : false,
-         "ver" : "0.002"
+         "ver" : "0.004"
       },
       {
          "auth" : "PSCUST",
