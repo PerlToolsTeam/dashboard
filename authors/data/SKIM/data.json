@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-19T04:32:27Z",
+   "gathered_at" : "2026-10-19T13:00:30Z",
    "modules" : [
       {
          "auth" : "SKIM",
@@ -4664,17 +4664,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-11",
+         "date" : "2026-10-19",
          "dist" : "MARC-Validator",
          "insecure_repo" : false,
-         "name" : "MARC-Validator-0.23",
+         "name" : "MARC-Validator-0.24",
          "repo" : "https://github.com/michal-josef-spacek/MARC-Validator",
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Validator",
          "repo_owner" : "michal-josef-spacek",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.23"
+         "ver" : "0.24"
       },
       {
          "auth" : "SKIM",
@@ -7936,17 +7936,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2025-09-22",
+         "date" : "2026-10-19",
          "dist" : "Tags-HTML-Footer",
          "insecure_repo" : false,
-         "name" : "Tags-HTML-Footer-0.04",
+         "name" : "Tags-HTML-Footer-0.05",
          "repo" : "https://github.com/michal-josef-spacek/Tags-HTML-Footer",
          "repo_def_branch" : "main",
          "repo_name" : "Tags-HTML-Footer",
          "repo_owner" : "michal-josef-spacek",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.04"
+         "ver" : "0.05"
       },
       {
          "auth" : "SKIM",
