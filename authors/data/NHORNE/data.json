@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-18T20:35:40Z",
+   "gathered_at" : "2026-10-19T04:32:22Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1807,17 +1807,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-18",
+         "date" : "2026-10-19",
          "dist" : "Geo-Coder-CA",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-CA-0.16",
+         "name" : "Geo-Coder-CA-0.17",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-CA",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-CA",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.16"
+         "ver" : "0.17"
       },
       {
          "auth" : "NHORNE",
@@ -1836,17 +1836,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-18",
+         "date" : "2026-10-19",
          "dist" : "Geo-Coder-DataScienceToolkit",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-DataScienceToolkit-0.03",
+         "name" : "Geo-Coder-DataScienceToolkit-0.04",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-DataScienceToolkit",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-DataScienceToolkit",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "NHORNE",
@@ -1894,17 +1894,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2025-03-04",
+         "date" : "2026-10-19",
          "dist" : "Geo-Coder-GeoApify",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-GeoApify-0.02",
+         "name" : "Geo-Coder-GeoApify-0.03",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-GeoApify",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-GeoApify",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "NHORNE",
@@ -2155,17 +2155,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-18",
+         "date" : "2026-10-19",
          "dist" : "Geo-Location-Predicate",
          "insecure_repo" : false,
-         "name" : "Geo-Location-Predicate-0.01",
+         "name" : "Geo-Location-Predicate-0.02",
          "repo" : "https://github.com/nigelhorne/Geo-Location-Predicate",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Location-Predicate",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.01"
+         "ver" : "0.02"
       },
       {
          "auth" : "NHORNE",
