@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-19T13:00:24Z",
+   "gathered_at" : "2026-10-19T22:18:17Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1034,17 +1034,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-16",
+         "date" : "2026-10-19",
          "dist" : "Database-BI",
          "insecure_repo" : false,
-         "name" : "Database-BI-0.013.0",
+         "name" : "Database-BI-0.014.0",
          "repo" : "https://github.com/nigelhorne/Database-BI",
          "repo_def_branch" : "master",
          "repo_name" : "Database-BI",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v0.013.0"
+         "ver" : "v0.014.0"
       },
       {
          "auth" : "NHORNE",
@@ -1952,17 +1952,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-07-10",
+         "date" : "2026-10-19",
          "dist" : "Geo-Coder-List",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-List-0.38",
+         "name" : "Geo-Coder-List-0.39",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-List",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-List",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.38"
+         "ver" : "0.39"
       },
       {
          "auth" : "NHORNE",
@@ -1995,7 +1995,7 @@
       },
       {
          "auth" : "NHORNE",
-         "bugtracker" : "https://github.com/nigelhorne/Geo-Coder-Postcodes/issues",
+         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-Coder-Postcodes",
          "ci" : {
             "cirrus_task_names" : [],
             "gh_workflow_files" : [],
@@ -2010,17 +2010,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2024-07-11",
+         "date" : "2026-10-19",
          "dist" : "Geo-Coder-Postcodes",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-Postcodes-0.08",
+         "name" : "Geo-Coder-Postcodes-0.09",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-Postcodes",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-Postcodes",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
-         "uses_rt" : false,
-         "ver" : "0.08"
+         "uses_rt" : true,
+         "ver" : "0.09"
       },
       {
          "auth" : "NHORNE",
@@ -2068,17 +2068,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2025-07-13",
+         "date" : "2026-10-19",
          "dist" : "Geo-Coder-XYZ",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-XYZ-0.10",
+         "name" : "Geo-Coder-XYZ-0.11",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-XYZ",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-XYZ",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.10"
+         "ver" : "0.11"
       },
       {
          "auth" : "NHORNE",

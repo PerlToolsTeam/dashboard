@@ -38,7 +38,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-19T13:00:24Z",
+   "gathered_at" : "2026-10-19T22:18:19Z",
    "modules" : [
       {
          "auth" : "OALDERS",
@@ -1736,14 +1736,14 @@
          "date" : "2026-10-19",
          "dist" : "URI",
          "insecure_repo" : false,
-         "name" : "URI-5.38",
+         "name" : "URI-5.40",
          "repo" : "https://github.com/libwww-perl/URI",
          "repo_def_branch" : "master",
          "repo_name" : "URI",
          "repo_owner" : "libwww-perl",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "5.38"
+         "ver" : "5.40"
       },
       {
          "auth" : "OALDERS",
