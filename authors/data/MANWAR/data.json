@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-19T22:18:14Z",
+   "gathered_at" : "2026-10-20T04:41:51Z",
    "modules" : [
       {
          "auth" : "MANWAR",
@@ -2039,6 +2039,35 @@
       },
       {
          "auth" : "MANWAR",
+         "bugtracker" : "https://github.com/manwar/Map-Tube-Barcelona/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 0,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-10-19",
+         "dist" : "Map-Tube-Barcelona",
+         "insecure_repo" : false,
+         "name" : "Map-Tube-Barcelona-v1.0.1",
+         "repo" : "https://github.com/manwar/Map-Tube-Barcelona",
+         "repo_def_branch" : "master",
+         "repo_name" : "Map-Tube-Barcelona",
+         "repo_owner" : "manwar",
+         "repo_type" : "Git",
+         "uses_rt" : false,
+         "ver" : "v1.0.1"
+      },
+      {
+         "auth" : "MANWAR",
          "bugtracker" : "https://github.com/manwar/Map-Tube-CLI/issues",
          "ci" : {
             "cirrus_task_names" : [],
@@ -2054,17 +2083,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-07-10",
+         "date" : "2026-10-19",
          "dist" : "Map-Tube-CLI",
          "insecure_repo" : false,
-         "name" : "Map-Tube-CLI-v1.0.0",
+         "name" : "Map-Tube-CLI-v1.0.1",
          "repo" : "https://github.com/manwar/Map-Tube-CLI",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-CLI",
          "repo_owner" : "manwar",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v1.0.0"
+         "ver" : "v1.0.1"
       },
       {
          "auth" : "MANWAR",
