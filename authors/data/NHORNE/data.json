@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-20T21:33:36Z",
+   "gathered_at" : "2026-10-21T04:36:03Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1034,17 +1034,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-19",
+         "date" : "2026-10-21",
          "dist" : "Database-BI",
          "insecure_repo" : false,
-         "name" : "Database-BI-0.014.0",
+         "name" : "Database-BI-0.015.0",
          "repo" : "https://github.com/nigelhorne/Database-BI",
          "repo_def_branch" : "master",
          "repo_name" : "Database-BI",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v0.014.0"
+         "ver" : "v0.015.0"
       },
       {
          "auth" : "NHORNE",
@@ -1362,7 +1362,7 @@
       },
       {
          "auth" : "NHORNE",
-         "bugtracker" : "",
+         "bugtracker" : "https://github.com/nigelhorne/File-Slurp-Remote/issues",
          "ci" : {
             "cirrus_task_names" : [],
             "gh_workflow_files" : [],
@@ -1377,12 +1377,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-11",
+         "date" : "2026-10-21",
          "dist" : "File-Slurp-Remote",
-         "name" : "File-Slurp-Remote-0.47",
-         "repo" : null,
+         "insecure_repo" : false,
+         "name" : "File-Slurp-Remote-0.48",
+         "repo" : "https://github.com/nigelhorne/File-Slurp-Remote",
+         "repo_def_branch" : "master",
+         "repo_name" : "File-Slurp-Remote",
+         "repo_owner" : "nigelhorne",
+         "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : 0.47
+         "ver" : "0.48"
       },
       {
          "auth" : "NHORNE",
@@ -1865,17 +1870,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-19",
+         "date" : "2026-10-21",
          "dist" : "Geo-Coder-Free",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-Free-0.48",
+         "name" : "Geo-Coder-Free-0.49",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-Free",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-Free",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.48"
+         "ver" : "0.49"
       },
       {
          "auth" : "NHORNE",

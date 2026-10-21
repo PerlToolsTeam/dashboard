@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-20T21:33:34Z",
+   "gathered_at" : "2026-10-21T04:36:00Z",
    "modules" : [
       {
          "auth" : "MANWAR",
@@ -2179,7 +2179,7 @@
       },
       {
          "auth" : "MANWAR",
-         "bugtracker" : "",
+         "bugtracker" : "https://github.com/manwar/Map-Tube-Leipzig/issues",
          "ci" : {
             "cirrus_task_names" : [],
             "gh_workflow_files" : [],
@@ -2194,17 +2194,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-09-30",
+         "date" : "2026-10-21",
          "dist" : "Map-Tube-Leipzig",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Leipzig-v0.1.0",
+         "name" : "Map-Tube-Leipzig-v1.0.0",
          "repo" : "https://github.com/manwar/Map-Tube-Leipzig",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Leipzig",
          "repo_owner" : "manwar",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v0.1.0"
+         "ver" : "v1.0.0"
       },
       {
          "auth" : "MANWAR",

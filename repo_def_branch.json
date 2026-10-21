@@ -1014,6 +1014,7 @@
       "FCGI-Buffer" : "master",
       "File-Open-NoCache-ReadOnly" : "master",
       "File-Print-Many" : "master",
+      "File-Slurp-Remote" : "master",
       "File-pfopen" : "master",
       "Genealogy-ChroniclingAmerica" : "master",
       "Genealogy-FindaGrave" : "master",
