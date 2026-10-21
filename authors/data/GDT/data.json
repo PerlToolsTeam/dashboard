@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-21T17:06:27Z",
+   "gathered_at" : "2026-10-21T21:36:09Z",
    "modules" : [
       {
          "auth" : "GDT",
@@ -382,6 +382,35 @@
          "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "1.20"
+      },
+      {
+         "auth" : "GDT",
+         "bugtracker" : "https://github.com/giterlizzi/perl-Net-ADB/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 0,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-10-21",
+         "dist" : "Net-ADB",
+         "insecure_repo" : false,
+         "name" : "Net-ADB-0.01",
+         "repo" : "https://github.com/giterlizzi/perl-Net-ADB",
+         "repo_def_branch" : "main",
+         "repo_name" : "perl-Net-ADB",
+         "repo_owner" : "giterlizzi",
+         "repo_type" : "Git",
+         "uses_rt" : false,
+         "ver" : "0.01"
       },
       {
          "auth" : "GDT",
