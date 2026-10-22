@@ -974,6 +974,7 @@
       "oauth-cmdline" : "master"
    },
    "nigelhorne" : {
+      "App-Actions" : "master",
       "App-GHGen" : "master",
       "App-Project-Doctor" : "master",
       "App-Test-Generator" : "master",

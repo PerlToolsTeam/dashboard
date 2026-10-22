@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-22T11:43:14Z",
+   "gathered_at" : "2026-10-22T17:06:05Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -864,17 +864,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-09-02",
+         "date" : "2026-10-22",
          "dist" : "Playwright",
          "insecure_repo" : false,
-         "name" : "Playwright-1.621",
+         "name" : "Playwright-1.641",
          "repo" : "https://github.com/teodesian/playwright-perl",
          "repo_def_branch" : "main",
          "repo_name" : "playwright-perl",
          "repo_owner" : "teodesian",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "1.621"
+         "ver" : "1.641"
       },
       {
          "auth" : "TEODESIAN",
