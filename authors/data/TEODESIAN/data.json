@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-21T21:36:41Z",
+   "gathered_at" : "2026-10-22T04:34:49Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -255,17 +255,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-08",
+         "date" : "2026-10-22",
          "dist" : "Perl-Critic-Distribution",
          "insecure_repo" : false,
-         "name" : "Perl-Critic-Distribution-0.001",
+         "name" : "Perl-Critic-Distribution-0.002",
          "repo" : "https://github.com/teodesian/perl-critic-distribution",
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-distribution",
          "repo_owner" : "teodesian",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.001"
+         "ver" : "0.002"
       },
       {
          "auth" : "TEODESIAN",
@@ -443,6 +443,35 @@
       },
       {
          "auth" : "TEODESIAN",
+         "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/perl-critic-policy-prohibitmisplacedmethods/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-10-22",
+         "dist" : "Perl-Critic-Policy-ProhibitMisplacedMethods",
+         "insecure_repo" : false,
+         "name" : "Perl-Critic-Policy-ProhibitMisplacedMethods-0.001",
+         "repo" : "https://github.com/Troglodyne-Internet-Widgets/perl-critic-policy-prohibitmisplacedmethods",
+         "repo_def_branch" : "master",
+         "repo_name" : "perl-critic-policy-prohibitmisplacedmethods",
+         "repo_owner" : "Troglodyne-Internet-Widgets",
+         "repo_type" : "Git",
+         "uses_rt" : false,
+         "ver" : "0.001"
+      },
+      {
+         "auth" : "TEODESIAN",
          "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/perl-critic-policy-prohibitunuseddefinitions/issues",
          "ci" : {
             "cirrus_task_names" : [],
@@ -458,17 +487,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-08",
+         "date" : "2026-10-22",
          "dist" : "Perl-Critic-Policy-ProhibitUnusedDefinitions",
          "insecure_repo" : false,
-         "name" : "Perl-Critic-Policy-ProhibitUnusedDefinitions-0.005",
+         "name" : "Perl-Critic-Policy-ProhibitUnusedDefinitions-0.006",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/perl-critic-policy-prohibitunuseddefinitions",
          "repo_def_branch" : "master",
          "repo_name" : "perl-critic-policy-prohibitunuseddefinitions",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.005"
+         "ver" : "0.006"
       },
       {
          "auth" : "TEODESIAN",
