@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-22T21:30:33Z",
+   "gathered_at" : "2026-10-23T04:40:16Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -320,6 +320,35 @@
          "repo" : "https://github.com/teodesian/perl-critic-policy-prohibitindirectbooleangrep",
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitindirectbooleangrep",
+         "repo_owner" : "teodesian",
+         "repo_type" : "Git",
+         "uses_rt" : false,
+         "ver" : "0.001"
+      },
+      {
+         "auth" : "TEODESIAN",
+         "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitemptyconditionalblocks/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-10-23",
+         "dist" : "Perl-Critic-Policy-ControlStructures-ProhibitEmptyConditionalBlocks",
+         "insecure_repo" : false,
+         "name" : "Perl-Critic-Policy-ControlStructures-ProhibitEmptyConditionalBlocks-0.001",
+         "repo" : "https://github.com/teodesian/perl-critic-policy-prohibitemptyconditionalblocks",
+         "repo_def_branch" : "",
+         "repo_name" : "perl-critic-policy-prohibitemptyconditionalblocks",
          "repo_owner" : "teodesian",
          "repo_type" : "Git",
          "uses_rt" : false,
