@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-23T17:00:15Z",
+   "gathered_at" : "2026-10-23T21:20:58Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -110,17 +110,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-09-06",
+         "date" : "2026-10-23",
          "dist" : "Configd",
          "insecure_repo" : false,
-         "name" : "Configd-0.002",
+         "name" : "Configd-0.003",
          "repo" : "https://github.com/teodesian/perl-configd",
          "repo_def_branch" : "",
          "repo_name" : "perl-configd",
          "repo_owner" : "teodesian",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.002"
+         "ver" : "0.003"
       },
       {
          "auth" : "TEODESIAN",
@@ -1154,17 +1154,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-09-25",
+         "date" : "2026-10-23",
          "dist" : "Trog-TOTP",
          "insecure_repo" : false,
-         "name" : "Trog-TOTP-1.007",
+         "name" : "Trog-TOTP-1.008",
          "repo" : "https://github.com/teodesian/Trog-TOTP",
          "repo_def_branch" : "master",
          "repo_name" : "Trog-TOTP",
          "repo_owner" : "teodesian",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "1.007"
+         "ver" : "1.008"
       },
       {
          "auth" : "TEODESIAN",

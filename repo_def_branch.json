@@ -975,6 +975,7 @@
    },
    "nigelhorne" : {
       "App-Actions" : "master",
+      "App-FileSync" : "master",
       "App-GHGen" : "master",
       "App-Project-Doctor" : "master",
       "App-Test-Generator" : "master",
