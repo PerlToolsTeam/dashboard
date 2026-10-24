@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-23T21:20:43Z",
+   "gathered_at" : "2026-10-24T04:29:01Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -2324,12 +2324,12 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-20",
+         "date" : "2026-10-24",
          "dist" : "HTML-OSM",
-         "name" : "HTML-OSM-0.11",
+         "name" : "HTML-OSM-0.12",
          "repo" : null,
          "uses_rt" : false,
-         "ver" : "0.11"
+         "ver" : "0.12"
       },
       {
          "auth" : "NHORNE",

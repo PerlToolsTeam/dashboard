@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-23T21:20:58Z",
+   "gathered_at" : "2026-10-24T04:29:31Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -110,17 +110,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-23",
+         "date" : "2026-10-24",
          "dist" : "Configd",
          "insecure_repo" : false,
-         "name" : "Configd-0.003",
+         "name" : "Configd-0.005",
          "repo" : "https://github.com/teodesian/perl-configd",
          "repo_def_branch" : "",
          "repo_name" : "perl-configd",
          "repo_owner" : "teodesian",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.003"
+         "ver" : "0.005"
       },
       {
          "auth" : "TEODESIAN",
