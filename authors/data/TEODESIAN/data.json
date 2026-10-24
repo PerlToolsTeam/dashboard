@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-24T04:29:31Z",
+   "gathered_at" : "2026-10-24T10:51:26Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -516,17 +516,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-22",
+         "date" : "2026-10-24",
          "dist" : "Perl-Critic-Policy-ProhibitUnusedDefinitions",
          "insecure_repo" : false,
-         "name" : "Perl-Critic-Policy-ProhibitUnusedDefinitions-0.006",
+         "name" : "Perl-Critic-Policy-ProhibitUnusedDefinitions-0.007",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/perl-critic-policy-prohibitunuseddefinitions",
          "repo_def_branch" : "master",
          "repo_name" : "perl-critic-policy-prohibitunuseddefinitions",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.006"
+         "ver" : "0.007"
       },
       {
          "auth" : "TEODESIAN",
