@@ -125,6 +125,7 @@
       "Audit-Log-perl" : "master",
       "Linode-API" : "master",
       "Microsoft-Translator-Perl" : "master",
+      "Milter-Client" : "master",
       "Pivot-ArrayOfHashes" : "master",
       "Trog-SQLite" : "master",
       "URI-Shorten" : "master",
