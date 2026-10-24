@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-24T10:51:12Z",
+   "gathered_at" : "2026-10-24T15:51:48Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -96,7 +96,7 @@
       },
       {
          "auth" : "NHORNE",
-         "bugtracker" : "",
+         "bugtracker" : "https://github.com/nigelhorne/App-FileSync/issues",
          "ci" : {
             "cirrus_task_names" : [],
             "gh_workflow_files" : [],
@@ -111,17 +111,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-23",
+         "date" : "2026-10-24",
          "dist" : "App-FileSync",
          "insecure_repo" : false,
-         "name" : "App-FileSync-0.001.0",
+         "name" : "App-FileSync-0.001.1",
          "repo" : "https://github.com/nigelhorne/App-FileSync",
          "repo_def_branch" : "master",
          "repo_name" : "App-FileSync",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v0.001.0"
+         "ver" : "0.001.1"
       },
       {
          "auth" : "NHORNE",
