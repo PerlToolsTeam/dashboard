@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-25T16:06:30Z",
+   "gathered_at" : "2026-10-25T20:45:59Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -114,14 +114,14 @@
          "date" : "2026-10-25",
          "dist" : "App-FileSync",
          "insecure_repo" : false,
-         "name" : "App-FileSync-0.001.4",
+         "name" : "App-FileSync-0.001.5",
          "repo" : "https://github.com/nigelhorne/App-FileSync",
          "repo_def_branch" : "master",
          "repo_name" : "App-FileSync",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.001.4"
+         "ver" : "0.001.5"
       },
       {
          "auth" : "NHORNE",

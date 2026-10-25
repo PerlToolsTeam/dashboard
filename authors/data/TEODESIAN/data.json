@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-25T16:06:45Z",
+   "gathered_at" : "2026-10-25T20:46:18Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -168,17 +168,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-09-22",
+         "date" : "2026-10-25",
          "dist" : "Linode-API",
          "insecure_repo" : false,
-         "name" : "Linode-API-0.002",
+         "name" : "Linode-API-0.003",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/Linode-API",
          "repo_def_branch" : "master",
          "repo_name" : "Linode-API",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.002"
+         "ver" : "0.003"
       },
       {
          "auth" : "TEODESIAN",
