@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-24T20:42:48Z",
+   "gathered_at" : "2026-10-25T04:32:50Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -229,14 +229,14 @@
          "date" : "2026-10-24",
          "dist" : "Milter-Client",
          "insecure_repo" : false,
-         "name" : "Milter-Client-0.001",
+         "name" : "Milter-Client-0.002",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/Milter-Client",
          "repo_def_branch" : "master",
          "repo_name" : "Milter-Client",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.001"
+         "ver" : "0.002"
       },
       {
          "auth" : "TEODESIAN",

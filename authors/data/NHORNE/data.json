@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-24T20:42:35Z",
+   "gathered_at" : "2026-10-25T04:32:34Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -111,17 +111,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-24",
+         "date" : "2026-10-25",
          "dist" : "App-FileSync",
          "insecure_repo" : false,
-         "name" : "App-FileSync-0.001.1",
+         "name" : "App-FileSync-0.001.2",
          "repo" : "https://github.com/nigelhorne/App-FileSync",
          "repo_def_branch" : "master",
          "repo_name" : "App-FileSync",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.001.1"
+         "ver" : "0.001.2"
       },
       {
          "auth" : "NHORNE",
@@ -401,17 +401,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-02",
+         "date" : "2026-10-24",
          "dist" : "CGI-Info",
          "insecure_repo" : false,
-         "name" : "CGI-Info-1.15",
+         "name" : "CGI-Info-1.16",
          "repo" : "https://github.com/nigelhorne/CGI-Info",
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Info",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "1.15"
+         "ver" : "1.16"
       },
       {
          "auth" : "NHORNE",
@@ -1092,17 +1092,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-23",
+         "date" : "2026-10-24",
          "dist" : "Database-BI",
          "insecure_repo" : false,
-         "name" : "Database-BI-0.016.0",
+         "name" : "Database-BI-0.017.0",
          "repo" : "https://github.com/nigelhorne/Database-BI",
          "repo_def_branch" : "master",
          "repo_name" : "Database-BI",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v0.016.0"
+         "ver" : "0.017.0"
       },
       {
          "auth" : "NHORNE",
