@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-25T20:46:04Z",
+   "gathered_at" : "2026-10-26T04:37:58Z",
    "modules" : [
       {
          "auth" : "SKIM",
@@ -4664,17 +4664,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-19",
+         "date" : "2026-10-25",
          "dist" : "MARC-Validator",
          "insecure_repo" : false,
-         "name" : "MARC-Validator-0.24",
+         "name" : "MARC-Validator-0.25",
          "repo" : "https://github.com/michal-josef-spacek/MARC-Validator",
          "repo_def_branch" : "main",
          "repo_name" : "MARC-Validator",
          "repo_owner" : "michal-josef-spacek",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.24"
+         "ver" : "0.25"
       },
       {
          "auth" : "SKIM",
