@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-26T12:51:28Z",
+   "gathered_at" : "2026-10-26T22:37:22Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -1154,17 +1154,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-23",
+         "date" : "2026-10-26",
          "dist" : "Trog-SQLite",
          "insecure_repo" : false,
-         "name" : "Trog-SQLite-0.004",
+         "name" : "Trog-SQLite-0.005",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/Trog-SQLite",
          "repo_def_branch" : "master",
          "repo_name" : "Trog-SQLite",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.004"
+         "ver" : "0.005"
       },
       {
          "auth" : "TEODESIAN",

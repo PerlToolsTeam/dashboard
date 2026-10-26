@@ -44,7 +44,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-26T12:50:52Z",
+   "gathered_at" : "2026-10-26T22:36:43Z",
    "modules" : [
       {
          "auth" : "ATOOMIC",
@@ -714,17 +714,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-03-21",
+         "date" : "2026-10-26",
          "dist" : "Simple-Accessor",
          "insecure_repo" : false,
-         "name" : "Simple-Accessor-1.14",
+         "name" : "Simple-Accessor-1.15",
          "repo" : "https://github.com/atoomic/Simple-Accessor",
          "repo_def_branch" : "master",
          "repo_name" : "Simple-Accessor",
          "repo_owner" : "atoomic",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "1.14"
+         "ver" : "1.15"
       },
       {
          "auth" : "ATOOMIC",
