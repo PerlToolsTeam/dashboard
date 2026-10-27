@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-27T17:56:16Z",
+   "gathered_at" : "2026-10-27T22:07:47Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -3436,17 +3436,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-11",
+         "date" : "2026-10-27",
          "dist" : "Test-Log-Abstraction",
          "insecure_repo" : false,
-         "name" : "Test-Log-Abstraction-0.002.0",
+         "name" : "Test-Log-Abstraction-0.002.1",
          "repo" : "https://github.com/nigelhorne/Test-Log-Abstraction",
          "repo_def_branch" : "master",
          "repo_name" : "Test-Log-Abstraction",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "v0.002.0"
+         "ver" : "0.002.1"
       },
       {
          "auth" : "NHORNE",
