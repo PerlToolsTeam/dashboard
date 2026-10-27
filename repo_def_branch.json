@@ -1066,6 +1066,7 @@
       "Log-Dispatch-Email-Sendmail" : "master",
       "Log-Log4perl-Layout-Syslog" : "master",
       "Log::WarnDie" : "",
+      "Mojolicious-Plugin-Buffer" : "master",
       "NWC2MusicXML" : "master",
       "Object-Configure" : "master",
       "Params-Get" : "master",

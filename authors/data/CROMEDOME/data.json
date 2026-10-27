@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-26T22:36:46Z",
+   "gathered_at" : "2026-10-27T04:55:30Z",
    "modules" : [
       {
          "auth" : "CROMEDOME",
@@ -246,17 +246,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-09-28",
+         "date" : "2026-10-27",
          "dist" : "Dancer2",
          "insecure_repo" : false,
-         "name" : "Dancer2-2.2.2",
+         "name" : "Dancer2-2.3.0",
          "repo" : "https://github.com/PerlDancer/Dancer2",
          "repo_def_branch" : "main",
          "repo_name" : "Dancer2",
          "repo_owner" : "PerlDancer",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "2.2.2"
+         "ver" : "2.3.0"
       },
       {
          "auth" : "CROMEDOME",
