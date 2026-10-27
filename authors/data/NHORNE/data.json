@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-27T12:02:12Z",
+   "gathered_at" : "2026-10-27T17:56:16Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -3236,17 +3236,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-22",
+         "date" : "2026-10-27",
          "dist" : "Sub-Private",
          "insecure_repo" : false,
-         "name" : "Sub-Private-0.07",
+         "name" : "Sub-Private-0.08",
          "repo" : "https://github.com/nigelhorne/Sub-Private",
          "repo_def_branch" : "master",
          "repo_name" : "Sub-Private",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.07"
+         "ver" : "0.08"
       },
       {
          "auth" : "NHORNE",
