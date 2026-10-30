@@ -38,7 +38,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-29T22:42:22Z",
+   "gathered_at" : "2026-10-30T05:38:22Z",
    "modules" : [
       {
          "auth" : "OALDERS",
@@ -121,17 +121,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-09-19",
+         "date" : "2026-10-29",
          "dist" : "App-perlvars",
          "insecure_repo" : false,
-         "name" : "App-perlvars-0.000008",
+         "name" : "App-perlvars-0.000009",
          "repo" : "https://github.com/perl-ide/App-perlvars",
          "repo_def_branch" : "main",
          "repo_name" : "App-perlvars",
          "repo_owner" : "perl-ide",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.000008"
+         "ver" : "0.000009"
       },
       {
          "auth" : "OALDERS",
