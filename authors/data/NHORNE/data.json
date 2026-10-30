@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-30T05:38:21Z",
+   "gathered_at" : "2026-10-30T22:14:51Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1333,7 +1333,7 @@
       },
       {
          "auth" : "NHORNE",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=CGI-Buffer",
+         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=FCGI-Buffer",
          "ci" : {
             "cirrus_task_names" : [],
             "gh_workflow_files" : [],
@@ -1348,17 +1348,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-04-19",
+         "date" : "2026-10-30",
          "dist" : "FCGI-Buffer",
          "insecure_repo" : false,
-         "name" : "FCGI-Buffer-0.22",
-         "repo" : "https://github.com/nigelhorne/CGI-Buffer",
+         "name" : "FCGI-Buffer-0.23",
+         "repo" : "https://github.com/nigelhorne/FCGI-Buffer",
          "repo_def_branch" : "master",
-         "repo_name" : "CGI-Buffer",
+         "repo_name" : "FCGI-Buffer",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.22"
+         "ver" : "0.23"
       },
       {
          "auth" : "NHORNE",
@@ -1928,17 +1928,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-22",
+         "date" : "2026-10-30",
          "dist" : "Geo-Coder-Free",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-Free-0.51",
+         "name" : "Geo-Coder-Free-0.52",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-Free",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-Free",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.51"
+         "ver" : "0.52"
       },
       {
          "auth" : "NHORNE",
@@ -2859,17 +2859,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-12",
+         "date" : "2026-10-30",
          "dist" : "Music-NWC2MusicXML",
          "insecure_repo" : false,
-         "name" : "Music-NWC2MusicXML-0.002.1",
+         "name" : "Music-NWC2MusicXML-0.002.2",
          "repo" : "https://github.com/nigelhorne/NWC2MusicXML",
          "repo_def_branch" : "master",
          "repo_name" : "NWC2MusicXML",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "v0.002.1"
+         "ver" : "0.002.2"
       },
       {
          "auth" : "NHORNE",
