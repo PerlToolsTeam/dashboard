@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-10-31T12:15:57Z",
+   "gathered_at" : "2026-10-31T21:27:51Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -2273,10 +2273,10 @@
          },
          "date" : "2026-10-31",
          "dist" : "HTML-D3",
-         "name" : "HTML-D3-0.24",
+         "name" : "HTML-D3-0.26",
          "repo" : null,
          "uses_rt" : false,
-         "ver" : "0.24"
+         "ver" : "0.26"
       },
       {
          "auth" : "NHORNE",
