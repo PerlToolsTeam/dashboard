@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-01T13:13:34Z",
+   "gathered_at" : "2026-11-01T21:58:17Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1797,7 +1797,7 @@
       },
       {
          "auth" : "NHORNE",
-         "bugtracker" : "https://github.com/nigelhorne/Geo-AnomalyDetector/issues",
+         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Geo-AnomalyDetector",
          "ci" : {
             "cirrus_task_names" : [],
             "gh_workflow_files" : [],
@@ -1812,17 +1812,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2025-03-07",
+         "date" : "2026-11-01",
          "dist" : "Geo-AnomalyDetector",
          "insecure_repo" : false,
-         "name" : "Geo-AnomalyDetector-0.02",
+         "name" : "Geo-AnomalyDetector-0.03",
          "repo" : "https://github.com/nigelhorne/Geo-AnomalyDetector",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-AnomalyDetector",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
-         "uses_rt" : false,
-         "ver" : "0.02"
+         "uses_rt" : true,
+         "ver" : "0.03"
       },
       {
          "auth" : "NHORNE",
