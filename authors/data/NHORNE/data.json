@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-01T21:58:17Z",
+   "gathered_at" : "2026-11-02T05:54:26Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1121,17 +1121,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-14",
+         "date" : "2026-11-02",
          "dist" : "Database-Join",
          "insecure_repo" : false,
-         "name" : "Database-Join-0.010.0",
+         "name" : "Database-Join-0.010.1",
          "repo" : "https://github.com/nigelhorne/Database-Join",
          "repo_def_branch" : "master",
          "repo_name" : "Database-Join",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "v0.010.0"
+         "ver" : "0.010.1"
       },
       {
          "auth" : "NHORNE",
