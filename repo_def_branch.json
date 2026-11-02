@@ -162,7 +162,7 @@
       "OpenStack-MetaAPI" : "main",
       "Parallel-Subs" : "main",
       "Perl-Critic-Policy-PreferredModules" : "main",
-      "Simple-Accessor" : "master",
+      "Simple-Accessor" : "main",
       "Slack-WebHook" : "master",
       "Test-Mojo-Role-Debug-JSON" : "master",
       "XS-Logger" : "master",
