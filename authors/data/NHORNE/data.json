@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-03T00:54:40Z",
+   "gathered_at" : "2026-11-03T14:03:00Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1063,17 +1063,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-28",
+         "date" : "2026-11-03",
          "dist" : "Database-Abstraction",
          "insecure_repo" : false,
-         "name" : "Database-Abstraction-0.53",
+         "name" : "Database-Abstraction-0.54",
          "repo" : "https://github.com/nigelhorne/Database-Abstraction",
          "repo_def_branch" : "master",
          "repo_name" : "Database-Abstraction",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.53"
+         "ver" : "0.54"
       },
       {
          "auth" : "NHORNE",
@@ -2271,12 +2271,12 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-01",
+         "date" : "2026-11-03",
          "dist" : "HTML-D3",
-         "name" : "HTML-D3-0.27",
+         "name" : "HTML-D3-0.28",
          "repo" : null,
          "uses_rt" : false,
-         "ver" : "0.27"
+         "ver" : "0.28"
       },
       {
          "auth" : "NHORNE",
