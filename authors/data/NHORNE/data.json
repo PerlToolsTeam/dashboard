@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-02T15:39:27Z",
+   "gathered_at" : "2026-11-03T00:54:40Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -372,17 +372,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2025-03-23",
+         "date" : "2026-11-02",
          "dist" : "CGI-Buffer",
          "insecure_repo" : false,
-         "name" : "CGI-Buffer-0.88",
+         "name" : "CGI-Buffer-0.89",
          "repo" : "https://github.com/nigelhorne/CGI-Buffer",
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Buffer",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.88"
+         "ver" : "0.89"
       },
       {
          "auth" : "NHORNE",
@@ -2830,17 +2830,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-27",
+         "date" : "2026-11-02",
          "dist" : "Mojolicious-Plugin-Buffer",
          "insecure_repo" : false,
-         "name" : "Mojolicious-Plugin-Buffer-0.001.0",
+         "name" : "Mojolicious-Plugin-Buffer-0.001.1",
          "repo" : "https://github.com/nigelhorne/Mojolicious-Plugin-Buffer",
          "repo_def_branch" : "master",
          "repo_name" : "Mojolicious-Plugin-Buffer",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.001.0"
+         "ver" : "0.001.1"
       },
       {
          "auth" : "NHORNE",
@@ -2859,17 +2859,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-30",
+         "date" : "2026-11-02",
          "dist" : "Music-NWC2MusicXML",
          "insecure_repo" : false,
-         "name" : "Music-NWC2MusicXML-0.002.2",
+         "name" : "Music-NWC2MusicXML-0.002.3",
          "repo" : "https://github.com/nigelhorne/NWC2MusicXML",
          "repo_def_branch" : "master",
          "repo_name" : "NWC2MusicXML",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.002.2"
+         "ver" : "0.002.3"
       },
       {
          "auth" : "NHORNE",
