@@ -123,6 +123,7 @@
    },
    "Troglodyne-Internet-Widgets" : {
       "Audit-Log-perl" : "master",
+      "Dist-Conformance" : "main",
       "Linode-API" : "master",
       "Microsoft-Translator-Perl" : "master",
       "Milter-Client" : "master",
