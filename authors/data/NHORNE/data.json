@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-03T23:15:34Z",
+   "gathered_at" : "2026-11-04T06:05:58Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -2015,17 +2015,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-19",
+         "date" : "2026-11-04",
          "dist" : "Geo-Coder-List",
          "insecure_repo" : false,
-         "name" : "Geo-Coder-List-0.39",
+         "name" : "Geo-Coder-List-0.40",
          "repo" : "https://github.com/nigelhorne/Geo-Coder-List",
          "repo_def_branch" : "master",
          "repo_name" : "Geo-Coder-List",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.39"
+         "ver" : "0.40"
       },
       {
          "auth" : "NHORNE",
