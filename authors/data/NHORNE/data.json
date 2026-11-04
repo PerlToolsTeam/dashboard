@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-04T14:25:51Z",
+   "gathered_at" : "2026-11-04T23:36:41Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -2309,7 +2309,7 @@
       },
       {
          "auth" : "NHORNE",
-         "bugtracker" : "",
+         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=HTML-OSM",
          "ci" : {
             "cirrus_task_names" : [],
             "gh_workflow_files" : [],
@@ -2324,12 +2324,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-24",
+         "date" : "2026-11-04",
          "dist" : "HTML-OSM",
-         "name" : "HTML-OSM-0.12",
-         "repo" : null,
-         "uses_rt" : false,
-         "ver" : "0.12"
+         "insecure_repo" : false,
+         "name" : "HTML-OSM-0.13",
+         "repo" : "https://github.com/nigelhorne/HTML-OSM",
+         "repo_def_branch" : "master",
+         "repo_name" : "HTML-OSM",
+         "repo_owner" : "nigelhorne",
+         "repo_type" : "Git",
+         "uses_rt" : true,
+         "ver" : "0.13"
       },
       {
          "auth" : "NHORNE",
@@ -2830,17 +2835,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-02",
+         "date" : "2026-11-04",
          "dist" : "Mojolicious-Plugin-Buffer",
          "insecure_repo" : false,
-         "name" : "Mojolicious-Plugin-Buffer-0.001.1",
+         "name" : "Mojolicious-Plugin-Buffer-0.002.0",
          "repo" : "https://github.com/nigelhorne/Mojolicious-Plugin-Buffer",
          "repo_def_branch" : "master",
          "repo_name" : "Mojolicious-Plugin-Buffer",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.001.1"
+         "ver" : "0.002.0"
       },
       {
          "auth" : "NHORNE",
