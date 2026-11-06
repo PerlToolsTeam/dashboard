@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-06T06:30:43Z",
+   "gathered_at" : "2026-11-06T19:18:30Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -150,6 +150,35 @@
          "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.002"
+      },
+      {
+         "auth" : "TEODESIAN",
+         "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/Dist-Zilla-App-Command-podchecker/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-11-06",
+         "dist" : "Dist-Zilla-App-Command-podchecker",
+         "insecure_repo" : false,
+         "name" : "Dist-Zilla-App-Command-podchecker-0.001",
+         "repo" : "https://github.com/Troglodyne-Internet-Widgets/Dist-Zilla-App-Command-podchecker",
+         "repo_def_branch" : "master",
+         "repo_name" : "Dist-Zilla-App-Command-podchecker",
+         "repo_owner" : "Troglodyne-Internet-Widgets",
+         "repo_type" : "Git",
+         "uses_rt" : false,
+         "ver" : "0.001"
       },
       {
          "auth" : "TEODESIAN",

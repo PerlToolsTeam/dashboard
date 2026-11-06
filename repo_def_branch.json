@@ -124,6 +124,7 @@
    "Troglodyne-Internet-Widgets" : {
       "Audit-Log-perl" : "master",
       "Dist-Conformance" : "main",
+      "Dist-Zilla-App-Command-podchecker" : "master",
       "Linode-API" : "master",
       "Microsoft-Translator-Perl" : "master",
       "Milter-Client" : "master",
@@ -981,6 +982,7 @@
       "App-GHGen" : "master",
       "App-Project-Doctor" : "master",
       "App-Test-Generator" : "master",
+      "App-WebPerimeterScan" : "master",
       "App-Workflow-Lint" : "master",
       "App-access2csv" : "master",
       "App-makefilepl2cpanfile" : "master",

@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-06T06:30:23Z",
+   "gathered_at" : "2026-11-06T19:18:05Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -238,6 +238,35 @@
          "repo_type" : "Git",
          "uses_rt" : true,
          "ver" : "0.47"
+      },
+      {
+         "auth" : "NHORNE",
+         "bugtracker" : "https://github.com/nigelhorne/App-WebPerimeterScan/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-11-06",
+         "dist" : "App-WebPerimeterScan",
+         "insecure_repo" : false,
+         "name" : "App-WebPerimeterScan-0.001.0",
+         "repo" : "https://github.com/nigelhorne/App-WebPerimeterScan",
+         "repo_def_branch" : "master",
+         "repo_name" : "App-WebPerimeterScan",
+         "repo_owner" : "nigelhorne",
+         "repo_type" : "Git",
+         "uses_rt" : false,
+         "ver" : "0.001.0"
       },
       {
          "auth" : "NHORNE",
@@ -2893,17 +2922,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-08-20",
+         "date" : "2026-11-06",
          "dist" : "Object-Configure",
          "insecure_repo" : false,
-         "name" : "Object-Configure-0.24",
+         "name" : "Object-Configure-0.25",
          "repo" : "https://github.com/nigelhorne/Object-Configure",
          "repo_def_branch" : "master",
          "repo_name" : "Object-Configure",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : 0.24
+         "ver" : 0.25
       },
       {
          "auth" : "NHORNE",
