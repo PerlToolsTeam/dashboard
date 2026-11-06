@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-05T19:52:54Z",
+   "gathered_at" : "2026-11-06T06:30:20Z",
    "modules" : [
       {
          "auth" : "MANWAR",
@@ -2339,17 +2339,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-14",
+         "date" : "2026-11-06",
          "dist" : "Map-Tube-Plugin-Graph",
          "insecure_repo" : false,
-         "name" : "Map-Tube-Plugin-Graph-v1.2.2",
+         "name" : "Map-Tube-Plugin-Graph-v1.3.0",
          "repo" : "https://github.com/manwar/Map-Tube-Plugin-Graph",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-Plugin-Graph",
          "repo_owner" : "manwar",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v1.2.2"
+         "ver" : "v1.3.0"
       },
       {
          "auth" : "MANWAR",

@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-05T19:52:56Z",
+   "gathered_at" : "2026-11-06T06:30:23Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -111,17 +111,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-25",
+         "date" : "2026-11-05",
          "dist" : "App-FileSync",
          "insecure_repo" : false,
-         "name" : "App-FileSync-0.001.5",
+         "name" : "App-FileSync-0.002.0",
          "repo" : "https://github.com/nigelhorne/App-FileSync",
          "repo_def_branch" : "master",
          "repo_name" : "App-FileSync",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.001.5"
+         "ver" : "0.002.0"
       },
       {
          "auth" : "NHORNE",
@@ -657,17 +657,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-06-11",
+         "date" : "2026-11-05",
          "dist" : "Class-Abstract",
          "insecure_repo" : false,
-         "name" : "Class-Abstract-0.02",
+         "name" : "Class-Abstract-0.03",
          "repo" : "https://github.com/nigelhorne/Class-Abstract",
          "repo_def_branch" : "master",
          "repo_name" : "Class-Abstract",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.02"
+         "ver" : "0.03"
       },
       {
          "auth" : "NHORNE",
@@ -1063,17 +1063,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-03",
+         "date" : "2026-11-06",
          "dist" : "Database-Abstraction",
          "insecure_repo" : false,
-         "name" : "Database-Abstraction-0.54",
+         "name" : "Database-Abstraction-0.55",
          "repo" : "https://github.com/nigelhorne/Database-Abstraction",
          "repo_def_branch" : "master",
          "repo_name" : "Database-Abstraction",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.54"
+         "ver" : "0.55"
       },
       {
          "auth" : "NHORNE",
@@ -1121,17 +1121,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-02",
+         "date" : "2026-11-06",
          "dist" : "Database-Join",
          "insecure_repo" : false,
-         "name" : "Database-Join-0.010.1",
+         "name" : "Database-Join-0.011.1",
          "repo" : "https://github.com/nigelhorne/Database-Join",
          "repo_def_branch" : "master",
          "repo_name" : "Database-Join",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.010.1"
+         "ver" : "0.011.1"
       },
       {
          "auth" : "NHORNE",
@@ -2271,12 +2271,12 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-03",
+         "date" : "2026-11-05",
          "dist" : "HTML-D3",
-         "name" : "HTML-D3-0.29",
+         "name" : "HTML-D3-0.30",
          "repo" : null,
          "uses_rt" : false,
-         "ver" : "0.29"
+         "ver" : "0.30"
       },
       {
          "auth" : "NHORNE",
@@ -2324,17 +2324,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-04",
+         "date" : "2026-11-05",
          "dist" : "HTML-OSM",
          "insecure_repo" : false,
-         "name" : "HTML-OSM-0.13",
+         "name" : "HTML-OSM-0.14",
          "repo" : "https://github.com/nigelhorne/HTML-OSM",
          "repo_def_branch" : "master",
          "repo_name" : "HTML-OSM",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.13"
+         "ver" : "0.14"
       },
       {
          "auth" : "NHORNE",
