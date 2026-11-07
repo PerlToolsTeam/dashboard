@@ -135,6 +135,7 @@
       "perl-critic-policy-preventuselessmetacharacterescapes" : "master",
       "perl-critic-policy-prohibitmisplacedmethods" : "master",
       "perl-critic-policy-prohibitunuseddefinitions" : "master",
+      "perl-json-validator-schema-troglodyne" : "master",
       "perl-powerdns-api-acl" : "master",
       "perl-solusvm-client" : "master",
       "perl-tests-covering" : "main"

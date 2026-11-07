@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-06T19:18:30Z",
+   "gathered_at" : "2026-11-07T05:51:45Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -139,17 +139,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-04",
+         "date" : "2026-11-07",
          "dist" : "Dist-Conformance",
          "insecure_repo" : false,
-         "name" : "Dist-Conformance-0.002",
+         "name" : "Dist-Conformance-0.003",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/Dist-Conformance",
          "repo_def_branch" : "main",
          "repo_name" : "Dist-Conformance",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.002"
+         "ver" : "0.003"
       },
       {
          "auth" : "TEODESIAN",
@@ -1400,7 +1400,7 @@
       },
       {
          "auth" : "TEODESIAN",
-         "bugtracker" : "https://github.com/teodesian/perl-json-validator-schema-troglodyne/issues",
+         "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/perl-json-validator-schema-troglodyne/issues",
          "ci" : {
             "cirrus_task_names" : [],
             "gh_workflow_files" : [],
@@ -1415,17 +1415,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-08-27",
+         "date" : "2026-11-07",
          "dist" : "json-validator-schema-troglodyne",
          "insecure_repo" : false,
-         "name" : "json-validator-schema-troglodyne-1.000",
-         "repo" : "https://github.com/teodesian/perl-json-validator-schema-troglodyne",
-         "repo_def_branch" : "",
+         "name" : "json-validator-schema-troglodyne-1.001",
+         "repo" : "https://github.com/Troglodyne-Internet-Widgets/perl-json-validator-schema-troglodyne",
+         "repo_def_branch" : "master",
          "repo_name" : "perl-json-validator-schema-troglodyne",
-         "repo_owner" : "teodesian",
+         "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "1.000"
+         "ver" : "1.001"
       },
       {
          "auth" : "TEODESIAN",
