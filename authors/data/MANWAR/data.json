@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-07T05:51:23Z",
+   "gathered_at" : "2026-11-07T12:53:17Z",
    "modules" : [
       {
          "auth" : "MANWAR",
@@ -2083,17 +2083,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-31",
+         "date" : "2026-11-07",
          "dist" : "Map-Tube-CLI",
          "insecure_repo" : false,
-         "name" : "Map-Tube-CLI-v1.0.2",
+         "name" : "Map-Tube-CLI-v1.1.0",
          "repo" : "https://github.com/manwar/Map-Tube-CLI",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-CLI",
          "repo_owner" : "manwar",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v1.0.2"
+         "ver" : "v1.1.0"
       },
       {
          "auth" : "MANWAR",
