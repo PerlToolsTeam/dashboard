@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-08T13:15:35Z",
+   "gathered_at" : "2026-11-08T21:58:44Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -459,17 +459,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-09",
+         "date" : "2026-11-08",
          "dist" : "CGI-Lingua",
          "insecure_repo" : false,
-         "name" : "CGI-Lingua-0.87",
+         "name" : "CGI-Lingua-0.88",
          "repo" : "https://github.com/nigelhorne/CGI-Lingua",
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Lingua",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.87"
+         "ver" : "0.88"
       },
       {
          "auth" : "NHORNE",
@@ -831,17 +831,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-06",
+         "date" : "2026-11-08",
          "dist" : "Config-Abstraction",
          "insecure_repo" : false,
-         "name" : "Config-Abstraction-0.41",
+         "name" : "Config-Abstraction-0.42",
          "repo" : "https://github.com/nigelhorne/Config-Abstraction",
          "repo_def_branch" : "master",
          "repo_name" : "Config-Abstraction",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.41"
+         "ver" : "0.42"
       },
       {
          "auth" : "NHORNE",
@@ -1092,17 +1092,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-06",
+         "date" : "2026-11-08",
          "dist" : "Database-Abstraction",
          "insecure_repo" : false,
-         "name" : "Database-Abstraction-0.55",
+         "name" : "Database-Abstraction-0.56",
          "repo" : "https://github.com/nigelhorne/Database-Abstraction",
          "repo_def_branch" : "master",
          "repo_name" : "Database-Abstraction",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.55"
+         "ver" : "0.56"
       },
       {
          "auth" : "NHORNE",
