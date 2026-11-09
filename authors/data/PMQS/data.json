@@ -38,7 +38,7 @@
       "use_travis_com" : 1
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-09T06:10:57Z",
+   "gathered_at" : "2026-11-09T22:16:16Z",
    "modules" : [
       {
          "auth" : "PMQS",
@@ -266,17 +266,17 @@
             "use_travis" : 0,
             "use_travis_com" : 1
          },
-         "date" : "2026-10-09",
+         "date" : "2026-11-09",
          "dist" : "Compress-Raw-Zlib",
          "insecure_repo" : false,
-         "name" : "Compress-Raw-Zlib-2.225",
+         "name" : "Compress-Raw-Zlib-2.226",
          "repo" : "https://github.com/pmqs/Compress-Raw-Zlib",
          "repo_def_branch" : "master",
          "repo_name" : "Compress-Raw-Zlib",
          "repo_owner" : "pmqs",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "2.225"
+         "ver" : "2.226"
       },
       {
          "auth" : "PMQS",
