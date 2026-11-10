@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-10T07:08:09Z",
+   "gathered_at" : "2026-11-10T19:40:12Z",
    "modules" : [
       {
          "auth" : "MIKKOI",
@@ -451,17 +451,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-10",
+         "date" : "2026-11-10",
          "dist" : "Git-MoreHooks",
          "insecure_repo" : false,
-         "name" : "Git-MoreHooks-0.020",
+         "name" : "Git-MoreHooks-0.021",
          "repo" : "https://github.com/mikkoi/git-morehooks",
          "repo_def_branch" : "main",
          "repo_name" : "git-morehooks",
          "repo_owner" : "mikkoi",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.020"
+         "ver" : "0.021"
       },
       {
          "auth" : "MIKKOI",

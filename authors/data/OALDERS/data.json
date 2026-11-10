@@ -38,7 +38,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-10T07:08:12Z",
+   "gathered_at" : "2026-11-10T19:40:16Z",
    "modules" : [
       {
          "auth" : "OALDERS",
@@ -586,17 +586,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2021-11-02",
+         "date" : "2026-11-10",
          "dist" : "Git-Helpers",
          "insecure_repo" : false,
-         "name" : "Git-Helpers-1.000001",
+         "name" : "Git-Helpers-1.000002",
          "repo" : "https://github.com/oalders/git-helpers",
          "repo_def_branch" : "main",
          "repo_name" : "git-helpers",
          "repo_owner" : "oalders",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "1.000001"
+         "ver" : "1.000002"
       },
       {
          "auth" : "OALDERS",
