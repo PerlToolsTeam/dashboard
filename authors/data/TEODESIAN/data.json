@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-10T19:40:35Z",
+   "gathered_at" : "2026-11-11T06:01:28Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -139,17 +139,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-07",
+         "date" : "2026-11-10",
          "dist" : "Dist-Conformance",
          "insecure_repo" : false,
-         "name" : "Dist-Conformance-0.003",
+         "name" : "Dist-Conformance-0.004",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/Dist-Conformance",
          "repo_def_branch" : "main",
          "repo_name" : "Dist-Conformance",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.003"
+         "ver" : "0.004"
       },
       {
          "auth" : "TEODESIAN",

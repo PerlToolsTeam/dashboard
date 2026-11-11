@@ -1106,6 +1106,7 @@
       "WWW-Scrape-FindaGrave" : "master",
       "Weather-Meteo" : "master",
       "Weather-Meto" : "",
+      "Web-VWF" : "master",
       "XML-PP" : "master",
       "sub-private-perl/tree/master" : "",
       "syslogd" : "master"

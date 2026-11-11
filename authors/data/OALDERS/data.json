@@ -38,7 +38,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-10T19:40:16Z",
+   "gathered_at" : "2026-11-11T06:01:13Z",
    "modules" : [
       {
          "auth" : "OALDERS",
@@ -1392,17 +1392,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2025-10-28",
+         "date" : "2026-11-11",
          "dist" : "Open-This",
          "insecure_repo" : false,
-         "name" : "Open-This-0.000035",
+         "name" : "Open-This-0.000036",
          "repo" : "https://github.com/perl-ide/open-this",
          "repo_def_branch" : "main",
          "repo_name" : "open-this",
          "repo_owner" : "perl-ide",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.000035"
+         "ver" : "0.000036"
       },
       {
          "auth" : "OALDERS",

@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-10T19:40:11Z",
+   "gathered_at" : "2026-11-11T06:01:09Z",
    "modules" : [
       {
          "auth" : "MANWAR",
@@ -966,7 +966,7 @@
       },
       {
          "auth" : "MANWAR",
-         "bugtracker" : "",
+         "bugtracker" : "https://github.com/manwar/Dancer2-Plugin-Captcha/issues",
          "ci" : {
             "cirrus_task_names" : [],
             "gh_workflow_files" : [],
@@ -981,17 +981,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2020-07-10",
+         "date" : "2026-11-10",
          "dist" : "Dancer2-Plugin-Captcha",
          "insecure_repo" : false,
-         "name" : "Dancer2-Plugin-Captcha-0.14",
+         "name" : "Dancer2-Plugin-Captcha-v1.0.0",
          "repo" : "https://github.com/manwar/Dancer2-Plugin-Captcha",
          "repo_def_branch" : "master",
          "repo_name" : "Dancer2-Plugin-Captcha",
          "repo_owner" : "manwar",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.14"
+         "ver" : "v1.0.0"
       },
       {
          "auth" : "MANWAR",
@@ -2972,17 +2972,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-03-31",
+         "date" : "2026-11-11",
          "dist" : "Task-Map-Tube-Bundle",
          "insecure_repo" : false,
-         "name" : "Task-Map-Tube-Bundle-v1.0.7",
+         "name" : "Task-Map-Tube-Bundle-v1.0.8",
          "repo" : "https://github.com/manwar/Task-Map-Tube-Bundle",
          "repo_def_branch" : "master",
          "repo_name" : "Task-Map-Tube-Bundle",
          "repo_owner" : "manwar",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v1.0.7"
+         "ver" : "v1.0.8"
       },
       {
          "auth" : "MANWAR",
