@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-11T14:07:48Z",
+   "gathered_at" : "2026-11-12T00:34:25Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -227,17 +227,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-08",
+         "date" : "2026-11-11",
          "dist" : "App-Test-Generator",
          "insecure_repo" : false,
-         "name" : "App-Test-Generator-0.47",
+         "name" : "App-Test-Generator-0.48",
          "repo" : "https://github.com/nigelhorne/App-Test-Generator",
          "repo_def_branch" : "master",
          "repo_name" : "App-Test-Generator",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.47"
+         "ver" : "0.48"
       },
       {
          "auth" : "NHORNE",
@@ -430,17 +430,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-24",
+         "date" : "2026-11-11",
          "dist" : "CGI-Info",
          "insecure_repo" : false,
-         "name" : "CGI-Info-1.16",
+         "name" : "CGI-Info-1.17",
          "repo" : "https://github.com/nigelhorne/CGI-Info",
          "repo_def_branch" : "master",
          "repo_name" : "CGI-Info",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "1.16"
+         "ver" : "1.17"
       },
       {
          "auth" : "NHORNE",
