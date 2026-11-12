@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-12T00:34:22Z",
+   "gathered_at" : "2026-11-12T15:03:36Z",
    "modules" : [
       {
          "auth" : "MANWAR",
@@ -2223,17 +2223,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-07-11",
+         "date" : "2026-11-12",
          "dist" : "Map-Tube-London",
          "insecure_repo" : false,
-         "name" : "Map-Tube-London-v2.0.2",
+         "name" : "Map-Tube-London-v2.1.0",
          "repo" : "https://github.com/manwar/Map-Tube-London",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube-London",
          "repo_owner" : "manwar",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v2.0.2"
+         "ver" : "v2.1.0"
       },
       {
          "auth" : "MANWAR",
@@ -2426,17 +2426,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-31",
+         "date" : "2026-11-12",
          "dist" : "Map-Tube",
          "insecure_repo" : false,
-         "name" : "Map-Tube-v5.1.1",
+         "name" : "Map-Tube-v5.2.0",
          "repo" : "https://github.com/manwar/Map-Tube",
          "repo_def_branch" : "master",
          "repo_name" : "Map-Tube",
          "repo_owner" : "manwar",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "v5.1.1"
+         "ver" : "v5.2.0"
       },
       {
          "auth" : "MANWAR",

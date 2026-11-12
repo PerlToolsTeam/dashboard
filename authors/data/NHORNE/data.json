@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-12T00:34:25Z",
+   "gathered_at" : "2026-11-12T15:03:37Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1121,17 +1121,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-10",
+         "date" : "2026-11-12",
          "dist" : "Database-BI",
          "insecure_repo" : false,
-         "name" : "Database-BI-0.023.0",
+         "name" : "Database-BI-0.023.1",
          "repo" : "https://github.com/nigelhorne/Database-BI",
          "repo_def_branch" : "master",
          "repo_name" : "Database-BI",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.023.0"
+         "ver" : "0.023.1"
       },
       {
          "auth" : "NHORNE",
@@ -3815,17 +3815,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-11",
+         "date" : "2026-11-12",
          "dist" : "Web-VWF",
          "insecure_repo" : false,
-         "name" : "Web-VWF-0.001.0",
+         "name" : "Web-VWF-0.002.0",
          "repo" : "https://github.com/nigelhorne/Web-VWF",
          "repo_def_branch" : "master",
          "repo_name" : "Web-VWF",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.001.0"
+         "ver" : "0.002.0"
       },
       {
          "auth" : "NHORNE",
