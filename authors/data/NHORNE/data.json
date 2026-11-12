@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-12T15:03:37Z",
+   "gathered_at" : "2026-11-12T23:31:54Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -198,17 +198,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-02",
+         "date" : "2026-11-12",
          "dist" : "App-Syslogd",
          "insecure_repo" : false,
-         "name" : "App-Syslogd-0.002.0",
+         "name" : "App-Syslogd-0.002.1",
          "repo" : "https://github.com/nigelhorne/syslogd",
          "repo_def_branch" : "master",
          "repo_name" : "syslogd",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "v0.002.0"
+         "ver" : "v0.002.1"
       },
       {
          "auth" : "NHORNE",
@@ -2980,17 +2980,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-03",
+         "date" : "2026-11-12",
          "dist" : "Params-Validate-Strict",
          "insecure_repo" : false,
-         "name" : "Params-Validate-Strict-0.41",
+         "name" : "Params-Validate-Strict-0.42",
          "repo" : "https://github.com/nigelhorne/Params-Validate-Strict",
          "repo_def_branch" : "master",
          "repo_name" : "Params-Validate-Strict",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.41"
+         "ver" : "0.42"
       },
       {
          "auth" : "NHORNE",
