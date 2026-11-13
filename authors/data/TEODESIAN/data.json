@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-13T06:31:17Z",
+   "gathered_at" : "2026-11-13T19:35:56Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -1067,17 +1067,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-09-19",
+         "date" : "2026-11-13",
          "dist" : "Perl-Tests-Covering",
          "insecure_repo" : false,
-         "name" : "Perl-Tests-Covering-0.002",
+         "name" : "Perl-Tests-Covering-0.003",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/perl-tests-covering",
          "repo_def_branch" : "main",
          "repo_name" : "perl-tests-covering",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.002"
+         "ver" : "0.003"
       },
       {
          "auth" : "TEODESIAN",

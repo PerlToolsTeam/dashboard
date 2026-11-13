@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-13T06:30:56Z",
+   "gathered_at" : "2026-11-13T19:35:39Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1150,17 +1150,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-06",
+         "date" : "2026-11-13",
          "dist" : "Database-Join",
          "insecure_repo" : false,
-         "name" : "Database-Join-0.011.1",
+         "name" : "Database-Join-0.011.2",
          "repo" : "https://github.com/nigelhorne/Database-Join",
          "repo_def_branch" : "master",
          "repo_name" : "Database-Join",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.011.1"
+         "ver" : "0.011.2"
       },
       {
          "auth" : "NHORNE",
@@ -3470,17 +3470,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-27",
+         "date" : "2026-11-13",
          "dist" : "Test-Log-Abstraction",
          "insecure_repo" : false,
-         "name" : "Test-Log-Abstraction-0.002.1",
+         "name" : "Test-Log-Abstraction-0.002.2",
          "repo" : "https://github.com/nigelhorne/Test-Log-Abstraction",
          "repo_def_branch" : "master",
          "repo_name" : "Test-Log-Abstraction",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.002.1"
+         "ver" : "0.002.2"
       },
       {
          "auth" : "NHORNE",
