@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-12T23:31:54Z",
+   "gathered_at" : "2026-11-13T06:30:56Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1522,17 +1522,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2025-08-15",
+         "date" : "2026-11-13",
          "dist" : "Genealogy-ChroniclingAmerica",
          "insecure_repo" : false,
-         "name" : "Genealogy-ChroniclingAmerica-0.07",
+         "name" : "Genealogy-ChroniclingAmerica-0.08",
          "repo" : "https://github.com/nigelhorne/Genealogy-ChroniclingAmerica",
          "repo_def_branch" : "master",
          "repo_name" : "Genealogy-ChroniclingAmerica",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.07"
+         "ver" : "0.08"
       },
       {
          "auth" : "NHORNE",
