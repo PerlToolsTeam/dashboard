@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-13T19:35:56Z",
+   "gathered_at" : "2026-11-14T06:09:58Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -987,6 +987,35 @@
          "repo" : "https://github.com/teodesian/perl-critic-policy-prohibitliteralarithmetic",
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitliteralarithmetic",
+         "repo_owner" : "teodesian",
+         "repo_type" : "Git",
+         "uses_rt" : false,
+         "ver" : "0.001"
+      },
+      {
+         "auth" : "TEODESIAN",
+         "bugtracker" : "https://github.com/teodesian/perl-critic-policy-prohibitcallswithaliasedtopic/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-11-14",
+         "dist" : "Perl-Critic-Policy-Variables-ProhibitCallsWithAliasedTopic",
+         "insecure_repo" : false,
+         "name" : "Perl-Critic-Policy-Variables-ProhibitCallsWithAliasedTopic-0.001",
+         "repo" : "https://github.com/teodesian/perl-critic-policy-prohibitcallswithaliasedtopic",
+         "repo_def_branch" : "",
+         "repo_name" : "perl-critic-policy-prohibitcallswithaliasedtopic",
          "repo_owner" : "teodesian",
          "repo_type" : "Git",
          "uses_rt" : false,
