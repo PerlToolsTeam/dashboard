@@ -1060,6 +1060,7 @@
       "Ham-DXCC-Lookup" : "master",
       "LWP-UserAgent::Throttled" : "",
       "Lingua-Conjunction" : "master",
+      "Lingua-EN-NameCase" : "master",
       "Lingua-FR-Nums2Words" : "main",
       "Lingua-String" : "master",
       "Lingua-Text" : "master",

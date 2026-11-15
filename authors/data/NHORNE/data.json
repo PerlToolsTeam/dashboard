@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-15T06:17:58Z",
+   "gathered_at" : "2026-11-15T18:46:29Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -2538,7 +2538,7 @@
       },
       {
          "auth" : "NHORNE",
-         "bugtracker" : "",
+         "bugtracker" : "https://github.com/nigelhorne/Lingua-EN-NameCase/issues",
          "ci" : {
             "cirrus_task_names" : [],
             "gh_workflow_files" : [],
@@ -2553,12 +2553,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2020-11-15",
+         "date" : "2026-11-15",
          "dist" : "Lingua-EN-NameCase",
-         "name" : "Lingua-EN-NameCase-1.21",
-         "repo" : null,
+         "insecure_repo" : false,
+         "name" : "Lingua-EN-NameCase-1.22",
+         "repo" : "https://github.com/nigelhorne/Lingua-EN-NameCase",
+         "repo_def_branch" : "master",
+         "repo_name" : "Lingua-EN-NameCase",
+         "repo_owner" : "nigelhorne",
+         "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "1.21"
+         "ver" : "1.22"
       },
       {
          "auth" : "NHORNE",
