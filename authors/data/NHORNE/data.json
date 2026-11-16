@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-16T06:16:06Z",
+   "gathered_at" : "2026-11-16T21:56:52Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -212,7 +212,7 @@
       },
       {
          "auth" : "NHORNE",
-         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=App-Test-Generator",
+         "bugtracker" : "https://github.com/nigelhorne/App-Test-Generator/issues",
          "ci" : {
             "cirrus_task_names" : [],
             "gh_workflow_files" : [],
@@ -227,17 +227,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-11",
+         "date" : "2026-11-16",
          "dist" : "App-Test-Generator",
          "insecure_repo" : false,
-         "name" : "App-Test-Generator-0.48",
+         "name" : "App-Test-Generator-0.49",
          "repo" : "https://github.com/nigelhorne/App-Test-Generator",
          "repo_def_branch" : "master",
          "repo_name" : "App-Test-Generator",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
-         "uses_rt" : true,
-         "ver" : "0.48"
+         "uses_rt" : false,
+         "ver" : "0.49"
       },
       {
          "auth" : "NHORNE",
@@ -1092,17 +1092,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-08",
+         "date" : "2026-11-16",
          "dist" : "Database-Abstraction",
          "insecure_repo" : false,
-         "name" : "Database-Abstraction-0.56",
+         "name" : "Database-Abstraction-0.57",
          "repo" : "https://github.com/nigelhorne/Database-Abstraction",
          "repo_def_branch" : "master",
          "repo_name" : "Database-Abstraction",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.56"
+         "ver" : "0.57"
       },
       {
          "auth" : "NHORNE",
@@ -1150,17 +1150,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-13",
+         "date" : "2026-11-16",
          "dist" : "Database-Join",
          "insecure_repo" : false,
-         "name" : "Database-Join-0.011.2",
+         "name" : "Database-Join-0.011.3",
          "repo" : "https://github.com/nigelhorne/Database-Join",
          "repo_def_branch" : "master",
          "repo_name" : "Database-Join",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.011.2"
+         "ver" : "0.011.3"
       },
       {
          "auth" : "NHORNE",
@@ -2985,17 +2985,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-12",
+         "date" : "2026-11-16",
          "dist" : "Params-Validate-Strict",
          "insecure_repo" : false,
-         "name" : "Params-Validate-Strict-0.42",
+         "name" : "Params-Validate-Strict-0.43",
          "repo" : "https://github.com/nigelhorne/Params-Validate-Strict",
          "repo_def_branch" : "master",
          "repo_name" : "Params-Validate-Strict",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.42"
+         "ver" : "0.43"
       },
       {
          "auth" : "NHORNE",
