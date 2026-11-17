@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-17T07:47:33Z",
+   "gathered_at" : "2026-11-17T20:49:14Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -831,17 +831,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-08",
+         "date" : "2026-11-17",
          "dist" : "Config-Abstraction",
          "insecure_repo" : false,
-         "name" : "Config-Abstraction-0.42",
+         "name" : "Config-Abstraction-0.43",
          "repo" : "https://github.com/nigelhorne/Config-Abstraction",
          "repo_def_branch" : "master",
          "repo_name" : "Config-Abstraction",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.42"
+         "ver" : "0.43"
       },
       {
          "auth" : "NHORNE",
@@ -3820,17 +3820,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-12",
+         "date" : "2026-11-17",
          "dist" : "Web-VWF",
          "insecure_repo" : false,
-         "name" : "Web-VWF-0.002.0",
+         "name" : "Web-VWF-0.003.0",
          "repo" : "https://github.com/nigelhorne/Web-VWF",
          "repo_def_branch" : "master",
          "repo_name" : "Web-VWF",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.002.0"
+         "ver" : "0.003.0"
       },
       {
          "auth" : "NHORNE",
