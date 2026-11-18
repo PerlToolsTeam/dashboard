@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-17T20:49:23Z",
+   "gathered_at" : "2026-11-18T07:15:45Z",
    "modules" : [
       {
          "auth" : "SLAFFAN",
@@ -282,17 +282,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2022-09-18",
+         "date" : "2026-11-18",
          "dist" : "Alien-sqlite",
          "insecure_repo" : false,
-         "name" : "Alien-sqlite-1.07",
+         "name" : "Alien-sqlite-1.08",
          "repo" : "https://github.com/shawnlaffan/perl-alien-sqlite",
          "repo_def_branch" : "master",
          "repo_name" : "perl-alien-sqlite",
          "repo_owner" : "shawnlaffan",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "1.07"
+         "ver" : "1.08"
       },
       {
          "auth" : "SLAFFAN",

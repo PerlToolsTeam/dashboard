@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-17T20:49:38Z",
+   "gathered_at" : "2026-11-18T07:15:56Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -139,17 +139,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-11",
+         "date" : "2026-11-18",
          "dist" : "Dist-Conformance",
          "insecure_repo" : false,
-         "name" : "Dist-Conformance-0.005",
+         "name" : "Dist-Conformance-0.006",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/Dist-Conformance",
          "repo_def_branch" : "main",
          "repo_name" : "Dist-Conformance",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.005"
+         "ver" : "0.006"
       },
       {
          "auth" : "TEODESIAN",
@@ -313,17 +313,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-09-28",
+         "date" : "2026-11-18",
          "dist" : "Net-OpenSSH-More",
          "insecure_repo" : false,
-         "name" : "Net-OpenSSH-More-1.05",
+         "name" : "Net-OpenSSH-More-1.06",
          "repo" : "https://github.com/troglodyne-internet-widgets/perl-Net-Openssh-More",
          "repo_def_branch" : "master",
          "repo_name" : "perl-Net-Openssh-More",
          "repo_owner" : "troglodyne-internet-widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "1.05"
+         "ver" : "1.06"
       },
       {
          "auth" : "TEODESIAN",
