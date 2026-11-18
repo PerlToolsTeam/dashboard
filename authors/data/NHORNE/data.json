@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-18T07:15:41Z",
+   "gathered_at" : "2026-11-18T20:25:25Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -2851,6 +2851,35 @@
          "repo_type" : "Git",
          "uses_rt" : false,
          "ver" : "0.12"
+      },
+      {
+         "auth" : "NHORNE",
+         "bugtracker" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Mail-Send-DKIM",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 1,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 1,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-11-18",
+         "dist" : "Mail-Send-DKIM",
+         "insecure_repo" : false,
+         "name" : "Mail-Send-DKIM-0.001.0",
+         "repo" : "https://github.com/nigelhorne/Mail-Send-DKIM",
+         "repo_def_branch" : "master",
+         "repo_name" : "Mail-Send-DKIM",
+         "repo_owner" : "nigelhorne",
+         "repo_type" : "Git",
+         "uses_rt" : true,
+         "ver" : "0.001.0"
       },
       {
          "auth" : "NHORNE",

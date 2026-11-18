@@ -38,7 +38,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-18T07:15:42Z",
+   "gathered_at" : "2026-11-18T20:25:25Z",
    "modules" : [
       {
          "auth" : "OALDERS",
@@ -710,17 +710,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-09-19",
+         "date" : "2026-11-18",
          "dist" : "HTML-Parser",
          "insecure_repo" : false,
-         "name" : "HTML-Parser-3.86",
+         "name" : "HTML-Parser-3.87",
          "repo" : "https://github.com/libwww-perl/HTML-Parser",
          "repo_def_branch" : "master",
          "repo_name" : "HTML-Parser",
          "repo_owner" : "libwww-perl",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "3.86"
+         "ver" : "3.87"
       },
       {
          "auth" : "OALDERS",
