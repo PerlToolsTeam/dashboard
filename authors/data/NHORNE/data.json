@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-19T07:14:41Z",
+   "gathered_at" : "2026-11-19T20:28:55Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -2956,17 +2956,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-06",
+         "date" : "2026-11-19",
          "dist" : "Object-Configure",
          "insecure_repo" : false,
-         "name" : "Object-Configure-0.25",
+         "name" : "Object-Configure-0.26",
          "repo" : "https://github.com/nigelhorne/Object-Configure",
          "repo_def_branch" : "master",
          "repo_name" : "Object-Configure",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : 0.25
+         "ver" : 0.26
       },
       {
          "auth" : "NHORNE",
