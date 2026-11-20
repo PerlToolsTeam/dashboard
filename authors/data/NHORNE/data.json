@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-19T20:28:55Z",
+   "gathered_at" : "2026-11-20T07:03:15Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -1150,17 +1150,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-16",
+         "date" : "2026-11-20",
          "dist" : "Database-Join",
          "insecure_repo" : false,
-         "name" : "Database-Join-0.011.3",
+         "name" : "Database-Join-0.011.4",
          "repo" : "https://github.com/nigelhorne/Database-Join",
          "repo_def_branch" : "master",
          "repo_name" : "Database-Join",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.011.3"
+         "ver" : "0.011.4"
       },
       {
          "auth" : "NHORNE",
@@ -2869,17 +2869,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-18",
+         "date" : "2026-11-20",
          "dist" : "Mail-Send-DKIM",
          "insecure_repo" : false,
-         "name" : "Mail-Send-DKIM-0.001.0",
+         "name" : "Mail-Send-DKIM-0.002.0",
          "repo" : "https://github.com/nigelhorne/Mail-Send-DKIM",
          "repo_def_branch" : "master",
          "repo_name" : "Mail-Send-DKIM",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.001.0"
+         "ver" : "0.002.0"
       },
       {
          "auth" : "NHORNE",
@@ -3849,17 +3849,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-17",
+         "date" : "2026-11-20",
          "dist" : "Web-VWF",
          "insecure_repo" : false,
-         "name" : "Web-VWF-0.003.0",
+         "name" : "Web-VWF-0.003.1",
          "repo" : "https://github.com/nigelhorne/Web-VWF",
          "repo_def_branch" : "master",
          "repo_name" : "Web-VWF",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.003.0"
+         "ver" : "0.003.1"
       },
       {
          "auth" : "NHORNE",

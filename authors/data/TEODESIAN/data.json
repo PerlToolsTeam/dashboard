@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-19T20:29:11Z",
+   "gathered_at" : "2026-11-20T07:03:28Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -110,17 +110,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-24",
+         "date" : "2026-11-20",
          "dist" : "Configd",
          "insecure_repo" : false,
-         "name" : "Configd-0.005",
+         "name" : "Configd-0.007",
          "repo" : "https://github.com/teodesian/perl-configd",
          "repo_def_branch" : "",
          "repo_name" : "perl-configd",
          "repo_owner" : "teodesian",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.005"
+         "ver" : "0.007"
       },
       {
          "auth" : "TEODESIAN",
@@ -226,17 +226,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-25",
+         "date" : "2026-11-20",
          "dist" : "Linode-API",
          "insecure_repo" : false,
-         "name" : "Linode-API-0.003",
+         "name" : "Linode-API-0.004",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/Linode-API",
          "repo_def_branch" : "master",
          "repo_name" : "Linode-API",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.003"
+         "ver" : "0.004"
       },
       {
          "auth" : "TEODESIAN",
