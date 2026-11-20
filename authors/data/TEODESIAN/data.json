@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-20T07:03:28Z",
+   "gathered_at" : "2026-11-20T20:03:40Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -139,17 +139,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-18",
+         "date" : "2026-11-20",
          "dist" : "Dist-Conformance",
          "insecure_repo" : false,
-         "name" : "Dist-Conformance-0.006",
+         "name" : "Dist-Conformance-0.007",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/Dist-Conformance",
          "repo_def_branch" : "main",
          "repo_name" : "Dist-Conformance",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.006"
+         "ver" : "0.007"
       },
       {
          "auth" : "TEODESIAN",
@@ -175,6 +175,35 @@
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/Dist-Zilla-App-Command-podchecker",
          "repo_def_branch" : "master",
          "repo_name" : "Dist-Zilla-App-Command-podchecker",
+         "repo_owner" : "Troglodyne-Internet-Widgets",
+         "repo_type" : "Git",
+         "uses_rt" : false,
+         "ver" : "0.001"
+      },
+      {
+         "auth" : "TEODESIAN",
+         "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/Dist-Zilla-Plugin-Git-ChangelogFromTrailers/issues",
+         "ci" : {
+            "cirrus_task_names" : [],
+            "gh_workflow_files" : [],
+            "gh_workflow_names" : [
+               "CI"
+            ],
+            "use_appveyor" : 0,
+            "use_cirrus" : 0,
+            "use_codecov" : 0,
+            "use_coveralls" : 1,
+            "use_gh_actions" : 0,
+            "use_travis" : 1,
+            "use_travis_com" : 0
+         },
+         "date" : "2026-11-20",
+         "dist" : "Dist-Zilla-Plugin-Git-ChangelogFromTrailers",
+         "insecure_repo" : false,
+         "name" : "Dist-Zilla-Plugin-Git-ChangelogFromTrailers-0.001",
+         "repo" : "https://github.com/Troglodyne-Internet-Widgets/Dist-Zilla-Plugin-Git-ChangelogFromTrailers",
+         "repo_def_branch" : "master",
+         "repo_name" : "Dist-Zilla-Plugin-Git-ChangelogFromTrailers",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
@@ -313,17 +342,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-18",
+         "date" : "2026-11-20",
          "dist" : "Net-OpenSSH-More",
          "insecure_repo" : false,
-         "name" : "Net-OpenSSH-More-1.06",
+         "name" : "Net-OpenSSH-More-1.07",
          "repo" : "https://github.com/troglodyne-internet-widgets/perl-Net-Openssh-More",
          "repo_def_branch" : "master",
          "repo_name" : "perl-Net-Openssh-More",
          "repo_owner" : "troglodyne-internet-widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "1.06"
+         "ver" : "1.07"
       },
       {
          "auth" : "TEODESIAN",
@@ -1676,17 +1705,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-09-04",
+         "date" : "2026-11-20",
          "dist" : "perl-critic-policy-prohibitunusedimports",
          "insecure_repo" : false,
-         "name" : "perl-critic-policy-prohibitunusedimports-1.001",
+         "name" : "perl-critic-policy-prohibitunusedimports-1.002",
          "repo" : "https://github.com/teodesian/perl-critic-policy-prohibitunusedimports",
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitunusedimports",
          "repo_owner" : "teodesian",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "1.001"
+         "ver" : "1.002"
       },
       {
          "auth" : "TEODESIAN",
