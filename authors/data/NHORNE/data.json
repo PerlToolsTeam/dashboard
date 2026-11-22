@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-22T06:36:01Z",
+   "gathered_at" : "2026-11-22T19:30:24Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -686,17 +686,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-05",
+         "date" : "2026-11-22",
          "dist" : "Class-Abstract",
          "insecure_repo" : false,
-         "name" : "Class-Abstract-0.03",
+         "name" : "Class-Abstract-0.04",
          "repo" : "https://github.com/nigelhorne/Class-Abstract",
          "repo_def_branch" : "master",
          "repo_name" : "Class-Abstract",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.03"
+         "ver" : "0.04"
       },
       {
          "auth" : "NHORNE",
