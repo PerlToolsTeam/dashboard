@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-21T19:07:36Z",
+   "gathered_at" : "2026-11-22T06:36:14Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -1705,17 +1705,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-20",
+         "date" : "2026-11-21",
          "dist" : "perl-critic-policy-prohibitunusedimports",
          "insecure_repo" : false,
-         "name" : "perl-critic-policy-prohibitunusedimports-1.002",
+         "name" : "perl-critic-policy-prohibitunusedimports-1.003",
          "repo" : "https://github.com/teodesian/perl-critic-policy-prohibitunusedimports",
          "repo_def_branch" : "",
          "repo_name" : "perl-critic-policy-prohibitunusedimports",
          "repo_owner" : "teodesian",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "1.002"
+         "ver" : "1.003"
       },
       {
          "auth" : "TEODESIAN",
