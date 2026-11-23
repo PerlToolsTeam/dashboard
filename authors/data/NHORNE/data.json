@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-23T07:25:32Z",
+   "gathered_at" : "2026-11-23T23:48:35Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -3849,17 +3849,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-07-13",
+         "date" : "2026-11-23",
          "dist" : "Weather-Meteo",
          "insecure_repo" : false,
-         "name" : "Weather-Meteo-0.15",
+         "name" : "Weather-Meteo-0.16",
          "repo" : "https://github.com/nigelhorne/Weather-Meteo",
          "repo_def_branch" : "master",
          "repo_name" : "Weather-Meteo",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.15"
+         "ver" : "0.16"
       },
       {
          "auth" : "NHORNE",
@@ -3878,17 +3878,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-20",
+         "date" : "2026-11-23",
          "dist" : "Web-VWF",
          "insecure_repo" : false,
-         "name" : "Web-VWF-0.003.1",
+         "name" : "Web-VWF-0.004.0",
          "repo" : "https://github.com/nigelhorne/Web-VWF",
          "repo_def_branch" : "master",
          "repo_name" : "Web-VWF",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.003.1"
+         "ver" : "0.004.0"
       },
       {
          "auth" : "NHORNE",

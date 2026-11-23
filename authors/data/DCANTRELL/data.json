@@ -42,7 +42,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-23T07:25:28Z",
+   "gathered_at" : "2026-11-23T23:48:31Z",
    "modules" : [
       {
          "auth" : "DCANTRELL",
@@ -1495,17 +1495,17 @@
             "use_travis" : 0,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-21",
+         "date" : "2026-11-23",
          "dist" : "Task-BeLike-DCANTRELL",
          "insecure_repo" : false,
-         "name" : "Task-BeLike-DCANTRELL-2",
+         "name" : "Task-BeLike-DCANTRELL-3",
          "repo" : "https://github.com/DrHyde/perl-modules-Task-BeLike-DCANTRELL",
          "repo_def_branch" : "master",
          "repo_name" : "perl-modules-Task-BeLike-DCANTRELL",
          "repo_owner" : "DrHyde",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "2"
+         "ver" : "3"
       },
       {
          "auth" : "DCANTRELL",
