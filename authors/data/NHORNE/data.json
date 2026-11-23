@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-22T19:30:24Z",
+   "gathered_at" : "2026-11-23T07:25:32Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -227,17 +227,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-19",
+         "date" : "2026-11-23",
          "dist" : "App-Test-Generator",
          "insecure_repo" : false,
-         "name" : "App-Test-Generator-0.51",
+         "name" : "App-Test-Generator-0.52",
          "repo" : "https://github.com/nigelhorne/App-Test-Generator",
          "repo_def_branch" : "master",
          "repo_name" : "App-Test-Generator",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.51"
+         "ver" : "0.52"
       },
       {
          "auth" : "NHORNE",
@@ -1121,17 +1121,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-12",
+         "date" : "2026-11-23",
          "dist" : "Database-BI",
          "insecure_repo" : false,
-         "name" : "Database-BI-0.023.1",
+         "name" : "Database-BI-0.024.0",
          "repo" : "https://github.com/nigelhorne/Database-BI",
          "repo_def_branch" : "master",
          "repo_name" : "Database-BI",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "0.023.1"
+         "ver" : "0.024.0"
       },
       {
          "auth" : "NHORNE",
