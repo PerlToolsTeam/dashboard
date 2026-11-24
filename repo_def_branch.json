@@ -1282,6 +1282,7 @@
    },
    "teodesian" : {
       "App-Prove-Elasticsearch" : "master",
+      "Pod-Coverage-More" : "master",
       "RPM-Verify" : "",
       "Selenium-Remote-Driver" : "master",
       "TestLink-Perl" : "master",
