@@ -34,7 +34,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-23T23:48:35Z",
+   "gathered_at" : "2026-11-24T09:45:26Z",
    "modules" : [
       {
          "auth" : "NHORNE",
@@ -3646,17 +3646,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-06",
+         "date" : "2026-11-24",
          "dist" : "Test-Permissions",
          "insecure_repo" : false,
-         "name" : "Test-Permissions-0.001.2",
+         "name" : "Test-Permissions-0.001.3",
          "repo" : "https://github.com/nigelhorne/Test-Permissions",
          "repo_def_branch" : "master",
          "repo_name" : "Test-Permissions",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : true,
-         "ver" : "v0.001.2"
+         "ver" : "v0.001.3"
       },
       {
          "auth" : "NHORNE",
@@ -3878,17 +3878,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-23",
+         "date" : "2026-11-24",
          "dist" : "Web-VWF",
          "insecure_repo" : false,
-         "name" : "Web-VWF-0.004.0",
+         "name" : "Web-VWF-0.004.1",
          "repo" : "https://github.com/nigelhorne/Web-VWF",
          "repo_def_branch" : "master",
          "repo_name" : "Web-VWF",
          "repo_owner" : "nigelhorne",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.004.0"
+         "ver" : "0.004.1"
       },
       {
          "auth" : "NHORNE",
