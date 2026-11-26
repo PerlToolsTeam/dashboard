@@ -133,6 +133,7 @@
       "Pivot-ArrayOfHashes" : "master",
       "Trog-SQLite" : "master",
       "URI-Shorten" : "master",
+      "perl-critic-distribution" : "master",
       "perl-critic-policy-preferredbinaries" : "master",
       "perl-critic-policy-preventuselessmetacharacterescapes" : "master",
       "perl-critic-policy-prohibitmisplacedmethods" : "master",

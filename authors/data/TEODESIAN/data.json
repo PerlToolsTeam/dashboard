@@ -33,7 +33,7 @@
       "use_travis_com" : 0
    },
    "distribution_ci" : {},
-   "gathered_at" : "2026-11-25T21:36:54Z",
+   "gathered_at" : "2026-11-26T08:05:52Z",
    "modules" : [
       {
          "auth" : "TEODESIAN",
@@ -139,17 +139,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-25",
+         "date" : "2026-11-26",
          "dist" : "Dist-Conformance",
          "insecure_repo" : false,
-         "name" : "Dist-Conformance-0.009",
+         "name" : "Dist-Conformance-0.011",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/Dist-Conformance",
          "repo_def_branch" : "main",
          "repo_name" : "Dist-Conformance",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.009"
+         "ver" : "0.011"
       },
       {
          "auth" : "TEODESIAN",
@@ -197,17 +197,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-11-20",
+         "date" : "2026-11-25",
          "dist" : "Dist-Zilla-Plugin-Git-ChangelogFromTrailers",
          "insecure_repo" : false,
-         "name" : "Dist-Zilla-Plugin-Git-ChangelogFromTrailers-0.001",
+         "name" : "Dist-Zilla-Plugin-Git-ChangelogFromTrailers-0.002",
          "repo" : "https://github.com/Troglodyne-Internet-Widgets/Dist-Zilla-Plugin-Git-ChangelogFromTrailers",
          "repo_def_branch" : "master",
          "repo_name" : "Dist-Zilla-Plugin-Git-ChangelogFromTrailers",
          "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.001"
+         "ver" : "0.002"
       },
       {
          "auth" : "TEODESIAN",
@@ -385,7 +385,7 @@
       },
       {
          "auth" : "TEODESIAN",
-         "bugtracker" : "https://github.com/teodesian/perl-critic-distribution/issues",
+         "bugtracker" : "https://github.com/Troglodyne-Internet-Widgets/perl-critic-distribution/issues",
          "ci" : {
             "cirrus_task_names" : [],
             "gh_workflow_files" : [],
@@ -400,17 +400,17 @@
             "use_travis" : 1,
             "use_travis_com" : 0
          },
-         "date" : "2026-10-22",
+         "date" : "2026-11-26",
          "dist" : "Perl-Critic-Distribution",
          "insecure_repo" : false,
-         "name" : "Perl-Critic-Distribution-0.002",
-         "repo" : "https://github.com/teodesian/perl-critic-distribution",
-         "repo_def_branch" : "",
+         "name" : "Perl-Critic-Distribution-0.003",
+         "repo" : "https://github.com/Troglodyne-Internet-Widgets/perl-critic-distribution",
+         "repo_def_branch" : "master",
          "repo_name" : "perl-critic-distribution",
-         "repo_owner" : "teodesian",
+         "repo_owner" : "Troglodyne-Internet-Widgets",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.002"
+         "ver" : "0.003"
       },
       {
          "auth" : "TEODESIAN",
@@ -1244,14 +1244,14 @@
          "date" : "2026-11-25",
          "dist" : "Pod-Coverage-More",
          "insecure_repo" : false,
-         "name" : "Pod-Coverage-More-0.004",
+         "name" : "Pod-Coverage-More-0.005",
          "repo" : "https://github.com/teodesian/Pod-Coverage-More",
          "repo_def_branch" : "master",
          "repo_name" : "Pod-Coverage-More",
          "repo_owner" : "teodesian",
          "repo_type" : "Git",
          "uses_rt" : false,
-         "ver" : "0.004"
+         "ver" : "0.005"
       },
       {
          "auth" : "TEODESIAN",
