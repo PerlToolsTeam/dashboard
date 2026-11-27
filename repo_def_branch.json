@@ -1003,6 +1003,7 @@
       "CHI-Driver-SharedMem" : "master",
       "Class-Abstract" : "master",
       "Class-Debug" : "master",
+      "Class-Shared" : "master",
       "Class-Simple-Cached" : "master",
       "Class-Simple-Readonly-Cached" : "master",
       "Comment-Spell" : "master",
